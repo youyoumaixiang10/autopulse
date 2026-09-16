@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-09-15T04:13:53.699Z",
+  "checkedAt": "2026-09-16T05:04:06.283Z",
   "passed": false,
   "summary": {
     "completeBrands": 0,
     "totalBrands": 15,
-    "healthyMedia": 0,
+    "healthyMedia": 2,
     "totalMedia": 17,
     "policyHealthy": true,
-    "unresolvedCandidates": 482
+    "unresolvedCandidates": 484
   },
   "brands": [
     {
@@ -19,7 +19,7 @@
         "sourceCount": 0,
         "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       },
-      "state": "unavailable",
+      "state": "partial",
       "officialStatuses": [
         {
           "id": "hima-official",
@@ -31,7 +31,7 @@
           "id": "hima-weibo",
           "sourceId": "hima-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:13.051Z",
+          "collectedAt": "2026-09-16T05:00:09.006Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/3032210184",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -42,23 +42,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -80,13 +78,13 @@
           "id": "byd-news",
           "sourceId": "byd-news",
           "url": "https://prod.byd.com/cn/news",
-          "checkedAt": "2026-09-15T04:06:30.325Z",
+          "checkedAt": "2026-09-16T04:57:15.290Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 167,
           "recentCount": 0,
           "latestPublishedAt": "2026-09-01",
-          "since": "2026-09-08",
+          "since": "2026-09-09",
           "pageCount": 4
         }
       ],
@@ -95,7 +93,7 @@
           "id": "byd-weibo",
           "sourceId": "byd-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:07:20.023Z",
+          "collectedAt": "2026-09-16T04:58:23.479Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/bydauto",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -106,23 +104,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -138,18 +134,18 @@
         "sourceCount": 0,
         "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       },
-      "state": "unavailable",
+      "state": "partial",
       "officialStatuses": [
         {
           "id": "leapmotor-news",
           "sourceId": "leapmotor-news",
           "url": "https://leapmotor.cn/news/news.html",
-          "checkedAt": "2026-09-15T04:06:30.325Z",
+          "checkedAt": "2026-09-16T04:57:15.290Z",
           "status": "partial",
           "listRead": false,
           "candidateCount": 0,
           "publicLabel": "官网新闻列表暂不可读 · 官方微博仍持续采集",
-          "error": "page.evaluate: TypeError: Failed to fetch\n    at eval (eval at <anonymous> (eval at evaluate (:311:30)), <anonymous>:5:28)\n    at eval (eval at <anonymous> (eval at evaluate (:311:30)), <anonymous>:19:3)\n    at eval (eval at evaluate (:311:30), <anonymous>:1:23)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+          "error": "官网页面加载超时"
         }
       ],
       "socialStatuses": [
@@ -157,7 +153,7 @@
           "id": "leapmotor-weibo",
           "sourceId": "leapmotor-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:07:29.286Z",
+          "collectedAt": "2026-09-16T04:58:32.473Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/u/5872290888",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -168,23 +164,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -208,7 +202,7 @@
           "sourceId": "nio-official",
           "status": "ok",
           "count": 11,
-          "latestPublishedAt": "2026-09-01",
+          "latestPublishedAt": "2026-09-15",
           "reason": null
         }
       ],
@@ -217,7 +211,7 @@
           "id": "nio-weibo",
           "sourceId": "nio-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:07:38.655Z",
+          "collectedAt": "2026-09-16T04:58:41.006Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/nextevofficial",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -228,23 +222,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -277,7 +269,7 @@
           "id": "onvo-weibo",
           "sourceId": "onvo-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:07:47.883Z",
+          "collectedAt": "2026-09-16T04:58:49.619Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7892483716",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -288,23 +280,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -337,7 +327,7 @@
           "id": "li-auto-weibo",
           "sourceId": "li-auto-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:06:59.679Z",
+          "collectedAt": "2026-09-16T04:58:04.529Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/lixiangzhizao",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -348,23 +338,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -386,13 +374,13 @@
           "id": "zeekr-info",
           "sourceId": "zeekr-info",
           "url": "https://www.zeekrlife.com/information",
-          "checkedAt": "2026-09-15T04:06:30.325Z",
+          "checkedAt": "2026-09-16T04:57:15.290Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 116,
           "recentCount": 0,
           "latestPublishedAt": "2026-05-19",
-          "since": "2026-09-08",
+          "since": "2026-09-09",
           "pageCount": 6
         }
       ],
@@ -401,7 +389,7 @@
           "id": "zeekr-weibo",
           "sourceId": "zeekr-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:08:45.132Z",
+          "collectedAt": "2026-09-16T04:59:43.202Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7576049404",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -412,23 +400,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -444,7 +430,7 @@
         "sourceCount": 0,
         "reason": "OpenAI API 余额不足，本轮未继续请求"
       },
-      "state": "unavailable",
+      "state": "partial",
       "officialStatuses": [
         {
           "id": "xiaomi-auto",
@@ -456,7 +442,7 @@
           "id": "xiaomi-auto-weibo",
           "sourceId": "xiaomi-auto-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:07:57.095Z",
+          "collectedAt": "2026-09-16T04:58:58.214Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7871239944",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -467,23 +453,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -499,7 +483,7 @@
         "sourceCount": 0,
         "reason": "OpenAI API 余额不足，本轮未继续请求"
       },
-      "state": "unavailable",
+      "state": "partial",
       "officialStatuses": [
         {
           "id": "voyah-official",
@@ -511,7 +495,7 @@
           "id": "voyah-weibo",
           "sourceId": "voyah-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:08:06.475Z",
+          "collectedAt": "2026-09-16T04:59:06.804Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7351024207",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -522,23 +506,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -575,7 +557,7 @@
           "id": "avatr-weibo",
           "sourceId": "avatr-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:08:16.860Z",
+          "collectedAt": "2026-09-16T04:59:16.817Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/avatr",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -586,23 +568,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -624,13 +604,13 @@
           "id": "deepal-news",
           "sourceId": "deepal-news",
           "url": "https://deepal.com.cn/news",
-          "checkedAt": "2026-09-15T04:06:30.325Z",
+          "checkedAt": "2026-09-16T04:57:15.290Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 47,
           "recentCount": 0,
           "latestPublishedAt": "2026-06-15",
-          "since": "2026-09-08",
+          "since": "2026-09-09",
           "pageCount": 1
         },
         {
@@ -643,7 +623,7 @@
           "id": "deepal-weibo",
           "sourceId": "deepal-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:08:26.543Z",
+          "collectedAt": "2026-09-16T04:59:25.967Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/7751244203",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -654,23 +634,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -696,13 +674,13 @@
           "id": "byd-news",
           "sourceId": "byd-news",
           "url": "https://prod.byd.com/cn/news",
-          "checkedAt": "2026-09-15T04:06:30.325Z",
+          "checkedAt": "2026-09-16T04:57:15.290Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 167,
           "recentCount": 0,
           "latestPublishedAt": "2026-09-01",
-          "since": "2026-09-08",
+          "since": "2026-09-09",
           "pageCount": 4
         }
       ],
@@ -711,7 +689,7 @@
           "id": "denza-weibo",
           "sourceId": "denza-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:07:10.653Z",
+          "collectedAt": "2026-09-16T04:58:14.778Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/2664689831",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -722,23 +700,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -754,7 +730,7 @@
         "sourceCount": 0,
         "reason": "OpenAI API 余额不足，本轮未继续请求"
       },
-      "state": "unavailable",
+      "state": "partial",
       "officialStatuses": [
         {
           "id": "galaxy-official",
@@ -766,7 +742,7 @@
           "id": "galaxy-weibo",
           "sourceId": "galaxy-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:08:54.421Z",
+          "collectedAt": "2026-09-16T04:59:51.811Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7794864065",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -777,23 +753,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -809,7 +783,7 @@
         "sourceCount": 0,
         "reason": "OpenAI API 余额不足，本轮未继续请求"
       },
-      "state": "unavailable",
+      "state": "partial",
       "officialStatuses": [
         {
           "id": "tesla-home",
@@ -821,7 +795,7 @@
           "id": "tesla-weibo",
           "sourceId": "tesla-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:08:35.871Z",
+          "collectedAt": "2026-09-16T04:59:34.589Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/teslaofficial",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -832,23 +806,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -864,7 +836,7 @@
         "sourceCount": 0,
         "reason": "OpenAI API 余额不足，本轮未继续请求"
       },
-      "state": "unavailable",
+      "state": "partial",
       "officialStatuses": [
         {
           "id": "changan-qiyuan",
@@ -880,7 +852,7 @@
           "id": "changan-qiyuan-weibo",
           "sourceId": "changan-qiyuan-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:03.733Z",
+          "collectedAt": "2026-09-16T05:00:00.421Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/3194397971",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -891,23 +863,21 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 20
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "failed",
-          "count": 0,
-          "reason": "The operation was aborted due to timeout"
+          "status": "ok",
+          "count": 0
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-15T04:09:23.313Z",
+          "collectedAt": "2026-09-16T05:00:18.797Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -921,25 +891,23 @@
       "name": "汽车之家资讯",
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
-      "status": "failed",
-      "count": 0,
-      "reason": "The operation was aborted due to timeout"
+      "status": "ok",
+      "count": 20
     },
     {
       "id": "autohome-industry",
       "name": "汽车之家行业频道",
       "sourceId": "autohome-industry",
       "url": "https://www.autohome.com.cn/hangye/",
-      "status": "failed",
-      "count": 0,
-      "reason": "The operation was aborted due to timeout"
+      "status": "ok",
+      "count": 0
     },
     {
       "id": "dongchedi-news",
       "name": "懂车帝资讯",
       "sourceId": "dongchedi-news",
       "status": "failed",
-      "collectedAt": "2026-09-15T04:09:23.313Z",
+      "collectedAt": "2026-09-16T05:00:18.797Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 0,
       "reason": "懂车帝首页缺少公开列表数据"
@@ -1078,7 +1046,7 @@
       "url": "https://www.miit.gov.cn/zwgk/",
       "sourceId": "miit",
       "status": "ok",
-      "count": 3,
+      "count": 2,
       "latestPublishedAt": "2026-09-10",
       "reason": null
     }
@@ -1087,8 +1055,8 @@
     "providerStatus": "partial",
     "queryRuns": [
       {
-        "id": "brand:乐道",
-        "brand": "乐道",
+        "id": "brand:鸿蒙智行",
+        "brand": "鸿蒙智行",
         "status": "failed",
         "sourceCount": 0,
         "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
@@ -1101,20 +1069,6 @@
         "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       },
       {
-        "id": "brand:比亚迪",
-        "brand": "比亚迪",
-        "status": "failed",
-        "sourceCount": 0,
-        "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
-      },
-      {
-        "id": "brand:鸿蒙智行",
-        "brand": "鸿蒙智行",
-        "status": "failed",
-        "sourceCount": 0,
-        "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
-      },
-      {
         "id": "brand:蔚来",
         "brand": "蔚来",
         "status": "failed",
@@ -1122,8 +1076,22 @@
         "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       },
       {
+        "id": "brand:比亚迪",
+        "brand": "比亚迪",
+        "status": "failed",
+        "sourceCount": 0,
+        "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      },
+      {
         "id": "brand:零跑",
         "brand": "零跑",
+        "status": "failed",
+        "sourceCount": 0,
+        "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      },
+      {
+        "id": "brand:乐道",
+        "brand": "乐道",
         "status": "failed",
         "sourceCount": 0,
         "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"

@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-09-15T04:13:53.709Z",
+  "completedAt": "2026-09-16T05:04:06.293Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -154,7 +154,7 @@
       "name": "工业和信息化部",
       "brands": [],
       "status": "ok",
-      "label": "已读 3 条"
+      "label": "已读 2 条"
     },
     {
       "id": "byd-weibo",
@@ -295,15 +295,15 @@
       "id": "autohome-news",
       "name": "汽车之家资讯",
       "brands": [],
-      "status": "failed",
-      "label": "读取异常"
+      "status": "ok",
+      "label": "已读 20 条"
     },
     {
       "id": "autohome-industry",
       "name": "汽车之家行业频道",
       "brands": [],
-      "status": "failed",
-      "label": "读取异常"
+      "status": "ok",
+      "label": "已读 0 条"
     },
     {
       "id": "dongchedi-news",

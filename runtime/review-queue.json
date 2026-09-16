@@ -408,16 +408,6 @@
     ]
   },
   {
-    "title": "启境汽车回应小米澎程攻防需求：操作失误并致歉",
-    "sourceName": "财经汽车",
-    "url": "https://auto.caijing.com.cn/2026/0910/5182869.shtml",
-    "reasons": [
-      "缺少原文发布日期",
-      "正文尚未读取成功",
-      "尚未具备完整的日期与原文"
-    ]
-  },
-  {
     "title": "2026比亚迪梦想乐队D-BAND成团大赛 · 全国总决赛9月12日在深圳市坪山体育馆举办，同步进行全网线上直播。全国八强齐聚，以音乐赴梦想，为热爱发声！  比亚迪汽车的微博直播 比亚迪梦想乐队成团大赛·总决赛",
     "sourceName": "比亚迪汽车官方微博",
     "url": "https://weibo.com/1746221281/RhAvX2JxM",
@@ -4739,6 +4729,30 @@
     "reasons": [
       "缺少原文发布日期",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "NIO Inc. Reports Unaudited Second Quarter 2026 Financial Results",
+    "sourceName": "蔚来新闻中心",
+    "url": "https://www.nio.com/news/20260901002",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
+    "title": "William Li Invited to Speak at WTO World Trade and Tech Day",
+    "sourceName": "蔚来新闻中心",
+    "url": "https://www.nio.com/news/20260915001",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
+    "title": "品牌旗下旗舰产品 配升降立标 岚图梦想家9将于9月22日上市！",
+    "sourceName": "汽车之家资讯",
+    "url": "https://www.autohome.com.cn/news/202609/1317168.html",
+    "reasons": [
+      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
     ]
   }
 ]
