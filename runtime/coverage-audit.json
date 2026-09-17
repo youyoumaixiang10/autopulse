@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-16T05:04:06.283Z",
+  "checkedAt": "2026-09-17T05:08:14.976Z",
   "passed": false,
   "summary": {
     "completeBrands": 0,
@@ -7,7 +7,7 @@
     "healthyMedia": 2,
     "totalMedia": 17,
     "policyHealthy": true,
-    "unresolvedCandidates": 484
+    "unresolvedCandidates": 487
   },
   "brands": [
     {
@@ -31,7 +31,7 @@
           "id": "hima-weibo",
           "sourceId": "hima-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:09.006Z",
+          "collectedAt": "2026-09-17T05:02:40.784Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/3032210184",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -43,7 +43,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -56,7 +56,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -78,13 +78,13 @@
           "id": "byd-news",
           "sourceId": "byd-news",
           "url": "https://prod.byd.com/cn/news",
-          "checkedAt": "2026-09-16T04:57:15.290Z",
+          "checkedAt": "2026-09-17T05:00:00.107Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 167,
           "recentCount": 0,
           "latestPublishedAt": "2026-09-01",
-          "since": "2026-09-09",
+          "since": "2026-09-10",
           "pageCount": 4
         }
       ],
@@ -93,7 +93,7 @@
           "id": "byd-weibo",
           "sourceId": "byd-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:58:23.479Z",
+          "collectedAt": "2026-09-17T05:00:51.103Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/bydauto",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -105,7 +105,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -118,7 +118,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -140,12 +140,12 @@
           "id": "leapmotor-news",
           "sourceId": "leapmotor-news",
           "url": "https://leapmotor.cn/news/news.html",
-          "checkedAt": "2026-09-16T04:57:15.290Z",
+          "checkedAt": "2026-09-17T05:00:00.107Z",
           "status": "partial",
           "listRead": false,
           "candidateCount": 0,
           "publicLabel": "官网新闻列表暂不可读 · 官方微博仍持续采集",
-          "error": "官网页面加载超时"
+          "error": "page.evaluate: TypeError: Failed to fetch\n    at eval (eval at <anonymous> (eval at evaluate (:311:30)), <anonymous>:5:28)\n    at eval (eval at <anonymous> (eval at evaluate (:311:30)), <anonymous>:19:3)\n    at eval (eval at evaluate (:311:30), <anonymous>:1:23)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
         }
       ],
       "socialStatuses": [
@@ -153,7 +153,7 @@
           "id": "leapmotor-weibo",
           "sourceId": "leapmotor-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:58:32.473Z",
+          "collectedAt": "2026-09-17T05:01:00.196Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/u/5872290888",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -165,7 +165,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -178,7 +178,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -211,7 +211,7 @@
           "id": "nio-weibo",
           "sourceId": "nio-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:58:41.006Z",
+          "collectedAt": "2026-09-17T05:01:09.271Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/nextevofficial",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -223,7 +223,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -236,7 +236,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -269,7 +269,7 @@
           "id": "onvo-weibo",
           "sourceId": "onvo-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:58:49.619Z",
+          "collectedAt": "2026-09-17T05:01:18.390Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7892483716",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -281,7 +281,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -294,7 +294,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -318,7 +318,7 @@
           "sourceId": "li-auto-news",
           "status": "ok",
           "count": 21,
-          "latestPublishedAt": "2026-09-02",
+          "latestPublishedAt": "2026-09-16",
           "reason": null
         }
       ],
@@ -327,7 +327,7 @@
           "id": "li-auto-weibo",
           "sourceId": "li-auto-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:58:04.529Z",
+          "collectedAt": "2026-09-17T05:00:26.768Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/lixiangzhizao",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -339,7 +339,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -352,7 +352,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -374,13 +374,13 @@
           "id": "zeekr-info",
           "sourceId": "zeekr-info",
           "url": "https://www.zeekrlife.com/information",
-          "checkedAt": "2026-09-16T04:57:15.290Z",
+          "checkedAt": "2026-09-17T05:00:00.107Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 116,
           "recentCount": 0,
           "latestPublishedAt": "2026-05-19",
-          "since": "2026-09-09",
+          "since": "2026-09-10",
           "pageCount": 6
         }
       ],
@@ -389,7 +389,7 @@
           "id": "zeekr-weibo",
           "sourceId": "zeekr-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:59:43.202Z",
+          "collectedAt": "2026-09-17T05:02:13.659Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7576049404",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -401,7 +401,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -414,7 +414,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -442,7 +442,7 @@
           "id": "xiaomi-auto-weibo",
           "sourceId": "xiaomi-auto-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:58:58.214Z",
+          "collectedAt": "2026-09-17T05:01:27.684Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7871239944",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -454,7 +454,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -467,7 +467,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -495,7 +495,7 @@
           "id": "voyah-weibo",
           "sourceId": "voyah-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:59:06.804Z",
+          "collectedAt": "2026-09-17T05:01:36.926Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7351024207",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -507,7 +507,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -520,7 +520,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -557,7 +557,7 @@
           "id": "avatr-weibo",
           "sourceId": "avatr-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:59:16.817Z",
+          "collectedAt": "2026-09-17T05:01:46.804Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/avatr",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -569,7 +569,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -582,7 +582,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -604,13 +604,13 @@
           "id": "deepal-news",
           "sourceId": "deepal-news",
           "url": "https://deepal.com.cn/news",
-          "checkedAt": "2026-09-16T04:57:15.290Z",
+          "checkedAt": "2026-09-17T05:00:00.107Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 47,
           "recentCount": 0,
           "latestPublishedAt": "2026-06-15",
-          "since": "2026-09-09",
+          "since": "2026-09-10",
           "pageCount": 1
         },
         {
@@ -623,7 +623,7 @@
           "id": "deepal-weibo",
           "sourceId": "deepal-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:59:25.967Z",
+          "collectedAt": "2026-09-17T05:01:55.745Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/7751244203",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -635,7 +635,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -648,7 +648,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -674,13 +674,13 @@
           "id": "byd-news",
           "sourceId": "byd-news",
           "url": "https://prod.byd.com/cn/news",
-          "checkedAt": "2026-09-16T04:57:15.290Z",
+          "checkedAt": "2026-09-17T05:00:00.107Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 167,
           "recentCount": 0,
           "latestPublishedAt": "2026-09-01",
-          "since": "2026-09-09",
+          "since": "2026-09-10",
           "pageCount": 4
         }
       ],
@@ -689,7 +689,7 @@
           "id": "denza-weibo",
           "sourceId": "denza-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:58:14.778Z",
+          "collectedAt": "2026-09-17T05:00:41.987Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/2664689831",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -701,7 +701,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -714,7 +714,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -742,7 +742,7 @@
           "id": "galaxy-weibo",
           "sourceId": "galaxy-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:59:51.811Z",
+          "collectedAt": "2026-09-17T05:02:22.705Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7794864065",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -754,7 +754,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -767,7 +767,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -795,7 +795,7 @@
           "id": "tesla-weibo",
           "sourceId": "tesla-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T04:59:34.589Z",
+          "collectedAt": "2026-09-17T05:02:04.936Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/teslaofficial",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -807,7 +807,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -820,7 +820,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -852,7 +852,7 @@
           "id": "changan-qiyuan-weibo",
           "sourceId": "changan-qiyuan-weibo",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:00.421Z",
+          "collectedAt": "2026-09-17T05:02:31.717Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/3194397971",
           "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -864,7 +864,7 @@
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
           "status": "ok",
-          "count": 20
+          "count": 23
         },
         {
           "id": "autohome-industry",
@@ -877,7 +877,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "failed",
-          "collectedAt": "2026-09-16T05:00:18.797Z",
+          "collectedAt": "2026-09-17T05:02:50.370Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 0,
           "reason": "懂车帝首页缺少公开列表数据"
@@ -892,7 +892,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 20
+      "count": 23
     },
     {
       "id": "autohome-industry",
@@ -907,7 +907,7 @@
       "name": "懂车帝资讯",
       "sourceId": "dongchedi-news",
       "status": "failed",
-      "collectedAt": "2026-09-16T05:00:18.797Z",
+      "collectedAt": "2026-09-17T05:02:50.370Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 0,
       "reason": "懂车帝首页缺少公开列表数据"
@@ -1055,6 +1055,13 @@
     "providerStatus": "partial",
     "queryRuns": [
       {
+        "id": "brand:比亚迪",
+        "brand": "比亚迪",
+        "status": "failed",
+        "sourceCount": 0,
+        "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      },
+      {
         "id": "brand:鸿蒙智行",
         "brand": "鸿蒙智行",
         "status": "failed",
@@ -1062,8 +1069,8 @@
         "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       },
       {
-        "id": "brand:理想",
-        "brand": "理想",
+        "id": "brand:零跑",
+        "brand": "零跑",
         "status": "failed",
         "sourceCount": 0,
         "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
@@ -1076,15 +1083,8 @@
         "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       },
       {
-        "id": "brand:比亚迪",
-        "brand": "比亚迪",
-        "status": "failed",
-        "sourceCount": 0,
-        "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
-      },
-      {
-        "id": "brand:零跑",
-        "brand": "零跑",
+        "id": "brand:理想",
+        "brand": "理想",
         "status": "failed",
         "sourceCount": 0,
         "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"

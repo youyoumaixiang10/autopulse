@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-09-16T05:04:06.293Z",
+  "completedAt": "2026-09-17T05:08:14.987Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -296,7 +296,7 @@
       "name": "汽车之家资讯",
       "brands": [],
       "status": "ok",
-      "label": "已读 20 条"
+      "label": "已读 23 条"
     },
     {
       "id": "autohome-industry",
