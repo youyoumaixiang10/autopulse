@@ -53,7 +53,6 @@ jobs:
 
       - name: 采集、核验与生成日报
         run: npm run run-daily
-        continue-on-error: true
 
       - run: npm run validate-content
 
