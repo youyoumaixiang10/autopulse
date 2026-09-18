@@ -305,6 +305,7 @@
     "sourceName": "新浪汽车",
     "url": "https://k.sina.cn/article_7857141524_1d45277140190327ua.html",
     "reasons": [
+      "缺少原文发布日期",
       "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
@@ -784,6 +785,7 @@
     "url": "https://www.sina.cn/gc/article/ninpwie9417924.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -4748,6 +4750,14 @@
     ]
   },
   {
+    "title": "新款吉利银河E5将于9月23日上市 实车曝光 新增激光雷达 动力提升",
+    "sourceName": "汽车之家资讯",
+    "url": "https://www.autohome.com.cn/news/202609/1317187.html",
+    "reasons": [
+      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
+    ]
+  },
+  {
     "title": "品牌旗下旗舰产品 配升降立标 岚图梦想家9将于9月22日上市！",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202609/1317168.html",
@@ -4756,33 +4766,19 @@
     ]
   },
   {
-    "title": "更便宜了！置换补贴价6.98万起 2027款比亚迪元UP飞驰版正式上市",
+    "title": "权益后预售14.79万起/搭激光雷达 长安启源Q06将于9月23日上市",
     "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202609/1317215.html",
+    "url": "https://www.autohome.com.cn/news/202609/1317218.html",
     "reasons": [
-      "正文获取失败",
-      "尚未具备完整的日期与原文",
-      "信息来源待核验"
+      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
     ]
   },
   {
-    "title": "采用1.5T插混系统/轴距3260mm 疑似方程豹鲨鱼闪充版实车图曝光",
+    "title": "现款售21.99万起 阿维塔06T猎装骑士版将于9月20日上市",
     "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202609/1317214.html",
+    "url": "https://www.autohome.com.cn/news/202609/1317241.html",
     "reasons": [
-      "正文获取失败",
-      "尚未具备完整的日期与原文",
-      "信息来源待核验"
-    ]
-  },
-  {
-    "title": "售36.98万元 理想全新旗舰纯电SUV理想i9上市 续航705km",
-    "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202609/1317209.html",
-    "reasons": [
-      "正文获取失败",
-      "尚未具备完整的日期与原文",
-      "信息来源待核验"
+      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
     ]
   }
 ]

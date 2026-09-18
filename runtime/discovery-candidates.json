@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-17T05:03:01.688Z",
+  "collectedAt": "2026-09-18T04:56:17.771Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -1157,6 +1157,64 @@
         "腾势"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "28项升级 豆包大模型上车/三模式牵引力控制 特斯拉最新OTA推送",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317253.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "8个品牌/9款概念车/60余款车！Stellantis集团巴黎车展阵容",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317251.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "华为不再主导，你还会买问界吗？",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317242.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "现款售21.99万起 阿维塔06T猎装骑士版将于9月20日上市",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317241.html",
+      "candidateBrands": [
+        "阿维塔"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "问界明年撤出华为门店？销售：有华为字样的店之后都没有问界",
+      "sourceMonth": "2026-09",
+      "url": "https://www.autohome.com.cn/news/202609/1317236.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -1164,7 +1222,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 23
+      "count": 19
     },
     {
       "sourceId": "autohome-industry",
@@ -1175,7 +1233,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "failed",
-      "collectedAt": "2026-09-17T05:02:50.370Z",
+      "collectedAt": "2026-09-18T04:56:06.357Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 0,
       "reason": "懂车帝首页缺少公开列表数据"
