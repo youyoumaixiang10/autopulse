@@ -727,6 +727,64 @@ test('new-car highlight cards cover launches, unveilings, and spy shots of a spe
   assert.equal(isNewCarHighlight(card('仰望U9迎来OTA升级', '仰望U9将迎来全新OTA升级推送', ['新车'])), false);
   assert.equal(isNewCarHighlight(card('理想汽车公布9月交付数据', '交付新车31817辆', ['新车', '市场'])), false);
   assert.equal(isNewCarHighlight(card('赛力斯与宁德时代签署合作协议', '签署长期战略合作深化协议', ['市场'])), false);
+  assert.equal(isNewCarHighlight(card('问界汽车计划于2027年进入欧洲市场', '问界将进入欧洲市场', ['新车'])), false);
+  assert.equal(isNewCarHighlight(card('小米集团发布第二季度业绩公告', '单季营收1089亿元', ['新车'])), false);
+  assert.equal(isNewCarHighlight(card('全新比亚迪海鸥正式开启盲订', '换代车型针对尺寸升级')), true);
+  assert.equal(isNewCarHighlight(card('银河星舰7混动版完成工信部申报', '新增激光雷达')), true);
+  assert.equal(isNewCarHighlight(card('智界R7大定用户画像', '智界R7焕新款于9月28日上市，新车长宽高已公布', ['新车'])), false);
+  assert.equal(isNewCarHighlight(card('工信部：汽车创新设计迎新规 禁止全隐藏门把手', '发布征求意见稿，新申报产品须完成验证', ['新车'])), false);
+});
+test('a Zhao Changjiang user portrait and the door-handle rule are not new-car highlights', () => {
+  const portrait = record(1, {
+    title: '赵长江谈智界 R7 大定人群画像：家庭用户占比 92%',
+    brands: ['鸿蒙智行'],
+    publishedAt: '2026-09-09',
+    publishedTime: '2026-09-09 19:40:00',
+    contentParagraphs: [
+      '智界汽车执行董事及执行副总裁赵长江今日发文，谈及了智界 R7（焕新款）的大定用户画像。',
+      '购车家庭用户占比直接拉到 92%，远超以往。',
+      '据此前报道，智界 R7 焕新款于 9 月 28 日上市，新车长宽高分别为 4982/1981/1634mm。'
+    ]
+  });
+  const policy = record(2, {
+    title: '工信部：汽车创新设计迎新规 禁止全隐藏门把手 行车禁用旋转座椅',
+    brands: ['岚图'],
+    publishedAt: '2026-09-09',
+    publishedTime: '2026-09-09 22:30:00',
+    contentParagraphs: [
+      '工业和信息化部会同公安部发布《关于进一步加强汽车产品创新设计和研发测试验证有关管理工作的通知（征求意见稿）》。',
+      '通知要求，新申报产品应按照技术规范完成验证，禁止配备全隐藏式门把手，行车时不可使用旋转座椅。'
+    ]
+  });
+  const launch = record(3, {
+    title: '小鹏汽车官宣MONA L05即将登场',
+    brands: ['小鹏'],
+    publishedAt: '2026-09-09',
+    publishedTime: '2026-09-09 12:00:00',
+    contentParagraphs: ['小鹏汽车官宣MONA L05即将登场，定位大五座SUV。']
+  });
+  const notes = {
+    [portrait.url]: { important: true, title: '赵长江公布智界R7大定用户画像' },
+    [policy.url]: { important: true },
+    [launch.url]: { important: true }
+  };
+  const report = buildReports([portrait, policy, launch], notes, now).reports['2026-09-10'];
+  const titles = report.highlights.map(story => story.title);
+  const portraitStory = report.highlights.find(story => /用户画像/.test(story.title));
+  const policyStory = report.highlights.find(story => /门把手|迎新规/.test(story.title));
+  const launchAt = titles.findIndex(title => /MONA L05/.test(title));
+  assert.equal(portraitStory.tags.includes('新车'), false);
+  assert.ok(portraitStory.tags.some(tag => tag === '市场' || tag === '品牌动态'));
+  assert.equal(policyStory.tags.includes('新车'), false);
+  assert.ok(policyStory.tags.includes('政策'));
+  assert.ok(policyStory.tags.includes('行业'));
+  assert.ok(launchAt >= 0 && launchAt < titles.findIndex(title => /用户画像/.test(title)));
+  assert.ok(launchAt < titles.findIndex(title => /门把手|迎新规/.test(title)));
+  assert.equal(isNewCarHighlight({ ...portraitStory, tags: ['新车'] }), false);
+  assert.equal(isNewCarHighlight({ ...policyStory, tags: ['新车'] }), false);
+  assert.equal(classify(`${portrait.title} ${portrait.contentParagraphs.join(' ')}`, 'media').includes('新车'), false);
+  assert.equal(classify(`${policy.title} ${policy.contentParagraphs.join(' ')}`, 'media').includes('新车'), false);
+  assert.ok(classify(`${policy.title} ${policy.contentParagraphs.join(' ')}`, 'media').includes('政策'));
 });
 test('daily highlights place new-car cards first and keep recency inside each group', () => {
   const items = [
