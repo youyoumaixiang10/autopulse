@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-12T02:42:43.202Z",
+  "collectedAt": "2026-10-12T03:18:56.581Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -1805,6 +1805,43 @@
         "吉利银河"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026巴黎车展：阿尔法·罗密欧Cuorerosso概念车正式发布",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317697.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "奇瑞致歉 回应马来西亚OMODA 5断轴事故 已启动召回 国内同步排查",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317696.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "特斯拉Model Y L上市",
+      "url": "https://www.dongchedi.com/article/7539376466484593188",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -1812,7 +1849,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 30
+      "count": 31
     },
     {
       "sourceId": "autohome-industry",
@@ -1823,9 +1860,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-12T02:42:31.557Z",
+      "collectedAt": "2026-10-12T03:18:40.868Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 46,
+      "candidateCount": 44,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

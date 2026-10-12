@@ -5,7 +5,7 @@ import { chinaDate, cleanText, resolveStoryBrands } from './content-utils.mjs';
 const evidenceLabels = { official: '官方发布', government: '政府公告', media: '媒体报道' };
 const order = { government: 0, official: 1, media: 2 };
 const hash = value => createHash('sha256').update(value).digest('hex').slice(0, 16);
-const importantPattern = /上市|预售|发布会|官宣|降价|权益|交付|销量|合作|车展|召回|申报|价格|订单|续航|残值|换电|到店|开售|展出|亮相|首发/u;
+const importantPattern = /上市|预售|发布会|官宣|降价|权益|交付|销量|合作|车展|召回|申报|价格|订单/u;
 const explicitResponsePattern = /辟谣|澄清|(?:网传|事故|传闻|质疑|争议|投诉|首撞|维权|质量|攻防).{0,24}回应|回应.{0,24}(?:网传|事故|传闻|质疑|争议|投诉|首撞|维权|质量|攻防)/u;
 const titlePreamblePattern = /^(?:我们|日前|目前|根据(?:此前)?信息|据(?:悉|报道|了解)|报道称|消息称|官方发布|当地时间)/u;
 const titleSourcePattern = /(?:微博视频|公众号文章|官方微博|的微博)/u;
@@ -252,25 +252,12 @@ function titleAligns(title, lead) {
   const numbers = [...value.matchAll(/\d+(?:\.\d+)?/gu)].map(match => match[0]).filter(number => number.length >= 2);
   return numbers.every(number => basis.includes(number));
 }
-function summaryBlocks(article) {
+function sourceSummary(article, issueDate) {
   const paragraphs = usefulSourceParagraphs(article);
-  if (article.sourceType === 'official-social') return [socialPresentationText(paragraphs.slice(0, 3).join(' '))].filter(Boolean);
-  return paragraphs;
-}
-function supportingBlock(blocks, title) {
-  const numbers = [...cleanText(title).matchAll(/\d+(?:\.\d+)?/gu)].map(match => match[0]).filter(number => number.length >= 2);
-  let best = null;
-  for (const block of blocks) {
-    const hits = numbers.filter(number => block.includes(number)).length;
-    if (hits && (!best || hits > best.hits)) best = { block, hits };
-  }
-  if (best) return best.block;
-  return blocks.find(block => factCue.test(block)) || blocks[0] || '';
-}
-function sourceSummary(article, issueDate, title = '') {
-  const blocks = summaryBlocks(article);
-  const chosen = supportingBlock(blocks, title);
-  const sentences = chosen.split(/[。！？!?]/u).map(cleanText)
+  const text = article.sourceType === 'official-social'
+    ? socialPresentationText(paragraphs[0] || article.title || '')
+    : (paragraphs[0] || article.title || '');
+  const sentences = text.split(/[。！？!?]/u).map(cleanText)
     .filter(sentence => sentence.length >= 8 && !/免责声明|版权|扫一扫|关注我们/u.test(sentence));
   const opening = [];
   for (const sentence of sentences) {
@@ -278,13 +265,8 @@ function sourceSummary(article, issueDate, title = '') {
     if (cleanText(next).length > summaryBudget) break;
     opening.push(sentence);
   }
-  const text = opening.length ? `${opening.join('。')}。` : chosen;
-  return normalizeRelativeTime(clipAtBoundary(text), issueDate);
-}
-function leadText(story) {
-  const body = String(story.summary || '').replace(/^[^：]{1,12}：/u, '').replace(/（[^（）]{1,24}）\s*$/u, '').trim();
-  const text = body && body !== story.title ? `${story.title}。${body}` : story.title;
-  return text.length > 180 ? `${text.slice(0, 180)}…` : text;
+  const joined = opening.length ? `${opening.join('。')}。` : text;
+  return normalizeRelativeTime(clipAtBoundary(joined), issueDate);
 }
 function isAutomaticallyImportant(article, brands = article.brands) {
   if (article.evidenceStatus === 'government') return true;
@@ -387,7 +369,7 @@ export function buildReports(articles, notes, now = new Date()) {
     const details = note.details || sourceDetails(article);
     const summary = note.summary
       ? normalizeRelativeTime(cleanText(note.summary).replace(/^(?:官方发布|政府公告|媒体报道)[：:]\s*/u, ''), issueDate)
-      : sourceSummary(article, issueDate, editorialTitle);
+      : sourceSummary(article, issueDate);
     const lead = `${editorialTitle} ${summary}`;
     const story = {
       id, tags, title: normalizeRelativeTime(editorialTitle, issueDate),
@@ -427,16 +409,6 @@ export function buildReports(articles, notes, now = new Date()) {
   for (const report of Object.values(reports)) {
     report.brands = Object.fromEntries(monitoringCoverage.map(({ brand }) => [brand, report.brands[brand]]).filter(([, items]) => items));
     for (const list of [report.highlights, report.otherBrands, report.industry, ...Object.values(report.brands)]) list.sort((a, b) => b.publishedTime.localeCompare(a.publishedTime));
-    const seen = new Set();
-    const ordered = [];
-    const push = story => { if (!story || seen.has(story.id)) return; seen.add(story.id); ordered.push(story); };
-    for (const story of report.highlights) push(story);
-    for (const { brand } of monitoringCoverage) for (const story of report.brands[brand] || []) push(story);
-    for (const story of report.industry) push(story);
-    for (const story of report.otherBrands) push(story);
-    report.leadBullets = ordered.slice(0, 16).map(story => ({
-      text: leadText(story), sourceName: story.sourceName, sourceUrl: story.sourceUrl, storyId: story.id, brands: story.brands
-    }));
   }
   return { reports: Object.fromEntries(Object.entries(reports).sort(([a], [b]) => b.localeCompare(a))), launches, reviewQueue };
 }

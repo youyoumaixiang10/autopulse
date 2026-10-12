@@ -223,18 +223,20 @@ test('a short official social headline inherits a product tag from its verified 
   const story = buildReports([post], {}, now).reports['2026-09-09'].highlights[0];
   assert.deepEqual(story.tags, ['新车']);
 });
-test('lead bullets cite a verified fact and its source without adding claims', () => {
+test('summaries stay a short clip of the first verified paragraph', () => {
+  const opening = '开场介绍只保留这一小段，后面的数字和来源名不应被抽出来单独铺开。';
   const article = record(1, {
     sourceName: '新浪汽车',
     title: '银河战舰700开启交付',
-    contentParagraphs: ['开场介绍。银河战舰700订单超过700台，并公布到店安排。']
+    contentParagraphs: [`${opening}${'补充说明'.repeat(20)}`, '银河战舰700订单超过700台，并公布到店安排。']
   });
   const report = buildReports([article], {}, now).reports['2026-09-09'];
-  assert.equal(report.leadBullets.length, 1);
-  assert.match(report.leadBullets[0].text, /700/);
-  assert.equal(report.leadBullets[0].sourceName, '新浪汽车');
-  assert.match(report.brands['理想'][0].summary, /700/);
-  assert.doesNotMatch(report.brands['理想'][0].summary, /^媒体报道[：:]/u);
+  assert.equal(report.leadBullets, undefined);
+  const summary = report.brands['理想'][0].summary;
+  assert.match(summary, /^开场介绍/);
+  assert.match(summary, /铺开。$/u);
+  assert.doesNotMatch(summary, /700|新浪汽车|到店|^媒体报道[：:]/u);
+  assert.ok(summary.length <= 93);
 });
 test('source-record details keep enough verified source context to be useful on the detail page', () => {
   const article = record(1, { contentParagraphs: ['第一段包含已经发布的产品和活动信息。', '第二段说明具体日期、价格或适用范围。'] });
