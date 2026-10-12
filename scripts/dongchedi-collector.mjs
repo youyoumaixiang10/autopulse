@@ -1,7 +1,7 @@
 const sourceId = 'dongchedi-news';
 const sourceName = '懂车帝公开首页';
 const entryUrl = 'https://www.dongchedi.com/';
-import { collectBrowserHtml } from './browser-collector.mjs';
+import { collectBrowserHtml, fetchPageHtml } from './browser-collector.mjs';
 
 const plainText = value => String(value || '')
   .replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ')
@@ -47,15 +47,33 @@ export function parseDongchediHome(html) {
   return [...candidates.values()];
 }
 
-export async function collectDongchediNews({ fetchImpl } = {}) {
+async function loadDongchediHtml({ fetchImpl, browserImpl, httpImpl }) {
+  if (fetchImpl) {
+    const response = await fetchImpl(entryUrl, { signal: AbortSignal.timeout(20000) });
+    if (!response.ok) throw new Error(`懂车帝首页返回 ${response.status}`);
+    return response.text();
+  }
+  const browser = browserImpl || collectBrowserHtml;
+  const http = httpImpl || fetchPageHtml;
+  let browserError;
+  try {
+    const html = await browser(entryUrl);
+    parseDongchediHome(html);
+    return html;
+  } catch (error) { browserError = error; }
+  try {
+    const html = await http(entryUrl);
+    parseDongchediHome(html);
+    return html;
+  } catch (error) {
+    throw new Error(`${browserError?.message || '浏览器读取失败'}；直接请求也失败：${error.message}`);
+  }
+}
+
+export async function collectDongchediNews({ fetchImpl, browserImpl, httpImpl } = {}) {
   const collectedAt = new Date().toISOString();
   try {
-    let html;
-    if (fetchImpl) {
-      const response = await fetchImpl(entryUrl, { signal: AbortSignal.timeout(20000) });
-      if (!response.ok) throw new Error(`懂车帝首页返回 ${response.status}`);
-      html = await response.text();
-    } else html = await collectBrowserHtml(entryUrl);
+    const html = await loadDongchediHtml({ fetchImpl, browserImpl, httpImpl });
     const candidates = parseDongchediHome(html);
     if (!candidates.length) throw new Error('懂车帝公开首页未解析到新闻链接');
     return {

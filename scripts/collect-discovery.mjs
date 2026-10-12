@@ -1,12 +1,13 @@
 import { mkdirSync } from 'node:fs';
 import { parseAutohomeNews } from './pilot-collectors.mjs';
 import { identifyBrands, isIndustryNews, readJson, writeJson } from './content-utils.mjs';
-import { collectBrowserHtml } from './browser-collector.mjs';
+import { readHtmlWithFallback } from './browser-collector.mjs';
 import { collectDongchediNews } from './dongchedi-collector.mjs';
 
+const industrySource = { id: 'autohome-industry', name: '汽车之家行业频道' };
 const [autohomeAttempt, autohomeIndustryAttempt, dongchediAttempt] = await Promise.allSettled([
-  collectBrowserHtml('https://www.autohome.com.cn/news//').then(parseAutohomeNews),
-  collectBrowserHtml('https://www.autohome.com.cn/hangye/').then(html => parseAutohomeNews(html, { id: 'autohome-industry', name: '汽车之家行业频道' })),
+  readHtmlWithFallback('https://www.autohome.com.cn/news/', { accept: html => parseAutohomeNews(html).length > 0 }).then(parseAutohomeNews),
+  readHtmlWithFallback('https://www.autohome.com.cn/hangye/', { accept: html => parseAutohomeNews(html, industrySource).length > 0 }).then(html => parseAutohomeNews(html, industrySource)),
   collectDongchediNews()
 ]);
 const candidates = autohomeAttempt.status === 'fulfilled' ? autohomeAttempt.value : [];

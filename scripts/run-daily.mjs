@@ -3,6 +3,7 @@ import { openSync, closeSync, unlinkSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { sourceRegistry } from '../data/sources.js';
 import { readJson, writeJson } from './content-utils.mjs';
+import { assessDailyRun } from './daily-run-gate.mjs';
 
 const dir = new URL('../runtime/', import.meta.url);
 mkdirSync(dir, { recursive: true });
@@ -50,17 +51,25 @@ try {
   });
   const enrichment = readJson(new URL('enrichment-status.json', dir), {});
   const limited = sources.some(source => ['partial', 'pending', 'failed', 'error', 'empty'].includes(source.status));
-  // Individual articles can be inaccessible while verified earlier content remains public and the item is queued for review.
-  // Only a collector-level failure should fail the scheduled run.
-  const failed = failures.length > 0 || sourceResults.some(result => ['failed', 'error', 'empty'].includes(result.status));
+  const openai = readJson(new URL('openai-search-candidates.json', dir), null);
+  // Optional layers (Weibo login wall, media fallback misses, OpenAI billing) stay warnings.
+  // The run fails only when a required step crashes or no official/government list was readable.
+  const assessment = assessDailyRun({ failures, sourceResults, sources: sourceRegistry, openai });
   const completedAt = new Date().toISOString();
   writeJson(new URL('run-status.json', dir), {
-    startedAt, completedAt, state: failed ? 'partial' : 'completed', failures,
+    startedAt, completedAt, state: assessment.publish && !assessment.warnings.length ? 'completed' : 'partial', failures,
+    blocking: assessment.blocking, warnings: assessment.warnings,
     enrichmentFailures: enrichment.failures || [], steps, sourceResults
   });
   writeJson(new URL('public-status.json', dir), { completedAt, label: limited ? '持续更新中，部分来源尚未完整读取' : '本轮更新完成', sources });
-  console.log(failed ? '本轮已归档可用内容，部分来源需要复核。' : '本轮采集与归档完成；个别原文读取失败已进入待核实队列。');
-  if (failed) process.exitCode = 1;
+  for (const warning of assessment.warnings) console.warn(`::warning::${warning}`);
+  if (!assessment.publish) {
+    for (const item of assessment.blocking) console.error(`::error::${item}`);
+    console.error('本轮采集不完整，已停止发布。');
+    process.exitCode = 1;
+  } else {
+    console.log(assessment.warnings.length ? '本轮已归档可用内容。可选来源未完整读取，不阻断发布。' : '本轮采集与归档完成；个别原文读取失败已进入待核实队列。');
+  }
 } catch (error) {
   writeJson(new URL('run-status.json', dir), { startedAt, completedAt: new Date().toISOString(), state: 'failed', reason: error.message, steps });
   console.error(error.message);

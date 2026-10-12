@@ -31,6 +31,15 @@ test('does not report a login wall as a successful source', async () => {
   assert.match(result.sourceResults[0].reason, /登录/);
 });
 
+test('falls back to a direct request when the browser page has no public list', async () => {
+  const result = await collectDongchediNews({
+    browserImpl: async () => '<html><body>login</body></html>',
+    httpImpl: async () => fixture
+  });
+  assert.equal(result.sourceResults[0].status, 'partial');
+  assert.equal(result.sourceResults[0].candidateCount, 3);
+});
+
 test('marks homepage-only discovery as partial coverage', async () => {
   const result = await collectDongchediNews({ fetchImpl: async () => ({ ok: true, text: async () => fixture }) });
   assert.equal(result.sourceResults[0].status, 'partial');

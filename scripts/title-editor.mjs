@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto';
 import { cleanText, readJson, writeJson } from './content-utils.mjs';
+import { OPENAI_BILLING_ACTION, isOpenAiQuotaError } from './daily-run-gate.mjs';
 
 const dir = new URL('../runtime/', import.meta.url);
 const cacheFile = new URL('editorial-titles.json', dir);
@@ -49,7 +50,10 @@ async function rewrite(batch) {
     }),
     signal: AbortSignal.timeout(60000)
   });
-  if (!response.ok) throw new Error(`标题模型返回 ${response.status}`);
+  if (!response.ok) {
+    const detail = (await response.text()).slice(0, 300);
+    throw new Error(`标题模型返回 ${response.status}: ${detail}`);
+  }
   const data = await response.json();
   const content = data.choices?.[0]?.message?.content;
   const parsed = JSON.parse(content);
@@ -68,7 +72,13 @@ for (let start = 0; start < candidates.length; start += 12) {
       cache.items[article.url] = { title, inputHash, updatedAt: new Date().toISOString() };
       created++;
     }
-  } catch (error) { failures.push(error.message); }
+  } catch (error) {
+    failures.push(error.message);
+    if (/标题模型返回 429\b/u.test(error.message) || isOpenAiQuotaError(error.message)) {
+      console.warn(isOpenAiQuotaError(error.message) ? OPENAI_BILLING_ACTION : '标题模型返回 429，已停止后续批次并保留原有标题。');
+      break;
+    }
+  }
 }
 writeJson(cacheFile, cache);
 writeJson(statusFile, { state: failures.length ? 'partial' : 'completed', created, cached: candidates.length - created, failures, completedAt: new Date().toISOString() });

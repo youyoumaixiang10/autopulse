@@ -53,6 +53,9 @@ jobs:
 
       - name: 采集、核验与生成日报
         run: npm run run-daily
+        # Exits 0 when verified official/government lists were readable.
+        # Weibo login walls, media misses, and OpenAI billing errors are warnings.
+        # Exits 1 only when a required step crashes or no core list was readable.
 
       - run: npm run validate-content
 

@@ -1,4 +1,5 @@
 import { issueSearchDates, readJson, writeJson } from './content-utils.mjs';
+import { OPENAI_BILLING_ACTION, isOpenAiQuotaError } from './daily-run-gate.mjs';
 import { candidatesFromResponse, discoveryJobs, hasStructuredOutput, searchJob, structuredArticles } from './openai-web-discovery.mjs';
 
 const dir = new URL('../runtime/', import.meta.url);
@@ -61,5 +62,13 @@ writeJson(file, {
   model: process.env.SEARCH_MODEL || 'gpt-5.5', queryRuns, candidates,
   publicationRule: '网页检索仅用于发现原文；原文发布日期、正文与来源通过后才进入日报。'
 });
-console.log(quotaBlocked ? 'OpenAI 网页检索：本期已因余额不足暂停，等待充值后下一期再试。' : `OpenAI 网页检索：完成 ${queryRuns.length - failed.length}/${queryRuns.length} 个品牌与行业任务，发现 ${collected.length} 条已登记来源线索。`);
-if (failed.length === queryRuns.length) process.exitCode = 1;
+const completed = queryRuns.length - failed.length;
+console.log(quotaBlocked
+  ? 'OpenAI 网页检索：本期已因余额不足暂停，等待充值后下一期再试。'
+  : `OpenAI 网页检索：完成 ${completed}/${queryRuns.length} 个品牌与行业任务，发现 ${collected.length} 条已登记来源线索。`);
+if (failed.length && failed.length === queryRuns.length) {
+  const reason = fatalReason || failed.find(run => run.reason)?.reason || '';
+  console.warn(isOpenAiQuotaError(reason) || quotaBlocked
+    ? OPENAI_BILLING_ACTION
+    : `OpenAI 网页检索失败原因：${String(reason).replace(/\s+/gu, ' ').slice(0, 300)}。请检查仓库 Secret OPENAI_API_KEY。已核验内容仍会发布。`);
+}

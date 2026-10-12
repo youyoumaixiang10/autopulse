@@ -8,7 +8,8 @@
 
 1. 将此目录推送到一个 GitHub 仓库。
 2. 在仓库 Settings → Pages 中将 Source 设为 GitHub Actions。
-3. `OPENAI_API_KEY` 仅用于把已核验正文改写为日报标题，不参与新闻发现。当前仓库尚未接入稳定的搜索 API；在完成搜索服务接入并配置相应密钥前，自动任务只能发布已读取到的内容，不能承诺全面覆盖。
-4. 在 Actions 页面手动运行一次“更新汽车日报”，确认 Pages 地址生成。
+3. 仓库 Secret 名称是 `OPENAI_API_KEY`（Settings → Secrets and variables → Actions）。它用于标题改写，也用于 OpenAI 网页检索。密钥缺失，或该密钥所属账号没有剩余额度时，这两步会跳过并在日志里给出充值地址：https://platform.openai.com/settings/organization/billing/ 。这不会让「更新汽车日报」失败，已核验的官网和政策内容仍会发布。
+4. 官方微博在 GitHub 托管浏览器里通常要求登录。工作流没有微博登录密钥可配；这些账号未读到帖文时只记警告，不阻断发布。
+5. 在 Actions 页面手动运行一次“更新汽车日报”，确认 Pages 地址生成。
 
-之后不需要打开电脑；GitHub 的定时任务会自行运行。需要补跑时，也可在 Actions 页面手动触发该工作流。
+之后不需要打开电脑；GitHub 的定时任务会自行运行。需要补跑时，打开 Actions →「更新汽车日报」→ Run workflow。只有官网和政策列表都没读到，或核验/生成步骤本身失败时，该工作流才会以失败结束并停止发布。
