@@ -34,11 +34,13 @@ function isExplicitResponse(text) {
 export function classify(title, evidenceStatus) {
   if (evidenceStatus === 'government') return ['政策', '公告'];
   const tags = [];
-  if (/上市|预售|申报|新车|发布会/u.test(title)) tags.push('新车');
-  if (/权益|降价|优惠|促销|补贴|预订价/u.test(title)) tags.push('促销');
-  if (isExplicitResponse(title)) tags.push('品牌回应');
-  if (/交付|销量/u.test(title)) tags.push('市场');
-  if (/活动|代言|合作|教师节|车展|展出/u.test(title)) tags.push('营销传播');
+  const text = cleanText(title);
+  if (isStrictNewCar(text)) tags.push('新车');
+  if (/权益|降价|优惠|促销|补贴|预订价/u.test(text)) tags.push('促销');
+  if (isExplicitResponse(text)) tags.push('品牌回应');
+  if (/交付|销量|用户画像|人群画像|财报|业绩|营收|净利润/u.test(text)) tags.push('市场');
+  if (!tags.includes('新车') && isPolicyNotice(text)) tags.push('政策', '行业');
+  if (/活动|代言|合作|教师节|车展|展出/u.test(text)) tags.push('营销传播');
   return tags.length ? tags : ['品牌动态'];
 }
 function followUp(tags) {
@@ -471,8 +473,53 @@ function hasSpecificModel(text) {
   const value = String(text || '')
     .replace(/20\d{2}/gu, ' ')
     .replace(/第\s*\d+\s*批/gu, ' ')
-    .replace(/\d+(?:\.\d+)?\s*(?:万|元|公里|km|kwh|kw|%|台|辆|款|项|亿|家|个)/giu, ' ');
-  return /Model\s*[3YXS]|Roadster|Cybercab|钛\s*\d{1,2}|[A-Za-z]{1,12}\s*-?\s*\d{1,4}|\d{1,2}\s*[A-Za-z]{1,4}|[\u4e00-\u9fff]{2,8}\d{2,4}|\d{1,2}系/u.test(value);
+    .replace(/(?:不低于|不少于|不超过|超过|大约|约为|约|近|达|共|为|至|从)\s*\d+(?:\.\d+)?/gu, ' ')
+    .replace(/\d{1,2}\s*月\s*\d{1,2}\s*日/gu, ' ')
+    .replace(/\d+(?:\.\d+)?\s*(?:万|元|公里|km|kwh|kw|%|台|辆|款|项|亿|家|个|毫米|mm)/giu, ' ');
+  return /Model\s*[3YXS]|Roadster|Cybercab|钛\s*\d{1,2}|[A-Za-z]{1,12}\s*-?\s*\d{1,4}|\d{1,2}\s*[A-Za-z]{1,4}|[\u4e00-\u9fff]{2,8}\d{1,4}(?![年月日时分秒])|\d{1,2}系/u.test(value);
+}
+function isUserPortrait(text) {
+  return /用户画像|人群画像/u.test(text);
+}
+function isPolicyNotice(text) {
+  if (/征求意见稿|迎新规|管理办法|标准化工作要点|汽车产品创新设计/u.test(text)) return true;
+  if (/(?:发布|出台|实施|公示|印发)[^。]{0,16}国家标准|国家标准[^。]{0,8}(?:发布|出台|实施|公示)/u.test(text)) return true;
+  return /(?:工信部|国务院|发改委|市场监管总局).{0,16}(?:通知|新规|意见|标准|办法|公示)/u.test(text);
+}
+function isEarningsReport(text) {
+  return /财报|业绩公告|业绩情况|营收|归母净利润|净利润/u.test(text);
+}
+function isPartnershipAnnouncement(text) {
+  return /签署[^。]{0,20}(?:协议|合作)|战略合作|合作备忘录|合作协议/u.test(text);
+}
+function isEuropeExpansionPlan(text) {
+  return /进入欧洲|登陆欧洲|出海欧洲|欧洲市场|欧洲业务|在欧洲正式落地/u.test(text);
+}
+function isSalesOrDeliveryReport(text) {
+  return /销量|交付数据|交付量|累计交付|锁单|批发量|批发销量|销量快报|交付成绩|交付新车\s*\d|月交付/u.test(text);
+}
+function isMultiModelRoundup(text) {
+  const count = '(?:\\d+|[二三四五六七八九十两])\\s*款';
+  return new RegExp(`${count}[^。]{0,8}概念车`, 'u').test(text)
+    || new RegExp(`(?:多款|数款|${count})新车`, 'u').test(text)
+    || /(?:\d+\s*个品牌).{0,20}(?:\d+\s*款)/u.test(text);
+}
+function isLineupRelease(text) {
+  if (!/(?:[3-9]|[三四五六七八九十])\s*款车型/u.test(text)) return false;
+  return !/正式上市|开启预售|开启盲订|开启预订/u.test(leadPortion(text));
+}
+function namesLaunchSubject(text) {
+  if (hasSpecificModel(text) || /全新车型|新车型|官宣新车/u.test(text)) return true;
+  if (/全新(?!标杆|高度|升级|体验|战略|定义)/u.test(text)) return true;
+  return /(?:SUV|MPV|轿车|轿跑|跑车)/u.test(text);
+}
+function isAccessoryAppearance(text) {
+  return /套装|选装包/u.test(text) && !/上市|预售|盲订|官宣|全新车型|新车型/u.test(text);
+}
+function leadPortion(text) {
+  const value = cleanText(text);
+  const end = value.search(/[。！？]/u);
+  return (end === -1 ? value : value.slice(0, end)).slice(0, 90);
 }
 function isSpecificModelSpy(text) {
   return /谍照|申报图/u.test(text) && hasSpecificModel(text) && !/如果您有/u.test(text);
@@ -480,9 +527,8 @@ function isSpecificModelSpy(text) {
 function isSpecificModelFiling(text) {
   return /申报|现身/u.test(text) && hasSpecificModel(text) && !/如果您有/u.test(text);
 }
-function isRegulatoryNotice(story, text) {
-  if ((story?.tags || []).includes('政策') || story?.evidenceStatus === 'government') return true;
-  return /征求意见稿|迎新规|管理办法|标准化工作要点/u.test(text);
+function isRegulatoryNotice(text) {
+  return isPolicyNotice(text);
 }
 function isMarketStats(text) {
   return /销量|交付数据|交付量|累计交付|锁单|用户画像|财报|业绩公告|营收|归母净利润|股价|跌停|批发/u.test(text);
@@ -494,21 +540,33 @@ function isSoftwareOtaOnly(text) {
 function hasVehicleLaunch(text) {
   const value = withoutLaunchAnniversary(text);
   if (/技术日|世界模型/u.test(value) && !/上市|预售|开售|首发|首秀|亮相|谍照|申报|官图|全新车型|官宣/u.test(value)) return false;
-  if (/上市|预售|开售|发布会|首发|首秀|亮相|登场|官图|全新车型|新车型|概念车|开启预约|新车发布|正式推出|即将登场|全球首发|欧洲发布|海外发布|全球发布/u.test(value)) return true;
+  if (/取消[^。]{0,20}(?:发布会|预售|上市)|新车发布计划|发布计划/u.test(value)) return false;
+  if (/上市|预售|开售|盲订|开启预订|发布会|全球首发|新车首发|正式首发|首秀|亮相|登场|官图|全新车型|新车型|概念车|开启预约|新车发布(?!计划)|正式推出|即将登场|欧洲发布|海外发布|全球发布/u.test(value)) return true;
   if (/官宣/u.test(value) && /新车|车型|登场|上市|发布|亮相|首秀|SUV|轿车|MPV/u.test(value)) return true;
   if (/将于\s*\d{1,2}\s*月\s*\d{1,2}\s*日[^。]{0,8}发布/u.test(value)) return true;
-  if (/正式发布/u.test(value) && /车型|SUV|轿车|MPV|轿跑|概念车|旗舰|新车/u.test(value)) return true;
+  if (/全新[^，。]{0,24}发布/u.test(value) && !/发布(?:数据|销量|财报|战略|公告|信息|通知)/u.test(value)) return true;
+  if (/正式发布/u.test(value) && /车型|SUV|轿车|MPV|轿跑|概念车|旗舰|新车/u.test(value) && !/发布(?:数据|销量|财报|战略|公告|信息|通知)/u.test(value)) return true;
   if (/推出/u.test(value) && /(?:全新|新款|旗舰|SUV|轿车|MPV|轿跑|车型|概念车)/u.test(value) && !/购车礼遇|金融权益|权益价/u.test(value)) return true;
-  if (/开启(?:全国)?交付/u.test(value) && hasSpecificModel(value)) return true;
   return false;
+}
+function isStrictNewCar(text) {
+  const value = cleanText(text);
+  if (!value || isSoftwareOtaOnly(value) || isUserPortrait(value) || isAccessoryAppearance(value) || isMultiModelRoundup(value) || isLineupRelease(value)) return false;
+  if (/申报车型综览|等在列/u.test(value)) return false;
+  const leadLaunch = hasVehicleLaunch(leadPortion(value)) || isSpecificModelSpy(leadPortion(value)) || isSpecificModelFiling(leadPortion(value));
+  if ((isSalesOrDeliveryReport(value) || isEarningsReport(value) || isPartnershipAnnouncement(value) || isEuropeExpansionPlan(value)) && !leadLaunch) return false;
+  if (isRegulatoryNotice(value) && !leadLaunch && !isSpecificModelFiling(value) && !isSpecificModelSpy(value)) return false;
+  const spy = isSpecificModelSpy(value);
+  const filing = isSpecificModelFiling(value);
+  const launch = hasVehicleLaunch(value);
+  if (spy || filing) return true;
+  if (!launch || !namesLaunchSubject(value)) return false;
+  return true;
 }
 export function isNewCarHighlight(story) {
   const text = highlightCardText(story);
-  if (!text || isSoftwareOtaOnly(text)) return false;
-  const launch = hasVehicleLaunch(text) || isSpecificModelSpy(text) || isSpecificModelFiling(text);
-  if (isRegulatoryNotice(story, text) && !isSpecificModelFiling(text) && !isSpecificModelSpy(text)) return false;
-  if (isMarketStats(text) && !launch) return false;
-  return launch;
+  if (story?.evidenceStatus === 'government' && !isSpecificModelFiling(text) && !isSpecificModelSpy(text)) return false;
+  return isStrictNewCar(text);
 }
 function eventKey(article, note) {
   if (note.eventKey) return note.eventKey;
@@ -806,9 +864,17 @@ export function buildReports(articles, notes, now = new Date()) {
       reviewQueue.push({ title: article.title, sourceName: article.sourceName, url: article.url, reasons: ['摘要只剩导语或电头'] });
       continue;
     }
-    const lead = `${editorialTitle} ${summary}`;
+    const title = normalizeRelativeTime(editorialTitle, issueDate);
+    const cardIsNew = isNewCarHighlight({ title, summary, evidenceStatus: article.evidenceStatus });
+    if (cardIsNew) {
+      if (!tags.includes('新车')) tags.unshift('新车');
+    } else {
+      const kept = tags.filter(tag => tag !== '新车');
+      if (article.evidenceStatus !== 'government' && isPolicyNotice(`${title} ${summary}`) && !kept.includes('政策')) kept.push('政策', '行业');
+      tags.splice(0, tags.length, ...(kept.length ? kept : ['品牌动态']));
+    }
     const story = {
-      id, tags, title: normalizeRelativeTime(editorialTitle, issueDate),
+      id, tags, title,
       summary,
       detail: details.join('\n\n'),
       details,
