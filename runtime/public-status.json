@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-09-18T04:59:53.853Z",
+  "completedAt": "2026-10-12T02:48:00.406Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -18,8 +18,8 @@
         "比亚迪",
         "腾势"
       ],
-      "status": "failed",
-      "label": "读取异常"
+      "status": "no-recent-updates",
+      "label": "列表可读 · 最近发布 2026-10-01"
     },
     {
       "id": "li-auto-news",
@@ -64,7 +64,7 @@
         "阿维塔"
       ],
       "status": "ok",
-      "label": "已读 87 条"
+      "label": "已读 88 条"
     },
     {
       "id": "zeekr-info",
@@ -154,7 +154,7 @@
       "name": "工业和信息化部",
       "brands": [],
       "status": "ok",
-      "label": "已读 2 条"
+      "label": "已读 1 条"
     },
     {
       "id": "byd-weibo",
@@ -296,7 +296,7 @@
       "name": "汽车之家资讯",
       "brands": [],
       "status": "ok",
-      "label": "已读 19 条"
+      "label": "已读 30 条"
     },
     {
       "id": "autohome-industry",
@@ -309,8 +309,8 @@
       "id": "dongchedi-news",
       "name": "懂车帝资讯",
       "brands": [],
-      "status": "failed",
-      "label": "读取异常"
+      "status": "partial",
+      "label": "已读 46 条 · 读取范围有限"
     },
     {
       "id": "sina-auto",

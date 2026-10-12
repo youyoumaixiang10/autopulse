@@ -1,148 +1,90 @@
 {
-  "collectedAt": "2026-09-18T04:56:20.182Z",
+  "collectedAt": "2026-10-12T02:42:43.256Z",
   "discoveryVersion": 7,
+  "providerStatus": "skipped",
+  "reason": "日报默认不调用 OpenAI。线索来自官网、媒体列表和必应搜索，标题使用本地规则。",
   "targetDates": [
-    "2026-09-17",
-    "2026-09-18"
+    "2026-10-11",
+    "2026-10-12"
   ],
-  "providerStatus": "partial",
-  "fatalReason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}",
-  "model": "gpt-5.5",
-  "queryRuns": [
+  "jobs": [
     {
-      "id": "brand:零跑",
-      "brand": "零跑",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
-    },
-    {
-      "id": "brand:蔚来",
-      "brand": "蔚来",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "id": "brand:鸿蒙智行",
+      "brand": "鸿蒙智行"
     },
     {
       "id": "brand:比亚迪",
-      "brand": "比亚迪",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "brand": "比亚迪"
     },
     {
-      "id": "brand:理想",
-      "brand": "理想",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "id": "brand:零跑",
+      "brand": "零跑"
     },
     {
-      "id": "brand:鸿蒙智行",
-      "brand": "鸿蒙智行",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "id": "brand:蔚来",
+      "brand": "蔚来"
     },
     {
       "id": "brand:乐道",
-      "brand": "乐道",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI Web Search HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+      "brand": "乐道"
+    },
+    {
+      "id": "brand:理想",
+      "brand": "理想"
     },
     {
       "id": "brand:极氪",
-      "brand": "极氪",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": "极氪"
     },
     {
       "id": "brand:小米",
-      "brand": "小米",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": "小米"
     },
     {
       "id": "brand:岚图",
-      "brand": "岚图",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": "岚图"
     },
     {
       "id": "brand:阿维塔",
-      "brand": "阿维塔",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": "阿维塔"
     },
     {
       "id": "brand:深蓝",
-      "brand": "深蓝",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": "深蓝"
     },
     {
       "id": "brand:腾势",
-      "brand": "腾势",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": "腾势"
     },
     {
       "id": "brand:吉利银河",
-      "brand": "吉利银河",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": "吉利银河"
     },
     {
       "id": "brand:特斯拉",
-      "brand": "特斯拉",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": "特斯拉"
     },
     {
       "id": "brand:启源",
-      "brand": "启源",
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": "启源"
     },
     {
       "id": "media-sweep:1",
-      "brand": null,
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": null
     },
     {
       "id": "media-sweep:2",
-      "brand": null,
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": null
     },
     {
       "id": "media-sweep:3",
-      "brand": null,
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": null
     },
     {
       "id": "industry",
-      "brand": null,
-      "status": "failed",
-      "sourceCount": 0,
-      "reason": "OpenAI API 余额不足，本轮未继续请求"
+      "brand": null
     }
   ],
-  "candidates": [],
-  "publicationRule": "网页检索仅用于发现原文；原文发布日期、正文与来源通过后才进入日报。"
+  "queryRuns": [],
+  "candidates": []
 }

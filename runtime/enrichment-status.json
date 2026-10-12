@@ -1,6 +1,82 @@
 {
-  "completedAt": "2026-09-18T04:59:50.190Z",
-  "fetched": 179,
-  "cached": 253,
-  "failures": []
+  "completedAt": "2026-10-12T02:47:59.970Z",
+  "fetched": 215,
+  "cached": 241,
+  "failures": [
+    {
+      "sourceId": "miit",
+      "url": "https://www.miit.gov.cn/zwgk/zcjd/art/2026/art_33c08c037fd54a5a8aa69a9b1014c799.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317071.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317045.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317101.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317114.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317108.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317104.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317135.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317163.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317186.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317218.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317215.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317251.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202610/1317635.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202610/1317602.html",
+      "reason": "The operation was aborted due to timeout"
+    }
+  ]
 }

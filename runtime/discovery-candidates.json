@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-18T04:56:17.771Z",
+  "collectedAt": "2026-10-12T02:42:43.202Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -1215,6 +1215,596 @@
         "鸿蒙智行"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "阿维塔T09全球首发 乾崑ADS 5+太行底盘加持 9系旗舰新标杆",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317691.html",
+      "candidateBrands": [
+        "阿维塔"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪大汉/大众ID.ERA 8X等 2026年第42周(10.12-10.18)新车预告",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317688.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "尊界：踏板升级方案预计于10月底确认，11月起陆续启动升级",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317690.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "工信部：汽车创新设计迎新规 禁全隐藏门把手 行车禁用旋转座椅",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317685.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026款理想i6实车亮相 将于10月28日正式上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317684.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "限时16.98万起 吉利银河战舰700上市 最高续航1770km 可漂浮脱困",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317681.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "权益后售11.69万起/新增激昂红配色 2027款启源A06正式上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317672.html",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪副总裁李柯：五年内赶超丰田和大众 成为全球第一车企",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317671.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "未来有望完成工厂汽车生产工作 比亚迪人形机器人外观专利公布",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317666.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "交付超35.8万辆 新能源占比超60% 通用汽车第三季度中国市场销量",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317664.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "特斯拉9月国内销量64837台 环比增长29.5% 上海工厂交付95336台",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317663.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "黑科技“电动风扇汽车” 特斯拉新专利曝光 有望首搭全新Roadster",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317660.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "9月销量快报：鸿蒙智行/小米未进前三 两品牌低调步入第一梯队",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317657.html",
+      "candidateBrands": [
+        "鸿蒙智行",
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售11.49万起/搭车载AI BOX 2027款深蓝L06及深蓝L06追风版上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317656.html",
+      "candidateBrands": [
+        "深蓝"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "限时权益价13.59万元起 长安启源Q06新增宁德时代电池选装",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317654.html",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "Alpine PS1概念车领衔 Alpine 2026巴黎车展阵容揭晓",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317652.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "与概念车大不相同？疑似比亚迪海洋网MPV谍照 有望年底上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317649.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026款理想i6将于10月28日上市 新车官图发布 李想：六大升级",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317648.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "新增青柠绿配色/尺寸全面升级 全新比亚迪海鸥正式开启盲订",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317644.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "开盘即跌停 江淮汽车连续两日跌停 尊界：制动系统高于国家标准",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317642.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "将于10月10日上市/新增激昂红配色 2027款长安启源A06官图发布",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317640.html",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "吉利银河战舰700将于10月10日上市 预售19.98万起 最高续航1770km",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317638.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "刚刚 尊界回应刹车踏板支架断裂：高于国标，将进一步优化设计",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317639.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小米澎程首销月锁单超过70000台！包含N70和N90两款车型！",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317636.html",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "星越L插电混动版领衔 吉利汽车巴黎车展阵容曝光 共四款车型",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317635.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "岚图多款车型将迎OTA升级！支持智控灵动旋钮！分享使用体验有礼",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317633.html",
+      "candidateBrands": [
+        "岚图"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "四季度内上市/换装连屏设计 全新一代比亚迪唐内饰官图发布",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317631.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪开拓新赛道 全民享“尊” 一文看懂大汉 入门款续航1008km",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317602.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "阿维塔T09/吉利银河战舰700等 2026年第41周(10.5-10.11)新车预告",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317574.html",
+      "candidateBrands": [
+        "阿维塔",
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "停产36年经典复活 雪铁龙2CV纯电预告图 将于巴黎车展正式亮相",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317592.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "岚图追光S超详细静态体验",
+      "url": "https://www.dongchedi.com/video/7695251547420426814",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "岚图"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "智界V9为何如此受欢迎？",
+      "url": "https://www.dongchedi.com/video/7693914728103952920",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "智界V9试驾体验",
+      "url": "https://www.dongchedi.com/video/7693860032697795097",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "不到15万起启源Q06",
+      "url": "https://www.dongchedi.com/video/7693004750312473150",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "体验蔚来ES8舒适领航",
+      "url": "https://www.dongchedi.com/video/7695247653231133209",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "智界V9适合全家人的MPV",
+      "url": "https://www.dongchedi.com/video/7693927030702211609",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "实拍智界R7焕新款",
+      "url": "https://www.dongchedi.com/video/7693912971952636440",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "享界G9全能战士",
+      "url": "https://www.dongchedi.com/video/7693912410285408792",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "全新的启源Q05卖脱销",
+      "url": "https://www.dongchedi.com/video/7692819844580442686",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "探店智界R7焕新款",
+      "url": "https://www.dongchedi.com/video/7692791037412180504",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "腾势Z9S保姆级配置解析",
+      "url": "https://www.dongchedi.com/video/7692757862711738942",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "解析零跑 Lafa5",
+      "url": "https://www.dongchedi.com/video/7693342115233219134",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "全新银河E5试驾体验",
+      "url": "https://www.dongchedi.com/video/7692838464693584446",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "试驾吉利银河TT",
+      "url": "https://www.dongchedi.com/video/7692756477228270105",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -1222,7 +1812,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 19
+      "count": 30
     },
     {
       "sourceId": "autohome-industry",
@@ -1232,11 +1822,11 @@
     },
     {
       "sourceId": "dongchedi-news",
-      "status": "failed",
-      "collectedAt": "2026-09-18T04:56:06.357Z",
+      "status": "partial",
+      "collectedAt": "2026-10-12T02:42:31.557Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 0,
-      "reason": "懂车帝首页缺少公开列表数据"
+      "candidateCount": 46,
+      "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
   "publicationRule": "原文、发布日期与作者校验后，可标注为媒体报道；缺少正文、日期或出处的线索留在待核实队列。"

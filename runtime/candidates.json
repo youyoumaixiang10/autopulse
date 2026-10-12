@@ -1,6 +1,6 @@
 {
-  "collectedAt": "2026-09-18T04:56:06.281Z",
-  "cutoffDate": "2026-08-04",
+  "collectedAt": "2026-10-12T02:42:31.482Z",
+  "cutoffDate": "2026-08-28",
   "candidates": [
     {
       "sourceId": "avatr-news",
@@ -25,30 +25,6 @@
       "title": "新一代理想MEGA正式上市，售价50.98万元 展车现已进店，欢迎试驾体验",
       "publishedAt": "2026-09-02",
       "url": "https://www.lixiang.com/news/186.html"
-    },
-    {
-      "sourceId": "avatr-news",
-      "sourceName": "阿维塔新闻中心",
-      "sourceType": "official",
-      "title": "阿维塔向华为累计交付超5000台，首批阿维塔07L完成交车",
-      "publishedAt": "2026-08-17",
-      "url": "https://www.avatr.com/news?newsChId=ad34885997b03a00438165b57e368494&newsEngId="
-    },
-    {
-      "sourceId": "avatr-news",
-      "sourceName": "阿维塔新闻中心",
-      "sourceType": "official",
-      "title": "阿维塔07L上市22.99万元起，全球品牌代言人张凌赫亮相发布会",
-      "publishedAt": "2026-08-08",
-      "url": "https://www.avatr.com/news?newsChId=812b7a3199830b51fe5b800aff1a18a2&newsEngId="
-    },
-    {
-      "sourceId": "miit",
-      "sourceName": "工业和信息化部",
-      "sourceType": "government",
-      "title": "关于公开征求《面向车路协同的车云通信安全技术要求》等50项通信行业标准报批意见的公示",
-      "publishedAt": "2026-08-12",
-      "url": "https://www.miit.gov.cn/zwgk/wjgs/art/2026/art_b0a47da6ba974951836931fc57433e92.html"
     },
     {
       "sourceId": "miit",
@@ -105,25 +81,6 @@
       "sourceId": "denza-weibo",
       "sourceName": "腾势汽车官方微博",
       "sourceType": "official-social",
-      "title": "#全新腾势Z9GT#有何魅力，让斯诺克世界冠军@赵心童呀 直呼惊讶？冠军们的相遇，定格追求极致的共鸣时刻。#冠军座驾全新腾势Z9GT#陪伴心童一起从容奔赴赛场，斩获更多荣光！ 腾势汽车的微博视频",
-      "url": "https://weibo.com/2664689831/Re8aydQrB",
-      "publishedAt": "2026-08-19",
-      "publishedTime": "2026-08-19T17:31:00+08:00",
-      "authorVerified": true,
-      "authorId": "2664689831",
-      "authorName": "腾势汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "#全新腾势Z9GT#有何魅力，让斯诺克世界冠军@赵心童呀 直呼惊讶？冠军们的相遇，定格追求极致的共鸣时刻。#冠军座驾全新腾势Z9GT#陪伴心童一起从容奔赴赛场，斩获更多荣光！ 腾势汽车的微博视频"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/2664689831"
-    },
-    {
-      "sourceId": "denza-weibo",
-      "sourceName": "腾势汽车官方微博",
-      "sourceType": "official-social",
       "title": "那些年，老师的超能力",
       "url": "https://weibo.com/2664689831/RhtzaiFNI",
       "publishedAt": "2026-09-10",
@@ -137,82 +94,6 @@
       ],
       "contentComplete": true,
       "contentScope": "post-text"
-    },
-    {
-      "sourceId": "byd-weibo",
-      "sourceName": "比亚迪汽车官方微博",
-      "sourceType": "official-social",
-      "title": "#万站聚能闪充中国# 比亚迪第10000座闪充站落成仪式将于8月28日9:00正式开始。「闪充中国」战略迎来关键里程碑，邀您共同见证！  比亚迪汽车的微博视频 比亚迪第10000座闪充站落成仪式",
-      "url": "https://weibo.com/1746221281/RfjOY3gBo",
-      "publishedAt": "2026-08-27",
-      "publishedTime": "2026-08-27T13:01:00+08:00",
-      "authorVerified": true,
-      "authorId": "1746221281",
-      "authorName": "比亚迪汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "#万站聚能闪充中国# 比亚迪第10000座闪充站落成仪式将于8月28日9:00正式开始。「闪充中国」战略迎来关键里程碑，邀您共同见证！  比亚迪汽车的微博视频 比亚迪第10000座闪充站落成仪式"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/bydauto"
-    },
-    {
-      "sourceId": "byd-weibo",
-      "sourceName": "比亚迪汽车官方微博",
-      "sourceType": "official-social",
-      "title": "#比亚迪天神之眼的救驾瞬间#第四期征集",
-      "url": "https://weibo.com/1746221281/Rdknafarh",
-      "publishedAt": "2026-08-14",
-      "publishedTime": "2026-08-14T10:44:00+08:00",
-      "authorVerified": true,
-      "authorId": "1746221281",
-      "authorName": "比亚迪汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "#比亚迪天神之眼的救驾瞬间#第四期征集\n技术有实力，才敢真兜底\n比亚迪率先为智能泊车、城市领航双兜底\n邀您分享安心体验，赢取积分、京东卡\n我们坚信#安全是电动车最大的豪华#"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/bydauto"
-    },
-    {
-      "sourceId": "leapmotor-weibo",
-      "sourceName": "零跑汽车官方微博",
-      "sourceType": "official-social",
-      "title": "零跑A05正式上市",
-      "url": "https://weibo.com/5872290888/RcVpGCqRU",
-      "publishedAt": "2026-08-11",
-      "publishedTime": "2026-08-11T19:12:00+08:00",
-      "authorVerified": true,
-      "authorId": "5872290888",
-      "authorName": "零跑汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "零跑A05正式上市\n“A级优等生”基因有多强？一篇速览核心亮点👇\n超A颜值 | 灵动时尚设计，一眼出彩\n灵动驾趣 | 精准操控+510km超长续航，轻松驾驭每一程\n百变座舱 | 舒适空间+智慧互联，解锁N种生活场景\n安心防护 | 主被动安全全方位硬核配备，每次出行都安全感满满\n#零跑A05#6.39万元起，解锁有我都灵的出行体验\n限时享至高价值10680元权益+2年0息+四项终身免费质保🎁\n#天生懂你有我都灵##西湖边热爱A05的你#"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://www.weibo.com/u/5872290888"
-    },
-    {
-      "sourceId": "leapmotor-weibo",
-      "sourceName": "零跑汽车官方微博",
-      "sourceType": "official-social",
-      "title": "6.39万元起，零跑A05正式上市",
-      "url": "https://weibo.com/5872290888/RcVnd4S7p",
-      "publishedAt": "2026-08-11",
-      "publishedTime": "2026-08-11T19:06:00+08:00",
-      "authorVerified": true,
-      "authorId": "5872290888",
-      "authorName": "零跑汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "6.39万元起，零跑A05正式上市\n限时享至高价值10680元权益+2年0息+四项终身免费质保\n好看 | 流畅型面、超A侧颜、七大全球自然色、“嘻嘻哈哈”情绪灯组，出场即焦点\n好开 | 激光雷达+高通8650高性能芯片、高效油冷电驱、510km超长CLTC续航、车位到车位领航辅助，灵动好驾驭\n好玩 | 88.4%超高得房率、百变座椅场景、高通8295座舱芯片、领先AI语音大模型，趣味多多\n好安心 | 全速域、全向主动AEB紧急制动辅助，9横7纵4强环高强度笼式车身，CTC 2.0 Plus电池底盘一体化，硬核守护\n#零跑A05#懂你所想的默契拍档，陪你开启美好生活\n欢迎下定，一起解锁灵动出行的更多可能\n#天生懂你有我都灵##西湖边热爱A05的你#"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://www.weibo.com/u/5872290888"
     },
     {
       "sourceId": "onvo-weibo",
@@ -285,25 +166,6 @@
       ],
       "contentComplete": true,
       "contentScope": "post-text"
-    },
-    {
-      "sourceId": "voyah-weibo",
-      "sourceName": "岚图汽车官方微博",
-      "sourceType": "official-social",
-      "title": "因为真实，无惧质疑",
-      "url": "https://weibo.com/7351024207/Rdw3WjaLc",
-      "publishedAt": "2026-08-15",
-      "publishedTime": "2026-08-15T16:30:00+08:00",
-      "authorVerified": true,
-      "authorId": "7351024207",
-      "authorName": "岚图汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "因为真实，无惧质疑\n#岚图追光S# 360°隧道穿越\n多角度实录+一镜到底，独家放映！\n#第一视角见证国产科技新突破#     岚图汽车的微博视频"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/u/7351024207"
     },
     {
       "sourceId": "avatr-weibo",
@@ -433,44 +295,6 @@
       "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
       "contentParagraphs": [
         "金秋启程🍂满电出发⚡️\n\nModel 3 / Y / Y L\n购车福利，一步到位\n\n✅5年0息：月供低至2460元\n✅1~5年超低息：首付低至4.59万元\n✅选装付费车漆：限时立省8000元\n\n开上全球销冠🏆秋日耀眼出街✨\n\n预约试驾网页链接 \n硬核实力，开一次就知道"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://www.weibo.com/teslaofficial"
-    },
-    {
-      "sourceId": "tesla-weibo",
-      "sourceName": "特斯拉官方微博",
-      "sourceType": "official-social",
-      "title": "中国智造的Model Y🚗",
-      "url": "https://weibo.com/3615027564/Rfkb7ciAV",
-      "publishedAt": "2026-08-27",
-      "publishedTime": "2026-08-27T13:55:00+08:00",
-      "authorVerified": true,
-      "authorId": "3615027564",
-      "authorName": "特斯拉",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "中国智造的Model Y🚗\n成为日本上半年进口车品牌\n单一车型新车销量第一🎉\n\n安全、智能、耐用、省钱⚡️\n猛戳➡️网页链接 预约试驾\n感受全球超1000万车主检验过的硬核实力"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://www.weibo.com/teslaofficial"
-    },
-    {
-      "sourceId": "tesla-weibo",
-      "sourceName": "特斯拉官方微博",
-      "sourceType": "official-social",
-      "title": "当大家谈论特斯拉，到底在谈论什么？",
-      "url": "https://weibo.com/3615027564/ReZOY2rZL",
-      "publishedAt": "2026-08-25",
-      "publishedTime": "2026-08-25T10:06:00+08:00",
-      "authorVerified": true,
-      "authorId": "3615027564",
-      "authorName": "特斯拉",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "当大家谈论特斯拉，到底在谈论什么？\n\n续航🛞、能耗🔋、安全🛡、智能化💻……\n车轮之外，特斯拉的边界不断延伸：\n超充网络拓展电动出行的半径🔌\n储能系统让清洁电力稳定输送⚡️\n现实世界人工智能从交通运输走向更多场景🤖\n制造与回收则继续从源头减少资源消耗♻️\n……\n\n360°了解一个你不熟悉的特斯拉🔍\n看这一篇就够了\n\n关注@特斯拉 并转发本条微博，说说你了解的特斯拉，抽取5位粉丝送出【特斯拉折叠伞】 抽奖详情"
       ],
       "contentComplete": true,
       "contentScope": "post-text",
@@ -703,25 +527,6 @@
       "contentComplete": true,
       "contentScope": "post-text",
       "sourcePageUrl": "https://weibo.com/u/3194397971"
-    },
-    {
-      "sourceId": "hima-weibo",
-      "sourceName": "鸿蒙智行官方微博",
-      "sourceType": "official-social",
-      "title": "鸿蒙智行依托华为终端全流程主导、全栈技术赋能、全生命周期管理，构建研发、技术、质量、服务等全链路体系。仅用53个月，鸿蒙智行全系累计交付量已正式突破150万辆，成为最快达成该交付规模的中国新势力品牌。#鸿蒙智行发布会#",
-      "url": "https://weibo.com/3032210184/RegrD7YJQ",
-      "publishedAt": "2026-08-20",
-      "publishedTime": "2026-08-20T14:35:00+08:00",
-      "authorVerified": true,
-      "authorId": "3032210184",
-      "authorName": "鸿蒙智行",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "鸿蒙智行依托华为终端全流程主导、全栈技术赋能、全生命周期管理，构建研发、技术、质量、服务等全链路体系。仅用53个月，鸿蒙智行全系累计交付量已正式突破150万辆，成为最快达成该交付规模的中国新势力品牌。#鸿蒙智行发布会#"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/u/3032210184"
     },
     {
       "sourceId": "hima-weibo",
@@ -4455,6 +4260,62 @@
       "title": "理想汽车2026年8月交付37,679辆",
       "publishedAt": "2026-09-16",
       "url": "https://www.lixiang.com/news/187.html"
+    },
+    {
+      "sourceId": "li-auto-news",
+      "sourceName": "理想汽车媒体中心",
+      "sourceType": "official",
+      "title": "理想汽车2026年9月交付31,817辆",
+      "publishedAt": "2026-10-01",
+      "url": "https://www.lixiang.com/news/189.html"
+    },
+    {
+      "sourceId": "avatr-news",
+      "sourceName": "阿维塔新闻中心",
+      "sourceType": "official",
+      "title": "阿维塔06T猎装骑士版上市 限时权益后24.69万元",
+      "publishedAt": "2026-09-20",
+      "url": "https://www.avatr.com/news?newsChId=48cf1f33c7c5725dbc3b6d7faa85052d&newsEngId="
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "乐道汽车两年完成20万台交付，持续打造细分市场价值旗舰",
+      "publishedAt": "2026-10-08",
+      "url": "https://www.onvo.cn/news/20261008001"
+    },
+    {
+      "sourceId": "onvo-about",
+      "sourceName": "乐道最新动态",
+      "sourceType": "official",
+      "title": "灵感源自海上生明月，乐道L90推出「星瀚金辉设计套装」",
+      "publishedAt": "2026-09-23",
+      "url": "https://www.onvo.cn/news/20260923001"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "NIO Inc. Delivers a Record High of 300,301 Vehicles in the First Three Quarters, Up 49.2% YoY",
+      "publishedAt": "2026-10-01",
+      "url": "https://www.nio.com/news/20261001001"
+    },
+    {
+      "sourceId": "nio-official",
+      "sourceName": "蔚来新闻中心",
+      "sourceType": "official",
+      "title": "NIO and Geely Enter into Comprehensive Strategic Partnership in Charging and Battery Swapping",
+      "publishedAt": "2026-09-28",
+      "url": "https://www.nio.com/news/20260928001"
+    },
+    {
+      "sourceId": "byd-news",
+      "sourceName": "比亚迪新闻中心",
+      "sourceType": "official",
+      "title": "比亚迪9月销售超46万辆，创年内新高！",
+      "publishedAt": "2026-10-01",
+      "url": "https://prod.byd.com/cn/detail635"
     }
   ],
   "failedSources": [],
@@ -4464,15 +4325,15 @@
       "sourceId": "li-auto-news",
       "status": "ok",
       "count": 21,
-      "latestPublishedAt": "2026-09-16",
+      "latestPublishedAt": "2026-10-01",
       "reason": null
     },
     {
       "url": "https://www.avatr.com/newscenter",
       "sourceId": "avatr-news",
       "status": "ok",
-      "count": 87,
-      "latestPublishedAt": "2026-09-08",
+      "count": 88,
+      "latestPublishedAt": "2026-09-20",
       "reason": null
     },
     {
@@ -4480,15 +4341,15 @@
       "sourceId": "onvo-about",
       "status": "ok",
       "count": 4,
-      "latestPublishedAt": "2026-09-11",
+      "latestPublishedAt": "2026-10-08",
       "reason": null
     },
     {
       "url": "https://www.miit.gov.cn/zwgk/",
       "sourceId": "miit",
       "status": "ok",
-      "count": 2,
-      "latestPublishedAt": "2026-09-10",
+      "count": 1,
+      "latestPublishedAt": "2026-01-16",
       "reason": null
     },
     {
@@ -4496,56 +4357,59 @@
       "sourceId": "nio-official",
       "status": "ok",
       "count": 11,
-      "latestPublishedAt": "2026-09-15",
+      "latestPublishedAt": "2026-10-01",
       "reason": null
     },
     {
       "sourceId": "byd-news",
       "url": "https://prod.byd.com/cn/news",
-      "checkedAt": "2026-09-18T04:52:24.100Z",
-      "status": "failed",
-      "listRead": false,
-      "candidateCount": 0,
-      "error": "The operation was aborted due to timeout"
+      "checkedAt": "2026-10-12T02:39:11.466Z",
+      "status": "no-recent-updates",
+      "listRead": true,
+      "itemCount": 168,
+      "recentCount": 0,
+      "latestPublishedAt": "2026-10-01",
+      "since": "2026-10-05",
+      "pageCount": 4
     },
     {
       "sourceId": "deepal-news",
       "url": "https://deepal.com.cn/news",
-      "checkedAt": "2026-09-18T04:52:24.100Z",
+      "checkedAt": "2026-10-12T02:39:11.466Z",
       "status": "no-recent-updates",
       "listRead": true,
       "itemCount": 47,
       "recentCount": 0,
       "latestPublishedAt": "2026-06-15",
-      "since": "2026-09-11",
+      "since": "2026-10-05",
       "pageCount": 1
     },
     {
       "sourceId": "zeekr-info",
       "url": "https://www.zeekrlife.com/information",
-      "checkedAt": "2026-09-18T04:52:24.100Z",
+      "checkedAt": "2026-10-12T02:39:11.466Z",
       "status": "no-recent-updates",
       "listRead": true,
       "itemCount": 116,
       "recentCount": 0,
       "latestPublishedAt": "2026-05-19",
-      "since": "2026-09-11",
+      "since": "2026-10-05",
       "pageCount": 6
     },
     {
       "sourceId": "leapmotor-news",
       "url": "https://leapmotor.cn/news/news.html",
-      "checkedAt": "2026-09-18T04:52:24.100Z",
+      "checkedAt": "2026-10-12T02:39:11.466Z",
       "status": "partial",
       "listRead": false,
       "candidateCount": 0,
       "publicLabel": "官网新闻列表暂不可读 · 官方微博仍持续采集",
-      "error": "page.evaluate: TypeError: Failed to fetch\n    at eval (eval at <anonymous> (eval at evaluate (:311:30)), <anonymous>:5:28)\n    at eval (eval at <anonymous> (eval at evaluate (:311:30)), <anonymous>:19:3)\n    at eval (eval at evaluate (:311:30), <anonymous>:1:23)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+      "error": "官网页面加载超时"
     },
     {
       "sourceId": "li-auto-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:53:42.814Z",
+      "collectedAt": "2026-10-12T02:40:11.115Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/lixiangzhizao",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4553,7 +4417,7 @@
     {
       "sourceId": "denza-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:53:53.422Z",
+      "collectedAt": "2026-10-12T02:40:22.115Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/2664689831",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4561,7 +4425,7 @@
     {
       "sourceId": "byd-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:54:02.804Z",
+      "collectedAt": "2026-10-12T02:40:31.330Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/bydauto",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4569,7 +4433,7 @@
     {
       "sourceId": "leapmotor-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:54:12.067Z",
+      "collectedAt": "2026-10-12T02:40:40.512Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/u/5872290888",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4577,7 +4441,7 @@
     {
       "sourceId": "nio-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:54:21.452Z",
+      "collectedAt": "2026-10-12T02:40:49.568Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/nextevofficial",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4585,7 +4449,7 @@
     {
       "sourceId": "onvo-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:54:30.693Z",
+      "collectedAt": "2026-10-12T02:40:58.689Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7892483716",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4593,7 +4457,7 @@
     {
       "sourceId": "xiaomi-auto-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:54:40.063Z",
+      "collectedAt": "2026-10-12T02:41:07.866Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7871239944",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4601,7 +4465,7 @@
     {
       "sourceId": "voyah-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:54:49.287Z",
+      "collectedAt": "2026-10-12T02:41:16.957Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7351024207",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4609,7 +4473,7 @@
     {
       "sourceId": "avatr-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:54:59.575Z",
+      "collectedAt": "2026-10-12T02:41:26.704Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/avatr",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4617,7 +4481,7 @@
     {
       "sourceId": "deepal-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:55:09.111Z",
+      "collectedAt": "2026-10-12T02:41:36.059Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/7751244203",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4625,7 +4489,7 @@
     {
       "sourceId": "tesla-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:55:18.443Z",
+      "collectedAt": "2026-10-12T02:41:45.162Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/teslaofficial",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4633,7 +4497,7 @@
     {
       "sourceId": "zeekr-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:55:27.887Z",
+      "collectedAt": "2026-10-12T02:41:54.343Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7576049404",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4641,7 +4505,7 @@
     {
       "sourceId": "galaxy-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:55:37.281Z",
+      "collectedAt": "2026-10-12T02:42:03.503Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7794864065",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4649,7 +4513,7 @@
     {
       "sourceId": "changan-qiyuan-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:55:46.481Z",
+      "collectedAt": "2026-10-12T02:42:12.613Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/3194397971",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
@@ -4657,7 +4521,7 @@
     {
       "sourceId": "hima-weibo",
       "status": "failed",
-      "collectedAt": "2026-09-18T04:55:55.868Z",
+      "collectedAt": "2026-10-12T02:42:21.705Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/3032210184",
       "reason": "当前浏览器未读到官方帖文；可能需要登录或页面未加载"
