@@ -525,6 +525,75 @@ test('xpeng stories are a focused brand group rather than other brands', () => {
   assert.equal(report.brands['小鹏'].length, 1);
   assert.equal(report.otherBrands.length, 0);
 });
+test('weekly preview teasers stay out of highlights and brand cards while a named model launch stays', () => {
+  const issueNow = new Date('2026-10-12T10:00:00+08:00');
+  const preview = record(1, {
+    title: '比亚迪大汉/大众ID.ERA 8X等 2026年第42周(10.12-10.18)新车预告',
+    brands: ['比亚迪'],
+    publishedAt: '2026-10-11',
+    publishedTime: '2026-10-11 20:00:00',
+    contentParagraphs: [
+      '本期内容我们将为大家带来2026年10月12日-10月18日的新车预告。本周将迎来多款重磅新车上市/预售，其中包括比亚迪大汉、上汽大众ID.ERA 8X、捷途旅行者7、吉利星瑞L PLUS、埃安Ray7等。大家可以继续关注我们后续详细的新车内容报道。',
+      '比亚迪大汉EV此前已开启预售，共推出3款配置，预售价区间为24.99-29.99万元。'
+    ]
+  });
+  const launch = record(2, {
+    title: '比亚迪大汉正式开启预售',
+    brands: ['比亚迪'],
+    publishedAt: '2026-10-11',
+    publishedTime: '2026-10-11 18:00:00',
+    contentParagraphs: ['比亚迪大汉正式开启预售，预售价24.99万元起。']
+  });
+  const invite = record(3, {
+    title: '一起来看本周新车',
+    brands: ['理想'],
+    publishedAt: '2026-10-11',
+    publishedTime: '2026-10-11 12:00:00',
+    contentParagraphs: ['一起来看本周新车，本期为您汇总一周新车动态。']
+  });
+  const dated = record(4, {
+    title: '2026年10月12日-10月18日新车预告',
+    brands: ['吉利银河'],
+    publishedAt: '2026-10-11',
+    publishedTime: '2026-10-11 11:00:00',
+    contentParagraphs: ['2026年10月12日-10月18日新车预告。']
+  });
+  const concept = record(5, {
+    title: '雪铁龙正式发布了全新2CV纯电版概念车的官方预告图',
+    brands: ['吉利银河'],
+    publishedAt: '2026-10-11',
+    publishedTime: '2026-10-11 10:00:00',
+    contentParagraphs: ['雪铁龙正式发布了全新2CV纯电版概念车的官方预告图。']
+  });
+  const namedPreview = record(6, {
+    title: '问界M9新车预告',
+    brands: ['鸿蒙智行'],
+    publishedAt: '2026-10-11',
+    publishedTime: '2026-10-11 09:00:00',
+    contentParagraphs: ['问界M9新车预告将于10月20日正式上市，售价待公布。']
+  });
+  const report = buildReports([preview, launch, invite, dated, concept, namedPreview], {}, issueNow).reports['2026-10-12'];
+  const stories = [...report.highlights, ...(report.otherBrands || []), ...Object.values(report.brands).flat()];
+  const titles = stories.map(story => story.title);
+  assert.equal(titles.some(title => /本期内容|第42周|一起来看本周|10月12日-10月18日新车预告|一周新车/.test(title)), false);
+  assert.equal(report.brands['理想'], undefined);
+  assert.equal(report.brands['比亚迪'].some(story => /新车预告|本期内容/.test(`${story.title} ${story.summary}`)), false);
+  assert.equal(report.highlights.some(story => /比亚迪大汉正式开启预售/.test(story.title)), true);
+  assert.ok(titles.some(title => /2CV/.test(title)));
+  assert.ok(titles.some(title => /问界M9/.test(title) && /上市/.test(title)));
+});
+test('a summary that only repeats the title is rewritten from a later factual sentence', () => {
+  const lead = '理想汽车公布新车交付与价格安排，并说明到店安排与价格口径以及后续交付节奏和权益说';
+  const point = '零跑8月全球交付量达103129台，同比增长80.7%，同时公布到店权益、区域配额、金融方案和后续交付节奏';
+  const article = record(1, {
+    title: '理想交付安排',
+    contentParagraphs: [`${lead}。${point}。`]
+  });
+  const story = buildReports([article], {}, now).reports['2026-09-09'].brands['理想'][0];
+  assert.equal(story.title, lead);
+  assert.match(story.summary, /103129台/);
+  assert.notEqual(story.summary.replace(/[。！？!?\s]/gu, ''), lead);
+});
 test('UI escapes imported headline markup and rejects unsafe links', () => {
   assert.equal(escapeHtml('<img src=x onerror="alert(1)">'), '&lt;img src=x onerror=&quot;alert(1)&quot;&gt;');
   assert.equal(safeHref('javascript:alert(1)'), '');
