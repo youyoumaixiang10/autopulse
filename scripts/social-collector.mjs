@@ -8,6 +8,7 @@ export const officialSocialAccounts = [
   { sourceId: 'nio-weibo', sourceName: '蔚来官方微博', name: '蔚来', uid: '5675889356', url: 'https://weibo.com/nextevofficial' },
   { sourceId: 'onvo-weibo', sourceName: '乐道汽车官方微博', name: '乐道汽车', uid: '7892483716', url: 'https://weibo.com/u/7892483716' },
   { sourceId: 'xiaomi-auto-weibo', sourceName: '小米汽车官方微博', name: '小米汽车', uid: '7871239944', url: 'https://weibo.com/u/7871239944' },
+  { sourceId: 'xpeng-weibo', sourceName: '小鹏汽车官方微博', name: '小鹏汽车', uid: '5710264970', url: 'https://weibo.com/u/5710264970' },
   { sourceId: 'voyah-weibo', sourceName: '岚图汽车官方微博', name: '岚图汽车', uid: '7351024207', url: 'https://weibo.com/u/7351024207' },
   { sourceId: 'avatr-weibo', sourceName: '阿维塔官方微博', name: '阿维塔', uid: '7714083748', url: 'https://www.weibo.com/avatr' },
   { sourceId: 'deepal-weibo', sourceName: '深蓝汽车官方微博', name: '深蓝汽车', uid: '7751244203', url: 'https://weibo.com/7751244203' },

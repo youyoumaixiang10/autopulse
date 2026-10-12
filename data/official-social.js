@@ -7,6 +7,7 @@ export const officialSocialCoverage = [
   { brand: '理想', channels: ['微信公众号', '微博', '抖音', '小红书', '品牌 App'], status: 'partial-verified' },
   { brand: '极氪', channels: ['微信公众号', '微博', '抖音', '小红书', '品牌 App'], status: 'partial-verified' },
   { brand: '小米', channels: ['微信公众号', '微博', '抖音', '小红书'], status: 'partial-verified' },
+  { brand: '小鹏', channels: ['微信公众号', '微博', '抖音', '小红书'], status: 'partial-verified' },
   { brand: '岚图', channels: ['微信公众号', '微博', '抖音', '小红书', '品牌 App'], status: 'partial-verified' },
   { brand: '阿维塔', channels: ['微信公众号', '微博', '抖音', '小红书', '品牌 App'], status: 'partial-verified' },
   { brand: '深蓝', channels: ['微信公众号', '微博', '抖音', '小红书', '品牌 App'], status: 'partial-verified' },

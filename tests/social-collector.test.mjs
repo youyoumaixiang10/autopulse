@@ -43,10 +43,10 @@ test('rejects mismatched accounts, missing verification, relative dates, invalid
   assert.deepEqual(parseOfficialSocialPosts(invalid, liAuto), []);
 });
 
-test('has only the fifteen registered official accounts, each with a verified numeric identity', () => {
+test('has only the registered official accounts, each with a verified numeric identity', () => {
   const registered = sourceRegistry.filter(source => source.sourceType === 'official-social');
-  assert.equal(officialSocialAccounts.length, 15);
-  assert.equal(new Set(officialSocialAccounts.map(account => account.uid)).size, 15);
+  assert.equal(officialSocialAccounts.length, 16);
+  assert.equal(new Set(officialSocialAccounts.map(account => account.uid)).size, 16);
   for (const account of officialSocialAccounts) {
     assert.match(account.uid, /^\d+$/);
     assert.equal(registered.find(source => source.id === account.sourceId)?.url, account.url);

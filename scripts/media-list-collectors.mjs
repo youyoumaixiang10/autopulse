@@ -2,8 +2,8 @@ import { load } from 'cheerio';
 import { chinaDate, cleanText, fetchHtml } from './content-utils.mjs';
 import { sourceRegistry } from '../data/sources.js';
 
-const automotiveTitle = /汽车|新车|车展|上市|发布|交付|销量|订单|续航|换电|残值|工信部|蔚来|理想|小米|比亚迪|极氪|问界|鸿蒙|岚图|零跑|腾势|阿维塔|深蓝|银河|启源|乐道|特斯拉|智界|享界|尊界|尚界|方程豹|仰望/u;
-const ithomeAutomotive = /汽车|新车|车展|车企|蔚来|理想汽车|理想\s*[iIL]\d|小米汽车|小米SU|比亚迪|极氪|问界|鸿蒙智行|岚图|零跑|腾势|阿维塔|深蓝|银河|启源|乐道|特斯拉|智界|享界|尊界|尚界|方程豹|仰望|换电|工信部|宁德时代|赛力斯/u;
+const automotiveTitle = /汽车|新车|车展|上市|发布|交付|销量|订单|续航|换电|残值|工信部|蔚来|理想|小米|小鹏|比亚迪|极氪|问界|鸿蒙|岚图|零跑|腾势|阿维塔|深蓝|银河|启源|乐道|特斯拉|智界|享界|尊界|尚界|方程豹|仰望/u;
+const ithomeAutomotive = /汽车|新车|车展|车企|蔚来|理想汽车|理想\s*[iIL]\d|小米汽车|小米SU|小鹏|比亚迪|极氪|问界|鸿蒙智行|岚图|零跑|腾势|阿维塔|深蓝|银河|启源|乐道|特斯拉|智界|享界|尊界|尚界|方程豹|仰望|换电|工信部|宁德时代|赛力斯/u;
 
 export function withinDiscoveryWindow(date, today = chinaDate(), days = 10) {
   if (!date) return true;

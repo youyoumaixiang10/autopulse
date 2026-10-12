@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 import { monitoringCoverage } from '../data/monitoring-coverage.js';
-import { chinaDate, cleanText } from './content-utils.mjs';
+import { chinaDate, cleanText, resolveStoryBrands } from './content-utils.mjs';
 
 const evidenceLabels = { official: '官方发布', government: '政府公告', media: '媒体报道' };
 const order = { government: 0, official: 1, media: 2 };
@@ -39,7 +39,7 @@ function followUp(tags) {
   return '关注这次信息面向的人群、活动节点与后续官方更新。';
 }
 function isEditorialBoilerplate(paragraph) {
-  return /^(?:友情提示|温馨提示|相关阅读|更多精彩内容|点击编辑头像|扫一扫|关注我们)|如果您有(?:新车)?(?:谍照|爆料)/u.test(paragraph);
+  return /^(?:友情提示|温馨提示|相关阅读|更多精彩内容|点击编辑头像|扫一扫|关注我们)|如果您有(?:新车)?(?:谍照|爆料)|版权声明|本文版权|版权所有|免责声明|未经授权|未经允许|严禁转载|转载请联系|特别声明|以上作品内容/u.test(paragraph);
 }
 function usefulSourceParagraphs(article) {
   return (article.contentParagraphs || []).map(cleanText).filter(paragraph => paragraph && !isEditorialBoilerplate(paragraph));
@@ -85,7 +85,7 @@ function socialEventTitle(text) {
   const debut = source.match(/首发\s*((?:[\u4e00-\u9fff]{1,8})?[A-Za-z]{1,4}\d{1,3}[A-Za-z]{0,4}(?:\s*(?:纯电|插混|增程|GT|Ultra|Max))?)/u);
   const agent = source.match(/超级智能体\s*[「“"]?([^」”"\s，。]{2,12})/u);
   if (debut && agent) return `${debut[1]}将首发“${agent[1]}”超级智能体服务`;
-  const model = source.match(/(?:全新)?(鸿蒙智行|理想|小米|蔚来|乐道|比亚迪|零跑|腾势|极氪|岚图|阿维塔|深蓝|启源|吉利银河|特斯拉)\s*((?:[A-Za-z]{1,6}\d{1,3}|TT)(?:\s*(?:GT|Ultra|Max))?)/u);
+  const model = source.match(/(?:全新)?(鸿蒙智行|理想|小米|小鹏|蔚来|乐道|比亚迪|零跑|腾势|极氪|岚图|阿维塔|深蓝|启源|吉利银河|特斯拉)\s*((?:[A-Za-z]{1,6}\d{1,3}|TT)(?:\s*(?:GT|Ultra|Max))?)/u);
   const date = source.match(/(\d{1,2}月\d{1,2}日)(?:\s*(\d{1,2}:\d{2}))?/u);
   if (!model) return '';
   const name = `${model[1]} ${model[2].replace(/\s+/gu, ' ')}`;
@@ -104,27 +104,71 @@ function socialEventTitle(text) {
   if (/上市/u.test(source)) return `${name} 上市节点定于 ${when}`;
   return '';
 }
-function contentTitle(article) {
-  const raw = (article.contentParagraphs || []).map(cleanText).filter(Boolean).join(' ');
-  if (!raw) return '';
-  const source = article.sourceType === 'official-social' ? socialPresentationText(raw) : raw;
-  const teslaOffer = source.match(/特斯拉宣布开启限时优惠活动[\s\S]{0,80}?(\d{1,2}月\d{1,2}日)前下单并提车\s*(Model 3\/Model Y)[\s\S]{0,60}?分别享受(\d+(?:\.\d+)?(?:万)?元)和(\d+(?:\.\d+)?(?:万)?元)优惠/u);
-  if (teslaOffer) return `特斯拉${teslaOffer[2]}限时优惠至${teslaOffer[1]}，最高优惠${teslaOffer[4]}`;
-  if (/丝路驾行挑战/u.test(source) && /(?:签约|合作签约)/u.test(source)) {
-    const vehicleCount = source.match(/(?:提供|将提供)\s*(\d+)台车/u)?.[1];
-    return `蔚来签约2026丝路驾行挑战${vehicleCount ? `，将提供${vehicleCount}台车及技术支持` : ''}`;
-  }
-  const candidates = source.split(/[。！？!?]/u).map(cleanText)
+const summaryBudget = 92;
+const factCue = /上市|发布|发布会|预售|交付|销量|营收|利润|亏损|财报|优惠|降价|价格|万元|召回|申报|亮相|首秀|官宣|谍照|展出|开售/u;
+function selectedBodyText(article) {
+  const paragraphs = usefulSourceParagraphs(article).slice(0, 3);
+  const text = paragraphs.join(' ');
+  return article.sourceType === 'official-social' ? socialPresentationText(text) : text;
+}
+function bodySentences(article) {
+  return selectedBodyText(article).split(/[。！？!?]/u).map(cleanText)
     .filter(sentence => sentence.length >= 8 && !/免责声明|版权|扫一扫|关注我们/u.test(sentence));
-  let title = candidates.map((sentence, index) => ({
-    sentence,
-    score: (/(?:上市|发布|发布会|预售|车展|价格|交付|合作|签约|回应|推出|上线|展示|举办|宣布|优惠|降价)/u.test(sentence) ? 2 : 0)
-      + (article.brands || []).reduce((score, brand) => score + (sentence.includes(brand) ? 2 : 0), 0)
-      - index * 0.1
-  })).sort((a, b) => b.score - a.score)[0]?.sentence || '';
-  title = title
+}
+function clipAtBoundary(text, budget = summaryBudget) {
+  const value = cleanText(text);
+  if (!value) return '';
+  if (value.length <= budget) return value;
+  const pieces = value.match(/[^。！？!?]+[。！？!?]?/gu) || [value];
+  let acc = '';
+  for (const piece of pieces) {
+    const next = acc + piece;
+    if (next.length <= budget) { acc = next; continue; }
+    if (!acc && piece.length <= budget + 18 && /[。！？!?]$/u.test(piece)) return piece;
+    if (acc && next.length <= budget + 18 && /[。！？!?]$/u.test(piece)) return next;
+    break;
+  }
+  if (acc && /[。！？!?]$/u.test(acc)) return acc;
+  const head = value.slice(0, budget);
+  const clause = Math.max(head.lastIndexOf('，'), head.lastIndexOf('；'), head.lastIndexOf('、'));
+  if (clause >= Math.floor(budget * 0.6)) return `${head.slice(0, clause)}…`;
+  const near = value.slice(budget).search(/[。！？!?，；、]/u);
+  if (near >= 0 && near <= 12) {
+    const end = budget + near;
+    return /[。！？!?]/.test(value[end]) ? value.slice(0, end + 1) : `${value.slice(0, end)}…`;
+  }
+  return acc ? `${acc}…` : `${head}…`;
+}
+function normalizeRelativeTime(text, issueDate) {
+  if (!text || !/^\d{4}-\d{2}-\d{2}$/u.test(issueDate || '')) return text;
+  const year = Number(issueDate.slice(0, 4));
+  const issueMonth = Number(issueDate.slice(5, 7));
+  return text.replace(/今年(\d{1,2})月/gu, (full, month) => {
+    const value = Number(month);
+    if (value < 1 || value > 12 || Math.abs(value - issueMonth) < 2) return full;
+    return `${year}年${value}月`;
+  });
+}
+function datedMonths(text, issueDate) {
+  const year = Number(issueDate.slice(0, 4));
+  const found = [];
+  for (const match of String(text || '').matchAll(/(?:(20\d{2})年)?(?:今年)?(\d{1,2})月/gu)) {
+    const month = Number(match[2]);
+    if (month < 1 || month > 12) continue;
+    found.push((match[1] ? Number(match[1]) : year) * 12 + month);
+  }
+  return found;
+}
+function staleHook(text, issueDate) {
+  const months = datedMonths(text, issueDate);
+  if (!months.length || !/^\d{4}-\d{2}-\d{2}$/u.test(issueDate || '')) return false;
+  const issue = Number(issueDate.slice(0, 4)) * 12 + Number(issueDate.slice(5, 7));
+  return months.every(month => Math.abs(month - issue) >= 2);
+}
+function polishSentence(sentence) {
+  return cleanText(sentence)
     .replace(/^媒体报道[：:]\s*/u, '')
-    .replace(/^(?:IT之家|快科技|观点网(?:讯)?|财联社|网通社|新浪汽车|凤凰网汽车|汽车之家|懂车帝|易车网)\s*(?:\d{1,2}月\d{1,2}日)?(?:消息|电|讯)?[，,:：\s]*/u, '')
+    .replace(/^(?:IT之家|快科技|观点网(?:讯)?|财联社|网通社|新浪汽车|凤凰网汽车|汽车之家|懂车帝|易车网|盖世汽车|网易汽车)\s*(?:\d{1,2}月\d{1,2}日)?(?:消息|电|讯)?[，,:：\s]*/u, '')
     .replace(/^(?:20\d{2}年)?\s*\d{1,2}\s*月\s*\d{1,2}\s*日(?:\s*(?:消息|电|讯))?[，,:：\s]*/u, '')
     .replace(/^【[^】]{1,80}】(?:财联社)?\s*\d{1,2}月\d{1,2}日电[，,:：\s]*/u, '')
     .replace(/^财联社记者从知情人士处获悉[，,:：\s]*/u, '')
@@ -134,21 +178,59 @@ function contentTitle(article) {
     .replace(/的?最新谍照$/u, '谍照曝光')
     .replace(/终于(?:正式)?官宣了?/u, '官宣')
     .replace(/将会在当地时间/u, '将于')
-    .replace(/全新\s+Roadster\s+跑车/u, '全新Roadster')
+    .replace(/全新\s+Roadster\s*跑车/u, '全新Roadster')
     .replace(/(\d)\s*月\s*(\d)\s*日/u, '$1月$2日')
     .replace(/晚上发布$/u, '发布')
-    .replace(/，(?:今日|其中|据悉|新车)[\s\S]*$/u, '')
+    .replace(/，(?:今日|据悉)[\s\S]*$/u, '')
     .trim();
-  if (!title || /^(?:原文介绍|报道称)/u.test(title)) return '';
-  if (title.length <= 42) return title;
-  const compact = title.replace(/\s+/gu, '');
-  return compact.length <= 42 ? compact : '';
 }
-function displayTitle(article) {
+function weakTitle(title) {
+  const value = cleanText(title);
+  if (!value || value.length < 8) return true;
+  return /^(?:同时|此外|其中|不过|另外|因此|所以|于是|外观方面|内饰方面|动力方面|配置方面|空间方面|作为了解|作为参考|作为年代|结合此前|据各|从已公开|●|（)/u.test(value)
+    || /汽车之家|(?:文|编译)\//u.test(value);
+}
+function usablePolishedTitle(sentence) {
+  const title = polishSentence(sentence);
+  if (!title || weakTitle(title) || /^(?:原文介绍|报道称)/u.test(title)) return '';
+  const compact = title.length <= 42 ? title : title.replace(/\s+/gu, '');
+  return compact.length <= 42 && !titleQualityIssues(compact).length ? compact : '';
+}
+function leadSentences(article) {
+  const paragraphs = usefulSourceParagraphs(article);
+  const text = article.sourceType === 'official-social'
+    ? socialPresentationText(paragraphs.slice(0, 3).join(' '))
+    : (paragraphs[0] || '');
+  return text.split(/[。！？!?]/u).map(cleanText)
+    .filter(sentence => sentence.length >= 8 && !/免责声明|版权|扫一扫|关注我们|汽车之家|^（(?:文|编译)/u.test(sentence));
+}
+function contentTitle(article) {
+  const source = selectedBodyText(article);
+  if (!source) return '';
+  const teslaOffer = source.match(/特斯拉宣布开启限时优惠活动[\s\S]{0,80}?(\d{1,2}月\d{1,2}日)前下单并提车\s*(Model 3\/Model Y)[\s\S]{0,60}?分别享受(\d+(?:\.\d+)?(?:万)?元)和(\d+(?:\.\d+)?(?:万)?元)优惠/u);
+  if (teslaOffer) return `特斯拉${teslaOffer[2]}限时优惠至${teslaOffer[1]}，最高优惠${teslaOffer[4]}`;
+  if (/丝路驾行挑战/u.test(source) && /(?:签约|合作签约)/u.test(source)) {
+    const vehicleCount = source.match(/(?:提供|将提供)\s*(\d+)台车/u)?.[1];
+    return `蔚来签约2026丝路驾行挑战${vehicleCount ? `，将提供${vehicleCount}台车及技术支持` : ''}`;
+  }
+  const ordered = leadSentences(article);
+  const fact = ordered.find(sentence => factCue.test(sentence));
+  const factTitle = fact ? usablePolishedTitle(fact) : '';
+  if (factTitle) return factTitle;
+  return usablePolishedTitle(ordered[0] || '') || '';
+}
+function alignedHeadline(article) {
+  const headline = factualMediaHeadline(article.title);
+  const lead = selectedBodyText(article) || article.title;
+  if (!headline || weakTitle(headline) || titleQualityIssues(headline).length || !titleAligns(headline, lead)) return '';
+  if (/[？?]|杀入|最贵|竟然|亏\d|别眨眼/u.test(article.title)) return '';
+  return headline;
+}
+function displayTitle(article, issueDate) {
   const sourceText = (article.contentParagraphs || []).filter(Boolean)[0] || article.title;
   if (article.sourceType === 'official-social') {
     const eventTitle = socialEventTitle(sourceText);
-    if (eventTitle) return eventTitle;
+    if (eventTitle) return normalizeRelativeTime(eventTitle, issueDate);
     const lines = String(sourceText).split(/\r?\n/u).map(socialPresentationText).filter(Boolean);
     const qaLine = lines.find(line => /(?:答网友问|用户问答)/u.test(line));
     if (lines[0]?.startsWith('“') && qaLine) {
@@ -156,29 +238,57 @@ function displayTitle(article) {
       if (qaTitle) return qaTitle;
     }
   }
-  return contentTitle(article) || factualMediaHeadline(article.title);
+  const fromBody = contentTitle(article);
+  if (fromBody) return normalizeRelativeTime(fromBody, issueDate);
+  const headline = alignedHeadline(article);
+  if (headline) return normalizeRelativeTime(headline, issueDate);
+  if (leadSentences(article).length || bodySentences(article).length) return '';
+  return '';
 }
-function sourceSummary(article, evidenceLabel) {
-  const sourceText = usefulSourceParagraphs(article).join(' ');
-  const text = article.sourceType === 'official-social' ? socialPresentationText(sourceText || article.title) : sourceText || article.title;
-  const sentences = text.split(/[。！？!?]/u).map(cleanText).filter(sentence => sentence.length >= 8);
-  const picked = sentences.map((sentence, index) => ({
-    sentence,
-    score: (/\d/u.test(sentence) ? 3 : 0)
-      + (/(?:上市|发布|订单|续航|交付|万元|公里|换电|残值|到店|开售|展出|亮相)/u.test(sentence) ? 2 : 0)
-      - index * 0.1
-  })).sort((a, b) => b.score - a.score)[0]?.sentence || text;
-  const clipped = picked.length > 140 ? `${picked.slice(0, 140)}…` : picked;
-  return `${evidenceLabel}：${clipped}（${article.sourceName}）`;
+function titleAligns(title, lead) {
+  const basis = cleanText(lead);
+  const value = cleanText(title);
+  if (!value || !basis) return false;
+  const numbers = [...value.matchAll(/\d+(?:\.\d+)?/gu)].map(match => match[0]).filter(number => number.length >= 2);
+  return numbers.every(number => basis.includes(number));
+}
+function summaryBlocks(article) {
+  const paragraphs = usefulSourceParagraphs(article);
+  if (article.sourceType === 'official-social') return [socialPresentationText(paragraphs.slice(0, 3).join(' '))].filter(Boolean);
+  return paragraphs;
+}
+function supportingBlock(blocks, title) {
+  const numbers = [...cleanText(title).matchAll(/\d+(?:\.\d+)?/gu)].map(match => match[0]).filter(number => number.length >= 2);
+  let best = null;
+  for (const block of blocks) {
+    const hits = numbers.filter(number => block.includes(number)).length;
+    if (hits && (!best || hits > best.hits)) best = { block, hits };
+  }
+  if (best) return best.block;
+  return blocks.find(block => factCue.test(block)) || blocks[0] || '';
+}
+function sourceSummary(article, issueDate, title = '') {
+  const blocks = summaryBlocks(article);
+  const chosen = supportingBlock(blocks, title);
+  const sentences = chosen.split(/[。！？!?]/u).map(cleanText)
+    .filter(sentence => sentence.length >= 8 && !/免责声明|版权|扫一扫|关注我们/u.test(sentence));
+  const opening = [];
+  for (const sentence of sentences) {
+    const next = opening.length ? `${opening.join('。')}。${sentence}。` : `${sentence}。`;
+    if (cleanText(next).length > summaryBudget) break;
+    opening.push(sentence);
+  }
+  const text = opening.length ? `${opening.join('。')}。` : chosen;
+  return normalizeRelativeTime(clipAtBoundary(text), issueDate);
 }
 function leadText(story) {
   const body = String(story.summary || '').replace(/^[^：]{1,12}：/u, '').replace(/（[^（）]{1,24}）\s*$/u, '').trim();
   const text = body && body !== story.title ? `${story.title}。${body}` : story.title;
   return text.length > 180 ? `${text.slice(0, 180)}…` : text;
 }
-function isAutomaticallyImportant(article) {
+function isAutomaticallyImportant(article, brands = article.brands) {
   if (article.evidenceStatus === 'government') return true;
-  if (!article.brands?.length) return false;
+  if (!brands?.length) return false;
   const content = [article.title, ...(article.contentParagraphs || [])]
     .join(' ')
     .replace(/#[^#\n]+#/gu, ' ')
@@ -251,22 +361,23 @@ export function buildReports(articles, notes, now = new Date()) {
     if (issueDate > today) continue;
     const note = notes[article.url] || {};
     if (note.exclude) continue;
-    const editorialTitle = note.title || displayTitle(article);
+    const brands = resolveStoryBrands(article);
+    const editorialTitle = note.title || displayTitle(article, issueDate);
     const titleIssues = titleQualityIssues(editorialTitle);
     if (titleIssues.length) {
       reviewQueue.push({ title: article.title, sourceName: article.sourceName, url: article.url, reasons: [`无法生成符合编辑规范的标题：${titleIssues.join('、')}`] });
       continue;
     }
-    const key = `${issueDate}|${eventKey(article, note)}`;
+    const key = `${issueDate}|${eventKey({ ...article, brands }, note)}`;
     const group = groups.get(key) || [];
-    group.push({ article, note, issueDate, editorialTitle });
+    group.push({ article, note, issueDate, editorialTitle, brands });
     groups.set(key, group);
   }
   const reports = {};
   const launches = [];
   for (const [key, group] of groups) {
     group.sort((a, b) => (order[a.article.evidenceStatus] ?? 9) - (order[b.article.evidenceStatus] ?? 9));
-    const { article, note, issueDate, editorialTitle } = group[0];
+    const { article, note, issueDate, editorialTitle, brands } = group[0];
     const id = `story-${hash(key)}`;
     const classificationText = [article.title, ...(article.contentParagraphs || [])]
       .join(' ')
@@ -274,25 +385,29 @@ export function buildReports(articles, notes, now = new Date()) {
       .slice(0, 420);
     const tags = classify(classificationText, article.evidenceStatus);
     const details = note.details || sourceDetails(article);
+    const summary = note.summary
+      ? normalizeRelativeTime(cleanText(note.summary).replace(/^(?:官方发布|政府公告|媒体报道)[：:]\s*/u, ''), issueDate)
+      : sourceSummary(article, issueDate, editorialTitle);
+    const lead = `${editorialTitle} ${summary}`;
     const story = {
-      id, tags, title: editorialTitle,
-      summary: note.summary || sourceSummary(article, evidenceLabels[article.evidenceStatus]),
+      id, tags, title: normalizeRelativeTime(editorialTitle, issueDate),
+      summary,
       detail: details.join('\n\n'),
       details,
       observation: note.observation || followUp(tags),
       sourceName: article.sourceName, sourceUrl: article.url, publishedAt: article.publishedAt, issueDate,
       publishedTime: article.publishedTime || article.publishedAt,
-      brands: article.brands || [],
+      brands,
       evidenceStatus: article.evidenceStatus, evidenceLabel: evidenceLabels[article.evidenceStatus],
       editorialStatus: note.details ? 'prepared' : 'source-record',
       sourceLinks: group.map(({ article: item }) => ({ name: item.sourceName, url: item.url, publishedAt: item.publishedAt, label: evidenceLabels[item.evidenceStatus] })),
-      important: note.important ?? isAutomaticallyImportant(article)
+      important: note.important ?? (isAutomaticallyImportant(article, brands) && !staleHook(`${editorialTitle} ${summary}`, issueDate))
     };
     const date = issueDate;
     const report = reports[date] ||= { dateLabel: `${date.slice(0, 4)}年${Number(date.slice(5, 7))}月${Number(date.slice(8, 10))}日`, windowLabel: windowLabel(date), highlights: [], brands: {}, otherBrands: [], industry: [], updatedAt: now.toISOString() };
     if (story.important) report.highlights.push(story);
-    if (article.brands?.length) {
-      for (const brand of article.brands) (report.brands[brand] ||= []).push(story);
+    if (brands.length) {
+      for (const brand of brands) (report.brands[brand] ||= []).push(story);
     } else {
       const topicText = `${article.title} ${(article.contentParagraphs || []).join(' ')}`;
       const vehicleTopic = /新车|车型|车展|上市|预售|早鸟|订金|试驾|车身|续航|动力/u.test(topicText);

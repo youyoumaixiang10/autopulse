@@ -1,5 +1,5 @@
 import { sourceRegistry } from '../data/sources.js';
-import { identifyBrands, isIndustryNews, chinaDate, readJson, writeJson } from './content-utils.mjs';
+import { assignReportedBrands, isIndustryNews, chinaDate, readJson, writeJson } from './content-utils.mjs';
 import { extractArticle } from './article-extractor.mjs';
 import { collectBrowserHtml } from './browser-collector.mjs';
 
@@ -18,14 +18,11 @@ function verifiedDiscoveryDate(value) {
   return { publishedAt: match[1], publishedTime: match[2] ? `${match[1]} ${match[2]}` : match[1] };
 }
 function deriveBrands(source, detail) {
-  // A verified brand-owned social account is itself the attribution boundary.
-  // Its posts may mention partner brands or unrelated hashtags, which must not
-  // create extra brand rows in the daily report.
-  if (source.sourceType === 'official-social') return source.brands;
-  // Use the lead paragraphs as well as the headline: a filing roundup may name its
-  // focus brands in the introductory sentence rather than in its headline.
-  const matchedBrands = identifyBrands([detail.title, ...(detail.contentParagraphs || []).slice(0, 2)].join(' '));
-  return source.sourceType === 'vertical-media' ? matchedBrands : matchedBrands.length ? matchedBrands : source.brands.slice(0, 1);
+  // Official accounts stay on the account brand. Vertical stories follow the
+  // lead subject, so a Chery ranking that only compares a focus brand is not
+  // filed under that brand. Filing roundups still match focus brands named in
+  // the headline or the first paragraphs.
+  return assignReportedBrands(source, detail);
 }
 async function loadArticleHtml(url) {
   let lastError;

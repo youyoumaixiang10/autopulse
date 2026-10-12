@@ -16,8 +16,9 @@ test('daily discovery searches both calendar dates covered by the 08:00 issue wi
 });
 test('web discovery runs every focus brand plus source sweeps and industry', () => {
   const jobs = discoveryJobs(new Date('2026-09-14T08:17:00+08:00'));
-  assert.equal(jobs.length, 19);
-  assert.equal(new Set(jobs.filter(job => job.brand).map(job => job.brand)).size, 15);
+  assert.equal(jobs.length, 20);
+  assert.equal(new Set(jobs.filter(job => job.brand).map(job => job.brand)).size, 16);
+  assert.match(jobs.find(job => job.brand === '小鹏').prompt, /小鹏汽车/);
   assert.match(jobs.find(job => job.brand === '鸿蒙智行').prompt, /问界.*智界.*享界.*尊界.*尚界/u);
   assert.match(jobs[0].prompt, /2026-09-13 08:00 至 2026-09-14 08:00/u);
   assert.equal(jobs.filter(job => job.id.startsWith('media-sweep:')).length, 3);
@@ -232,7 +233,8 @@ test('lead bullets cite a verified fact and its source without adding claims', (
   assert.equal(report.leadBullets.length, 1);
   assert.match(report.leadBullets[0].text, /700/);
   assert.equal(report.leadBullets[0].sourceName, '新浪汽车');
-  assert.match(report.brands['理想'][0].summary, /新浪汽车/);
+  assert.match(report.brands['理想'][0].summary, /700/);
+  assert.doesNotMatch(report.brands['理想'][0].summary, /^媒体报道[：:]/u);
 });
 test('source-record details keep enough verified source context to be useful on the detail page', () => {
   const article = record(1, { contentParagraphs: ['第一段包含已经发布的产品和活动信息。', '第二段说明具体日期、价格或适用范围。'] });
@@ -373,6 +375,65 @@ test('calendar status is updated only by a post-launch source for the same model
   assert.equal(changed, 1);
   assert.equal(next.items[0].status, 'launched');
   assert.equal(next.items[0].priceText, '12.99-18.59万元');
+});
+test('card summaries stop on a sentence and skip copyright boilerplate', () => {
+  const article = record(1, {
+    sourceName: '网易汽车',
+    contentParagraphs: [
+      '版权声明：本文版权为网易汽车所有，未经授权禁止转载。',
+      '理想汽车公布新车交付与价格信息，覆盖续航、权益和到店安排。新一代理想L6位列增程市场前三。根据乘联会后续跟踪，下一段不应该被截进摘要，' + '补充说明'.repeat(40)
+    ]
+  });
+  const story = buildReports([article], {}, now).reports['2026-09-09'].brands['理想'][0];
+  assert.equal(story.summary.includes('版权'), false);
+  assert.equal(story.summary.includes('根据乘联会'), false);
+  assert.match(story.summary, /前三。$/u);
+  assert.equal(story.summary.startsWith('媒体报道'), false);
+  assert.ok(story.summary.length <= 110);
+});
+test('a financial lead keeps its own title and a stale March delivery hook is not a highlight', () => {
+  const financial = record(1, {
+    title: '理想汽车2026年中期业绩解读',
+    publishedAt: '2026-10-11', publishedTime: '2026-10-11 09:00',
+    contentParagraphs: [
+      '理想汽车发布2026年第二季度财报，营收257亿元，净亏损12亿元。',
+      '回顾今年3月，理想i6单月交付超过2.4万辆。'
+    ]
+  });
+  const recap = record(2, {
+    title: '理想i6交付回顾',
+    publishedAt: '2026-10-11', publishedTime: '2026-10-11 10:00',
+    contentParagraphs: ['今年3月，理想i6单月交付超过2.4万辆，成为当时的销量焦点。']
+  });
+  const report = buildReports([financial, recap], {}, new Date('2026-10-12T10:00:00+08:00')).reports['2026-10-12'];
+  const earnings = report.brands['理想'].find(story => /257亿元/.test(story.summary));
+  const march = report.brands['理想'].find(story => /2\.4万辆/.test(story.summary));
+  assert.match(earnings.title, /营收257亿元|第二季度财报/);
+  assert.equal(/2\.4万/.test(earnings.title), false);
+  assert.equal(/2\.4万/.test(earnings.summary), false);
+  assert.match(march.title, /2026年3月/);
+  assert.equal(/今年3月/.test(march.title), false);
+  assert.equal(report.highlights.some(story => story.id === march.id), false);
+});
+test('a Chery wholesale ranking is not filed under a focus brand it only compares', () => {
+  const article = record(1, {
+    title: '奇瑞9月批发销量排名公布',
+    brands: ['比亚迪'],
+    contentParagraphs: ['奇瑞9月批发量超过10万辆，比亚迪同期批发量排在其后。']
+  });
+  const report = buildReports([article], {}, now).reports['2026-09-09'];
+  assert.equal(report.brands['比亚迪'], undefined);
+  assert.equal(report.otherBrands.length, 1);
+  assert.match(report.otherBrands[0].summary, /奇瑞/);
+});
+test('xpeng stories are a focused brand group rather than other brands', () => {
+  const article = record(1, {
+    title: '小鹏G9L上市', brands: [], sourceType: 'vertical-media',
+    contentParagraphs: ['小鹏G9L正式上市，售价23.18万元起。']
+  });
+  const report = buildReports([article], {}, now).reports['2026-09-09'];
+  assert.equal(report.brands['小鹏'].length, 1);
+  assert.equal(report.otherBrands.length, 0);
 });
 test('UI escapes imported headline markup and rejects unsafe links', () => {
   assert.equal(escapeHtml('<img src=x onerror="alert(1)">'), '&lt;img src=x onerror=&quot;alert(1)&quot;&gt;');
