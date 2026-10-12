@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildReports, classify, ensureIssueRange, mergeLaunches, reportIssueDate, titleQualityIssues, validateReports } from '../scripts/report-builder.mjs';
+import { buildReports, classify, ensureIssueRange, isNewCarHighlight, mergeLaunches, reportIssueDate, titleQualityIssues, validateReports } from '../scripts/report-builder.mjs';
 import { extractArticle } from '../scripts/article-extractor.mjs';
 import { identifyBrands, issueSearchDates, mentionedMakers } from '../scripts/content-utils.mjs';
 import { escapeHtml, safeHref, sortedDates, monthWindow } from '../data/view-utils.js';
@@ -711,6 +711,45 @@ test('weekly preview teasers stay out of highlights and brand cards while a name
   assert.equal(report.highlights.some(story => /比亚迪大汉正式开启预售/.test(story.title)), true);
   assert.ok(titles.some(title => /2CV/.test(title)));
   assert.ok(titles.some(title => /问界M9/.test(title) && /上市/.test(title)));
+});
+test('new-car highlight cards cover launches, unveilings, and spy shots of a specific model', () => {
+  const card = (title, summary, tags = ['新车'], evidenceStatus = 'media') => ({ title, summary, tags, evidenceStatus });
+  assert.equal(isNewCarHighlight(card('小鹏汽车官宣MONA L05即将登场', '全新车型MONA L05即将登场')), true);
+  assert.equal(isNewCarHighlight(card('阿维塔T09完成全球首秀', '概念版于巴黎完成全球首秀')), true);
+  assert.equal(isNewCarHighlight(card('银河战舰700正式上市', '共推出六大版型')), true);
+  assert.equal(isNewCarHighlight(card('方程豹钛9内饰谍照曝光', '计划四季度上市')), true);
+  assert.equal(isNewCarHighlight(card('2026款理想i6实车首次亮相', '10月28日国内上市', ['新车', '市场'])), true);
+  assert.equal(isNewCarHighlight(card('8系内饰官图曝光', '大五座科技旗舰SUV内饰官图曝光', ['营销传播'])), true);
+  assert.equal(isNewCarHighlight(card('特斯拉官宣新车Roadster将首秀', '新一代Roadster将于10月1日首秀')), true);
+  assert.equal(isNewCarHighlight(card('工信部：汽车创新设计迎新规', '发布征求意见稿，禁止全隐藏门把手', ['新车'])), false);
+  assert.equal(isNewCarHighlight(card('智界R7大定用户画像', '谈及智界R7的大定用户画像', ['新车'])), false);
+  assert.equal(isNewCarHighlight(card('9月销量快报', '鸿蒙智行与小米未进前三', ['新车', '市场'])), false);
+  assert.equal(isNewCarHighlight(card('仰望U9迎来OTA升级', '仰望U9将迎来全新OTA升级推送', ['新车'])), false);
+  assert.equal(isNewCarHighlight(card('理想汽车公布9月交付数据', '交付新车31817辆', ['新车', '市场'])), false);
+  assert.equal(isNewCarHighlight(card('赛力斯与宁德时代签署合作协议', '签署长期战略合作深化协议', ['市场'])), false);
+});
+test('daily highlights place new-car cards first and keep recency inside each group', () => {
+  const items = [
+    record(1, { title: '汽车创新设计迎新规', brands: [], evidenceStatus: 'government', publishedAt: '2026-09-09', publishedTime: '2026-09-09 22:00:00', contentParagraphs: ['工业和信息化部发布汽车设计新规征求意见稿，禁止全隐藏门把手。'] }),
+    record(2, { title: '小鹏汽车官宣MONA L05即将登场', brands: ['小鹏'], publishedAt: '2026-09-09', publishedTime: '2026-09-09 18:00:00', contentParagraphs: ['小鹏汽车官宣MONA L05即将登场，定位大五座SUV。'] }),
+    record(3, { title: '理想汽车公布9月交付数据', brands: ['理想'], publishedAt: '2026-09-09', publishedTime: '2026-09-09 21:00:00', contentParagraphs: ['理想汽车公布9月交付数据，交付新车31817辆。'] }),
+    record(4, { title: '方程豹钛9内饰谍照曝光', brands: ['比亚迪'], publishedAt: '2026-09-09', publishedTime: '2026-09-09 12:00:00', contentParagraphs: ['方程豹钛9内饰谍照曝光，计划四季度上市。'] }),
+    record(5, { title: '仰望U9迎来OTA升级', brands: ['比亚迪'], publishedAt: '2026-09-09', publishedTime: '2026-09-09 23:00:00', contentParagraphs: ['仰望U9将迎来全新OTA升级推送，新增导航播报与哨兵时段。'] }),
+    record(6, { title: '理想i6实车首次亮相', brands: ['理想'], publishedAt: '2026-09-09', publishedTime: '2026-09-09 16:00:00', contentParagraphs: ['理想i6实车首次亮相，并将于10月28日上市。'] }),
+    record(7, { title: '智界R7公布大定用户画像', brands: ['鸿蒙智行'], publishedAt: '2026-09-09', publishedTime: '2026-09-09 19:30:00', contentParagraphs: ['智界R7公布大定用户画像，家庭用户占比92%。'] }),
+    record(8, { title: '阿维塔T09全球首发', brands: ['阿维塔'], publishedAt: '2026-09-09', publishedTime: '2026-09-09 20:00:00', contentParagraphs: ['阿维塔T09在巴黎完成全球首发。'] })
+  ];
+  const notes = Object.fromEntries(items.map(item => [item.url, { important: true }]));
+  const report = buildReports(items, notes, now).reports['2026-09-10'];
+  const titles = report.highlights.map(story => story.title);
+  const newCars = report.highlights.filter(isNewCarHighlight);
+  const rest = report.highlights.filter(story => !isNewCarHighlight(story));
+  assert.deepEqual(report.highlights, [...newCars, ...rest]);
+  const order = [/阿维塔T09/, /MONA L05/, /理想i6/, /钛9/, /OTA/, /征求意见稿/, /交付数据/, /用户画像/];
+  assert.equal(titles.length, order.length);
+  order.forEach((pattern, index) => assert.match(titles[index], pattern));
+  assert.deepEqual(report.brands['理想'].map(story => story.publishedTime), ['2026-09-09 21:00:00', '2026-09-09 16:00:00']);
+  assert.deepEqual(report.brands['比亚迪'].map(story => story.publishedTime), ['2026-09-09 23:00:00', '2026-09-09 12:00:00']);
 });
 test('a summary that only repeats the title is rewritten from a later factual sentence', () => {
   const lead = '理想汽车公布新车交付与价格安排，并说明到店安排与价格口径以及后续交付节奏和权益说';
