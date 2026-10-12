@@ -681,9 +681,95 @@ function titleSimilarity(a, b) {
     sourceSim: titleDice(clusterTitle(mediaPresentationTitle(a.article.title)), clusterTitle(mediaPresentationTitle(b.article.title)))
   };
 }
+function namedReportKey(text) {
+  const value = cleanText(text);
+  const published = value.match(/([\u4e00-\u9fff]{2,12}?)(?:今日|日前|于\d{1,2}月\d{1,2}日)?(?:发布|公布|披露)\s*((?:20\d{2}\s*年\s*)?\d{1,2}\s*月份?[^，。；;]{0,32}?(?:分析报告|市场报告|销量报告|产销快报|产销报告|报告))/u);
+  if (published) {
+    const publisher = /^(?:据|从|由|消息)/u.test(published[1]) ? '' : published[1];
+    return compactText(`${publisher}${published[2]}`);
+  }
+  const named = value.match(/((?:20\d{2}\s*年\s*)?\d{1,2}\s*月份?[^，。；;]{0,24}?全国乘用车[^，。；;]{0,16}?报告)/u);
+  return named ? compactText(named[1]) : '';
+}
+function industryReportKey(entry) {
+  return namedReportKey([entry.editorialTitle, entry.article?.title, (entry.article?.contentParagraphs || [])[0] || ''].join(' '));
+}
+function industrySectionEntry(entry) {
+  return sectionFor(entry.article, entry.brands, entry.editorialTitle) === 'industry';
+}
+function sameIndustryEvent(a, b) {
+  if (a.issueDate !== b.issueDate || !industrySectionEntry(a) || !industrySectionEntry(b)) return false;
+  if (a.note?.eventKey && b.note?.eventKey && a.note.eventKey !== b.note.eventKey) return false;
+  const reportA = industryReportKey(a);
+  const reportB = industryReportKey(b);
+  if (reportA && reportA === reportB) return true;
+  const titleA = clusterTitle(a.editorialTitle);
+  const titleB = clusterTitle(b.editorialTitle);
+  return titleA.length >= 8 && titleA === titleB;
+}
+function reportFacetRank(entry) {
+  const lead = cleanText(`${entry.article?.title || ''} ${(entry.article?.contentParagraphs || [])[0] || ''}`);
+  if (/零售|批发/u.test(lead) && !/出口/u.test(lead)) return 0;
+  if (/出口/u.test(lead)) return 1;
+  return 2;
+}
+function reportFacetPoint(sentence, sharedTitle) {
+  const clauses = polishSentence(sentence).split(/[，,；;]/u).map(cleanText).filter(Boolean);
+  const metric = /零售|批发|出口|销量|渗透率|产量/u;
+  const index = clauses.findIndex(clause => metric.test(clause) && /\d/u.test(clause) && !nearlySameCopy(clause, sharedTitle));
+  if (index === -1) return '';
+  const next = clauses[index + 1] || '';
+  const point = /^同比|^环比/u.test(next) && clauses[index].length + next.length <= 48 ? `${clauses[index]}，${next}` : clauses[index];
+  return nearlySameCopy(point, sharedTitle) ? '' : point;
+}
+function mergedIndustrySummary(group, issueDate, title) {
+  const ordered = group.slice().sort((a, b) => reportFacetRank(a) - reportFacetRank(b) || compareStoryPriority(a, b));
+  const points = [];
+  const seen = new Set();
+  for (const entry of ordered) {
+    for (const sentence of summarySentences(entry.article, true)) {
+      const point = reportFacetPoint(sentence, title);
+      const key = compactText(point);
+      if (!point || !key || seen.has(key)) continue;
+      seen.add(key);
+      points.push(point);
+      break;
+    }
+  }
+  return points.length >= 2 ? packSummary(points, issueDate) : '';
+}
+function mergedIndustryDetails(group) {
+  const ordered = group.slice().sort((a, b) => reportFacetRank(a) - reportFacetRank(b) || compareStoryPriority(a, b));
+  const seen = new Set();
+  const details = [];
+  for (const { article } of ordered) {
+    for (const paragraph of sourceDetails(article)) {
+      const key = compactText(paragraph);
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      details.push(paragraph);
+      if (details.length >= 6) return details;
+    }
+  }
+  return details;
+}
+function sameIndustryCluster(group) {
+  if (group.length < 2 || !group.every(industrySectionEntry)) return false;
+  const reports = group.map(industryReportKey);
+  if (reports.every(Boolean) && new Set(reports).size === 1) return true;
+  return new Set(group.map(entry => clusterTitle(entry.editorialTitle))).size === 1;
+}
+function storyTags(article) {
+  const classificationText = [article.title, ...(article.contentParagraphs || [])]
+    .join(' ')
+    .replace(/#[^#\n]+#/gu, ' ')
+    .slice(0, 420);
+  return classify(classificationText, article.evidenceStatus);
+}
 function samePublishedEvent(a, b) {
   if (a.issueDate !== b.issueDate) return false;
   if (a.note?.eventKey && b.note?.eventKey && a.note.eventKey !== b.note.eventKey) return false;
+  if (sameIndustryEvent(a, b)) return true;
   const sameBrand = (!a.brands.length && !b.brands.length) || a.brands.some(brand => b.brands.includes(brand));
   if (!sameBrand) return false;
   const classA = storyEventClass(a);
@@ -723,6 +809,32 @@ function clusterGroups(groups) {
         const leftEntries = items[indexes[left]][1];
         const rightEntries = items[indexes[right]][1];
         if (leftEntries.some(entry => rightEntries.some(other => samePublishedEvent(entry, other)))) union(indexes[left], indexes[right]);
+      }
+    }
+  }
+  const industryIdentity = new Map();
+  items.forEach(([, entries], index) => {
+    for (const entry of entries) {
+      if (!industrySectionEntry(entry)) continue;
+      const report = industryReportKey(entry);
+      const title = clusterTitle(entry.editorialTitle);
+      const identities = [];
+      if (report) identities.push(`report:${report}`);
+      if (title.length >= 8) identities.push(`title:${title}`);
+      for (const identity of identities) {
+        const id = `${entry.issueDate}|${identity}`;
+        const list = industryIdentity.get(id) || [];
+        if (!list.includes(index)) list.push(index);
+        industryIdentity.set(id, list);
+      }
+    }
+  });
+  for (const indexes of industryIdentity.values()) {
+    for (let left = 0; left < indexes.length; left += 1) {
+      for (let right = left + 1; right < indexes.length; right += 1) {
+        const leftEntries = items[indexes[left]][1];
+        const rightEntries = items[indexes[right]][1];
+        if (leftEntries.some(entry => rightEntries.some(other => sameIndustryEvent(entry, other)))) union(indexes[left], indexes[right]);
       }
     }
   }
@@ -851,15 +963,18 @@ export function buildReports(articles, notes, now = new Date()) {
     const key = cluster.keys.length === 1 ? cluster.keys[0] : cluster.keys.slice().sort().join('||');
     const { article, note, issueDate, editorialTitle, brands } = group[0];
     const id = `story-${hash(key)}`;
-    const classificationText = [article.title, ...(article.contentParagraphs || [])]
-      .join(' ')
-      .replace(/#[^#\n]+#/gu, ' ')
-      .slice(0, 420);
-    const tags = classify(classificationText, article.evidenceStatus);
-    const details = note.details || sourceDetails(article);
+    const mergeIndustryCopy = sameIndustryCluster(group);
+    let tags = storyTags(article);
+    if (mergeIndustryCopy) {
+      const merged = [];
+      for (const entry of group) for (const tag of storyTags(entry.article)) if (!merged.includes(tag)) merged.push(tag);
+      const specific = merged.filter(tag => tag !== '品牌动态');
+      tags = specific.length ? specific : merged;
+    }
+    let details = note.details || (mergeIndustryCopy ? mergedIndustryDetails(group) : sourceDetails(article));
     let summary = note.summary
       ? normalizeRelativeTime(cleanText(note.summary).replace(/^(?:官方发布|政府公告|媒体报道)[：:]\s*/u, ''), issueDate)
-      : sourceSummary(article, issueDate, editorialTitle);
+      : (mergeIndustryCopy ? mergedIndustrySummary(group, issueDate, editorialTitle) : '') || sourceSummary(article, issueDate, editorialTitle);
     if (!summary || isTeaserText(summary)) {
       reviewQueue.push({ title: article.title, sourceName: article.sourceName, url: article.url, reasons: ['摘要只剩导语或电头'] });
       continue;

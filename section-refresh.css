@@ -64,12 +64,13 @@
 /* 03: Industry changes are external signals rather than another news list. */
 .industry-section { margin-top: 42px; }
 .industry-list { gap: 0; border: 1px solid #dfe3e7; background: #fff; }
-.industry-item { position: relative; min-height: 194px; border: 0; border-right: 1px solid #e4e7ea; border-radius: 0; padding: 19px 18px 17px; }
+.industry-item { position: relative; display: flex; flex-direction: column; min-height: 194px; border: 0; border-right: 1px solid #e4e7ea; border-radius: 0; padding: 19px 18px 16px; }
 .industry-item:last-child { border-right: 0; }
 .industry-item::before { content: 'SIGNAL'; display: block; margin-bottom: 13px; color: #234d85; font-size: 9px; font-weight: 650; letter-spacing: .09em; }
 .industry-item .tag-stack { position: absolute; top: 17px; right: 16px; }
 .industry-item h3 { margin-top: 0; font-size: 15px; line-height: 1.45; }
-.industry-item .source-link { position: absolute; bottom: 16px; left: 18px; }
+.industry-item p { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; min-height: 0; }
+.industry-item .source-link { position: static; margin-top: auto; padding-top: 10px; }
 
 @media (max-width: 800px) {
   .lead-card,

@@ -620,6 +620,47 @@ test('a subject-less clause yields to the source headline and stays in the right
   assert.equal(report.otherBrands.find(story => /东风风行/.test(story.title)).title, '东风风行携三款新车亮相2026巴黎车展');
   assert.equal(titles.some(title => /旨在为|盖世汽车承办|从相关渠道获悉/.test(title)), false);
 });
+test('slices of the same industry report merge into one card with retail and export points', () => {
+  const retail = record(1, {
+    title: '乘联分会：9 月全国乘用车市场零售 161.8 万辆同比下降 28%',
+    brands: [],
+    sourceName: 'IT之家',
+    sourceType: 'vertical-media',
+    publishedTime: '2026-09-09 07:50:24',
+    contentParagraphs: [
+      'IT之家 9 月 9 日消息，乘联分会今日发布 2026 年 9 月份全国乘用车市场分析报告，2026 年 9 月全国乘用车市场零售 161.8 万辆，同比下降 28.0%。',
+      '1–9 月乘用车累计零售 1333.4 万辆，同比下降 21.7%。'
+    ]
+  });
+  const exported = record(2, {
+    title: '乘联分会：9 月新能源乘用车出口 55.8 万辆同比增长 163.5%，比亚迪、奇瑞、吉利前三',
+    brands: ['比亚迪'],
+    sourceName: 'IT之家',
+    sourceType: 'vertical-media',
+    publishedTime: '2026-09-09 07:37:07',
+    contentParagraphs: [
+      'IT之家 9 月 9 日消息，乘联分会今日发布 2026 年 9 月份全国乘用车市场分析报告，9 月乘用车出口（含整车与 CKD）91.7 万辆，同比增长 73.7%。',
+      '9 月新能源乘用车出口 55.8 万辆，同比增长 163.5%。'
+    ]
+  });
+  const other = record(3, {
+    title: '工信部发布汽车产品创新设计征求意见稿',
+    brands: [],
+    sourceType: 'vertical-media',
+    contentParagraphs: ['工业和信息化部发布汽车产品创新设计征求意见稿，禁止全隐藏门把手。']
+  });
+  const report = buildReports([retail, exported, other], {}, now).reports['2026-09-09'];
+  const cpca = report.industry.filter(story => /乘联分会/.test(story.title));
+  assert.equal(cpca.length, 1);
+  assert.match(cpca[0].summary, /161\.8/);
+  assert.match(cpca[0].summary, /91\.7/);
+  assert.match(cpca[0].detail, /161\.8/);
+  assert.match(cpca[0].detail, /91\.7/);
+  assert.match(cpca[0].detail, /55\.8/);
+  assert.equal(cpca[0].sourceLinks.length, 2);
+  assert.equal(report.brands['比亚迪'], undefined);
+  assert.ok(report.industry.some(story => /征求意见稿/.test(story.title)));
+});
 test('a quoted opener is replaced by the later factual sentence', () => {
   const article = record(1, {
     title: '车圈“造人”：第二曲线，还是纸面富贵？',
