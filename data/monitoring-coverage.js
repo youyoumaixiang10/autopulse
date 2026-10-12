@@ -9,6 +9,7 @@ export const monitoringCoverage = [
   { brand: '理想', aliases: ['理想汽车', 'Li Auto'], officialSourceIds: ['li-auto-news'], discoverySourceIds },
   { brand: '极氪', aliases: ['极氪', 'ZEEKR'], officialSourceIds: ['zeekr-info'], discoverySourceIds },
   { brand: '小米', aliases: ['小米汽车', '雷军'], officialSourceIds: ['xiaomi-auto'], discoverySourceIds },
+  { brand: '小鹏', aliases: ['小鹏', '小鹏汽车', 'XPeng', '何小鹏'], officialSourceIds: ['xpeng-official'], discoverySourceIds },
   { brand: '岚图', aliases: ['岚图', 'VOYAH'], officialSourceIds: ['voyah-official'], discoverySourceIds },
   { brand: '阿维塔', aliases: ['阿维塔', 'AVATR'], officialSourceIds: ['avatr-news', 'changan-group'], discoverySourceIds },
   { brand: '深蓝', aliases: ['深蓝汽车', 'DEEPAL'], officialSourceIds: ['deepal-news', 'changan-group'], discoverySourceIds },

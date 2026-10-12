@@ -251,7 +251,7 @@
     "sourceName": "新浪汽车",
     "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-inirihny3012822.shtml",
     "reasons": [
-      "无法生成符合编辑规范的标题：标题过长或截断"
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -282,6 +282,14 @@
       "缺少原文发布日期",
       "正文尚未读取成功",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "比Model 3便宜10万 3.8秒破百！吉利银河TT上市：限时12.99万元起",
+    "sourceName": "新浪汽车",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-09-10/doc-inirkiyn2621219.shtml",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -422,25 +430,9 @@
     ]
   },
   {
-    "title": "卫星通信高温无阻，信号必达；位置车况实时上报，救援中心快速响应，无惧信号掉线，安全时刻在线。#享界G9#搭载华为星河通信3.0，用周全的通信保障，护航每一次从容出发、平安抵达。网页链接 鸿蒙智行的微博视频",
-    "sourceName": "鸿蒙智行官方微博",
-    "url": "https://weibo.com/3032210184/RhCcPBgbp",
-    "reasons": [
-      "无法生成符合编辑规范的标题：标题包含来源或载体"
-    ]
-  },
-  {
     "title": "腾势Z小订用户齐聚比亚迪郑州赛车场，驰骋专业赛道，完成赛道竞速、综合绕桩多项严苛驾控科目。",
     "sourceName": "腾势汽车官方微博",
     "url": "https://weibo.com/2664689831/RhrcUsiGI",
-    "reasons": [
-      "无法生成符合编辑规范的标题：缺少标题"
-    ]
-  },
-  {
-    "title": "有想法，有风格，愿意一起跑！#腾势车队#心有热爱，并肩同行🫶#腾势汽车#×势友 共创熊猫GT🐼致敬每一位#腾势Z9GT改裝大师#。感恩热爱相遇，共造专属锋芒🥳【关注＋转发，9月21日，抽1位用户送价值1699腾势Z9GT官方潮改拉花一",
-    "sourceName": "腾势汽车官方微博",
-    "url": "https://weibo.com/2664689831/RgJNainf2",
     "reasons": [
       "无法生成符合编辑规范的标题：缺少标题"
     ]
@@ -515,6 +507,14 @@
     "url": "https://weibo.com/7892483716/Rhqe1nHKV",
     "reasons": [
       "原帖正文未完整读取"
+    ]
+  },
+  {
+    "title": "转发微博",
+    "sourceName": "乐道汽车官方微博",
+    "url": "https://weibo.com/7892483716/Rhj8t5kIW",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -670,6 +670,14 @@
     ]
   },
   {
+    "title": "今晚7点见。 ",
+    "sourceName": "小米汽车官方微博",
+    "url": "https://weibo.com/7871239944/RgZ7JxWYZ",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
     "title": "9月6日 23:30，英超大戏“伦敦德比”即将打响。",
     "sourceName": "小米汽车官方微博",
     "url": "https://weibo.com/7871239944/RgICUjWMy",
@@ -755,6 +763,14 @@
     "url": "https://weibo.com/7351024207/Rg6w5o5DT",
     "reasons": [
       "原帖正文未完整读取"
+    ]
+  },
+  {
+    "title": "追光向上！",
+    "sourceName": "岚图汽车官方微博",
+    "url": "https://weibo.com/7351024207/Rg6aEtWzR",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -1374,6 +1390,14 @@
       "正文尚未读取成功",
       "媒体原创与作者信息待核验",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "售47.98万起 新款问界M9正式开启交付 累计交付超285000台",
+    "sourceName": "汽车之家资讯",
+    "url": "https://www.autohome.com.cn/news/202606/1315011.html?from=m&platform-key=pc",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -2585,6 +2609,14 @@
     ]
   },
   {
+    "title": "比亚迪相关信息",
+    "sourceName": "比亚迪汽车官方微博",
+    "url": "https://weibo.com/2/detail/5335503075282251",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
     "title": "鸿蒙智行相关信息",
     "sourceName": "汽车之家资讯",
     "url": "https://chejiahao.autohome.com.cn/info/26401162",
@@ -2655,6 +2687,14 @@
     ]
   },
   {
+    "title": "比亚迪相关信息",
+    "sourceName": "比亚迪新闻中心",
+    "url": "https://prod.byd.com/cn/detail622",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
     "title": "零跑相关信息",
     "sourceName": "零跑汽车资讯新闻",
     "url": "https://d19-3d.leapmotor.cn/",
@@ -2662,6 +2702,14 @@
       "缺少原文发布日期",
       "正文尚未读取成功",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "零跑相关信息",
+    "sourceName": "零跑汽车官方微博",
+    "url": "https://weibo.com/2/detail/5338355646859675",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -2686,6 +2734,14 @@
   {
     "title": "零跑相关信息",
     "sourceName": "零跑汽车官方微博",
+    "url": "https://weibo.com/2/detail/5335768216371943",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
+    "title": "零跑相关信息",
+    "sourceName": "零跑汽车官方微博",
     "url": "https://weibo.com/2/detail/comos%3Animqccx4423523",
     "reasons": [
       "缺少原文发布日期",
@@ -2704,6 +2760,22 @@
     ]
   },
   {
+    "title": "零跑相关信息",
+    "sourceName": "零跑汽车官方微博",
+    "url": "https://weibo.com/2/detail/comos%3Aniqxchv1067547",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
+    "title": "零跑相关信息",
+    "sourceName": "零跑汽车官方微博",
+    "url": "https://weibo.com/2/detail/5338307731917134",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
     "title": "蔚来相关信息",
     "sourceName": "蔚来新闻中心",
     "url": "https://ir.nio.com/zh-hans/resources/investor-faqs",
@@ -2711,6 +2783,14 @@
       "缺少原文发布日期",
       "正文尚未读取成功",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "蔚来相关信息",
+    "sourceName": "蔚来官方微博",
+    "url": "https://weibo.com/2/detail/5338500515758356",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -2839,6 +2919,14 @@
       "缺少原文发布日期",
       "正文尚未读取成功",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "理想2026新车大爆料：产品大年再临？重回新势力第一，理想亮底牌",
+    "sourceName": "汽车之家资讯",
+    "url": "https://www.autohome.com.cn/news/202601/1311824.html",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -3480,6 +3568,14 @@
   },
   {
     "title": "岚图相关信息",
+    "sourceName": "新浪汽车",
+    "url": "https://auto.sina.com.cn/newcar/2026-05-22/detail-inhyuweh5968451.shtml",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
+    "title": "岚图相关信息",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/6459/0/0-0-1-0/",
     "reasons": [
@@ -3497,6 +3593,14 @@
       "缺少原文发布日期",
       "媒体原创与作者信息待核验",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "岚图相关信息",
+    "sourceName": "新浪汽车",
+    "url": "https://auto.sina.com.cn/newcar/2026-05-22/detail-inhyurwk6084387.shtml",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -3529,6 +3633,14 @@
       "缺少原文发布日期",
       "媒体原创与作者信息待核验",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "岚图相关信息",
+    "sourceName": "新浪汽车",
+    "url": "https://auto.sina.com.cn/newcar/x/2025-09-15/detail-infqcpua3096513.shtml?c=spr_auto_trackid_f8944f41f240e3fc&oaid=00001",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -3854,6 +3966,14 @@
     ]
   },
   {
+    "title": "2026重庆车展：长安汽车发布天枢领航 长安启源Q06将于9月上市",
+    "sourceName": "汽车之家资讯",
+    "url": "https://www.autohome.com.cn/news/202606/1315007.html",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
     "title": "启源相关信息",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/price/bc/brandid_582",
@@ -3887,6 +4007,14 @@
   },
   {
     "title": "启源相关信息",
+    "sourceName": "长安启源官方微博",
+    "url": "https://weibo.com/2/detail/comos%3Anirhezn3422082",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
+    "title": "启源相关信息",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/x/hq-32445949.html",
     "reasons": [
@@ -3894,6 +4022,14 @@
       "正文尚未读取成功",
       "媒体原创与作者信息待核验",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "启源相关信息",
+    "sourceName": "长安启源官方微博",
+    "url": "https://weibo.com/2/detail/comos%3Anirnaix2310305",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -4063,7 +4199,7 @@
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202609/1316976.html",
     "reasons": [
-      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -4536,6 +4672,14 @@
     ]
   },
   {
+    "title": "小米相关信息",
+    "sourceName": "小米汽车官方微博",
+    "url": "https://weibo.com/2/detail/5342344883735487",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
     "title": "腾势相关信息",
     "sourceName": "腾势官网",
     "url": "https://www.denza.com/cn/member/member-activity.html",
@@ -4564,6 +4708,14 @@
       "正文尚未读取成功",
       "媒体原创与作者信息待核验",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "特斯拉相关信息",
+    "sourceName": "特斯拉官方微博",
+    "url": "https://weibo.com/2/detail/5340499927630219",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -4758,35 +4910,27 @@
     ]
   },
   {
-    "title": "新款吉利银河E5将于9月23日上市 实车曝光 新增激光雷达 动力提升",
+    "title": "真“两室一厅”大床房？曝享界V8顶帐版实车 不同于享界G9拓展件",
     "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202609/1317187.html",
+    "url": "https://www.autohome.com.cn/news/202609/1317192.html",
     "reasons": [
-      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
-    "title": "品牌旗下旗舰产品 配升降立标 岚图梦想家9将于9月22日上市！",
+    "title": "19.98万元起 三电机四驱插混系统/1129马力 吉利银河战舰700预售",
     "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202609/1317168.html",
+    "url": "https://www.autohome.com.cn/news/202609/1317176.html",
     "reasons": [
-      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
-    "title": "权益后预售14.79万起/搭激光雷达 长安启源Q06将于9月23日上市",
+    "title": "三电机动力/最高纯电续航1100km！腾势Z9S将于9月23日正式上市！",
     "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202609/1317218.html",
+    "url": "https://www.autohome.com.cn/news/202609/1317204.html",
     "reasons": [
-      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
-    ]
-  },
-  {
-    "title": "现款售21.99万起 阿维塔06T猎装骑士版将于9月20日上市",
-    "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202609/1317241.html",
-    "reasons": [
-      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -4817,27 +4961,19 @@
     ]
   },
   {
-    "title": "2026款理想i6将于10月28日上市 新车官图发布 李想：六大升级",
+    "title": "特斯拉9月国内销量64837台 环比增长29.5% 上海工厂交付95336台",
     "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202610/1317648.html",
+    "url": "https://www.autohome.com.cn/news/202610/1317663.html",
     "reasons": [
-      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
-    "title": "新增青柠绿配色/尺寸全面升级 全新比亚迪海鸥正式开启盲订",
+    "title": "与概念车大不相同？疑似比亚迪海洋网MPV谍照 有望年底上市",
     "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202610/1317644.html",
+    "url": "https://www.autohome.com.cn/news/202610/1317649.html",
     "reasons": [
-      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
-    ]
-  },
-  {
-    "title": "四季度内上市/换装连屏设计 全新一代比亚迪唐内饰官图发布",
-    "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202610/1317631.html",
-    "reasons": [
-      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -4921,11 +5057,11 @@
     ]
   },
   {
-    "title": "星越L插电混动版领衔 吉利汽车巴黎车展阵容曝光 共四款车型",
+    "title": "比亚迪开拓新赛道 全民享“尊” 一文看懂大汉 入门款续航1008km",
     "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202610/1317635.html",
+    "url": "https://www.autohome.com.cn/news/202610/1317602.html",
     "reasons": [
-      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -4996,6 +5132,22 @@
       "缺少原文发布日期",
       "正文尚未读取成功",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "9月乘用车零售170.2万辆同比降24% 行业利润率降至3.6%",
+    "sourceName": "盖世汽车",
+    "url": "https://auto.gasgoo.com/news/202610/12I70474513C110.shtml",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
+    "title": "39亿亏损下，改款理想i6能否力挽狂澜？",
+    "sourceName": "盖世汽车",
+    "url": "https://auto.gasgoo.com/news/202610/12I70474517C109.shtml",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -5548,6 +5700,30 @@
     ]
   },
   {
+    "title": "银河战舰700上市限时焕新价 16.98万元起，引领新能源硬派SUV 2.0时代",
+    "sourceName": "凤凰网汽车",
+    "url": "https://auto.ifeng.com/c/8x7QXYQtzXC",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
+    "title": "暴力测试还是设计缺陷？江淮跌停，尊界陷入安全质疑",
+    "sourceName": "凤凰网汽车",
+    "url": "https://auto.ifeng.com/c/8x3hZBfAI5D",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
+    "title": "wemoney",
+    "sourceName": "凤凰网汽车",
+    "url": "https://auto.ifeng.com/c/8x3euroMruG",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
     "title": "高品质电驱技术验证规程 2027版正式发布 | 以真实数据定义高品质，让技术进步成为用户价值",
     "sourceName": "凤凰网汽车",
     "url": "https://auto.ifeng.com/c/8wq6CdauDyU",
@@ -5560,7 +5736,7 @@
     "sourceName": "凤凰网汽车",
     "url": "https://auto.ifeng.com/c/8x2BpjXB7j6",
     "reasons": [
-      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
@@ -5828,13 +6004,13 @@
     "sourceName": "IT之家",
     "url": "https://www.ithome.com/1/011/744.htm",
     "reasons": [
-      "无法生成符合编辑规范的标题：标题使用原文叙述口吻"
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
-    "title": "赵长江谈智界 R7 大定人群画像：家庭用户占比 92% 远超以往，超 80% 是增换购用户",
+    "title": "小鹏智驾出海欧洲：两周微调适配一个国家，计划 2027 年落地 NGP",
     "sourceName": "IT之家",
-    "url": "https://www.ithome.com/1/011/743.htm",
+    "url": "https://www.ithome.com/1/011/732.htm",
     "reasons": [
       "无法生成符合编辑规范的标题：缺少标题"
     ]

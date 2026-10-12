@@ -57,7 +57,7 @@ test('source registry uses HTTPS sources, declared collection states, and source
 });
 
 test('each monitored brand has an official-social account verification plan', () => {
-  const expectedBrands = ['鸿蒙智行', '比亚迪', '零跑', '蔚来', '乐道', '理想', '极氪', '小米', '岚图', '阿维塔', '深蓝', '腾势', '吉利银河', '特斯拉', '启源'];
+  const expectedBrands = ['鸿蒙智行', '比亚迪', '零跑', '蔚来', '乐道', '理想', '极氪', '小米', '小鹏', '岚图', '阿维塔', '深蓝', '腾势', '吉利银河', '特斯拉', '启源'];
   assert.deepEqual(officialSocialCoverage.map(item => item.brand), expectedBrands);
   for (const item of officialSocialCoverage) {
     assert.ok(['account-check', 'partial-verified'].includes(item.status));
@@ -69,7 +69,7 @@ test('each monitored brand has an official-social account verification plan', ()
 test('each monitored brand has official and vertical-media discovery coverage', () => {
   const sourcesById = new Map(sourceRegistry.map(source => [source.id, source]));
   const socialByBrand = new Map(officialSocialCoverage.map(item => [item.brand, item]));
-  assert.equal(monitoringCoverage.length, 15);
+  assert.equal(monitoringCoverage.length, 16);
   for (const coverage of monitoringCoverage) {
     assert.ok(socialByBrand.has(coverage.brand));
     assert.ok(coverage.officialSourceIds.length > 0);
