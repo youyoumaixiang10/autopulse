@@ -46,10 +46,21 @@ Do not change card visual format or CSS except to fix a bug. Keep the existing l
 
 OpenAI web discovery stays optional and off unless it is explicitly enabled. A missing key, a billing error, or a rate limit must not block the daily publish.
 
+## 8. 新车一览 follows the same 新车 events / 新车一览自动更新
+
+`新车一览` is filled from qualifying 新车 stories on each daily run. Do not hand-edit `data/launch-calendar.json` for every new car.
+
+A row is allowed only for a specific model's 上市, 官宣, 亮相, 谍照, or 申报 (预售 counts as 官宣 when no formal launch day is stated). Use the same strict `新车` line as rule 2: do not add 用户画像, 销量, 政策, OTA, 合作, or 频道导语 / 周预告.
+
+Unknown prices stay `价格待公布` or `以品牌公告为准`. Do not invent a price or a launch day. Curated calendar rows still win when the status is equally specific.
+
+新车一览只收严格新车事件，并在每次日报运行时自动写入。价格和上市日必须来自原文；人工日历在同等状态下优先。
+
 ## Where this lives
 
 - Clustering: `eventKey`, `samePublishedEvent`, `clusterGroups` in `scripts/report-builder.mjs`
 - Strict `新车`: `isStrictNewCar`, `isNewCarHighlight`
+- Launch calendar: `qualifiesForLaunchCalendar`, `deriveLaunchFromStory`, `mergeLaunches`
 - Section: `sectionFor` (`brand` / `other` / `industry`)
 - Titles: `titleQualityIssues`, `isTeaserText`
 - Daily OpenAI gate: `scripts/daily-run-gate.mjs`, `.github/workflows/daily-report.yml`
