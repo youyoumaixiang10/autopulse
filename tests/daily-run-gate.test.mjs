@@ -27,8 +27,7 @@ test('publishes when official lists are readable despite Weibo and OpenAI quota 
   });
   assert.equal(decision.publish, true);
   assert.deepEqual(decision.blocking, []);
-  assert.match(decision.warnings.join('\n'), /OPENAI_API_KEY/);
-  assert.match(decision.warnings.join('\n'), /platform\.openai\.com\/settings\/organization\/billing/);
+  assert.doesNotMatch(decision.warnings.join('\n'), /充值|OPENAI_API_KEY|platform\.openai\.com/);
   assert.match(decision.warnings.join('\n'), /官方微博 1 个账号/);
   assert.match(decision.warnings.join('\n'), /autohome-news/);
 });

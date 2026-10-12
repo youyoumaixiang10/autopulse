@@ -18,9 +18,8 @@ permissions:
 
 env:
   PLAYWRIGHT_BROWSERS_PATH: 0
-  TITLE_EDITOR_ENABLED: true
-  TITLE_MODEL: gpt-5-mini
-  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  # The scheduled report does not call OpenAI. Titles use local rules.
+  # Search uses Bing plus official, government, and media pages.
 
 concurrency:
   group: autopulse
@@ -53,8 +52,8 @@ jobs:
 
       - name: 采集、核验与生成日报
         run: npm run run-daily
-        # Exits 0 when verified official/government lists were readable.
-        # Weibo login walls, media misses, and OpenAI billing errors are warnings.
+        # Exits 0 when an official or government list was readable.
+        # Weibo login walls and media misses are warnings.
         # Exits 1 only when a required step crashes or no core list was readable.
 
       - run: npm run validate-content

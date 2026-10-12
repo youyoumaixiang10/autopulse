@@ -1,14 +1,14 @@
 import { createHash } from 'node:crypto';
 import { cleanText, readJson, writeJson } from './content-utils.mjs';
-import { OPENAI_BILLING_ACTION, isOpenAiQuotaError } from './daily-run-gate.mjs';
+import { isOpenAiQuotaError } from './daily-run-gate.mjs';
 
 const dir = new URL('../runtime/', import.meta.url);
 const cacheFile = new URL('editorial-titles.json', dir);
 const statusFile = new URL('title-editor-status.json', dir);
 const enabled = process.env.TITLE_EDITOR_ENABLED === 'true' && Boolean(process.env.OPENAI_API_KEY);
 if (!enabled) {
-  writeJson(statusFile, { state: 'skipped', reason: '未配置云端标题生成模型' });
-  console.log('标题生成模型未启用，保留已有标题与规则兜底。');
+  writeJson(statusFile, { state: 'skipped', reason: '使用本地标题规则' });
+  console.log('标题使用本地规则生成，不调用付费模型。');
   process.exit(0);
 }
 
@@ -75,7 +75,7 @@ for (let start = 0; start < candidates.length; start += 12) {
   } catch (error) {
     failures.push(error.message);
     if (/标题模型返回 429\b/u.test(error.message) || isOpenAiQuotaError(error.message)) {
-      console.warn(isOpenAiQuotaError(error.message) ? OPENAI_BILLING_ACTION : '标题模型返回 429，已停止后续批次并保留原有标题。');
+      console.log(isOpenAiQuotaError(error.message) ? '标题模型不可用，已改用本地规则标题。' : '标题模型返回 429，已停止后续批次并改用本地规则标题。');
       break;
     }
   }

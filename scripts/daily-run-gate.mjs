@@ -4,17 +4,12 @@ export function isOpenAiQuotaError(message = '') {
   return /insufficient_quota|credit_balance_exhausted|no credits remaining|余额不足/iu.test(message);
 }
 
-export const OPENAI_BILLING_ACTION = '仓库 Secret OPENAI_API_KEY 已配置，但该密钥所属 OpenAI 账号没有剩余额度。请打开 https://platform.openai.com/settings/organization/billing/ 充值，然后在 Actions 页面手动重跑「更新汽车日报」。充值前网页检索和标题改写会跳过，已核验内容仍会发布。';
-
 export function openaiOwnerWarning(record) {
-  if (!record || record.providerStatus === 'completed') return '';
+  if (!record || ['completed', 'skipped', 'unavailable'].includes(record.providerStatus)) return '';
   const reason = record.fatalReason || record.reason || record.queryRuns?.find(run => run.reason)?.reason || '';
-  if (record.providerStatus === 'unavailable' || /未配置/u.test(reason)) {
-    return '未配置仓库 Secret OPENAI_API_KEY。网页检索和标题改写已跳过；在仓库 Settings → Secrets and variables → Actions 中添加该密钥后，手动重跑「更新汽车日报」。已核验内容仍会发布。';
-  }
-  if (isOpenAiQuotaError(reason) || (record.queryRuns || []).some(run => isOpenAiQuotaError(run.reason || ''))) return OPENAI_BILLING_ACTION;
-  if (record.providerStatus === 'partial' || reason) {
-    return `OpenAI 网页检索未完成（${String(reason || record.providerStatus).replace(/\s+/gu, ' ').slice(0, 240)}）。请检查仓库 Secret OPENAI_API_KEY 是否有效。这不阻断已核验内容发布。`;
+  if (isOpenAiQuotaError(reason) || (record.queryRuns || []).some(run => isOpenAiQuotaError(run.reason || ''))) return '';
+  if (record.providerStatus === 'partial' && reason) {
+    return `可选的 OpenAI 检索已跳过（${String(reason).replace(/\s+/gu, ' ').slice(0, 180)}）。日报继续使用官网、媒体列表和必应搜索。`;
   }
   return '';
 }
