@@ -3,6 +3,7 @@ import { parseAvatrNews, parseLiAutoNews, parseMiitAutoNews, parseNioNewsLinks, 
 import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { chinaDate, writeJson } from './content-utils.mjs';
 import { collectExtraOfficialSources } from './extra-official-collectors.mjs';
+import { collectGalaxyNews, collectTeslaBlog } from './official-fetch-collectors.mjs';
 import { collectOfficialSocial } from './social-collector.mjs';
 import { sourceRegistry } from '../data/sources.js';
 
@@ -19,6 +20,7 @@ const attempts = await Promise.allSettled(pilots.map(async pilot => {
   return pilot.parse(await collectBrowserHtml(pilot.url));
 }));
 const extra = await collectExtraOfficialSources();
+const [tesla, galaxy] = await Promise.all([collectTeslaBlog(), collectGalaxyNews()]);
 const social = await collectOfficialSocial();
 
 const cutoff = new Date();
@@ -27,7 +29,7 @@ const cutoffDate = chinaDate(cutoff);
 const outputDir = new URL('../runtime/', import.meta.url);
 const outputFile = new URL('candidates.json', outputDir);
 const previous = existsSync(outputFile) ? JSON.parse(readFileSync(outputFile, 'utf8')).candidates : [];
-const freshCandidates = [...attempts.flatMap(result => result.status === 'fulfilled' ? result.value : []), ...extra.candidates, ...social.candidates];
+const freshCandidates = [...attempts.flatMap(result => result.status === 'fulfilled' ? result.value : []), ...extra.candidates, ...tesla.candidates, ...galaxy.candidates, ...social.candidates];
 const candidates = [...new Map([...previous, ...freshCandidates]
   .filter(candidate => candidate.publishedAt >= cutoffDate && candidate.publishedAt <= chinaDate())
   .map(candidate => [candidate.url, candidate])).values()];
@@ -39,7 +41,7 @@ const sourceResults = [...attempts.map((result, index) => ({
   count: result.status === 'fulfilled' ? result.value.length : 0,
   latestPublishedAt: result.status === 'fulfilled' ? result.value.map(item => item.publishedAt).sort().at(-1) || null : null,
   reason: result.status === 'rejected' ? result.reason.message : result.value.length ? null : '未读到列表条目，尚不能判断当天是否无更新'
-})), ...extra.sourceResults, ...social.sourceResults];
+})), ...extra.sourceResults, ...tesla.sourceResults, ...galaxy.sourceResults, ...social.sourceResults];
 mkdirSync(outputDir, { recursive: true });
 writeJson(outputFile, {
   collectedAt: new Date().toISOString(),

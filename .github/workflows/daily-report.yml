@@ -19,7 +19,9 @@ permissions:
 env:
   PLAYWRIGHT_BROWSERS_PATH: 0
   # The scheduled report does not call OpenAI. Titles use local rules.
-  # Search uses Bing plus official, government, and media pages.
+  # Search uses direct media lists, then Bing, plus official and government pages.
+  # WEIBO_COOKIE is optional. An empty secret still publishes.
+  WEIBO_COOKIE: ${{ secrets.WEIBO_COOKIE }}
 
 concurrency:
   group: autopulse

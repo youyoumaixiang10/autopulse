@@ -32,6 +32,20 @@ test('publishes when official lists are readable despite Weibo and OpenAI quota 
   assert.match(decision.warnings.join('\n'), /autohome-news/);
 });
 
+test('a degraded Weibo visitor miss warns and still publishes', () => {
+  const decision = assessDailyRun({
+    sources,
+    sourceResults: [
+      { sourceId: 'nio-official', status: 'ok', count: 2 },
+      { sourceId: 'li-auto-weibo', status: 'degraded', reason: '访客会话未签发' }
+    ]
+  });
+  assert.equal(decision.publish, true);
+  assert.deepEqual(decision.blocking, []);
+  assert.match(decision.warnings.join('\n'), /官方微博 1 个账号/);
+  assert.match(decision.warnings.join('\n'), /WEIBO_COOKIE/);
+});
+
 test('stops publication when no official or government list is readable', () => {
   const decision = assessDailyRun({
     sources,

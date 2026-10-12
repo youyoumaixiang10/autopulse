@@ -39,10 +39,10 @@ export function assessDailyRun({ failures = [], sourceResults = [], sources = []
   for (const message of failures.filter(item => optionalStep.test(item))) warnings.push(message);
 
   const unhealthy = result => ['failed', 'error', 'empty'].includes(result.status);
-  const social = sourceResults.filter(result => sourceType(sourcesById, result) === 'official-social' && unhealthy(result));
+  const social = sourceResults.filter(result => sourceType(sourcesById, result) === 'official-social' && (unhealthy(result) || result.status === 'degraded'));
   if (social.length) {
     const reason = brief(social[0].reason || social[0].error || social[0].status);
-    warnings.push(`官方微博 ${social.length} 个账号未采集（${reason}）。GitHub 托管浏览器没有微博登录态，工作流也没有可注入的微博登录密钥；这些账号保持未覆盖，不阻断已核验官网内容发布。`);
+    warnings.push(`官方微博 ${social.length} 个账号未采集（${reason}）。公开访客会话读不到时可配置可选密钥 WEIBO_COOKIE；未读到帖文只记警告，不阻断已核验官网内容发布。`);
   }
   const media = sourceResults.filter(result => sourceType(sourcesById, result) === 'vertical-media' && unhealthy(result));
   if (media.length) {

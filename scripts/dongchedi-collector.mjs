@@ -49,7 +49,7 @@ export function parseDongchediHome(html) {
 
 async function loadDongchediHtml({ fetchImpl, browserImpl, httpImpl }) {
   if (fetchImpl) {
-    const response = await fetchImpl(entryUrl, { signal: AbortSignal.timeout(20000) });
+    const response = await fetchImpl(entryUrl, { signal: AbortSignal.timeout(35000) });
     if (!response.ok) throw new Error(`懂车帝首页返回 ${response.status}`);
     return response.text();
   }

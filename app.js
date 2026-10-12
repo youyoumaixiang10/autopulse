@@ -16,6 +16,7 @@ function selectableDates() {
 
 const dateSelect = document.querySelector('#date-select');
 const leadGrid = document.querySelector('#lead-grid');
+const leadBullets = document.querySelector('#lead-bullets');
 const brandStories = document.querySelector('#brand-stories');
 const brandJump = document.querySelector('#brand-jump');
 const industryList = document.querySelector('#industry-list');
@@ -146,13 +147,20 @@ function renderReport() {
   document.querySelector('#report-heading').textContent = `${report.dateLabel}，汽车行业发生了什么`;
   document.querySelector('#collection-summary').textContent = reportSummary(report);
   renderDateCalendar();
+  const bullets = report.leadBullets || [];
+  leadBullets.hidden = !bullets.length;
+  leadBullets.innerHTML = bullets.map(bullet => {
+    const href = safeHref(bullet.sourceUrl);
+    const text = href ? `<a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(bullet.text)}</a>` : esc(bullet.text);
+    return `<li>${text}<span class="bullet-source">${esc(bullet.sourceName || '')}</span></li>`;
+  }).join('');
   leadGrid.innerHTML = report.highlights.length ? report.highlights.map((story, index) => `<article class="lead-card" data-lead-index="${index}" role="button" tabindex="0" aria-label="查看：${esc(story.title)}"><span class="tag-stack">${tagMarkup(story.tags, 'lead-type')}</span><div class="lead-content"><h3>${esc(story.title)}</h3><p>${esc(story.summary)}</p></div><span class="lead-source">${esc(story.evidenceLabel)}<br>${esc(story.sourceName)}</span></article>`).join('') : '<p class="empty-state">本期暂未收录重要摘要，可继续查看品牌与行业动态。</p>';
 
   const focusedBrands = Object.entries(report.brands);
   const brands = [...focusedBrands, ...((report.otherBrands || []).length ? [['其他品牌与车型', report.otherBrands]] : [])];
   document.querySelector('#brand-count').textContent = `${focusedBrands.length} 个重点品牌有更新`;
   brandJump.innerHTML = brands.map(([brand]) => `<button data-jump="brand-${esc(brand)}">${esc(brand)}</button>`).join('');
-  brandStories.innerHTML = brands.length ? brands.map(([brand, stories]) => `<div class="brand-group" id="brand-${esc(brand)}"><div class="brand-label"><b>${esc(brand)}</b><span>${stories.length} 条更新</span></div><div>${stories.map(story => `<article class="detail-trigger" data-story-id="${esc(story.id)}" role="button" tabindex="0" aria-label="查看：${esc(story.title)}"><div class="story-content"><h3>${esc(story.title)}</h3><p>${esc(story.summary)}</p>${sourceLink(story)}</div></article>`).join('')}</div></div>`).join('') : '<p class="empty-state">本期暂未收录重点品牌新动态。来源未读到内容不等于品牌当天没有发布。</p>';
+  brandStories.innerHTML = brands.length ? brands.map(([brand, stories]) => `<div class="brand-group" id="brand-${esc(brand)}"><div class="brand-label"><b>${esc(brand)}</b><span>${stories.length} 条更新</span></div><p class="brand-digest">${stories.slice(0, 3).map(story => esc(story.title)).join('；')}</p><div>${stories.map(story => `<article class="detail-trigger" data-story-id="${esc(story.id)}" role="button" tabindex="0" aria-label="查看：${esc(story.title)}"><div class="story-content"><h3>${esc(story.title)}</h3><p>${esc(story.summary)}</p>${sourceLink(story)}</div></article>`).join('')}</div></div>`).join('') : '<p class="empty-state">本期暂未收录重点品牌新动态。来源未读到内容不等于品牌当天没有发布。</p>';
   industryList.innerHTML = report.industry.length ? report.industry.map(story => `<article class="industry-item detail-trigger" data-story-id="${esc(story.id)}" role="button" tabindex="0" aria-label="查看：${esc(story.title)}"><span class="tag-stack">${tagMarkup(story.tags, 'story-meta')}</span><h3>${esc(story.title)}</h3><p>${esc(story.summary)}</p>${sourceLink(story)}</article>`).join('') : '<p class="empty-state">本期暂未收录可追溯的行业动态。</p>';
 
   leadGrid.querySelectorAll('[data-lead-index]').forEach(card => bindDetailTrigger(card, () => openStoryDetail(report.highlights[Number(card.dataset.leadIndex)], report.dateLabel)));

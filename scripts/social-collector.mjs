@@ -1,3 +1,5 @@
+import { ajaxListToItems, fetchAjaxTimeline, fetchMobileTimeline, mintWeiboVisitor, mobileCardsToItems } from './weibo-public.mjs';
+
 export const officialSocialAccounts = [
   { sourceId: 'li-auto-weibo', sourceName: '理想汽车官方微博', name: '理想汽车', uid: '6001272153', url: 'https://www.weibo.com/lixiangzhizao' },
   { sourceId: 'denza-weibo', sourceName: '腾势汽车官方微博', name: '腾势汽车', uid: '2664689831', url: 'https://weibo.com/2664689831' },
@@ -164,13 +166,65 @@ async function collectAccount(account) {
   }
 }
 
-export async function collectOfficialSocial() {
+function degradedResult(account, reason) {
+  return {
+    candidates: [],
+    sourceResult: {
+      sourceId: account.sourceId, status: 'degraded', collectedAt: new Date().toISOString(), candidateCount: 0,
+      entryUrl: account.url, publicLabel: '公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布', reason
+    }
+  };
+}
+
+async function collectAccountWithoutBrowser(account, visitorCookie, ownerCookie, fetchImpl) {
+  const attempts = [];
+  if (visitorCookie) {
+    try {
+      const cards = await fetchMobileTimeline(account, visitorCookie, fetchImpl);
+      const posts = parseOfficialSocialPosts(mobileCardsToItems(cards, account), account);
+      if (posts.length) return { posts, mode: 'visitor' };
+      attempts.push('访客会话未读到通过校验的原帖');
+    } catch (error) { attempts.push(error.message); }
+  } else attempts.push('访客会话未签发');
+  if (ownerCookie) {
+    try {
+      const list = await fetchAjaxTimeline(account, ownerCookie, fetchImpl);
+      const posts = parseOfficialSocialPosts(ajaxListToItems(list, account), account);
+      if (posts.length) return { posts, mode: 'cookie' };
+      attempts.push('WEIBO_COOKIE 未读到通过校验的原帖');
+    } catch (error) { attempts.push(error.message); }
+  }
+  throw new Error(attempts.join('；'));
+}
+
+export async function collectOfficialSocial({ fetchImpl = fetch } = {}) {
   const candidates = [];
   const sourceResults = [];
+  if (process.env.WEIBO_USE_BROWSER === '1') {
+    for (const account of officialSocialAccounts) {
+      const result = await collectAccount(account);
+      candidates.push(...result.candidates);
+      sourceResults.push(result.sourceResult);
+    }
+    return { candidates, sourceResults };
+  }
+  let visitorCookie = '';
+  try { visitorCookie = await mintWeiboVisitor(fetchImpl); } catch { visitorCookie = ''; }
+  const ownerCookie = process.env.WEIBO_COOKIE || '';
   for (const account of officialSocialAccounts) {
-    const result = await collectAccount(account);
-    candidates.push(...result.candidates);
-    sourceResults.push(result.sourceResult);
+    try {
+      const { posts, mode } = await collectAccountWithoutBrowser(account, visitorCookie, ownerCookie, fetchImpl);
+      candidates.push(...posts);
+      sourceResults.push({
+        sourceId: account.sourceId, status: 'partial', collectedAt: new Date().toISOString(), candidateCount: posts.length,
+        entryUrl: account.url, authorVerified: true, accessMode: mode,
+        publicLabel: `已读 ${posts.length} 条公开原帖`,
+        reason: '已读取公开时间线中通过账号、蓝V与绝对时间校验的原帖；不代表覆盖全部发布。'
+      });
+    } catch (error) {
+      const result = degradedResult(account, error.message);
+      sourceResults.push(result.sourceResult);
+    }
   }
   return { candidates, sourceResults };
 }
