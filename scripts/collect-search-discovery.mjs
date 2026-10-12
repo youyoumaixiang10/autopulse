@@ -1,5 +1,5 @@
-import { load } from 'cheerio';
-import { collectBrowserHtml } from './browser-collector.mjs';
+import { readHtmlWithFallback } from './browser-collector.mjs';
+import { parseBingResults } from './bing-search.mjs';
 import { issueSearchDates, readJson, writeJson } from './content-utils.mjs';
 import { sourceRegistry } from '../data/sources.js';
 import { monitoringCoverage } from '../data/monitoring-coverage.js';
@@ -31,29 +31,22 @@ const queries = targetTexts.flatMap(targetText => [
   ]),
   `${targetText} 汽车行业 政策`
 ]);
-function destination(href) {
-  try {
-    const url = new URL(href);
-    const encoded = url.searchParams.get('u');
-    if (url.hostname.endsWith('bing.com') && encoded?.startsWith('a1')) return Buffer.from(encoded.slice(2), 'base64').toString('utf8');
-    return url.href;
-  } catch { return ''; }
-}
 const collected = [];
 const sourceCounts = new Map(searchSources.map(source => [source.id, 0]));
+let parsedLinks = 0;
 for (const query of queries) {
   try {
-    const html = await collectBrowserHtml(`https://www.bing.com/search?q=${encodeURIComponent(query)}`);
-    const $ = load(html);
-    for (const link of $('li.b_algo h2 a').toArray()) {
-      const url = destination($(link).attr('href') || '');
-      const source = sourceForUrl(url);
-      const title = $(link).text().trim();
-      if (!source || !title || !url) continue;
-      collected.push({ sourceId: source.id, sourceName: source.name, sourceType: source.sourceType, title, url, publishedAt: null, discoveryQuery: query });
+    const html = await readHtmlWithFallback(`https://cn.bing.com/search?q=${encodeURIComponent(query)}&setlang=zh-CN&mkt=zh-CN`, {
+      accept: page => parseBingResults(page).length > 0
+    });
+    for (const link of parseBingResults(html)) {
+      parsedLinks += 1;
+      const source = sourceForUrl(link.url);
+      if (!source || !link.title) continue;
+      collected.push({ sourceId: source.id, sourceName: source.name, sourceType: source.sourceType, title: link.title, url: link.url, publishedAt: null, discoveryQuery: query });
       sourceCounts.set(source.id, (sourceCounts.get(source.id) || 0) + 1);
     }
-  } catch { /* Other collectors still provide the daily report when a search page is unavailable. */ }
+  } catch { /* Official and media lists still publish when a search page is unavailable. */ }
 }
 const candidates = [...new Map([...previous, ...collected].map(item => [item.url, item])).values()];
 const sourceResults = searchSources.map(source => ({
@@ -65,4 +58,4 @@ writeJson(new URL('search-candidates.json', dir), {
   collectedAt: new Date().toISOString(), targetDates, candidates, sourceResults,
   publicationRule: '搜索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。'
 });
-console.log(`搜索发现：${collected.length} 条候选，覆盖 ${queries.length} 个品牌与行业检索式。`);
+console.log(`必应搜索：解析 ${parsedLinks} 条结果，其中 ${collected.length} 条属于已登记媒体，覆盖 ${queries.length} 个品牌与行业检索式。`);
