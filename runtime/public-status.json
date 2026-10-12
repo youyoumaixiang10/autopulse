@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-10-12T03:25:54.775Z",
+  "completedAt": "2026-10-12T06:14:12.649Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -64,7 +64,7 @@
         "阿维塔"
       ],
       "status": "ok",
-      "label": "已读 88 条"
+      "label": "已读 89 条"
     },
     {
       "id": "zeekr-info",
@@ -80,6 +80,15 @@
       "name": "小米汽车官网",
       "brands": [
         "小米"
+      ],
+      "status": "pending",
+      "label": "待接入"
+    },
+    {
+      "id": "xpeng-official",
+      "name": "小鹏汽车资讯中心",
+      "brands": [
+        "小鹏"
       ],
       "status": "pending",
       "label": "待接入"
@@ -211,6 +220,15 @@
       "label": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布"
     },
     {
+      "id": "xpeng-weibo",
+      "name": "小鹏汽车官方微博",
+      "brands": [
+        "小鹏"
+      ],
+      "status": "degraded",
+      "label": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布"
+    },
+    {
       "id": "voyah-weibo",
       "name": "岚图汽车官方微博",
       "brands": [
@@ -296,7 +314,7 @@
       "name": "汽车之家资讯",
       "brands": [],
       "status": "ok",
-      "label": "已读 31 条"
+      "label": "已读 32 条"
     },
     {
       "id": "autohome-industry",
@@ -310,7 +328,7 @@
       "name": "懂车帝资讯",
       "brands": [],
       "status": "partial",
-      "label": "已读 44 条 · 读取范围有限"
+      "label": "已读 43 条 · 读取范围有限"
     },
     {
       "id": "sina-auto",
@@ -331,7 +349,7 @@
       "name": "易车",
       "brands": [],
       "status": "partial",
-      "label": "公开检索发现 2 条待核验线索"
+      "label": "直连列表与公开检索均未匹配"
     },
     {
       "id": "cailianpress-auto",
@@ -345,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 7 条待核验线索"
+      "label": "列表已读 11 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
@@ -394,7 +412,7 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 28 条待核验线索"
+      "label": "列表已读 27 条待核验线索"
     },
     {
       "id": "netease-auto",
@@ -407,8 +425,8 @@
       "id": "news18a-auto",
       "name": "网通社",
       "brands": [],
-      "status": "ok",
-      "label": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "label": "直连列表暂不可读，将回退公开检索"
     }
   ]
 }

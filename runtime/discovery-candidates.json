@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-12T03:18:56.581Z",
+  "collectedAt": "2026-10-12T06:10:16.985Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -1842,6 +1842,45 @@
         "特斯拉"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "张扬个性化设计！DS F3VER概念车亮相巴黎车展！",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317698.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小鹏P7+黑武士套装限时售6000元 实车亮相 专属外观与内饰搭配",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317641.html",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "小鹏G9L配置有亮点",
+      "url": "https://www.dongchedi.com/video/7691207700407353880",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -1849,7 +1888,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 31
+      "count": 32
     },
     {
       "sourceId": "autohome-industry",
@@ -1860,9 +1899,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-12T03:18:40.868Z",
+      "collectedAt": "2026-10-12T06:10:01.423Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 44,
+      "candidateCount": 43,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

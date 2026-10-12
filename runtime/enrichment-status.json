@@ -1,17 +1,6 @@
 {
-  "completedAt": "2026-10-12T03:25:54.388Z",
-  "fetched": 279,
-  "cached": 373,
-  "failures": [
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_304071.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_304056.html",
-      "reason": "The operation was aborted due to timeout"
-    }
-  ]
+  "completedAt": "2026-10-12T06:14:12.260Z",
+  "fetched": 168,
+  "cached": 508,
+  "failures": []
 }
