@@ -252,21 +252,76 @@ function titleAligns(title, lead) {
   const numbers = [...value.matchAll(/\d+(?:\.\d+)?/gu)].map(match => match[0]).filter(number => number.length >= 2);
   return numbers.every(number => basis.includes(number));
 }
-function sourceSummary(article, issueDate) {
-  const paragraphs = usefulSourceParagraphs(article);
-  const text = article.sourceType === 'official-social'
-    ? socialPresentationText(paragraphs[0] || article.title || '')
-    : (paragraphs[0] || article.title || '');
-  const sentences = text.split(/[。！？!?]/u).map(cleanText)
+function openingSentences(text) {
+  return String(text || '').split(/[。！？!?]/u).map(cleanText)
     .filter(sentence => sentence.length >= 8 && !/免责声明|版权|扫一扫|关注我们/u.test(sentence));
+}
+function clipSentences(sentences, issueDate) {
   const opening = [];
   for (const sentence of sentences) {
     const next = opening.length ? `${opening.join('。')}。${sentence}。` : `${sentence}。`;
     if (cleanText(next).length > summaryBudget) break;
     opening.push(sentence);
   }
-  const joined = opening.length ? `${opening.join('。')}。` : text;
-  return normalizeRelativeTime(clipAtBoundary(joined), issueDate);
+  return opening.length ? normalizeRelativeTime(clipAtBoundary(`${opening.join('。')}。`), issueDate) : '';
+}
+function comparableCopy(text) {
+  return cleanText(text).replace(/[。！？!?\s#]/gu, '');
+}
+function nearlySameCopy(a, b) {
+  const left = comparableCopy(a);
+  const right = comparableCopy(b);
+  return Boolean(left) && left === right;
+}
+function isDateRange(text) {
+  return /(?:20\d{2}年)?\d{1,2}月\d{1,2}日\s*[-–—~至到]\s*(?:\d{4}年)?(?:\d{1,2}月)?\d{1,2}日/u.test(text)
+    || /\d{1,2}[./]\d{1,2}\s*[-–—~]\s*\d{1,2}[./]\d{1,2}/u.test(text)
+    || /第\s*\d+\s*周/u.test(text);
+}
+function isRoundup(text) {
+  return /多款|其中包括|第\s*\d+\s*周|本周将迎来|[A-Za-z0-9\u4e00-\u9fff]{1,24}\/[A-Za-z0-9\u4e00-\u9fff.]{1,24}等/u.test(text);
+}
+function isSingleModelNews(text) {
+  if (isRoundup(text)) return false;
+  if (isDateRange(text) && /预告|前瞻|盘点|一览|导语/u.test(text)) return false;
+  const model = /(?:Model\s*[3YXS]|Roadster|(?:比亚迪|吉利|银河|问界|智界|享界|尊界|尚界|理想|蔚来|小米|小鹏|极氪|阿维塔|腾势|岚图|深蓝|零跑|乐道|特斯拉|启源|方程豹|仰望)\s*[A-Za-z0-9\u4e00-\u9fff]{1,16}|[A-Za-z]{1,10}[\w.-]{0,8}\d[\w.-]*|[\u4e00-\u9fff]{1,8}[A-Za-z]{1,6}\d{1,3})/u;
+  const event = /上市|预售|发布|首发|亮相|交付|官宣|申报|首秀|降价|权益/u;
+  return model.test(text) && event.test(text);
+}
+function isPreviewTeaserText(text) {
+  const value = cleanText(text);
+  if (!value) return false;
+  if (/本期内容我们(?:将)?为(?:大家|您)带来|本期为您|一周新车|本周将迎来多款|大家可以继续关注我们后续/u.test(value)) return true;
+  if (/一起来看/u.test(value) && !isSingleModelNews(value)) return true;
+  if (/新车预告/u.test(value) && !isSingleModelNews(value)) return true;
+  if (isDateRange(value) && /预告|前瞻|盘点|一览|导语/u.test(value) && !isSingleModelNews(value)) return true;
+  return false;
+}
+function isHardTeaser(text) {
+  const value = cleanText(text);
+  if (!value) return false;
+  if (/本期内容我们(?:将)?为(?:大家|您)带来|本期为您|一周新车|本周将迎来多款|大家可以继续关注我们后续/u.test(value)) return true;
+  return isDateRange(value) && /预告|前瞻|盘点|一览|导语/u.test(value) && !isSingleModelNews(value);
+}
+function isPreviewTeaserArticle(article, editorialTitle = '') {
+  const lead = usefulSourceParagraphs(article)[0] || '';
+  const shown = [editorialTitle, lead].map(cleanText).filter(Boolean);
+  if (shown.some(isSingleModelNews) && shown.every(text => !isHardTeaser(text))) return false;
+  return [article?.title, editorialTitle, lead].some(isPreviewTeaserText);
+}
+function factualPoint(sentence) {
+  return factCue.test(sentence) && !isPreviewTeaserText(sentence);
+}
+function sourceSummary(article, issueDate, title = '') {
+  const paragraphs = usefulSourceParagraphs(article);
+  const text = article.sourceType === 'official-social'
+    ? socialPresentationText(paragraphs[0] || article.title || '')
+    : (paragraphs[0] || article.title || '');
+  const sentences = openingSentences(text);
+  const summary = clipSentences(sentences, issueDate) || normalizeRelativeTime(clipAtBoundary(text), issueDate);
+  if (!title || !nearlySameCopy(summary, title)) return summary;
+  const points = sentences.filter(sentence => !nearlySameCopy(sentence, title) && factualPoint(sentence));
+  return clipSentences(points, issueDate) || summary;
 }
 function isAutomaticallyImportant(article, brands = article.brands) {
   if (article.evidenceStatus === 'government') return true;
@@ -502,6 +557,7 @@ export function buildReports(articles, notes, now = new Date()) {
       reviewQueue.push({ title: article.title, sourceName: article.sourceName, url: article.url, reasons: [`无法生成符合编辑规范的标题：${titleIssues.join('、')}`] });
       continue;
     }
+    if (isPreviewTeaserArticle(article, editorialTitle)) continue;
     const key = `${issueDate}|${eventKey({ ...article, brands }, note)}`;
     const group = groups.get(key) || [];
     group.push({ article, note, issueDate, editorialTitle, brands });
@@ -522,7 +578,7 @@ export function buildReports(articles, notes, now = new Date()) {
     const details = note.details || sourceDetails(article);
     const summary = note.summary
       ? normalizeRelativeTime(cleanText(note.summary).replace(/^(?:官方发布|政府公告|媒体报道)[：:]\s*/u, ''), issueDate)
-      : sourceSummary(article, issueDate);
+      : sourceSummary(article, issueDate, editorialTitle);
     const lead = `${editorialTitle} ${summary}`;
     const story = {
       id, tags, title: normalizeRelativeTime(editorialTitle, issueDate),
