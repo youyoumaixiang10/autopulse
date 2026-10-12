@@ -54,7 +54,11 @@ A row is allowed only for a specific model's 上市, 官宣, 亮相, 谍照, or 
 
 Unknown prices stay `价格待公布` or `以品牌公告为准`. Do not invent a price or a launch day. Curated calendar rows still win when the status is equally specific.
 
-新车一览只收严格新车事件，并在每次日报运行时自动写入。价格和上市日必须来自原文；人工日历在同等状态下优先。
+The 上市日 column shows only a concrete launch day, in the existing `10月10日` form, or `待定`. Fuzzy windows such as 年底, 季度, 旬, 谍照曝光, and 已亮相 stay in `windowText` and the row detail. Month filters still use `month` (年底 buckets to December).
+
+Status keys stay `launched|confirmed|estimated`. Labels: `已上市` is a formal 上市; `已官宣` is 官宣, 预售盲订, 即将登场, or 亮相·首秀 without a formal launch day; `未官宣` is a planned window or a weak signal such as 谍照 or 申报 with no official announce. Do not label an announced-but-unlaunched car as `未官宣`.
+
+新车一览只收严格新车事件，并在每次日报运行时自动写入。价格和上市日必须来自原文；人工日历在同等状态下优先。上市日列只显示具体上市日或待定。
 
 ## Where this lives
 

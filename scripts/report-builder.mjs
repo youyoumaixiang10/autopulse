@@ -1017,7 +1017,7 @@ export function buildReports(articles, notes, now = new Date()) {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(launch.date)) throw new Error(`上市日期无效：${launch.model}`);
       launches.push({ ...launch, origin: 'note', month: launch.month || launch.date.slice(0, 7), id: `launch-${hash(`${launch.brand}|${launch.model}|${launch.date}`)}`,
         dateText: `${Number(launch.date.slice(5, 7))}月${Number(launch.date.slice(8, 10))}日`,
-        statusLabel: { launched: '已上市', confirmed: '已官宣', estimated: '预计上市' }[launch.status],
+        statusLabel: { launched: '已上市', confirmed: '已官宣', estimated: '未官宣' }[launch.status],
         sourceName: launchArticle.sourceName, sourceUrl: launchArticle.url, evidenceLabel: evidenceLabels[launchArticle.evidenceStatus],
         publishedAt: launchArticle.publishedAt, storyId: id, detail: launchNote.details?.join('\n\n') || sourceDetails(launchArticle).join('\n\n'), observation: launchNote.observation || followUp(classify(`${launchArticle.title} ${(launchArticle.contentParagraphs || []).join(' ')}`, launchArticle.evidenceStatus)) });
     }
@@ -1044,12 +1044,13 @@ export function validateReports(reports, launches) {
   for (const launch of launches) {
     if (!launch.sourceUrl || !launch.model || !['launched', 'confirmed', 'estimated'].includes(launch.status)) throw new Error('新车记录缺少来源或状态');
     if (!/^\d{4}-\d{2}$/.test(launch.month || launch.date?.slice(0, 7) || '')) throw new Error('新车记录缺少有效月份');
-    if (!launch.dateText) throw new Error('新车记录缺少时间说明');
+    if (!/^(?:待定|\d{1,2}月\d{1,2}日)$/u.test(launch.dateText || '')) throw new Error('新车时间列只能是上市日或待定');
     if (launch.date && !/^\d{4}-\d{2}-\d{2}$/.test(launch.date)) throw new Error('新车记录日期无效');
+    if (launch.date && launch.dateText !== `${Number(launch.date.slice(5, 7))}月${Number(launch.date.slice(8, 10))}日`) throw new Error('上市日与日期不一致');
   }
 }
 
-const launchStatusLabels = { launched: '已上市', confirmed: '已官宣', estimated: '预计上市' };
+const launchStatusLabels = { launched: '已上市', confirmed: '已官宣', estimated: '未官宣' };
 const launchStatusRank = { launched: 3, confirmed: 2, estimated: 1 };
 const launchOriginRank = { curated: 4, note: 3, derived: 1, auto: 0 };
 const launchEvidenceRank = { '政府公告': 3, '官方发布': 2, '媒体报道': 1 };
@@ -1193,7 +1194,7 @@ function hasCalendarEvent(text) {
   if (/(?:正式上市|正式迎来上市|迎来正式上市|今日上市|现已上市|已经上市|已正式上市|官宣上市)/u.test(value)) return true;
   if (/官宣/u.test(value) && /新车|车型|登场|上市|亮相|首秀|SUV|轿车|MPV|跑车/u.test(value)) return true;
   if (/亮相|首秀|即将登场|即将上市/u.test(value) && (hasSpecificModel(value) || namesLaunchSubject(value))) return true;
-  if (/开启预售|开启盲订|开启预订/u.test(value)) return true;
+  if (/开启(?:全球)?预售|开启盲订|开启预订/u.test(value)) return true;
   if (/(?:将于|将在|预计|计划|有望|拟于)[^。]{0,32}上市/u.test(value)) return true;
   if (/(?:第?\s*[一二三四1-4]\s*季度|四季度|今年底|年底|年内)[^。]{0,8}上市/u.test(value)) return true;
   return false;
@@ -1212,8 +1213,7 @@ export function qualifiesForLaunchCalendar(text) {
 }
 function inferLaunchStatus(text) {
   if (completedLaunch(text)) return 'launched';
-  if (/(?:将于|将在|预计|计划|有望|拟于)[^。]{0,64}上市/u.test(text) || /(?:第?\s*[一二三四1-4]\s*季度|四季度|今年底|年底|年内)[^。]{0,8}上市/u.test(text)) return 'estimated';
-  if (/官宣|开启预售|开启盲订|开启预订|即将登场|即将上市/u.test(text)) return 'confirmed';
+  if (/官宣|开启(?:全球)?预售|开启盲订|开启预订|即将登场|即将上市/u.test(text)) return 'confirmed';
   if (/亮相|首秀|登场/u.test(text) && !/谍照/u.test(text)) return 'confirmed';
   return 'estimated';
 }
@@ -1331,38 +1331,55 @@ function nearestDateBefore(text, eventRe) {
       event: match[0],
       future: /将于|将在|预计|计划|有望|拟于|定于|确认于/u.test(prefix),
       historical: /已于|此前|曾经|曾于|已经于/u.test(prefix),
-      directed: /将于|将在|定于|确认于|拟于/u.test(prefix)
+      directed: /将于|将在|定于|确认于|拟于/u.test(prefix),
+      index: match.index
     });
   }
   return found;
 }
+function isNegatedLaunchMention(text, index) {
+  const around = text.slice(Math.max(0, index - 12), Math.min(text.length, index + 18));
+  return /(?:并未|尚未|没有|未|不是|不算|不把|不要|不应|不能|不将)[^。]{0,12}上市/u.test(around)
+    || /上市(?:时间|日期|节点)?[^。]{0,8}(?:并未|尚未|没有|未|不)/u.test(around);
+}
+function firmLaunchSchedule(iso) {
+  return { date: iso, dateText: formatDayText(iso), month: iso.slice(0, 7), dateInferred: false };
+}
+function windowSchedule(windowText, month) {
+  return { dateText: '待定', windowText, month, dateInferred: false };
+}
 function extractLaunchSchedule(text, publishedAt, status, kind) {
   const future = status !== 'launched';
   if (publishedAt && /昨[日天][^。]{0,16}(?:正式|官宣)?上市|(?:正式|官宣)?上市[^。]{0,8}昨[日天]/u.test(text)) {
-    const date = previousDate(publishedAt);
-    return { date, dateText: formatDayText(date), month: date.slice(0, 7), dateInferred: false };
+    return firmLaunchSchedule(previousDate(publishedAt));
   }
   if (publishedAt && /今[日天][^。]{0,12}(?:正式|官宣)?上市/u.test(text)) {
-    return { date: publishedAt, dateText: formatDayText(publishedAt), month: publishedAt.slice(0, 7), dateInferred: false };
+    return firmLaunchSchedule(publishedAt);
   }
-  const launchDates = nearestDateBefore(text, /(?:国内|正式|完成|官宣)?上市/gu).filter(item => !item.historical).map(item => ({
+  const launchDates = nearestDateBefore(text, /(?:国内|正式|完成|官宣)?上市/gu).filter(item => !item.historical && !isNegatedLaunchMention(text, item.index)).map(item => ({
     iso: resolveMonthDay(item.year, item.month, item.day, publishedAt, future || item.future),
     domestic: /国内/.test(item.event)
   })).filter(item => item.iso);
   const chosen = launchDates.find(item => item.domestic) || launchDates.at(-1);
-  if (chosen) return { date: chosen.iso, dateText: formatDayText(chosen.iso), month: chosen.iso.slice(0, 7), dateInferred: false };
+  if (chosen) return firmLaunchSchedule(chosen.iso);
   if (status !== 'launched') {
     const appearance = nearestDateBefore(text, /(?:全球首发|全球首秀|首秀|亮相|登场)/gu).filter(item => item.directed && !item.historical).at(-1);
     if (appearance && !/(?:将于|将在|预计|计划)[^。]{0,64}上市/u.test(text)) {
       const iso = resolveMonthDay(appearance.year, appearance.month, appearance.day, publishedAt, true);
-      if (iso) return { date: iso, dateText: formatDayText(iso), month: iso.slice(0, 7), dateInferred: false };
+      if (iso) {
+        const label = /全球首发/u.test(appearance.event) ? '全球首发' : /首秀/u.test(appearance.event) ? '首秀' : '亮相';
+        return windowSchedule(`${formatDayText(iso)}${label}`, iso.slice(0, 7));
+      }
     }
   }
   if (status !== 'launched') {
     const scheduled = nearestDateBefore(text, /(?:开启全球预售|开启预售|开启预订|开启盲订|上新)/gu).filter(item => item.directed && !item.historical).at(-1);
     if (scheduled) {
       const iso = resolveMonthDay(scheduled.year, scheduled.month, scheduled.day, publishedAt, true);
-      if (iso) return { date: iso, dateText: formatDayText(iso), month: iso.slice(0, 7), dateInferred: false };
+      if (iso) {
+        const label = /上新/u.test(scheduled.event) ? '上新' : /盲订/u.test(scheduled.event) ? '开启盲订' : /预订/u.test(scheduled.event) ? '开启预订' : '开启预售';
+        return windowSchedule(`${formatDayText(iso)}${label}`, iso.slice(0, 7));
+      }
     }
   }
   const quarter = text.match(/(?:(20\d{2})\s*年\s*)?(?:(今年|明年)\s*)?(?:第\s*)?([一二三四1-4])\s*季度/u);
@@ -1371,31 +1388,31 @@ function extractLaunchSchedule(text, publishedAt, status, kind) {
     const year = quarter[1] ? Number(quarter[1]) : (quarter[2] === '明年' ? (Number((publishedAt || '').slice(0, 4)) || 2026) + 1 : (Number((publishedAt || '').slice(0, 4)) || 2026));
     if (index) {
       const month = `${year}-${padDatePart((index - 1) * 3 + 1)}`;
-      return { dateText: `${quarterLabel(index)}（具体日期待官宣）`, month, dateInferred: false };
+      return windowSchedule(`${quarterLabel(index)}（具体日期待官宣）`, month);
     }
   }
   const part = text.match(/(?:(20\d{2})\s*年\s*)?(\d{1,2})\s*月\s*(上旬|中旬|下旬|底)/u);
   if (part) {
     const year = part[1] || (publishedAt || '').slice(0, 4) || '2026';
     const month = `${year}-${padDatePart(part[2])}`;
-    return { dateText: `${Number(part[2])}月${part[3]}（具体日期待官宣）`, month, dateInferred: false };
+    return windowSchedule(`${Number(part[2])}月${part[3]}（具体日期待官宣）`, month);
   }
   if (/今年底|年底|年内/u.test(text)) {
     const year = (publishedAt || '').slice(0, 4) || '2026';
-    return { dateText: '年底（具体日期待官宣）', month: `${year}-12`, dateInferred: false };
+    return windowSchedule('年底（具体日期待官宣）', `${year}-12`);
   }
   if (status === 'launched' && publishedAt && /^\d{4}-\d{2}-\d{2}$/.test(publishedAt)) {
-    return { date: publishedAt, dateText: formatDayText(publishedAt), month: publishedAt.slice(0, 7), dateInferred: true };
+    return { dateText: '待定', month: publishedAt.slice(0, 7), dateInferred: true };
   }
   const month = (publishedAt || '').slice(0, 7);
   if (!/^\d{4}-\d{2}$/.test(month)) return null;
-  if (kind === '谍照') return { dateText: '谍照曝光（上市日期待官宣）', month, dateInferred: false };
-  if (kind === '申报') return { dateText: '申报（上市日期待官宣）', month, dateInferred: false };
-  if (kind === '亮相' || kind === '全球首发') return { dateText: '已亮相（上市日期待官宣）', month, dateInferred: false };
-  return { dateText: '即将登场（具体日期待官宣）', month, dateInferred: false };
+  if (kind === '谍照') return windowSchedule('谍照曝光（上市日期待官宣）', month);
+  if (kind === '申报') return windowSchedule('申报（上市日期待官宣）', month);
+  if (kind === '亮相' || kind === '全球首发') return windowSchedule('已亮相（上市日期待官宣）', month);
+  return windowSchedule('即将登场（具体日期待官宣）', month);
 }
 function launchObservation(status, kind, dateInferred) {
-  if (dateInferred) return '原文未写明具体上市日，暂按报道日期归档；未写明的价格不估算。';
+  if (dateInferred) return '原文未写明具体上市日，时间列记为待定；未写明的价格不估算。';
   if (status === 'launched') return '由日报新车事件自动写入；价格与上市日只取原文可追溯表述。';
   if (kind === '谍照' || kind === '申报') return '谍照或申报不是正式上市，未公布的价格与日期保持待定。';
   if (status === 'estimated') return '尚未看到正式上市报道，日历只保留原文写出的时间窗口。';
@@ -1416,13 +1433,14 @@ function buildLaunchRecord(parts) {
   const schedule = extractLaunchSchedule(corpus, parts.publishedAt, status, kind);
   if (!schedule?.dateText || !/^\d{4}-\d{2}$/.test(schedule.month || '')) return null;
   const priceText = extractLaunchPrice(corpus) || (status === 'launched' ? '以品牌公告为准' : '价格待公布');
-  const when = schedule.date || schedule.dateText;
+  const when = schedule.date || schedule.windowText || schedule.dateText;
   return {
     id: `launch-${hash(`${brandFamily[brand] || brand}|${launchModelKey(brand, model)}|${when}`)}`,
     origin: 'auto',
     month: schedule.month,
     ...(schedule.date ? { date: schedule.date } : {}),
-    dateText: schedule.dateText,
+    dateText: schedule.date ? formatDayText(schedule.date) : '待定',
+    ...(schedule.windowText ? { windowText: schedule.windowText } : {}),
     brand,
     model,
     kind,
@@ -1489,8 +1507,11 @@ function sameLaunchVehicle(left, right) {
   const rightBrand = brandFamily[right.brand] || right.brand;
   return leftBrand === rightBrand || left.brand === right.brand || leftBrand === right.brand || rightBrand === left.brand;
 }
+function launchTimingText(launch) {
+  return `${launch.windowText || ''} ${isFirmLaunchDayText(launch.dateText) ? '' : (launch.dateText || '')}`;
+}
 function launchWindowToken(launch) {
-  const text = launch.dateText || '';
+  const text = launchTimingText(launch);
   const year = (launch.month || launch.date || '').slice(0, 4);
   if (/第?四季度|Q4/iu.test(text)) return `${year}-Q4`;
   if (/第?三季度|Q3/iu.test(text)) return `${year}-Q3`;
@@ -1499,6 +1520,8 @@ function launchWindowToken(launch) {
   const part = text.match(/(\d{1,2})\s*月\s*(上旬|中旬|下旬|底)/u);
   if (part) return `${year}-${part[1]}-${part[2]}`;
   if (/年底|年内/u.test(text)) return `${year}-year-end`;
+  const day = text.match(/(\d{1,2})\s*月\s*(\d{1,2})\s*日/u);
+  if (day) return `${year}-${padDatePart(day[1])}-${padDatePart(day[2])}`;
   return '';
 }
 function launchWindowContains(launch, isoDate) {
@@ -1506,11 +1529,12 @@ function launchWindowContains(launch, isoDate) {
   const [year, month, day] = isoDate.split('-').map(Number);
   const token = launchWindowToken(launch);
   const windowYear = Number((launch.month || isoDate).slice(0, 4));
+  if (/^\d{4}-\d{2}-\d{2}$/u.test(token)) return isoDate === token;
   if (token.endsWith('-Q1')) return year === windowYear && month >= 1 && month <= 3;
   if (token.endsWith('-Q2')) return year === windowYear && month >= 4 && month <= 6;
   if (token.endsWith('-Q3')) return year === windowYear && month >= 7 && month <= 9;
   if (token.endsWith('-Q4')) return year === windowYear && month >= 10 && month <= 12;
-  const part = (launch.dateText || '').match(/(\d{1,2})\s*月\s*(上旬|中旬|下旬|底)/u);
+  const part = launchTimingText(launch).match(/(\d{1,2})\s*月\s*(上旬|中旬|下旬|底)/u);
   if (part) {
     if (year !== windowYear || month !== Number(part[1])) return false;
     if (part[2] === '上旬') return day <= 10;
@@ -1520,9 +1544,12 @@ function launchWindowContains(launch, isoDate) {
   if (token.endsWith('year-end')) return year === windowYear && month >= 10;
   return false;
 }
+function isFirmLaunchDayText(text) {
+  return /^\d{1,2}月\d{1,2}日$/u.test(cleanText(text || ''));
+}
 function isOpenLaunchWindow(launch) {
-  if (launch.date || launchWindowToken(launch)) return false;
-  return /即将|待官宣|已亮相|谍照|申报|日期待|待公布/u.test(launch.dateText || '');
+  if (launch.date || isFirmLaunchDayText(launch.dateText) || launchWindowToken(launch)) return false;
+  return true;
 }
 function launchTimingsCompatible(left, right) {
   const leftOpen = isOpenLaunchWindow(left);
@@ -1552,12 +1579,21 @@ function launchSpecificity(launch) {
 }
 function normalizeLaunch(launch, origin) {
   const month = launch.month || launch.date?.slice(0, 7);
-  const dateText = launch.dateText || (launch.date ? formatDayText(launch.date) : '');
-  return { ...launch, month, dateText, origin: launch.origin || origin };
+  const date = /^\d{4}-\d{2}-\d{2}$/u.test(launch.date || '') ? launch.date : '';
+  let windowText = cleanText(launch.windowText || '');
+  let dateText = cleanText(launch.dateText || '');
+  if (date) dateText = formatDayText(date);
+  else if (!isFirmLaunchDayText(dateText)) {
+    if (dateText && dateText !== '待定') windowText = windowText || dateText;
+    dateText = '待定';
+  }
+  const statusLabel = launchStatusLabels[launch.status] || launch.statusLabel;
+  return { ...launch, month, ...(date ? { date } : { date: undefined }), dateText, ...(windowText ? { windowText } : { windowText: undefined }), statusLabel, origin: launch.origin || origin };
 }
 function presentLaunch(launch) {
   const { origin, dateInferred, ...rest } = launch;
   if (!rest.date) delete rest.date;
+  if (!rest.windowText) delete rest.windowText;
   return rest;
 }
 function preferredModel(rows) {
@@ -1611,11 +1647,10 @@ function mergeLaunchGroup(rows) {
       winner.month = dated.month || dated.date.slice(0, 7);
       if (launchStatusRank[dated.status] > launchStatusRank[winner.status]) {
         winner.status = dated.status;
-        winner.statusLabel = dated.statusLabel || launchStatusLabels[dated.status];
       }
     }
   }
-  if (!winner.statusLabel) winner.statusLabel = launchStatusLabels[winner.status];
+  winner.statusLabel = launchStatusLabels[winner.status] || winner.statusLabel;
   return presentLaunch(winner);
 }
 export function mergeLaunches(derived, curated = []) {

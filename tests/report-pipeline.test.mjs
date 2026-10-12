@@ -456,6 +456,9 @@ test('curated calendar keeps a quarter window without inventing an exact launch 
   const launches = mergeLaunches([], [{ id: 'calendar-q4', month: '2026-10', dateText: '第四季度（具体日期待官宣）', brand: '极氪', model: '新款极氪7X', kind: '计划上市', powertrain: '纯电 SUV', priceText: '价格待公布', status: 'estimated', statusLabel: '预计上市', sourceName: '测试媒体', sourceUrl: 'https://example.com/q4', evidenceLabel: '媒体报道' }]);
   assert.equal(launches[0].month, '2026-10');
   assert.equal(launches[0].date, undefined);
+  assert.equal(launches[0].dateText, '待定');
+  assert.match(launches[0].windowText, /第四季度/);
+  assert.equal(launches[0].statusLabel, '未官宣');
   assert.doesNotThrow(() => validateReports({}, launches));
 });
 test('calendar status is updated only by a post-launch source for the same model', () => {

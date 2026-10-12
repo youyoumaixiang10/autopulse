@@ -171,7 +171,9 @@ function renderCalendar() {
   const launchIndex = new Map(launches.map(launch => [launch.id, launch]));
   document.querySelectorAll('[data-launch-id]').forEach(row => bindDetailTrigger(row, () => {
     const launch = launchIndex.get(row.dataset.launchId);
-    openStoryDetail({ ...launch, tags: ['新车一览', launch.statusLabel], title: `${launch.brand} / ${launch.model}`, detail: `${launch.dateText} ${launch.statusLabel}。${launch.kind}，${launch.powertrain}，价格信息：${launch.priceText}。\n\n${launch.detail}` }, `${selectedMonth.replace('-', '年')}月`);
+    const windowLine = launch.windowText ? `时间窗口：${launch.windowText}` : '';
+    const observation = launch.observation && launch.observation !== launch.detail ? launch.observation : '';
+    openStoryDetail({ ...launch, tags: ['新车一览', launch.statusLabel], title: `${launch.brand} / ${launch.model}`, detail: [`${launch.dateText} ${launch.statusLabel}。${launch.kind}，${launch.powertrain}，价格信息：${launch.priceText}。`, windowLine, launch.detail, observation].filter(Boolean).join('\n\n') }, `${selectedMonth.replace('-', '年')}月`);
   }));
 }
 

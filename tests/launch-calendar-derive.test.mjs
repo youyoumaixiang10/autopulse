@@ -26,6 +26,8 @@ test('正式上市 with a stated price becomes a launched calendar row', () => {
   assert.equal(row.status, 'launched');
   assert.equal(row.statusLabel, '已上市');
   assert.equal(row.date, '2026-10-10');
+  assert.equal(row.dateText, '10月10日');
+  assert.equal(row.windowText, undefined);
   assert.equal(row.month, '2026-10');
   assert.match(row.priceText, /16\.98-35\.98万元/);
   assert.equal(row.kind, '新车上市');
@@ -44,9 +46,10 @@ test('官宣 without a price or launch day stays confirmed and does not invent e
   assert.equal(row.status, 'confirmed');
   assert.equal(row.statusLabel, '已官宣');
   assert.equal(row.date, undefined);
+  assert.equal(row.dateText, '待定');
+  assert.match(row.windowText, /即将登场/);
   assert.equal(row.priceText, '价格待公布');
   assert.equal(/\d+(?:\.\d+)?\s*万/.test(row.priceText), false);
-  assert.match(row.dateText, /待官宣/);
   assert.equal(row.month, '2026-10');
 });
 
@@ -57,8 +60,11 @@ test('a presale note that warns against calling it a launch stays unlaunched', (
     { publishedAt: '2026-09-10', brands: ['吉利银河'], sourceUrl: 'https://example.com/presale' }
   ));
   assert.ok(row);
-  assert.notEqual(row.status, 'launched');
-  assert.equal(row.date, '2026-09-15');
+  assert.equal(row.status, 'confirmed');
+  assert.equal(row.statusLabel, '已官宣');
+  assert.equal(row.date, undefined);
+  assert.equal(row.dateText, '待定');
+  assert.match(row.windowText, /9月15日/);
   assert.equal(row.priceText, '价格待公布');
 });
 
@@ -69,8 +75,11 @@ test('an announced refresh date is kept and a historical price is not reused', (
     { publishedAt: '2026-10-12', sourceUrl: 'https://example.com/tank' }
   ));
   assert.ok(row);
-  assert.equal(row.date, '2026-10-16');
+  assert.equal(row.date, undefined);
+  assert.equal(row.dateText, '待定');
+  assert.match(row.windowText, /10月16日上新/);
   assert.equal(row.status, 'confirmed');
+  assert.equal(row.statusLabel, '已官宣');
   assert.equal(row.priceText, '价格待公布');
 });
 
@@ -84,8 +93,10 @@ test('谍照 keeps an honest window and does not invent a launch day or price', 
   assert.match(row.model, /钛\s*9|钛9/);
   assert.equal(row.kind, '谍照');
   assert.equal(row.status, 'estimated');
+  assert.equal(row.statusLabel, '未官宣');
   assert.equal(row.date, undefined);
-  assert.match(row.dateText, /第四季度/);
+  assert.equal(row.dateText, '待定');
+  assert.match(row.windowText, /第四季度/);
   assert.equal(row.priceText, '价格待公布');
   assert.equal(row.month, '2026-10');
 });
@@ -104,6 +115,34 @@ test('channel lead-ins, weekly previews, portraits, sales, policy, OTA and partn
     assert.equal(qualifiesForLaunchCalendar(`${item.title} ${item.summary}`), false, item.title);
     assert.equal(deriveLaunchFromStory(item), null, item.title);
   }
+});
+
+test('亮相 without a formal launch day is 已官宣 and the time cell stays 待定', () => {
+  const row = deriveLaunchFromStory(story(
+    '阿维塔T09概念版亮相',
+    '阿维塔T09概念版正式亮相，新车计划于年内正式发布，售价尚未公布。',
+    { brands: ['阿维塔'], publishedAt: '2026-10-11', sourceUrl: 'https://example.com/t09' }
+  ));
+  assert.ok(row);
+  assert.equal(row.status, 'confirmed');
+  assert.equal(row.statusLabel, '已官宣');
+  assert.equal(row.date, undefined);
+  assert.equal(row.dateText, '待定');
+  assert.match(row.windowText, /年底/);
+  assert.equal(row.month, '2026-12');
+});
+
+test('a stated future launch day is shown while the status stays 未官宣', () => {
+  const row = deriveLaunchFromStory(story(
+    'ID.ERA 8X将于10月12日上市',
+    '上汽大众ID.ERA 8X将于10月12日上市，价格尚未公布。',
+    { brands: ['大众'], publishedAt: '2026-10-10', sourceUrl: 'https://example.com/era' }
+  ));
+  assert.ok(row);
+  assert.equal(row.status, 'estimated');
+  assert.equal(row.statusLabel, '未官宣');
+  assert.equal(row.date, '2026-10-12');
+  assert.equal(row.dateText, '10月12日');
 });
 
 test('the same car does not duplicate a curated row, and a more specific launch replaces an estimate', () => {
@@ -146,14 +185,15 @@ test('the same car does not duplicate a curated row, and a more specific launch 
   const estimate = {
     id: 'calendar-tai9',
     month: '2026-10',
-    dateText: '第四季度（具体日期待官宣）',
+    dateText: '待定',
+    windowText: '第四季度（具体日期待官宣）',
     brand: '比亚迪',
     model: '方程豹钛9',
     kind: '计划上市',
     powertrain: '插混 SUV',
     priceText: '价格待公布',
     status: 'estimated',
-    statusLabel: '预计上市',
+    statusLabel: '未官宣',
     sourceName: '汽车之家',
     sourceUrl: 'https://example.com/tai9-plan',
     evidenceLabel: '媒体报道'
@@ -174,8 +214,8 @@ test('a debut date and a later launch window stay separate', () => {
   const debut = {
     id: 'calendar-smart-2-debut',
     month: '2026-10',
-    date: '2026-10-12',
-    dateText: '10月12日',
+    dateText: '待定',
+    windowText: '10月12日全球首发',
     brand: 'smart',
     model: '精灵 #2',
     kind: '全球首发',
@@ -190,14 +230,15 @@ test('a debut date and a later launch window stay separate', () => {
   const plan = {
     id: 'calendar-smart-2-launch',
     month: '2026-11',
-    dateText: '11月中旬（具体日期待官宣）',
+    dateText: '待定',
+    windowText: '11月中旬（具体日期待官宣）',
     brand: 'smart',
     model: '精灵 #2',
     kind: '计划上市',
     powertrain: '纯电城市车',
     priceText: '价格待公布',
     status: 'estimated',
-    statusLabel: '预计上市',
+    statusLabel: '未官宣',
     sourceName: '汽车之家',
     sourceUrl: 'https://example.com/smart-plan',
     evidenceLabel: '媒体报道'
@@ -205,4 +246,8 @@ test('a debut date and a later launch window stay separate', () => {
   const merged = mergeLaunches([], [debut, plan]);
   assert.equal(merged.length, 2);
   assert.deepEqual(merged.map(item => item.id), ['calendar-smart-2-debut', 'calendar-smart-2-launch']);
+  assert.deepEqual(merged.map(item => item.dateText), ['待定', '待定']);
+  assert.match(merged[0].windowText, /10月12日全球首发/);
+  assert.match(merged[1].windowText, /11月中旬/);
+  assert.equal(merged[1].statusLabel, '未官宣');
 });
