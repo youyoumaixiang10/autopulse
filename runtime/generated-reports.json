@@ -4,7 +4,7 @@
     "windowLabel": "10月11日 08:00 — 10月12日 08:00",
     "highlights": [
       {
-        "id": "story-2dd09c17ccfd55f7",
+        "id": "story-c323855813cea4b2",
         "tags": [
           "新车"
         ],
@@ -34,36 +34,7 @@
             "url": "https://auto.gasgoo.com/news/202610/12I70474523C107.shtml",
             "publishedAt": "2026-10-12",
             "label": "媒体报道"
-          }
-        ],
-        "important": true
-      },
-      {
-        "id": "story-cf6af87ac0f19161",
-        "tags": [
-          "新车"
-        ],
-        "title": "小鹏汽车今日宣布，MONA L05，年轻人的首款大五座 SUV，即将登场",
-        "summary": "IT之家 10 月 12 日消息，小鹏汽车今日宣布，MONA L05，年轻人的首款大五座 SUV，即将登场。",
-        "detail": "IT之家 10 月 12 日消息，小鹏汽车今日宣布，MONA L05，年轻人的首款大五座 SUV，即将登场。\n\n据IT之家此前报道，小鹏 MONA L05 此前已在工信部申报，这款新车长宽高分别为 4870/1930/1636mm，轴距 2940mm。\n\n新车将提供纯电、增程两种动力形式：",
-        "details": [
-          "IT之家 10 月 12 日消息，小鹏汽车今日宣布，MONA L05，年轻人的首款大五座 SUV，即将登场。",
-          "据IT之家此前报道，小鹏 MONA L05 此前已在工信部申报，这款新车长宽高分别为 4870/1930/1636mm，轴距 2940mm。",
-          "新车将提供纯电、增程两种动力形式："
-        ],
-        "observation": "继续核对销售版本、正式价格与时间安排，区分预售、上市和交付。",
-        "sourceName": "IT之家",
-        "sourceUrl": "https://www.ithome.com/1/011/752.htm",
-        "publishedAt": "2026-10-12",
-        "issueDate": "2026-10-12",
-        "publishedTime": "2026-10-12",
-        "brands": [
-          "小鹏"
-        ],
-        "evidenceStatus": "media",
-        "evidenceLabel": "媒体报道",
-        "editorialStatus": "source-record",
-        "sourceLinks": [
+          },
           {
             "name": "IT之家",
             "url": "https://www.ithome.com/1/011/752.htm",
@@ -515,7 +486,7 @@
       ],
       "小鹏": [
         {
-          "id": "story-2dd09c17ccfd55f7",
+          "id": "story-c323855813cea4b2",
           "tags": [
             "新车"
           ],
@@ -545,36 +516,7 @@
               "url": "https://auto.gasgoo.com/news/202610/12I70474523C107.shtml",
               "publishedAt": "2026-10-12",
               "label": "媒体报道"
-            }
-          ],
-          "important": true
-        },
-        {
-          "id": "story-cf6af87ac0f19161",
-          "tags": [
-            "新车"
-          ],
-          "title": "小鹏汽车今日宣布，MONA L05，年轻人的首款大五座 SUV，即将登场",
-          "summary": "IT之家 10 月 12 日消息，小鹏汽车今日宣布，MONA L05，年轻人的首款大五座 SUV，即将登场。",
-          "detail": "IT之家 10 月 12 日消息，小鹏汽车今日宣布，MONA L05，年轻人的首款大五座 SUV，即将登场。\n\n据IT之家此前报道，小鹏 MONA L05 此前已在工信部申报，这款新车长宽高分别为 4870/1930/1636mm，轴距 2940mm。\n\n新车将提供纯电、增程两种动力形式：",
-          "details": [
-            "IT之家 10 月 12 日消息，小鹏汽车今日宣布，MONA L05，年轻人的首款大五座 SUV，即将登场。",
-            "据IT之家此前报道，小鹏 MONA L05 此前已在工信部申报，这款新车长宽高分别为 4870/1930/1636mm，轴距 2940mm。",
-            "新车将提供纯电、增程两种动力形式："
-          ],
-          "observation": "继续核对销售版本、正式价格与时间安排，区分预售、上市和交付。",
-          "sourceName": "IT之家",
-          "sourceUrl": "https://www.ithome.com/1/011/752.htm",
-          "publishedAt": "2026-10-12",
-          "issueDate": "2026-10-12",
-          "publishedTime": "2026-10-12",
-          "brands": [
-            "小鹏"
-          ],
-          "evidenceStatus": "media",
-          "evidenceLabel": "媒体报道",
-          "editorialStatus": "source-record",
-          "sourceLinks": [
+            },
             {
               "name": "IT之家",
               "url": "https://www.ithome.com/1/011/752.htm",
@@ -1436,7 +1378,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-10-11": {
     "dateLabel": "2026年10月11日",
@@ -2186,7 +2128,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-10-10": {
     "dateLabel": "2026年10月10日",
@@ -3091,7 +3033,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-10-09": {
     "dateLabel": "2026年10月9日",
@@ -3984,7 +3926,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-10-08": {
     "dateLabel": "2026年10月8日",
@@ -4205,7 +4147,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-10-07": {
     "dateLabel": "2026年10月7日",
@@ -4214,7 +4156,7 @@
     "brands": {},
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.776Z"
+    "updatedAt": "2026-10-12T05:05:38.567Z"
   },
   "2026-10-06": {
     "dateLabel": "2026年10月6日",
@@ -4291,7 +4233,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-10-05": {
     "dateLabel": "2026年10月5日",
@@ -4414,7 +4356,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-10-04": {
     "dateLabel": "2026年10月4日",
@@ -4423,7 +4365,7 @@
     "brands": {},
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.776Z"
+    "updatedAt": "2026-10-12T05:05:38.567Z"
   },
   "2026-10-03": {
     "dateLabel": "2026年10月3日",
@@ -4432,7 +4374,7 @@
     "brands": {},
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.776Z"
+    "updatedAt": "2026-10-12T05:05:38.567Z"
   },
   "2026-10-02": {
     "dateLabel": "2026年10月2日",
@@ -4659,7 +4601,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-10-01": {
     "dateLabel": "2026年10月1日",
@@ -4888,7 +4830,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-30": {
     "dateLabel": "2026年9月30日",
@@ -5075,7 +5017,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-29": {
     "dateLabel": "2026年9月29日",
@@ -5084,7 +5026,7 @@
     "brands": {},
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.776Z"
+    "updatedAt": "2026-10-12T05:05:38.567Z"
   },
   "2026-09-28": {
     "dateLabel": "2026年9月28日",
@@ -5093,7 +5035,7 @@
     "brands": {},
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.776Z"
+    "updatedAt": "2026-10-12T05:05:38.567Z"
   },
   "2026-09-27": {
     "dateLabel": "2026年9月27日",
@@ -5102,7 +5044,7 @@
     "brands": {},
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.776Z"
+    "updatedAt": "2026-10-12T05:05:38.567Z"
   },
   "2026-09-26": {
     "dateLabel": "2026年9月26日",
@@ -5111,7 +5053,7 @@
     "brands": {},
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.776Z"
+    "updatedAt": "2026-10-12T05:05:38.567Z"
   },
   "2026-09-25": {
     "dateLabel": "2026年9月25日",
@@ -5120,7 +5062,7 @@
     "brands": {},
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.776Z"
+    "updatedAt": "2026-10-12T05:05:38.567Z"
   },
   "2026-09-24": {
     "dateLabel": "2026年9月24日",
@@ -5129,7 +5071,7 @@
     "brands": {},
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.776Z"
+    "updatedAt": "2026-10-12T05:05:38.567Z"
   },
   "2026-09-23": {
     "dateLabel": "2026年9月23日",
@@ -5176,7 +5118,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-22": {
     "dateLabel": "2026年9月22日",
@@ -5185,7 +5127,7 @@
     "brands": {},
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.776Z"
+    "updatedAt": "2026-10-12T05:05:38.567Z"
   },
   "2026-09-21": {
     "dateLabel": "2026年9月21日",
@@ -5194,7 +5136,7 @@
     "brands": {},
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.776Z"
+    "updatedAt": "2026-10-12T05:05:38.567Z"
   },
   "2026-09-20": {
     "dateLabel": "2026年9月20日",
@@ -5279,7 +5221,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-19": {
     "dateLabel": "2026年9月19日",
@@ -5399,7 +5341,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-18": {
     "dateLabel": "2026年9月18日",
@@ -5842,7 +5784,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-17": {
     "dateLabel": "2026年9月17日",
@@ -6562,7 +6504,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-16": {
     "dateLabel": "2026年9月16日",
@@ -6869,7 +6811,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-15": {
     "dateLabel": "2026年9月15日",
@@ -7162,7 +7104,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-14": {
     "dateLabel": "2026年9月14日",
@@ -7516,7 +7458,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-13": {
     "dateLabel": "2026年9月13日",
@@ -7883,7 +7825,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-12": {
     "dateLabel": "2026年9月12日",
@@ -8665,7 +8607,7 @@
         "important": true
       }
     ],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-11": {
     "dateLabel": "2026年9月11日",
@@ -10103,17 +10045,17 @@
             "品牌动态"
           ],
           "title": "腾势N8L纯电将首发“迪迪虾”超级智能体服务",
-          "summary": "开车路上随口说，短剧随心看。@你好-斑马 携手超级智能体「迪迪虾」 充电间隙好戏相伴，首发腾势N8L纯电 美好出行，家倍从容，迪迪虾我们一起走。",
-          "detail": "开车路上随口说，短剧随心看！ @你好-斑马 携手超级智能体「迪迪虾」 充电间隙好戏相伴，首发#腾势N8L纯电# 美好出行，家倍从容，迪迪虾我们一起走！ http://t.cn/AX0gqjD2",
+          "summary": "开车路上随口说，热门大片马上播。@爱奇艺 携手超级智能体「迪迪虾」 一句话直达海量影视剧集，首发腾势N8L纯电 美好出行，家倍从容，迪迪虾我们一起走。",
+          "detail": "开车路上随口说，热门大片马上播！ @爱奇艺 携手超级智能体「迪迪虾」 一句话直达海量影视剧集，首发#腾势N8L纯电# 美好出行，家倍从容，迪迪虾我们一起走！ http://t.cn/AX0dKbXS",
           "details": [
-            "开车路上随口说，短剧随心看！ @你好-斑马 携手超级智能体「迪迪虾」 充电间隙好戏相伴，首发#腾势N8L纯电# 美好出行，家倍从容，迪迪虾我们一起走！ http://t.cn/AX0gqjD2"
+            "开车路上随口说，热门大片马上播！ @爱奇艺 携手超级智能体「迪迪虾」 一句话直达海量影视剧集，首发#腾势N8L纯电# 美好出行，家倍从容，迪迪虾我们一起走！ http://t.cn/AX0dKbXS"
           ],
           "observation": "关注这次信息面向的人群、活动节点与后续官方更新。",
           "sourceName": "腾势汽车官方微博",
-          "sourceUrl": "https://weibo.com/2664689831/RhtmRgDdE",
+          "sourceUrl": "https://weibo.com/2664689831/Rhr0JusUT",
           "publishedAt": "2026-09-10",
           "issueDate": "2026-09-11",
-          "publishedTime": "2026-09-10T17:00:00+08:00",
+          "publishedTime": "2026-09-10T11:00:00+08:00",
           "brands": [
             "腾势"
           ],
@@ -10123,13 +10065,7 @@
           "sourceLinks": [
             {
               "name": "腾势汽车官方微博",
-              "url": "https://weibo.com/2664689831/RhtmRgDdE",
-              "publishedAt": "2026-09-10",
-              "label": "官方发布"
-            },
-            {
-              "name": "腾势汽车官方微博",
-              "url": "https://weibo.com/2664689831/RhsYvnbzo",
+              "url": "https://weibo.com/2664689831/Rhr0JusUT",
               "publishedAt": "2026-09-10",
               "label": "官方发布"
             },
@@ -10141,7 +10077,13 @@
             },
             {
               "name": "腾势汽车官方微博",
-              "url": "https://weibo.com/2664689831/Rhr0JusUT",
+              "url": "https://weibo.com/2664689831/RhsYvnbzo",
+              "publishedAt": "2026-09-10",
+              "label": "官方发布"
+            },
+            {
+              "name": "腾势汽车官方微博",
+              "url": "https://weibo.com/2664689831/RhtmRgDdE",
               "publishedAt": "2026-09-10",
               "label": "官方发布"
             }
@@ -10368,7 +10310,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-10": {
     "dateLabel": "2026年9月10日",
@@ -10507,6 +10449,63 @@
             "url": "https://weibo.com/2664689831/Rhi5AFWtE",
             "publishedAt": "2026-09-09",
             "label": "官方发布"
+          }
+        ],
+        "important": true
+      },
+      {
+        "id": "story-4f2f2d1143b5ee52",
+        "tags": [
+          "新车"
+        ],
+        "title": "驾控新境，纯电加推",
+        "summary": "驾控新境，纯电加推 全新腾势Z9GT 易三方闪充尊越型正式上市 以极致驾控，再塑旗舰GT 全新腾势Z9GT易三方闪充尊越型上市 新锐精英首选豪华GT。",
+        "detail": "驾控新境，纯电加推 #全新腾势Z9GT# 易三方闪充尊越型正式上市 以极致驾控，再塑旗舰GT #全新腾势Z9GT易三方闪充尊越型上市##新锐精英首选豪华GT#",
+        "details": [
+          "驾控新境，纯电加推 #全新腾势Z9GT# 易三方闪充尊越型正式上市 以极致驾控，再塑旗舰GT #全新腾势Z9GT易三方闪充尊越型上市##新锐精英首选豪华GT#"
+        ],
+        "observation": "继续核对销售版本、正式价格与时间安排，区分预售、上市和交付。",
+        "sourceName": "腾势汽车官方微博",
+        "sourceUrl": "https://weibo.com/2664689831/RhhtAwjYb",
+        "publishedAt": "2026-09-09",
+        "issueDate": "2026-09-10",
+        "publishedTime": "2026-09-09T10:43:00+08:00",
+        "brands": [
+          "腾势"
+        ],
+        "evidenceStatus": "official",
+        "evidenceLabel": "官方发布",
+        "editorialStatus": "source-record",
+        "sourceLinks": [
+          {
+            "name": "腾势汽车官方微博",
+            "url": "https://weibo.com/2664689831/RhhtAwjYb",
+            "publishedAt": "2026-09-09",
+            "label": "官方发布"
+          },
+          {
+            "name": "腾势汽车官方微博",
+            "url": "https://weibo.com/2664689831/RhhS5gF4Q",
+            "publishedAt": "2026-09-09",
+            "label": "官方发布"
+          },
+          {
+            "name": "腾势汽车官方微博",
+            "url": "https://weibo.com/2664689831/RhjyVhoBu",
+            "publishedAt": "2026-09-09",
+            "label": "官方发布"
+          },
+          {
+            "name": "汽车之家资讯",
+            "url": "https://www.autohome.com.cn/news/202609/1317061.html",
+            "publishedAt": "2026-09-09",
+            "label": "媒体报道"
+          },
+          {
+            "name": "新浪汽车",
+            "url": "https://finance.sina.com.cn/tech/digi/2026-09-09/doc-inirexfw8937843.shtml",
+            "publishedAt": "2026-09-09",
+            "label": "媒体报道"
           }
         ],
         "important": true
@@ -11651,63 +11650,6 @@
           "important": false
         },
         {
-          "id": "story-4f2f2d1143b5ee52",
-          "tags": [
-            "品牌动态"
-          ],
-          "title": "#全新腾势Z9GT#",
-          "summary": "全新腾势Z9GT 易三方闪充尊越型登场 纯电启新境，驾控见锋芒 全新腾势Z9GT易三方闪充尊越型上市 新锐精英首选豪华GT http://t.cn/AX03cC9x。",
-          "detail": "#全新腾势Z9GT# 易三方闪充尊越型登场 纯电启新境，驾控见锋芒 #全新腾势Z9GT易三方闪充尊越型上市##新锐精英首选豪华GT# http://t.cn/AX03cC9x",
-          "details": [
-            "#全新腾势Z9GT# 易三方闪充尊越型登场 纯电启新境，驾控见锋芒 #全新腾势Z9GT易三方闪充尊越型上市##新锐精英首选豪华GT# http://t.cn/AX03cC9x"
-          ],
-          "observation": "关注这次信息面向的人群、活动节点与后续官方更新。",
-          "sourceName": "腾势汽车官方微博",
-          "sourceUrl": "https://weibo.com/2664689831/RhjyVhoBu",
-          "publishedAt": "2026-09-09",
-          "issueDate": "2026-09-10",
-          "publishedTime": "2026-09-09T16:02:00+08:00",
-          "brands": [
-            "腾势"
-          ],
-          "evidenceStatus": "official",
-          "evidenceLabel": "官方发布",
-          "editorialStatus": "source-record",
-          "sourceLinks": [
-            {
-              "name": "腾势汽车官方微博",
-              "url": "https://weibo.com/2664689831/RhjyVhoBu",
-              "publishedAt": "2026-09-09",
-              "label": "官方发布"
-            },
-            {
-              "name": "腾势汽车官方微博",
-              "url": "https://weibo.com/2664689831/RhhS5gF4Q",
-              "publishedAt": "2026-09-09",
-              "label": "官方发布"
-            },
-            {
-              "name": "腾势汽车官方微博",
-              "url": "https://weibo.com/2664689831/RhhtAwjYb",
-              "publishedAt": "2026-09-09",
-              "label": "官方发布"
-            },
-            {
-              "name": "汽车之家资讯",
-              "url": "https://www.autohome.com.cn/news/202609/1317061.html",
-              "publishedAt": "2026-09-09",
-              "label": "媒体报道"
-            },
-            {
-              "name": "新浪汽车",
-              "url": "https://finance.sina.com.cn/tech/digi/2026-09-09/doc-inirexfw8937843.shtml",
-              "publishedAt": "2026-09-09",
-              "label": "媒体报道"
-            }
-          ],
-          "important": false
-        },
-        {
           "id": "story-8fd6f4834fca62c1",
           "tags": [
             "新车"
@@ -11736,6 +11678,63 @@
               "url": "https://weibo.com/2664689831/Rhi5AFWtE",
               "publishedAt": "2026-09-09",
               "label": "官方发布"
+            }
+          ],
+          "important": true
+        },
+        {
+          "id": "story-4f2f2d1143b5ee52",
+          "tags": [
+            "新车"
+          ],
+          "title": "驾控新境，纯电加推",
+          "summary": "驾控新境，纯电加推 全新腾势Z9GT 易三方闪充尊越型正式上市 以极致驾控，再塑旗舰GT 全新腾势Z9GT易三方闪充尊越型上市 新锐精英首选豪华GT。",
+          "detail": "驾控新境，纯电加推 #全新腾势Z9GT# 易三方闪充尊越型正式上市 以极致驾控，再塑旗舰GT #全新腾势Z9GT易三方闪充尊越型上市##新锐精英首选豪华GT#",
+          "details": [
+            "驾控新境，纯电加推 #全新腾势Z9GT# 易三方闪充尊越型正式上市 以极致驾控，再塑旗舰GT #全新腾势Z9GT易三方闪充尊越型上市##新锐精英首选豪华GT#"
+          ],
+          "observation": "继续核对销售版本、正式价格与时间安排，区分预售、上市和交付。",
+          "sourceName": "腾势汽车官方微博",
+          "sourceUrl": "https://weibo.com/2664689831/RhhtAwjYb",
+          "publishedAt": "2026-09-09",
+          "issueDate": "2026-09-10",
+          "publishedTime": "2026-09-09T10:43:00+08:00",
+          "brands": [
+            "腾势"
+          ],
+          "evidenceStatus": "official",
+          "evidenceLabel": "官方发布",
+          "editorialStatus": "source-record",
+          "sourceLinks": [
+            {
+              "name": "腾势汽车官方微博",
+              "url": "https://weibo.com/2664689831/RhhtAwjYb",
+              "publishedAt": "2026-09-09",
+              "label": "官方发布"
+            },
+            {
+              "name": "腾势汽车官方微博",
+              "url": "https://weibo.com/2664689831/RhhS5gF4Q",
+              "publishedAt": "2026-09-09",
+              "label": "官方发布"
+            },
+            {
+              "name": "腾势汽车官方微博",
+              "url": "https://weibo.com/2664689831/RhjyVhoBu",
+              "publishedAt": "2026-09-09",
+              "label": "官方发布"
+            },
+            {
+              "name": "汽车之家资讯",
+              "url": "https://www.autohome.com.cn/news/202609/1317061.html",
+              "publishedAt": "2026-09-09",
+              "label": "媒体报道"
+            },
+            {
+              "name": "新浪汽车",
+              "url": "https://finance.sina.com.cn/tech/digi/2026-09-09/doc-inirexfw8937843.shtml",
+              "publishedAt": "2026-09-09",
+              "label": "媒体报道"
             }
           ],
           "important": true
@@ -11956,7 +11955,7 @@
         "important": true
       }
     ],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-09": {
     "dateLabel": "2026年9月9日",
@@ -12307,63 +12306,6 @@
     "brands": {
       "比亚迪": [
         {
-          "id": "story-cd1af12da8de9244",
-          "tags": [
-            "品牌动态"
-          ],
-          "title": "腾势N8L纯电将首发“迪迪虾”超级智能体服务",
-          "summary": "路上想追剧，随口说即可播。@优酷 携手超级智能体「迪迪虾」， 语音点播、解放双手，首发腾势N8L纯电 美好出行，家倍从容，迪迪虾我们一起走。比亚迪汽车的微博视频。",
-          "detail": "路上想追剧，随口说即可播！ @优酷 携手超级智能体「迪迪虾」， 语音点播、解放双手，首发#腾势N8L纯电# 美好出行，家倍从容，迪迪虾我们一起走！ 比亚迪汽车的微博视频",
-          "details": [
-            "路上想追剧，随口说即可播！ @优酷 携手超级智能体「迪迪虾」， 语音点播、解放双手，首发#腾势N8L纯电# 美好出行，家倍从容，迪迪虾我们一起走！ 比亚迪汽车的微博视频"
-          ],
-          "observation": "关注这次信息面向的人群、活动节点与后续官方更新。",
-          "sourceName": "比亚迪汽车官方微博",
-          "sourceUrl": "https://weibo.com/1746221281/RhapG7mE1",
-          "publishedAt": "2026-09-08",
-          "issueDate": "2026-09-09",
-          "publishedTime": "2026-09-08T16:44:00+08:00",
-          "brands": [
-            "比亚迪"
-          ],
-          "evidenceStatus": "official",
-          "evidenceLabel": "官方发布",
-          "editorialStatus": "source-record",
-          "sourceLinks": [
-            {
-              "name": "比亚迪汽车官方微博",
-              "url": "https://weibo.com/1746221281/RhapG7mE1",
-              "publishedAt": "2026-09-08",
-              "label": "官方发布"
-            },
-            {
-              "name": "比亚迪汽车官方微博",
-              "url": "https://weibo.com/1746221281/Rh9vkdr9F",
-              "publishedAt": "2026-09-08",
-              "label": "官方发布"
-            },
-            {
-              "name": "比亚迪汽车官方微博",
-              "url": "https://weibo.com/1746221281/Rh9kO031u",
-              "publishedAt": "2026-09-08",
-              "label": "官方发布"
-            },
-            {
-              "name": "比亚迪汽车官方微博",
-              "url": "https://weibo.com/1746221281/Rh8ZHjblj",
-              "publishedAt": "2026-09-08",
-              "label": "官方发布"
-            },
-            {
-              "name": "比亚迪汽车官方微博",
-              "url": "https://weibo.com/1746221281/Rh7uKoFFS",
-              "publishedAt": "2026-09-08",
-              "label": "官方发布"
-            }
-          ],
-          "important": false
-        },
-        {
           "id": "story-e175240920014181",
           "tags": [
             "品牌动态"
@@ -12390,6 +12332,63 @@
             {
               "name": "比亚迪汽车官方微博",
               "url": "https://weibo.com/1746221281/Rh9p266vG",
+              "publishedAt": "2026-09-08",
+              "label": "官方发布"
+            }
+          ],
+          "important": false
+        },
+        {
+          "id": "story-cd1af12da8de9244",
+          "tags": [
+            "品牌动态"
+          ],
+          "title": "腾势N8L纯电将首发“迪迪虾”超级智能体服务",
+          "summary": "世界级 AI 云，遇上世界级新能源汽车。@阿里云 携手超级智能体「迪迪虾」， 听得明白更懂你，首发腾势N8L纯电 美好出行，家倍从容，迪迪虾我们一起走。比亚迪汽车的微博视频。",
+          "detail": "世界级 AI 云，遇上世界级新能源汽车！ @阿里云 携手超级智能体「迪迪虾」， 听得明白更懂你，首发#腾势N8L纯电# 美好出行，家倍从容，迪迪虾我们一起走！ 比亚迪汽车的微博视频",
+          "details": [
+            "世界级 AI 云，遇上世界级新能源汽车！ @阿里云 携手超级智能体「迪迪虾」， 听得明白更懂你，首发#腾势N8L纯电# 美好出行，家倍从容，迪迪虾我们一起走！ 比亚迪汽车的微博视频"
+          ],
+          "observation": "关注这次信息面向的人群、活动节点与后续官方更新。",
+          "sourceName": "比亚迪汽车官方微博",
+          "sourceUrl": "https://weibo.com/1746221281/Rh7uKoFFS",
+          "publishedAt": "2026-09-08",
+          "issueDate": "2026-09-09",
+          "publishedTime": "2026-09-08T09:19:00+08:00",
+          "brands": [
+            "比亚迪"
+          ],
+          "evidenceStatus": "official",
+          "evidenceLabel": "官方发布",
+          "editorialStatus": "source-record",
+          "sourceLinks": [
+            {
+              "name": "比亚迪汽车官方微博",
+              "url": "https://weibo.com/1746221281/Rh7uKoFFS",
+              "publishedAt": "2026-09-08",
+              "label": "官方发布"
+            },
+            {
+              "name": "比亚迪汽车官方微博",
+              "url": "https://weibo.com/1746221281/Rh8ZHjblj",
+              "publishedAt": "2026-09-08",
+              "label": "官方发布"
+            },
+            {
+              "name": "比亚迪汽车官方微博",
+              "url": "https://weibo.com/1746221281/Rh9kO031u",
+              "publishedAt": "2026-09-08",
+              "label": "官方发布"
+            },
+            {
+              "name": "比亚迪汽车官方微博",
+              "url": "https://weibo.com/1746221281/Rh9vkdr9F",
+              "publishedAt": "2026-09-08",
+              "label": "官方发布"
+            },
+            {
+              "name": "比亚迪汽车官方微博",
+              "url": "https://weibo.com/1746221281/RhapG7mE1",
               "publishedAt": "2026-09-08",
               "label": "官方发布"
             }
@@ -12982,57 +12981,6 @@
           "important": true
         },
         {
-          "id": "story-4727352abae7f775",
-          "tags": [
-            "品牌动态"
-          ],
-          "title": "腾势N8L纯电将首发“迪迪虾”超级智能体服务",
-          "summary": "路上想追剧，随口说即可播。@优酷 携手超级智能体迪迪虾，语音点播、解放双手，首发腾势N8L纯电 ，美好出行，家倍从容，迪迪虾我们一起走。http://t.cn/AX0RaQ2d。",
-          "detail": "路上想追剧，随口说即可播！ @优酷 携手超级智能体迪迪虾，语音点播、解放双手，首发#腾势N8L纯电#，美好出行，家倍从容，迪迪虾我们一起走！ http://t.cn/AX0RaQ2d",
-          "details": [
-            "路上想追剧，随口说即可播！ @优酷 携手超级智能体迪迪虾，语音点播、解放双手，首发#腾势N8L纯电#，美好出行，家倍从容，迪迪虾我们一起走！ http://t.cn/AX0RaQ2d"
-          ],
-          "observation": "关注这次信息面向的人群、活动节点与后续官方更新。",
-          "sourceName": "腾势汽车官方微博",
-          "sourceUrl": "https://weibo.com/2664689831/RhavSiYGF",
-          "publishedAt": "2026-09-08",
-          "issueDate": "2026-09-09",
-          "publishedTime": "2026-09-08T17:00:00+08:00",
-          "brands": [
-            "腾势"
-          ],
-          "evidenceStatus": "official",
-          "evidenceLabel": "官方发布",
-          "editorialStatus": "source-record",
-          "sourceLinks": [
-            {
-              "name": "腾势汽车官方微博",
-              "url": "https://weibo.com/2664689831/RhavSiYGF",
-              "publishedAt": "2026-09-08",
-              "label": "官方发布"
-            },
-            {
-              "name": "腾势汽车官方微博",
-              "url": "https://weibo.com/2664689831/Rha7Ecaq6",
-              "publishedAt": "2026-09-08",
-              "label": "官方发布"
-            },
-            {
-              "name": "腾势汽车官方微博",
-              "url": "https://weibo.com/2664689831/Rh9JppcGv",
-              "publishedAt": "2026-09-08",
-              "label": "官方发布"
-            },
-            {
-              "name": "腾势汽车官方微博",
-              "url": "https://weibo.com/2664689831/Rh9wkb7lj",
-              "publishedAt": "2026-09-08",
-              "label": "官方发布"
-            }
-          ],
-          "important": false
-        },
-        {
           "id": "story-636c4951fcb145e5",
           "tags": [
             "品牌动态"
@@ -13059,6 +13007,57 @@
             {
               "name": "腾势汽车官方微博",
               "url": "https://weibo.com/2664689831/Rha1dyOLo",
+              "publishedAt": "2026-09-08",
+              "label": "官方发布"
+            }
+          ],
+          "important": false
+        },
+        {
+          "id": "story-4727352abae7f775",
+          "tags": [
+            "品牌动态"
+          ],
+          "title": "腾势N8L纯电将首发“迪迪虾”超级智能体服务",
+          "summary": "开车路上随口说，外卖准时送到家。@淘宝闪购 携手超级智能体迪迪虾，动口不动手，首发腾势N8L纯电 ，美好出行，家倍从容，迪迪虾我们一起走。http://t.cn/AX0RGbJS。",
+          "detail": "开车路上随口说，外卖准时送到家！ @淘宝闪购 携手超级智能体迪迪虾，动口不动手，首发#腾势N8L纯电#，美好出行，家倍从容，迪迪虾我们一起走！ http://t.cn/AX0RGbJS",
+          "details": [
+            "开车路上随口说，外卖准时送到家！ @淘宝闪购 携手超级智能体迪迪虾，动口不动手，首发#腾势N8L纯电#，美好出行，家倍从容，迪迪虾我们一起走！ http://t.cn/AX0RGbJS"
+          ],
+          "observation": "关注这次信息面向的人群、活动节点与后续官方更新。",
+          "sourceName": "腾势汽车官方微博",
+          "sourceUrl": "https://weibo.com/2664689831/Rh9wkb7lj",
+          "publishedAt": "2026-09-08",
+          "issueDate": "2026-09-09",
+          "publishedTime": "2026-09-08T14:28:00+08:00",
+          "brands": [
+            "腾势"
+          ],
+          "evidenceStatus": "official",
+          "evidenceLabel": "官方发布",
+          "editorialStatus": "source-record",
+          "sourceLinks": [
+            {
+              "name": "腾势汽车官方微博",
+              "url": "https://weibo.com/2664689831/Rh9wkb7lj",
+              "publishedAt": "2026-09-08",
+              "label": "官方发布"
+            },
+            {
+              "name": "腾势汽车官方微博",
+              "url": "https://weibo.com/2664689831/Rh9JppcGv",
+              "publishedAt": "2026-09-08",
+              "label": "官方发布"
+            },
+            {
+              "name": "腾势汽车官方微博",
+              "url": "https://weibo.com/2664689831/Rha7Ecaq6",
+              "publishedAt": "2026-09-08",
+              "label": "官方发布"
+            },
+            {
+              "name": "腾势汽车官方微博",
+              "url": "https://weibo.com/2664689831/RhavSiYGF",
               "publishedAt": "2026-09-08",
               "label": "官方发布"
             }
@@ -13309,7 +13308,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-08": {
     "dateLabel": "2026年9月8日",
@@ -14400,7 +14399,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-07": {
     "dateLabel": "2026年9月7日",
@@ -15028,7 +15027,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-06": {
     "dateLabel": "2026年9月6日",
@@ -15492,7 +15491,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-05": {
     "dateLabel": "2026年9月5日",
@@ -16286,7 +16285,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-04": {
     "dateLabel": "2026年9月4日",
@@ -16736,45 +16735,12 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-03": {
     "dateLabel": "2026年9月3日",
     "windowLabel": "9月2日 08:00 — 9月3日 08:00",
     "highlights": [
-      {
-        "id": "story-9c506168f1eebef4",
-        "tags": [
-          "新车"
-        ],
-        "title": "小米澎程，9月7日正式上市",
-        "summary": "小米澎程，9月7日正式上市。今天开始到7号晚7点，参与微信公众号线上互动， 赢10台小米18 Fold 旗舰中折叠手机，和3000个1:43小米澎程N70合金车模。",
-        "detail": "小米澎程，9月7日正式上市。 今天开始到7号晚7点，参与微信公众号线上互动， 赢10台小米18 Fold 旗舰中折叠手机，和3000个1:43小米澎程N70合金车模。 关注「小米澎程」微信公众号，并回复“小米澎程”即可参与。#小米澎程##小米18 Fold#",
-        "details": [
-          "小米澎程，9月7日正式上市。 今天开始到7号晚7点，参与微信公众号线上互动， 赢10台小米18 Fold 旗舰中折叠手机，和3000个1:43小米澎程N70合金车模。 关注「小米澎程」微信公众号，并回复“小米澎程”即可参与。#小米澎程##小米18 Fold#"
-        ],
-        "observation": "继续核对销售版本、正式价格与时间安排，区分预售、上市和交付。",
-        "sourceName": "小米汽车官方微博",
-        "sourceUrl": "https://weibo.com/7871239944/RggleyiqJ",
-        "publishedAt": "2026-09-02",
-        "issueDate": "2026-09-03",
-        "publishedTime": "2026-09-02T18:00:00+08:00",
-        "brands": [
-          "小米"
-        ],
-        "evidenceStatus": "official",
-        "evidenceLabel": "官方发布",
-        "editorialStatus": "source-record",
-        "sourceLinks": [
-          {
-            "name": "小米汽车官方微博",
-            "url": "https://weibo.com/7871239944/RggleyiqJ",
-            "publishedAt": "2026-09-02",
-            "label": "官方发布"
-          }
-        ],
-        "important": true
-      },
       {
         "id": "story-ef4f285162172dd7",
         "tags": [
@@ -16809,7 +16775,7 @@
         "important": true
       },
       {
-        "id": "story-6ec3b1c1a9eb86f7",
+        "id": "story-34590e81e4c7e39c",
         "tags": [
           "新车"
         ],
@@ -16835,6 +16801,12 @@
           {
             "name": "小米汽车官方微博",
             "url": "https://weibo.com/7871239944/RgdeSdaCG",
+            "publishedAt": "2026-09-02",
+            "label": "官方发布"
+          },
+          {
+            "name": "小米汽车官方微博",
+            "url": "https://weibo.com/7871239944/RggleyiqJ",
             "publishedAt": "2026-09-02",
             "label": "官方发布"
           }
@@ -17016,40 +16988,7 @@
       ],
       "小米": [
         {
-          "id": "story-9c506168f1eebef4",
-          "tags": [
-            "新车"
-          ],
-          "title": "小米澎程，9月7日正式上市",
-          "summary": "小米澎程，9月7日正式上市。今天开始到7号晚7点，参与微信公众号线上互动， 赢10台小米18 Fold 旗舰中折叠手机，和3000个1:43小米澎程N70合金车模。",
-          "detail": "小米澎程，9月7日正式上市。 今天开始到7号晚7点，参与微信公众号线上互动， 赢10台小米18 Fold 旗舰中折叠手机，和3000个1:43小米澎程N70合金车模。 关注「小米澎程」微信公众号，并回复“小米澎程”即可参与。#小米澎程##小米18 Fold#",
-          "details": [
-            "小米澎程，9月7日正式上市。 今天开始到7号晚7点，参与微信公众号线上互动， 赢10台小米18 Fold 旗舰中折叠手机，和3000个1:43小米澎程N70合金车模。 关注「小米澎程」微信公众号，并回复“小米澎程”即可参与。#小米澎程##小米18 Fold#"
-          ],
-          "observation": "继续核对销售版本、正式价格与时间安排，区分预售、上市和交付。",
-          "sourceName": "小米汽车官方微博",
-          "sourceUrl": "https://weibo.com/7871239944/RggleyiqJ",
-          "publishedAt": "2026-09-02",
-          "issueDate": "2026-09-03",
-          "publishedTime": "2026-09-02T18:00:00+08:00",
-          "brands": [
-            "小米"
-          ],
-          "evidenceStatus": "official",
-          "evidenceLabel": "官方发布",
-          "editorialStatus": "source-record",
-          "sourceLinks": [
-            {
-              "name": "小米汽车官方微博",
-              "url": "https://weibo.com/7871239944/RggleyiqJ",
-              "publishedAt": "2026-09-02",
-              "label": "官方发布"
-            }
-          ],
-          "important": true
-        },
-        {
-          "id": "story-6ec3b1c1a9eb86f7",
+          "id": "story-34590e81e4c7e39c",
           "tags": [
             "新车"
           ],
@@ -17075,6 +17014,12 @@
             {
               "name": "小米汽车官方微博",
               "url": "https://weibo.com/7871239944/RgdeSdaCG",
+              "publishedAt": "2026-09-02",
+              "label": "官方发布"
+            },
+            {
+              "name": "小米汽车官方微博",
+              "url": "https://weibo.com/7871239944/RggleyiqJ",
               "publishedAt": "2026-09-02",
               "label": "官方发布"
             }
@@ -17357,7 +17302,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-02": {
     "dateLabel": "2026年9月2日",
@@ -18158,46 +18103,7 @@
       ],
       "岚图": [
         {
-          "id": "story-0659906144e59127",
-          "tags": [
-            "品牌动态"
-          ],
-          "title": "👇 带升降立标的MPV来了 9月5日岚图梦想家9预售",
-          "summary": "一漆一色，取自山水之间 一色一境，演绎时序更迭 岚图梦想家9 六色齐聚，新色赴约 尽显东方气度，诠释中式豪华审美 每一种色调，自有格调✨ 你最钟意哪一抹。",
-          "detail": "一漆一色，取自山水之间 一色一境，演绎时序更迭 #岚图梦想家9# 六色齐聚，新色赴约 尽显东方气度，诠释中式豪华审美 每一种色调，自有格调✨ 你最钟意哪一抹？👇 #带升降立标的MPV来了# #9月5日岚图梦想家9预售#",
-          "details": [
-            "一漆一色，取自山水之间 一色一境，演绎时序更迭 #岚图梦想家9# 六色齐聚，新色赴约 尽显东方气度，诠释中式豪华审美 每一种色调，自有格调✨ 你最钟意哪一抹？👇 #带升降立标的MPV来了# #9月5日岚图梦想家9预售#"
-          ],
-          "observation": "关注这次信息面向的人群、活动节点与后续官方更新。",
-          "sourceName": "岚图汽车官方微博",
-          "sourceUrl": "https://weibo.com/7351024207/Rg5T8o122",
-          "publishedAt": "2026-09-01",
-          "issueDate": "2026-09-02",
-          "publishedTime": "2026-09-01T15:23:00+08:00",
-          "brands": [
-            "岚图"
-          ],
-          "evidenceStatus": "official",
-          "evidenceLabel": "官方发布",
-          "editorialStatus": "source-record",
-          "sourceLinks": [
-            {
-              "name": "岚图汽车官方微博",
-              "url": "https://weibo.com/7351024207/Rg5T8o122",
-              "publishedAt": "2026-09-01",
-              "label": "官方发布"
-            },
-            {
-              "name": "岚图汽车官方微博",
-              "url": "https://weibo.com/7351024207/Rg3P4uzDC",
-              "publishedAt": "2026-09-01",
-              "label": "官方发布"
-            }
-          ],
-          "important": false
-        },
-        {
-          "id": "story-dc8a1ef05bacf89b",
+          "id": "story-d6307710f9b4cb50",
           "tags": [
             "品牌动态"
           ],
@@ -18223,6 +18129,18 @@
             {
               "name": "岚图汽车官方微博",
               "url": "https://weibo.com/7351024207/Rg3M93K9d",
+              "publishedAt": "2026-09-01",
+              "label": "官方发布"
+            },
+            {
+              "name": "岚图汽车官方微博",
+              "url": "https://weibo.com/7351024207/Rg3P4uzDC",
+              "publishedAt": "2026-09-01",
+              "label": "官方发布"
+            },
+            {
+              "name": "岚图汽车官方微博",
+              "url": "https://weibo.com/7351024207/Rg5T8o122",
               "publishedAt": "2026-09-01",
               "label": "官方发布"
             }
@@ -18470,7 +18388,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-09-01": {
     "dateLabel": "2026年9月1日",
@@ -18554,7 +18472,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-30": {
     "dateLabel": "2026年8月30日",
@@ -18677,7 +18595,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-29": {
     "dateLabel": "2026年8月29日",
@@ -18757,7 +18675,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-28": {
     "dateLabel": "2026年8月28日",
@@ -18873,7 +18791,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-27": {
     "dateLabel": "2026年8月27日",
@@ -18956,7 +18874,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-26": {
     "dateLabel": "2026年8月26日",
@@ -19001,7 +18919,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-25": {
     "dateLabel": "2026年8月25日",
@@ -19084,7 +19002,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-22": {
     "dateLabel": "2026年8月22日",
@@ -19128,7 +19046,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-21": {
     "dateLabel": "2026年8月21日",
@@ -19277,7 +19195,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-20": {
     "dateLabel": "2026年8月20日",
@@ -19397,7 +19315,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-17": {
     "dateLabel": "2026年8月17日",
@@ -19482,7 +19400,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-16": {
     "dateLabel": "2026年8月16日",
@@ -19527,7 +19445,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-15": {
     "dateLabel": "2026年8月15日",
@@ -19607,7 +19525,7 @@
       }
     ],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-13": {
     "dateLabel": "2026年8月13日",
@@ -19684,7 +19602,7 @@
         "important": true
       }
     ],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-12": {
     "dateLabel": "2026年8月12日",
@@ -19696,18 +19614,18 @@
           "新车",
           "促销"
         ],
-        "title": "零跑A05上市，CLTC续航510公里",
-        "summary": "零跑A05正式上市 “A级优等生”基因有多强。",
-        "detail": "零跑A05正式上市 “A级优等生”基因有多强？一篇速览核心亮点👇 超A颜值 | 灵动时尚设计，一眼出彩 灵动驾趣 | 精准操控+510km超长续航，轻松驾驭每一程 百变座舱 | 舒适空间+智慧互联，解锁N种生活场景 安心防护 | 主被动安全全方位硬核配备，每次出行都安全感满满 #零跑A05#6.39万元起，解锁有我都灵的出行体验 限时享至高价值10680元权益+2年0息+四项终身免费质保🎁 #天生懂你有我都灵##西湖边热爱A05的你#",
+        "title": "6.39万元起，零跑A05正式上市",
+        "summary": "6.39万元起，零跑A05正式上市 限时享至高价值10680元权益+2年0息+四项终身免费质保 好看 | 流畅型面、超A侧颜、七大全球自然色、“嘻嘻哈哈”情绪灯组…",
+        "detail": "6.39万元起，零跑A05正式上市 限时享至高价值10680元权益+2年0息+四项终身免费质保 好看 | 流畅型面、超A侧颜、七大全球自然色、“嘻嘻哈哈”情绪灯组，出场即焦点 好开 | 激光雷达+高通8650高性能芯片、高效油冷电驱、510km超长CLTC续航、车位到车位领航辅助，灵动好驾驭 好玩 | 88.4%超高得房率、百变座椅场景、高通8295座舱芯片、领先AI语音大模型，趣味多多 好安心 | 全速域、全向主动AEB紧急制动辅助，9横7纵4强环高强度笼式车身，CTC 2.0 Plus电池底盘一体化，硬核守护 …",
         "details": [
-          "零跑A05正式上市 “A级优等生”基因有多强？一篇速览核心亮点👇 超A颜值 | 灵动时尚设计，一眼出彩 灵动驾趣 | 精准操控+510km超长续航，轻松驾驭每一程 百变座舱 | 舒适空间+智慧互联，解锁N种生活场景 安心防护 | 主被动安全全方位硬核配备，每次出行都安全感满满 #零跑A05#6.39万元起，解锁有我都灵的出行体验 限时享至高价值10680元权益+2年0息+四项终身免费质保🎁 #天生懂你有我都灵##西湖边热爱A05的你#"
+          "6.39万元起，零跑A05正式上市 限时享至高价值10680元权益+2年0息+四项终身免费质保 好看 | 流畅型面、超A侧颜、七大全球自然色、“嘻嘻哈哈”情绪灯组，出场即焦点 好开 | 激光雷达+高通8650高性能芯片、高效油冷电驱、510km超长CLTC续航、车位到车位领航辅助，灵动好驾驭 好玩 | 88.4%超高得房率、百变座椅场景、高通8295座舱芯片、领先AI语音大模型，趣味多多 好安心 | 全速域、全向主动AEB紧急制动辅助，9横7纵4强环高强度笼式车身，CTC 2.0 Plus电池底盘一体化，硬核守护 …"
         ],
         "observation": "继续核对销售版本、正式价格与时间安排，区分预售、上市和交付。",
         "sourceName": "零跑汽车官方微博",
-        "sourceUrl": "https://weibo.com/5872290888/RcVpGCqRU",
+        "sourceUrl": "https://weibo.com/5872290888/RcVnd4S7p",
         "publishedAt": "2026-08-11",
         "issueDate": "2026-08-12",
-        "publishedTime": "2026-08-11T19:12:00+08:00",
+        "publishedTime": "2026-08-11T19:06:00+08:00",
         "brands": [
           "零跑"
         ],
@@ -19717,13 +19635,13 @@
         "sourceLinks": [
           {
             "name": "零跑汽车官方微博",
-            "url": "https://weibo.com/5872290888/RcVpGCqRU",
+            "url": "https://weibo.com/5872290888/RcVnd4S7p",
             "publishedAt": "2026-08-11",
             "label": "官方发布"
           },
           {
             "name": "零跑汽车官方微博",
-            "url": "https://weibo.com/5872290888/RcVnd4S7p",
+            "url": "https://weibo.com/5872290888/RcVpGCqRU",
             "publishedAt": "2026-08-11",
             "label": "官方发布"
           }
@@ -19739,18 +19657,18 @@
             "新车",
             "促销"
           ],
-          "title": "零跑A05上市，CLTC续航510公里",
-          "summary": "零跑A05正式上市 “A级优等生”基因有多强。",
-          "detail": "零跑A05正式上市 “A级优等生”基因有多强？一篇速览核心亮点👇 超A颜值 | 灵动时尚设计，一眼出彩 灵动驾趣 | 精准操控+510km超长续航，轻松驾驭每一程 百变座舱 | 舒适空间+智慧互联，解锁N种生活场景 安心防护 | 主被动安全全方位硬核配备，每次出行都安全感满满 #零跑A05#6.39万元起，解锁有我都灵的出行体验 限时享至高价值10680元权益+2年0息+四项终身免费质保🎁 #天生懂你有我都灵##西湖边热爱A05的你#",
+          "title": "6.39万元起，零跑A05正式上市",
+          "summary": "6.39万元起，零跑A05正式上市 限时享至高价值10680元权益+2年0息+四项终身免费质保 好看 | 流畅型面、超A侧颜、七大全球自然色、“嘻嘻哈哈”情绪灯组…",
+          "detail": "6.39万元起，零跑A05正式上市 限时享至高价值10680元权益+2年0息+四项终身免费质保 好看 | 流畅型面、超A侧颜、七大全球自然色、“嘻嘻哈哈”情绪灯组，出场即焦点 好开 | 激光雷达+高通8650高性能芯片、高效油冷电驱、510km超长CLTC续航、车位到车位领航辅助，灵动好驾驭 好玩 | 88.4%超高得房率、百变座椅场景、高通8295座舱芯片、领先AI语音大模型，趣味多多 好安心 | 全速域、全向主动AEB紧急制动辅助，9横7纵4强环高强度笼式车身，CTC 2.0 Plus电池底盘一体化，硬核守护 …",
           "details": [
-            "零跑A05正式上市 “A级优等生”基因有多强？一篇速览核心亮点👇 超A颜值 | 灵动时尚设计，一眼出彩 灵动驾趣 | 精准操控+510km超长续航，轻松驾驭每一程 百变座舱 | 舒适空间+智慧互联，解锁N种生活场景 安心防护 | 主被动安全全方位硬核配备，每次出行都安全感满满 #零跑A05#6.39万元起，解锁有我都灵的出行体验 限时享至高价值10680元权益+2年0息+四项终身免费质保🎁 #天生懂你有我都灵##西湖边热爱A05的你#"
+            "6.39万元起，零跑A05正式上市 限时享至高价值10680元权益+2年0息+四项终身免费质保 好看 | 流畅型面、超A侧颜、七大全球自然色、“嘻嘻哈哈”情绪灯组，出场即焦点 好开 | 激光雷达+高通8650高性能芯片、高效油冷电驱、510km超长CLTC续航、车位到车位领航辅助，灵动好驾驭 好玩 | 88.4%超高得房率、百变座椅场景、高通8295座舱芯片、领先AI语音大模型，趣味多多 好安心 | 全速域、全向主动AEB紧急制动辅助，9横7纵4强环高强度笼式车身，CTC 2.0 Plus电池底盘一体化，硬核守护 …"
           ],
           "observation": "继续核对销售版本、正式价格与时间安排，区分预售、上市和交付。",
           "sourceName": "零跑汽车官方微博",
-          "sourceUrl": "https://weibo.com/5872290888/RcVpGCqRU",
+          "sourceUrl": "https://weibo.com/5872290888/RcVnd4S7p",
           "publishedAt": "2026-08-11",
           "issueDate": "2026-08-12",
-          "publishedTime": "2026-08-11T19:12:00+08:00",
+          "publishedTime": "2026-08-11T19:06:00+08:00",
           "brands": [
             "零跑"
           ],
@@ -19760,13 +19678,13 @@
           "sourceLinks": [
             {
               "name": "零跑汽车官方微博",
-              "url": "https://weibo.com/5872290888/RcVpGCqRU",
+              "url": "https://weibo.com/5872290888/RcVnd4S7p",
               "publishedAt": "2026-08-11",
               "label": "官方发布"
             },
             {
               "name": "零跑汽车官方微博",
-              "url": "https://weibo.com/5872290888/RcVnd4S7p",
+              "url": "https://weibo.com/5872290888/RcVpGCqRU",
               "publishedAt": "2026-08-11",
               "label": "官方发布"
             }
@@ -19777,7 +19695,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-08": {
     "dateLabel": "2026年8月8日",
@@ -19862,7 +19780,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-04": {
     "dateLabel": "2026年8月4日",
@@ -19907,7 +19825,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-02": {
     "dateLabel": "2026年8月2日",
@@ -19990,7 +19908,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-08-01": {
     "dateLabel": "2026年8月1日",
@@ -20072,7 +19990,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-07-31": {
     "dateLabel": "2026年7月31日",
@@ -20195,7 +20113,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-07-29": {
     "dateLabel": "2026年7月29日",
@@ -20240,7 +20158,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-05-29": {
     "dateLabel": "2026年5月29日",
@@ -20366,7 +20284,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-05-28": {
     "dateLabel": "2026年5月28日",
@@ -20522,7 +20440,7 @@
         "important": true
       }
     ],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-05-10": {
     "dateLabel": "2026年5月10日",
@@ -20648,7 +20566,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-04-28": {
     "dateLabel": "2026年4月28日",
@@ -20771,7 +20689,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-04-25": {
     "dateLabel": "2026年4月25日",
@@ -20856,7 +20774,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-04-21": {
     "dateLabel": "2026年4月21日",
@@ -20982,7 +20900,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-04-03": {
     "dateLabel": "2026年4月3日",
@@ -21079,7 +20997,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-02-05": {
     "dateLabel": "2026年2月5日",
@@ -21164,7 +21082,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-01-30": {
     "dateLabel": "2026年1月30日",
@@ -21211,7 +21129,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-01-23": {
     "dateLabel": "2026年1月23日",
@@ -21298,7 +21216,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-01-22": {
     "dateLabel": "2026年1月22日",
@@ -21383,7 +21301,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-01-21": {
     "dateLabel": "2026年1月21日",
@@ -21512,7 +21430,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-01-17": {
     "dateLabel": "2026年1月17日",
@@ -21591,7 +21509,7 @@
         "important": true
       }
     ],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2026-01-16": {
     "dateLabel": "2026年1月16日",
@@ -21676,7 +21594,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2025-11-20": {
     "dateLabel": "2025年11月20日",
@@ -21759,7 +21677,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2025-09-20": {
     "dateLabel": "2025年9月20日",
@@ -21885,7 +21803,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2025-09-19": {
     "dateLabel": "2025年9月19日",
@@ -22008,7 +21926,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2025-09-18": {
     "dateLabel": "2025年9月18日",
@@ -22017,22 +21935,24 @@
       {
         "id": "story-536f3bbfd110264f",
         "tags": [
-          "新车"
+          "新车",
+          "促销",
+          "市场"
         ],
-        "title": "2026款腾势N9正式上市 售价38.98-44.98万元-新浪汽车",
-        "summary": "9月17日，2026款腾势N9(配置|询价)正式迎来上市，新车共推出3款车型，售价区间为38.98-44.98万元。",
-        "detail": "9月17日，2026款腾势N9(配置|询价)正式迎来上市，新车共推出3款车型，售价区间为38.98-44.98万元。作为腾势品牌的旗舰SUV，N9不仅集成了易三方智能控制系统、云辇-A主动悬架、天神之眼B高阶智驾辅助等核心技术，还凭借5.2米的车身长度与3.1米的轴距，在空间、豪华感与性能上树立起同级标杆。\n\n外观方面，2026款腾势N9采用了新能源车型典型的封闭式前脸，并配备AGS主动进气格栅，可根据行驶工况动态调节，有效兼顾散热与风阻优化。前灯组被命名为“双星冕大灯”，灵感源自恒星表面的星冕喷发，不仅视觉独特，还集成DLP数字投影功能，具备极高辨识度。\n\n车身尺寸达5258mm2030mm1830mm，轴距3125mm，堪称大型豪华SUV的代表。修长的比例、纯平的窗框设计与隐藏式门把手，让整车在稳重中保持简洁与流畅。",
+        "title": "2026款腾势N9正式上市，新车共推出3款车型，售价区间38.98-44.98万元",
+        "summary": "9月17日，2026款腾势N9正式上市，新车共推出3款车型，售价区间38.98-44.98万元。",
+        "detail": "9月17日，2026款腾势N9正式上市，新车共推出3款车型，售价区间38.98-44.98万元。作为年代改款车型，新车主要针对外观和内饰进行升级，包括增加新配色，升级车机芯片以及屏幕尺寸等等，整体产品力得到进一步加强。\n\n10月31日前提车用户可享限时价值110000元权益，包括智享科技标配（定眩智能防晕车系统价值20000元；腾势生命守护系统价值20000元；一键无痕系统价值5000元）、限时上市权益二选一（10000元保险补贴或金融贴息产品，含50-50弹性购车/12期0利息0月供/首付3成起，36期年化费率1.5%等）；另外还有至高价值30000元选装配置免费送、至高10000元置换补贴、价值1500元交付礼包和辅助驾驶终身免费等等。\n\n外观方面，新车整体变化不大，前脸依旧配备双星冕大灯，拥有DLP数字化投影功能，下包围处则配备AGS主动进气格栅，兼顾散热性能与风阻表现。此外，新车将会增加霜云茶、红雅金、蓝辰银、绿华银和紫瑢金五款款全新的车身配色，并引入双色车身设计，让这款旗舰SUV的视觉辨识度得到加强。",
         "details": [
-          "9月17日，2026款腾势N9(配置|询价)正式迎来上市，新车共推出3款车型，售价区间为38.98-44.98万元。作为腾势品牌的旗舰SUV，N9不仅集成了易三方智能控制系统、云辇-A主动悬架、天神之眼B高阶智驾辅助等核心技术，还凭借5.2米的车身长度与3.1米的轴距，在空间、豪华感与性能上树立起同级标杆。",
-          "外观方面，2026款腾势N9采用了新能源车型典型的封闭式前脸，并配备AGS主动进气格栅，可根据行驶工况动态调节，有效兼顾散热与风阻优化。前灯组被命名为“双星冕大灯”，灵感源自恒星表面的星冕喷发，不仅视觉独特，还集成DLP数字投影功能，具备极高辨识度。",
-          "车身尺寸达5258mm2030mm1830mm，轴距3125mm，堪称大型豪华SUV的代表。修长的比例、纯平的窗框设计与隐藏式门把手，让整车在稳重中保持简洁与流畅。"
+          "9月17日，2026款腾势N9正式上市，新车共推出3款车型，售价区间38.98-44.98万元。作为年代改款车型，新车主要针对外观和内饰进行升级，包括增加新配色，升级车机芯片以及屏幕尺寸等等，整体产品力得到进一步加强。",
+          "10月31日前提车用户可享限时价值110000元权益，包括智享科技标配（定眩智能防晕车系统价值20000元；腾势生命守护系统价值20000元；一键无痕系统价值5000元）、限时上市权益二选一（10000元保险补贴或金融贴息产品，含50-50弹性购车/12期0利息0月供/首付3成起，36期年化费率1.5%等）；另外还有至高价值30000元选装配置免费送、至高10000元置换补贴、价值1500元交付礼包和辅助驾驶终身免费等等。",
+          "外观方面，新车整体变化不大，前脸依旧配备双星冕大灯，拥有DLP数字化投影功能，下包围处则配备AGS主动进气格栅，兼顾散热性能与风阻表现。此外，新车将会增加霜云茶、红雅金、蓝辰银、绿华银和紫瑢金五款款全新的车身配色，并引入双色车身设计，让这款旗舰SUV的视觉辨识度得到加强。"
         ],
         "observation": "继续核对销售版本、正式价格与时间安排，区分预售、上市和交付。",
-        "sourceName": "新浪汽车",
-        "sourceUrl": "https://auto.sina.com.cn/newcar/2025-09-17/detail-infqvhsc9636641.shtml",
+        "sourceName": "汽车之家资讯",
+        "sourceUrl": "https://www.autohome.com.cn/news/202509/1309093.html",
         "publishedAt": "2025-09-17",
         "issueDate": "2025-09-18",
-        "publishedTime": "2025-09-17 21:50:54",
+        "publishedTime": "2025-09-17 20:58:33",
         "brands": [
           "腾势"
         ],
@@ -22041,14 +21961,14 @@
         "editorialStatus": "source-record",
         "sourceLinks": [
           {
-            "name": "新浪汽车",
-            "url": "https://auto.sina.com.cn/newcar/2025-09-17/detail-infqvhsc9636641.shtml",
+            "name": "汽车之家资讯",
+            "url": "https://www.autohome.com.cn/news/202509/1309093.html",
             "publishedAt": "2025-09-17",
             "label": "媒体报道"
           },
           {
-            "name": "汽车之家资讯",
-            "url": "https://www.autohome.com.cn/news/202509/1309093.html",
+            "name": "新浪汽车",
+            "url": "https://auto.sina.com.cn/newcar/2025-09-17/detail-infqvhsc9636641.shtml",
             "publishedAt": "2025-09-17",
             "label": "媒体报道"
           }
@@ -22061,22 +21981,24 @@
         {
           "id": "story-536f3bbfd110264f",
           "tags": [
-            "新车"
+            "新车",
+            "促销",
+            "市场"
           ],
-          "title": "2026款腾势N9正式上市 售价38.98-44.98万元-新浪汽车",
-          "summary": "9月17日，2026款腾势N9(配置|询价)正式迎来上市，新车共推出3款车型，售价区间为38.98-44.98万元。",
-          "detail": "9月17日，2026款腾势N9(配置|询价)正式迎来上市，新车共推出3款车型，售价区间为38.98-44.98万元。作为腾势品牌的旗舰SUV，N9不仅集成了易三方智能控制系统、云辇-A主动悬架、天神之眼B高阶智驾辅助等核心技术，还凭借5.2米的车身长度与3.1米的轴距，在空间、豪华感与性能上树立起同级标杆。\n\n外观方面，2026款腾势N9采用了新能源车型典型的封闭式前脸，并配备AGS主动进气格栅，可根据行驶工况动态调节，有效兼顾散热与风阻优化。前灯组被命名为“双星冕大灯”，灵感源自恒星表面的星冕喷发，不仅视觉独特，还集成DLP数字投影功能，具备极高辨识度。\n\n车身尺寸达5258mm2030mm1830mm，轴距3125mm，堪称大型豪华SUV的代表。修长的比例、纯平的窗框设计与隐藏式门把手，让整车在稳重中保持简洁与流畅。",
+          "title": "2026款腾势N9正式上市，新车共推出3款车型，售价区间38.98-44.98万元",
+          "summary": "9月17日，2026款腾势N9正式上市，新车共推出3款车型，售价区间38.98-44.98万元。",
+          "detail": "9月17日，2026款腾势N9正式上市，新车共推出3款车型，售价区间38.98-44.98万元。作为年代改款车型，新车主要针对外观和内饰进行升级，包括增加新配色，升级车机芯片以及屏幕尺寸等等，整体产品力得到进一步加强。\n\n10月31日前提车用户可享限时价值110000元权益，包括智享科技标配（定眩智能防晕车系统价值20000元；腾势生命守护系统价值20000元；一键无痕系统价值5000元）、限时上市权益二选一（10000元保险补贴或金融贴息产品，含50-50弹性购车/12期0利息0月供/首付3成起，36期年化费率1.5%等）；另外还有至高价值30000元选装配置免费送、至高10000元置换补贴、价值1500元交付礼包和辅助驾驶终身免费等等。\n\n外观方面，新车整体变化不大，前脸依旧配备双星冕大灯，拥有DLP数字化投影功能，下包围处则配备AGS主动进气格栅，兼顾散热性能与风阻表现。此外，新车将会增加霜云茶、红雅金、蓝辰银、绿华银和紫瑢金五款款全新的车身配色，并引入双色车身设计，让这款旗舰SUV的视觉辨识度得到加强。",
           "details": [
-            "9月17日，2026款腾势N9(配置|询价)正式迎来上市，新车共推出3款车型，售价区间为38.98-44.98万元。作为腾势品牌的旗舰SUV，N9不仅集成了易三方智能控制系统、云辇-A主动悬架、天神之眼B高阶智驾辅助等核心技术，还凭借5.2米的车身长度与3.1米的轴距，在空间、豪华感与性能上树立起同级标杆。",
-            "外观方面，2026款腾势N9采用了新能源车型典型的封闭式前脸，并配备AGS主动进气格栅，可根据行驶工况动态调节，有效兼顾散热与风阻优化。前灯组被命名为“双星冕大灯”，灵感源自恒星表面的星冕喷发，不仅视觉独特，还集成DLP数字投影功能，具备极高辨识度。",
-            "车身尺寸达5258mm2030mm1830mm，轴距3125mm，堪称大型豪华SUV的代表。修长的比例、纯平的窗框设计与隐藏式门把手，让整车在稳重中保持简洁与流畅。"
+            "9月17日，2026款腾势N9正式上市，新车共推出3款车型，售价区间38.98-44.98万元。作为年代改款车型，新车主要针对外观和内饰进行升级，包括增加新配色，升级车机芯片以及屏幕尺寸等等，整体产品力得到进一步加强。",
+            "10月31日前提车用户可享限时价值110000元权益，包括智享科技标配（定眩智能防晕车系统价值20000元；腾势生命守护系统价值20000元；一键无痕系统价值5000元）、限时上市权益二选一（10000元保险补贴或金融贴息产品，含50-50弹性购车/12期0利息0月供/首付3成起，36期年化费率1.5%等）；另外还有至高价值30000元选装配置免费送、至高10000元置换补贴、价值1500元交付礼包和辅助驾驶终身免费等等。",
+            "外观方面，新车整体变化不大，前脸依旧配备双星冕大灯，拥有DLP数字化投影功能，下包围处则配备AGS主动进气格栅，兼顾散热性能与风阻表现。此外，新车将会增加霜云茶、红雅金、蓝辰银、绿华银和紫瑢金五款款全新的车身配色，并引入双色车身设计，让这款旗舰SUV的视觉辨识度得到加强。"
           ],
           "observation": "继续核对销售版本、正式价格与时间安排，区分预售、上市和交付。",
-          "sourceName": "新浪汽车",
-          "sourceUrl": "https://auto.sina.com.cn/newcar/2025-09-17/detail-infqvhsc9636641.shtml",
+          "sourceName": "汽车之家资讯",
+          "sourceUrl": "https://www.autohome.com.cn/news/202509/1309093.html",
           "publishedAt": "2025-09-17",
           "issueDate": "2025-09-18",
-          "publishedTime": "2025-09-17 21:50:54",
+          "publishedTime": "2025-09-17 20:58:33",
           "brands": [
             "腾势"
           ],
@@ -22085,14 +22007,14 @@
           "editorialStatus": "source-record",
           "sourceLinks": [
             {
-              "name": "新浪汽车",
-              "url": "https://auto.sina.com.cn/newcar/2025-09-17/detail-infqvhsc9636641.shtml",
+              "name": "汽车之家资讯",
+              "url": "https://www.autohome.com.cn/news/202509/1309093.html",
               "publishedAt": "2025-09-17",
               "label": "媒体报道"
             },
             {
-              "name": "汽车之家资讯",
-              "url": "https://www.autohome.com.cn/news/202509/1309093.html",
+              "name": "新浪汽车",
+              "url": "https://auto.sina.com.cn/newcar/2025-09-17/detail-infqvhsc9636641.shtml",
               "publishedAt": "2025-09-17",
               "label": "媒体报道"
             }
@@ -22103,7 +22025,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2025-09-14": {
     "dateLabel": "2025年9月14日",
@@ -22186,7 +22108,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2025-09-05": {
     "dateLabel": "2025年9月5日",
@@ -22269,7 +22191,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2025-08-14": {
     "dateLabel": "2025年8月14日",
@@ -22354,7 +22276,7 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   },
   "2024-08-31": {
     "dateLabel": "2024年8月31日",
@@ -22440,6 +22362,6 @@
     },
     "otherBrands": [],
     "industry": [],
-    "updatedAt": "2026-10-12T04:06:36.710Z"
+    "updatedAt": "2026-10-12T05:05:38.475Z"
   }
 }
