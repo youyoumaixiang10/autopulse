@@ -1015,19 +1015,20 @@ export function buildReports(articles, notes, now = new Date()) {
     else report.industry.push(story);
     for (const { article: launchArticle, note: launchNote } of group) for (const launch of launchNote.launches || []) {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(launch.date)) throw new Error(`上市日期无效：${launch.model}`);
-      launches.push({ ...launch, id: `launch-${hash(`${launch.brand}|${launch.model}|${launch.date}`)}`,
+      launches.push({ ...launch, origin: 'note', month: launch.month || launch.date.slice(0, 7), id: `launch-${hash(`${launch.brand}|${launch.model}|${launch.date}`)}`,
         dateText: `${Number(launch.date.slice(5, 7))}月${Number(launch.date.slice(8, 10))}日`,
         statusLabel: { launched: '已上市', confirmed: '已官宣', estimated: '预计上市' }[launch.status],
         sourceName: launchArticle.sourceName, sourceUrl: launchArticle.url, evidenceLabel: evidenceLabels[launchArticle.evidenceStatus],
         publishedAt: launchArticle.publishedAt, storyId: id, detail: launchNote.details?.join('\n\n') || sourceDetails(launchArticle).join('\n\n'), observation: launchNote.observation || followUp(classify(`${launchArticle.title} ${(launchArticle.contentParagraphs || []).join(' ')}`, launchArticle.evidenceStatus)) });
     }
+    for (const row of deriveLaunchFromGroup(story, group)) launches.push(row);
   }
   for (const report of Object.values(reports)) {
     report.brands = Object.fromEntries(monitoringCoverage.map(({ brand }) => [brand, report.brands[brand]]).filter(([, items]) => items));
     for (const list of [report.highlights, report.otherBrands, report.industry, ...Object.values(report.brands)]) list.sort((a, b) => b.publishedTime.localeCompare(a.publishedTime));
     report.highlights.sort((a, b) => Number(isNewCarHighlight(b)) - Number(isNewCarHighlight(a)));
   }
-  return { reports: Object.fromEntries(Object.entries(reports).sort(([a], [b]) => b.localeCompare(a))), launches, reviewQueue };
+  return { reports: Object.fromEntries(Object.entries(reports).sort(([a], [b]) => b.localeCompare(a))), launches: mergeLaunches(launches, []), reviewQueue };
 }
 export function validateReports(reports, launches) {
   for (const [date, report] of Object.entries(reports)) {
@@ -1048,12 +1049,585 @@ export function validateReports(reports, launches) {
   }
 }
 
-export function mergeLaunches(derived, curated) {
-  const byKey = new Map();
-  for (const launch of [...derived, ...curated]) {
-    const month = launch.month || launch.date?.slice(0, 7);
-    const key = `${launch.brand}|${launch.model}|${launch.date || launch.dateText}`;
-    byKey.set(key, { ...launch, month, dateText: launch.dateText || `${Number(launch.date.slice(5, 7))}月${Number(launch.date.slice(8, 10))}日` });
+const launchStatusLabels = { launched: '已上市', confirmed: '已官宣', estimated: '预计上市' };
+const launchStatusRank = { launched: 3, confirmed: 2, estimated: 1 };
+const launchOriginRank = { curated: 4, note: 3, derived: 1, auto: 0 };
+const launchEvidenceRank = { '政府公告': 3, '官方发布': 2, '媒体报道': 1 };
+const displayBrands = [
+  ['吉利银河', /吉利银河|银河战舰|银河星舰|银河\s*[A-Za-z]\d/iu],
+  ['方程豹', /方程豹|钛\s*\d/u],
+  ['仰望', /仰望/u],
+  ['腾势', /腾势/u],
+  ['问界', /问界/u],
+  ['智界', /智界/u],
+  ['享界', /享界/u],
+  ['尊界', /尊界/u],
+  ['尚界', /尚界/u],
+  ['红旗', /红旗|天工\s*0?\d/u],
+  ['远程', /星享|吉利远程|远程汽车/u],
+  ['smart', /smart|精灵\s*#/iu],
+  ['理想', /理想/u],
+  ['小鹏', /小鹏|MONA/iu],
+  ['蔚来', /蔚来|(?:^|[^A-Za-z])ET\s*\d/iu],
+  ['乐道', /乐道/u],
+  ['极氪', /极氪/u],
+  ['小米', /小米/u],
+  ['岚图', /岚图|梦想家/u],
+  ['阿维塔', /阿维塔/u],
+  ['深蓝', /深蓝/u],
+  ['启源', /启源/u],
+  ['零跑', /零跑/u],
+  ['iCAR', /iCAR/iu],
+  ['猛士', /猛士/u],
+  ['智己', /智己/u],
+  ['别克', /别克|君越/u],
+  ['宝马', /宝马/u],
+  ['奔驰', /奔驰/u],
+  ['大众', /大众|ID\.?\s*ERA/iu],
+  ['特斯拉', /特斯拉|Tesla|Cybercab|Roadster/iu],
+  ['坦克', /坦克/u],
+  ['纵横', /纵横/u],
+  ['现代', /现代|艾尼氪/u],
+  ['雪铁龙', /雪铁龙/u],
+  ['林肯', /林肯/u],
+  ['比亚迪', /比亚迪|海洋网/u],
+  ['吉利', /吉利/u]
+];
+const brandFamily = {
+  方程豹: '比亚迪', 仰望: '比亚迪', 腾势: '比亚迪',
+  问界: '鸿蒙智行', 智界: '鸿蒙智行', 享界: '鸿蒙智行', 尊界: '鸿蒙智行', 尚界: '鸿蒙智行',
+  红旗: '一汽', 吉利银河: '吉利', 远程: '吉利', 乐道: '蔚来'
+};
+const modelPatterns = [
+  [/((?:20\d{2}\s*款)\s*[\u4e00-\u9fff]{0,10}\s*[A-Za-z]{0,10}\s*\d{1,4}[A-Za-z]{0,4})/iu],
+  [/(MONA\s*[A-Za-z]\s*\d{2,3})/iu],
+  [/(星享\s*[A-Za-z]?\s*\d{1,2}\s*[A-Za-z]?)/iu],
+  [/(银河战舰\s*\d{2,4})/u],
+  [/(银河星舰\s*\d{1,2})/u],
+  [/(iCAR\s*[A-Za-z]?\s*\d{2,4})/iu],
+  [/(猛士\s*[A-Za-z]?\s*\d{2,4})/iu],
+  [/(ID\.?\s*ERA\s*\d\s*[A-Za-z]?)/iu],
+  [/((?:红旗\s*)?天工\s*\d{2})/u],
+  [/(方程豹?\s*钛\s*\d{1,2})/u],
+  [/(方程豹?\s*鲨鱼(?:\s*皮卡)?)/u],
+  [/(方程豹?\s*方程\s*[A-Za-z]+)/iu],
+  [/(艾尼氪\s*[A-Za-z]\d{0,2})/iu],
+  [/((?:第[一二三四五]代|全新一代|新一代|全新|新款)?\s*别克\s*(?:全新)?\s*君越)/u],
+  [/(梦想家\s*\d{0,2})/u],
+  [/((?:全新一代|新一代|第[一二三四五]代)\s*(?:比亚迪\s*)?(?:唐|汉|宋|秦))/u],
+  [/(元\s*UP(?:\s*[\u4e00-\u9fff]{2,6}版)?)/iu],
+  [/((?:新一代\s*)?Roadster)/iu],
+  [/(Cybercab)/iu],
+  [/(Model\s*[3YXS])/iu],
+  [/((?:问界|智界|享界|尊界|尚界|极氪|蔚来|乐道|小鹏|小米|腾势|岚图|阿维塔|深蓝|启源|零跑|理想|红旗|银河|方程豹|仰望|智己|坦克|宝马|奔驰|大众|林肯|雪铁龙|纵横|风行)\s*[A-Za-z]{1,8}\s*[#.]?\s*\d{1,4}[A-Za-z]{0,4})/iu],
+  [/(雪铁龙\s*\d[A-Za-z]{1,4})/iu],
+  [/(坦克\s*\d{2,4})/u],
+  [/(澎程\s*N\s*\d{2}(?:\s*(?:Pro|Max|探索版))?)/iu],
+  [/(精灵\s*#\s*\d{1,2})/iu],
+  [/([A-Za-z]{1,8}\s*[#.]?\s*\d{1,4}[A-Za-z]{0,4})/u],
+  [/(钛\s*\d{1,2})/u]
+];
+
+function padDatePart(value) {
+  return String(value).padStart(2, '0');
+}
+function formatDayText(iso) {
+  return `${Number(iso.slice(5, 7))}月${Number(iso.slice(8, 10))}日`;
+}
+function isPlaceholderPrice(value) {
+  return !value || /价格待公布|以品牌公告为准|待公布/u.test(value);
+}
+function scrubLaunchNoise(text) {
+  return cleanText(text)
+    .replace(/\d+(?:\.\d+)?\s*万?\s*(?:-|—|－|~|至)\s*\d+(?:\.\d+)?\s*万元(?:起)?/gu, ' ')
+    .replace(/\d+(?:\.\d+)?\s*万元(?:起)?/gu, ' ')
+    .replace(/\d+(?:\.\d+)?\s*(?:万|元|公里|km|kwh|kw|%|台|辆|款|项|亿|家|个|毫米|mm|英寸|米)/giu, ' ')
+    .replace(/(?:20\d{2}\s*年\s*)?\d{1,2}\s*月\s*\d{1,2}\s*日/gu, ' ')
+    .replace(/20\d{2}\s*年/gu, ' ')
+    .replace(/第\s*\d+\s*批/gu, ' ')
+    .replace(/\d{1,2}\s*:\d{2}/gu, ' ');
+}
+function scrubModelSource(text) {
+  return cleanText(scrubLaunchNoise(text).replace(/(?:正式上市|正式迎来上市|迎来正式上市|今日上市|现已上市|已经上市|已正式上市|官宣上市|即将登场|即将上市|谍照曝光|内饰谍照|申报图|全球首发|全球首秀|首次亮相|实车首次亮相|实车亮相|开启预售|开启盲订|开启预订|官宣|亮相|首秀|登场|上市|曝光|发布)/gu, ' '));
+}
+function acceptableModel(value) {
+  const model = cleanText(value).replace(/^[—\-–|丨\s]+|[—\-–|丨\s]+$/gu, '');
+  if (model.length < 2 || model.length > 32) return '';
+  if (!/[A-Za-z\u4e00-\u9fff]/u.test(model)) return '';
+  if (/^(?:SUV|MPV|轿车|新车|车型|首款|旗下)$/iu.test(model)) return '';
+  if (/^[A-Z]{2,6}\s*\d{3,}$/u.test(model)) return '';
+  return model.replace(/\s+/gu, ' ');
+}
+function extractModelName(title, summary) {
+  for (const source of [title, summary]) {
+    const text = scrubModelSource(source);
+    for (const [pattern] of modelPatterns) {
+      const match = text.match(pattern)?.[1];
+      const model = acceptableModel(match);
+      if (model) return model;
+    }
   }
-  return [...byKey.values()].sort((a, b) => (a.month || '').localeCompare(b.month || '') || (a.date || '9999-12-31').localeCompare(b.date || '9999-12-31') || a.model.localeCompare(b.model, 'zh-CN'));
+  return '';
+}
+function extractLaunchBrand(text, model, brands = []) {
+  if (/Model\s*[3YXS]|Cybercab|Roadster/iu.test(model)) return /特斯拉|Tesla/iu.test(text) ? '特斯拉' : '';
+  const source = `${text} ${model}`;
+  for (const [brand, pattern] of displayBrands) {
+    if (pattern.test(source)) return brand;
+  }
+  if (brands.length === 1) return brands[0];
+  return mentionedMakers(source)[0] || brands[0] || '';
+}
+function completedLaunch(text) {
+  const masked = withoutLaunchAnniversary(text)
+    .replace(/(?:将于|将在|预计于|预计|计划于|计划|有望于|有望|拟于)[^。；;]{0,64}上市/gu, ' ')
+    .replace(/即将(?:正式)?上市|即将登场/gu, ' ')
+    .replace(/不(?:是|算|把|要|应|能|将)[^。；;]{0,32}上市/gu, ' ')
+    .replace(/(?:并未|尚未|没有|未)[^。；;]{0,16}(?:确认|公布|写成)?[^。；;]{0,12}上市/gu, ' ');
+  return /(?:正式上市|正式迎来上市|迎来正式上市|今日上市|现已上市|已经上市|已正式上市|官宣上市)(?!时间|日期|节点|与否)/u.test(masked);
+}
+function hasCalendarEvent(text) {
+  const value = withoutLaunchAnniversary(text);
+  if (/谍照|申报图/u.test(value) && hasSpecificModel(value)) return true;
+  if (/申报/u.test(value) && hasSpecificModel(value) && !/征求意见|新规|综览|管理办法/u.test(value)) return true;
+  if (/(?:正式上市|正式迎来上市|迎来正式上市|今日上市|现已上市|已经上市|已正式上市|官宣上市)/u.test(value)) return true;
+  if (/官宣/u.test(value) && /新车|车型|登场|上市|亮相|首秀|SUV|轿车|MPV|跑车/u.test(value)) return true;
+  if (/亮相|首秀|即将登场|即将上市/u.test(value) && (hasSpecificModel(value) || namesLaunchSubject(value))) return true;
+  if (/开启预售|开启盲订|开启预订/u.test(value)) return true;
+  if (/(?:将于|将在|预计|计划|有望|拟于)[^。]{0,32}上市/u.test(value)) return true;
+  if (/(?:第?\s*[一二三四1-4]\s*季度|四季度|今年底|年底|年内)[^。]{0,8}上市/u.test(value)) return true;
+  return false;
+}
+export function qualifiesForLaunchCalendar(text) {
+  const value = cleanText(text);
+  if (!value) return false;
+  if (isTeaserText(value) || isPreviewTeaserText(value) || isHardTeaser(value)) return false;
+  if (/IT早报|一周新车|新车预告|周预告|频道导语|大家好[，,\s]*现在是|本期内容我们/u.test(value)) return false;
+  if (isPartnershipAnnouncement(value) || isEarningsReport(value) || isUserPortrait(value)) return false;
+  if (/海外上市|欧洲上市/u.test(value) && !/国内[^。]{0,8}上市/u.test(value)) return false;
+  if (/新车谍照\s*[丨|]/u.test(value)) return false;
+  if (/携\s*(?:[两俩二三四五六七八九十]|\d+)\s*款/u.test(value)) return false;
+  if (!isStrictNewCar(value)) return false;
+  return hasCalendarEvent(value);
+}
+function inferLaunchStatus(text) {
+  if (completedLaunch(text)) return 'launched';
+  if (/(?:将于|将在|预计|计划|有望|拟于)[^。]{0,64}上市/u.test(text) || /(?:第?\s*[一二三四1-4]\s*季度|四季度|今年底|年底|年内)[^。]{0,8}上市/u.test(text)) return 'estimated';
+  if (/官宣|开启预售|开启盲订|开启预订|即将登场|即将上市/u.test(text)) return 'confirmed';
+  if (/亮相|首秀|登场/u.test(text) && !/谍照/u.test(text)) return 'confirmed';
+  return 'estimated';
+}
+function inferLaunchKind(text, status, model) {
+  const futureLaunch = /(?:将于|将在|预计|计划|有望)[^。]{0,64}上市/u.test(text);
+  const namedLaunchDay = /\d{1,2}\s*月\s*\d{1,2}\s*日[^。]{0,16}上市/u.test(text);
+  if (/谍照/u.test(text) && status !== 'launched' && !namedLaunchDay) return '谍照';
+  if (/申报/u.test(text) && status !== 'launched' && !namedLaunchDay && !/(?:正式上市|官宣上市)/u.test(text)) return '申报';
+  if (status === 'launched') {
+    if (/换代|全新一代|新一代|第五代|第四代/u.test(text)) return '换代上市';
+    if (/20\d{2}\s*款/u.test(`${model} ${text}`)) return '年款上市';
+    if (/新增|加推/u.test(text) && /版/u.test(text)) return '新增版本';
+    return '新车上市';
+  }
+  if (/全球首发|全球首秀/u.test(text) && !futureLaunch) return '全球首发';
+  if (/亮相|首秀/u.test(text) && !futureLaunch && !/即将登场/u.test(text)) return '亮相';
+  if (/20\d{2}\s*款/u.test(`${model} ${text}`) && /上市/u.test(text)) return '年款上市';
+  if (status === 'estimated') return '计划上市';
+  return '官宣';
+}
+function readPriceAmount(slice) {
+  const listed = slice.match(/分别为\s*(\d+(?:\.\d+)?)\s*万元\s*(?:和|、|及)\s*(\d+(?:\.\d+)?)\s*万元/u);
+  if (listed) return `${listed[1]}-${listed[2]}万元`;
+  const rangedWan = slice.match(/(\d+(?:\.\d+)?)\s*万元\s*(?:-|—|－|~|至)\s*(\d+(?:\.\d+)?)\s*万元(起)?/u);
+  if (rangedWan) return `${rangedWan[1]}-${rangedWan[2]}万元${rangedWan[3] || ''}`;
+  const ranged = slice.match(/(\d+(?:\.\d+)?)\s*万?\s*(?:-|—|－|~|至)\s*(\d+(?:\.\d+)?)\s*万元(起)?/u);
+  if (ranged) return `${ranged[1]}-${ranged[2]}万元${ranged[3] || ''}`;
+  const single = slice.match(/(\d+(?:\.\d+)?)\s*万元(起)?/u);
+  if (single) return `${single[1]}万元${single[2] || ''}`;
+  return '';
+}
+function sanePrice(value) {
+  const numbers = [...value.matchAll(/\d+(?:\.\d+)?/gu)].map(match => Number(match[0]));
+  return numbers.length > 0 && numbers.every(number => number >= 2 && number <= 500);
+}
+function extractLaunchPrice(text) {
+  const current = text.split(/[。！？!?]/u).filter(sentence => !/此前|曾经|曾于|已经于|20(?:1\d|2[0-5])\s*年/u.test(sentence)).join('。');
+  const labels = [
+    ['', /官方指导价\s*(?:为|是)?/u],
+    ['', /指导价\s*(?:为|是)?/u],
+    ['', /(?:全国统一)?零售价\s*(?:为|是)?/u],
+    ['', /售价\s*(?:为|是)?/u],
+    ['', /上市价\s*(?:为|是)?/u],
+    ['', /预售价\s*(?:为|是)?/u],
+    ['限时焕新价', /(?:上市)?限时焕新价\s*(?:为|是)?/u],
+    ['限时先享价', /(?:上市)?限时先享价\s*(?:为|是)?/u],
+    ['限时权益价', /限时权益价\s*(?:为|是)?/u],
+    ['限时专享价', /限时专享价\s*(?:为|是)?/u]
+  ];
+  for (const [prefix, pattern] of labels) {
+    const start = current.search(pattern);
+    if (start < 0) continue;
+    const amount = readPriceAmount(current.slice(start, start + 64));
+    if (!amount || !sanePrice(amount)) continue;
+    return prefix ? `${prefix}${amount}` : amount;
+  }
+  return '';
+}
+function extractPowertrain(text) {
+  const powers = [];
+  if (/三种动力|多动力/u.test(text)) powers.push('多动力');
+  else {
+    if (/纯电/u.test(text)) powers.push('纯电');
+    if (/增程/u.test(text)) powers.push('增程');
+    if (/插电|插混|PHEV/iu.test(text)) powers.push('插混');
+    if (!powers.length && /燃油|汽油/u.test(text)) powers.push('燃油');
+  }
+  let body = '';
+  if (/硬派|越野/u.test(text)) body = '越野SUV';
+  else if (/皮卡/u.test(text)) body = '皮卡';
+  else if (/MPV/iu.test(text)) body = 'MPV';
+  else if (/商务/u.test(text)) body = '商务车';
+  else if (/轿跑/u.test(text)) body = '轿跑';
+  else if (/跑车/u.test(text)) body = '跑车';
+  else if (/SUV/iu.test(text)) body = 'SUV';
+  else if (/轿车/u.test(text)) body = '轿车';
+  if (!powers.length && !body) return '动力形式待公布';
+  if (!powers.length) return body;
+  if (!body) return powers.join(' / ');
+  if (powers.length === 1) return `${powers[0]} ${body}`;
+  return `${powers.join(' / ')} ${body}`;
+}
+function quarterNumber(token = '') {
+  if (/1|一/.test(token)) return 1;
+  if (/2|二/.test(token)) return 2;
+  if (/3|三/.test(token)) return 3;
+  if (/4|四/.test(token)) return 4;
+  return 0;
+}
+function quarterLabel(index) {
+  return ['', '第一季度', '第二季度', '第三季度', '第四季度'][index] || '';
+}
+function resolveMonthDay(yearText, month, day, publishedAt, future) {
+  let year = yearText ? Number(yearText) : Number((publishedAt || '').slice(0, 4)) || 2026;
+  let iso = `${year}-${padDatePart(month)}-${padDatePart(day)}`;
+  if (!yearText && future && publishedAt && /^\d{4}-\d{2}-\d{2}$/.test(publishedAt) && iso < publishedAt) {
+    year += 1;
+    iso = `${year}-${padDatePart(month)}-${padDatePart(day)}`;
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(iso) || Number(month) < 1 || Number(month) > 12 || Number(day) < 1 || Number(day) > 31) return '';
+  return iso;
+}
+function nearestDateBefore(text, eventRe) {
+  const found = [];
+  for (const match of text.matchAll(eventRe)) {
+    const before = text.slice(Math.max(0, match.index - 36), match.index);
+    const dates = [...before.matchAll(/(?:(20\d{2})\s*年\s*)?(\d{1,2})\s*月\s*(\d{1,2})\s*日/gu)];
+    const nearest = dates.at(-1);
+    if (!nearest) continue;
+    const prefix = before.slice(Math.max(0, nearest.index - 8));
+    found.push({
+      year: nearest[1],
+      month: nearest[2],
+      day: nearest[3],
+      event: match[0],
+      future: /将于|将在|预计|计划|有望|拟于|定于|确认于/u.test(prefix),
+      historical: /已于|此前|曾经|曾于|已经于/u.test(prefix),
+      directed: /将于|将在|定于|确认于|拟于/u.test(prefix)
+    });
+  }
+  return found;
+}
+function extractLaunchSchedule(text, publishedAt, status, kind) {
+  const future = status !== 'launched';
+  if (publishedAt && /昨[日天][^。]{0,16}(?:正式|官宣)?上市|(?:正式|官宣)?上市[^。]{0,8}昨[日天]/u.test(text)) {
+    const date = previousDate(publishedAt);
+    return { date, dateText: formatDayText(date), month: date.slice(0, 7), dateInferred: false };
+  }
+  if (publishedAt && /今[日天][^。]{0,12}(?:正式|官宣)?上市/u.test(text)) {
+    return { date: publishedAt, dateText: formatDayText(publishedAt), month: publishedAt.slice(0, 7), dateInferred: false };
+  }
+  const launchDates = nearestDateBefore(text, /(?:国内|正式|完成|官宣)?上市/gu).filter(item => !item.historical).map(item => ({
+    iso: resolveMonthDay(item.year, item.month, item.day, publishedAt, future || item.future),
+    domestic: /国内/.test(item.event)
+  })).filter(item => item.iso);
+  const chosen = launchDates.find(item => item.domestic) || launchDates.at(-1);
+  if (chosen) return { date: chosen.iso, dateText: formatDayText(chosen.iso), month: chosen.iso.slice(0, 7), dateInferred: false };
+  if (status !== 'launched') {
+    const appearance = nearestDateBefore(text, /(?:全球首发|全球首秀|首秀|亮相|登场)/gu).filter(item => item.directed && !item.historical).at(-1);
+    if (appearance && !/(?:将于|将在|预计|计划)[^。]{0,64}上市/u.test(text)) {
+      const iso = resolveMonthDay(appearance.year, appearance.month, appearance.day, publishedAt, true);
+      if (iso) return { date: iso, dateText: formatDayText(iso), month: iso.slice(0, 7), dateInferred: false };
+    }
+  }
+  if (status !== 'launched') {
+    const scheduled = nearestDateBefore(text, /(?:开启全球预售|开启预售|开启预订|开启盲订|上新)/gu).filter(item => item.directed && !item.historical).at(-1);
+    if (scheduled) {
+      const iso = resolveMonthDay(scheduled.year, scheduled.month, scheduled.day, publishedAt, true);
+      if (iso) return { date: iso, dateText: formatDayText(iso), month: iso.slice(0, 7), dateInferred: false };
+    }
+  }
+  const quarter = text.match(/(?:(20\d{2})\s*年\s*)?(?:(今年|明年)\s*)?(?:第\s*)?([一二三四1-4])\s*季度/u);
+  if (quarter) {
+    const index = quarterNumber(quarter[3]);
+    const year = quarter[1] ? Number(quarter[1]) : (quarter[2] === '明年' ? (Number((publishedAt || '').slice(0, 4)) || 2026) + 1 : (Number((publishedAt || '').slice(0, 4)) || 2026));
+    if (index) {
+      const month = `${year}-${padDatePart((index - 1) * 3 + 1)}`;
+      return { dateText: `${quarterLabel(index)}（具体日期待官宣）`, month, dateInferred: false };
+    }
+  }
+  const part = text.match(/(?:(20\d{2})\s*年\s*)?(\d{1,2})\s*月\s*(上旬|中旬|下旬|底)/u);
+  if (part) {
+    const year = part[1] || (publishedAt || '').slice(0, 4) || '2026';
+    const month = `${year}-${padDatePart(part[2])}`;
+    return { dateText: `${Number(part[2])}月${part[3]}（具体日期待官宣）`, month, dateInferred: false };
+  }
+  if (/今年底|年底|年内/u.test(text)) {
+    const year = (publishedAt || '').slice(0, 4) || '2026';
+    return { dateText: '年底（具体日期待官宣）', month: `${year}-12`, dateInferred: false };
+  }
+  if (status === 'launched' && publishedAt && /^\d{4}-\d{2}-\d{2}$/.test(publishedAt)) {
+    return { date: publishedAt, dateText: formatDayText(publishedAt), month: publishedAt.slice(0, 7), dateInferred: true };
+  }
+  const month = (publishedAt || '').slice(0, 7);
+  if (!/^\d{4}-\d{2}$/.test(month)) return null;
+  if (kind === '谍照') return { dateText: '谍照曝光（上市日期待官宣）', month, dateInferred: false };
+  if (kind === '申报') return { dateText: '申报（上市日期待官宣）', month, dateInferred: false };
+  if (kind === '亮相' || kind === '全球首发') return { dateText: '已亮相（上市日期待官宣）', month, dateInferred: false };
+  return { dateText: '即将登场（具体日期待官宣）', month, dateInferred: false };
+}
+function launchObservation(status, kind, dateInferred) {
+  if (dateInferred) return '原文未写明具体上市日，暂按报道日期归档；未写明的价格不估算。';
+  if (status === 'launched') return '由日报新车事件自动写入；价格与上市日只取原文可追溯表述。';
+  if (kind === '谍照' || kind === '申报') return '谍照或申报不是正式上市，未公布的价格与日期保持待定。';
+  if (status === 'estimated') return '尚未看到正式上市报道，日历只保留原文写出的时间窗口。';
+  return '已官宣但未形成可追溯的正式上市日；未公布价格记为待公布。';
+}
+function buildLaunchRecord(parts) {
+  const title = cleanText(parts.title);
+  const summary = cleanText(parts.summary);
+  const detail = cleanText(parts.detail);
+  const card = cleanText(`${title} ${summary}`);
+  if (!parts.sourceUrl || !qualifiesForLaunchCalendar(card)) return null;
+  const model = extractModelName(title, summary);
+  const brand = extractLaunchBrand(card, model, parts.brands || []);
+  if (!model || !brand) return null;
+  const corpus = cleanText(`${card} ${detail}`);
+  const status = inferLaunchStatus(corpus);
+  const kind = inferLaunchKind(corpus, status, model);
+  const schedule = extractLaunchSchedule(corpus, parts.publishedAt, status, kind);
+  if (!schedule?.dateText || !/^\d{4}-\d{2}$/.test(schedule.month || '')) return null;
+  const priceText = extractLaunchPrice(corpus) || (status === 'launched' ? '以品牌公告为准' : '价格待公布');
+  const when = schedule.date || schedule.dateText;
+  return {
+    id: `launch-${hash(`${brandFamily[brand] || brand}|${launchModelKey(brand, model)}|${when}`)}`,
+    origin: 'auto',
+    month: schedule.month,
+    ...(schedule.date ? { date: schedule.date } : {}),
+    dateText: schedule.dateText,
+    brand,
+    model,
+    kind,
+    powertrain: extractPowertrain(corpus),
+    priceText,
+    status,
+    statusLabel: launchStatusLabels[status],
+    sourceName: parts.sourceName || '来源',
+    sourceUrl: parts.sourceUrl,
+    evidenceLabel: parts.evidenceLabel || '媒体报道',
+    publishedAt: parts.publishedAt || schedule.month,
+    detail: (detail || summary || title).slice(0, 420),
+    observation: launchObservation(status, kind, schedule.dateInferred)
+  };
+}
+function deriveLaunchFromGroup(story, group) {
+  const candidates = [];
+  const add = parts => {
+    const row = buildLaunchRecord(parts);
+    if (row) candidates.push(row);
+  };
+  add({
+    title: story.title,
+    summary: story.summary,
+    detail: story.detail,
+    brands: story.brands,
+    sourceName: story.sourceName,
+    sourceUrl: story.sourceUrl,
+    evidenceLabel: story.evidenceLabel,
+    publishedAt: story.publishedAt || story.issueDate
+  });
+  for (const entry of group || []) {
+    const paragraphs = entry.article?.contentParagraphs || [];
+    add({
+      title: entry.article?.title || entry.editorialTitle || story.title,
+      summary: paragraphs[0] || story.summary,
+      detail: paragraphs.slice(0, 4).join('\n\n'),
+      brands: entry.brands?.length ? entry.brands : story.brands,
+      sourceName: entry.article?.sourceName,
+      sourceUrl: entry.article?.url,
+      evidenceLabel: evidenceLabels[entry.article?.evidenceStatus] || story.evidenceLabel,
+      publishedAt: entry.article?.publishedAt || story.publishedAt
+    });
+  }
+  return mergeLaunches(candidates, []);
+}
+export function deriveLaunchFromStory(story) {
+  return deriveLaunchFromGroup(story, [])[0] || null;
+}
+function launchModelKey(brand, model) {
+  let value = cleanText(model).toLowerCase().replace(/[\s#.·•\-]/gu, '');
+  value = value.replace(/(?:全新一代|新一代|第五代|第四代|第[一二三四五]代|全新|新款)/gu, '').replace(/^20\d{2}款/u, '');
+  const brandToken = cleanText(brand).toLowerCase().replace(/\s+/gu, '');
+  if (brandToken && value.startsWith(brandToken) && value.length > brandToken.length + 1) value = value.slice(brandToken.length);
+  const stripped = value.replace(/^(?:吉利银河|方程豹|比亚迪|红旗|理想|小鹏|蔚来|问界|智界|极氪|岚图|阿维塔|深蓝|启源|腾势|零跑|乐道|特斯拉|别克|宝马|大众|智己|远程)/iu, '');
+  if (stripped && stripped !== value && /[a-z0-9\u4e00-\u9fff]/iu.test(stripped)) value = stripped;
+  return value;
+}
+function sameLaunchVehicle(left, right) {
+  const leftKey = launchModelKey(left.brand, left.model);
+  const rightKey = launchModelKey(right.brand, right.model);
+  if (!leftKey || !rightKey || leftKey !== rightKey) return false;
+  const leftBrand = brandFamily[left.brand] || left.brand;
+  const rightBrand = brandFamily[right.brand] || right.brand;
+  return leftBrand === rightBrand || left.brand === right.brand || leftBrand === right.brand || rightBrand === left.brand;
+}
+function launchWindowToken(launch) {
+  const text = launch.dateText || '';
+  const year = (launch.month || launch.date || '').slice(0, 4);
+  if (/第?四季度|Q4/iu.test(text)) return `${year}-Q4`;
+  if (/第?三季度|Q3/iu.test(text)) return `${year}-Q3`;
+  if (/第?二季度|Q2/iu.test(text)) return `${year}-Q2`;
+  if (/第?[一1]季度|Q1/iu.test(text)) return `${year}-Q1`;
+  const part = text.match(/(\d{1,2})\s*月\s*(上旬|中旬|下旬|底)/u);
+  if (part) return `${year}-${part[1]}-${part[2]}`;
+  if (/年底|年内/u.test(text)) return `${year}-year-end`;
+  return '';
+}
+function launchWindowContains(launch, isoDate) {
+  if (!isoDate || !/^\d{4}-\d{2}-\d{2}$/.test(isoDate)) return false;
+  const [year, month, day] = isoDate.split('-').map(Number);
+  const token = launchWindowToken(launch);
+  const windowYear = Number((launch.month || isoDate).slice(0, 4));
+  if (token.endsWith('-Q1')) return year === windowYear && month >= 1 && month <= 3;
+  if (token.endsWith('-Q2')) return year === windowYear && month >= 4 && month <= 6;
+  if (token.endsWith('-Q3')) return year === windowYear && month >= 7 && month <= 9;
+  if (token.endsWith('-Q4')) return year === windowYear && month >= 10 && month <= 12;
+  const part = (launch.dateText || '').match(/(\d{1,2})\s*月\s*(上旬|中旬|下旬|底)/u);
+  if (part) {
+    if (year !== windowYear || month !== Number(part[1])) return false;
+    if (part[2] === '上旬') return day <= 10;
+    if (part[2] === '中旬') return day >= 11 && day <= 20;
+    return day >= 21;
+  }
+  if (token.endsWith('year-end')) return year === windowYear && month >= 10;
+  return false;
+}
+function isOpenLaunchWindow(launch) {
+  if (launch.date || launchWindowToken(launch)) return false;
+  return /即将|待官宣|已亮相|谍照|申报|日期待|待公布/u.test(launch.dateText || '');
+}
+function launchTimingsCompatible(left, right) {
+  const leftOpen = isOpenLaunchWindow(left);
+  const rightOpen = isOpenLaunchWindow(right);
+  if (leftOpen !== rightOpen) {
+    const open = leftOpen ? left : right;
+    const other = leftOpen ? right : left;
+    const otherMonth = other.date?.slice(0, 7) || other.month;
+    if (open.month && otherMonth && open.month !== otherMonth) return false;
+  }
+  if (left.date && right.date) return left.date === right.date;
+  if (left.date && !right.date) return isOpenLaunchWindow(right) || launchWindowContains(right, left.date);
+  if (right.date && !left.date) return isOpenLaunchWindow(left) || launchWindowContains(left, right.date);
+  const leftToken = launchWindowToken(left);
+  const rightToken = launchWindowToken(right);
+  if (leftToken && rightToken) return leftToken === rightToken;
+  if (isOpenLaunchWindow(left) || isOpenLaunchWindow(right)) return true;
+  return (left.dateText || '') === (right.dateText || '');
+}
+function launchSpecificity(launch) {
+  const timing = launch.date ? 120 : (launchWindowToken(launch) ? 20 : 0);
+  return (launchStatusRank[launch.status] || 0) * 100
+    + timing
+    + (launchOriginRank[launch.origin] || 0) * 10
+    + (launchEvidenceRank[launch.evidenceLabel] || 0) * 3
+    + (isPlaceholderPrice(launch.priceText) ? 0 : 1);
+}
+function normalizeLaunch(launch, origin) {
+  const month = launch.month || launch.date?.slice(0, 7);
+  const dateText = launch.dateText || (launch.date ? formatDayText(launch.date) : '');
+  return { ...launch, month, dateText, origin: launch.origin || origin };
+}
+function presentLaunch(launch) {
+  const { origin, dateInferred, ...rest } = launch;
+  if (!rest.date) delete rest.date;
+  return rest;
+}
+function preferredModel(rows) {
+  return rows.map(row => row.model).filter(model => model && model.length <= 40).sort((a, b) => b.length - a.length)[0];
+}
+function clusterLaunchRows(rows) {
+  const groups = [];
+  const byVehicle = new Map();
+  for (const row of rows) {
+    const key = `${brandFamily[row.brand] || row.brand}|${launchModelKey(row.brand, row.model)}`;
+    const list = byVehicle.get(key) || [];
+    list.push(row);
+    byVehicle.set(key, list);
+  }
+  for (const list of byVehicle.values()) {
+    const concrete = [];
+    const open = [];
+    for (const row of list) (isOpenLaunchWindow(row) ? open : concrete).push(row);
+    const vehicleGroups = [];
+    for (const row of concrete) {
+      const group = vehicleGroups.find(items => items.some(item => sameLaunchVehicle(item, row) && launchTimingsCompatible(item, row)));
+      if (group) group.push(row);
+      else vehicleGroups.push([row]);
+    }
+    if (!vehicleGroups.length) {
+      groups.push(list);
+      continue;
+    }
+    for (const row of open) {
+      const best = vehicleGroups.slice().sort((a, b) => Math.max(...b.map(launchSpecificity)) - Math.max(...a.map(launchSpecificity)))[0];
+      best.push(row);
+    }
+    groups.push(...vehicleGroups);
+  }
+  return groups;
+}
+function mergeLaunchGroup(rows) {
+  const ranked = rows.slice().sort((a, b) => launchSpecificity(b) - launchSpecificity(a));
+  const winner = { ...ranked[0] };
+  const model = preferredModel(rows);
+  if (model) winner.model = model;
+  if (isPlaceholderPrice(winner.priceText)) {
+    const priced = ranked.find(item => !isPlaceholderPrice(item.priceText));
+    if (priced) winner.priceText = priced.priceText;
+  }
+  if (!winner.date) {
+    const dated = ranked.find(item => item.date && launchTimingsCompatible(winner, item));
+    if (dated) {
+      winner.date = dated.date;
+      winner.dateText = dated.dateText || winner.dateText;
+      winner.month = dated.month || dated.date.slice(0, 7);
+      if (launchStatusRank[dated.status] > launchStatusRank[winner.status]) {
+        winner.status = dated.status;
+        winner.statusLabel = dated.statusLabel || launchStatusLabels[dated.status];
+      }
+    }
+  }
+  if (!winner.statusLabel) winner.statusLabel = launchStatusLabels[winner.status];
+  return presentLaunch(winner);
+}
+export function mergeLaunches(derived, curated = []) {
+  const rows = [
+    ...(derived || []).map(item => normalizeLaunch(item, 'derived')),
+    ...(curated || []).map(item => normalizeLaunch(item, 'curated'))
+  ].filter(item => item && item.model && item.dateText && /^\d{4}-\d{2}$/.test(item.month || ''));
+  const seen = new Set();
+  const merged = clusterLaunchRows(rows).map(mergeLaunchGroup).sort((a, b) => (a.month || '').localeCompare(b.month || '') || (a.date || '9999-12-31').localeCompare(b.date || '9999-12-31') || a.model.localeCompare(b.model, 'zh-CN'));
+  for (const launch of merged) {
+    if (!launch.id || seen.has(launch.id)) launch.id = `launch-${hash(`${launch.brand}|${launch.model}|${launch.date || launch.dateText}|${launch.sourceUrl}`)}`;
+    seen.add(launch.id);
+  }
+  return merged;
 }

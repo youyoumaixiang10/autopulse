@@ -9,3 +9,4 @@ Before changing the daily brief (clustering, tags, titles, industry cards, card 
 5. Industry signal cards: source text and summary must not overlap. The same report is one card.
 6. Do not redesign card layout or CSS except to fix a bug.
 7. The daily run must not depend on paid OpenAI.
+8. 新车一览 auto-updates from qualifying 新车 events (上市 / 官宣 / 亮相 / 谍照 / 申报). Same strict 新车 definition. Do not invent prices or launch days.
