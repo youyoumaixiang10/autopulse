@@ -293,6 +293,158 @@ function eventKey(article, note) {
     || text.match(/Model\s*[3YXS]|Cybercab/iu)?.[0];
   return event && model && article.brands?.length ? `${brand || article.brands[0]}|${model.toLowerCase().replace(/\s+/gu, '')}|${event}` : article.url;
 }
+const mediaQuality = ['汽车之家', '懂车帝', '盖世汽车', '新浪汽车', '易车', '太平洋汽车', '新出行', '凤凰网', '财联社', '每日经济新闻', '网通社', '车质网', 'IT之家', '快科技', '网易', '搜狐'];
+function sourceQuality(name = '') {
+  const index = mediaQuality.findIndex(item => String(name).includes(item));
+  return index === -1 ? mediaQuality.length : index;
+}
+function compareStoryPriority(a, b) {
+  const evidence = (order[a.article.evidenceStatus] ?? 9) - (order[b.article.evidenceStatus] ?? 9);
+  if (evidence) return evidence;
+  const quality = sourceQuality(a.article.sourceName) - sourceQuality(b.article.sourceName);
+  if (quality) return quality;
+  const timeA = a.article.publishedTime || a.article.publishedAt || '9999-99-99';
+  const timeB = b.article.publishedTime || b.article.publishedAt || '9999-99-99';
+  return timeA < timeB ? -1 : timeA > timeB ? 1 : 0;
+}
+function clusterTitle(text) {
+  return cleanText(text).toLowerCase()
+    .replace(/[“”"「」『』《》【】（）()[\]，。！？!?、：:；;,.·\s\-—～~]/gu, '')
+    .replace(/今日|日前|目前|正式|官方将其?|旗下|全新车型|定位为?|号称/gu, '')
+    .replace(/官宣|宣布/gu, '发布')
+    .replace(/登场|首发|首秀/gu, '亮相');
+}
+function titleDice(leftText, rightText) {
+  if (!leftText || !rightText) return 0;
+  if (leftText === rightText) return 1;
+  const grams = value => {
+    const counts = new Map();
+    const chars = [...value];
+    for (let index = 0; index < chars.length - 1; index += 1) {
+      const gram = chars[index] + chars[index + 1];
+      counts.set(gram, (counts.get(gram) || 0) + 1);
+    }
+    return counts;
+  };
+  const left = grams(leftText);
+  const right = grams(rightText);
+  let leftTotal = 0;
+  let rightTotal = 0;
+  let overlap = 0;
+  for (const count of left.values()) leftTotal += count;
+  for (const count of right.values()) rightTotal += count;
+  for (const [gram, count] of left) overlap += Math.min(count, right.get(gram) || 0);
+  return leftTotal + rightTotal ? (2 * overlap) / (leftTotal + rightTotal) : 0;
+}
+function storyEventClass(entry) {
+  const cues = [
+    ['recall', /召回/u],
+    ['response', /辟谣|澄清|回应/u],
+    ['filing', /申报|谍照/u],
+    ['presale', /预售/u],
+    ['launch', /上市/u],
+    ['debut', /发布会|首秀|首发|亮相|登场|官宣|宣布|发布/u],
+    ['delivery', /交付/u],
+    ['price', /降价|优惠|权益/u],
+    ['sales', /销量/u]
+  ];
+  const classifyText = text => {
+    let best = null;
+    for (const [name, pattern] of cues) {
+      const match = pattern.exec(text || '');
+      if (match && (!best || match.index < best.index)) best = { name, index: match.index };
+    }
+    return best?.name || '';
+  };
+  return classifyText(entry.editorialTitle) || classifyText(mediaPresentationTitle(entry.article.title));
+}
+function storyModels(entry) {
+  const source = cleanText(`${entry.article.title} ${entry.editorialTitle}`);
+  const found = new Set();
+  const add = value => {
+    const token = String(value || '').toLowerCase().replace(/[\s-]+/gu, '');
+    if (token.length < 2 || /^\d+(?:kw|kwh|km|mm|kg|gb|mp)?$/iu.test(token)) return;
+    if (/^(?:suv|mpv|ev|ota|ads|usb|cltc)$/iu.test(token)) return;
+    found.add(token);
+  };
+  for (const match of source.matchAll(/(?:^|[^A-Za-z0-9])([A-Za-z]{1,12}[\s-]?[A-Za-z]?\d{1,4}[A-Za-z]{0,4})(?![A-Za-z0-9])/gu)) add(match[1]);
+  for (const match of source.matchAll(/(?:^|[^A-Za-z0-9])(\d{1,2}[A-Za-z]{1,4})(?![A-Za-z0-9])/gu)) add(match[1]);
+  for (const match of source.matchAll(/model\s*[3ysx]|roadster|cybercab/giu)) add(match[0]);
+  for (const match of source.matchAll(/银河战舰\s*\d{2,4}|梦想家\s*\d{1,2}/gu)) add(match[0]);
+  return found;
+}
+function storyNumbers(entry) {
+  return new Set([...cleanText(`${entry.article.title} ${entry.editorialTitle}`).matchAll(/\d+(?:\.\d+)?/gu)].map(match => match[0]));
+}
+function numberConflict(a, b) {
+  const left = storyNumbers(a);
+  const right = storyNumbers(b);
+  if (!left.size || !right.size) return false;
+  if (left.size !== right.size) return true;
+  for (const value of left) if (!right.has(value)) return true;
+  return false;
+}
+function titleSimilarity(a, b) {
+  return {
+    editorialSim: titleDice(clusterTitle(a.editorialTitle), clusterTitle(b.editorialTitle)),
+    sourceSim: titleDice(clusterTitle(mediaPresentationTitle(a.article.title)), clusterTitle(mediaPresentationTitle(b.article.title)))
+  };
+}
+function samePublishedEvent(a, b) {
+  if (a.issueDate !== b.issueDate) return false;
+  if (a.note?.eventKey && b.note?.eventKey && a.note.eventKey !== b.note.eventKey) return false;
+  const sameBrand = (!a.brands.length && !b.brands.length) || a.brands.some(brand => b.brands.includes(brand));
+  if (!sameBrand) return false;
+  const classA = storyEventClass(a);
+  const classB = storyEventClass(b);
+  if (classA && classB && classA !== classB) return false;
+  const modelsA = storyModels(a);
+  const modelsB = storyModels(b);
+  const sharedModel = [...modelsA].some(model => modelsB.has(model));
+  if (modelsA.size && modelsB.size && !sharedModel) return false;
+  const { editorialSim, sourceSim } = titleSimilarity(a, b);
+  const similarity = Math.max(editorialSim, sourceSim);
+  if (sharedModel && classA && classB && similarity >= 0.35) return true;
+  if (numberConflict(a, b)) return false;
+  if (sourceSim < 0.45) return false;
+  return similarity >= 0.7;
+}
+function clusterGroups(groups) {
+  const items = [...groups.entries()];
+  const buckets = new Map();
+  items.forEach(([, entries], index) => {
+    const sample = entries[0];
+    const bucketId = `${sample.issueDate}|${[...sample.brands].sort().join('\u0001')}`;
+    const bucket = buckets.get(bucketId) || [];
+    bucket.push(index);
+    buckets.set(bucketId, bucket);
+  });
+  const parent = items.map((_, index) => index);
+  const find = index => parent[index] === index ? index : (parent[index] = find(parent[index]));
+  const union = (left, right) => {
+    const leftRoot = find(left);
+    const rightRoot = find(right);
+    if (leftRoot !== rightRoot) parent[rightRoot] = leftRoot;
+  };
+  for (const indexes of buckets.values()) {
+    for (let left = 0; left < indexes.length; left += 1) {
+      for (let right = left + 1; right < indexes.length; right += 1) {
+        const leftEntries = items[indexes[left]][1];
+        const rightEntries = items[indexes[right]][1];
+        if (leftEntries.some(entry => rightEntries.some(other => samePublishedEvent(entry, other)))) union(indexes[left], indexes[right]);
+      }
+    }
+  }
+  const clustered = new Map();
+  items.forEach(([key, entries], index) => {
+    const root = find(index);
+    const cluster = clustered.get(root) || { keys: [], entries: [] };
+    cluster.keys.push(key);
+    cluster.entries.push(...entries);
+    clustered.set(root, cluster);
+  });
+  return [...clustered.values()];
+}
 function nextDate(date) {
   const value = new Date(`${date}T00:00:00Z`);
   value.setUTCDate(value.getUTCDate() + 1);
@@ -357,8 +509,9 @@ export function buildReports(articles, notes, now = new Date()) {
   }
   const reports = {};
   const launches = [];
-  for (const [key, group] of groups) {
-    group.sort((a, b) => (order[a.article.evidenceStatus] ?? 9) - (order[b.article.evidenceStatus] ?? 9));
+  for (const cluster of clusterGroups(groups)) {
+    const group = cluster.entries.sort(compareStoryPriority);
+    const key = cluster.keys.length === 1 ? cluster.keys[0] : cluster.keys.slice().sort().join('||');
     const { article, note, issueDate, editorialTitle, brands } = group[0];
     const id = `story-${hash(key)}`;
     const classificationText = [article.title, ...(article.contentParagraphs || [])]
@@ -382,8 +535,10 @@ export function buildReports(articles, notes, now = new Date()) {
       brands,
       evidenceStatus: article.evidenceStatus, evidenceLabel: evidenceLabels[article.evidenceStatus],
       editorialStatus: note.details ? 'prepared' : 'source-record',
-      sourceLinks: group.map(({ article: item }) => ({ name: item.sourceName, url: item.url, publishedAt: item.publishedAt, label: evidenceLabels[item.evidenceStatus] })),
-      important: note.important ?? (isAutomaticallyImportant(article, brands) && !staleHook(`${editorialTitle} ${summary}`, issueDate))
+      sourceLinks: [...new Map(group.map(({ article: item }) => [item.url, { name: item.sourceName, url: item.url, publishedAt: item.publishedAt, label: evidenceLabels[item.evidenceStatus] }])).values()],
+      important: group.some(item => item.note.important === true) ? true
+        : group.some(item => item.note.important === false) ? false
+          : group.some(item => isAutomaticallyImportant(item.article, item.brands)) && !staleHook(`${editorialTitle} ${summary}`, issueDate)
     };
     const date = issueDate;
     const report = reports[date] ||= { dateLabel: `${date.slice(0, 4)}年${Number(date.slice(5, 7))}月${Number(date.slice(8, 10))}日`, windowLabel: windowLabel(date), highlights: [], brands: {}, otherBrands: [], industry: [], updatedAt: now.toISOString() };

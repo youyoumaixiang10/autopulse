@@ -332,6 +332,94 @@ test('same model launch reported by multiple verified media sources appears once
   assert.equal(buildReports([a, b], {}, now).reports['2026-09-09'].brands['吉利银河'].length, 1);
   assert.equal(story.sourceLinks.length, 2);
 });
+test('the same model announcement from different outlets is one highlight and one brand card', () => {
+  const gasgoo = record(1, {
+    title: '小鹏汽车官宣MONA L05即将登场，定位“年轻人的首款大五座SUV”',
+    sourceName: '盖世汽车',
+    brands: ['小鹏'],
+    sourceType: 'vertical-media',
+    publishedTime: '2026-09-09',
+    contentParagraphs: ['盖世汽车获悉 9月9日，小鹏汽车正式宣布，旗下MONA系列全新车型MONA L05即将登场，官方将其定位为“年轻人的首款大五座SUV”。']
+  });
+  const ithome = record(2, {
+    title: '小鹏 MONA L05 官宣即将登场，号称“年轻人的首款大五座 SUV”',
+    sourceName: 'IT之家',
+    brands: ['小鹏'],
+    sourceType: 'vertical-media',
+    publishedTime: '2026-09-09',
+    contentParagraphs: ['IT之家 9 月 9 日消息，小鹏汽车今日宣布，MONA L05，年轻人的首款大五座 SUV，即将登场。']
+  });
+  const report = buildReports([ithome, gasgoo], {}, now).reports['2026-09-09'];
+  assert.equal(report.highlights.length, 1);
+  assert.equal(report.brands['小鹏'].length, 1);
+  assert.equal(report.highlights[0].id, report.brands['小鹏'][0].id);
+  assert.equal(report.highlights[0].sourceName, '盖世汽车');
+  assert.equal(report.highlights[0].sourceLinks.length, 2);
+  assert.ok(report.highlights[0].sourceLinks.some(link => link.name === 'IT之家' && link.url !== report.highlights[0].sourceUrl));
+});
+test('different events and sibling models stay on separate cards', () => {
+  const debut = record(1, {
+    title: '小鹏汽车官宣MONA L05即将登场',
+    brands: ['小鹏'],
+    contentParagraphs: ['小鹏汽车官宣MONA L05即将登场，定位年轻人的首款大五座SUV。']
+  });
+  const filing = record(2, {
+    title: '小鹏MONA L05完成工信部申报',
+    brands: ['小鹏'],
+    sourceName: 'IT之家',
+    contentParagraphs: ['小鹏MONA L05完成工信部申报，车身长度4870毫米。']
+  });
+  const n90 = record(3, {
+    title: '小米澎程N90上市，售价26.99万元起',
+    brands: ['小米'],
+    contentParagraphs: ['小米澎程N90上市，售价26.99万元起。']
+  });
+  const n70 = record(4, {
+    title: '小米澎程N70上市，售价20.99万元起',
+    brands: ['小米'],
+    sourceName: '汽车之家资讯',
+    contentParagraphs: ['小米澎程N70上市，售价20.99万元起。']
+  });
+  const { reports } = buildReports([debut, filing, n90, n70], {}, now);
+  assert.equal(reports['2026-09-09'].brands['小鹏'].length, 2);
+  assert.equal(reports['2026-09-09'].brands['小米'].length, 2);
+});
+test('official coverage is the primary card and equal-quality media keeps the earlier report', () => {
+  const media = record(1, {
+    title: '理想i8即将上市',
+    sourceName: '盖世汽车',
+    publishedTime: '2026-09-09 07:10',
+    contentParagraphs: ['理想i8即将上市，定位家庭旗舰。']
+  });
+  const official = record(2, {
+    title: '理想i8即将上市',
+    evidenceStatus: 'official',
+    sourceName: '理想汽车官方微博',
+    sourceType: 'official-social',
+    publishedTime: '2026-09-09 07:40',
+    contentParagraphs: ['理想i8即将上市，定位家庭旗舰。']
+  });
+  const later = record(3, {
+    title: '蔚来ET9即将上市',
+    brands: ['蔚来'],
+    sourceName: '甲媒体',
+    publishedTime: '2026-09-09 07:40',
+    contentParagraphs: ['蔚来ET9即将上市，定位行政旗舰。']
+  });
+  const earlier = record(4, {
+    title: '蔚来ET9即将上市',
+    brands: ['蔚来'],
+    sourceName: '乙媒体',
+    publishedTime: '2026-09-09 07:10',
+    contentParagraphs: ['蔚来ET9即将上市，定位行政旗舰。']
+  });
+  const { reports } = buildReports([media, official, later, earlier], {}, now);
+  assert.equal(reports['2026-09-09'].brands['理想'].length, 1);
+  assert.equal(reports['2026-09-09'].brands['理想'][0].sourceName, '理想汽车官方微博');
+  assert.equal(reports['2026-09-09'].brands['理想'][0].sourceLinks.length, 2);
+  assert.equal(reports['2026-09-09'].brands['蔚来'].length, 1);
+  assert.equal(reports['2026-09-09'].brands['蔚来'][0].sourceName, '乙媒体');
+});
 test('a launch confirmation survives when its daily story merges with a higher-priority source', () => {
   const official = record(1, { title: '吉利银河TT上市信息发布', evidenceStatus: 'official', sourceType: 'official-social', brands: ['吉利银河'], contentParagraphs: ['吉利银河TT上市信息发布。'] });
   const confirmation = record(2, { title: '吉利银河TT正式上市', brands: ['吉利银河'], contentParagraphs: ['吉利银河TT正式上市，限时先享价12.99万元起。'] });
