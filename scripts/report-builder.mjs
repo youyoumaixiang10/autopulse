@@ -1,14 +1,22 @@
 import { createHash } from 'node:crypto';
 import { monitoringCoverage } from '../data/monitoring-coverage.js';
-import { chinaDate, cleanText, resolveStoryBrands } from './content-utils.mjs';
+import { chinaDate, cleanText, mentionedMakers, outsideRankingLeads, resolveStoryBrands } from './content-utils.mjs';
 
 const evidenceLabels = { official: '官方发布', government: '政府公告', media: '媒体报道' };
 const order = { government: 0, official: 1, media: 2 };
 const hash = value => createHash('sha256').update(value).digest('hex').slice(0, 16);
 const importantPattern = /上市|预售|发布会|官宣|降价|权益|交付|销量|合作|车展|召回|申报|价格|订单/u;
 const explicitResponsePattern = /辟谣|澄清|(?:网传|事故|传闻|质疑|争议|投诉|首撞|维权|质量|攻防).{0,24}回应|回应.{0,24}(?:网传|事故|传闻|质疑|争议|投诉|首撞|维权|质量|攻防)/u;
-const titlePreamblePattern = /^(?:我们|日前|目前|根据(?:此前)?信息|据(?:悉|报道|了解)|报道称|消息称|官方发布|当地时间)/u;
+const titlePreamblePattern = /^(?:我们|日前|目前|根据(?:此前)?信息|据(?:悉|报道|了解)|报道称|消息称|官方发布|当地时间|报道(?:\s|[，,：:]))/u;
 const titleSourcePattern = /(?:微博视频|公众号文章|官方微博|的微博)/u;
+const channelTeaserPattern = /IT早报|大家好[，,\s]*现在是|今天的重要科技资讯|^本期内容我们将为大家带来|咱们明天见/u;
+const wireTitlePattern = /^(?:[\u4e00-\u9fffA-Za-z]{0,12})?从(?:官方|相关渠道)(?:获悉|了解到|获取)/u;
+export function isTeaserText(text) {
+  const value = cleanText(text);
+  if (!value) return false;
+  if (channelTeaserPattern.test(value)) return true;
+  return /^(?:[“"「『])?(?:[\u4e00-\u9fffA-Za-z]{2,10})?从(?:官方|相关渠道)(?:获悉|了解到|获取了?(?:一组)?)[。！？!?]?$/u.test(value);
+}
 export function titleQualityIssues(title) {
   const value = cleanText(title);
   const issues = [];
@@ -16,6 +24,8 @@ export function titleQualityIssues(title) {
   if (value.length > 42 || /…$/u.test(value)) issues.push('标题过长或截断');
   if (titlePreamblePattern.test(value)) issues.push('标题使用原文叙述口吻');
   if (titleSourcePattern.test(value)) issues.push('标题包含来源或载体');
+  if (channelTeaserPattern.test(value)) issues.push('标题是频道问候或栏目导语');
+  if (wireTitlePattern.test(value)) issues.push('标题保留电头');
   return issues;
 }
 function isExplicitResponse(text) {
@@ -105,7 +115,7 @@ function socialEventTitle(text) {
   return '';
 }
 const summaryBudget = 92;
-const factCue = /上市|发布|发布会|预售|交付|销量|营收|利润|亏损|财报|优惠|降价|价格|万元|召回|申报|亮相|首秀|官宣|谍照|展出|开售/u;
+const factCue = /上市|发布|发布会|预售|交付|销量|营收|利润|亏损|财报|优惠|降价|价格|万元|召回|申报|亮相|首秀|官宣|谍照|展出|开售|开幕/u;
 function selectedBodyText(article) {
   const paragraphs = usefulSourceParagraphs(article).slice(0, 3);
   const text = paragraphs.join(' ');
@@ -168,14 +178,17 @@ function staleHook(text, issueDate) {
 function polishSentence(sentence) {
   return cleanText(sentence)
     .replace(/^媒体报道[：:]\s*/u, '')
-    .replace(/^(?:IT之家|快科技|观点网(?:讯)?|财联社|网通社|新浪汽车|凤凰网汽车|汽车之家|懂车帝|易车网|盖世汽车|网易汽车)\s*(?:\d{1,2}月\d{1,2}日)?(?:消息|电|讯)?[，,:：\s]*/u, '')
-    .replace(/^(?:20\d{2}年)?\s*\d{1,2}\s*月\s*\d{1,2}\s*日(?:\s*(?:消息|电|讯))?[，,:：\s]*/u, '')
+    .replace(/^(?:IT之家|快科技|观点网(?:讯)?|财联社|网通社|新浪汽车|凤凰网汽车|汽车之家|懂车帝|易车网|盖世汽车|盖世具身智能|网易汽车|车质网)\s*(?:\d{1,2}月\d{1,2}日)?(?:消息|电|讯|报道|获悉)?[，,:：\s]*/u, '')
+    .replace(/^(?:20\d{2}年)?\s*\d{1,2}\s*月\s*\d{1,2}\s*日(?:\s*(?:消息|电|讯|报道))?[，,:：\s]*/u, '')
     .replace(/^【[^】]{1,80}】(?:财联社)?\s*\d{1,2}月\d{1,2}日电[，,:：\s]*/u, '')
     .replace(/^财联社记者从知情人士处获悉[，,:：\s]*/u, '')
     .replace(/^(?:日前|目前|近日|今日)[，,\s]*/u, '')
-    .replace(/^我们从(?:官方|相关渠道)?(?:获悉|了解到)[，,\s]*/u, '')
+    .replace(/^(?:我们|[\u4e00-\u9fffA-Za-z]{2,8})?从(?:官方|相关渠道)(?:获悉|了解到|获取了?(?:一组)?)[，,：:\s]*/u, '')
+    .replace(/^(?:盖世汽车|IT之家|车质网|汽车之家)承办的/u, '')
     .replace(/^有网友(?:爆料|拍摄|发现)了?[，,\s]*/u, '')
+    .replace(/在此(?=同台)/u, '')
     .replace(/的?最新谍照$/u, '谍照曝光')
+    .replace(/(?<!曝)谍照$/u, '谍照曝光')
     .replace(/终于(?:正式)?官宣了?/u, '官宣')
     .replace(/将会在当地时间/u, '将于')
     .replace(/全新\s+Roadster\s*跑车/u, '全新Roadster')
@@ -190,11 +203,61 @@ function weakTitle(title) {
   return /^(?:同时|此外|其中|不过|另外|因此|所以|于是|外观方面|内饰方面|动力方面|配置方面|空间方面|作为了解|作为参考|作为年代|结合此前|据各|从已公开|●|（)/u.test(value)
     || /汽车之家|(?:文|编译)\//u.test(value);
 }
+function namesNewsSubject(text) {
+  if (mentionedMakers(text).length) return true;
+  if (/[A-Za-z]{1,12}\s*\d|\d系|工信部|国家标准|4S|车企|经销商|激光雷达|车展|技术展|合作备忘录/u.test(text)) return true;
+  return /[\u4e00-\u9fff]{2,8}(?:推出|签署|宣布|开幕)/u.test(text);
+}
+function stripParentheticals(text) {
+  return cleanText(String(text || '').replace(/[（(][^）)]{0,40}[）)]/gu, ''));
+}
+function stripIncidentalPlaces(text) {
+  return cleanText(String(text || '').replace(/在[\u4e00-\u9fff]{2,8}(?:市|省)?[\u4e00-\u9fffA-Za-z]{2,16}(?:大厦|大楼|总部|园区)/gu, (place, offset, source) => {
+    const rest = `${source.slice(0, offset)}${source.slice(offset + place.length)}`;
+    const placeMakers = mentionedMakers(place);
+    return placeMakers.length && placeMakers.every(maker => !mentionedMakers(rest).includes(maker)) ? '' : place;
+  }));
+}
+function isGenericDigestTitle(title) {
+  const value = cleanText(title);
+  if (/^本期内容我们/u.test(value)) return true;
+  return /^(?:本周|本期).{0,16}(?:多款|新车预告|将迎来)/u.test(value)
+    && !mentionedMakers(value).length
+    && !/[A-Za-z]{1,8}\s*\d/u.test(value);
+}
+function isBareQuote(sentence) {
+  return /^[“"「『]/u.test(cleanText(sentence));
+}
+function isAttributionOnly(sentence) {
+  if (isTeaserText(sentence)) return true;
+  const polished = polishSentence(sentence);
+  if (!polished || polished.length < 8 || isTeaserText(polished)) return true;
+  return /获悉|了解到|获取了一组/u.test(sentence) && !factCue.test(polished) && !namesNewsSubject(polished);
+}
 function usablePolishedTitle(sentence) {
-  const title = polishSentence(sentence);
-  if (!title || weakTitle(title) || /^(?:原文介绍|报道称)/u.test(title)) return '';
-  const compact = title.length <= 42 ? title : title.replace(/\s+/gu, '');
-  return compact.length <= 42 && !titleQualityIssues(compact).length ? compact : '';
+  const title = stripIncidentalPlaces(stripParentheticals(polishSentence(sentence)));
+  if (!title || weakTitle(title) || isTeaserText(title) || isGenericDigestTitle(title) || /^(?:原文介绍|报道称)/u.test(title)) return '';
+  const accept = value => value.length >= 8 && value.length <= 42 && !weakTitle(value) && !isTeaserText(value) && !isGenericDigestTitle(value) && !titleQualityIssues(value).length;
+  if (accept(title) && !/^(?:但是|但|然而)/u.test(title)) return title;
+  const compact = title.replace(/\s+/gu, '');
+  if (accept(compact) && !/^(?:但是|但|然而)/u.test(compact)) return compact;
+  const parts = title.split(/[，；;：:]/u).map(cleanText).flatMap(part => {
+    if (/^(?:但是|但|然而|不过|此外|同时)/u.test(part)) return [];
+    if (/^(?:旨在|双方|该|此|这|其|将(?!于)|过去)/u.test(part) && !namesNewsSubject(part)) return [];
+    if (/数据显示|获悉|消息称|报道称/u.test(part) && !/\d/u.test(part)) return [];
+    if (!factCue.test(part) && /(?:今日宣布|向媒体确认|接受采访时透露|表示|指出)$/u.test(part)) return [];
+    if (accept(part)) return [part];
+    const compactPart = part.replace(/\s+/gu, '');
+    return accept(compactPart) ? [compactPart] : [];
+  });
+  const longest = list => list.slice().sort((a, b) => b.length - a.length)[0] || '';
+  return longest(parts.filter(part => factCue.test(part) && mentionedMakers(part).length))
+    || longest(parts.filter(part => factCue.test(part) && namesNewsSubject(part) && !/^(?:亮相|发布|上市|推出|携)/u.test(part)))
+    || longest(parts.filter(part => /技术展|车展|合作备忘录|推出|签署|开幕|启幕/.test(part) && !/^(?:亮相|发布|上市|推出|携)/u.test(part)))
+    || longest(parts.filter(part => mentionedMakers(part).length && !/^(?:由|为).{0,12}(?:主办|承办|指导)/u.test(part)))
+    || longest(parts.filter(part => factCue.test(part)))
+    || longest(parts.filter(part => namesNewsSubject(part)))
+    || '';
 }
 function leadSentences(article) {
   const paragraphs = usefulSourceParagraphs(article);
@@ -213,15 +276,52 @@ function contentTitle(article) {
     const vehicleCount = source.match(/(?:提供|将提供)\s*(\d+)台车/u)?.[1];
     return `蔚来签约2026丝路驾行挑战${vehicleCount ? `，将提供${vehicleCount}台车及技术支持` : ''}`;
   }
-  const ordered = leadSentences(article);
+  const ordered = leadSentences(article)
+    .filter(sentence => !isTeaserText(sentence) && !isAttributionOnly(sentence) && !isBareQuote(sentence));
   const fact = ordered.find(sentence => factCue.test(sentence));
   const factTitle = fact ? usablePolishedTitle(fact) : '';
   if (factTitle) return factTitle;
-  return usablePolishedTitle(ordered[0] || '') || '';
+  const opening = usablePolishedTitle(ordered[0] || '');
+  if (opening) return opening;
+  if (ordered.some(sentence => namesNewsSubject(polishSentence(sentence)))) return '';
+  if (isCrossBrandDigest(article, article.title || '')) return '';
+  const laterSentences = expandedNewsSentences(article)
+    .filter(sentence => !isTeaserText(sentence) && !isAttributionOnly(sentence) && !isBareQuote(sentence));
+  const later = laterSentences.find(sentence => factCue.test(sentence) && namesNewsSubject(sentence))
+    || laterSentences.find(sentence => namesNewsSubject(sentence));
+  return later ? usablePolishedTitle(later) : '';
+}
+function expandedNewsSentences(article) {
+  const paragraphs = usefulSourceParagraphs(article).slice(0, 3);
+  const text = article.sourceType === 'official-social'
+    ? socialPresentationText(paragraphs.join(' '))
+    : paragraphs.join(' ');
+  return text.split(/[。！？!?]/u).map(cleanText)
+    .filter(sentence => sentence.length >= 8 && !/免责声明|版权|扫一扫|关注我们|汽车之家|^（(?:文|编译)/u.test(sentence));
+}
+function articleText(article) {
+  return cleanText([article.title, ...(article.contentParagraphs || [])].join(' '));
+}
+function concreteSourceHeadline(article) {
+  const raw = mediaPresentationTitle(article.title);
+  const trimmed = cleanText(raw
+    .replace(/[（(][^）)]{0,30}[）)]/gu, '')
+    .replace(/20\d{2}年第\d{1,2}周/gu, '本周')
+    .replace(/\s{2,}/gu, ' '));
+  const basis = articleText(article) || article.title;
+  for (const candidate of [trimmed, factualMediaHeadline(article.title)]) {
+    if (!candidate || candidate.length < 8 || candidate.length > 42) continue;
+    if (weakTitle(candidate) || isTeaserText(candidate) || isGenericDigestTitle(candidate)) continue;
+    if (titleQualityIssues(candidate).length) continue;
+    if (/[？?]|杀入|最贵|竟然|亏\d|别眨眼/u.test(article.title)) continue;
+    if (!titleAligns(candidate, basis) || !namesNewsSubject(candidate)) continue;
+    return candidate;
+  }
+  return '';
 }
 function alignedHeadline(article) {
   const headline = factualMediaHeadline(article.title);
-  const lead = selectedBodyText(article) || article.title;
+  const lead = articleText(article) || article.title;
   if (!headline || weakTitle(headline) || titleQualityIssues(headline).length || !titleAligns(headline, lead)) return '';
   if (/[？?]|杀入|最贵|竟然|亏\d|别眨眼/u.test(article.title)) return '';
   return headline;
@@ -239,8 +339,13 @@ function displayTitle(article, issueDate) {
     }
   }
   const fromBody = contentTitle(article);
+  const headline = alignedHeadline(article) || concreteSourceHeadline(article);
+  const fragmentBody = /^(?:旨在|双方|该|此|这|将|过去|盖世|承办)/u.test(fromBody || '');
+  if (fromBody && headline && (
+    (factCue.test(headline) && !factCue.test(fromBody))
+    || (namesNewsSubject(headline) && (!namesNewsSubject(fromBody) || fragmentBody))
+  )) return normalizeRelativeTime(headline, issueDate);
   if (fromBody) return normalizeRelativeTime(fromBody, issueDate);
-  const headline = alignedHeadline(article);
   if (headline) return normalizeRelativeTime(headline, issueDate);
   if (leadSentences(article).length || bodySentences(article).length) return '';
   return '';
@@ -252,18 +357,38 @@ function titleAligns(title, lead) {
   const numbers = [...value.matchAll(/\d+(?:\.\d+)?/gu)].map(match => match[0]).filter(number => number.length >= 2);
   return numbers.every(number => basis.includes(number));
 }
-function openingSentences(text) {
-  return String(text || '').split(/[。！？!?]/u).map(cleanText)
-    .filter(sentence => sentence.length >= 8 && !/免责声明|版权|扫一扫|关注我们/u.test(sentence));
+function compactText(text) {
+  return cleanText(text).replace(/[“”"「」『』《》【】（）()[\]，。！？!?、：:；;,.·\s\-—～~]/gu, '');
 }
-function clipSentences(sentences, issueDate) {
+function stripSummaryWire(sentence) {
+  const value = cleanText(sentence);
+  if (!/获悉|了解到|获取了一组|报道\s+\d{1,2}月/u.test(value)) return value;
+  const stripped = value
+    .replace(/^(?:(?:日前|目前|近日|今日)[，,\s]*)?(?:IT之家|快科技|观点网|财联社|网通社|新浪汽车|凤凰网汽车|汽车之家|懂车帝|易车网?|盖世汽车|盖世具身智能|网易汽车|车质网)\s*(?:\d{1,2}月\d{1,2}日)?(?:消息|讯|电|报道|获悉)?[，,:：\s]*/u, '')
+    .replace(/^(?:(?:日前|目前|近日|今日)[，,\s]*)?(?:[\u4e00-\u9fffA-Za-z]{2,8})?从(?:官方|相关渠道)(?:获悉|了解到|获取了?(?:一组)?)[，,：:\s]*/u, '')
+    .replace(/^(?:\d{1,2}月\d{1,2}日)(?:消息|讯|电|报道)?[，,:：\s]*/u, '');
+  return stripped.length >= 8 ? stripped : value;
+}
+function summarySentences(article, expanded) {
+  const paragraphs = usefulSourceParagraphs(article);
+  const text = article.sourceType === 'official-social'
+    ? socialPresentationText((expanded ? paragraphs.slice(0, 3) : paragraphs.slice(0, 1)).join(' ') || article.title || '')
+    : (expanded ? paragraphs.slice(0, 3).join(' ') : (paragraphs[0] || article.title || ''));
+  return text.split(/[。！？!?]/u).map(cleanText)
+    .filter(sentence => sentence.length >= 8 && !/免责声明|版权|扫一扫|关注我们/u.test(sentence))
+    .filter(sentence => !isTeaserText(sentence) && !isAttributionOnly(sentence) && !isBareQuote(sentence))
+    .map(stripSummaryWire)
+    .filter(sentence => sentence.length >= 8 && !isTeaserText(sentence));
+}
+function packSummary(sentences, issueDate) {
   const opening = [];
   for (const sentence of sentences) {
     const next = opening.length ? `${opening.join('。')}。${sentence}。` : `${sentence}。`;
     if (cleanText(next).length > summaryBudget) break;
     opening.push(sentence);
   }
-  return opening.length ? normalizeRelativeTime(clipAtBoundary(`${opening.join('。')}。`), issueDate) : '';
+  const joined = opening.length ? `${opening.join('。')}。` : (sentences[0] || '');
+  return normalizeRelativeTime(clipAtBoundary(joined), issueDate);
 }
 function comparableCopy(text) {
   return cleanText(text).replace(/[。！？!?\s#]/gu, '');
@@ -312,16 +437,20 @@ function isPreviewTeaserArticle(article, editorialTitle = '') {
 function factualPoint(sentence) {
   return factCue.test(sentence) && !isPreviewTeaserText(sentence);
 }
-function sourceSummary(article, issueDate, title = '') {
-  const paragraphs = usefulSourceParagraphs(article);
-  const text = article.sourceType === 'official-social'
-    ? socialPresentationText(paragraphs[0] || article.title || '')
-    : (paragraphs[0] || article.title || '');
-  const sentences = openingSentences(text);
-  const summary = clipSentences(sentences, issueDate) || normalizeRelativeTime(clipAtBoundary(text), issueDate);
-  if (!title || !nearlySameCopy(summary, title)) return summary;
-  const points = sentences.filter(sentence => !nearlySameCopy(sentence, title) && factualPoint(sentence));
-  return clipSentences(points, issueDate) || summary;
+function sourceSummary(article, issueDate, titleToAvoid = '') {
+  const sentences = summarySentences(article, false);
+  const summary = packSummary(sentences, issueDate);
+  const duplicate = Boolean(titleToAvoid) && nearlySameCopy(summary, titleToAvoid);
+  const teaser = !summary || isTeaserText(summary);
+  if (!titleToAvoid || (!duplicate && !teaser)) return summary;
+  const laterPoint = list => packSummary(list.filter(sentence => !nearlySameCopy(sentence, titleToAvoid) && factualPoint(sentence) && !isTeaserText(sentence)), issueDate);
+  const distinct = laterPoint(sentences);
+  if (distinct && !isTeaserText(distinct)) return distinct;
+  if (summary && !isTeaserText(summary)) return summary;
+  const expanded = summarySentences(article, true);
+  const expandedPoint = laterPoint(expanded);
+  if (expandedPoint && !isTeaserText(expandedPoint)) return expandedPoint;
+  return packSummary(expanded, issueDate) || summary;
 }
 function isAutomaticallyImportant(article, brands = article.brands) {
   if (article.evidenceStatus === 'government') return true;
@@ -536,6 +665,47 @@ export function reportIssueDate(article) {
   if (!match) return article.publishedAt;
   return Number(match[2]) >= 8 ? nextDate(match[1]) : match[1];
 }
+function isChannelDigest(article) {
+  const head = cleanText(`${article.title || ''} ${(article.contentParagraphs || [])[0] || ''}`);
+  return /IT早报|大家好[，,\s]*现在是|今天的重要科技资讯/u.test(head);
+}
+function isPeriodRoundupWithoutEvent(article) {
+  const head = cleanText(`${article.title || ''} ${(article.contentParagraphs || [])[0] || ''}`);
+  if (!/本期内容我们将为大家带来|财经早报|一周新车预告/u.test(head)) return false;
+  if (/财经早报|IT早报/u.test(head)) return true;
+  const body = cleanText([article.title, ...(article.contentParagraphs || [])].join(' '));
+  return !(mentionedMakers(body).length && /上市|预售|首发|亮相|谍照|申报/u.test(body));
+}
+function isIndustryPolicy(article, title) {
+  const heading = cleanText(`${article.title || ''} ${title || ''}`);
+  if (/申报/u.test(heading) && mentionedMakers(heading).length <= 1) return false;
+  return /工信部|国家标准|征求意见稿|(?:汽车|行业|产品).{0,8}新规|新规.{0,12}(?:门把手|座椅|创新设计)/u.test(heading);
+}
+function isCrossBrandDigest(article, title) {
+  const heading = cleanText(`${article.title || ''} ${title || ''}`);
+  const lead = cleanText(`${heading} ${(article.contentParagraphs || [])[0] || ''}`);
+  if (outsideRankingLeads(lead)) return false;
+  const digest = /新车预告|本期内容我们将|本周将迎来|同台亮相|中国车企|日系车企|各大车企|多家车企|谍照丨|一周新车|多款重磅|等(?:\s|$)/u;
+  if (mentionedMakers(heading).length >= 3) return true;
+  if (mentionedMakers(heading).length >= 2 && digest.test(heading)) return true;
+  return digest.test(lead) && mentionedMakers(lead).length >= 2;
+}
+function isSingleVehicleEvent(text) {
+  const value = cleanText(text);
+  if (/新车预告|同台亮相|多家车企|多款重磅|本期内容/u.test(value)) return false;
+  return /(?:车型|SUV|MPV|轿车|[A-Za-z]{1,12}[\s.#-]?\d|\d系)/u.test(value)
+    && /上市|预售|谍照|申报|发布会|首发|首秀|亮相|开售|早鸟/u.test(value);
+}
+function sectionFor(article, brands, title) {
+  const head = cleanText(`${article.title || ''} ${(article.contentParagraphs || [])[0] || ''} ${title || ''}`);
+  if (outsideRankingLeads(head) && !brands.length) return 'other';
+  if (article.evidenceStatus === 'government' || isIndustryPolicy(article, title) || isCrossBrandDigest(article, title)) return 'industry';
+  if (brands.length) return 'brand';
+  const makers = mentionedMakers(cleanText(`${article.title || ''} ${title || ''}`));
+  if (makers.length > 1) return 'industry';
+  if (makers.length === 1 || isSingleVehicleEvent(head)) return 'other';
+  return 'industry';
+}
 export function buildReports(articles, notes, now = new Date()) {
   const today = chinaDate(now);
   const groups = new Map();
@@ -550,6 +720,10 @@ export function buildReports(articles, notes, now = new Date()) {
     if (issueDate > today) continue;
     const note = notes[article.url] || {};
     if (note.exclude) continue;
+    if (isChannelDigest(article) || isPeriodRoundupWithoutEvent(article)) {
+      reviewQueue.push({ title: article.title, sourceName: article.sourceName, url: article.url, reasons: ['频道问候或无具体车型事件的周期汇总'] });
+      continue;
+    }
     const brands = resolveStoryBrands(article);
     const editorialTitle = note.title || displayTitle(article, issueDate);
     const titleIssues = titleQualityIssues(editorialTitle);
@@ -557,7 +731,7 @@ export function buildReports(articles, notes, now = new Date()) {
       reviewQueue.push({ title: article.title, sourceName: article.sourceName, url: article.url, reasons: [`无法生成符合编辑规范的标题：${titleIssues.join('、')}`] });
       continue;
     }
-    if (isPreviewTeaserArticle(article, editorialTitle)) continue;
+    if (isPreviewTeaserArticle(article, editorialTitle) && !isCrossBrandDigest(article, editorialTitle)) continue;
     const key = `${issueDate}|${eventKey({ ...article, brands }, note)}`;
     const group = groups.get(key) || [];
     group.push({ article, note, issueDate, editorialTitle, brands });
@@ -576,9 +750,13 @@ export function buildReports(articles, notes, now = new Date()) {
       .slice(0, 420);
     const tags = classify(classificationText, article.evidenceStatus);
     const details = note.details || sourceDetails(article);
-    const summary = note.summary
+    let summary = note.summary
       ? normalizeRelativeTime(cleanText(note.summary).replace(/^(?:官方发布|政府公告|媒体报道)[：:]\s*/u, ''), issueDate)
       : sourceSummary(article, issueDate, editorialTitle);
+    if (!summary || isTeaserText(summary)) {
+      reviewQueue.push({ title: article.title, sourceName: article.sourceName, url: article.url, reasons: ['摘要只剩导语或电头'] });
+      continue;
+    }
     const lead = `${editorialTitle} ${summary}`;
     const story = {
       id, tags, title: normalizeRelativeTime(editorialTitle, issueDate),
@@ -592,22 +770,19 @@ export function buildReports(articles, notes, now = new Date()) {
       evidenceStatus: article.evidenceStatus, evidenceLabel: evidenceLabels[article.evidenceStatus],
       editorialStatus: note.details ? 'prepared' : 'source-record',
       sourceLinks: [...new Map(group.map(({ article: item }) => [item.url, { name: item.sourceName, url: item.url, publishedAt: item.publishedAt, label: evidenceLabels[item.evidenceStatus] }])).values()],
-      important: group.some(item => item.note.important === true) ? true
-        : group.some(item => item.note.important === false) ? false
-          : group.some(item => isAutomaticallyImportant(item.article, item.brands)) && !staleHook(`${editorialTitle} ${summary}`, issueDate)
+      important: group.some(item => isPreviewTeaserArticle(item.article, item.editorialTitle)) ? false
+        : group.some(item => item.note.important === true) ? true
+          : group.some(item => item.note.important === false) ? false
+            : group.some(item => isAutomaticallyImportant(item.article, item.brands)) && !staleHook(`${editorialTitle} ${summary}`, issueDate)
     };
     const date = issueDate;
     const report = reports[date] ||= { dateLabel: `${date.slice(0, 4)}年${Number(date.slice(5, 7))}月${Number(date.slice(8, 10))}日`, windowLabel: windowLabel(date), highlights: [], brands: {}, otherBrands: [], industry: [], updatedAt: now.toISOString() };
     if (story.important) report.highlights.push(story);
-    if (brands.length) {
+    const section = sectionFor(article, brands, story.title);
+    if (section === 'brand') {
       for (const brand of brands) (report.brands[brand] ||= []).push(story);
-    } else {
-      const topicText = `${article.title} ${(article.contentParagraphs || []).join(' ')}`;
-      const vehicleTopic = /新车|车型|车展|上市|预售|早鸟|订金|试驾|车身|续航|动力/u.test(topicText);
-      const industryTopic = /政策|法规|工信部|产业链|供应链|行业|协会|市场|销量|出口|召回|电池|充电/u.test(topicText);
-      if (article.evidenceStatus === 'government' || (article.industry && industryTopic && !vehicleTopic)) report.industry.push(story);
-      else report.otherBrands.push(story);
-    }
+    } else if (section === 'other') report.otherBrands.push(story);
+    else report.industry.push(story);
     for (const { article: launchArticle, note: launchNote } of group) for (const launch of launchNote.launches || []) {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(launch.date)) throw new Error(`上市日期无效：${launch.model}`);
       launches.push({ ...launch, id: `launch-${hash(`${launch.brand}|${launch.model}|${launch.date}`)}`,

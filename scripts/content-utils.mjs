@@ -59,7 +59,41 @@ function earliest(text, list) {
   }
   return best;
 }
+const makerLexicon = [
+  ['上汽大众', /上汽大众/u], ['一汽大众', /一汽[-·\s]?大众/u],
+  ['吉利银河', /吉利银河|银河(?:\s*[A-Za-z]\d|TT|星舰|战舰)/iu],
+  ['鸿蒙智行', /鸿蒙智行|问界|智界|享界|尊界|尚界/u],
+  ['比亚迪', /比亚迪|方程豹|仰望|海洋网/u], ['零跑', /零跑/u], ['蔚来', /蔚来|\bNIO\b/iu],
+  ['乐道', /乐道|\bONVO\b/iu], ['理想', /理想(?:汽车|\s*[iIL]\d|\s*MEGA)|李想|\bLi Auto\b/iu],
+  ['极氪', /极氪|\bZEEKR\b/iu], ['小米', /小米|雷军/u], ['小鹏', /小鹏|何小鹏|\bXPeng\b/iu],
+  ['岚图', /岚图/u], ['阿维塔', /阿维塔|\bAVATR\b/iu], ['深蓝', /深蓝/u], ['腾势', /腾势/u],
+  ['特斯拉', /特斯拉|Tesla|Cybercab/iu], ['启源', /启源/u],
+  ['奇瑞', /奇瑞|星途/u], ['捷途', /捷途/u], ['长城', /长城汽车|哈弗|魏牌|坦克/u],
+  ['上汽', /上汽集团|荣威|名爵/u], ['广汽', /广汽|埃安|传祺|昊铂/u], ['一汽', /一汽|红旗|奔腾/u],
+  ['东风', /东风|风行/u], ['远程', /远程星享|吉利远程|远程汽车/u], ['宝马', /宝马|\bBMW\b/iu],
+  ['奔驰', /奔驰/u], ['大众', /大众/u], ['丰田', /丰田|雷克萨斯/u], ['本田', /本田/u],
+  ['林肯', /林肯/u], ['别克', /别克/u], ['凯迪拉克', /凯迪拉克/u], ['智己', /智己/u],
+  ['赛力斯', /赛力斯/u], ['哪吒', /哪吒/u], ['极狐', /极狐/u], ['吉利', /吉利/u],
+  ['smart', /smart/iu], ['极星', /极星|Polestar/iu]
+];
 export const identifyBrands = text => matchers.filter(([, pattern]) => pattern.test(text)).map(([brand]) => brand);
+export function mentionedMakers(text) {
+  const source = cleanText(text);
+  const found = [];
+  for (const [name, pattern] of makerLexicon) {
+    const flags = pattern.flags.includes('g') ? pattern.flags : `${pattern.flags}g`;
+    for (const match of source.matchAll(new RegExp(pattern.source, flags))) {
+      found.push({ name, start: match.index, end: match.index + match[0].length });
+    }
+  }
+  found.sort((a, b) => a.start - b.start || (b.end - b.start) - (a.end - a.start));
+  const kept = [];
+  for (const item of found) {
+    if (kept.some(other => item.start < other.end && item.end > other.start)) continue;
+    kept.push(item);
+  }
+  return [...new Set(kept.map(item => item.name))];
+}
 export function outsideRankingLeads(text) {
   const head = cleanText(text);
   if (!rankingCue.test(head)) return false;

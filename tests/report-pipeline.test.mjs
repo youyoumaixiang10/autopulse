@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { buildReports, classify, ensureIssueRange, mergeLaunches, reportIssueDate, titleQualityIssues, validateReports } from '../scripts/report-builder.mjs';
 import { extractArticle } from '../scripts/article-extractor.mjs';
-import { identifyBrands, issueSearchDates } from '../scripts/content-utils.mjs';
+import { identifyBrands, issueSearchDates, mentionedMakers } from '../scripts/content-utils.mjs';
 import { escapeHtml, safeHref, sortedDates, monthWindow } from '../data/view-utils.js';
 import { createSiteServer } from '../scripts/serve.mjs';
 import { reconcileLaunchCalendar } from '../scripts/reconcile-launch-calendar.mjs';
@@ -515,6 +515,136 @@ test('a Chery wholesale ranking is not filed under a focus brand it only compare
   assert.equal(report.brands['比亚迪'], undefined);
   assert.equal(report.otherBrands.length, 1);
   assert.match(report.otherBrands[0].summary, /奇瑞/);
+});
+test('wire attribution is not a headline and a single other-brand model stays in other brands', () => {
+  const idEra = record(1, {
+    title: '空间宽敞 上汽大众ID.ERA 5X内饰谍照曝光',
+    brands: [], sourceType: 'vertical-media', sourceName: '盖世汽车',
+    contentParagraphs: [
+      '近日，车质网从相关渠道获悉。上汽大众ID.ERA 5X内饰谍照曝光，新车此前已开启盲订，预计将于2026年第四季度正式上市，时间或为11月。',
+      '从曝光的谍照来看，座舱配备悬浮式中控屏。'
+    ]
+  });
+  const m5 = record(2, {
+    title: '延续V8插混动力 中期改款宝马M5谍照曝光',
+    brands: [], sourceType: 'vertical-media', sourceName: '盖世汽车',
+    contentParagraphs: ['近日，车质网从相关渠道获悉，中期改款宝马M5谍照曝光，并在纽博格林赛道进行测试。新车预计将于2027年推出。']
+  });
+  const report = buildReports([idEra, m5], {}, now).reports['2026-09-09'];
+  assert.equal(report.otherBrands.find(story => /ID\.ERA 5X/.test(story.title)).title, '上汽大众ID.ERA 5X内饰谍照曝光');
+  assert.equal(report.otherBrands.find(story => /M5/.test(story.title)).title, '中期改款宝马M5谍照曝光，并在纽博格林赛道进行测试');
+  assert.equal(report.industry.length, 0);
+  assert.equal(/车质网|从相关渠道获悉/.test(report.otherBrands.map(story => story.title).join(' ')), false);
+});
+test('channel greetings are dropped and a weekly multi-brand preview goes to industry', () => {
+  const greeting = record(1, {
+    title: 'IT早报 1012：国家安全部提醒接陌生来电先沉默三秒',
+    brands: [], sourceType: 'vertical-media',
+    contentParagraphs: ['“IT早报”时间，大家好，现在是2026年10月12日星期一，今天的重要科技资讯有：', '苹果首款智能家庭中枢定名 HomeView。']
+  });
+  const preview = record(2, {
+    title: '比亚迪大汉/大众ID.ERA 8X等 2026年第42周(10.12-10.18)新车预告',
+    brands: ['比亚迪'], sourceType: 'vertical-media',
+    contentParagraphs: [
+      '本期内容我们将为大家带来2026年10月12日-10月18日的新车预告。本周将迎来多款重磅新车上市/预售，其中包括比亚迪大汉、上汽大众ID.ERA 8X、捷途旅行者7、吉利星瑞L PLUS、埃安Ray7等。',
+      '比亚迪大汉EV此前已开启预售，预售价区间为24.99-29.99万元。'
+    ]
+  });
+  const policy = record(3, {
+    title: '工信部：汽车创新设计迎新规 禁全隐藏门把手 行车禁用旋转座椅',
+    brands: ['岚图'], sourceType: 'vertical-media', industry: true,
+    contentParagraphs: ['近期，工业和信息化部会同公安部发布汽车产品创新设计征求意见稿。岚图汽车表示将支持本次征求意见稿。']
+  });
+  const roundup = record(4, {
+    title: '新车谍照丨海洋网MPV、林肯9系、宝马纯电M3',
+    brands: [], sourceType: 'vertical-media',
+    contentParagraphs: ['海洋网MPV、林肯9系和宝马纯电M3的谍照集中曝光。']
+  });
+  const { reports, reviewQueue } = buildReports([greeting, preview, policy, roundup], {}, now);
+  const report = reports['2026-09-09'];
+  const titles = [...report.highlights, ...(report.otherBrands || []), ...report.industry, ...Object.values(report.brands).flat()].map(story => story.title);
+  assert.equal(titles.some(title => /IT早报|大家好|今天的重要科技资讯/.test(title)), false);
+  assert.equal(report.brands['比亚迪'], undefined);
+  assert.equal(report.brands['岚图'], undefined);
+  assert.equal(report.otherBrands.length, 0);
+  assert.ok(report.industry.some(story => /比亚迪大汉/.test(story.title) && /ID\.ERA 8X/.test(story.title)));
+  assert.equal(report.industry.find(story => /比亚迪大汉/.test(story.title)).summary.startsWith('本期内容'), false);
+  assert.ok(report.industry.some(story => /工信部|征求意见稿|新规/.test(story.title)));
+  assert.ok(report.industry.some(story => /林肯/.test(story.title) && /宝马/.test(story.title)));
+  assert.ok(reviewQueue.some(item => /IT早报/.test(item.title)));
+});
+test('a subject-less clause yields to the source headline and stays in the right section', () => {
+  const xpeng = record(1, {
+    title: '小鹏智驾出海欧洲：两周微调适配一个国家，计划 2027 年落地 NGP',
+    brands: [], sourceType: 'vertical-media', sourceName: 'IT之家',
+    contentParagraphs: [
+      'IT之家 10 月 12 日消息，据彭博社报道，在巴黎车展前夕，小鹏汽车通用智能中心负责人刘先明接受采访时透露，该公司成功在约两周时间内，将智驾系统从一个欧洲国家微调适配到另一个欧洲国家。',
+      '据刘先明介绍，小鹏目前正与欧洲监管机构紧密沟通，并维持在 2027 年于欧洲正式落地智能导航辅助驾驶系统（NGP）的原定规划。'
+    ]
+  });
+  const hud = record(2, {
+    title: '国显科技推出4.1寸Mini LED AR-HUD PGU模组',
+    brands: [], sourceType: 'vertical-media',
+    contentParagraphs: ['盖世汽车获悉 国显科技近日推出4.1寸AR-HUD专用Mini LED PGU（图像生成单元）模组。该模组采用菲涅尔透镜阵列准直光学架构，旨在为高端新能源及智能驾驶AR-HUD提供高性能的国产像源方案。']
+  });
+  const mou = record(3, {
+    title: '晶能与Wolfspeed签署合作备忘录',
+    brands: [], sourceType: 'vertical-media',
+    contentParagraphs: ['盖世汽车获悉，近日，Wolfspeed,Inc.（纽约证券交易所代码：WOLF）与晶能微电子（Geener Microelectronics）在杭州市吉利科技大厦签署合作备忘录，双方将围绕碳化硅功率模块的芯片供应、技术适配及市场拓展展开深度合作。']
+  });
+  const show = record(4, {
+    title: '智驭向新丨华域 & 汇众底盘专场前瞻技术展即将启幕',
+    brands: [], sourceType: 'vertical-media',
+    contentParagraphs: ['由上汽集团共同主办，盖世汽车承办的智驭向新・华域&汇众底盘专场前瞻技术展，将于10月16日在汇众研发大楼举行。']
+  });
+  const dongfeng = record(6, {
+    title: '东风风行携三款新车亮相2026巴黎车展',
+    brands: [], sourceType: 'vertical-media',
+    contentParagraphs: ['盖世汽车获悉 2026年10月12日至18日，东风风行携TK7、TK5及V9露营版三款车型，亮相在巴黎凡尔赛门展览中心7.1号馆举办的2026巴黎车展。']
+  });
+  const paris = record(5, {
+    title: '巴黎车展上的两种姿态：中国猛攻，日系保守',
+    brands: [], sourceType: 'vertical-media',
+    contentParagraphs: ['10月12日，巴黎凡尔赛门展览中心，2026巴黎国际车展正式开幕。中国车企与日系车企在此同台亮相。']
+  });
+  const report = buildReports([xpeng, hud, mou, show, paris, dongfeng], {}, now).reports['2026-09-09'];
+  const titles = [...report.highlights, ...(report.otherBrands || []), ...Object.values(report.brands).flat(), ...report.industry].map(story => story.title);
+  assert.match(report.brands['小鹏'][0].title, /小鹏/);
+  assert.equal(/将智驾系统从一个欧洲国家/.test(report.brands['小鹏'][0].title), false);
+  assert.ok(titles.some(title => /国显科技/.test(title) && /推出|AR-HUD/.test(title)));
+  assert.ok(report.industry.some(story => /Wolfspeed/.test(story.title) && /签署|备忘录/.test(story.title)));
+  assert.equal(report.industry.some(story => /双方将围绕/.test(story.title)), false);
+  assert.equal(report.brands['吉利'], undefined);
+  assert.ok(report.industry.some(story => /华域/.test(story.title) && /汇众/.test(story.title)));
+  assert.ok(report.industry.some(story => /巴黎/.test(story.title) && /开幕/.test(story.title)));
+  assert.equal(report.otherBrands.find(story => /东风风行/.test(story.title)).title, '东风风行携三款新车亮相2026巴黎车展');
+  assert.equal(titles.some(title => /旨在为|盖世汽车承办|从相关渠道获悉/.test(title)), false);
+});
+test('a quoted opener is replaced by the later factual sentence', () => {
+  const article = record(1, {
+    title: '车圈“造人”：第二曲线，还是纸面富贵？',
+    brands: [], sourceType: 'vertical-media',
+    contentParagraphs: [
+      '“不布局，怕错失长期机会；提前投入，又要承担短期亏损。”',
+      '过去两年，不少车企把具身智能写进核心战略，相关收入仍可忽略。'
+    ]
+  });
+  const story = buildReports([article], {}, now).reports['2026-09-09'].industry[0];
+  assert.match(story.title, /车企/);
+  assert.equal(/不布局/.test(story.title), false);
+  assert.equal(story.summary.includes('不布局'), false);
+});
+test('maker mentions do not double-count a compound brand', () => {
+  assert.deepEqual(mentionedMakers('上汽大众ID.ERA 5X内饰谍照曝光'), ['上汽大众']);
+  assert.deepEqual(mentionedMakers('吉利银河TT正式上市'), ['吉利银河']);
+  assert.ok(mentionedMakers('比亚迪大汉/大众ID.ERA 8X等本周新车预告').length >= 2);
+});
+test('title quality rejects greetings, weekly intros and bare wire openers', () => {
+  assert.ok(titleQualityIssues('“IT早报”时间，大家好，现在是2026年10月12日星期一，今天的重要科技资讯有：').includes('标题是频道问候或栏目导语'));
+  assert.ok(titleQualityIssues('本期内容我们将为大家带来2026年10月12日的新车预告').includes('标题是频道问候或栏目导语'));
+  assert.ok(titleQualityIssues('车质网从相关渠道获悉').includes('标题保留电头'));
+  assert.deepEqual(titleQualityIssues('上汽大众ID.ERA 5X内饰谍照曝光'), []);
+  assert.deepEqual(titleQualityIssues('中期改款宝马M5谍照曝光，并在纽博格林赛道进行测试'), []);
 });
 test('xpeng stories are a focused brand group rather than other brands', () => {
   const article = record(1, {
