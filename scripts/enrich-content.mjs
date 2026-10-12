@@ -27,6 +27,17 @@ function deriveBrands(source, detail) {
   const matchedBrands = identifyBrands([detail.title, ...(detail.contentParagraphs || []).slice(0, 2)].join(' '));
   return source.sourceType === 'vertical-media' ? matchedBrands : matchedBrands.length ? matchedBrands : source.brands.slice(0, 1);
 }
+async function loadArticleHtml(url) {
+  let lastError;
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try { return await collectBrowserHtml(url); }
+    catch (error) {
+      lastError = error;
+      if (attempt === 1 || !/timeout|aborted|超时/iu.test(error.message || '')) throw error;
+    }
+  }
+  throw lastError;
+}
 async function worker() {
   while (next < candidates.length) {
     const item = candidates[next++];
@@ -43,7 +54,7 @@ async function worker() {
       const articleUrl = new URL(item.url);
       const articleHost = articleUrl.hostname.replace(/^www\./, '');
       if (articleUrl.protocol !== 'https:' || !expectedHosts.some(expectedHost => articleHost === expectedHost || articleHost.endsWith(`.${expectedHost}`) || expectedHost.endsWith(`.${articleHost}`))) throw new Error('原文链接不属于已登记的来源');
-      const extracted = item.contentParagraphs?.length ? { ...item, title: item.title, publishedAt: item.publishedAt, contentParagraphs: item.contentParagraphs } : extractArticle(await collectBrowserHtml(item.url), item);
+      const extracted = item.contentParagraphs?.length ? { ...item, title: item.title, publishedAt: item.publishedAt, contentParagraphs: item.contentParagraphs } : extractArticle(await loadArticleHtml(item.url), item);
       const discoveryDate = verifiedDiscoveryDate(item.discoveryPublishedAt);
       const detail = {
         ...extracted,

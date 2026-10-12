@@ -25,7 +25,7 @@ export function writeJson(file, data) {
   renameSync(temporary, path);
 }
 export async function fetchHtml(url) {
-  const response = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(20000) });
+  const response = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(30000) });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const bytes = new Uint8Array(await response.arrayBuffer());
   const header = response.headers.get('content-type') || '';

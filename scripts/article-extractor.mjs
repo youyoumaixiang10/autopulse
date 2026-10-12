@@ -11,7 +11,16 @@ const selectors = {
   'autohome-industry': '[class*="Article_Wrap_Box"], #articleContent, .article-content',
   'sina-auto': '.article-content',
   'ithome-auto': '.post_content',
-  'caijing-auto': '.article-content'
+  'caijing-auto': '.article-content',
+  'gasgoo-auto': '.contentDetailed, .article-content',
+  'pcauto-news': '.artText, .article-content, #content',
+  'sohu-auto': '#mp-editor, .text, article',
+  'netease-auto': '.post_body, #endText, .post_text',
+  'ifeng-auto': '.text-3w, .article-content, article',
+  'news18a-auto': '.news-content, .article-content, article',
+  'yiche-news': '.news-detail, .article-content, article',
+  'cailianpress-auto': '.detail-telegraph, .detail-content, article',
+  'dongchedi-news': 'article, .article-content'
 };
 
 export function extractArticle(html, candidate) {

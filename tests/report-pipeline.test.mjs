@@ -222,6 +222,18 @@ test('a short official social headline inherits a product tag from its verified 
   const story = buildReports([post], {}, now).reports['2026-09-09'].highlights[0];
   assert.deepEqual(story.tags, ['新车']);
 });
+test('lead bullets cite a verified fact and its source without adding claims', () => {
+  const article = record(1, {
+    sourceName: '新浪汽车',
+    title: '银河战舰700开启交付',
+    contentParagraphs: ['开场介绍。银河战舰700订单超过700台，并公布到店安排。']
+  });
+  const report = buildReports([article], {}, now).reports['2026-09-09'];
+  assert.equal(report.leadBullets.length, 1);
+  assert.match(report.leadBullets[0].text, /700/);
+  assert.equal(report.leadBullets[0].sourceName, '新浪汽车');
+  assert.match(report.brands['理想'][0].summary, /新浪汽车/);
+});
 test('source-record details keep enough verified source context to be useful on the detail page', () => {
   const article = record(1, { contentParagraphs: ['第一段包含已经发布的产品和活动信息。', '第二段说明具体日期、价格或适用范围。'] });
   const story = buildReports([article], {}, now).reports['2026-09-09'].brands['理想'][0];

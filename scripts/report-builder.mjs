@@ -5,7 +5,7 @@ import { chinaDate, cleanText } from './content-utils.mjs';
 const evidenceLabels = { official: '官方发布', government: '政府公告', media: '媒体报道' };
 const order = { government: 0, official: 1, media: 2 };
 const hash = value => createHash('sha256').update(value).digest('hex').slice(0, 16);
-const importantPattern = /上市|预售|发布会|官宣|降价|权益|交付|销量|合作|车展|召回|申报|价格|订单/u;
+const importantPattern = /上市|预售|发布会|官宣|降价|权益|交付|销量|合作|车展|召回|申报|价格|订单|续航|残值|换电|到店|开售|展出|亮相|首发/u;
 const explicitResponsePattern = /辟谣|澄清|(?:网传|事故|传闻|质疑|争议|投诉|首撞|维权|质量|攻防).{0,24}回应|回应.{0,24}(?:网传|事故|传闻|质疑|争议|投诉|首撞|维权|质量|攻防)/u;
 const titlePreamblePattern = /^(?:我们|日前|目前|根据(?:此前)?信息|据(?:悉|报道|了解)|报道称|消息称|官方发布|当地时间)/u;
 const titleSourcePattern = /(?:微博视频|公众号文章|官方微博|的微博)/u;
@@ -159,9 +159,22 @@ function displayTitle(article) {
   return contentTitle(article) || factualMediaHeadline(article.title);
 }
 function sourceSummary(article, evidenceLabel) {
-  const sourceText = usefulSourceParagraphs(article)[0] || '';
+  const sourceText = usefulSourceParagraphs(article).join(' ');
   const text = article.sourceType === 'official-social' ? socialPresentationText(sourceText || article.title) : sourceText || article.title;
-  return `${evidenceLabel}：${text.slice(0, 92)}${text.length > 92 ? '…' : ''}`;
+  const sentences = text.split(/[。！？!?]/u).map(cleanText).filter(sentence => sentence.length >= 8);
+  const picked = sentences.map((sentence, index) => ({
+    sentence,
+    score: (/\d/u.test(sentence) ? 3 : 0)
+      + (/(?:上市|发布|订单|续航|交付|万元|公里|换电|残值|到店|开售|展出|亮相)/u.test(sentence) ? 2 : 0)
+      - index * 0.1
+  })).sort((a, b) => b.score - a.score)[0]?.sentence || text;
+  const clipped = picked.length > 140 ? `${picked.slice(0, 140)}…` : picked;
+  return `${evidenceLabel}：${clipped}（${article.sourceName}）`;
+}
+function leadText(story) {
+  const body = String(story.summary || '').replace(/^[^：]{1,12}：/u, '').replace(/（[^（）]{1,24}）\s*$/u, '').trim();
+  const text = body && body !== story.title ? `${story.title}。${body}` : story.title;
+  return text.length > 180 ? `${text.slice(0, 180)}…` : text;
 }
 function isAutomaticallyImportant(article) {
   if (article.evidenceStatus === 'government') return true;
@@ -299,6 +312,16 @@ export function buildReports(articles, notes, now = new Date()) {
   for (const report of Object.values(reports)) {
     report.brands = Object.fromEntries(monitoringCoverage.map(({ brand }) => [brand, report.brands[brand]]).filter(([, items]) => items));
     for (const list of [report.highlights, report.otherBrands, report.industry, ...Object.values(report.brands)]) list.sort((a, b) => b.publishedTime.localeCompare(a.publishedTime));
+    const seen = new Set();
+    const ordered = [];
+    const push = story => { if (!story || seen.has(story.id)) return; seen.add(story.id); ordered.push(story); };
+    for (const story of report.highlights) push(story);
+    for (const { brand } of monitoringCoverage) for (const story of report.brands[brand] || []) push(story);
+    for (const story of report.industry) push(story);
+    for (const story of report.otherBrands) push(story);
+    report.leadBullets = ordered.slice(0, 16).map(story => ({
+      text: leadText(story), sourceName: story.sourceName, sourceUrl: story.sourceUrl, storyId: story.id, brands: story.brands
+    }));
   }
   return { reports: Object.fromEntries(Object.entries(reports).sort(([a], [b]) => b.localeCompare(a))), launches, reviewQueue };
 }

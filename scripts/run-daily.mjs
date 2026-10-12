@@ -42,6 +42,7 @@ try {
     if (result) {
       if (!result.publicLabel) {
         if (['failed', 'error', 'empty'].includes(result.status)) label = '读取异常';
+        else if (result.status === 'degraded') label = '公开时间线暂不可读 · 不阻断发布';
         else if (result.status === 'partial') label = `已读 ${count} 条 · 读取范围有限`;
         else if (result.status === 'no-recent-updates') label = `列表可读 · 最近发布 ${result.latestPublishedAt}`;
         else label = `已读 ${count} 条`;
@@ -52,7 +53,8 @@ try {
   const enrichment = readJson(new URL('enrichment-status.json', dir), {});
   const limited = sources.some(source => ['partial', 'pending', 'failed', 'error', 'empty'].includes(source.status));
   const openai = readJson(new URL('openai-search-candidates.json', dir), null);
-  // Optional layers (Weibo login wall, media fallback misses, OpenAI billing) stay warnings.
+  // Optional layers (Weibo visitor/cookie miss, media fallback misses, OpenAI billing) stay warnings.
+  // Weibo "degraded" is visible on the site and must not stop the daily publish.
   // The run fails only when a required step crashes or no official/government list was readable.
   const assessment = assessDailyRun({ failures, sourceResults, sources: sourceRegistry, openai });
   const completedAt = new Date().toISOString();

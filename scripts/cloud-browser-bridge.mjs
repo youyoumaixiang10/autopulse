@@ -22,7 +22,7 @@ async function openPage(url) {
   const page = await browser.newPage();
   const targetId = randomUUID();
   pages.set(targetId, page);
-  try { await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 15000 }); } catch { /* caller verifies readiness */ }
+  try { await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 }); } catch { /* caller verifies readiness */ }
   return targetId;
 }
 const server = createServer(async (request, response) => {
