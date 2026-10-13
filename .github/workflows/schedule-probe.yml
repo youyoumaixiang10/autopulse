@@ -1,0 +1,47 @@
+# Temporary probe to validate GitHub Actions schedule reliability.
+# Remove this workflow after the afternoon tests succeed.
+# Keep the morning production schedules in daily-report.yml
+# (08:17, 09:23, 10:17 Asia/Shanghai). Do not add these afternoon
+# crons to the production daily-report workflow.
+#
+# 临时探测：只验证 GitHub schedule 是否会触发。下午测试通过后删除本文件。
+# 早报生产档（daily-report.yml 的 08:17 / 09:23 / 10:17）保持不动。
+
+name: 定时探测
+
+on:
+  schedule:
+    # Asia/Shanghai. Minutes stay off :00 and :30 so these slots avoid the
+    # top-of-hour schedule pile-up. These crons exist only to prove a fire
+    # later on 2026-10-13; they do not collect or publish the daily report.
+    - cron: '17 13 * * *'
+      timezone: Asia/Shanghai
+    - cron: '23 14 * * *'
+      timezone: Asia/Shanghai
+    - cron: '17 15 * * *'
+      timezone: Asia/Shanghai
+    - cron: '23 16 * * *'
+      timezone: Asia/Shanghai
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 记录触发时间
+        run: |
+          echo "event=${{ github.event_name }}"
+          echo "utc=$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "shanghai=$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S %Z')"
+          {
+            echo "### Schedule probe"
+            echo
+            echo "- event: \`${{ github.event_name }}\`"
+            echo "- Shanghai: $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S %Z')"
+            echo "- UTC: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 0
