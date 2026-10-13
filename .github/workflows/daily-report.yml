@@ -6,11 +6,16 @@ on:
     paths:
       - '.github/workflows/daily-report.yml'
   schedule:
-    # GitHub Actions cron is UTC. Asia/Shanghai is UTC+8 (no DST).
-    # 00:00/01:00/02:00 UTC = 08:00/09:00/10:00 Asia/Shanghai.
-    # The first slot is 08:00 Shanghai. 09:00 and 10:00 retry transient
-    # source failures and GitHub schedule delays; the window stops at 10:00.
-    - cron: '0 0-2 * * *'
+    # timezone is Asia/Shanghai, so 8:17 means 08:17 in Shanghai, not UTC.
+    # Minutes stay off :00 and :30. GitHub docs say schedule load peaks at the
+    # start of every hour and jobs can be delayed or dropped.
+    # 09:23 and 10:17 are retries if an earlier slot is delayed or dropped.
+    - cron: '17 8 * * *'
+      timezone: Asia/Shanghai
+    - cron: '23 9 * * *'
+      timezone: Asia/Shanghai
+    - cron: '17 10 * * *'
+      timezone: Asia/Shanghai
   workflow_dispatch:
 
 permissions:
