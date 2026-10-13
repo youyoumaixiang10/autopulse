@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-10-13T02:26:42.243Z",
+  "completedAt": "2026-10-13T03:19:49.491Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -328,7 +328,7 @@
       "name": "懂车帝资讯",
       "brands": [],
       "status": "partial",
-      "label": "已读 45 条 · 读取范围有限"
+      "label": "已读 51 条 · 读取范围有限"
     },
     {
       "id": "sina-auto",
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 8 条待核验线索"
+      "label": "列表已读 7 条待核验线索"
     },
     {
       "id": "gasgoo-auto",

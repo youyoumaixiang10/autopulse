@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-13T02:18:58.483Z",
+  "collectedAt": "2026-10-13T03:10:24.065Z",
   "targetDates": [
     "2026-10-12",
     "2026-10-13"
@@ -2937,7 +2937,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "汽车监管再加严，车企高管扎堆发声！谁在实干，谁在趁乱作秀？",
+      "title": "汽车监管再加严，车企高管扎堆发声",
       "url": "https://auto.gasgoo.com/news/202610/13I70474591C109.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-10-13",
@@ -2992,7 +2992,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "华为乾崑国庆出行报告：一场关于“信任”的降维打击",
+      "title": "华为乾崑带来一场关于信任的降维打击",
       "url": "https://auto.gasgoo.com/news/202610/13I70474551C601.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-10-13",
@@ -3607,6 +3607,131 @@
       "discoveryPublishedAt": "2026-10-12",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "宝维塔工博会两大发布，柔性制造与车载电子测试同步提速",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474636C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "轻舟智航城市NOA亮相巴黎车展，已完成巴黎城区多场景路测",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474635C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "尊界发布最新检测说明：最高3000N加载试验未见裂纹和损坏",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474634C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "TK系列欧洲首秀 东风风行开启新能源出海新篇章",
+      "url": "https://auto.ifeng.com/c/8xBXE7i3U3Y",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "尊界V800公布制动踏板第三方检测结果：纵向力3000N后未出现裂纹和损坏",
+      "url": "https://auto.ifeng.com/c/8xBUjlMkjw3",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】2026巴黎车展极氪9X与2027款7X亮相",
+      "url": "https://auto.ifeng.com/c/8xBYAjWqICX",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】深蓝汽车公布9月销量数据 全新深蓝S05全球销量20232辆",
+      "url": "https://auto.ifeng.com/c/8xBYAjWqICV",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "smart精灵2号巴黎首秀",
+      "url": "https://auto.ifeng.com/c/8xBYCgwtzvR",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "尊界V800公布检测结果",
+      "url": "https://auto.ifeng.com/c/8xBXqw5LUZ4",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "捷途全新旅行者7将于10月15日上市、上汽大众ID.ERA 5X官宣11月上市|每日车讯",
+      "url": "https://auto.ifeng.com/c/8xBVoVvk1My",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "阿里千问升级个人 AI 助理，Personal Agent“千问 Go！”即将发布",
+      "url": "https://www.ithome.com/1/012/244.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行：问界 M6 累计交付突破 6 万台",
+      "url": "https://www.ithome.com/1/012/236.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -3646,9 +3771,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 8,
+      "candidateCount": 7,
       "status": "ok",
-      "publicLabel": "列表已读 8 条待核验线索"
+      "publicLabel": "列表已读 7 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
