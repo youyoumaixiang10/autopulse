@@ -6,9 +6,11 @@ on:
     paths:
       - '.github/workflows/daily-report.yml'
   schedule:
-    # 00:17/02:17 UTC = 08:17/10:17 Asia/Shanghai. The second run retries
-    # transient source and GitHub schedule delays without changing the issue window.
-    - cron: '17 0-3 * * *'
+    # GitHub Actions cron is UTC. Asia/Shanghai is UTC+8 (no DST).
+    # 00:00/01:00/02:00 UTC = 08:00/09:00/10:00 Asia/Shanghai.
+    # The first slot is 08:00 Shanghai. 09:00 and 10:00 retry transient
+    # source failures and GitHub schedule delays; the window stops at 10:00.
+    - cron: '0 0-2 * * *'
   workflow_dispatch:
 
 permissions:
