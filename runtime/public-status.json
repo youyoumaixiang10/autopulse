@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-10-12T06:14:12.649Z",
+  "completedAt": "2026-10-13T02:26:42.243Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -314,7 +314,7 @@
       "name": "汽车之家资讯",
       "brands": [],
       "status": "ok",
-      "label": "已读 32 条"
+      "label": "已读 43 条"
     },
     {
       "id": "autohome-industry",
@@ -328,14 +328,14 @@
       "name": "懂车帝资讯",
       "brands": [],
       "status": "partial",
-      "label": "已读 43 条 · 读取范围有限"
+      "label": "已读 45 条 · 读取范围有限"
     },
     {
       "id": "sina-auto",
       "name": "新浪汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 11 条待核验线索"
+      "label": "列表已读 14 条待核验线索"
     },
     {
       "id": "ifeng-auto",
@@ -363,14 +363,14 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 11 条待核验线索"
+      "label": "列表已读 8 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
       "name": "盖世汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 26 条待核验线索"
+      "label": "列表已读 25 条待核验线索"
     },
     {
       "id": "chezhitong-auto",
@@ -412,14 +412,14 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 27 条待核验线索"
+      "label": "列表已读 30 条待核验线索"
     },
     {
       "id": "netease-auto",
       "name": "网易汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 14 条待核验线索"
+      "label": "列表已读 17 条待核验线索"
     },
     {
       "id": "news18a-auto",
