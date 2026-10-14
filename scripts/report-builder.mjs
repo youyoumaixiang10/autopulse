@@ -568,6 +568,85 @@ export function isNewCarHighlight(story) {
   if (story?.evidenceStatus === 'government' && !isSpecificModelFiling(text) && !isSpecificModelSpy(text)) return false;
   return isStrictNewCar(text);
 }
+const vehicleEventClasses = new Set(['launch', 'presale', 'debut', 'filing']);
+const eventCues = [
+  ['recall', /召回/u],
+  ['response', /辟谣|澄清|回应/u],
+  ['filing', /申报|谍照/u],
+  ['presale', /预售/u],
+  ['launch', /上市/u],
+  ['debut', /发布会|首秀|首发|亮相|登场|官宣|宣布|发布/u],
+  ['delivery', /交付/u],
+  ['price', /降价|优惠|权益/u],
+  ['sales', /销量/u]
+];
+function classifyEventText(text) {
+  let best = null;
+  for (const [name, pattern] of eventCues) {
+    const match = pattern.exec(text || '');
+    if (match && (!best || match.index < best.index)) best = { name, index: match.index };
+  }
+  const name = best?.name || '';
+  if (name === 'debut' && /上市/u.test(text || '') && !/上市发布会|发布会定档|定档|即将上市|将于[^。]{0,16}上市/u.test(text || '')) return 'launch';
+  return name;
+}
+const modelPrefixTokens = ['吉利银河', '小鹏汽车', '理想汽车', '小米汽车', '方程豹', '阿维塔', '特斯拉', '比亚迪', '问界', '智界', '享界', '尊界', '尚界', '蔚来', '小米', '小鹏', '极氪', '腾势', '岚图', '深蓝', '零跑', '乐道', '启源', '仰望', '坦克', '红旗', '智己', '宝马', '奔驰', '大众', '林肯', '雪铁龙', '王朝网', '海洋网', '紧凑型', '插电式', '王朝', '海洋', '全新', '新款', '旗舰', '大型', '中型', '小型', '纯电', '插电', '增程', '轿车', '车型', '系列', '官方', '旗下', '正式', '官宣', '宣布', '网', '系'].sort((a, b) => b.length - a.length);
+const genericModelNames = new Set(['新车', '汽车', '该车', '此车', '轿车', '旗舰', '车型', '纯电', '上市', '发布', '预售', '品牌', '官方', '媒体', '用户', '市场', '价格', '售价', '配置', '全系', '车主', '首车', '交付', '权益', '补贴', '置换', '王朝', '海洋', '系列', '产品', '版本', '车系', '家族', '旗下', '全新', '新款', '正式', '官宣', '宣布', '亮相', '首发', '首秀', '登场', '申报', '谍照', '概念', '概念车', '官图', '车展', '外观', '内饰', '动力', '指导', '万元', '起售', '大型', '中型', '小型', '增程', '插混', '后驱', '四驱', '两驱', '即将', '今天', '今日', '日前', '近日', '本次', '此次', '一款', '这款', '该款', '实车', '发布会', '预售价', '指导价', '巴黎', '武汉', '北京', '上海', '广州', '深圳', '欧洲', '国际', '全球', '中国', '法国', '湖北', '重磅', '迎来', '完成', '开幕', '本地', '布局', '首批', '车型']);
+const modelAffixTokens = ['概念车', '官图', '车展', '首秀', '亮相', '发布', '上市', '开幕', '巴黎', '国际', '正式', '全球', '重磅', '迎来', '完成', '汽车', '今日', '日前', '近日', '今天', '即将'].sort((a, b) => b.length - a.length);
+function coreModelName(raw) {
+  let name = String(raw || '');
+  const prefixTails = new Set(modelPrefixTokens.filter(token => token.length >= 2).map(token => token.slice(-1)));
+  const affixes = [...modelPrefixTokens, ...modelAffixTokens].sort((a, b) => b.length - a.length);
+  for (let guard = 0; guard < 8; guard += 1) {
+    let next = name;
+    for (const token of affixes) {
+      if (next.startsWith(token) && next.length > token.length) { next = next.slice(token.length); break; }
+    }
+    for (const token of affixes) {
+      if (next.endsWith(token) && next.length > token.length) { next = next.slice(0, -token.length); break; }
+    }
+    if (next === name) break;
+    name = next;
+  }
+  if (name.length >= 3 && name.length <= 4 && prefixTails.has(name[0])) {
+    const suffix = name.slice(1);
+    if (suffix.length >= 2 && !genericModelNames.has(suffix)) name = suffix;
+  }
+  if (name.length === 4 && modelPrefixTokens.some(token => token.length === 3 && token.slice(1) === name.slice(0, 2))) {
+    const suffix = name.slice(2);
+    if (!genericModelNames.has(suffix)) name = suffix;
+  }
+  if (name.length < 2 || name.length > 4 || genericModelNames.has(name)) return '';
+  return name;
+}
+function namedChineseModels(text) {
+  const found = [];
+  const eventTail = '正式上市|官宣上市|宣布上市|开启预售|开启盲订|开启预订|正式亮相|首发亮相|谍照曝光|完成申报|申报图|正式发布|上市|预售|亮相|首发|首秀|登场|申报|谍照';
+  const power = 'EV|DM-i|DMi|DM-p|DMp|PHEV|REV';
+  const filler = '(?:汽车|今日|日前|近日|今天|正式|全新|旗舰|轿车|车型|重磅|迎来|完成|即将|全球|国际)*';
+  const re = new RegExp(`([\\u4e00-\\u9fff]{2,4})(?:\\s*(?:${power}))?${filler}(?:${eventTail})`, 'gu');
+  for (const match of cleanText(text).matchAll(re)) {
+    const name = coreModelName(match[1]);
+    if (name && !found.includes(name)) found.push(name);
+  }
+  return found;
+}
+function collectModelTokens(text) {
+  const source = cleanText(text);
+  const found = new Set();
+  const add = value => {
+    const token = String(value || '').toLowerCase().replace(/[\s-]+/gu, '');
+    if (token.length < 2 || /^\d+(?:kw|kwh|km|mm|kg|gb|mp)?$/iu.test(token)) return;
+    if (/^(?:suv|mpv|ev|ota|ads|usb|cltc|km|kw|kwh|mm)$/iu.test(token)) return;
+    found.add(token);
+  };
+  for (const match of source.matchAll(/(?:^|[^A-Za-z0-9])([A-Za-z]{1,12}[\s-]?[A-Za-z]?\d{1,4}[A-Za-z]{0,4})(?![A-Za-z0-9])/gu)) add(match[1]);
+  for (const match of source.matchAll(/(?:^|[^A-Za-z0-9])(\d{1,2}[A-Za-z]{1,4})(?![A-Za-z0-9])/gu)) add(match[1]);
+  for (const match of source.matchAll(/model\s*[3ysx]|roadster|cybercab/giu)) add(match[0]);
+  for (const match of source.matchAll(/银河战舰\s*\d{2,4}|梦想家\s*\d{1,2}/gu)) add(match[0]);
+  for (const name of namedChineseModels(source)) add(name);
+  return found;
+}
 function eventKey(article, note) {
   if (note.eventKey) return note.eventKey;
   const text = [article.title, ...(article.contentParagraphs || []).slice(0, 1)].join(' ');
@@ -597,6 +676,17 @@ function compareStoryPriority(a, b) {
   const timeA = a.article.publishedTime || a.article.publishedAt || '9999-99-99';
   const timeB = b.article.publishedTime || b.article.publishedAt || '9999-99-99';
   return timeA < timeB ? -1 : timeA > timeB ? 1 : 0;
+}
+function titleAnchorsVehicle(title) {
+  const text = cleanText(title);
+  if (!/上市|预售|盲订|亮相|首秀|首发|登场|官宣|申报|谍照/u.test(text)) return false;
+  return collectModelTokens(text).size > 0;
+}
+function pickPrimary(entries) {
+  const ranked = entries.slice().sort(compareStoryPriority);
+  const leadRank = order[ranked[0].article.evidenceStatus] ?? 9;
+  const anchored = ranked.filter(entry => (order[entry.article.evidenceStatus] ?? 9) === leadRank && titleAnchorsVehicle(entry.editorialTitle));
+  return anchored[0] || ranked[0];
 }
 function clusterTitle(text) {
   return cleanText(text).toLowerCase()
@@ -628,26 +718,7 @@ function titleDice(leftText, rightText) {
   return leftTotal + rightTotal ? (2 * overlap) / (leftTotal + rightTotal) : 0;
 }
 function storyEventClass(entry) {
-  const cues = [
-    ['recall', /召回/u],
-    ['response', /辟谣|澄清|回应/u],
-    ['filing', /申报|谍照/u],
-    ['presale', /预售/u],
-    ['launch', /上市/u],
-    ['debut', /发布会|首秀|首发|亮相|登场|官宣|宣布|发布/u],
-    ['delivery', /交付/u],
-    ['price', /降价|优惠|权益/u],
-    ['sales', /销量/u]
-  ];
-  const classifyText = text => {
-    let best = null;
-    for (const [name, pattern] of cues) {
-      const match = pattern.exec(text || '');
-      if (match && (!best || match.index < best.index)) best = { name, index: match.index };
-    }
-    return best?.name || '';
-  };
-  return classifyText(entry.editorialTitle) || classifyText(mediaPresentationTitle(entry.article.title));
+  return classifyEventText(entry.editorialTitle) || classifyEventText(mediaPresentationTitle(entry.article.title));
 }
 function storyModels(entry) {
   const source = cleanText(`${entry.article.title} ${entry.editorialTitle}`);
@@ -663,6 +734,16 @@ function storyModels(entry) {
   for (const match of source.matchAll(/model\s*[3ysx]|roadster|cybercab/giu)) add(match[0]);
   for (const match of source.matchAll(/银河战舰\s*\d{2,4}|梦想家\s*\d{1,2}/gu)) add(match[0]);
   return found;
+}
+function headlineChineseModels(entry) {
+  return namedChineseModels(cleanText(`${entry.editorialTitle} ${entry.article.title}`));
+}
+function sameFocusedVehicle(a, b, classA, classB) {
+  if (!vehicleEventClasses.has(classA) || classA !== classB) return false;
+  if (!a.brands.some(brand => b.brands.includes(brand))) return false;
+  const left = headlineChineseModels(a);
+  const right = headlineChineseModels(b);
+  return left.length === 1 && right.length === 1 && left[0] === right[0];
 }
 function storyNumbers(entry) {
   return new Set([...cleanText(`${entry.article.title} ${entry.editorialTitle}`).matchAll(/\d+(?:\.\d+)?/gu)].map(match => match[0]));
@@ -778,7 +859,11 @@ function samePublishedEvent(a, b) {
   const modelsA = storyModels(a);
   const modelsB = storyModels(b);
   const sharedModel = [...modelsA].some(model => modelsB.has(model));
+  const chineseA = headlineChineseModels(a);
+  const chineseB = headlineChineseModels(b);
+  if (a.brands.some(brand => b.brands.includes(brand)) && chineseA.length === 1 && chineseB.length === 1 && chineseA[0] !== chineseB[0]) return false;
   if (modelsA.size && modelsB.size && !sharedModel) return false;
+  if (sameFocusedVehicle(a, b, classA, classB)) return true;
   const { editorialSim, sourceSim } = titleSimilarity(a, b);
   const similarity = Math.max(editorialSim, sourceSim);
   if (sharedModel && classA && classB && similarity >= 0.35) return true;
@@ -961,7 +1046,7 @@ export function buildReports(articles, notes, now = new Date()) {
   for (const cluster of clusterGroups(groups)) {
     const group = cluster.entries.sort(compareStoryPriority);
     const key = cluster.keys.length === 1 ? cluster.keys[0] : cluster.keys.slice().sort().join('||');
-    const { article, note, issueDate, editorialTitle, brands } = group[0];
+    const { article, note, issueDate, editorialTitle, brands } = pickPrimary(group);
     const id = `story-${hash(key)}`;
     const mergeIndustryCopy = sameIndustryCluster(group);
     let tags = storyTags(article);
