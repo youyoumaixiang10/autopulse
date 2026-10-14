@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-14T06:16:23.592Z",
+  "collectedAt": "2026-10-14T07:45:27.017Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2562,6 +2562,18 @@
         "小米"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "纯电/增程双动力！年轻人的首款大五座SUV！小鹏MONA L05实拍！",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317765.html",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -2569,7 +2581,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 43
+      "count": 40
     },
     {
       "sourceId": "autohome-industry",
@@ -2580,7 +2592,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-14T06:16:07.980Z",
+      "collectedAt": "2026-10-14T07:45:11.105Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 55,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
