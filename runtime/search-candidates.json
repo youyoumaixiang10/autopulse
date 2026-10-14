@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-14T04:59:22.718Z",
+  "collectedAt": "2026-10-14T06:16:38.793Z",
   "targetDates": [
     "2026-10-13",
     "2026-10-14"
@@ -5349,6 +5349,122 @@
       "discoveryPublishedAt": "2026-10-14",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "中欧磋商达成共识，中汽协、奇瑞、宝马都表态了！",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474773C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "首次访华，宝马集团董事长聂科维关注了这些事",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474772C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "关于中欧电动汽车磋商共识，中汽协发布声明！",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474771C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "奇瑞：支持中欧贸易投资磋商机制取得积极成果",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474769C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】马来西亚一辆欧萌达5行驶中后桥脱落，奇瑞召回8878辆车并被暂停新车注册",
+      "url": "https://auto.ifeng.com/c/8xDR4KCxWcy",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】小鹏将面向全球开放智能汽车技术合作",
+      "url": "https://auto.ifeng.com/c/8xDPYowOSwr",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】小鹏在2026巴黎国际车展发布智能汽车解决方案业务XPENG AI ENGINEERING",
+      "url": "https://auto.ifeng.com/c/8xDQ5cWyJ5C",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】奇瑞集团发布声明支持中欧贸易投资磋商机制取得积极成果",
+      "url": "https://auto.ifeng.com/c/8xDO8bQqgEA",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "5米2的大汉，居然把自己开成了“小车”",
+      "url": "https://auto.ifeng.com/c/8xDPhI5RVme",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪：中欧贸易投资磋商为混动汽车贸易营造了稳定、可预期、可持续的合作环境",
+      "url": "https://www.ithome.com/1/012/821.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "中国汽车出口龙头厂商奇瑞：支持中欧贸易投资磋商机制取得积极成果",
+      "url": "https://www.ithome.com/1/012/811.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -5372,9 +5488,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 1,
+      "candidateCount": 0,
       "listRead": false,
-      "publicLabel": "公开检索发现 1 条待核验线索"
+      "publicLabel": "直连列表与公开检索均未匹配"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -5388,9 +5504,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 14,
+      "candidateCount": 13,
       "status": "ok",
-      "publicLabel": "列表已读 14 条待核验线索"
+      "publicLabel": "列表已读 13 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -5459,10 +5575,11 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

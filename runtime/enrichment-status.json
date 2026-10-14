@@ -1,27 +1,6 @@
 {
-  "completedAt": "2026-10-14T05:05:39.814Z",
-  "fetched": 248,
-  "cached": 717,
-  "failures": [
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304067.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304068.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304064.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304058.html",
-      "reason": "The operation was aborted due to timeout"
-    }
-  ]
+  "completedAt": "2026-10-14T06:24:45.165Z",
+  "fetched": 512,
+  "cached": 468,
+  "failures": []
 }
