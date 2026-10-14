@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-14T07:45:42.227Z",
+  "collectedAt": "2026-10-14T10:18:17.424Z",
   "targetDates": [
     "2026-10-13",
     "2026-10-14"
@@ -5237,7 +5237,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "11比亚迪大汉上市23.59万元起，标配云辇-A，最大纯电续航1008KM24.51w",
+      "title": "11比亚迪大汉上市23.59万元起，标配云辇-A，最大纯电续航1008KM39.9w",
       "url": "https://auto.news18a.com/news/storys_304647.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -5267,7 +5267,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "4没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道136.49w",
+      "title": "4没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道116.21w",
       "url": "https://auto.news18a.com/news/storys_303056.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -5690,6 +5690,519 @@
       "discoveryPublishedAt": "2026-10-14",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "四维图新中标北京“双智”城市4.0房山区路侧感知项目",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474801C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "科德宝成立全新汽车后市场业务集团",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474800C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "官宣落地曼彻斯特，小马智行欧洲扩张进入新节奏",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474799C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "何小鹏在巴黎汽车峰会分享XPENG AI ENGINEERING，小鹏开放智能汽车与物理AI合作",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474798C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "9月汽车经销商库存系数达1.68，环比同比双双走高",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474797C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "乘联分会：10月前11天乘用车零售45.9万辆，同比下降24%",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474796C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "上市近半年，极氪8X登顶30-50万混动SUV累计销量第一",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474788C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "关于中欧磋商共识，广汽集团发布声明",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474787C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "走进上汽乘用车&智己｜聚焦智能底盘前沿技术，共筑产业合作新生态",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474786C106.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "奇瑞与博世签署欧洲ADAS定点，将搭载6款新车型",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474784C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "禾赛正式发布Kosmo，15分钟完成100平方米真实空间三维重建",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474783C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "零跑的欧洲突围",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474781C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】小米汽车启动北方八省冬季服务关怀专项行动",
+      "url": "https://auto.ifeng.com/c/8xDikYaumRd",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "近7个月股价下跌超七成，岚图的资本市场叙事正在失去说服力",
+      "url": "https://auto.ifeng.com/c/8xDgi2zWfpE",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】华为智能汽车解决方案BU发布乾崑答网友问第17期 介绍鸿蒙座舱智慧场景及小艺智能体功能",
+      "url": "https://auto.ifeng.com/c/8xDh9A1S9L3",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】吉利汽车公布全新帝豪向上系列车型官图并宣布即将登场",
+      "url": "https://auto.ifeng.com/c/8xDh5FiXpCL",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "首站挪威荷兰，理想汽车发布欧洲战略",
+      "url": "https://auto.ifeng.com/c/8xDfr5FXcaT",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小米汽车启动北方八省冬季服务关怀专项行动",
+      "url": "https://auto.news18a.com/news/storys_304948.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "华为智能汽车解决方案BU发布乾崑答网友问第17期 介绍鸿蒙座舱智慧场景及小艺智能体功能",
+      "url": "https://www.news18a.com/news/storys_304944.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利汽车公布全新帝豪向上系列车型官图并宣布即将登场",
+      "url": "https://www.news18a.com/news/storys_304942.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长城汽车发布声明回应中欧贸易投资磋商第二次例会共识",
+      "url": "https://www.news18a.com/news/storys_304935.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "极氪8X登顶30-50万元混动SUV市场累计销量第一",
+      "url": "https://www.news18a.com/news/storys_304943.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "广汽集团发布关于支持中欧贸易投资磋商机制达成共识的声明",
+      "url": "https://auto.news18a.com/news/storys_304938.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "“走进上汽乘用车&智己——底盘专场技术展”将于10月20日举行",
+      "url": "https://www.news18a.com/news/storys_304937.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来firefly萤火虫aster紫菀2.1.0版本于10月14日开启推送",
+      "url": "https://www.news18a.com/news/storys_304933.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "BRABUS中国官方宣布全新smart精灵#2博速版即将亮相",
+      "url": "https://www.news18a.com/news/storys_304930.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "北汽星钽5X将于10月21日开启预售",
+      "url": "https://www.news18a.com/news/storys_304927.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "零跑汽车在2026巴黎车展发布海外销量数据及欧洲本地化制造计划",
+      "url": "https://auto.news18a.com/news/storys_304929.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉宣布Cybercab将在美国得州达拉斯投入运营",
+      "url": "https://www.news18a.com/news/storys_304922.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞汽车参展2026巴黎车展并发布欧盟地区首份可持续发展报告",
+      "url": "https://www.news18a.com/news/storys_304925.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Stellantis集团CEO在2026年巴黎车展期间否认出售玛莎拉蒂及拆分品牌计划",
+      "url": "https://www.news18a.com/news/storys_304918.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众安徽与众06和与众07激光雷达版将于10月17日上市",
+      "url": "https://www.news18a.com/news/storys_304916.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蒂森克虏伯汽车技术与联合动力签署线控转向战略合作谅解备忘录",
+      "url": "https://auto.news18a.com/news/storys_304924.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "利默里克大学利用水相工艺将木材工业副产品转化为碳纳米纤维用于钠离子电池",
+      "url": "https://www.news18a.com/news/storys_304919.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第二代海鸥将于10月20日上市",
+      "url": "https://www.news18a.com/news/storys_304913.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "MINI PAUL SMITH设计师款燃油版上市，限时礼遇价27.78万元起",
+      "url": "https://www.news18a.com/news/storys_304911.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "零跑汽车发布纯电车型A10s预告",
+      "url": "https://www.news18a.com/news/storys_304910.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "近7个月股价下跌超七成，岚图的资本市场叙事正在失去说服力",
+      "url": "https://auto.news18a.com/news/storys_304934.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉赛博无人驾驶电动车官宣打卡更多城市，覆盖深圳、宁波、成都等",
+      "url": "https://www.ithome.com/1/013/022.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米汽车推出北方八省冬季服务保障：含免费冬季专项检查、更换冬季胎免工时费等",
+      "url": "https://www.ithome.com/1/013/015.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长城汽车：传感器装得多，辅助驾驶系统不一定就好用，关键是要看得准",
+      "url": "https://www.ithome.com/1/012/996.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为详解鸿蒙座舱「智慧场景」：一套条件 + 动作的车载自动化规则，支持触发后执行系列操作",
+      "url": "https://www.ithome.com/1/012/979.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "吉利全新帝豪向上系列车型官图公布，即将登场",
+      "url": "https://www.ithome.com/1/012/975.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长城汽车：积极响应中欧汽车贸易磋商共识，将全力推动共识落地",
+      "url": "https://www.ithome.com/1/012/966.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "广汽集团：将以中欧混动汽车经贸磋商共识为契机，深耕欧洲市场",
+      "url": "https://www.ithome.com/1/012/959.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蔚来 firefly 萤火虫 aster 紫菀 2.1.0 开启推送：新增有麦 K 歌，升级 Lumo GPT 体验",
+      "url": "https://www.ithome.com/1/012/949.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "BRABUS 官宣全新 smart 精灵#2 博速版，依旧是经典红黑配色",
+      "url": "https://www.ithome.com/1/012/931.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "任天堂 Switch 2 可换电池版现身美国 FCC 认证数据库，有望全球推出",
+      "url": "https://www.ithome.com/1/012/927.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "行业首发：奇瑞与首钢联合研发 55% 再生钢零部件正式下线，可应用于覆盖件、结构件等全部关键部件",
+      "url": "https://www.ithome.com/1/012/923.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -5729,9 +6242,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 14,
+      "candidateCount": 16,
       "status": "ok",
-      "publicLabel": "列表已读 14 条待核验线索"
+      "publicLabel": "列表已读 16 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -5785,9 +6298,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 16,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 16 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -5800,11 +6313,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-14T07:45:27.017Z",
+  "collectedAt": "2026-10-14T10:18:08.993Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2574,6 +2574,30 @@
         "小鹏"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售21.99万起/最高续航达850公里 方程豹方程S GT开启交付",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317772.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "零跑又上新！专属镜夜黑车色 零跑A10s官图发布",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317770.html",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -2581,7 +2605,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 40
+      "count": 37
     },
     {
       "sourceId": "autohome-industry",
@@ -2592,7 +2616,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-14T07:45:11.105Z",
+      "collectedAt": "2026-10-14T10:17:52.951Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 55,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
