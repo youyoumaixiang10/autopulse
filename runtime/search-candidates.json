@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-10-13T03:10:24.065Z",
+  "collectedAt": "2026-10-14T00:11:57.132Z",
   "targetDates": [
-    "2026-10-12",
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-14"
   ],
   "candidates": [
     {
@@ -1568,7 +1568,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "阿维塔T09巴黎首秀内饰公开",
+      "title": "阿维塔T09概念车巴黎全球首秀 内饰首次亮相 年内上市",
       "url": "https://www.sohu.com/a/1086424238_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -1628,7 +1628,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "银河战舰700上市",
+      "title": "限时焕新价16.98‑35.98万元 吉利银河战舰700正式上市",
       "url": "https://www.sohu.com/a/1086117068_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -1818,7 +1818,7 @@
       "sourceId": "netease-auto",
       "sourceName": "网易汽车",
       "sourceType": "vertical-media",
-      "title": "千匹马力+三把锁/顶配能浮水 银河战舰700限时焕新价16",
+      "title": "千匹马力+三把锁/顶配能浮水 银河战舰700限时焕新价16.98万",
       "url": "https://www.163.com/auto/article/L8TN6DVP0008856R.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -3294,7 +3294,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "小鹏G9L亮相巴黎车展74990欧元起售",
+      "title": "法国起售价74990欧元 小鹏G9L亮相2026巴黎车展",
       "url": "https://www.sohu.com/a/1086861285_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -3354,7 +3354,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "上汽大众ID.ERA 8X上市",
+      "title": "ID.ERA 8X正式上市 搭载Momenta R7智驾方案",
       "url": "https://www.sohu.com/a/1086587171_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -3732,6 +3732,599 @@
       "discoveryPublishedAt": "2026-10-13",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "独家专访宝马M范梅尔：宝马M不追千匹，也不为圈速造车",
+      "url": "https://auto.sina.com.cn/news/2026-10-13/detail-inivawmy0562188.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "东风汽车与兵器工业集团签署战略合作协议",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474733C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "博世创新工场与米链共创达成战略合作，共建创投孵化平台",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474732C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "在25万元级，能买到D级旗舰了",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474685C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "千万王朝再向上，比亚迪大汉正式上市，售价23.59万～27.59万元",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474684C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "江特电机携关联方，3亿元增资维他动力",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474683C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "银河战舰700的入场，硬派越野市场话语权之争加剧？",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474682C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "“身体”已出厂，智能还在路上：人形机器人离“真干活”还有多远？",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474662C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "2026年1-8月比亚迪乘用车出口目的地TOP10：巴西超20万辆登顶，欧洲多国上榜丨盖世汽车研究院",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474675C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "问界M6累计交付突破60000台",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474673C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "2026年1-8月智能座舱供应商装机量排行榜：HUD迈入规模普及与价值升级新阶段丨盖世汽车研究院",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474668C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "FBH发明新型远紫外LED 能以创纪录速度传输数据",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474667C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "通用汽车申请车载系统专利 或许能助驾驶员缓解压力",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474665C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "NVIDIA发布Isaac ROS 5.0，将AI智能体引入机器人开发",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474481C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "大众汽车与日产探讨共同开发北美市场大型SUV",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474519C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "马自达计划对CX-60等四款大型产品群车型进行大规模改款",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474494C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "标致发布RCZ Vision概念车，展示全固态电池与线控技术",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474659C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "本田越南发布2026款本田City，计划于10月14日上市",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474599C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "上汽集团新能源“全明星阵容”亮相2026工博会",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474664C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "华东交通大学提出框架P-LLM 使大语言模型主导自动驾驶车队调度",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474660C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "巴黎车展前线观察1：改变、扎根 与 竞争",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474661C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "国际| 欧中车企在巴黎车展密集推出新品",
+      "url": "https://auto.gasgoo.com/news/202610/13I70474643C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "售38.98万起 智界V9连续4个月获40万以上MPV市场销量第一",
+      "url": "https://www.pcauto.com.cn/nation/5187/51878307.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "启境GX7交付首位名人车主 限时权益价22.99万起/阔五座SUV",
+      "url": "https://www.pcauto.com.cn/nation/5187/51878248.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "比亚迪大汉EV上市 售23.59万元起",
+      "url": "https://www.pcauto.com.cn/nation/5187/51878176.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "限时补贴价7.99万起 2027款长安启源Q05上市 纯电续航506km",
+      "url": "https://www.pcauto.com.cn/nation/5187/51877295.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "新款吉利帝豪向上系列官图 内外革新",
+      "url": "https://www.pcauto.com.cn/nation/5187/51877126.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "2026巴黎车展：吉利汽车集团首次亮相 多款全球车型欧洲首秀",
+      "url": "https://www.pcauto.com.cn/nation/5187/51876908.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "售53.99万元 别克世纪CENTURY LPGA限量版上市 限量66台",
+      "url": "https://www.pcauto.com.cn/nation/5187/51876695.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "售47.98万起 问界M9连续四个月获50万以上车型销量第一",
+      "url": "https://www.pcauto.com.cn/nation/5187/51876369.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "指导价23.59-27.59万元 比亚迪大汉EV正式上市",
+      "url": "https://www.sohu.com/a/1087193430_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "长安凯程V919荣耀版售8.89万元起 CLTC续航355km",
+      "url": "https://www.sohu.com/a/1087194403_120774496",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "TK5/TK7全球首秀 风行TK系列2026巴黎车展亮相",
+      "url": "https://www.sohu.com/a/1087064738_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "23.59万起，比亚迪大汉EV续航破千、全系后轮转向",
+      "url": "https://www.163.com/auto/article/L958PL5B0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "平台可以共享 设计不能趋同:Stellantis的六个新答案",
+      "url": "https://www.163.com/auto/article/L94PGBDS0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "长安凯程V919荣耀版8方正式上市，限时权益价8.89万元起",
+      "url": "https://www.163.com/auto/article/L94LBNC60008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "续航破1000km/196项全系标配 比亚迪大汉上市售价23.59万元起",
+      "url": "https://auto.ifeng.com/c/8xCMFCO7bEU",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "吉利汽车集团首次亮相巴黎车展",
+      "url": "https://auto.ifeng.com/c/8xBzA1Bb1xG",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "东风商用车全新绿智平台全球发布，共启多能源智慧物流新引擎",
+      "url": "https://auto.ifeng.com/c/8xByABpMzx7",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "领克汽车发布车辆泸州坠崖事故：乘员舱完整，电池未冒烟起火",
+      "url": "https://auto.ifeng.com/c/8xBndAbL0mm",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "昨晚，比亚迪上了一款平平无奇的车，电池厂的老总，要口吐芬芳了",
+      "url": "https://auto.ifeng.com/c/8xD13cE1AnR",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】雪铁龙在巴黎车展发布基于2CV打造的纯电动Fourgonnette厢式货车概念车",
+      "url": "https://auto.ifeng.com/c/8xD0UihPk0Q",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】自动驾驶公司Applied Intuition收到多份投资邀约，估值最少300亿美元",
+      "url": "https://auto.ifeng.com/c/8xCOF3Bf8oF",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "从奥地利开到巴黎，小鹏G9L这次不只是去卖车",
+      "url": "https://auto.ifeng.com/c/8xCLHTemaBg",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "上海发布：到2030年小客车电动化率超过40%",
+      "url": "https://auto.ifeng.com/c/8xCTXkmX1gC",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1014：华为公布麒麟 9050 Pro 详细架构图；苹果智能家庭中枢 HomeView 发布；尊界 V800 制动脚踏第三方检测报告公布；23.59 万元起比亚迪大汉上市...",
+      "url": "https://www.ithome.com/1/012/642.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "基于经典国民车 2CV 打造，雪铁龙电动化“复活”厢式货车 Fourgonnette",
+      "url": "https://www.ithome.com/1/012/636.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长安凯程 V919 荣耀版 8 方上市：限时 8.89 万元起，标配宁德时代电芯 CLTC 续航 355km",
+      "url": "https://www.ithome.com/1/012/597.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "首发入库 XGP 仍热销，《战争机器：事变日》游戏登顶美国、英国 XBOX 商店销量榜",
+      "url": "https://www.ithome.com/1/012/595.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "美国 NASA“毅力号”火星车累计行驶里程达 45.2 公里，成地外天体表面行驶距离最远的车辆",
+      "url": "https://www.ithome.com/1/012/591.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉称中国造电动汽车进口配额耗尽：暂停加拿大 Model 3 Premium 新订单，预计 2027 年 3 月恢复",
+      "url": "https://www.ithome.com/1/012/590.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "Steam 新一周游戏销量榜公布：《AION 2》继续领跑全球榜首",
+      "url": "https://www.ithome.com/1/012/580.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "23.59 万元起：比亚迪大汉正式上市，标配后轮转向、前排双零重力座椅等",
+      "url": "https://www.ithome.com/1/012/561.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "美国快充需求 Q3 同比增长 26%，特斯拉超级充电站已涨价",
+      "url": "https://www.ithome.com/1/012/560.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上海：到 2030 年小客车电动化率超过 40%",
+      "url": "https://www.ithome.com/1/012/557.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "阶跃终端首款大模型原生智能体手机 STEPX Neo 先行版发布：骁龙 8 系芯片，全栈价 3999 元起",
+      "url": "https://www.ithome.com/1/012/556.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -3739,9 +4332,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 14,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 14 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -3771,17 +4364,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 7,
+      "candidateCount": 11,
       "status": "ok",
-      "publicLabel": "列表已读 7 条待核验线索"
+      "publicLabel": "列表已读 11 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 25,
+      "candidateCount": 21,
       "status": "ok",
-      "publicLabel": "列表已读 25 条待核验线索"
+      "publicLabel": "列表已读 21 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -3827,17 +4420,17 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 30,
+      "candidateCount": 18,
       "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "publicLabel": "列表已读 18 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 17,
+      "candidateCount": 20,
       "status": "ok",
-      "publicLabel": "列表已读 17 条待核验线索"
+      "publicLabel": "列表已读 20 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",

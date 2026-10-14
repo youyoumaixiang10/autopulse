@@ -5064,6 +5064,7 @@
     "url": "https://www.pcauto.com.cn/nation/862/8620151.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -5145,6 +5146,7 @@
     "url": "https://www.pcauto.com.cn/nation/3839/38392735.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -5154,6 +5156,7 @@
     "url": "https://www.pcauto.com.cn/nation/5184/51843769.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -5225,7 +5228,7 @@
     ]
   },
   {
-    "title": "阿维塔T09巴黎首秀内饰公开",
+    "title": "阿维塔T09概念车巴黎全球首秀 内饰首次亮相 年内上市",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1086424238_430526",
     "reasons": [
@@ -5285,7 +5288,7 @@
     ]
   },
   {
-    "title": "银河战舰700上市",
+    "title": "限时焕新价16.98‑35.98万元 吉利银河战舰700正式上市",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1086117068_430526",
     "reasons": [
@@ -5976,7 +5979,7 @@
     ]
   },
   {
-    "title": "小鹏G9L亮相巴黎车展74990欧元起售",
+    "title": "法国起售价74990欧元 小鹏G9L亮相2026巴黎车展",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1086861285_430526",
     "reasons": [
@@ -6036,7 +6039,7 @@
     ]
   },
   {
-    "title": "上汽大众ID.ERA 8X上市",
+    "title": "ID.ERA 8X正式上市 搭载Momenta R7智驾方案",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1086587171_430526",
     "reasons": [
@@ -6128,6 +6131,186 @@
       "缺少原文发布日期",
       "正文尚未读取成功",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "比亚迪大汉EV上市",
+    "sourceName": "懂车帝公开首页",
+    "url": "https://www.dongchedi.com/article/7695701396196639294",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "问界M6 OTA深度实测",
+    "sourceName": "懂车帝公开首页",
+    "url": "https://www.dongchedi.com/video/7696000271872623129",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "开着蔚来ET5T全程智驾",
+    "sourceName": "懂车帝公开首页",
+    "url": "https://www.dongchedi.com/video/7695746958023000638",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "吉利银河A7-混动家用轿车",
+    "sourceName": "懂车帝公开首页",
+    "url": "https://www.dongchedi.com/video/7696014368399966782",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "小鹏G9L的空间表现",
+    "sourceName": "懂车帝公开首页",
+    "url": "https://www.dongchedi.com/video/7696013374814978622",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "小鹏P7+黑武士版",
+    "sourceName": "懂车帝公开首页",
+    "url": "https://www.dongchedi.com/video/7696005937190011454",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "小鹏GX到底香不香？",
+    "sourceName": "懂车帝公开首页",
+    "url": "https://www.dongchedi.com/video/7696002006841999897",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "售38.98万起 智界V9连续4个月获40万以上MPV市场销量第一",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5187/51878307.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "启境GX7交付首位名人车主 限时权益价22.99万起/阔五座SUV",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5187/51878248.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "比亚迪大汉EV上市 售23.59万元起",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5187/51878176.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "限时补贴价7.99万起 2027款长安启源Q05上市 纯电续航506km",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5187/51877295.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "新款吉利帝豪向上系列官图 内外革新",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5187/51877126.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "2026巴黎车展：吉利汽车集团首次亮相 多款全球车型欧洲首秀",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5187/51876908.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "指导价23.59-27.59万元 比亚迪大汉EV正式上市",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1087193430_430526",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "售53.99万元 别克世纪CENTURY LPGA限量版上市 限量66台",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5187/51876695.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "长安凯程V919荣耀版售8.89万元起 CLTC续航355km",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1087194403_120774496",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "售47.98万起 问界M9连续四个月获50万以上车型销量第一",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5187/51876369.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "TK5/TK7全球首秀 风行TK系列2026巴黎车展亮相",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1087064738_430526",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "IT早报 1014：华为公布麒麟 9050 Pro 详细架构图；苹果智能家庭中枢 HomeView 发布；尊界 V800 制动脚踏第三方检测报告公布；23.59 万元起比亚迪大汉上市...",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/012/642.htm",
+    "reasons": [
+      "频道问候或无具体车型事件的周期汇总"
     ]
   },
   {
