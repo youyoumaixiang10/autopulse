@@ -1,46 +1,31 @@
 {
-  "completedAt": "2026-10-14T00:27:11.641Z",
-  "fetched": 613,
-  "cached": 247,
+  "completedAt": "2026-10-14T02:57:19.958Z",
+  "fetched": 220,
+  "cached": 685,
   "failures": [
     {
-      "sourceId": "autohome-news",
-      "url": "https://www.autohome.com.cn/news/202609/1317209.html",
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304046.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
-      "sourceId": "autohome-news",
-      "url": "https://www.autohome.com.cn/news/202609/1317242.html",
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304045.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
-      "sourceId": "autohome-news",
-      "url": "https://www.autohome.com.cn/news/202610/1317713.html",
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304044.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
-      "sourceId": "yiche-news",
-      "url": "https://news.yiche.com/hao/wenzhang/111473215/",
-      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304041.html",
+      "reason": "The operation was aborted due to timeout"
     },
     {
-      "sourceId": "yiche-news",
-      "url": "https://news.yiche.com/hao/wenzhang/112854249/",
-      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
-    },
-    {
-      "sourceId": "yiche-news",
-      "url": "https://news.yiche.com/hao/wenzhang/113062371/",
-      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
-    },
-    {
-      "sourceId": "yiche-news",
-      "url": "https://www.yiche.com/",
-      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
-    },
-    {
-      "sourceId": "yiche-news",
-      "url": "https://www.yiche.com/?lang=zh",
+      "sourceId": "netease-auto",
+      "url": "https://163.com/dy/article/IGATSK4F05455BAL.html",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
     }
   ]

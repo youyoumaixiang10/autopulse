@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-14T00:11:42.928Z",
+  "collectedAt": "2026-10-14T02:49:41.915Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2528,6 +2528,18 @@
         "小鹏"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "车身尺寸升级 配备激光雷达 全新比亚迪海鸥将于10月20日正式上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317752.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -2546,7 +2558,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-14T00:11:27.148Z",
+      "collectedAt": "2026-10-14T02:49:25.882Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 55,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
