@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-14T02:49:41.915Z",
+  "collectedAt": "2026-10-14T04:59:14.621Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2540,6 +2540,28 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026巴黎车展：Alpine A310 VISION概念车正式亮相！致敬经典！",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317756.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小米YU7 GT“赛道专业套装”将于2026年内开放预售",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317754.html",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -2547,7 +2569,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 47
+      "count": 45
     },
     {
       "sourceId": "autohome-industry",
@@ -2558,7 +2580,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-14T02:49:25.882Z",
+      "collectedAt": "2026-10-14T04:58:58.900Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 55,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
