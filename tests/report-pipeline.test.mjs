@@ -418,7 +418,7 @@ test('cross-outlet Chinese model launches on the same day collapse to one highli
   const launches = report.brands['比亚迪'].filter(story => /大汉/.test(story.title) && /上市/.test(story.title));
   assert.equal(launches.length, 1);
   assert.equal(report.highlights.filter(story => /大汉/.test(story.title) && /上市/.test(story.title)).length, 1);
-  assert.equal(launches[0].sourceName, '盖世汽车');
+  assert.equal(launches[0].sourceName, '汽车之家资讯');
   assert.equal(launches[0].sourceLinks.length, 4);
   assert.ok(launches[0].sourceLinks.some(link => link.name === '凤凰网汽车'));
   assert.ok(launches[0].sourceLinks.some(link => link.name === '网易汽车'));
@@ -427,6 +427,101 @@ test('cross-outlet Chinese model launches on the same day collapse to one highli
   assert.equal(report.brands['比亚迪'].some(story => /大唐正式上市/.test(story.title)), true);
   assert.equal(report.brands['比亚迪'].some(story => /大汉/.test(story.title) && /预售/.test(story.title)), true);
   assert.equal(report.brands['比亚迪'].some(story => /谍照/.test(story.title)), true);
+});
+test('same-day show openings merge across outlets and a model debut at the show stays separate', () => {
+  const autohome = record(1, {
+    title: '按下入欧加速键！在巴黎车展坐“主桌”？',
+    sourceName: '汽车之家资讯',
+    brands: [],
+    sourceType: 'vertical-media',
+    contentParagraphs: ['2026巴黎车展已经于10月12日正式开幕，虽然咱们中国品牌参加海外车展已经不算是新鲜事，包括比亚迪、奇瑞等多个品牌纷纷参展。']
+  });
+  const gasgoo = record(2, {
+    title: '2026巴黎国际车展正式开幕',
+    sourceName: '盖世汽车',
+    brands: [],
+    sourceType: 'vertical-media',
+    contentParagraphs: ['近日，2026巴黎国际车展正式开幕。']
+  });
+  const exposition = record(3, {
+    title: '2026巴黎国际汽车展览会开幕',
+    sourceName: 'IT之家',
+    brands: [],
+    sourceType: 'vertical-media',
+    contentParagraphs: ['当地时间10月12日，2026巴黎国际汽车展览会开幕。']
+  });
+  const dongfeng = record(4, {
+    title: '东风风行携三款新车亮相2026巴黎车展',
+    sourceName: '盖世汽车',
+    brands: [],
+    sourceType: 'vertical-media',
+    contentParagraphs: ['盖世汽车获悉 2026年10月12日至18日，东风风行携TK7、TK5及V9露营版三款车型，亮相2026巴黎车展。']
+  });
+  const g9l = record(5, {
+    title: '小鹏G9L巴黎车展上市，法国售价74990欧元起',
+    sourceName: '盖世汽车',
+    brands: ['小鹏'],
+    sourceType: 'vertical-media',
+    contentParagraphs: ['盖世汽车获悉，近日，2026巴黎国际车展正式开幕。小鹏集团旗下旗舰SUV小鹏G9L正式面向全球上市，法国市场起售价74990欧元。']
+  });
+  const report = buildReports([autohome, gasgoo, exposition, dongfeng, g9l], {}, now).reports['2026-09-09'];
+  const cards = [...new Map([...report.highlights, ...report.industry, ...report.otherBrands, ...Object.values(report.brands).flat()].map(story => [story.id, story])).values()];
+  const openings = cards.filter(story => /巴黎/.test(story.title) && /开幕/.test(story.title) && !/亮相|上市/.test(story.title));
+  assert.equal(openings.length, 1);
+  assert.equal(openings[0].sourceLinks.length, 3);
+  assert.ok(openings[0].sourceLinks.some(link => link.name === '汽车之家资讯'));
+  assert.ok(openings[0].sourceLinks.some(link => link.name === '盖世汽车'));
+  assert.equal(report.otherBrands.find(story => /东风风行/.test(story.title)).title, '东风风行携三款新车亮相2026巴黎车展');
+  const launch = cards.find(story => /G9L/.test(story.title));
+  assert.ok(launch);
+  assert.match(launch.title, /上市/);
+  assert.equal(showsOpeningTitle(launch.title), false);
+  assert.equal(launch.sourceLinks.some(link => link.url === autohome.url), false);
+});
+function showsOpeningTitle(title) {
+  return /^(?:20\d{2})?巴黎(?:国际)?(?:汽车展览会|车展)(?:已经于\d{1,2}月\d{1,2}日)?正式?开幕$/u.test(String(title).replace(/\s+/gu, ''));
+}
+test('venue stubs and speech verbs without an object are rewritten into event sentences', () => {
+  const cooperation = record(1, {
+    title: '2026 巴黎车展期间',
+    sourceName: 'IT之家',
+    brands: ['小鹏'],
+    sourceType: 'vertical-media',
+    contentParagraphs: ['IT之家 10 月 14 日消息，据第一财经报道，2026 巴黎车展期间，小鹏集团董事长何小鹏宣布，公司将面向全球开放智能汽车技术合作，涵盖整车平台、模块化技术与全套工具链三大核心板块。']
+  });
+  const gasgoo = record(2, {
+    title: '小鹏发布智能汽车解决方案业务，面向全球合作伙伴开放合作',
+    sourceName: '盖世汽车',
+    brands: ['小鹏'],
+    sourceType: 'vertical-media',
+    contentParagraphs: ['盖世汽车讯 10月13日，2026年巴黎国际车展期间，小鹏集团董事长兼CEO何小鹏发表重要演讲。何小鹏正式介绍智能汽车解决方案，小鹏将面向全球合作伙伴开放智能汽车技术合作。']
+  });
+  const plant = record(3, {
+    title: '比亚迪执行副总裁李柯在 2026 巴黎车展上披露',
+    sourceName: 'IT之家',
+    brands: ['比亚迪'],
+    sourceType: 'vertical-media',
+    contentParagraphs: ['IT之家 10 月 14 日消息，据第一财经，比亚迪执行副总裁李柯在 2026 巴黎车展上披露，比亚迪将在欧洲大规模投资制造，比亚迪匈牙利工厂计划在今年第四季度启动大规模生产。']
+  });
+  const report = buildReports([cooperation, gasgoo, plant], {}, now).reports['2026-09-09'];
+  const xpeng = report.brands['小鹏'];
+  assert.equal(xpeng.length, 1);
+  assert.equal(xpeng[0].sourceLinks.length, 2);
+  assert.match(xpeng[0].title, /何小鹏|小鹏/);
+  assert.match(xpeng[0].title, /宣布|开放/);
+  assert.match(xpeng[0].title, /合作/);
+  assert.equal(/期间$/u.test(xpeng[0].title.replace(/\s+/gu, '')), false);
+  assert.equal(titleQualityIssues(xpeng[0].title).length, 0);
+  const byd = report.brands['比亚迪'][0];
+  assert.match(byd.title, /比亚迪|李柯/);
+  assert.match(byd.title, /匈牙利|欧洲/);
+  assert.match(byd.title, /生产|制造|投资/);
+  assert.equal(/(?:披露|车展上|期间)$/u.test(byd.title.replace(/\s+/gu, '')), false);
+  assert.equal(titleQualityIssues(byd.title).length, 0);
+  assert.ok(titleQualityIssues('2026 巴黎车展期间').includes('标题不是完整事件'));
+  assert.ok(titleQualityIssues('比亚迪执行副总裁李柯在2026巴黎车展上披露').includes('标题不是完整事件'));
+  assert.deepEqual(titleQualityIssues('何小鹏宣布面向全球开放智能汽车技术合作'), []);
+  assert.deepEqual(titleQualityIssues('极氪在摩纳哥游艇展上发布了其欧洲市场迄今最重要的车型极氪9X'), []);
 });
 test('different events and sibling models stay on separate cards', () => {
   const debut = record(1, {
