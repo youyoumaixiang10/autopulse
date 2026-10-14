@@ -357,6 +357,77 @@ test('the same model announcement from different outlets is one highlight and on
   assert.equal(report.highlights[0].sourceLinks.length, 2);
   assert.ok(report.highlights[0].sourceLinks.some(link => link.name === 'IT之家' && link.url !== report.highlights[0].sourceUrl));
 });
+test('cross-outlet Chinese model launches on the same day collapse to one highlight', () => {
+  const gasgoo = record(1, {
+    title: '在25万元级，能买到D级旗舰了',
+    sourceName: '盖世汽车',
+    brands: ['比亚迪'],
+    sourceType: 'vertical-media',
+    publishedTime: '2026-09-09',
+    contentParagraphs: ['10月13日晚，比亚迪王朝网9系旗舰轿车大汉正式上市，售价23.59万—27.59万元，较预售价下调约1.4万元。叠加置换补贴后，购车门槛还可进一步降低。']
+  });
+  const ifeng = record(2, {
+    title: '续航破1000km/196项全系标配 比亚迪大汉上市售价23.59万元起',
+    sourceName: '凤凰网汽车',
+    brands: ['比亚迪'],
+    sourceType: 'vertical-media',
+    publishedTime: '2026-09-09',
+    contentParagraphs: ['凤凰网汽车讯 10月13日，比亚迪王朝全新旗舰轿车大汉官宣上市，新车定位大型纯电轿车，凭借1008km超长纯电续航。']
+  });
+  const netease = record(3, {
+    title: '23.59万起，比亚迪大汉EV续航破千、全系后轮转向',
+    sourceName: '网易汽车',
+    brands: ['比亚迪'],
+    sourceType: 'vertical-media',
+    publishedTime: '2026-09-09',
+    contentParagraphs: ['网易汽车10月13日报道 比亚迪王朝网全新旗舰轿车大汉EV正式上市，新车共3款车型，官方指导价为23.59-27.59万元。']
+  });
+  const autohome = record(4, {
+    title: '售23.59万起 比亚迪大汉EV上市 入门车型续航1008km',
+    sourceName: '汽车之家资讯',
+    brands: ['比亚迪'],
+    sourceType: 'vertical-media',
+    publishedTime: '2026-09-09',
+    contentParagraphs: ['10月13日，比亚迪大汉EV正式上市，新车共计推出3款车型，售价23.59-27.59万元，比亚迪用户享1万元置换补贴，它品享6000元置换补贴，发布会现场还完成了首车交付。']
+  });
+  const tang = record(5, {
+    title: '比亚迪大唐正式上市',
+    sourceName: '懂车帝',
+    brands: ['比亚迪'],
+    sourceType: 'vertical-media',
+    publishedTime: '2026-09-09',
+    contentParagraphs: ['比亚迪大唐正式上市，售价18.99万元起。']
+  });
+  const presale = record(6, {
+    title: '比亚迪大汉开启预售',
+    sourceName: '易车',
+    brands: ['比亚迪'],
+    sourceType: 'vertical-media',
+    publishedTime: '2026-09-08',
+    contentParagraphs: ['比亚迪大汉正式开启预售，预售价24.99万元起。']
+  });
+  const spy = record(7, {
+    title: '比亚迪大汉谍照曝光',
+    sourceName: '太平洋汽车',
+    brands: ['比亚迪'],
+    sourceType: 'vertical-media',
+    publishedTime: '2026-09-09',
+    contentParagraphs: ['一组比亚迪大汉谍照曝光，车头灯组已更换。']
+  });
+  const report = buildReports([autohome, netease, ifeng, gasgoo, tang, presale, spy], {}, now).reports['2026-09-09'];
+  const launches = report.brands['比亚迪'].filter(story => /大汉/.test(story.title) && /上市/.test(story.title));
+  assert.equal(launches.length, 1);
+  assert.equal(report.highlights.filter(story => /大汉/.test(story.title) && /上市/.test(story.title)).length, 1);
+  assert.equal(launches[0].sourceName, '盖世汽车');
+  assert.equal(launches[0].sourceLinks.length, 4);
+  assert.ok(launches[0].sourceLinks.some(link => link.name === '凤凰网汽车'));
+  assert.ok(launches[0].sourceLinks.some(link => link.name === '网易汽车'));
+  assert.ok(launches[0].sourceLinks.some(link => link.name === '汽车之家资讯'));
+  assert.ok(launches[0].tags.includes('新车'));
+  assert.equal(report.brands['比亚迪'].some(story => /大唐正式上市/.test(story.title)), true);
+  assert.equal(report.brands['比亚迪'].some(story => /大汉/.test(story.title) && /预售/.test(story.title)), true);
+  assert.equal(report.brands['比亚迪'].some(story => /谍照/.test(story.title)), true);
+});
 test('different events and sibling models stay on separate cards', () => {
   const debut = record(1, {
     title: '小鹏汽车官宣MONA L05即将登场',
