@@ -1071,3 +1071,143 @@ test('site serves public reports but never serves raw collection files or projec
     assert.equal((await fetch(base + '/runtime/generated-reports.json')).status, 200);
   } finally { await new Promise(resolve => server.close(resolve)); }
 });
+test('column credits, opinion openers, wire stubs and bylines do not become highlight copy', () => {
+  assert.ok(titleQualityIssues('汽势Auto-First丨刘天鸣').includes('标题是栏目或作者署名'));
+  assert.ok(titleQualityIssues('中经实习记者 徐倩 记者 石英婧 上海报道').includes('标题是栏目或作者署名'));
+  assert.ok(titleQualityIssues('最近一段时间看比亚迪的新车发布会').includes('标题是评论口吻'));
+  assert.ok(titleQualityIssues('不知道大家感觉到没有').includes('标题是评论口吻'));
+  assert.ok(titleQualityIssues('记者从知情人士处获悉').includes('标题保留电头'));
+  assert.ok(titleQualityIssues('记者从知情人士处获悉').includes('标题不是完整事件') || titleQualityIssues('记者从知情人士处获悉').includes('标题保留电头'));
+  assert.deepEqual(titleQualityIssues('零跑汽车计划于9月16日技术发布会发布世界模型智驾'), []);
+  const issueNow = new Date('2026-10-15T12:00:00+08:00');
+  const column = record(16, {
+    title: '真9系真有戏？比亚迪大汉卡位25万元级丨汽势新车',
+    brands: ['比亚迪'],
+    sourceName: '凤凰网汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-14',
+    publishedTime: '2026-10-14T11:07:42+08:00',
+    contentParagraphs: [
+      '汽势Auto-First丨刘天鸣',
+      '“大汉就是要让消费者用34C的预算，享受远超56E甚至78S的旗舰体验。”比亚迪王朝网销售事业部总经理路天说“价格低了一个级别，体验却更进一步”。',
+      '10月13日上市的比亚迪大汉，共推出三款车型，售价区间23.59万—27.59万元。'
+    ]
+  });
+  const opinion = record(18, {
+    title: '昨晚，比亚迪上了一款平平无奇的车，电池厂的老总，要口吐芬芳了',
+    brands: ['比亚迪'],
+    sourceName: '凤凰网汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-14',
+    publishedTime: '2026-10-14T08:00:00+08:00',
+    contentParagraphs: [
+      '不知道大家感觉到没有，最近一段时间看比亚迪的新车发布会，真的是没有多少东西能让人眼前一亮。',
+      '10月13日晚，比亚迪大汉终于上市了，售价23.59万、24.99万和27.59万元。'
+    ]
+  });
+  const stub = record(19, {
+    title: '零跑汽车技术日将发超五项最新技术，世界模型智驾有望覆盖ABCD全 …',
+    url: 'https://finance.sina.com.cn/jjxw/2026-09-10/doc-inirihny3012822.shtml',
+    brands: ['零跑'],
+    sourceName: '新浪汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-14',
+    publishedTime: '2026-10-14 23:23:37',
+    contentParagraphs: [
+      '记者从知情人士处获悉，零跑汽车计划于9月16日的技术发布会上发布达到“全行业第一梯队”世界模型智驾、新移动空间架构及三电领域等超5项最新技术。'
+    ]
+  });
+  const byline = record(20, {
+    title: '特斯拉Cybercab在得州投入网约车运营',
+    url: 'https://finance.sina.com.cn/jjxw/2026-09-10/doc-inirhvxe3138978.shtml',
+    brands: ['特斯拉'],
+    sourceName: '新浪汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-14',
+    publishedTime: '2026-10-14 23:23:37',
+    contentParagraphs: [
+      '中经实习记者 徐倩 记者 石英婧 上海报道',
+      '无人驾驶，也无方向盘，每公里运营只需0.84元人民币，特斯拉Cybercab正式投入商业运营迅速引发了关注。',
+      '当地时间2026年9月3日，特斯拉在美国得克萨斯州奥斯汀举办发布会，宣布无方向盘、无踏板的Cybercab正式投入商业运营。'
+    ]
+  });
+  const sameDay = record(21, {
+    title: '全新比亚迪海鸥将于10月20日正式上市',
+    brands: ['比亚迪'],
+    sourceName: '凤凰网汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-14',
+    publishedTime: '2026-10-14T18:00:00+08:00',
+    contentParagraphs: ['全新比亚迪海鸥将于10月20日正式上市，售价待公布。']
+  });
+  const olderLaunch = record(22, {
+    title: '小鹏MONA L05于10月2日上市',
+    brands: ['小鹏'],
+    sourceName: '凤凰网汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-14',
+    publishedTime: '2026-10-14T20:00:00+08:00',
+    contentParagraphs: ['小鹏MONA L05于10月2日上市，售价12.99万元起。']
+  });
+  const recall = record(23, {
+    title: '理想召回L6，调查仍在进行',
+    url: 'https://finance.sina.com.cn/jjxw/2026-09-03/doc-recall.shtml',
+    brands: ['理想'],
+    sourceName: '新浪汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-14',
+    publishedTime: '2026-10-14T16:00:00+08:00',
+    contentParagraphs: ['理想汽车因后桥脱落风险召回8878辆L6，事故调查仍在进行。']
+  });
+  const built = buildReports([column, opinion, stub, byline, sameDay, olderLaunch, recall], {}, issueNow);
+  const report = built.reports['2026-10-15'];
+  const stories = [...report.highlights, ...(report.otherBrands || []), ...report.industry, ...Object.values(report.brands).flat()];
+  const touches = url => stories.find(story => story.sourceUrl === url || story.sourceLinks.some(link => link.url === url));
+  const highlighted = url => report.highlights.some(story => story.sourceUrl === url || story.sourceLinks.some(link => link.url === url));
+  const columnStory = touches(column.url);
+  assert.ok(columnStory);
+  assert.match(columnStory.title, /大汉|比亚迪/);
+  assert.match(columnStory.title, /上市|售价|万元|推出/);
+  assert.doesNotMatch(`${columnStory.title} ${columnStory.summary}`, /汽势|刘天鸣/);
+  assert.equal(titleQualityIssues(columnStory.title).length, 0);
+  assert.equal(highlighted(column.url), false);
+  const opinionStory = touches(opinion.url);
+  assert.ok(opinionStory);
+  assert.doesNotMatch(`${opinionStory.title} ${opinionStory.summary}`, /不知道大家感觉到没有|最近一段时间看比亚迪/);
+  assert.match(opinionStory.title, /大汉|比亚迪/);
+  assert.match(opinionStory.title, /上市/);
+  assert.equal(highlighted(opinion.url), false);
+  const stubStory = touches(stub.url);
+  assert.ok(stubStory);
+  assert.match(stubStory.title, /零跑/);
+  assert.match(stubStory.title, /技术|世界模型|发布/);
+  assert.doesNotMatch(stubStory.title, /记者从知情人士|获悉$/);
+  assert.equal(titleQualityIssues(stubStory.title).length, 0);
+  assert.equal(highlighted(stub.url), false);
+  const bylineStory = touches(byline.url);
+  assert.ok(bylineStory);
+  assert.match(bylineStory.title, /Cybercab|特斯拉/);
+  assert.match(bylineStory.summary, /发布会|Cybercab|0\.84|运营/);
+  assert.doesNotMatch(bylineStory.summary, /中经实习记者|上海报道/);
+  assert.equal(highlighted(byline.url), false);
+  assert.equal(highlighted(sameDay.url), true);
+  assert.equal(highlighted(recall.url), true);
+  const titles = report.highlights.map(story => story.title);
+  assert.ok(titles.findIndex(title => /海鸥/.test(title)) < titles.findIndex(title => /MONA L05/.test(title)));
+  const freshNow = new Date('2026-09-17T12:00:00+08:00');
+  const currentStub = record(24, {
+    title: '记者从知情人士处获悉',
+    brands: ['零跑'],
+    sourceName: '新浪汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-09-16',
+    publishedTime: '2026-09-16 10:00:00',
+    contentParagraphs: ['记者从知情人士处获悉，零跑汽车计划于9月16日的技术发布会上发布世界模型智驾等超5项最新技术。']
+  });
+  const currentReport = buildReports([currentStub], {}, freshNow).reports['2026-09-17'];
+  const current = currentReport.brands['零跑'][0];
+  assert.match(current.title, /零跑/);
+  assert.match(current.title, /技术|世界模型|发布/);
+  assert.doesNotMatch(current.title, /^记者从知情人士处获悉$/);
+  assert.equal(currentReport.highlights.some(story => story.id === current.id), true);
+});
