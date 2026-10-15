@@ -1,67 +1,127 @@
 {
-  "completedAt": "2026-10-15T06:14:36.287Z",
-  "fetched": 289,
-  "cached": 886,
+  "completedAt": "2026-10-15T07:56:49.229Z",
+  "fetched": 904,
+  "cached": 293,
   "failures": [
     {
-      "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_299728.html",
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317047.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317012.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202609/1317223.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
-      "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_299126.html",
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202610/1317726.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
-      "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_297309.html",
-      "reason": "The operation was aborted due to timeout"
+      "sourceId": "ifeng-auto",
+      "url": "https://auto.ifeng.com/c/8qI4AFeSCJd",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
     },
     {
-      "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_303737.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_300972.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_300885.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "netease-auto",
-      "url": "https://163.com/dy/article/IGATSK4F05455BAL.html",
+      "sourceId": "ifeng-auto",
+      "url": "https://auto.ifeng.com/c/8x3euroMruG",
       "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_304884.html",
+      "url": "https://www.news18a.com/news/storys_304067.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_304868.html",
+      "url": "https://www.news18a.com/news/storys_304068.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_305174.html",
+      "url": "https://www.news18a.com/news/storys_304064.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_305204.html",
+      "url": "https://www.news18a.com/news/storys_304058.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "yiche-news",
+      "url": "https://www.yiche.com/?lang=zh",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://auto.news18a.com/news/storys_304051.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_305198.html",
+      "url": "https://www.news18a.com/news/storys_304881.html",
       "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304877.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304875.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304874.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304876.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304872.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://auto.news18a.com/news/storys_304647.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304942.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304935.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304943.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304937.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304930.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
     }
   ]
 }

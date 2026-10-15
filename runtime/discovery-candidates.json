@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-15T06:00:35.103Z",
+  "collectedAt": "2026-10-15T07:33:29.527Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2646,6 +2646,33 @@
         "启源"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "宝马第六代动力电池下线 官宣全新i3完成1213公里不充电续航实测",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317783.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "银河战舰700上市",
+      "url": "https://www.dongchedi.com/article/7695016193732543038",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -2653,7 +2680,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 0
+      "count": 30
     },
     {
       "sourceId": "autohome-industry",
@@ -2664,7 +2691,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-15T05:59:38.768Z",
+      "collectedAt": "2026-10-15T07:33:13.814Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 39,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
