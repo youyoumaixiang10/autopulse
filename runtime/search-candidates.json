@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-15T04:45:13.273Z",
+  "collectedAt": "2026-10-15T06:00:53.805Z",
   "targetDates": [
     "2026-10-14",
     "2026-10-15"
@@ -2498,7 +2498,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "5别克全新君越限时权益价14.99万元起，搭载豆包AI大模型124.62w",
+      "title": "6别克全新君越限时权益价14.99万元起，搭载豆包AI大模型121.02w",
       "url": "https://auto.news18a.com/news/storys_303737.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -2508,7 +2508,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "4哈弗大狗HEV混动版上市 限时换新价10.59万元起126.8w",
+      "title": "8哈弗大狗HEV混动版上市 限时换新价10.59万元起110.06w",
       "url": "https://auto.news18a.com/news/storys_300972.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -5267,7 +5267,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "3没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道132w",
+      "title": "7没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道113.41w",
       "url": "https://auto.news18a.com/news/storys_303056.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -6876,7 +6876,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "尊界销售回答六大疑问",
+      "title": "尊界销售回答六大疑问 全系都可登记",
       "url": "https://www.sohu.com/a/1087788401_742622",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -7413,6 +7413,126 @@
       "publishedAt": null,
       "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-14 2026-10-15",
       "verificationStatus": "media-discovery"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "续航最高430km!27款长城欧拉好猫上市:6.98万起",
+      "url": "https://www.sohu.com/a/1087734495_258768",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】阿维塔06车型于10月15日焕新上市，限时权益价20.59万元起",
+      "url": "https://auto.ifeng.com/c/8xEzsuAH4JR",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】宁德时代注册“宁的易购”商标",
+      "url": "https://auto.ifeng.com/c/8xF0HLjC6l1",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "1213公里不充电！新世代宝马i3打破纯电汽车续航历史纪录",
+      "url": "https://auto.ifeng.com/c/8xF4NVTrNsP",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "阿维塔06车型于10月15日焕新上市，限时权益价20.59万元起",
+      "url": "https://auto.news18a.com/news/storys_305208.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宁德时代注册“宁的易购”商标",
+      "url": "https://www.news18a.com/news/storys_305204.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马新世代i3完成“千里马”无充电续航挑战 单次充电行驶1213km",
+      "url": "https://www.news18a.com/news/storys_305198.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "全新比亚迪海鸥内饰实拍图曝光 取消仪表盘",
+      "url": "https://auto.news18a.com/news/storys_305193.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "青山工业首次亮相第91届巴黎国际车展 展出蓝鲸智慧电驱平台及五款产品",
+      "url": "https://www.news18a.com/news/storys_305187.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "标致在2026年巴黎车展发布RCZ Vision纯电概念车",
+      "url": "https://auto.news18a.com/news/storys_305178.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "零跑A10s官图发布",
+      "url": "https://www.news18a.com/news/storys_305189.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "伊士曼将于2026年glasstec展会展示建筑及汽车玻璃用PVB中间膜产品",
+      "url": "https://auto.news18a.com/news/storys_305182.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
     }
   ],
   "sourceResults": [
@@ -7452,9 +7572,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 8,
+      "candidateCount": 6,
       "status": "ok",
-      "publicLabel": "列表已读 8 条待核验线索"
+      "publicLabel": "列表已读 6 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -7508,9 +7628,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 8,
+      "candidateCount": 3,
       "status": "ok",
-      "publicLabel": "列表已读 8 条待核验线索"
+      "publicLabel": "列表已读 3 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
