@@ -1,8 +1,13 @@
 {
-  "completedAt": "2026-10-14T10:30:24.529Z",
-  "fetched": 290,
-  "cached": 754,
+  "completedAt": "2026-10-15T00:23:51.771Z",
+  "fetched": 846,
+  "cached": 247,
   "failures": [
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202610/1317660.html",
+      "reason": "The operation was aborted due to timeout"
+    },
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/news/storys_304071.html",
@@ -14,38 +19,38 @@
       "reason": "The operation was aborted due to timeout"
     },
     {
+      "sourceId": "netease-auto",
+      "url": "https://163.com/dy/article/IGATSK4F05455BAL.html",
+      "reason": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_304864.html",
+      "url": "https://www.news18a.com/news/storys_304960.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_304850.html",
+      "url": "https://www.news18a.com/news/storys_304955.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_304647.html",
+      "url": "https://www.news18a.com/news/storys_304953.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_303602.html",
+      "url": "https://www.news18a.com/news/storys_304951.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_300971.html",
+      "url": "https://www.news18a.com/news/storys_304950.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_303056.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_304948.html",
+      "url": "https://www.news18a.com/news/storys_304959.html",
       "reason": "The operation was aborted due to timeout"
     }
   ]
