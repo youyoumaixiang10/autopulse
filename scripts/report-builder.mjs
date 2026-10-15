@@ -10,12 +10,48 @@ const explicitResponsePattern = /辟谣|澄清|(?:网传|事故|传闻|质疑|�
 const titlePreamblePattern = /^(?:我们|日前|目前|根据(?:此前)?信息|据(?:悉|报道|了解)|报道称|消息称|官方发布|当地时间|报道(?:\s|[，,：:]))/u;
 const titleSourcePattern = /(?:微博视频|公众号文章|官方微博|的微博)/u;
 const channelTeaserPattern = /IT早报|大家好[，,\s]*现在是|今天的重要科技资讯|^本期内容我们将为大家带来|咱们明天见/u;
-const wireTitlePattern = /^(?:[\u4e00-\u9fffA-Za-z]{0,12})?从(?:官方|相关渠道)(?:获悉|了解到|获取)/u;
+const wireTitlePattern = /^(?:[\u4e00-\u9fffA-Za-z]{0,16})?(?:记者)?从(?:官方|相关渠道|知情人士处?|多方渠道|业内人士处?)(?:获悉|了解到|获取)/u;
 export function isTeaserText(text) {
   const value = cleanText(text);
   if (!value) return false;
   if (channelTeaserPattern.test(value)) return true;
   return /^(?:[“"「『])?(?:[\u4e00-\u9fffA-Za-z]{2,10})?从(?:官方|相关渠道)(?:获悉|了解到|获取了?(?:一组)?)[。！？!?]?$/u.test(value);
+}
+function bareLine(text) {
+  return cleanText(text).replace(/[。！？!?\s]+$/gu, '');
+}
+function isColumnMasthead(text) {
+  const value = bareLine(text);
+  if (!value || value.length > 28) return false;
+  if (/^(?:汽势(?:Auto-First|新车|独家|评车)?|每日车讯|车圈时评|时评)$/u.test(value)) return true;
+  if (!/[丨|｜]/u.test(value) || /上市|发布|宣布|推出|召回|交付|亮相|曝光|官宣|预售|申报/u.test(value)) return false;
+  return /^[^\s，。；;：:?？!！]{2,24}\s*[丨|｜]\s*[\u4e00-\u9fff]{2,4}$/u.test(value);
+}
+function isBylineOnly(text) {
+  const value = bareLine(text);
+  if (!value || value.length > 40) return false;
+  if (/上市|发布|宣布|推出|召回|交付|亮相|曝光|官宣|预售|申报|销量|价格|万元/u.test(value)) return false;
+  if (/^[（(][^）)]{0,24}记者[^）)]{0,12}[）)]$/u.test(value)) return true;
+  if (/^(?:文|编译|编辑|作者|撰文)\s*[\/|｜:：]\s*[\u4e00-\u9fffA-Za-z·]{2,16}$/u.test(value)) return true;
+  if (/记者/u.test(value) && /(?:报道|摄)$/u.test(value)) return true;
+  return /^(?:[\u4e00-\u9fff]{0,8}\s*)?(?:实习记者|记者)\s*[\u4e00-\u9fff]{2,4}(?:\s*(?:实习记者|记者)\s*[\u4e00-\u9fff]{2,4})+$/u.test(value);
+}
+function isAttributionStub(text) {
+  const value = bareLine(text).replace(/\s+/gu, '');
+  if (!value || value.length > 24) return false;
+  return /^(?:[\u4e00-\u9fffA-Za-z]{0,16})?(?:记者)?从(?:官方|相关渠道|知情人士处?|多方渠道|业内人士处?)(?:获悉|了解到|获取了?(?:一组)?)(?:称|消息)?$/u.test(value)
+    || /^(?:据悉|消息称|报道称|据报道|据了解|据知情人士(?:透露|称|消息)?)$/u.test(value);
+}
+function isOpinionLead(text) {
+  const value = cleanText(text);
+  if (!value) return false;
+  if (/^(?:不知道大家|大家(?:有没有|觉得|感觉)|最近一段时间|说实话|说真的|不得不说|我觉得|笔者认为|在我看来|有一说一|你发现没有|不知道你们)/u.test(value)) return true;
+  return /感觉到没有|口吐芬芳|平平无奇|眼前一亮/u.test(value.slice(0, 28));
+}
+function isOpinionSentence(sentence) {
+  if (isOpinionLead(sentence)) return true;
+  const clauses = cleanText(sentence).split(/[，,]/u).slice(0, 2);
+  return clauses.some(clause => isOpinionLead(clause));
 }
 export function titleQualityIssues(title) {
   const value = cleanText(title);
@@ -25,7 +61,9 @@ export function titleQualityIssues(title) {
   if (titlePreamblePattern.test(value)) issues.push('标题使用原文叙述口吻');
   if (titleSourcePattern.test(value)) issues.push('标题包含来源或载体');
   if (channelTeaserPattern.test(value)) issues.push('标题是频道问候或栏目导语');
-  if (wireTitlePattern.test(value)) issues.push('标题保留电头');
+  if (isColumnMasthead(value) || isBylineOnly(value)) issues.push('标题是栏目或作者署名');
+  if (isOpinionLead(value) || isOpinionSentence(value)) issues.push('标题是评论口吻');
+  if (wireTitlePattern.test(value) || isAttributionStub(value)) issues.push('标题保留电头');
   if (isIncompleteEventTitle(value)) issues.push('标题不是完整事件');
   return issues;
 }
@@ -73,13 +111,20 @@ function mediaPresentationTitle(title) {
     .trim();
 }
 function factualMediaHeadline(title) {
-  const cleaned = mediaPresentationTitle(title)
+  const presented = mediaPresentationTitle(title);
+  let cleaned = presented
     .replace(/^(?:终于要来了|经典两座回归)[？?!！]?\s*/u, '')
     .replace(/^天生跑车基因\s*一文看懂\s*/u, '')
     .replace(/\b最新(?=谍照|申报图)/gu, '')
     .replace(/[！!]+/gu, ' ')
     .replace(/\s{2,}/gu, ' ')
+    .replace(/(?:\s*[|｜丨]\s*(?:每日车讯|汽势(?:新车|Auto-First|独家)?|时评))+\s*$/u, '')
     .trim();
+  if (/[…]+$/u.test(presented)) {
+    cleaned = cleaned.replace(/\s*[…]+$/u, '').trim();
+    const clause = cleaned.split(/[，,]/u).map(cleanText).find(item => item.length >= 8 && item.length <= 42 && !/(?:全|及|与|和|的|将|对|为|把)$/u.test(item));
+    if (clause) cleaned = clause;
+  }
   if (cleaned.length <= 42) return cleaned;
   const clauses = cleaned.split(/[？?。；;]/u).map(cleanText).filter(Boolean);
   const factual = clauses
@@ -178,13 +223,73 @@ function staleHook(text, issueDate) {
   const issue = Number(issueDate.slice(0, 4)) * 12 + Number(issueDate.slice(5, 7));
   return months.every(month => Math.abs(month - issue) >= 2);
 }
+function isoDay(year, month, day) {
+  if (month < 1 || month > 12 || day < 1 || day > 31) return '';
+  const utc = new Date(Date.UTC(year, month - 1, day));
+  if (utc.getUTCFullYear() !== year || utc.getUTCMonth() !== month - 1 || utc.getUTCDate() !== day) return '';
+  return utc.toISOString().slice(0, 10);
+}
+function daysBefore(day, issueDate) {
+  const left = Date.parse(`${day}T00:00:00Z`);
+  const right = Date.parse(`${issueDate}T00:00:00Z`);
+  if (!Number.isFinite(left) || !Number.isFinite(right)) return 0;
+  return Math.round((right - left) / 86400000);
+}
+function concreteEventDays(text, issueDate) {
+  if (!/^\d{4}-\d{2}-\d{2}$/u.test(issueDate || '')) return [];
+  const issueYear = Number(issueDate.slice(0, 4));
+  const issueMonth = Number(issueDate.slice(5, 7));
+  const found = new Set();
+  const add = (year, month, day) => {
+    const iso = isoDay(year, month, day);
+    if (iso) found.add(iso);
+  };
+  for (const match of String(text || '').matchAll(/(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日/gu)) add(Number(match[1]), Number(match[2]), Number(match[3]));
+  for (const match of String(text || '').matchAll(/(?<![\d年])(\d{1,2})\s*月\s*(\d{1,2})\s*日/gu)) {
+    const month = Number(match[1]);
+    const year = month > issueMonth + 1 ? issueYear - 1 : issueYear;
+    add(year, month, Number(match[2]));
+  }
+  return [...found];
+}
+function publishedDayFromUrl(url) {
+  const match = String(url || '').match(/\/(20\d{2})-(\d{2})-(\d{2})(?:\/|$)/u);
+  return match ? isoDay(Number(match[1]), Number(match[2]), Number(match[3])) : '';
+}
+function stillBreaking(text) {
+  return /召回|辟谣|澄清|事故(?:调查|回应|进展)?|正在调查/u.test(text || '');
+}
+function storyIsStale(article, title, summary, issueDate) {
+  const blob = `${title}\n${summary}\n${(article?.contentParagraphs || []).slice(0, 4).join('\n')}`;
+  if (stillBreaking(blob)) return false;
+  if (staleHook(`${title} ${summary}`, issueDate)) return true;
+  const days = concreteEventDays(blob, issueDate);
+  if (days.some(day => daysBefore(day, issueDate) <= 14)) return false;
+  const urlDay = publishedDayFromUrl(article?.url);
+  if (urlDay && daysBefore(urlDay, issueDate) > 14) return true;
+  return days.length > 0 && days.every(day => daysBefore(day, issueDate) > 14);
+}
+function highlightAgeRank(story) {
+  const days = concreteEventDays(`${story?.title || ''} ${story?.summary || ''}`, story?.issueDate);
+  if (!days.length) return 0;
+  const newest = days.slice().sort().at(-1);
+  return daysBefore(newest, story.issueDate) > 1 ? 1 : 0;
+}
+function isCommentaryArticle(article) {
+  const head = cleanText(article?.title || '');
+  if (isOpinionLead(head) || isOpinionSentence(head) || isColumnMasthead(head)) return true;
+  const first = usefulSourceParagraphs(article)[0] || '';
+  const sentence = first.split(/[。！？!?]/u).map(cleanText).find(item => item.length >= 4) || '';
+  return isColumnMasthead(sentence) || isOpinionLead(sentence) || isOpinionSentence(sentence);
+}
 function polishSentence(sentence) {
   return cleanText(sentence)
     .replace(/^媒体报道[：:]\s*/u, '')
     .replace(/^(?:IT之家|快科技|观点网(?:讯)?|财联社|网通社|新浪汽车|凤凰网汽车|汽车之家|懂车帝|易车网|盖世汽车|盖世具身智能|网易汽车|车质网)\s*(?:\d{1,2}月\d{1,2}日)?(?:消息|电|讯|报道|获悉)?[，,:：\s]*/u, '')
-    .replace(/^(?:20\d{2}年)?\s*\d{1,2}\s*月\s*\d{1,2}\s*日(?:\s*(?:消息|电|讯|报道))?[，,:：\s]*/u, '')
+    .replace(/^(?:20\d{2}年)?\s*\d{1,2}\s*月\s*\d{1,2}\s*日(?:\s*(?:消息|电|讯|报道))?[，,:：\s]+/u, '')
+    .replace(/^(?:20\d{2}年)?\s*\d{1,2}\s*月\s*\d{1,2}\s*日\s*(?:消息|电|讯|报道)/u, '')
     .replace(/^【[^】]{1,80}】(?:财联社)?\s*\d{1,2}月\d{1,2}日电[，,:：\s]*/u, '')
-    .replace(/^财联社记者从知情人士处获悉[，,:：\s]*/u, '')
+    .replace(/^(?:[\u4e00-\u9fffA-Za-z]{0,16})?(?:记者)?从(?:官方|相关渠道|知情人士处?|多方渠道|业内人士处?)(?:获悉|了解到|获取了?(?:一组)?)[，,:：\s]*/u, '')
     .replace(/^(?:日前|目前|近日|今日)[，,\s]*/u, '')
     .replace(/^据[\u4e00-\u9fffA-Za-z]{1,16}(?:报道|消息|讯)[，,:：\s]*/u, '')
     .replace(/^(?:我们|[\u4e00-\u9fffA-Za-z]{2,8})?从(?:官方|相关渠道)(?:获悉|了解到|获取了?(?:一组)?)[，,：:\s]*/u, '')
@@ -194,6 +299,8 @@ function polishSentence(sentence) {
     .replace(/的?最新谍照$/u, '谍照曝光')
     .replace(/(?<!曝)谍照$/u, '谍照曝光')
     .replace(/终于(?:正式)?官宣了?/u, '官宣')
+    .replace(/终于上市了?/gu, '上市')
+    .replace(/\s*[（(][^）)]{0,20}记者\s*[\u4e00-\u9fff]{1,4}\s*[）)]\s*$/u, '')
     .replace(/将会在当地时间/u, '将于')
     .replace(/全新\s+Roadster\s*跑车/u, '全新Roadster')
     .replace(/(\d)\s*月\s*(\d)\s*日/u, '$1月$2日')
@@ -230,7 +337,7 @@ function isGenericDigestTitle(title) {
     && !/[A-Za-z]{1,8}\s*\d/u.test(value);
 }
 function isBareQuote(sentence) {
-  return /^[“"「『]/u.test(cleanText(sentence));
+  return /^[“"「『”"」』]/u.test(cleanText(sentence));
 }
 function isAttributionOnly(sentence) {
   if (isTeaserText(sentence)) return true;
@@ -294,6 +401,33 @@ function candidateRank(clause) {
   if (showsOpeningOnly(value)) return 8;
   return titleSpecificity(value);
 }
+function isBlockedLead(sentence) {
+  return isTeaserText(sentence) || isAttributionOnly(sentence) || isBareQuote(sentence)
+    || isColumnMasthead(sentence) || isBylineOnly(sentence) || isOpinionSentence(sentence) || isAttributionStub(sentence);
+}
+function clipNewsClause(clause) {
+  const raw = cleanText(clause);
+  const stripped = raw.replace(/[“"「『][^”"」』]{0,24}[”"」』]/gu, '');
+  const parts = stripped.split(/[、，,]/u).map(cleanText).filter(Boolean);
+  const candidates = [];
+  const push = value => {
+    const title = cleanText(value);
+    if (title && !candidates.includes(title)) candidates.push(title);
+  };
+  push(raw);
+  push(stripped);
+  let acc = '';
+  for (const part of parts) {
+    if (!acc && /^(?:当地时间)?(?:20\d{2}年)?\d{1,2}月\d{1,2}日(?:晚|晨|上午|下午|夜里)?$/u.test(compactTitle(part))) continue;
+    const next = acc ? `${acc}，${part}` : part;
+    if (next.length > 42) break;
+    acc = next;
+    push(acc);
+  }
+  return candidates
+    .filter(item => item.length >= 8 && item.length <= 42 && !isBlockedLead(item) && !isIncompleteEventTitle(item) && !weakTitle(item) && (factCue.test(item) || hasConcretePredicate(item)) && namesNewsSubject(item))
+    .sort((a, b) => titleSpecificity(b) - titleSpecificity(a) || b.length - a.length)[0] || '';
+}
 function composeEventTitle(sentence) {
   const clauses = String(sentence || '').split(/[，；;：:]/u).map(cleanText).filter(Boolean);
   const candidates = [];
@@ -303,6 +437,7 @@ function composeEventTitle(sentence) {
   };
   for (let index = 0; index < clauses.length; index += 1) {
     const clause = clauses[index];
+    if (isBlockedLead(clause)) continue;
     if (isVenueClause(clause) || isSpeechStub(clause) || candidateRank(clause) === 0) {
       if (!isSpeechStub(clause)) continue;
       const objects = clauses.slice(index + 1).filter(item => !isVenueClause(item) && !isSpeechStub(item) && candidateRank(item) > 0);
@@ -319,7 +454,7 @@ function composeEventTitle(sentence) {
       add(fitEventTitle(subject, verb, news));
       continue;
     }
-    add(clause);
+    add(clipNewsClause(clause) || clause);
   }
   return candidates
     .filter(item => item.length >= 8 && item.length <= 42 && !isIncompleteEventTitle(item) && !isVenueClause(item) && !weakTitle(item))
@@ -341,15 +476,19 @@ function usablePolishedTitle(sentence) {
   if (accept(compact) && !leadingVenue(compact) && !danglingLead(compact) && !/^(?:但是|但|然而)/u.test(compact)) return compact;
   const composed = composeEventTitle(title);
   if (accept(composed || '')) return composed;
+  const clipped = clipNewsClause(title);
+  if (accept(clipped)) return clipped;
   const parts = title.split(/[，；;：:]/u).map(cleanText).flatMap(part => {
     if (/^(?:但是|但|然而|不过|此外|同时)/u.test(part)) return [];
     if (/^(?:旨在|双方|该|此|这|其|将(?!于)|过去)/u.test(part) && !namesNewsSubject(part)) return [];
     if (/数据显示|获悉|消息称|报道称/u.test(part) && !/\d/u.test(part)) return [];
-    if (isVenueClause(part) || isSpeechStub(part) || isIncompleteEventTitle(part)) return [];
+    if (isVenueClause(part) || isSpeechStub(part) || isIncompleteEventTitle(part) || isBlockedLead(part)) return [];
     if (!factCue.test(part) && /(?:今日宣布|向媒体确认|接受采访时透露|表示|指出)$/u.test(part)) return [];
     if (accept(part)) return [part];
     const compactPart = part.replace(/\s+/gu, '');
-    return accept(compactPart) ? [compactPart] : [];
+    if (accept(compactPart)) return [compactPart];
+    const clippedPart = clipNewsClause(part);
+    return accept(clippedPart) ? [clippedPart] : [];
   });
   const longest = list => list.slice().sort((a, b) => b.length - a.length)[0] || '';
   return longest(parts.filter(part => factCue.test(part) && mentionedMakers(part).length))
@@ -368,6 +507,17 @@ function leadSentences(article) {
   return text.split(/[。！？!?]/u).map(cleanText)
     .filter(sentence => sentence.length >= 8 && !/免责声明|版权|扫一扫|关注我们|汽车之家|^（(?:文|编译)/u.test(sentence));
 }
+function titleSourceSentences(article) {
+  const paragraphs = usefulSourceParagraphs(article);
+  const opening = article.sourceType === 'official-social' ? paragraphs.slice(0, 3) : paragraphs.slice(0, 1);
+  const openingText = article.sourceType === 'official-social' ? socialPresentationText(opening.join(' ')) : (opening[0] || '');
+  const split = text => text.split(/[。！？!?\n]/u).map(cleanText)
+    .filter(sentence => sentence.length >= 8 && !/免责声明|版权|扫一扫|关注我们|汽车之家|^（(?:文|编译)/u.test(sentence))
+    .filter(sentence => !isBlockedLead(sentence));
+  const sentences = split(openingText);
+  if (sentences.length || article.sourceType === 'official-social') return sentences;
+  return split(paragraphs.slice(1, 4).join('\n'));
+}
 function contentTitle(article) {
   const source = selectedBodyText(article);
   if (!source) return '';
@@ -377,8 +527,7 @@ function contentTitle(article) {
     const vehicleCount = source.match(/(?:提供|将提供)\s*(\d+)台车/u)?.[1];
     return `蔚来签约2026丝路驾行挑战${vehicleCount ? `，将提供${vehicleCount}台车及技术支持` : ''}`;
   }
-  const ordered = leadSentences(article)
-    .filter(sentence => !isTeaserText(sentence) && !isAttributionOnly(sentence) && !isBareQuote(sentence));
+  const ordered = titleSourceSentences(article);
   const titles = ordered.slice(0, 3).map(usablePolishedTitle).filter(Boolean);
   if (titles.length) {
     const lead = titles[0];
@@ -392,13 +541,13 @@ function contentTitle(article) {
   if (ordered.some(sentence => namesNewsSubject(polishSentence(sentence)))) return '';
   if (isCrossBrandDigest(article, article.title || '')) return '';
   const laterSentences = expandedNewsSentences(article)
-    .filter(sentence => !isTeaserText(sentence) && !isAttributionOnly(sentence) && !isBareQuote(sentence));
+    .filter(sentence => !isBlockedLead(sentence));
   const later = laterSentences.find(sentence => factCue.test(sentence) && namesNewsSubject(sentence))
     || laterSentences.find(sentence => namesNewsSubject(sentence));
   return later ? usablePolishedTitle(later) : '';
 }
 function expandedNewsSentences(article) {
-  const paragraphs = usefulSourceParagraphs(article).slice(0, 3);
+  const paragraphs = usefulSourceParagraphs(article).slice(0, 4);
   const text = article.sourceType === 'official-social'
     ? socialPresentationText(paragraphs.join(' '))
     : paragraphs.join(' ');
@@ -480,23 +629,27 @@ function compactText(text) {
 }
 function stripSummaryWire(sentence) {
   const value = cleanText(sentence);
-  if (!/获悉|了解到|获取了一组|报道\s+\d{1,2}月/u.test(value)) return value;
   const stripped = value
     .replace(/^(?:(?:日前|目前|近日|今日)[，,\s]*)?(?:IT之家|快科技|观点网|财联社|网通社|新浪汽车|凤凰网汽车|汽车之家|懂车帝|易车网?|盖世汽车|盖世具身智能|网易汽车|车质网)\s*(?:\d{1,2}月\d{1,2}日)?(?:消息|讯|电|报道|获悉)?[，,:：\s]*/u, '')
-    .replace(/^(?:(?:日前|目前|近日|今日)[，,\s]*)?(?:[\u4e00-\u9fffA-Za-z]{2,8})?从(?:官方|相关渠道)(?:获悉|了解到|获取了?(?:一组)?)[，,：:\s]*/u, '')
-    .replace(/^(?:\d{1,2}月\d{1,2}日)(?:消息|讯|电|报道)?[，,:：\s]*/u, '');
+    .replace(/^(?:[\u4e00-\u9fffA-Za-z]{0,16})?(?:记者)?从(?:官方|相关渠道|知情人士处?|多方渠道|业内人士处?)(?:获悉|了解到|获取了?(?:一组)?)[，,:：\s]*/u, '')
+    .replace(/^(?:\d{1,2}月\d{1,2}日)(?:消息|讯|电|报道)[，,:：\s]*/u, '')
+    .replace(/\s*[（(][^）)]{0,20}记者\s*[\u4e00-\u9fff]{1,4}\s*[）)]\s*$/u, '');
   return stripped.length >= 8 ? stripped : value;
+}
+function blockedSummary(text) {
+  const value = cleanText(text);
+  return !value || isTeaserText(value) || isColumnMasthead(value) || isBylineOnly(value) || isOpinionSentence(value) || isAttributionStub(value);
 }
 function summarySentences(article, expanded) {
   const paragraphs = usefulSourceParagraphs(article);
   const text = article.sourceType === 'official-social'
     ? socialPresentationText((expanded ? paragraphs.slice(0, 3) : paragraphs.slice(0, 1)).join(' ') || article.title || '')
-    : (expanded ? paragraphs.slice(0, 3).join(' ') : (paragraphs[0] || article.title || ''));
-  return text.split(/[。！？!?]/u).map(cleanText)
+    : (expanded ? paragraphs.slice(0, 4).join('\n') : (paragraphs[0] || article.title || ''));
+  return text.split(/[。！？!?\n]/u).map(cleanText)
     .filter(sentence => sentence.length >= 8 && !/免责声明|版权|扫一扫|关注我们/u.test(sentence))
-    .filter(sentence => !isTeaserText(sentence) && !isAttributionOnly(sentence) && !isBareQuote(sentence))
+    .filter(sentence => !isBlockedLead(sentence))
     .map(stripSummaryWire)
-    .filter(sentence => sentence.length >= 8 && !isTeaserText(sentence));
+    .filter(sentence => sentence.length >= 8 && !blockedSummary(sentence));
 }
 function packSummary(sentences, issueDate) {
   const opening = [];
@@ -559,16 +712,18 @@ function sourceSummary(article, issueDate, titleToAvoid = '') {
   const sentences = summarySentences(article, false);
   const summary = packSummary(sentences, issueDate);
   const duplicate = Boolean(titleToAvoid) && nearlySameCopy(summary, titleToAvoid);
-  const teaser = !summary || isTeaserText(summary);
-  if (!titleToAvoid || (!duplicate && !teaser)) return summary;
-  const laterPoint = list => packSummary(list.filter(sentence => !nearlySameCopy(sentence, titleToAvoid) && factualPoint(sentence) && !isTeaserText(sentence)), issueDate);
+  const blocked = blockedSummary(summary);
+  if (!blocked && !duplicate) return summary;
+  const laterPoint = list => packSummary(list.filter(sentence => !nearlySameCopy(sentence, titleToAvoid) && factualPoint(sentence) && !blockedSummary(sentence)), issueDate);
   const distinct = laterPoint(sentences);
-  if (distinct && !isTeaserText(distinct)) return distinct;
-  if (summary && !isTeaserText(summary)) return summary;
+  if (distinct && !blockedSummary(distinct)) return distinct;
+  if (!blocked && (factCue.test(summary) || namesNewsSubject(summary))) return summary;
   const expanded = summarySentences(article, true);
   const expandedPoint = laterPoint(expanded);
-  if (expandedPoint && !isTeaserText(expandedPoint)) return expandedPoint;
-  return packSummary(expanded, issueDate) || summary;
+  if (expandedPoint && !blockedSummary(expandedPoint)) return expandedPoint;
+  const fallback = packSummary(expanded.filter(sentence => !blockedSummary(sentence)), issueDate);
+  if (fallback && !blockedSummary(fallback)) return fallback;
+  return '';
 }
 function isAutomaticallyImportant(article, brands = article.brands) {
   if (article.evidenceStatus === 'government') return true;
@@ -1240,11 +1395,13 @@ export function buildReports(articles, notes, now = new Date()) {
     let summary = note.summary
       ? normalizeRelativeTime(cleanText(note.summary).replace(/^(?:官方发布|政府公告|媒体报道)[：:]\s*/u, ''), issueDate)
       : (mergeIndustryCopy ? mergedIndustrySummary(group, issueDate, editorialTitle) : '') || sourceSummary(article, issueDate, editorialTitle);
-    if (!summary || isTeaserText(summary)) {
-      reviewQueue.push({ title: article.title, sourceName: article.sourceName, url: article.url, reasons: ['摘要只剩导语或电头'] });
+    if (!summary || blockedSummary(summary)) {
+      reviewQueue.push({ title: article.title, sourceName: article.sourceName, url: article.url, reasons: ['摘要只剩导语、署名或评论'] });
       continue;
     }
     const title = normalizeRelativeTime(editorialTitle, issueDate);
+    const staleHighlight = storyIsStale(article, title, summary, issueDate);
+    const commentaryHighlight = isCommentaryArticle(article);
     const cardIsNew = isNewCarHighlight({ title, summary, evidenceStatus: article.evidenceStatus });
     if (cardIsNew) {
       if (!tags.includes('新车')) tags.unshift('新车');
@@ -1268,7 +1425,7 @@ export function buildReports(articles, notes, now = new Date()) {
       important: group.some(item => isPreviewTeaserArticle(item.article, item.editorialTitle)) ? false
         : group.some(item => item.note.important === true) ? true
           : group.some(item => item.note.important === false) ? false
-            : group.some(item => isAutomaticallyImportant(item.article, item.brands)) && !staleHook(`${editorialTitle} ${summary}`, issueDate)
+            : group.some(item => isAutomaticallyImportant(item.article, item.brands)) && !staleHighlight && !commentaryHighlight
     };
     const date = issueDate;
     const report = reports[date] ||= { dateLabel: `${date.slice(0, 4)}年${Number(date.slice(5, 7))}月${Number(date.slice(8, 10))}日`, windowLabel: windowLabel(date), highlights: [], brands: {}, otherBrands: [], industry: [], updatedAt: now.toISOString() };
@@ -1290,8 +1447,14 @@ export function buildReports(articles, notes, now = new Date()) {
   }
   for (const report of Object.values(reports)) {
     report.brands = Object.fromEntries(monitoringCoverage.map(({ brand }) => [brand, report.brands[brand]]).filter(([, items]) => items));
-    for (const list of [report.highlights, report.otherBrands, report.industry, ...Object.values(report.brands)]) list.sort((a, b) => b.publishedTime.localeCompare(a.publishedTime));
-    report.highlights.sort((a, b) => Number(isNewCarHighlight(b)) - Number(isNewCarHighlight(a)));
+    for (const list of [report.otherBrands, report.industry, ...Object.values(report.brands)]) list.sort((a, b) => String(b.publishedTime).localeCompare(String(a.publishedTime)));
+    report.highlights.sort((a, b) => {
+      const car = Number(isNewCarHighlight(b)) - Number(isNewCarHighlight(a));
+      if (car) return car;
+      const age = highlightAgeRank(a) - highlightAgeRank(b);
+      if (age) return age;
+      return String(b.publishedTime).localeCompare(String(a.publishedTime));
+    });
   }
   return { reports: Object.fromEntries(Object.entries(reports).sort(([a], [b]) => b.localeCompare(a))), launches: mergeLaunches(launches, []), reviewQueue };
 }

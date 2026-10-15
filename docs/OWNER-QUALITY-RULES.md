@@ -12,7 +12,7 @@ One event is one card. Official site, Weibo, and vertical media that report the 
 
 ## 2. Highlights: new cars first; strict `新车` / 当天重要摘要
 
-In `当天重要摘要`, put new-car events first.
+In `当天重要摘要`, put new-car events first. Prefer news from the issue window. A concrete event day more than 14 days before the issue — a September date on an October 15 issue, for example — stays out of `当天重要摘要` unless the story is still breaking (召回, 辟谣, or an accident investigation).
 
 Tag `新车` only for a specific model's launch, unveil, 上市, 官宣, 谍照, or 申报.
 
@@ -28,7 +28,9 @@ That includes cross-brand roundups, multi-maker previews, policy, and industry s
 
 Use one title style: a concrete subject plus what happened (which brand or model, and the event).
 
-Drop channel lead-ins and empty wire openers. Do not publish 导语, `IT早报`, greetings such as 「大家好，现在是…」, or a bare 「从相关渠道获悉」 with no fact.
+Drop channel lead-ins and empty wire openers. Do not publish 导语, `IT早报`, greetings such as 「大家好，现在是…」, a bare 「从相关渠道获悉」 or 「记者从知情人士处获悉」, a column credit such as 「汽势Auto-First丨作者」, an author byline, or an opinion opener such as 「不知道大家感觉到没有」.
+
+A title is one complete event sentence: subject, verb, and object. If the headline is only a stub, regenerate it from the body. If the summary repeats a non-event title, or is only a byline, greeting, or opinion opener, rewrite it from a later factual sentence. A highlight with no concrete event after that rewrite stays out of `当天重要摘要`.
 
 ## 5. Industry signal cards / 行业 SIGNAL 卡
 
@@ -66,5 +68,6 @@ Status keys stay `launched|confirmed|estimated`. Labels: `已上市` is a formal
 - Strict `新车`: `isStrictNewCar`, `isNewCarHighlight`
 - Launch calendar: `qualifiesForLaunchCalendar`, `deriveLaunchFromStory`, `mergeLaunches`
 - Section: `sectionFor` (`brand` / `other` / `industry`)
-- Titles: `titleQualityIssues`, `isTeaserText`
+- Titles and summaries: `titleQualityIssues`, `isTeaserText`, column / byline / opinion / wire-stub checks
+- Highlight recency: `storyIsStale`, commentary leads, `highlightAgeRank`
 - Daily OpenAI gate: `scripts/daily-run-gate.mjs`, `.github/workflows/daily-report.yml`
