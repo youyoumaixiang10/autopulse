@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-15T07:33:38.050Z",
+  "collectedAt": "2026-10-15T09:12:57.621Z",
   "targetDates": [
     "2026-10-14",
     "2026-10-15"
@@ -2498,7 +2498,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "6别克全新君越限时权益价14.99万元起，搭载豆包AI大模型111.78w",
+      "title": "5别克全新君越限时权益价14.99万元起，搭载豆包AI大模型126.46w",
       "url": "https://auto.news18a.com/news/storys_303737.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -2508,7 +2508,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "8哈弗大狗HEV混动版上市 限时换新价10.59万元起106.85w",
+      "title": "8哈弗大狗HEV混动版上市 限时换新价10.59万元起114.41w",
       "url": "https://auto.news18a.com/news/storys_300972.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -5267,7 +5267,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "10没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道104.43w",
+      "title": "2没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道138.9w",
       "url": "https://auto.news18a.com/news/storys_303056.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -7868,6 +7868,233 @@
       "discoveryPublishedAt": "2026-10-15",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "吉利控股前三季度销量超300万辆，新能源渗透率近六成",
+      "url": "https://auto.gasgoo.com/news/202610/15I70474938C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "Seeds | 若愚科技完成亿元级Pre-A轮融资",
+      "url": "https://auto.gasgoo.com/news/202610/15I70474924C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "伯特利蜻蜓湖研发中心正式启用",
+      "url": "https://auto.gasgoo.com/news/202610/15I70474922C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "车主体验问界售后服务变化",
+      "url": "https://www.sohu.com/a/1088158273_120107790",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】小米澎程系列汽车上市一个月累计行驶里程超1600万公里",
+      "url": "https://auto.ifeng.com/c/8xFHhfGgVaS",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】理想i9 Home自研电池车型于10月15日开启交付，售价36.98万元",
+      "url": "https://auto.ifeng.com/c/8xFHhfGgVaR",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪宣布辅助驾驶车型保有量超395万辆",
+      "url": "https://auto.ifeng.com/c/8xFI2cynWUD",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】紫金龙净ZL150E、ZL230E电动矿卡累计订单超百台",
+      "url": "https://auto.ifeng.com/c/8xFDF2ApgQO",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】伯特利蜻蜓湖研发中心正式投入使用",
+      "url": "https://auto.ifeng.com/c/8xFEdne836p",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小米澎程系列汽车上市一个月累计行驶里程超1600万公里",
+      "url": "https://auto.news18a.com/news/storys_305237.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "理想i9 Home自研电池车型于10月15日开启交付，售价36.98万元",
+      "url": "https://www.news18a.com/news/storys_305236.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪宣布辅助驾驶车型保有量超395万辆",
+      "url": "https://www.news18a.com/news/storys_305235.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "紫金龙净ZL150E、ZL230E电动矿卡累计订单超百台",
+      "url": "https://www.news18a.com/news/storys_305231.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "伯特利蜻蜓湖研发中心正式投入使用",
+      "url": "https://www.news18a.com/news/storys_305233.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "英国商务大臣表示暂不对中国汽车加征进口关税",
+      "url": "https://www.news18a.com/news/storys_305227.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "10月15日晚国内汽、柴油价格不作调整",
+      "url": "https://auto.news18a.com/news/storys_305220.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马第六代动力电池在沈阳下线",
+      "url": "https://www.news18a.com/news/storys_305219.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宁德时代注册“宁的易购”商标",
+      "url": "https://auto.news18a.com/news/storys_305204.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "最长单车行驶里程破万：小米澎程系列汽车上市一个月，累计行驶里程超过 1600 万公里",
+      "url": "https://www.ithome.com/1/013/477.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全新理想 i9 Home 自研电池车型开启交付，36.98 万元",
+      "url": "https://www.ithome.com/1/013/469.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "商务部：中欧双方在混动汽车领域达成的谅解是对等互利的",
+      "url": "https://www.ithome.com/1/013/467.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪辅助驾驶车型保有量超 395 万辆，天神之眼每天生成数据超 2.4 亿公里",
+      "url": "https://www.ithome.com/1/013/460.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -7891,9 +8118,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 1,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 1 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -7907,9 +8134,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 10,
+      "candidateCount": 13,
       "status": "ok",
-      "publicLabel": "列表已读 10 条待核验线索"
+      "publicLabel": "列表已读 13 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -7963,9 +8190,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 25,
+      "candidateCount": 24,
       "status": "ok",
-      "publicLabel": "列表已读 25 条待核验线索"
+      "publicLabel": "列表已读 24 条待核验线索"
     },
     {
       "sourceId": "netease-auto",

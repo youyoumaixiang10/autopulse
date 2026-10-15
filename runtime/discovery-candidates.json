@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-15T07:33:29.527Z",
+  "collectedAt": "2026-10-15T09:12:49.481Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2673,6 +2673,18 @@
         "吉利银河"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "会是零跑C18么？零跑全新SUV谍照曝光 比C16更大/针对第三排加长",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317787.html",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -2680,7 +2692,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 30
+      "count": 29
     },
     {
       "sourceId": "autohome-industry",
@@ -2691,7 +2703,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-15T07:33:13.814Z",
+      "collectedAt": "2026-10-15T09:12:33.475Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 39,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
