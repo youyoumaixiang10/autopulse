@@ -42,9 +42,15 @@ function isAttributionStub(text) {
   return /^(?:[\u4e00-\u9fffA-Za-z]{0,16})?(?:记者)?从(?:官方|相关渠道|知情人士处?|多方渠道|业内人士处?)(?:获悉|了解到|获取了?(?:一组)?)(?:称|消息)?$/u.test(value)
     || /^(?:据悉|消息称|报道称|据报道|据了解|据知情人士(?:透露|称|消息)?)$/u.test(value);
 }
+function isColumnOpinion(text) {
+  const value = cleanText(text);
+  if (!value) return false;
+  return /^(?:[\u4e00-\u9fffA-Za-z]{0,6})?(?:时评|社评|快评|锐评|短评|本报评论|热点时评|评论员文章)(?!测)/u.test(value);
+}
 function isOpinionLead(text) {
   const value = cleanText(text);
   if (!value) return false;
+  if (isColumnOpinion(value)) return true;
   if (/^(?:不知道大家|大家(?:有没有|觉得|感觉)|最近一段时间|说实话|说真的|不得不说|我觉得|笔者认为|在我看来|有一说一|你发现没有|不知道你们)/u.test(value)) return true;
   return /感觉到没有|口吐芬芳|平平无奇|眼前一亮/u.test(value.slice(0, 28));
 }
@@ -89,8 +95,17 @@ function followUp(tags) {
   if (tags.includes('市场')) return '核对统计周期与口径，将单月数据和累计数据分别比较。';
   return '关注这次信息面向的人群、活动节点与后续官方更新。';
 }
+function isComplaintPromo(paragraph) {
+  const value = cleanText(paragraph);
+  if (!value) return false;
+  if (/最新投诉案例/u.test(value)) return true;
+  if (/财圈社|道哥说车/u.test(value)) return true;
+  if (/投诉全流程/u.test(value)) return true;
+  if (/点击\s*↑|↑{2,}/u.test(value) && /投诉/u.test(value)) return true;
+  return false;
+}
 function isEditorialBoilerplate(paragraph) {
-  return /^(?:友情提示|温馨提示|相关阅读|更多精彩内容|点击编辑头像|扫一扫|关注我们)|如果您有(?:新车)?(?:谍照|爆料)|版权声明|本文版权|版权所有|免责声明|未经授权|未经允许|严禁转载|转载请联系|特别声明|以上作品内容/u.test(paragraph);
+  return isComplaintPromo(paragraph) || /^(?:友情提示|温馨提示|相关阅读|更多精彩内容|点击编辑头像|扫一扫|关注我们)|如果您有(?:新车)?(?:谍照|爆料)|版权声明|本文版权|版权所有|免责声明|未经授权|未经允许|严禁转载|转载请联系|特别声明|以上作品内容/u.test(paragraph);
 }
 function usefulSourceParagraphs(article) {
   return (article.contentParagraphs || []).map(cleanText).filter(paragraph => paragraph && !isEditorialBoilerplate(paragraph));
@@ -277,10 +292,12 @@ function highlightAgeRank(story) {
 }
 function isCommentaryArticle(article) {
   const head = cleanText(article?.title || '');
-  if (isOpinionLead(head) || isOpinionSentence(head) || isColumnMasthead(head)) return true;
+  const rawLead = cleanText((article?.contentParagraphs || []).map(cleanText).find(Boolean) || '');
+  if (isOpinionLead(head) || isOpinionSentence(head) || isColumnMasthead(head) || isColumnOpinion(head)) return true;
+  if (isColumnOpinion(rawLead) || isOpinionLead(rawLead)) return true;
   const first = usefulSourceParagraphs(article)[0] || '';
   const sentence = first.split(/[。！？!?]/u).map(cleanText).find(item => item.length >= 4) || '';
-  return isColumnMasthead(sentence) || isOpinionLead(sentence) || isOpinionSentence(sentence);
+  return isColumnMasthead(sentence) || isOpinionLead(sentence) || isOpinionSentence(sentence) || isColumnOpinion(sentence);
 }
 function polishSentence(sentence) {
   return cleanText(sentence)
@@ -403,7 +420,8 @@ function candidateRank(clause) {
 }
 function isBlockedLead(sentence) {
   return isTeaserText(sentence) || isAttributionOnly(sentence) || isBareQuote(sentence)
-    || isColumnMasthead(sentence) || isBylineOnly(sentence) || isOpinionSentence(sentence) || isAttributionStub(sentence);
+    || isColumnMasthead(sentence) || isBylineOnly(sentence) || isOpinionSentence(sentence) || isAttributionStub(sentence)
+    || isComplaintPromo(sentence) || isColumnOpinion(sentence);
 }
 function clipNewsClause(clause) {
   const raw = cleanText(clause);
@@ -600,7 +618,7 @@ function displayTitle(article, issueDate) {
   if (fromBody && headline && !hasConcretePredicate(fromBody) && hasConcretePredicate(headline) && titleSpecificity(headline) > titleSpecificity(fromBody)) {
     return normalizeRelativeTime(headline, issueDate);
   }
-  if (fromBody && headline && hasConcretePredicate(headline)) {
+  if (fromBody && headline && hasConcretePredicate(headline) && focusOverlaps(headline, fromBody)) {
     const bodyMakers = mentionedMakers(fromBody);
     const headlineMakers = mentionedMakers(headline);
     if (headlineMakers.some(maker => !bodyMakers.includes(maker)) && titleSpecificity(headline) >= titleSpecificity(fromBody) - 2) {
@@ -608,7 +626,7 @@ function displayTitle(article, issueDate) {
     }
   }
   const fragmentBody = /^(?:旨在|双方|该|此|这|将|过去|盖世|承办|由)/u.test(fromBody || '');
-  if (fromBody && headline && (
+  if (fromBody && headline && focusOverlaps(headline, fromBody) && (
     (factCue.test(headline) && !factCue.test(fromBody))
     || (namesNewsSubject(headline) && (!namesNewsSubject(fromBody) || fragmentBody))
   )) return normalizeRelativeTime(headline, issueDate);
@@ -638,7 +656,8 @@ function stripSummaryWire(sentence) {
 }
 function blockedSummary(text) {
   const value = cleanText(text);
-  return !value || isTeaserText(value) || isColumnMasthead(value) || isBylineOnly(value) || isOpinionSentence(value) || isAttributionStub(value);
+  return !value || isTeaserText(value) || isColumnMasthead(value) || isBylineOnly(value) || isOpinionSentence(value) || isAttributionStub(value)
+    || isComplaintPromo(value) || isColumnOpinion(value);
 }
 function summarySentences(article, expanded) {
   const paragraphs = usefulSourceParagraphs(article);
@@ -956,8 +975,43 @@ function storyEventIdentity(entry) {
   if (fromEditorial) return fromEditorial;
   return showOpeningKey(entry.article?.title) || announcementKey(entry.article?.title) || '';
 }
+function vehicleFocus(text) {
+  const found = new Set();
+  for (const token of collectModelTokens(text)) {
+    if (!/[\u4e00-\u9fff]/u.test(token)) { found.add(token); continue; }
+    const cleaned = token.replace(/(?:终于|正式|全新|车型|新车)+$/u, '');
+    if (cleaned.length < 2 || cleaned.length > 4 || /新车|三款|终于|车型|亮相|上市|预售|携|款/u.test(cleaned)) continue;
+    found.add(cleaned);
+  }
+  return found;
+}
+function focusOverlaps(leftText, rightText) {
+  const leftModels = vehicleFocus(leftText);
+  const rightModels = vehicleFocus(rightText);
+  if (leftModels.size && rightModels.size) {
+    for (const token of leftModels) if (rightModels.has(token)) return true;
+    return false;
+  }
+  const leftMakers = mentionedMakers(leftText);
+  const rightMakers = mentionedMakers(rightText);
+  if (leftMakers.length && rightMakers.length) return leftMakers.some(maker => rightMakers.includes(maker));
+  return true;
+}
+function gluedModelTitle(title) {
+  const parts = cleanText(title).split(/[、；;/／]/u).map(cleanText).filter(Boolean);
+  if (parts.length < 2) return false;
+  const focused = parts.map(part => [...vehicleFocus(part)]).filter(list => list.length);
+  if (focused.length < 2) return false;
+  return new Set(focused.flat()).size >= 2;
+}
+function leadDisagrees(article, headline) {
+  const body = usefulSourceParagraphs(article).slice(0, 2).join(' ');
+  if (!body || !headline) return false;
+  return !focusOverlaps(headline, body);
+}
 function eventKey(article, note, editorialTitle = '') {
   if (note.eventKey) return note.eventKey;
+  if ((gluedModelTitle(article.title) || gluedModelTitle(editorialTitle)) && leadDisagrees(article, article.title)) return article.url;
   const text = [editorialTitle, article.title, ...(article.contentParagraphs || []).slice(0, 1)].join(' ');
   const socialText = article.sourceType === 'official-social' ? socialPresentationText(text) : '';
   const socialDebut = socialText.match(/首发\s*((?:[\u4e00-\u9fff]{1,8})?[A-Za-z]{1,4}\d{1,3}[A-Za-z]{0,4}(?:\s*(?:纯电|插混|增程|GT|Ultra|Max))?)/u);
@@ -994,11 +1048,24 @@ function titleAnchorsVehicle(title) {
   if (!/上市|预售|盲订|亮相|首秀|首发|登场|官宣|申报|谍照/u.test(text)) return false;
   return collectModelTokens(text).size > 0;
 }
+function entryCoherent(entry) {
+  const body = usefulSourceParagraphs(entry.article).slice(0, 2).join(' ');
+  if (gluedModelTitle(entry.editorialTitle)) return false;
+  if (gluedModelTitle(entry.article?.title) && body && !focusOverlaps(entry.article.title, body)) return false;
+  if (body && !focusOverlaps(entry.editorialTitle, body)) {
+    const bodyHasFocus = vehicleFocus(body).size > 0 || mentionedMakers(body).length > 0;
+    const titleHasFocus = vehicleFocus(entry.editorialTitle).size > 0 || mentionedMakers(entry.editorialTitle).length > 0;
+    if (bodyHasFocus && titleHasFocus) return false;
+  }
+  return true;
+}
 function pickPrimary(entries) {
   const ranked = entries.slice().sort(compareStoryPriority);
   const leadRank = order[ranked[0].article.evidenceStatus] ?? 9;
-  const anchored = ranked.filter(entry => (order[entry.article.evidenceStatus] ?? 9) === leadRank && titleAnchorsVehicle(entry.editorialTitle));
-  return anchored[0] || ranked[0];
+  const pool = ranked.filter(entry => (order[entry.article.evidenceStatus] ?? 9) === leadRank);
+  const coherent = pool.filter(entryCoherent);
+  const anchored = coherent.filter(entry => titleAnchorsVehicle(entry.editorialTitle));
+  return anchored[0] || coherent[0] || pool.find(entry => titleAnchorsVehicle(entry.editorialTitle)) || ranked[0];
 }
 function clusterTitle(text) {
   return cleanText(text).toLowerCase()
@@ -1159,9 +1226,21 @@ function storyTags(article) {
     .slice(0, 420);
   return classify(classificationText, article.evidenceStatus);
 }
+function roundupSplit(a, b) {
+  const gluedA = gluedModelTitle(a.editorialTitle) || gluedModelTitle(a.article?.title);
+  const gluedB = gluedModelTitle(b.editorialTitle) || gluedModelTitle(b.article?.title);
+  if (!gluedA && !gluedB) return false;
+  if (gluedA && gluedB) {
+    const left = [...vehicleFocus(a.editorialTitle)].sort().join('|');
+    const right = [...vehicleFocus(b.editorialTitle)].sort().join('|');
+    return left !== right;
+  }
+  return true;
+}
 function samePublishedEvent(a, b) {
   if (a.issueDate !== b.issueDate) return false;
   if (a.note?.eventKey && b.note?.eventKey && a.note.eventKey !== b.note.eventKey) return false;
+  if (roundupSplit(a, b)) return false;
   if (sameIndustryEvent(a, b)) return true;
   const modelsA = storyModels(a);
   const modelsB = storyModels(b);
@@ -1400,8 +1479,16 @@ export function buildReports(articles, notes, now = new Date()) {
       continue;
     }
     const title = normalizeRelativeTime(editorialTitle, issueDate);
+    const mismatchedRoundup = (gluedModelTitle(article.title) || gluedModelTitle(title)) && leadDisagrees(article, article.title);
+    const pairingBroken = isComplaintPromo(summary) || isComplaintPromo(title)
+      || (vehicleFocus(title).size > 0 && vehicleFocus(summary).size > 0 && !focusOverlaps(title, summary));
+    if (mismatchedRoundup || pairingBroken) {
+      reviewQueue.push({ title: article.title, sourceName: article.sourceName, url: article.url, reasons: ['标题与正文不是同一事件'] });
+      continue;
+    }
     const staleHighlight = storyIsStale(article, title, summary, issueDate);
     const commentaryHighlight = isCommentaryArticle(article);
+    const gluedHighlight = gluedModelTitle(title);
     const cardIsNew = isNewCarHighlight({ title, summary, evidenceStatus: article.evidenceStatus });
     if (cardIsNew) {
       if (!tags.includes('新车')) tags.unshift('新车');
@@ -1425,7 +1512,7 @@ export function buildReports(articles, notes, now = new Date()) {
       important: group.some(item => isPreviewTeaserArticle(item.article, item.editorialTitle)) ? false
         : group.some(item => item.note.important === true) ? true
           : group.some(item => item.note.important === false) ? false
-            : group.some(item => isAutomaticallyImportant(item.article, item.brands)) && !staleHighlight && !commentaryHighlight
+            : group.some(item => isAutomaticallyImportant(item.article, item.brands)) && !staleHighlight && !commentaryHighlight && !gluedHighlight
     };
     const date = issueDate;
     const report = reports[date] ||= { dateLabel: `${date.slice(0, 4)}年${Number(date.slice(5, 7))}月${Number(date.slice(8, 10))}日`, windowLabel: windowLabel(date), highlights: [], brands: {}, otherBrands: [], industry: [], updatedAt: now.toISOString() };

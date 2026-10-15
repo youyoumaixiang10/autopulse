@@ -28,9 +28,9 @@ That includes cross-brand roundups, multi-maker previews, policy, and industry s
 
 Use one title style: a concrete subject plus what happened (which brand or model, and the event).
 
-Drop channel lead-ins and empty wire openers. Do not publish 导语, `IT早报`, greetings such as 「大家好，现在是…」, a bare 「从相关渠道获悉」 or 「记者从知情人士处获悉」, a column credit such as 「汽势Auto-First丨作者」, an author byline, or an opinion opener such as 「不知道大家感觉到没有」.
+Drop channel lead-ins and empty wire openers. Do not publish 导语, `IT早报`, greetings such as 「大家好，现在是…」, a bare 「从相关渠道获悉」 or 「记者从知情人士处获悉」, a column credit such as 「汽势Auto-First丨作者」, an author byline, an opinion opener such as 「不知道大家感觉到没有」, or a column label such as 「时评」「社评」「快评」.
 
-A title is one complete event sentence: subject, verb, and object. If the headline is only a stub, regenerate it from the body. If the summary repeats a non-event title, or is only a byline, greeting, or opinion opener, rewrite it from a later factual sentence. A highlight with no concrete event after that rewrite stays out of `当天重要摘要`.
+A title is one complete event sentence: subject, verb, and object. If the headline is only a stub, regenerate it from the body. If the summary repeats a non-event title, or is only a byline, greeting, or opinion opener, rewrite it from a later factual sentence. A highlight with no concrete event after that rewrite stays out of `当天重要摘要`. A highlight title and its summary must be the same concrete event. Do not leave a spam, ad, or complaint template under a car title, and do not merge unrelated models into one highlight because they share a theme such as 预售.
 
 ## 5. Industry signal cards / 行业 SIGNAL 卡
 

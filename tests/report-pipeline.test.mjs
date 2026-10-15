@@ -1211,3 +1211,76 @@ test('column credits, opinion openers, wire stubs and bylines do not become high
   assert.doesNotMatch(current.title, /^记者从知情人士处获悉$/);
   assert.equal(currentReport.highlights.some(story => story.id === current.id), true);
 });
+test('complaint ads, 时评 leftovers, and unrelated presales do not share a highlight', () => {
+  assert.ok(titleQualityIssues('时评 10月14日，岚图汽车港股终于迎来连跌五日后的小幅反弹').includes('标题是评论口吻'));
+  assert.ok(titleQualityIssues('网通社时评 10月14日，岚图汽车港股反弹').includes('标题是评论口吻'));
+  const issueNow = new Date('2026-10-15T12:00:00+08:00');
+  const digest = record(30, {
+    title: '小鹏MONA L05将于10月15预售、埃安Ray7将于10月17日预售|每日车讯',
+    brands: ['小鹏'],
+    sourceName: '凤凰网汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-14',
+    publishedTime: '2026-10-14T09:36:16+08:00',
+    contentParagraphs: [
+      '最新投诉案例｜别克君越左右后门底边无事故返锈 前右车门侧边返锈严重',
+      '点击↑↑↑最新投诉案例登陆【财圈社汽车质量】小程序，30秒完成投诉全流程，你的每一条反馈都将直通车企、监管部门和千万车主圈。',
+      '比亚迪大汉上市售价23.59万元起',
+      '10月13日，比亚迪大汉正式上市，售价23.59万元起。',
+      '小鹏MONA L05将于10月15预售',
+      '10月15日，MONA L05将正式预售，定位大五座SUV。',
+      '埃安Ray7将于10月17日预售',
+      '埃安Ray7将于10月17日开启预售，定位纯电轿车。'
+    ]
+  });
+  const mona = record(31, {
+    title: '小鹏MONA L05展车到店，将于10月15日开启预售',
+    brands: ['小鹏'],
+    sourceName: '汽车之家',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-14',
+    publishedTime: '2026-10-14T10:00:00+08:00',
+    contentParagraphs: ['小鹏MONA L05展车已到店，该车将于10月15日开启预售，定位年轻人的大五座SUV。']
+  });
+  const ray = record(32, {
+    title: '埃安Ray7将于10月17日开启预售',
+    brands: ['广汽'],
+    sourceName: '太平洋汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-14',
+    publishedTime: '2026-10-14T11:00:00+08:00',
+    contentParagraphs: ['埃安Ray7将于10月17日开启预售，定位中大型纯电轿车，CLTC续航700km。']
+  });
+  const opinion = record(33, {
+    title: '近7个月股价下跌超七成，岚图的资本市场叙事正在失去说服力',
+    brands: ['岚图'],
+    sourceName: '凤凰网汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-14',
+    publishedTime: '2026-10-14T17:57:14+08:00',
+    contentParagraphs: [
+      '网通社时评 10月14日，岚图汽车（07489.HK）港股终于迎来连跌五日后的小幅反弹。而就在昨日，岚图汽车港股盘中再度刷新股价低点，最低触及1.665港元。',
+      '从上市当日最高触及每股7.500港元到如今来到每股1.750港元附近，岚图汽车的股价跌去了约76.7%。',
+      '挂牌当天，岚图泰山X8同步亮相，上市宣传中出现了央企第一股的说法。'
+    ]
+  });
+  const built = buildReports([digest, mona, ray, opinion], {}, issueNow);
+  const report = built.reports['2026-10-15'];
+  const cards = [...report.highlights, ...(report.otherBrands || []), ...report.industry, ...Object.values(report.brands).flat()];
+  const textOf = story => `${story.title} ${story.summary}`;
+  assert.equal(report.highlights.some(story => /MONA/u.test(story.title) && /Ray7/u.test(story.title)), false);
+  assert.equal(report.highlights.some(story => /最新投诉案例|别克君越|财圈社/u.test(textOf(story))), false);
+  assert.equal(cards.some(story => /MONA/u.test(story.title) && /最新投诉案例|别克君越/u.test(story.summary)), false);
+  const monaCard = report.highlights.find(story => /MONA/u.test(story.title));
+  const rayCard = cards.find(story => /Ray7/u.test(story.title) && !/MONA/u.test(story.title));
+  assert.ok(monaCard);
+  assert.ok(rayCard);
+  assert.notEqual(monaCard.id, rayCard.id);
+  assert.match(monaCard.summary, /MONA|预售/u);
+  assert.doesNotMatch(`${monaCard.title} ${monaCard.summary}`, /Ray7|别克|投诉/u);
+  assert.match(rayCard.summary, /Ray7|预售/u);
+  assert.doesNotMatch(`${rayCard.title} ${rayCard.summary}`, /MONA|别克|投诉/u);
+  assert.equal(report.highlights.some(story => /时评|港股终于迎来|资本市场叙事|股价跌去/u.test(textOf(story))), false);
+  assert.equal(cards.some(story => /时评/u.test(story.title)), false);
+  assert.ok(built.reviewQueue.some(item => item.url === digest.url));
+});
