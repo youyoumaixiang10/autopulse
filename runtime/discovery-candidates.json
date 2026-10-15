@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-15T02:49:16.771Z",
+  "collectedAt": "2026-10-15T04:45:02.095Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2622,6 +2622,30 @@
         "小米"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "权益价20.59万起 搭载华为乾崑ADS 5 2026款阿维塔06上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317779.html",
+      "candidateBrands": [
+        "阿维塔"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "辅助驾驶系统增强！长安启源Q07天枢领航版将于10月20日上市！",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317778.html",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -2629,7 +2653,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 34
+      "count": 33
     },
     {
       "sourceId": "autohome-industry",
@@ -2640,7 +2664,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-15T02:49:00.632Z",
+      "collectedAt": "2026-10-15T04:44:46.449Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 39,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

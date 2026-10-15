@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-15T02:49:34.424Z",
+  "collectedAt": "2026-10-15T04:45:13.273Z",
   "targetDates": [
     "2026-10-14",
     "2026-10-15"
@@ -2498,7 +2498,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "3别克全新君越限时权益价14.99万元起，搭载豆包AI大模型137.65w",
+      "title": "5别克全新君越限时权益价14.99万元起，搭载豆包AI大模型124.62w",
       "url": "https://auto.news18a.com/news/storys_303737.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -2508,7 +2508,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "6哈弗大狗HEV混动版上市 限时换新价10.59万元起127.99w",
+      "title": "4哈弗大狗HEV混动版上市 限时换新价10.59万元起126.8w",
       "url": "https://auto.news18a.com/news/storys_300972.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -5267,7 +5267,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "9没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道115.35w",
+      "title": "3没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道132w",
       "url": "https://auto.news18a.com/news/storys_303056.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -7188,6 +7188,231 @@
       "discoveryPublishedAt": "2026-10-15",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "【国际快讯】英国拒绝欧盟施压，暂不对中国电动车加征关税；小鹏希望到2030年在欧洲销量超过福特和欧宝",
+      "url": "https://auto.gasgoo.com/news/202610/15I70474878C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "Seeds | 浙大系Physical AGI公司，新元体获数千万元种子轮融资",
+      "url": "https://auto.gasgoo.com/news/202610/15I70474872C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "天赐材料印尼电解液项目建设提速，预计2026年12月进入试生产",
+      "url": "https://auto.gasgoo.com/news/202610/15I70474873C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "全新旅行者7正式上市，焕新价12.59万起",
+      "url": "https://auto.ifeng.com/c/8xEu8zsdUtK",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】宝马新世代i3完成“千里马”无充电续航挑战 单次充电行驶1213km",
+      "url": "https://auto.ifeng.com/c/8xEybD8QIyM",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "宁德时代电池全系标配，智己LS8 NEO纯电10月发布",
+      "url": "https://auto.ifeng.com/c/8xEu8zsdUto",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】智界RX将于10月25日开启首批车主交付",
+      "url": "https://auto.ifeng.com/c/8xEvqktQylm",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】天赐材料印尼电解液项目预计2026年12月进入试生产",
+      "url": "https://auto.ifeng.com/c/8xEwJtxpQFG",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】全新比亚迪海鸥内饰实拍图曝光 取消仪表盘",
+      "url": "https://auto.ifeng.com/c/8xEu2Oybqcd",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马新世代i3完成“千里马”无充电续航挑战 单次充电行驶1213km",
+      "url": "https://auto.news18a.com/news/storys_305198.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "智界RX将于10月25日开启首批车主交付",
+      "url": "https://www.news18a.com/news/storys_305195.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "天赐材料印尼电解液项目预计2026年12月进入试生产",
+      "url": "https://www.news18a.com/news/storys_305197.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "全新比亚迪海鸥内饰实拍图曝光 取消仪表盘",
+      "url": "https://www.news18a.com/news/storys_305193.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利控股集团2026年前三季度累计销量超300万辆",
+      "url": "https://www.news18a.com/news/storys_305188.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "方程豹方程S GT开启全国交付",
+      "url": "https://www.news18a.com/news/storys_305190.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "零跑A10s官图发布",
+      "url": "https://auto.news18a.com/news/storys_305189.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "道奇计划2027年底前投产Charger Hellcat，年产量目标12,000辆",
+      "url": "https://www.news18a.com/news/storys_305180.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "本田完成无线动态充电基础技术研发",
+      "url": "https://auto.news18a.com/news/storys_305176.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "航宇智造全球研发中心与智能制造基地在北京经开区开工",
+      "url": "https://www.news18a.com/news/storys_305174.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "阿维塔 06 车型焕新上市：半隐藏门把手、安全舒适配置升级，限时权益价 20.59 万起",
+      "url": "https://www.ithome.com/1/013/323.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "25.98 万-38.98 万元，智界 RX 将于 10 月 25 日开启首批车主交付",
+      "url": "https://www.ithome.com/1/013/262.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "员工安全培训手册（完整版）_生产",
+      "url": "https://www.sohu.com/a/285817471_120047674",
+      "publishedAt": null,
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-14 2026-10-15",
+      "verificationStatus": "media-discovery"
     }
   ],
   "sourceResults": [
@@ -7227,17 +7452,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 10,
+      "candidateCount": 8,
       "status": "ok",
-      "publicLabel": "列表已读 10 条待核验线索"
+      "publicLabel": "列表已读 8 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 28,
+      "candidateCount": 29,
       "status": "ok",
-      "publicLabel": "列表已读 28 条待核验线索"
+      "publicLabel": "列表已读 29 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -7283,17 +7508,17 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 9,
+      "candidateCount": 8,
       "status": "ok",
-      "publicLabel": "列表已读 9 条待核验线索"
+      "publicLabel": "列表已读 8 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 22,
+      "candidateCount": 18,
       "status": "ok",
-      "publicLabel": "列表已读 22 条待核验线索"
+      "publicLabel": "列表已读 18 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
