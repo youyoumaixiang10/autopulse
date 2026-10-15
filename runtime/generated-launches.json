@@ -1997,6 +1997,25 @@
     "observation": "由日报新车事件自动写入；价格与上市日只取原文可追溯表述。"
   },
   {
+    "id": "launch-c2d17ca031b881cd",
+    "month": "2026-10",
+    "date": "2026-10-15",
+    "dateText": "10月15日",
+    "brand": "别克",
+    "model": "ID.ERA 5X",
+    "kind": "官宣",
+    "powertrain": "动力形式待公布",
+    "priceText": "价格待公布",
+    "status": "confirmed",
+    "statusLabel": "已官宣",
+    "sourceName": "凤凰网汽车",
+    "sourceUrl": "https://auto.ifeng.com/c/8xBVoVvk1My",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-10-13",
+    "detail": "最新投诉案例｜别克君越左右后门底边无事故返锈 前右车门侧边返锈严重 点击↑↑↑最新投诉案例登陆【财圈社汽车质量】小程序，30秒完成投诉全流程，你的每一条反馈都将直通车企、监管部门和千万车主圈。或者关注《道哥说车》《财圈社》公众号，点击下方导航条“汽车质量”，进行投诉，我们将帮助你维护正当权益。 大众ID.ERA 8X售20.68万起",
+    "observation": "已官宣但未形成可追溯的正式上市日；未公布价格记为待公布。"
+  },
+  {
     "id": "launch-a14030f0c9c25b5a",
     "month": "2026-10",
     "date": "2026-10-20",
