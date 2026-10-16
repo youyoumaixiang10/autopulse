@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-10-16T04:55:09.595Z",
+  "completedAt": "2026-10-16T06:04:46.685Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -117,8 +117,8 @@
       "brands": [
         "深蓝"
       ],
-      "status": "no-recent-updates",
-      "label": "列表可读 · 最近发布 2026-06-15"
+      "status": "failed",
+      "label": "读取异常"
     },
     {
       "id": "changan-qiyuan",
@@ -412,14 +412,14 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 30 条待核验线索"
+      "label": "列表已读 13 条待核验线索"
     },
     {
       "id": "netease-auto",
       "name": "网易汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 20 条待核验线索"
+      "label": "列表已读 21 条待核验线索"
     },
     {
       "id": "news18a-auto",

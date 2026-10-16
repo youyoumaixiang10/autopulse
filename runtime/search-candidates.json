@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-16T04:36:33.824Z",
+  "collectedAt": "2026-10-16T05:58:54.376Z",
   "targetDates": [
     "2026-10-15",
     "2026-10-16"
@@ -2498,7 +2498,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "9别克全新君越限时权益价14.99万元起，搭载豆包AI大模型112.34w",
+      "title": "8别克全新君越限时权益价14.99万元起，搭载豆包AI大模型120.06w",
       "url": "https://auto.news18a.com/news/storys_303737.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -2508,7 +2508,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "4哈弗大狗HEV混动版上市 限时换新价10.59万元起131.23w",
+      "title": "3哈弗大狗HEV混动版上市 限时换新价10.59万元起132.2w",
       "url": "https://auto.news18a.com/news/storys_300972.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -5267,7 +5267,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "6没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道121.09w",
+      "title": "6没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道125.2w",
       "url": "https://auto.news18a.com/news/storys_303056.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -8390,7 +8390,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "小鹏MONA L05开启预售",
+      "title": "16.98万起 小鹏MONA L05开启预售 10月29日上市",
       "url": "https://www.sohu.com/a/1088256319_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -8797,7 +8797,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "【国际快讯】墨西哥免征汽车零部件进口关税，为期5年；特斯拉发布会飞的Roadster；比亚迪敲定马来西亚组装伙伴",
+      "title": "【国际快讯】墨西哥免征汽车零部件进口关税，为期5年；特斯拉发布会飞的电动跑车；比亚迪敲定马来西亚组装伙伴",
       "url": "https://auto.gasgoo.com/news/202610/16I70475046C108.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-10-16",
@@ -9411,6 +9411,210 @@
       "discoveryPublishedAt": "2026-10-16",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "广和通与航盛电子重组成功",
+      "url": "https://auto.gasgoo.com/news/202610/16I70475056C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "以AI重构全球美好，2026奇瑞全球创新大会即将启幕",
+      "url": "https://auto.gasgoo.com/news/202610/16I70475052C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "1213公里不充电 宝马这台纯电车真能跑这么远？",
+      "url": "https://www.163.com/auto/article/L9C83V1C0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "从豪车高手到“电池专家”，为什么宝马先把大圆柱电池量产了？",
+      "url": "https://auto.ifeng.com/c/8xGim8yqywW",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】上汽荣威家越07预售小订超4万台，将于10月23日上市",
+      "url": "https://auto.ifeng.com/c/8xGgZayWz8n",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】27款坦克500于10月16日开启预订",
+      "url": "https://auto.ifeng.com/c/8xGg16TT0Fj",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】东风风神L8+将于10月23日上市",
+      "url": "https://auto.ifeng.com/c/8xGewjYrVyr",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】工信部杨旭东在2026世界储能大会上提出新型电池产业需突出供需适配",
+      "url": "https://auto.ifeng.com/c/8xGfvIsoltg",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽荣威家越07预售小订超4万台，将于10月23日上市",
+      "url": "https://auto.news18a.com/news/storys_305483.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "27款坦克500于10月16日开启预订",
+      "url": "https://www.news18a.com/news/storys_305482.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "东风风神L8+将于10月23日上市",
+      "url": "https://www.news18a.com/news/storys_305481.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪预告第三代唐将首发搭载全新巨幕UI交互系统及AI萌宠桌面",
+      "url": "https://www.news18a.com/news/storys_305477.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉发布第二代Roadster跑车，中国官网开放预订意向金33.2万元",
+      "url": "https://auto.news18a.com/news/storys_305474.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "东芯半导体2026年10月同期亮相深圳湾芯展与上海工博会",
+      "url": "https://www.news18a.com/news/storys_305470.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽丰田焕新认证二手车服务体系 服务承诺扩充至15项",
+      "url": "https://auto.news18a.com/news/storys_305466.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "汽车整车板块异动 江淮汽车涨停",
+      "url": "https://www.news18a.com/news/storys_305462.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奕境汽车品牌总经理曾清林通报奕境X9交付进展：选装配置验证完成，物料储备到位",
+      "url": "https://auto.news18a.com/news/storys_305461.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "现代汽车集团计划到2032年在印度投资155亿美元",
+      "url": "https://www.news18a.com/news/storys_305456.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克回应第二代 Roadster 跑车能否合法上路：能不能要看道路情况",
+      "url": "https://www.ithome.com/1/013/869.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长城 27 款坦克 500 开启预订：可选 Hi4-T / Hi4-Z 混动或燃油版",
+      "url": "https://www.ithome.com/1/013/851.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -9506,17 +9710,17 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 30,
+      "candidateCount": 13,
       "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "publicLabel": "列表已读 13 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 20,
+      "candidateCount": 21,
       "status": "ok",
-      "publicLabel": "列表已读 20 条待核验线索"
+      "publicLabel": "列表已读 21 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
