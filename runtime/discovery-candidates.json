@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-15T09:12:49.481Z",
+  "collectedAt": "2026-10-16T00:15:22.584Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2685,6 +2685,69 @@
         "零跑"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "尺寸升级 五座布局+前备厢+可选激光雷达 一文看懂全新比亚迪海鸥",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317793.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "尊界汽车发表声明：积极响应、完全服从并将全力配合调查组的工作",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317796.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "工信部等三部门联合调查有关车辆刹车踏板支架断裂问题",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317795.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "16.98万元起 全新中型SUV 增程纯电双动力 小鹏MONA L05开启预售",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317794.html",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "理想i6针对欧洲市场做改动",
+      "url": "https://www.dongchedi.com/article/7696712913867981374",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -2692,7 +2755,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 29
+      "count": 28
     },
     {
       "sourceId": "autohome-industry",
@@ -2703,7 +2766,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-15T09:12:33.475Z",
+      "collectedAt": "2026-10-16T00:15:06.935Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 39,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
