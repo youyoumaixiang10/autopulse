@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-16T00:15:22.584Z",
+  "collectedAt": "2026-10-16T04:36:25.035Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2702,7 +2702,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "尊界汽车发表声明：积极响应、完全服从并将全力配合调查组的工作",
+      "title": "余承东回应 尊界汽车声明：完全服从并将全力配合调查组的工作",
       "sourceMonth": "2026-10",
       "url": "https://www.autohome.com.cn/news/202610/1317796.html",
       "candidateBrands": [
@@ -2748,6 +2748,30 @@
         "理想"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "第四季度内上市 全新一代比亚迪唐将首搭全新巨幕UI交互系统",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317799.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "可回收火箭一样移动？特斯拉全新Roadster发布 刷新认知 国内可订",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317798.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -2755,7 +2779,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 28
+      "count": 27
     },
     {
       "sourceId": "autohome-industry",
@@ -2766,7 +2790,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-16T00:15:06.935Z",
+      "collectedAt": "2026-10-16T04:36:09.130Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 39,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

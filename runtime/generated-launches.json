@@ -2016,6 +2016,25 @@
     "observation": "已官宣但未形成可追溯的正式上市日；未公布价格记为待公布。"
   },
   {
+    "id": "launch-f3e3c5450e4146f4",
+    "month": "2026-10",
+    "date": "2026-10-23",
+    "dateText": "10月23日",
+    "brand": "东风",
+    "model": "L8",
+    "kind": "计划上市",
+    "powertrain": "插混",
+    "priceText": "价格待公布",
+    "status": "estimated",
+    "statusLabel": "未官宣",
+    "sourceName": "IT之家",
+    "sourceUrl": "https://www.ithome.com/1/013/846.htm",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-10-16",
+    "detail": "IT之家 10 月 16 日消息，据易车消息，东风风神 L8+ 将于 10 月 23 日正式上市。 新车搭载天元智驾 T800，采用 Momenta R7 世界模型，配备英伟达 Thor-U 芯片，算力可达 700TOPS，支持城市和高速 NOA。 动力方面，东风风神 L8+ 搭载 1.5T 发动机 + 电机组成的插电混动系统。",
+    "observation": "尚未看到正式上市报道，日历只保留原文写出的时间窗口。"
+  },
+  {
     "id": "launch-0107a854d2327ab2",
     "month": "2026-10",
     "date": "2026-10-28",
