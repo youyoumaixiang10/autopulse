@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-17T00:13:56.560Z",
+  "collectedAt": "2026-10-17T04:32:05.392Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2828,6 +2828,38 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "30项功能更新 辅助驾驶+智能座舱 乐道椰子智能系统3.3.0版本升级",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317827.html",
+      "candidateBrands": [
+        "乐道"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "共计2辆 可能引发燃油微量渗出 梅赛德斯-奔驰AMG GT召回",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317826.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "超4000辆 燃油加油管内部密封圈可能破损 讴歌TLX/讴歌TLX-L召回",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317825.html",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -2835,7 +2867,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 22
+      "count": 25
     },
     {
       "sourceId": "autohome-industry",
@@ -2846,7 +2878,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-17T00:13:40.642Z",
+      "collectedAt": "2026-10-17T04:31:49.707Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 39,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

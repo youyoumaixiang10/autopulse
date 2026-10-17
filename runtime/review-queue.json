@@ -819,6 +819,7 @@
     "sourceName": "新浪汽车",
     "url": "https://k.sina.cn/article_7857201856_1d45362c001908n84a.html",
     "reasons": [
+      "缺少原文发布日期",
       "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
@@ -4913,7 +4914,6 @@
     "url": "https://www.pcauto.com.cn/nation/4352/43527923.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -4932,7 +4932,6 @@
     "url": "https://www.pcauto.com.cn/nation/5186/51869675.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -4951,7 +4950,6 @@
     "url": "https://www.pcauto.com.cn/nation/5186/51865864.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -5654,7 +5652,7 @@
     ]
   },
   {
-    "title": "8别克全新君越限时权益价14.99万元起，搭载豆包AI大模型120.06w",
+    "title": "6别克全新君越限时权益价14.99万元起，搭载豆包AI大模型117.2w",
     "sourceName": "网通社",
     "url": "https://auto.news18a.com/news/storys_303737.html",
     "reasons": [
@@ -5664,7 +5662,7 @@
     ]
   },
   {
-    "title": "3哈弗大狗HEV混动版上市 限时换新价10.59万元起132.2w",
+    "title": "8哈弗大狗HEV混动版上市 限时换新价10.59万元起112.37w",
     "sourceName": "网通社",
     "url": "https://auto.news18a.com/news/storys_300972.html",
     "reasons": [
@@ -5787,7 +5785,6 @@
     "url": "https://www.pcauto.com.cn/nation/5187/51872616.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -6656,7 +6653,7 @@
     ]
   },
   {
-    "title": "6没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道125.2w",
+    "title": "11没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道101.04w",
     "sourceName": "网通社",
     "url": "https://auto.news18a.com/news/storys_303056.html",
     "reasons": [
@@ -6666,7 +6663,7 @@
     ]
   },
   {
-    "title": "MINI保罗·史密斯特别版上市",
+    "title": "MINI PAUL SMITH版上市",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1087545218_430526",
     "reasons": [
@@ -6976,7 +6973,7 @@
     ]
   },
   {
-    "title": "焕新价12.59万起 全新捷途旅行者7正式上市",
+    "title": "捷途旅行者7新车上市",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1087788254_430526",
     "reasons": [
@@ -8027,7 +8024,7 @@
     ]
   },
   {
-    "title": "小鹏MONA L05开启预售",
+    "title": "16.98万起 小鹏MONA L05开启预售 10月29日上市",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1088256319_430526",
     "reasons": [
@@ -8672,7 +8669,7 @@
     ]
   },
   {
-    "title": "领克900L新车前脸曝光",
+    "title": "领克900L新车申报 全新前脸设计",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1088684391_430526",
     "reasons": [
@@ -8696,6 +8693,295 @@
     "url": "https://www.ithome.com/1/014/208.htm",
     "reasons": [
       "频道问候或无具体车型事件的周期汇总"
+    ]
+  },
+  {
+    "title": "凯迪拉克XT5 PHEV智混四驱Air版上市",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1088691462_258768",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "理想全新MPV",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1088691025_392904",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "特斯拉新车起飞的秘密 我们找到了",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1088696693_742622",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "直击巴黎车展｜法雷奥：出海不止出口",
+    "sourceName": "盖世汽车",
+    "url": "https://auto.gasgoo.com/news/202610/16I70475137C1203.shtml",
+    "reasons": [
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "汽车测评者不能既当运动员又当裁判员",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1088737481_121777",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "小鹏产品线整合",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1088730571_114778",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "上海徐浦大桥主桥面发生交通事故致1死2伤",
+    "sourceName": "网通社",
+    "url": "https://auto.news18a.com/news/storys_305749.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "长安汽车新任董事长赵非在媒体沟通会上称将聚焦海外发展",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305748.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "中国长安汽车与长安汽车发布管理层人事调整公告",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305747.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "北京市政府发布“十五五”时期现代综合交通运输体系发展规划",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305746.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "奥迪与保时捷就下一代A8生产地点展开磋商，莱比锡为主要候选地",
+    "sourceName": "网通社",
+    "url": "https://auto.news18a.com/news/storys_305742.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "广汽传祺越7四驱卫星通信版上市，官方指导价22.58万元",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305743.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "一汽-大众纯电轿车ID.AURA L5于10月16日登陆工信部产品公示名单",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305740.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "智驭向新・智能底盘前瞻技术展“走进大底盘”于10月16日举办",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305745.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "梅赛德斯-奔驰与英伟达宣布扩大自动驾驶战略合作",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305739.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "长安汽车换帅 理想汽车芯片子公司完成首轮16.25亿元融资 四部门组织30余家车企座谈 吉利控股集团与谷歌达成全球战略合作",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305736.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "中汽协：2026年1-9月新能源汽车产销分别完成1248.3万辆和1247.2万辆",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305738.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "零跑B10在西班牙萨拉戈萨工厂启动量产",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305588.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "四部门组织30余家车企座谈 解读汽车产品创新设计和研发测试验证管理通知",
+    "sourceName": "网通社",
+    "url": "https://auto.news18a.com/news/storys_305737.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "奇瑞绿能与国网安徽电力明生集团签约 首个车网互联V2G规模化运营场站启用",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305585.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "2026先进电池产业集群论坛在深圳举行，欣旺达创始人王明旺出席致辞",
+    "sourceName": "网通社",
+    "url": "https://auto.news18a.com/news/storys_305584.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "阿维塔07L增程版完成工信部第412批新车申报",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305583.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "理想汽车公布2026款理想i6智能座舱升级信息",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305576.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "泰矽微发布TCAE15系列车规级触摸传感控制器",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305575.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "一汽-大众探歌L完成工信部第412批新车申报",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305573.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "车市问答车市热点，以国际视野与专业逻辑，解答车市关键问题刹车踏板断裂，常识遭遇鬼扯2026-10-16",
+    "sourceName": "网通社",
+    "url": "https://auto.news18a.com/news/storys_305498.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "奥地利集团Obrist破产 旗下3家公司合计负债约3180万欧元",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305566.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "声势集访谈与行业洞察于一体，聚焦汽车领域前沿议题AI原生走进主流价位，荣威想让更多家庭用得上2026-09-24",
+    "sourceName": "网通社",
+    "url": "https://auto.news18a.com/news/storys_299732.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "热点时评聚焦热议话题，提供深度评论，解析行业现象从“造车”到“造生态”：硬派越野赛道进入用户经营时代2026-09-29",
+    "sourceName": "网通社",
+    "url": "https://auto.news18a.com/news/storys_300966.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
     ]
   },
   {
