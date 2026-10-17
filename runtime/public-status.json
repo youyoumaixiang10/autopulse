@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-10-16T06:04:46.685Z",
+  "completedAt": "2026-10-17T00:38:49.842Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -18,8 +18,8 @@
         "比亚迪",
         "腾势"
       ],
-      "status": "no-recent-updates",
-      "label": "列表可读 · 最近发布 2026-10-01"
+      "status": "collected",
+      "label": "已读 169 条"
     },
     {
       "id": "li-auto-news",
@@ -109,7 +109,7 @@
         "吉利银河"
       ],
       "status": "partial",
-      "label": "新闻接口可读，但返回条目没有可公开访问的详情链接"
+      "label": "官网新闻接口暂不可读"
     },
     {
       "id": "deepal-news",
@@ -117,8 +117,8 @@
       "brands": [
         "深蓝"
       ],
-      "status": "failed",
-      "label": "读取异常"
+      "status": "no-recent-updates",
+      "label": "列表可读 · 最近发布 2026-06-15"
     },
     {
       "id": "changan-qiyuan",
@@ -163,7 +163,7 @@
       "name": "工业和信息化部",
       "brands": [],
       "status": "ok",
-      "label": "已读 1 条"
+      "label": "已读 3 条"
     },
     {
       "id": "byd-weibo",
@@ -314,7 +314,7 @@
       "name": "汽车之家资讯",
       "brands": [],
       "status": "ok",
-      "label": "已读 27 条"
+      "label": "已读 22 条"
     },
     {
       "id": "autohome-industry",
@@ -335,7 +335,7 @@
       "name": "新浪汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 19 条待核验线索"
+      "label": "列表已读 20 条待核验线索"
     },
     {
       "id": "ifeng-auto",
@@ -349,7 +349,7 @@
       "name": "易车",
       "brands": [],
       "status": "partial",
-      "label": "直连列表与公开检索均未匹配"
+      "label": "公开检索发现 2 条待核验线索"
     },
     {
       "id": "cailianpress-auto",
@@ -363,14 +363,14 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 10 条待核验线索"
+      "label": "列表已读 8 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
       "name": "盖世汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 27 条待核验线索"
+      "label": "列表已读 21 条待核验线索"
     },
     {
       "id": "chezhitong-auto",
@@ -412,21 +412,21 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 13 条待核验线索"
+      "label": "列表已读 27 条待核验线索"
     },
     {
       "id": "netease-auto",
       "name": "网易汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 21 条待核验线索"
+      "label": "列表已读 23 条待核验线索"
     },
     {
       "id": "news18a-auto",
       "name": "网通社",
       "brands": [],
-      "status": "ok",
-      "label": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "label": "直连列表暂不可读，将回退公开检索"
     }
   ]
 }
