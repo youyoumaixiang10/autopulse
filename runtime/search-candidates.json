@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-17T04:32:15.509Z",
+  "collectedAt": "2026-10-17T05:43:51.640Z",
   "targetDates": [
     "2026-10-16",
     "2026-10-17"
@@ -2498,7 +2498,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "6别克全新君越限时权益价14.99万元起，搭载豆包AI大模型117.2w",
+      "title": "10别克全新君越限时权益价14.99万元起，搭载豆包AI大模型111.2w",
       "url": "https://auto.news18a.com/news/storys_303737.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -2508,7 +2508,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "8哈弗大狗HEV混动版上市 限时换新价10.59万元起112.37w",
+      "title": "2哈弗大狗HEV混动版上市 限时换新价10.59万元起138.84w",
       "url": "https://auto.news18a.com/news/storys_300972.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -5267,7 +5267,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "11没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道101.04w",
+      "title": "3没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道137.82w",
       "url": "https://auto.news18a.com/news/storys_303056.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -10625,6 +10625,97 @@
       "sourceType": "vertical-media",
       "title": "三星电子美国泰勒第二晶圆厂计划 2026 年 11 月动工",
       "url": "https://www.ithome.com/1/014/216.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第三代唐EV双电机四驱版完成工信部申报",
+      "url": "https://auto.news18a.com/news/storys_305755.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上海徐浦大桥主桥面发生交通事故致1死2伤",
+      "url": "https://www.news18a.com/news/storys_305749.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "广汽传祺越7四驱卫星通信版上市，官方指导价22.58万元",
+      "url": "https://auto.news18a.com/news/storys_305743.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奥迪与保时捷就下一代A8生产地点展开磋商，莱比锡为主要候选地",
+      "url": "https://www.news18a.com/news/storys_305742.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中汽协：2026年1-9月新能源汽车产销分别完成1248.3万辆和1247.2万辆",
+      "url": "https://auto.news18a.com/news/storys_305738.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "四部门组织30余家车企座谈 解读汽车产品创新设计和研发测试验证管理通知",
+      "url": "https://www.news18a.com/news/storys_305737.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "阿维塔07L增程版完成工信部第412批新车申报",
+      "url": "https://auto.news18a.com/news/storys_305583.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026先进电池产业集群论坛在深圳举行，欣旺达创始人王明旺出席致辞",
+      "url": "https://www.news18a.com/news/storys_305584.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第三代唐四驱版申报：双电机峰值功率 215、300 kW，四季度上市",
+      "url": "https://www.ithome.com/1/014/267.htm",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-10-17",
       "verificationStatus": "media-discovery",
