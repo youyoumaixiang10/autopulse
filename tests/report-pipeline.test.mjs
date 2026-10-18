@@ -1284,3 +1284,100 @@ test('complaint ads, 时评 leftovers, and unrelated presales do not share a hig
   assert.equal(cards.some(story => /时评/u.test(story.title)), false);
   assert.ok(built.reviewQueue.some(item => item.url === digest.url));
 });
+test('a weekly digest stays out of highlights and brand columns, and the same roundup is one card', () => {
+  assert.ok(titleQualityIssues('本周，国内外汽车行业有哪些大事发生？').includes('标题是频道问候或栏目导语'));
+  const issueNow = new Date('2026-10-18T12:00:00+08:00');
+  const gasgoo = record(40, {
+    title: '盖世周报 | 中欧汽车贸易磋商达成共识；三部门联合调查尊界V800刹车问题',
+    brands: ['鸿蒙智行'],
+    sourceName: '盖世汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-18',
+    publishedTime: '2026-10-18',
+    contentParagraphs: [
+      '本周，国内外汽车行业有哪些大事发生？',
+      '中欧汽车贸易磋商达成共识，车企密集回应',
+      '10月14日，中欧在贸易投资磋商机制下，就混动汽车、电动汽车贸易问题达成共识。奇瑞、比亚迪、长安、零跑、东风、广汽作出回应。',
+      '10月15日晚间，工业和信息化部针对尊界V800刹车踏板支架断裂问题成立联合调查组，尊界汽车表示将配合调查。',
+      '10月16日，理想汽车宣布芯片子公司完成16.25亿元融资。小鹏发布智能汽车解决方案。'
+    ]
+  });
+  const flash = record(41, {
+    title: '【网通社快报】中欧就汽车贸易磋商达成共识，三部门调查尊界V800刹车问题，多家车企公布业务进展',
+    brands: ['鸿蒙智行', '比亚迪', '零跑', '理想', '小鹏'],
+    sourceName: '凤凰网汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-18',
+    publishedTime: '2026-10-18T07:12:00+08:00',
+    contentParagraphs: [
+      '10月14日，中欧在贸易投资磋商机制下，就混动汽车、电动汽车贸易问题进行磋商并达成共识。奇瑞、比亚迪、长安、零跑、东风、广汽对此作出回应。10月15日晚间，工业和信息化部针对尊界V800刹车踏板支架断裂问题成立联合调查组。10月16日，理想汽车宣布芯片子公司完成16.25亿元融资。10月13日，小鹏发布智能汽车解决方案，比亚迪计划在欧洲再建工厂。'
+    ]
+  });
+  const roadster = record(42, {
+    title: '【网通社快报】马斯克称新款特斯拉Roadster可自主完成特技动作，得州总部将建环形赛道',
+    brands: ['特斯拉'],
+    sourceName: '凤凰网汽车',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-18',
+    publishedTime: '2026-10-18',
+    contentParagraphs: ['10月18日，埃隆·马斯克表示，新款特斯拉Roadster车主可以指令车辆自主完成发布活动上演示的特技动作，并称将在得州总部建造环形赛道。']
+  });
+  const talks = record(43, {
+    title: '中欧汽车贸易磋商达成共识，长安、零跑、东风、广汽发布声明支持',
+    brands: ['零跑'],
+    sourceName: '汽车之家',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-18',
+    publishedTime: '2026-10-18',
+    contentParagraphs: ['10月14日，长安汽车、零跑汽车、东风汽车及广汽集团发布声明，支持中欧贸易投资磋商机制取得的成果。']
+  });
+  const probe = record(44, {
+    title: '工业和信息化部发布消息针对尊界V800汽车刹车踏板支架断裂问题',
+    brands: ['鸿蒙智行'],
+    sourceName: '汽车之家',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-18',
+    publishedTime: '2026-10-18',
+    contentParagraphs: ['10月15日晚，工业和信息化部发布消息称，针对尊界V800汽车刹车踏板支架断裂问题，工业和信息化部、中央网信办、市场监管总局成立联合调查组。尊界汽车表示将配合调查。']
+  });
+  const launch = record(45, {
+    title: '零跑A10s正式上市',
+    brands: ['零跑'],
+    sourceName: 'IT之家',
+    sourceType: 'vertical-media',
+    publishedAt: '2026-10-18',
+    publishedTime: '2026-10-18',
+    contentParagraphs: ['10月18日，零跑汽车宣布零跑A10s正式上市，上市指导价9.28万元。']
+  });
+  const built = buildReports([gasgoo, flash, roadster, talks, probe, launch], { [gasgoo.url]: { important: true } }, issueNow);
+  const report = built.reports['2026-10-18'];
+  const brandStories = Object.values(report.brands).flat();
+  const cards = [...report.highlights, ...(report.otherBrands || []), ...report.industry, ...brandStories];
+  const digestCards = cards.filter(story => (story.sourceLinks || []).some(link => link.name === '盖世汽车'));
+  assert.equal(digestCards.length, 1);
+  const digest = digestCards[0];
+  assert.equal(report.highlights.some(story => story.id === digest.id), false);
+  assert.equal(brandStories.some(story => story.id === digest.id), false);
+  assert.equal(report.industry.filter(story => story.id === digest.id).length, 1);
+  assert.ok(digest.sourceLinks.some(link => link.name === '凤凰网汽车'));
+  assert.equal(digest.sourceLinks.length, 2);
+  assert.match(digest.title, /中欧/);
+  assert.match(digest.title, /尊界|V800/u);
+  assert.doesNotMatch(digest.title, /盖世周报|网通社快报|本周/);
+  assert.doesNotMatch(digest.summary, /本周[，,]|有哪些大事/);
+  assert.equal(report.highlights.some(story => /盖世周报|有哪些大事|多家车企公布业务进展/u.test(story.title)), false);
+  assert.equal(brandStories.some(story => /盖世周报|有哪些大事|多家车企公布业务进展/u.test(`${story.title} ${story.summary}`)), false);
+  const probeCard = cards.find(story => /尊界V800/u.test(story.title) && /刹车/u.test(story.title) && story.id !== digest.id);
+  const talksCard = cards.find(story => /长安/u.test(story.title) && /磋商/u.test(story.title));
+  assert.ok(probeCard);
+  assert.ok(talksCard);
+  assert.notEqual(probeCard.id, digest.id);
+  assert.notEqual(talksCard.id, digest.id);
+  assert.equal((probeCard.sourceLinks || []).some(link => link.name === '盖世汽车'), false);
+  assert.equal((talksCard.sourceLinks || []).some(link => link.name === '盖世汽车'), false);
+  assert.ok(report.brands['鸿蒙智行'].some(story => story.id === probeCard.id));
+  assert.ok(report.brands['特斯拉'].some(story => /Roadster/u.test(story.title)));
+  assert.equal(report.brands['特斯拉'].some(story => story.id === digest.id), false);
+  assert.ok(report.highlights.some(story => /A10s/u.test(story.title)));
+  assert.ok(report.brands['零跑'].some(story => /A10s/u.test(story.title)));
+});

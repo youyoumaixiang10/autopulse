@@ -9,7 +9,7 @@ const importantPattern = /上市|预售|发布会|官宣|降价|权益|交付|�
 const explicitResponsePattern = /辟谣|澄清|(?:网传|事故|传闻|质疑|争议|投诉|首撞|维权|质量|攻防).{0,24}回应|回应.{0,24}(?:网传|事故|传闻|质疑|争议|投诉|首撞|维权|质量|攻防)/u;
 const titlePreamblePattern = /^(?:我们|日前|目前|根据(?:此前)?信息|据(?:悉|报道|了解)|报道称|消息称|官方发布|当地时间|报道(?:\s|[，,：:]))/u;
 const titleSourcePattern = /(?:微博视频|公众号文章|官方微博|的微博)/u;
-const channelTeaserPattern = /IT早报|大家好[，,\s]*现在是|今天的重要科技资讯|^本期内容我们将为大家带来|咱们明天见/u;
+const channelTeaserPattern = /IT早报|大家好[，,\s]*现在是|今天的重要科技资讯|^本期内容我们将为大家带来|咱们明天见|本周[，,][^。]{0,24}有哪些大事/u;
 const wireTitlePattern = /^(?:[\u4e00-\u9fffA-Za-z]{0,16})?(?:记者)?从(?:官方|相关渠道|知情人士处?|多方渠道|业内人士处?)(?:获悉|了解到|获取)/u;
 export function isTeaserText(text) {
   const value = cleanText(text);
@@ -121,6 +121,7 @@ function mediaPresentationTitle(title) {
   const mediaNames = '新浪财经|新浪科技|新浪网|新浪汽车|网通社|凤凰网汽车|凤凰网|汽车之家|懂车帝|易车网|IT之家|财联社|观点网';
   return cleanText(title)
     .replace(new RegExp(`^[【[]\\s*(?:${mediaNames})(?:快报|报道|资讯)?\\s*[】]\\s*`, 'u'), '')
+    .replace(/^[\u4e00-\u9fffA-Za-z]{0,8}周报\s*[|｜丨]\s*/u, '')
     .replace(new RegExp(`(?:\\s*[_|｜]\\s*(?:${mediaNames}))+\\s*$`, 'u'), '')
     .replace(new RegExp(`\\s+-\\s*(?:${mediaNames})\\s*$`, 'u'), '')
     .trim();
@@ -601,6 +602,8 @@ function alignedHeadline(article) {
 }
 function displayTitle(article, issueDate) {
   const sourceText = (article.contentParagraphs || []).filter(Boolean)[0] || article.title;
+  const digestHeadline = weeklyDigestHeadline(article);
+  if (digestHeadline) return normalizeRelativeTime(digestHeadline, issueDate);
   if (article.sourceType === 'official-social') {
     const eventTitle = socialEventTitle(sourceText);
     if (eventTitle) return normalizeRelativeTime(eventTitle, issueDate);
@@ -707,6 +710,7 @@ function isPreviewTeaserText(text) {
   const value = cleanText(text);
   if (!value) return false;
   if (/本期内容我们(?:将)?为(?:大家|您)带来|本期为您|一周新车|本周将迎来多款|大家可以继续关注我们后续/u.test(value)) return true;
+  if (/本周[，,][^。]{0,24}有哪些大事/u.test(value)) return true;
   if (/一起来看/u.test(value) && !isSingleModelNews(value)) return true;
   if (/新车预告/u.test(value) && !isSingleModelNews(value)) return true;
   if (isDateRange(value) && /预告|前瞻|盘点|一览|导语/u.test(value) && !isSingleModelNews(value)) return true;
@@ -728,6 +732,10 @@ function factualPoint(sentence) {
   return factCue.test(sentence) && !isPreviewTeaserText(sentence);
 }
 function sourceSummary(article, issueDate, titleToAvoid = '') {
+  if (isMetaDigest(article, titleToAvoid)) {
+    const digestSummary = packSummary(summarySentences(article, true).filter(sentence => !nearlySameCopy(sentence, titleToAvoid) && !isWeeklyColumnText(sentence)), issueDate);
+    if (digestSummary && !blockedSummary(digestSummary)) return digestSummary;
+  }
   const sentences = summarySentences(article, false);
   const summary = packSummary(sentences, issueDate);
   const duplicate = Boolean(titleToAvoid) && nearlySameCopy(summary, titleToAvoid);
@@ -1240,6 +1248,9 @@ function roundupSplit(a, b) {
 function samePublishedEvent(a, b) {
   if (a.issueDate !== b.issueDate) return false;
   if (a.note?.eventKey && b.note?.eventKey && a.note.eventKey !== b.note.eventKey) return false;
+  const digestA = isMetaDigest(a.article, a.editorialTitle);
+  const digestB = isMetaDigest(b.article, b.editorialTitle);
+  if (digestA || digestB) return digestA && digestB && sameMetaDigest(a, b);
   if (roundupSplit(a, b)) return false;
   if (sameIndustryEvent(a, b)) return true;
   const modelsA = storyModels(a);
@@ -1337,6 +1348,23 @@ function clusterGroups(groups) {
       }
     }
   }
+  const digestGroups = new Map();
+  items.forEach(([, entries], index) => {
+    if (!entries.some(entry => isMetaDigest(entry.article, entry.editorialTitle))) return;
+    const id = entries[0].issueDate;
+    const list = digestGroups.get(id) || [];
+    if (!list.includes(index)) list.push(index);
+    digestGroups.set(id, list);
+  });
+  for (const indexes of digestGroups.values()) {
+    for (let left = 0; left < indexes.length; left += 1) {
+      for (let right = left + 1; right < indexes.length; right += 1) {
+        const leftEntries = items[indexes[left]][1];
+        const rightEntries = items[indexes[right]][1];
+        if (leftEntries.some(entry => rightEntries.some(other => sameMetaDigest(entry, other)))) union(indexes[left], indexes[right]);
+      }
+    }
+  }
   const clustered = new Map();
   items.forEach(([key, entries], index) => {
     const root = find(index);
@@ -1399,7 +1427,82 @@ function isIndustryPolicy(article, title) {
   if (/申报/u.test(heading) && mentionedMakers(heading).length <= 1) return false;
   return /工信部|国家标准|征求意见稿|(?:汽车|行业|产品).{0,8}新规|新规.{0,12}(?:门把手|座椅|创新设计)/u.test(heading);
 }
+function isWeeklyColumnText(text) {
+  const value = cleanText(text);
+  if (!value) return false;
+  if (/^[\u4e00-\u9fffA-Za-z]{0,8}周报\s*[|｜丨]/u.test(value)) return true;
+  if (/^一周(?:汽车|行业)?(?:大事|盘点|综述|要闻|观察|速览)/u.test(value)) return true;
+  if (/本周[，,][^。]{0,24}有哪些大事/u.test(value)) return true;
+  return false;
+}
+function newsClauseSignature(part) {
+  const subject = part.match(/中欧|工信部|三部门|商务部|乘联会|中汽协/u)?.[0] || '';
+  const makers = mentionedMakers(part).slice().sort().join('+');
+  const event = part.match(/磋商|共识|调查|刹车|制动|踏板|融资|工厂|上市|召回|交付|销量|亮相|预售|官宣|申报|谍照|合作|解决方案|业务进展/u)?.[0] || '';
+  if (!subject && !makers && !event) return '';
+  return `${subject}|${makers}|${event}`;
+}
+function distinctDates(text) {
+  return new Set([...cleanText(text).matchAll(/\d{1,2}月\d{1,2}日/gu)].map(match => match[0])).size;
+}
+function bundledFlashClauses(text) {
+  return cleanText(text)
+    .replace(/^【[^】]{0,16}】/u, '')
+    .replace(/^[\u4e00-\u9fffA-Za-z]{0,8}周报\s*[|｜丨]\s*/u, '')
+    .split(/[，,；;|｜]/u)
+    .map(cleanText)
+    .filter(part => part.length >= 6);
+}
+function isBundledNewsFlash(article, editorialTitle = '') {
+  const rawTitle = cleanText(article?.title || '');
+  const heading = cleanText(`${rawTitle} ${editorialTitle || ''}`);
+  if (!/多家车企|一周|盘点|综述|周报|业务进展|快报/u.test(heading)) return false;
+  const clauses = bundledFlashClauses(rawTitle);
+  if (clauses.length < 3) return false;
+  const events = new Set(clauses.map(newsClauseSignature).filter(Boolean).map(signature => signature.split('|')[2]).filter(Boolean));
+  if (events.size < 2) return false;
+  const body = cleanText((article?.contentParagraphs || []).join(' '));
+  return mentionedMakers(body).length >= 3 && distinctDates(body) >= 3;
+}
+function isMetaDigest(article, editorialTitle = '') {
+  if ([article?.title, (article?.contentParagraphs || [])[0], editorialTitle].some(isWeeklyColumnText)) return true;
+  return isBundledNewsFlash(article, editorialTitle);
+}
+function digestMatchClauses(entry) {
+  return bundledFlashClauses(entry?.article?.title || '').filter(part => part.length >= 8 && !/^(?:多家车企|本周|一周)/u.test(part));
+}
+function sameMetaDigest(a, b) {
+  if (a.issueDate !== b.issueDate) return false;
+  if (!isMetaDigest(a.article, a.editorialTitle) || !isMetaDigest(b.article, b.editorialTitle)) return false;
+  const left = digestMatchClauses(a);
+  const right = digestMatchClauses(b);
+  if (left.length < 2 || right.length < 2) return false;
+  const used = new Set();
+  let shared = 0;
+  for (const clause of left) {
+    const key = clusterTitle(clause);
+    const index = right.findIndex((other, otherIndex) => {
+      if (used.has(otherIndex)) return false;
+      const otherKey = clusterTitle(other);
+      return Boolean(key) && (key === otherKey || titleDice(key, otherKey) >= 0.55);
+    });
+    if (index === -1) continue;
+    used.add(index);
+    shared += 1;
+  }
+  return shared >= 2;
+}
+function weeklyDigestHeadline(article) {
+  if (!isMetaDigest(article, '')) return '';
+  const presented = mediaPresentationTitle(article.title);
+  if (!presented || presented.length < 8 || presented.length > 42) return '';
+  if (isWeeklyColumnText(presented) || isTeaserText(presented) || isGenericDigestTitle(presented)) return '';
+  if (titleQualityIssues(presented).length) return '';
+  if (!namesNewsSubject(presented) && !/磋商|调查|共识|刹车|融资|工厂/u.test(presented)) return '';
+  return presented;
+}
 function isCrossBrandDigest(article, title) {
+  if (isMetaDigest(article, title)) return true;
   const heading = cleanText(`${article.title || ''} ${title || ''}`);
   const lead = cleanText(`${heading} ${(article.contentParagraphs || [])[0] || ''}`);
   if (outsideRankingLeads(lead)) return false;
@@ -1509,7 +1612,7 @@ export function buildReports(articles, notes, now = new Date()) {
       evidenceStatus: article.evidenceStatus, evidenceLabel: evidenceLabels[article.evidenceStatus],
       editorialStatus: note.details ? 'prepared' : 'source-record',
       sourceLinks: [...new Map(group.map(({ article: item }) => [item.url, { name: item.sourceName, url: item.url, publishedAt: item.publishedAt, label: evidenceLabels[item.evidenceStatus] }])).values()],
-      important: group.some(item => isPreviewTeaserArticle(item.article, item.editorialTitle)) ? false
+      important: group.some(item => isPreviewTeaserArticle(item.article, item.editorialTitle) || isMetaDigest(item.article, item.editorialTitle)) ? false
         : group.some(item => item.note.important === true) ? true
           : group.some(item => item.note.important === false) ? false
             : group.some(item => isAutomaticallyImportant(item.article, item.brands)) && !staleHighlight && !commentaryHighlight && !gluedHighlight
@@ -1718,7 +1821,7 @@ export function qualifiesForLaunchCalendar(text) {
   const value = cleanText(text);
   if (!value) return false;
   if (isTeaserText(value) || isPreviewTeaserText(value) || isHardTeaser(value)) return false;
-  if (/IT早报|一周新车|新车预告|周预告|频道导语|大家好[，,\s]*现在是|本期内容我们/u.test(value)) return false;
+  if (/IT早报|一周新车|新车预告|周预告|频道导语|大家好[，,\s]*现在是|本期内容我们/u.test(value) || isWeeklyColumnText(value)) return false;
   if (isPartnershipAnnouncement(value) || isEarningsReport(value) || isUserPortrait(value)) return false;
   if (/海外上市|欧洲上市/u.test(value) && !/国内[^。]{0,8}上市/u.test(value)) return false;
   if (/新车谍照\s*[丨|]/u.test(value)) return false;
