@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-18T04:38:58.010Z",
+  "collectedAt": "2026-10-18T06:04:56.105Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2906,6 +2906,18 @@
         "零跑"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小鹏GX大规模发运中东非市场 中东订单已突破3000辆",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317837.html",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -2913,7 +2925,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 25
+      "count": 26
     },
     {
       "sourceId": "autohome-industry",
@@ -2924,7 +2936,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-18T04:38:42.184Z",
+      "collectedAt": "2026-10-18T06:04:40.329Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 46,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
