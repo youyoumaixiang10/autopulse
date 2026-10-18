@@ -1,11 +1,11 @@
 {
-  "collectedAt": "2026-10-17T05:43:40.883Z",
+  "collectedAt": "2026-10-18T00:14:30.471Z",
   "discoveryVersion": 7,
   "providerStatus": "skipped",
   "reason": "日报默认不调用 OpenAI。线索来自官网、媒体列表和必应搜索，标题使用本地规则。",
   "targetDates": [
-    "2026-10-16",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-18"
   ],
   "jobs": [
     {

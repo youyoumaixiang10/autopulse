@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-10-17T05:43:51.640Z",
+  "collectedAt": "2026-10-18T00:14:38.123Z",
   "targetDates": [
-    "2026-10-16",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-18"
   ],
   "candidates": [
     {
@@ -5237,7 +5237,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "11比亚迪大汉上市23.59万元起，标配云辇-A，最大纯电续航1008KM97w",
+      "title": "6比亚迪大汉上市23.59万元起，标配云辇-A，最大纯电续航1008KM130.48w",
       "url": "https://auto.news18a.com/news/storys_304647.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -5267,7 +5267,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "3没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道137.82w",
+      "title": "3没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道136.6w",
       "url": "https://auto.news18a.com/news/storys_303056.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -6353,7 +6353,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "捷途旅行者7新车上市",
+      "title": "焕新价12.59万起 全新捷途旅行者7正式上市",
       "url": "https://www.sohu.com/a/1087788254_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -8133,7 +8133,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "热点对话：全域AI——汽车正在迈向统一智能体吗？",
+      "title": "全域AI——汽车正在迈向统一智能体吗？",
       "url": "https://auto.gasgoo.com/news/202610/16I70474974C106.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-10-16",
@@ -9931,7 +9931,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "领克900L新车申报 全新前脸设计",
+      "title": "领克900L新车申报 标配EDR汽车事件数据记录系统",
       "url": "https://www.sohu.com/a/1088684391_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -10720,6 +10720,599 @@
       "discoveryPublishedAt": "2026-10-17",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "长安高层换防背后 两级治理进入新阶段",
+      "url": "https://auto.sina.com.cn/news/2026-10-17/detail-inivqccx7045337.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "盖世周报 | 中欧汽车贸易磋商达成共识；三部门联合调查尊界V800刹车问题",
+      "url": "https://auto.gasgoo.com/news/202610/18I70475134C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "保时捷前三季度全球交付量同比下降16%",
+      "url": "https://auto.gasgoo.com/news/202610/12I70474561C101.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "售9.9万起 大众安徽与众06/与众07焕新上市 配激光雷达/续航670km",
+      "url": "https://www.pcauto.com.cn/nation/5188/51886835.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "预售12.88万起 AION RA7开启预售 192线激光雷达/纯电续航702km",
+      "url": "https://www.pcauto.com.cn/nation/5188/51886830.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "阿维塔07L增程版申报信息 搭载1.5T增程系统",
+      "url": "https://www.pcauto.com.cn/nation/5188/51886762.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "轴距加长50毫米 一汽?大众探歌L申报信息",
+      "url": "https://www.pcauto.com.cn/nation/5188/51886760.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "限时权益价10.97万起 吉利星瑞L PLUS正式上市",
+      "url": "https://www.sohu.com/a/1089091842_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "指导价10.99万元起 与众06/与众07焕新上市",
+      "url": "https://www.sohu.com/a/1089034786_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "星瑞L PLUS限时售价10.97万元起 开启智混3L时代",
+      "url": "https://www.163.com/auto/article/L9FMRHSC0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "预售12.88万起/华为线控制动 埃安Ray7正式开启预售",
+      "url": "https://www.163.com/auto/article/L9FMK46V0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "谁教你这么用的！方程豹前轮被锁，车主搞出“名场面”，画面喜感",
+      "url": "https://auto.ifeng.com/c/8xJd0rpf7vJ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】丰田计划在上海雷克萨斯工厂采用自研一体化压铸技术生产电动汽车，工厂预计2027年投产",
+      "url": "https://auto.ifeng.com/c/8xJd0rpf7rl",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】小鹏GX大规模发运中东非市场，中东订单突破3000辆",
+      "url": "https://auto.ifeng.com/c/8xJeR9rec39",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】中欧就汽车贸易磋商达成共识，三部门调查尊界V800刹车问题，多家车企公布业务进展",
+      "url": "https://auto.ifeng.com/c/8xJcwhbVxRV",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】马斯克称新款特斯拉Roadster可自主完成特技动作，得州总部将建环形赛道",
+      "url": "https://auto.ifeng.com/c/8xJdAvtuzDU",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "丰田计划在上海雷克萨斯工厂采用自研一体化压铸技术生产电动汽车，工厂预计2027年投产",
+      "url": "https://auto.news18a.com/news/storys_305983.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏GX大规模发运中东非市场，中东订单突破3000辆",
+      "url": "https://www.news18a.com/news/storys_305982.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中欧就汽车贸易磋商达成共识，三部门调查尊界V800刹车问题，多家车企公布业务进展",
+      "url": "https://www.news18a.com/news/storys_305980.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马斯克称新款特斯拉Roadster可自主完成特技动作，得州总部将建环形赛道",
+      "url": "https://www.news18a.com/news/storys_305976.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "梅赛德斯-奔驰发布首款AMG完全自主研发电动SUV并开启预售",
+      "url": "https://www.news18a.com/news/storys_305957.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "广汽埃安Ray7开启预售，2小时订单达6817单",
+      "url": "https://auto.news18a.com/news/storys_305943.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽荣威家越07纯电动版完成工信部申报",
+      "url": "https://www.news18a.com/news/storys_305810.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "梅赛德斯-奔驰C300L纯电动轿车完成工信部申报",
+      "url": "https://www.news18a.com/news/storys_305808.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026 WSBK西班牙站WorldSSP组别首回合：张雪机车车手德比斯获第10名",
+      "url": "https://www.news18a.com/news/storys_305804.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "广汽埃安Ray7纯电轿车开启预售，预售价12.88万元起",
+      "url": "https://www.news18a.com/news/storys_305801.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利星瑞 L PLUS 于10月17日上市，限时先享价10.97万元起",
+      "url": "https://auto.news18a.com/news/storys_305800.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "阿维塔T09实车于10月17日在社交平台曝光",
+      "url": "https://www.news18a.com/news/storys_305796.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉新一代Roadster亮相并展示冷气反推技术",
+      "url": "https://www.news18a.com/news/storys_305792.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Alef Aeronautics发布飞行汽车飞越特斯拉Roadster视频",
+      "url": "https://www.news18a.com/news/storys_305787.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉开启FSD后冲入封闭车道撞飞警车，致加州两名巡警重伤",
+      "url": "https://www.news18a.com/news/storys_305776.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉向NHTSA提交报告：2026年8月美国Model Y致死事故中驾驶辅助系统处于启用状态",
+      "url": "https://auto.news18a.com/news/storys_305774.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞JAECOO联合Momenta在巴黎完成无接管凯旋门智驾挑战",
+      "url": "https://www.news18a.com/news/storys_305772.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽大众ID. ERA 5S累计交付破万",
+      "url": "https://www.news18a.com/news/storys_305771.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马iX5 60 xDrive EPA续航预估上调至450英里",
+      "url": "https://www.news18a.com/news/storys_305770.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众安徽全新与众06和与众07正式上市",
+      "url": "https://www.news18a.com/news/storys_305768.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "埃安Ray7开启预售",
+      "url": "https://auto.news18a.com/news/storys_305878.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "OpenAI 将研发人形机器人，奥尔特曼称核心是打造“大脑”",
+      "url": "https://www.ithome.com/1/014/433.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "里程碑时刻：比亚迪方程豹汽车官宣 60 万台销量达成",
+      "url": "https://www.ithome.com/1/014/431.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1018：曝华为全新子品牌星芒手机主攻线上性价比；消息称奇瑞智界将获批独立造车资质；DeepSeek V4.1 Flash-1017 新版本发布；英伟达否认 RTX 5090 停产传闻...",
+      "url": "https://www.ithome.com/1/014/427.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "丰田拟在华首次采用自研一体化压铸技术造电动车，雷克萨斯上海工厂 2027 年投产",
+      "url": "https://www.ithome.com/1/014/424.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "韩国半导体工程师指控特斯拉：施压三星压低 AI 芯片报价、索要敏感信息并挖角其人才",
+      "url": "https://www.ithome.com/1/014/422.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全球化交付加速：小鹏 GX 大规模发运中东非市场，海外售价未公布中东订单已破 3000 辆",
+      "url": "https://www.ithome.com/1/014/420.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "雷克萨斯推出直升机出租服务，完成陆海空出行布局",
+      "url": "https://www.ithome.com/1/014/418.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克：新款特斯拉 Roadster 可自主完成特技动作，得州总部将建环形赛道",
+      "url": "https://www.ithome.com/1/014/416.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "秦力洪：第三季度蔚来公司终端销量首次同时超越奔驰 / 宝马 / 奥迪三大德系豪华厂商",
+      "url": "https://www.ithome.com/1/014/415.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全新领克 20 整车下线 1.2 万台，限时专享价 11.88 万元起",
+      "url": "https://www.ithome.com/1/014/414.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "梅赛德斯-AMG GT 纯电高性能 SUV 发布，GT 63 三电机最大功率 860 千瓦",
+      "url": "https://www.ithome.com/1/014/413.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽荣威家越 07 纯电版完成申报：大五座布局，轴距达 2908 mm",
+      "url": "https://www.ithome.com/1/014/406.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奔驰全新纯电 C300L 申报图公布，最大功率 230kW / 轴距 3051mm",
+      "url": "https://www.ithome.com/1/014/404.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "10.97 万元起吉利星瑞 L PLUS 正式上市，国内首款搭载激光雷达的燃油轿车",
+      "url": "https://www.ithome.com/1/014/394.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第三代秦 PLUS 官图公布，已完成申报",
+      "url": "https://www.ithome.com/1/014/392.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "阿维塔 T09 实车曝光，定位“50 万级科技新旗舰”",
+      "url": "https://www.ithome.com/1/014/391.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "V社确认正为 Steam Frame 头显开发全新头带：支持热插拔电池，升级音频表现",
+      "url": "https://www.ithome.com/1/014/379.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞智界将获批独立造车资质，内部人士确认计划独立上市",
+      "url": "https://www.ithome.com/1/014/352.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉司机自称开启 FSD 后睡着，车辆冲入封闭车道撞飞警车致加州两名巡警重伤",
+      "url": "https://www.ithome.com/1/014/348.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉美国 Model Y 穿越高速隔离带致人死亡，驾驶辅助系统处于启用状态",
+      "url": "https://www.ithome.com/1/014/346.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -10727,9 +11320,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 20,
+      "candidateCount": 18,
       "status": "ok",
-      "publicLabel": "列表已读 20 条待核验线索"
+      "publicLabel": "列表已读 18 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -10759,17 +11352,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 12,
+      "candidateCount": 20,
       "status": "ok",
-      "publicLabel": "列表已读 12 条待核验线索"
+      "publicLabel": "列表已读 20 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 30,
+      "candidateCount": 23,
       "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "publicLabel": "列表已读 23 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -10815,17 +11408,17 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 30,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 23,
+      "candidateCount": 25,
       "status": "ok",
-      "publicLabel": "列表已读 23 条待核验线索"
+      "publicLabel": "列表已读 25 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",

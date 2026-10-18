@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-17T05:43:40.829Z",
+  "collectedAt": "2026-10-18T00:14:30.417Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2860,6 +2860,28 @@
       "url": "https://www.autohome.com.cn/news/202610/1317825.html",
       "candidateBrands": [],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全新本田冠道原型车有望将于广州车展首发 新混动技术或同时展示",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317830.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "车内5/6座布局 增程/纯电动力 新款问界M7申报信息",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317829.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -2867,7 +2889,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 0
+      "count": 25
     },
     {
       "sourceId": "autohome-industry",
@@ -2878,7 +2900,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-17T05:42:44.474Z",
+      "collectedAt": "2026-10-18T00:14:14.562Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 39,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

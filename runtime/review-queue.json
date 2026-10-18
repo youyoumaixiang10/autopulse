@@ -5838,6 +5838,7 @@
     "url": "https://www.pcauto.com.cn/nation/5187/51871286.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -5847,6 +5848,7 @@
     "url": "https://www.pcauto.com.cn/nation/5187/51872003.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -6622,7 +6624,7 @@
     ]
   },
   {
-    "title": "11比亚迪大汉上市23.59万元起，标配云辇-A，最大纯电续航1008KM97w",
+    "title": "6比亚迪大汉上市23.59万元起，标配云辇-A，最大纯电续航1008KM130.48w",
     "sourceName": "网通社",
     "url": "https://auto.news18a.com/news/storys_304647.html",
     "reasons": [
@@ -6652,7 +6654,7 @@
     ]
   },
   {
-    "title": "3没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道137.82w",
+    "title": "3没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道136.6w",
     "sourceName": "网通社",
     "url": "https://auto.news18a.com/news/storys_303056.html",
     "reasons": [
@@ -6971,7 +6973,7 @@
     ]
   },
   {
-    "title": "捷途旅行者7新车上市",
+    "title": "焕新价12.59万起 全新捷途旅行者7正式上市",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1087788254_430526",
     "reasons": [
@@ -8032,6 +8034,16 @@
     ]
   },
   {
+    "title": "两后轮一根梁，路上开着就掉了？奇瑞火速道歉，8878辆车被召回",
+    "sourceName": "凤凰网汽车",
+    "url": "https://auto.ifeng.com/c/8xGJbXoYiqi",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
     "title": "特斯拉能源与充电业务副总裁斯奈德卸任，AJ·布斯接替",
     "sourceName": "网通社",
     "url": "https://auto.news18a.com/news/storys_305453.html",
@@ -8281,6 +8293,16 @@
     "title": "吉利远程星享M7E发布",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1086445945_120774496",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "刹车踏板断裂，常识遭遇鬼扯",
+    "sourceName": "凤凰网汽车",
+    "url": "https://auto.ifeng.com/c/8xGbP6EC7ye",
     "reasons": [
       "缺少原文发布日期",
       "正文尚未读取成功",
@@ -8667,7 +8689,7 @@
     ]
   },
   {
-    "title": "领克900L新车申报 全新前脸设计",
+    "title": "领克900L新车申报 标配EDR汽车事件数据记录系统",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1088684391_430526",
     "reasons": [
@@ -9056,6 +9078,280 @@
     "title": "阿维塔07L增程版完成工信部第412批新车申报",
     "sourceName": "网通社",
     "url": "https://auto.news18a.com/news/storys_305583.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "售9.9万起 大众安徽与众06/与众07焕新上市 配激光雷达/续航670km",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5188/51886835.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "预售12.88万起 AION RA7开启预售 192线激光雷达/纯电续航702km",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5188/51886830.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "限时权益价10.97万起 吉利星瑞L PLUS正式上市",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1089091842_430526",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "指导价10.99万元起 与众06/与众07焕新上市",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1089034786_430526",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "阿维塔07L增程版申报信息 搭载1.5T增程系统",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5188/51886762.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "轴距加长50毫米 一汽?大众探歌L申报信息",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5188/51886760.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "丰田计划在上海雷克萨斯工厂采用自研一体化压铸技术生产电动汽车，工厂预计2027年投产",
+    "sourceName": "网通社",
+    "url": "https://auto.news18a.com/news/storys_305983.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "中欧就汽车贸易磋商达成共识，三部门调查尊界V800刹车问题，多家车企公布业务进展",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305980.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "小鹏GX大规模发运中东非市场，中东订单突破3000辆",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305982.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "马斯克称新款特斯拉Roadster可自主完成特技动作，得州总部将建环形赛道",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305976.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "广汽埃安Ray7开启预售，2小时订单达6817单",
+    "sourceName": "网通社",
+    "url": "https://auto.news18a.com/news/storys_305943.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "梅赛德斯-奔驰发布首款AMG完全自主研发电动SUV并开启预售",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305957.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "上汽荣威家越07纯电动版完成工信部申报",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305810.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "2026 WSBK西班牙站WorldSSP组别首回合：张雪机车车手德比斯获第10名",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305804.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "梅赛德斯-奔驰C300L纯电动轿车完成工信部申报",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305808.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "广汽埃安Ray7纯电轿车开启预售，预售价12.88万元起",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305801.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "阿维塔T09实车于10月17日在社交平台曝光",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305796.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "吉利星瑞 L PLUS 于10月17日上市，限时先享价10.97万元起",
+    "sourceName": "网通社",
+    "url": "https://auto.news18a.com/news/storys_305800.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "特斯拉新一代Roadster亮相并展示冷气反推技术",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305792.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "Alef Aeronautics发布飞行汽车飞越特斯拉Roadster视频",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305787.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "特斯拉开启FSD后冲入封闭车道撞飞警车，致加州两名巡警重伤",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305776.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "特斯拉向NHTSA提交报告：2026年8月美国Model Y致死事故中驾驶辅助系统处于启用状态",
+    "sourceName": "网通社",
+    "url": "https://auto.news18a.com/news/storys_305774.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "奇瑞JAECOO联合Momenta在巴黎完成无接管凯旋门智驾挑战",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305772.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "上汽大众ID. ERA 5S累计交付破万",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305771.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "宝马iX5 60 xDrive EPA续航预估上调至450英里",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305770.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "大众安徽全新与众06和与众07正式上市",
+    "sourceName": "网通社",
+    "url": "https://www.news18a.com/news/storys_305768.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "IT早报 1018：曝华为全新子品牌星芒手机主攻线上性价比；消息称奇瑞智界将获批独立造车资质；DeepSeek V4.1 Flash-1017 新版本发布；英伟达否认 RTX 5090 停产传闻...",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/014/427.htm",
+    "reasons": [
+      "频道问候或无具体车型事件的周期汇总"
+    ]
+  },
+  {
+    "title": "埃安Ray7开启预售",
+    "sourceName": "网通社",
+    "url": "https://auto.news18a.com/news/storys_305878.html",
     "reasons": [
       "缺少原文发布日期",
       "正文尚未读取成功",
