@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-18T00:14:38.123Z",
+  "collectedAt": "2026-10-18T04:39:13.548Z",
   "targetDates": [
     "2026-10-17",
     "2026-10-18"
@@ -1628,7 +1628,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "吉利银河战舰700正式上市",
+      "title": "吉利银河战舰700上市",
       "url": "https://www.sohu.com/a/1086117068_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -2608,7 +2608,7 @@
       "title": "易车网-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-16 2026-10-17",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-17 2026-10-18",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-16 2026-10-17",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-17 2026-10-18",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2628,7 +2628,7 @@
       "title": "新浪汽车 - 汽车生活源动力！",
       "url": "https://auto.sina.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-15 2026-10-16",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-17 2026-10-18",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2638,7 +2638,7 @@
       "title": "易车网-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/?lang=zh",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-16 2026-10-17",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-17 2026-10-18",
       "verificationStatus": "media-discovery"
     },
     {
@@ -3294,7 +3294,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "小鹏G9L登陆法国",
+      "title": "小鹏G9L将亮相巴黎车展",
       "url": "https://www.sohu.com/a/1086861285_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -3354,7 +3354,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "ID.ERA 8X上市搭载智驾方案",
+      "title": "上汽大众ID.ERA 8X智驾版上市",
       "url": "https://www.sohu.com/a/1086587171_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -4059,7 +4059,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "比亚迪大汉EV正式上市",
+      "title": "比亚迪大汉EV上市",
       "url": "https://www.sohu.com/a/1087193430_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -6353,7 +6353,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "焕新价12.59万起 全新捷途旅行者7正式上市",
+      "title": "捷途旅行者7正式上市",
       "url": "https://www.sohu.com/a/1087788254_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -8390,7 +8390,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "16.98万起 小鹏MONA L05开启预售 10月29日上市",
+      "title": "小鹏MONA L05开启预售",
       "url": "https://www.sohu.com/a/1088256319_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -10808,7 +10808,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "指导价10.99万元起 与众06/与众07焕新上市",
+      "title": "10.99万元起 与众06/与众07焕新上市",
       "url": "https://www.sohu.com/a/1089034786_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -11313,6 +11313,171 @@
       "discoveryPublishedAt": "2026-10-17",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "吉利星瑞L PLUS上市",
+      "url": "https://www.sohu.com/a/1089091842_43052",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "特斯拉会飞 但未必能落地",
+      "url": "https://www.sohu.com/a/1089049159_114988",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "智界将获独立造车资质",
+      "url": "https://www.sohu.com/a/1089054440_114986",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "9月大型SUV销量榜",
+      "url": "https://www.sohu.com/a/1089103701_151980",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "2个月新增10万 方程豹60万台销量达成",
+      "url": "https://www.163.com/auto/article/L9H46PKA0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "埃安Ray7正式开启预售，预售价12.88-15.88万",
+      "url": "https://auto.ifeng.com/c/8xJwcX3PQxv",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "同级首搭激光雷达+3L级油耗！吉利星瑞L PLUS限时10.97万元起上市",
+      "url": "https://auto.ifeng.com/c/8xJwUFb2KK9",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉披露新款Roadster飞行技术方案：Rocket版本配备600升储气瓶，计划2028年投产",
+      "url": "https://auto.ifeng.com/c/8xJvNbcvZ78",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】零跑A10s正式上市，指导价9.28万元",
+      "url": "https://auto.ifeng.com/c/8xJqjuhvi63",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】武隆区公安局核实“重庆一车辆从60米高架桥坠落”网传信息系谣言",
+      "url": "https://auto.ifeng.com/c/8xJmUCBQRj5",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】工信部公示安徽智界新能源汽车有限公司拟获独立造车资质",
+      "url": "https://auto.ifeng.com/c/8xJmTcT5f5p",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "吉利林杰：燃油车的未来是全面混动化、全面智能化",
+      "url": "https://www.ithome.com/1/014/481.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "零跑 A10s 上市：全新镜夜黑外观、505km 续航，9.28 万元",
+      "url": "https://www.ithome.com/1/014/460.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "新款特斯拉 Roadster 将搭载受限版 FSD，极端设计成主要限制因素",
+      "url": "https://www.ithome.com/1/014/446.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉延长奥斯汀 Robotaxi 运营时间至午夜，FSD v15 将支持全天候运营",
+      "url": "https://www.ithome.com/1/014/444.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称尚界 Z9 新车在品牌成立初期就同步开发：属目前定位最高产品，定价预计 35-40 万级",
+      "url": "https://www.ithome.com/1/014/435.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -11336,9 +11501,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 2,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 2 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -11352,17 +11517,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 20,
+      "candidateCount": 16,
       "status": "ok",
-      "publicLabel": "列表已读 20 条待核验线索"
+      "publicLabel": "列表已读 16 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 23,
+      "candidateCount": 30,
       "status": "ok",
-      "publicLabel": "列表已读 23 条待核验线索"
+      "publicLabel": "列表已读 30 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -11408,9 +11573,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 15,
+      "candidateCount": 30,
       "status": "ok",
-      "publicLabel": "列表已读 15 条待核验线索"
+      "publicLabel": "列表已读 30 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -11423,10 +11588,11 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

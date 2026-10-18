@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-18T00:14:30.417Z",
+  "collectedAt": "2026-10-18T04:38:58.010Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -2882,6 +2882,30 @@
         "鸿蒙智行"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "方程豹成立三年 累计销量突破60万辆！",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317836.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售9.28万 专属黑色外观+座椅红色缝线 零跑A10s正式上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317835.html",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -2900,9 +2924,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-18T00:14:14.562Z",
+      "collectedAt": "2026-10-18T04:38:42.184Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 39,
+      "candidateCount": 46,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
