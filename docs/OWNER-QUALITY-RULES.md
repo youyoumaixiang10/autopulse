@@ -64,7 +64,7 @@ Status keys stay `launched|confirmed|estimated`. Labels: `已上市` is a formal
 
 ## Where this lives
 
-- Clustering: `eventKey`, `samePublishedEvent`, `clusterGroups` in `scripts/report-builder.mjs`
+- Clustering: `eventKey`, `samePublishedEvent`, `clusterGroups` in `scripts/report-builder.mjs`. Weekly columns and multi-story flashes (`isMetaDigest`) stay out of highlights and brand columns; copies of the same digest merge, with outlets only in `sourceLinks`.
 - Strict `新车`: `isStrictNewCar`, `isNewCarHighlight`
 - Launch calendar: `qualifiesForLaunchCalendar`, `deriveLaunchFromStory`, `mergeLaunches`
 - Section: `sectionFor` (`brand` / `other` / `industry`)
