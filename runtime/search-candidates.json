@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-10-18T06:05:05.647Z",
+  "collectedAt": "2026-10-19T00:13:54.994Z",
   "targetDates": [
-    "2026-10-17",
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-19"
   ],
   "candidates": [
     {
@@ -6353,7 +6353,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "焕新价12.59万起 全新捷途旅行者7正式上市",
+      "title": "捷途旅行者7正式上市",
       "url": "https://www.sohu.com/a/1087788254_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -8390,7 +8390,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "16.98万起 小鹏MONA L05开启预售 10月29日上市",
+      "title": "小鹏MONA L05开启预售",
       "url": "https://www.sohu.com/a/1088256319_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -11619,6 +11619,300 @@
       "discoveryPublishedAt": "2026-10-18",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "欧洲街头的中国智驾，离全球供应链还有多远",
+      "url": "https://auto.gasgoo.com/news/202610/19I70475117C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-19",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "E周看点｜小鹏巴黎车展官宣“卖技术”；广汽自研电池第30万套下线",
+      "url": "https://auto.gasgoo.com/news/202610/18I70475227C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "小智一周要闻 | 江特电机增资维他动力；优必选与建发股份成立合资公司",
+      "url": "https://auto.gasgoo.com/news/202610/18I70475088C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "2026年8月燃油车型/新能源车型销量榜",
+      "url": "https://auto.gasgoo.com/news/202610/12I70474539C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "零跑A10s上市 售价9.28万元/专属内外配色",
+      "url": "https://www.pcauto.com.cn/nation/5188/51889288.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "方程豹累计销量突破60万 品牌成交均价22.2万 钛9即将发布",
+      "url": "https://www.pcauto.com.cn/nation/5188/51888972.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "全新梅赛德斯-AMG GT SUV全球首秀 三电机860kW/零百加速2.5秒",
+      "url": "https://www.pcauto.com.cn/nation/5188/51888948.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "全新AMG GT纯电SUV发布",
+      "url": "https://www.sohu.com/a/1089416284_603694",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "小米SU9商标进入初审阶段",
+      "url": "https://www.sohu.com/a/1089503158_114760",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第三代秦PLUS实车曝光",
+      "url": "https://www.sohu.com/a/1089386016_258768",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "纯电动车9月销量榜出炉",
+      "url": "https://www.sohu.com/a/1089415340_151980",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "奇瑞注销转划 智界将独立造车",
+      "url": "https://www.sohu.com/a/1089400863_119627",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "特斯拉空中炫技是一场噱头?",
+      "url": "https://www.sohu.com/a/1089490704_117625",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "速成车，落后车企们的无能狂怒，国产新能源不用背这个“黑锅”",
+      "url": "https://auto.ifeng.com/c/8xLHKSPszvo",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】原华为ADS创始团队核心成员杨旭光近期加入理想汽车",
+      "url": "https://auto.ifeng.com/c/8xLIzRy78GC",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉发布新款Roadster跑车，FAA称其不符合飞行器定义",
+      "url": "https://auto.ifeng.com/c/8xLGtqVJ3Ov",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】欧洲清洁交通倡导组织T&E发布报告建议车企缩小插混车油箱",
+      "url": "https://auto.ifeng.com/c/8xKevEg4h36",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "奔驰140周年压轴之作：AMG GT高性能纯电SUV全球首秀",
+      "url": "https://auto.ifeng.com/c/8xKcLsNegXO",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "SpaceX 总裁肖特韦尔关注特斯拉账号，双方合并传闻再起",
+      "url": "https://www.ithome.com/1/014/633.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-19",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...",
+      "url": "https://www.ithome.com/1/014/632.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-19",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "理想智驾迎来技术人才，消息称原华为 ADS 创始团队核心成员杨旭光加盟",
+      "url": "https://www.ithome.com/1/014/630.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-19",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉 Roadster 跑车会飞归谁管？FAA 称不符合飞行器定义",
+      "url": "https://www.ithome.com/1/014/629.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-19",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米 SU9 LUX 商标进入初审公告阶段，新车或瞄准行政豪华旗舰市场",
+      "url": "https://www.ithome.com/1/014/626.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-19",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "欧洲清洁交通倡导组织建议汽车厂商缩小插混车油箱、提升充电速度，解决车主不爱用电问题",
+      "url": "https://www.ithome.com/1/014/608.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "大众在美召回 ID.4 后，部分车主已收到充电限制 80% 更新",
+      "url": "https://www.ithome.com/1/014/597.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "武亮回应“接手峰学蔚来质疑”：张雪峰离世后，当下最重要的是尽全力让公司活下去",
+      "url": "https://www.ithome.com/1/014/575.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奕境 X9 在华为松山湖开启交付，限时优惠价 27.98 万元起",
+      "url": "https://www.ithome.com/1/014/553.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "中国科学院智能锂电池研究取得重要新进展，可预警锂枝晶",
+      "url": "https://www.ithome.com/1/014/548.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -11626,9 +11920,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 18,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 18 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -11642,9 +11936,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 1,
+      "candidateCount": 0,
       "listRead": false,
-      "publicLabel": "公开检索发现 1 条待核验线索"
+      "publicLabel": "直连列表与公开检索均未匹配"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -11658,17 +11952,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 17,
+      "candidateCount": 10,
       "status": "ok",
-      "publicLabel": "列表已读 17 条待核验线索"
+      "publicLabel": "列表已读 10 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 30,
+      "candidateCount": 22,
       "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "publicLabel": "列表已读 22 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -11714,9 +12008,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 17,
+      "candidateCount": 30,
       "status": "ok",
-      "publicLabel": "列表已读 17 条待核验线索"
+      "publicLabel": "列表已读 30 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -11729,10 +12023,11 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

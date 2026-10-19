@@ -6904,6 +6904,7 @@
     "url": "https://www.pcauto.com.cn/nation/4281/42811267.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -6971,7 +6972,7 @@
     ]
   },
   {
-    "title": "焕新价12.59万起 全新捷途旅行者7正式上市",
+    "title": "捷途旅行者7正式上市",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1087788254_430526",
     "reasons": [
@@ -8022,7 +8023,7 @@
     ]
   },
   {
-    "title": "16.98万起 小鹏MONA L05开启预售 10月29日上市",
+    "title": "小鹏MONA L05开启预售",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1088256319_430526",
     "reasons": [
@@ -9407,6 +9408,14 @@
     ]
   },
   {
+    "title": "12.88万起，颜值、智驾、三电、底盘全都要？埃安Ray7预售价出炉",
+    "sourceName": "凤凰网汽车",
+    "url": "https://auto.ifeng.com/c/8xK3FIkcGV4",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
     "title": "零跑A10s正式上市，指导价9.28万元",
     "sourceName": "网通社",
     "url": "https://www.news18a.com/news/storys_305997.html",
@@ -9501,9 +9510,9 @@
     "sourceName": "网通社",
     "url": "https://auto.news18a.com/news/storys_306001.html",
     "reasons": [
-      "正文获取失败",
-      "尚未具备完整的日期与原文",
-      "信息来源待核验"
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
     ]
   },
   {
@@ -9514,6 +9523,141 @@
       "缺少原文发布日期",
       "正文尚未读取成功",
       "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "零跑A10s上市，9.28万元起",
+    "sourceName": "懂车帝公开首页",
+    "url": "https://www.dongchedi.com/article/7697631107043623448",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "能飞天的特斯拉火箭版不量产",
+    "sourceName": "懂车帝公开首页",
+    "url": "https://www.dongchedi.com/article/7697464936952365593",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "乐道L90 智驾体验",
+    "sourceName": "懂车帝公开首页",
+    "url": "https://www.dongchedi.com/video/7697947579543274046",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "小鹏MONA L05一眼入魂",
+    "sourceName": "懂车帝公开首页",
+    "url": "https://www.dongchedi.com/video/7697924490390471193",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "全新AMG GT纯电SUV发布",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1089416284_603694",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "小米SU9商标进入初审阶段",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1089503158_114760",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "比亚迪第三代秦PLUS实车曝光",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1089386016_258768",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "全新梅赛德斯-AMG GT SUV全球首秀 三电机860kW/零百加速2.5秒",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5188/51888948.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "方程豹累计销量突破60万 品牌成交均价22.2万 钛9即将发布",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5188/51888972.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "零跑A10s上市 售价9.28万元/专属内外配色",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5188/51889288.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "纯电动车9月销量榜出炉",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1089415340_151980",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "奇瑞注销转划 智界将独立造车",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1089400863_119627",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "特斯拉空中炫技是一场噱头?",
+    "sourceName": "搜狐汽车",
+    "url": "https://www.sohu.com/a/1089490704_117625",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/014/632.htm",
+    "reasons": [
+      "频道问候或无具体车型事件的周期汇总"
     ]
   },
   {
