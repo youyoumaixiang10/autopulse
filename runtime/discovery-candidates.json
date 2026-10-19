@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-19T00:13:40.207Z",
+  "collectedAt": "2026-10-19T04:46:26.023Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3040,19 +3040,21 @@
     {
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
-      "status": "ok",
-      "count": 26
+      "status": "failed",
+      "count": 0,
+      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
     },
     {
       "sourceId": "autohome-industry",
       "url": "https://www.autohome.com.cn/hangye/",
-      "status": "ok",
-      "count": 0
+      "status": "failed",
+      "count": 0,
+      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
     },
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-19T00:13:24.593Z",
+      "collectedAt": "2026-10-19T04:45:10.726Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 48,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

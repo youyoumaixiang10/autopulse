@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-10-19T00:38:02.565Z",
+  "checkedAt": "2026-10-19T05:03:27.410Z",
   "passed": true,
   "summary": {
     "completeBrands": 7,
     "totalBrands": 16,
-    "healthyMedia": 9,
+    "healthyMedia": 7,
     "totalMedia": 17,
     "policyHealthy": true,
-    "unresolvedCandidates": 1011
+    "unresolvedCandidates": 1016
   },
   "brands": [
     {
@@ -28,7 +28,7 @@
           "id": "hima-weibo",
           "sourceId": "hima-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:24.453Z",
+          "collectedAt": "2026-10-19T04:45:10.633Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/3032210184",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -40,21 +40,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -73,7 +75,7 @@
           "id": "byd-news",
           "sourceId": "byd-news",
           "url": "https://prod.byd.com/cn/news",
-          "checkedAt": "2026-10-19T00:12:48.614Z",
+          "checkedAt": "2026-10-19T04:44:37.745Z",
           "status": "collected",
           "listRead": true,
           "itemCount": 169,
@@ -88,7 +90,7 @@
           "id": "byd-weibo",
           "sourceId": "byd-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:21.206Z",
+          "collectedAt": "2026-10-19T04:45:07.512Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/bydauto",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -100,21 +102,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -133,7 +137,7 @@
           "id": "leapmotor-news",
           "sourceId": "leapmotor-news",
           "url": "https://leapmotor.cn/news/news.html",
-          "checkedAt": "2026-10-19T00:12:48.614Z",
+          "checkedAt": "2026-10-19T04:44:37.745Z",
           "status": "partial",
           "listRead": false,
           "candidateCount": 0,
@@ -146,7 +150,7 @@
           "id": "leapmotor-weibo",
           "sourceId": "leapmotor-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:21.453Z",
+          "collectedAt": "2026-10-19T04:45:07.759Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/u/5872290888",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -158,21 +162,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -202,7 +208,7 @@
           "id": "nio-weibo",
           "sourceId": "nio-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:21.704Z",
+          "collectedAt": "2026-10-19T04:45:08.000Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/nextevofficial",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -214,21 +220,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -258,7 +266,7 @@
           "id": "onvo-weibo",
           "sourceId": "onvo-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:21.955Z",
+          "collectedAt": "2026-10-19T04:45:08.232Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7892483716",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -270,21 +278,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -314,7 +324,7 @@
           "id": "li-auto-weibo",
           "sourceId": "li-auto-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:20.697Z",
+          "collectedAt": "2026-10-19T04:45:07.023Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/lixiangzhizao",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -326,21 +336,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -359,7 +371,7 @@
           "id": "zeekr-info",
           "sourceId": "zeekr-info",
           "url": "https://www.zeekrlife.com/information",
-          "checkedAt": "2026-10-19T00:12:48.614Z",
+          "checkedAt": "2026-10-19T04:44:37.745Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 116,
@@ -374,7 +386,7 @@
           "id": "zeekr-weibo",
           "sourceId": "zeekr-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:23.700Z",
+          "collectedAt": "2026-10-19T04:45:09.899Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7576049404",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -386,21 +398,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -425,7 +439,7 @@
           "id": "xiaomi-auto-weibo",
           "sourceId": "xiaomi-auto-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:22.201Z",
+          "collectedAt": "2026-10-19T04:45:08.478Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7871239944",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -437,21 +451,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -476,7 +492,7 @@
           "id": "xpeng-weibo",
           "sourceId": "xpeng-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:22.439Z",
+          "collectedAt": "2026-10-19T04:45:08.709Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/5710264970",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -488,21 +504,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -527,7 +545,7 @@
           "id": "voyah-weibo",
           "sourceId": "voyah-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:22.697Z",
+          "collectedAt": "2026-10-19T04:45:08.950Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7351024207",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -539,21 +557,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -587,7 +607,7 @@
           "id": "avatr-weibo",
           "sourceId": "avatr-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:22.936Z",
+          "collectedAt": "2026-10-19T04:45:09.181Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/avatr",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -599,21 +619,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -632,7 +654,7 @@
           "id": "deepal-news",
           "sourceId": "deepal-news",
           "url": "https://deepal.com.cn/news",
-          "checkedAt": "2026-10-19T00:12:48.614Z",
+          "checkedAt": "2026-10-19T04:44:37.745Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 47,
@@ -651,7 +673,7 @@
           "id": "deepal-weibo",
           "sourceId": "deepal-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:23.189Z",
+          "collectedAt": "2026-10-19T04:45:09.418Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/7751244203",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -663,21 +685,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -700,7 +724,7 @@
           "id": "byd-news",
           "sourceId": "byd-news",
           "url": "https://prod.byd.com/cn/news",
-          "checkedAt": "2026-10-19T00:12:48.614Z",
+          "checkedAt": "2026-10-19T04:44:37.745Z",
           "status": "collected",
           "listRead": true,
           "itemCount": 169,
@@ -715,7 +739,7 @@
           "id": "denza-weibo",
           "sourceId": "denza-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:20.944Z",
+          "collectedAt": "2026-10-19T04:45:07.273Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/2664689831",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -727,21 +751,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -760,7 +786,7 @@
           "id": "galaxy-official",
           "sourceId": "galaxy-official",
           "url": "https://galaxy.geely.com/news",
-          "checkedAt": "2026-10-19T00:13:14.954Z",
+          "checkedAt": "2026-10-19T04:45:03.092Z",
           "listRead": true,
           "status": "partial",
           "candidateCount": 0,
@@ -772,7 +798,7 @@
           "id": "galaxy-weibo",
           "sourceId": "galaxy-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:23.949Z",
+          "collectedAt": "2026-10-19T04:45:10.138Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7794864065",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -784,21 +810,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -817,7 +845,7 @@
           "id": "tesla-home",
           "sourceId": "tesla-home",
           "url": "https://www.tesla.cn/blog",
-          "checkedAt": "2026-10-19T00:13:14.947Z",
+          "checkedAt": "2026-10-19T04:45:03.084Z",
           "listRead": true,
           "status": "no-recent-updates",
           "candidateCount": 0,
@@ -830,7 +858,7 @@
           "id": "tesla-weibo",
           "sourceId": "tesla-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:23.455Z",
+          "collectedAt": "2026-10-19T04:45:09.666Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/teslaofficial",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -842,21 +870,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -885,7 +915,7 @@
           "id": "changan-qiyuan-weibo",
           "sourceId": "changan-qiyuan-weibo",
           "status": "degraded",
-          "collectedAt": "2026-10-19T00:13:24.202Z",
+          "collectedAt": "2026-10-19T04:45:10.391Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/3194397971",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -897,21 +927,23 @@
           "id": "autohome-news",
           "sourceId": "autohome-news",
           "url": "https://www.autohome.com.cn/news//",
-          "status": "ok",
-          "count": 26
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "autohome-industry",
           "sourceId": "autohome-industry",
           "url": "https://www.autohome.com.cn/hangye/",
-          "status": "ok",
-          "count": 0
+          "status": "failed",
+          "count": 0,
+          "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
         },
         {
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-10-19T00:13:24.593Z",
+          "collectedAt": "2026-10-19T04:45:10.726Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 48,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -925,23 +957,25 @@
       "name": "汽车之家资讯",
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
-      "status": "ok",
-      "count": 26
+      "status": "failed",
+      "count": 0,
+      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
     },
     {
       "id": "autohome-industry",
       "name": "汽车之家行业频道",
       "sourceId": "autohome-industry",
       "url": "https://www.autohome.com.cn/hangye/",
-      "status": "ok",
-      "count": 0
+      "status": "failed",
+      "count": 0,
+      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
     },
     {
       "id": "dongchedi-news",
       "name": "懂车帝资讯",
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-19T00:13:24.593Z",
+      "collectedAt": "2026-10-19T04:45:10.726Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 48,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -972,9 +1006,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 1,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 1 条待核验线索"
     },
     {
       "id": "cailianpress-auto",
@@ -992,9 +1026,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 10,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 10 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
@@ -1002,9 +1036,9 @@
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 22,
+      "candidateCount": 25,
       "status": "ok",
-      "publicLabel": "列表已读 22 条待核验线索"
+      "publicLabel": "列表已读 25 条待核验线索"
     },
     {
       "id": "chezhitong-auto",
@@ -1062,9 +1096,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 30,
+      "candidateCount": 9,
       "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "publicLabel": "列表已读 9 条待核验线索"
     },
     {
       "id": "netease-auto",
@@ -1072,9 +1106,9 @@
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 25,
+      "candidateCount": 18,
       "status": "ok",
-      "publicLabel": "列表已读 25 条待核验线索"
+      "publicLabel": "列表已读 18 条待核验线索"
     },
     {
       "id": "news18a-auto",
