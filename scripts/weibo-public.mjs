@@ -101,27 +101,27 @@ export async function mintWeiboVisitor(fetchImpl = fetch) {
   return [...jar.entries()].map(([key, value]) => `${key}=${value}`).join('; ');
 }
 
-export async function fetchMobileTimeline(account, cookie, fetchImpl = fetch) {
+export async function fetchMobileTimeline(account, cookie, fetchImpl = fetch, timeoutMs = 20000) {
   const response = await fetchImpl(`https://m.weibo.cn/api/container/getIndex?type=uid&value=${account.uid}&containerid=107603${account.uid}`, {
     headers: {
       'user-agent': mobileUa, cookie, accept: 'application/json, text/plain, */*',
       referer: `https://m.weibo.cn/u/${account.uid}`, 'x-requested-with': 'XMLHttpRequest'
     },
-    signal: AbortSignal.timeout(20000)
+    signal: AbortSignal.timeout(timeoutMs)
   });
   const payload = await response.json();
   if (!response.ok || payload.ok !== 1 || !Array.isArray(payload.data?.cards)) throw new Error('微博公开时间线未返回帖文');
   return payload.data.cards;
 }
 
-export async function fetchAjaxTimeline(account, cookie, fetchImpl = fetch) {
+export async function fetchAjaxTimeline(account, cookie, fetchImpl = fetch, timeoutMs = 20000) {
   const response = await fetchImpl(`https://weibo.com/ajax/statuses/mymblog?uid=${account.uid}&page=1&feature=0`, {
     headers: {
       'user-agent': desktopUa, cookie, accept: 'application/json, text/plain, */*',
       referer: `https://weibo.com/u/${account.uid}`, 'x-requested-with': 'XMLHttpRequest',
       'x-xsrf-token': xsrfFromCookie(cookie)
     },
-    signal: AbortSignal.timeout(20000)
+    signal: AbortSignal.timeout(timeoutMs)
   });
   const payload = await response.json();
   if (!response.ok || payload.ok !== 1 || !Array.isArray(payload.data?.list)) throw new Error('微博登录态时间线未返回帖文');

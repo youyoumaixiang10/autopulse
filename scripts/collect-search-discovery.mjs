@@ -1,3 +1,4 @@
+import { mapLimit } from './async-pool.mjs';
 import { readHtmlWithFallback } from './browser-collector.mjs';
 import { parseBingResults } from './bing-search.mjs';
 import { chinaDate, issueSearchDates, readJson, writeJson } from './content-utils.mjs';
@@ -27,6 +28,7 @@ function pathDate(url) {
   } catch { return null; }
 }
 
+const searchStarted = Date.now();
 const direct = await collectMediaLists();
 const directById = new Map(direct.sourceResults.map(result => [result.sourceId, result]));
 const today = chinaDate();
@@ -41,7 +43,7 @@ const queries = [
 ];
 const bingCollected = [];
 const bingCounts = new Map(searchSources.map(source => [source.id, 0]));
-for (const query of queries) {
+await mapLimit(queries, 3, async query => {
   try {
     const html = await readHtmlWithFallback(`https://cn.bing.com/search?q=${encodeURIComponent(query)}&setlang=zh-CN&mkt=zh-CN`, {
       accept: page => parseBingResults(page).length > 0
@@ -60,7 +62,7 @@ for (const query of queries) {
       bingCounts.set(source.id, (bingCounts.get(source.id) || 0) + 1);
     }
   } catch { /* Direct lists still feed the daily report when search is unavailable. */ }
-}
+});
 const fresh = [...direct.candidates, ...bingCollected].filter(item => withinDiscoveryWindow(item.discoveryPublishedAt, today));
 const candidates = [...new Map([...previous, ...fresh].map(item => [item.url, item])).values()];
 const sourceResults = searchSources.map(source => {
@@ -82,4 +84,4 @@ writeJson(new URL('search-candidates.json', dir), {
   collectedAt: new Date().toISOString(), targetDates: [windowStart, windowEnd], candidates, sourceResults,
   publicationRule: '列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。'
 });
-console.log(`媒体发现：直连 ${direct.candidates.length} 条，公开检索 ${bingCollected.length} 条，覆盖 ${searchSources.length} 个登记媒体。`);
+console.log(`媒体发现：直连 ${direct.candidates.length} 条，公开检索 ${bingCollected.length} 条，覆盖 ${searchSources.length} 个登记媒体，耗时 ${Date.now() - searchStarted}ms。`);

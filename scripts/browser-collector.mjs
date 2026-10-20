@@ -1,8 +1,8 @@
 import { lookup } from 'node:dns/promises';
 import { get as httpsGet } from 'node:https';
 
-async function createBrowserPage(url) {
-  const created = await fetch('http://localhost:3456/new', { method: 'POST', body: url, signal: AbortSignal.timeout(35000) });
+async function createBrowserPage(url, timeoutMs = 35000) {
+  const created = await fetch('http://localhost:3456/new', { method: 'POST', body: url, signal: AbortSignal.timeout(timeoutMs) });
   const { targetId } = await created.json();
   if (!targetId) throw new Error('无法创建新闻读取页面');
   return targetId;
@@ -82,16 +82,36 @@ export async function readHtmlWithFallback(url, { accept, browser = collectBrows
   }
 }
 
-export async function collectBrowserHtml(url) {
-  const targetId = await createBrowserPage(url);
+// A hung readiness check used to wait 25s, and the loop allowed 28 of them.
+// One page could hold a worker for many minutes. Callers that pass deadlineMs
+// (article enrichment uses a short one) fail that page and move on.
+export function boundedTimeout(deadlineAt, capMs, now = Date.now()) {
+  const left = deadlineAt - now;
+  if (left < 500) return 0;
+  return Math.min(capMs, left);
+}
+
+const defaultPageDeadlineMs = 45_000;
+
+export async function collectBrowserHtml(url, { deadlineMs = defaultPageDeadlineMs } = {}) {
+  const deadlineAt = Date.now() + deadlineMs;
+  const timeoutFor = cap => {
+    const timeout = boundedTimeout(deadlineAt, cap);
+    if (!timeout) throw new Error('页面读取超时');
+    return timeout;
+  };
+  const targetId = await createBrowserPage(url, timeoutFor(35_000));
   try {
-    for (let attempt = 0; attempt < 28; attempt++) {
-      const value = await evaluate(targetId, 'JSON.stringify({ ready: document.readyState, bodyLength: document.body?.innerText.length || 0 })');
+    for (let attempt = 0; attempt < 20; attempt++) {
+      if (boundedTimeout(deadlineAt, 5_000) < 1_000) break;
+      const value = await evaluate(targetId, 'JSON.stringify({ ready: document.readyState, bodyLength: document.body?.innerText.length || 0 })', timeoutFor(5_000));
       const state = typeof value === 'string' ? JSON.parse(value) : value;
       if (state.ready !== 'loading' && state.bodyLength) break;
-      await new Promise(resolve => setTimeout(resolve, 500));
+      const pause = boundedTimeout(deadlineAt, 500);
+      if (!pause) break;
+      await new Promise(resolve => setTimeout(resolve, pause));
     }
-    const html = await evaluate(targetId, 'document.documentElement.outerHTML', 50000);
+    const html = await evaluate(targetId, 'document.documentElement.outerHTML', timeoutFor(15_000));
     if (typeof html !== 'string' || !/<html[\s>]/i.test(html)) throw new Error('浏览器未返回可解析页面');
     return html;
   } finally {
