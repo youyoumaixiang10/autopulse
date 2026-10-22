@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-22T06:11:54.471Z",
+  "collectedAt": "2026-10-22T07:42:02.409Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3390,6 +3390,40 @@
         "小鹏"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "换装猎鹰智驾方案/内外造型迎来调整 智界V9海外版实车图",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317926.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "疑似零跑C18谍照 大空间增程SUV 已接近量产状态",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317925.html",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "仪表盘存在故障风险！福特召回102159辆皮卡！涉及多款车型！",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317923.html",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -3397,7 +3431,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 25
+      "count": 26
     },
     {
       "sourceId": "autohome-industry",
@@ -3408,7 +3442,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-22T06:11:38.418Z",
+      "collectedAt": "2026-10-22T07:41:46.562Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 56,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

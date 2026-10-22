@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-22T06:12:09.472Z",
+  "collectedAt": "2026-10-22T07:42:11.234Z",
   "targetDates": [
     "2026-10-21",
     "2026-10-22"
@@ -5267,7 +5267,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "10没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道104.89w",
+      "title": "10没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道106.77w",
       "url": "https://auto.news18a.com/news/storys_303056.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -13364,6 +13364,480 @@
       "discoveryPublishedAt": "2026-10-22",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "奇瑞高管张俊加盟奥迪中国 将出任奥迪中国首位中方总裁",
+      "url": "https://auto.sina.com.cn/news/2026-10-22/detail-iniwarrs4924265.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "特斯拉FSD，中国车主还要等多久？",
+      "url": "https://auto.gasgoo.com/news/202610/22I70475607C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪元UP三季度累计销售190139辆",
+      "url": "https://auto.ifeng.com/c/8xQlipsQ8mE",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】欧洲9月新车注册量达136万辆 中国品牌市场份额升至3.9%",
+      "url": "https://auto.ifeng.com/c/8xQlI7P4ztG",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】福特在美国召回102159辆皮卡",
+      "url": "https://auto.ifeng.com/c/8xQlcbXDiTA",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】马斯克称特斯拉目标2030年实现年产量突破500万辆",
+      "url": "https://auto.ifeng.com/c/8xQlCya8jvO",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】中央广播电视总台菁彩声车载测试序列于10月21日发布",
+      "url": "https://auto.ifeng.com/c/8xQlnS6c1mO",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞旗下Omoda面向海外发布Omoda X概念车",
+      "url": "https://auto.news18a.com/news/storys_307279.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏汽车宣布小鹏GX累计交付突破30000台，将启动中东及全球交付",
+      "url": "https://www.news18a.com/news/storys_307276.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "消息称奥迪中国或将迎来首位中国籍最高负责人",
+      "url": "https://www.news18a.com/news/storys_307275.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪元UP三季度累计销售190139辆",
+      "url": "https://www.news18a.com/news/storys_307270.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "欧洲9月新车注册量达136万辆 中国品牌市场份额升至3.9%",
+      "url": "https://www.news18a.com/news/storys_307267.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "福特在美国召回102159辆皮卡",
+      "url": "https://auto.news18a.com/news/storys_307265.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马斯克称特斯拉目标2030年实现年产量突破500万辆",
+      "url": "https://www.news18a.com/news/storys_307262.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中央广播电视总台菁彩声车载测试序列于10月21日发布",
+      "url": "https://www.news18a.com/news/storys_307261.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "工信部郭守刚：L3级自动驾驶产品第二批准入试点工作正在进行",
+      "url": "https://www.news18a.com/news/storys_307255.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马斯克在2026年10月22日财报电话会上称特斯拉正显著扩产，FSD已在欧洲多国获许可",
+      "url": "https://www.news18a.com/news/storys_307249.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "梅赛德斯-奔驰康林松与佟欧福在2026世界智能网联大会发表演讲",
+      "url": "https://auto.news18a.com/news/storys_307250.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞在芜湖启用V2G规模化运营场站并公布充电站建设规划",
+      "url": "https://www.news18a.com/news/storys_307252.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "国家能源局发布2026年9月全国电动汽车充电设施数据",
+      "url": "https://www.news18a.com/news/storys_307245.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奔驰CEO康林松确认“小G”距上市不到24个月",
+      "url": "https://www.news18a.com/news/storys_307243.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "均恩新能源固液混合电池宣布达到量产标准",
+      "url": "https://www.news18a.com/news/storys_307248.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "保时捷宣布2027年新增GT3漂移及高级驾驶课程，全程使用911 GT3",
+      "url": "https://auto.news18a.com/news/storys_307241.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宋某某驾驶新能源车在高速开启辅助驾驶后酣睡 被阜阳高速交警罚款200元记3分",
+      "url": "https://www.news18a.com/news/storys_307240.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞Jaecoo 7以10813台登顶9月英国新车销量榜",
+      "url": "https://www.news18a.com/news/storys_307237.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来EC6推送“Cedar S雪松”1.6.0版本OTA升级，新增EP Mode赛道模式",
+      "url": "https://www.news18a.com/news/storys_307238.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉车辆工程副总裁回应Roadster跑车推进器腾空质疑并披露技术方案",
+      "url": "https://www.news18a.com/news/storys_307234.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "热点时评聚焦热议话题，提供深度评论，解析行业现象小蓝灯拟回归，智驾的招牌不能随便挂2026-10-21",
+      "url": "https://auto.news18a.com/news/storys_306951.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "11补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地64.84w",
+      "url": "https://auto.news18a.com/news/storys_306801.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "热点时评聚焦热议话题，提供深度评论，解析行业现象奇瑞三十岁这年，办了一场不像车企办的大会2026-10-20",
+      "url": "https://auto.news18a.com/news/storys_306616.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "29.99万的大众，不是降价是重新进门162.91w",
+      "url": "https://auto.news18a.com/news/storys_306304.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "车市问答车市热点，以国际视野与专业逻辑，解答车市关键问题被媒体冤枉，国外车企怎么做？2026-10-19",
+      "url": "https://auto.news18a.com/news/storys_306257.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "北汽星钽5X开启预售",
+      "url": "https://auto.news18a.com/news/storys_307159.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "天猫双 11 首售整车推 5 款专供",
+      "url": "https://auto.news18a.com/news/storys_306629.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奥迪中国区官宣迎来首位中国籍总裁，前奇瑞国际高管张俊加盟",
+      "url": "https://www.ithome.com/1/016/484.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "Spotify 推出首款原生车载应用，率先登陆奥迪 A6 e-tron 与 Q6 e-tron 电动汽车",
+      "url": "https://www.ithome.com/1/016/482.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "郭锐官宣智界 RX 下个赛道为上海国际赛车场，曾刷新国产品牌量产 SUV 浙赛最快圈速纪录",
+      "url": "https://www.ithome.com/1/016/481.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第三代秦 PLUS 座舱公开：新一代设计语言“线条能简则简”",
+      "url": "https://www.ithome.com/1/016/479.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行智界 V9 旗舰 MPV 海外版曝光：右舵设计、前脸大变样，命名“LLounge”",
+      "url": "https://www.ithome.com/1/016/477.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞海外发布 Omoda X 概念车：机甲设计，支持红外夜视",
+      "url": "https://www.ithome.com/1/016/472.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "前三季度我国智能网联汽车召回超 2000 万辆，被督促调查召回占比超七成",
+      "url": "https://www.ithome.com/1/016/466.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奥迪中国或将换帅，消息称迎来首位中国籍最高负责人",
+      "url": "https://www.ithome.com/1/016/421.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小鹏 GX 累计交付突破 30000 台，将启动中东及全球交付",
+      "url": "https://www.ithome.com/1/016/419.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "工信部 NVDB 发布关于防范 PHP 远程代码执行超危漏洞的风险提示",
+      "url": "https://www.ithome.com/1/016/372.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "欧洲 9 月新车销量同比增长 10%，中国品牌抢占大部分增量市场",
+      "url": "https://www.ithome.com/1/016/370.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "知情人士：马斯克公开支持 SpaceX、特斯拉合并，恐给谈判添乱",
+      "url": "https://www.ithome.com/1/016/368.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -13371,9 +13845,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 16,
+      "candidateCount": 17,
       "status": "ok",
-      "publicLabel": "列表已读 16 条待核验线索"
+      "publicLabel": "列表已读 17 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -13403,9 +13877,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 16,
+      "candidateCount": 19,
       "status": "ok",
-      "publicLabel": "列表已读 16 条待核验线索"
+      "publicLabel": "列表已读 19 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -13459,9 +13933,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 23,
+      "candidateCount": 9,
       "status": "ok",
-      "publicLabel": "列表已读 23 条待核验线索"
+      "publicLabel": "列表已读 9 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -13474,11 +13948,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
