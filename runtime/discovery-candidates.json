@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-19T04:46:26.023Z",
+  "collectedAt": "2026-10-22T06:11:54.471Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3034,29 +3034,383 @@
         "小鹏"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "22.5万起 全新一代比亚迪唐预扣款价曝光 将于四季度内正式上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317919.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小米YU7又来新对手？全新纯电轿跑SUV 赛力斯AIVA ME7实车亮相",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317918.html",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "蔚来EC6迎来OTA升级！新增EP Mode赛道模式！提升驾控体验！",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317917.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "雷军：汽车产业没有安全 其他都是零 小米已成立汽车安全研究中心",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317916.html",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "特斯拉三季度营收280.46亿美元 仍推动FSD在华落地 机器人已投产",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317913.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "现款售12.99万起 深蓝SL03获首批L3级自动驾驶专用号牌",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317912.html",
+      "candidateBrands": [
+        "深蓝"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "10月28日上市 最高续航780km/29英寸6K全景屏 一文看懂新款理想i6",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317910.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "问界官方回应陕西榆林事故 警方：系单方事故，司机已遇难",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317908.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "动力电池电芯存在质量缺陷！大众全球召回近72700台电动汽车！",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317905.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "内部代号H66A 岚图全新MPV谍照曝光 外观将会采用新设计",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317902.html",
+      "candidateBrands": [
+        "岚图"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "特斯拉飞天超跑发布：中国车企集体沉默，2028交付或难实现",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317901.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "冲理想L9而来？ 代号D11 疑似零跑全新大型SUV最新谍照曝光！",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317899.html",
+      "candidateBrands": [
+        "零跑",
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "连续四个月获40万以上MPV销冠！智界V9第30000台下线！",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317898.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪全新汉实车 尺寸更大 动力升级 高级车的既视感",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317895.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "可实现停车费快捷支付 特斯拉与支付宝签署车载助手合作协议",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317887.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售6.29万元起 尺寸全面升级/可选激光雷达 全新比亚迪海鸥上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317884.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "工信部：零重力座椅禁止在行驶中使用 车企环境测试验证不少于1年",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317880.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪副总裁李柯：我们又买了10艘汽车运输船 谋划欧洲新工厂",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317878.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小蓝灯颜色规范纳入国标 工信部公开征求五项强制性国家标准意见",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317870.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "权益后售12.98万起/至高5.26万权益 2027款启源Q07天枢领航版上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317869.html",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "理想与华为联合官宣 理想i9引入HUAWEI HiCar 手机生态搬进座舱",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317866.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全新SUV——代号P166 延续家族设计 疑似吉利银河星舰8谍照曝光",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317861.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "深蓝汽车官宣S05新增智能生态仪表屏 弥补没有仪表屏遗憾",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317860.html",
+      "candidateBrands": [
+        "深蓝"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "全新比亚迪海鸥上市",
+      "url": "https://www.dongchedi.com/article/7698575220257604120",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "探店岚图梦想家9",
+      "url": "https://www.dongchedi.com/video/7698718932064682520",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "岚图"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "小米N90露营应该怎样玩",
+      "url": "https://www.dongchedi.com/video/7698717796313776665",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "开启源Q07带朋友玩",
+      "url": "https://www.dongchedi.com/video/7698715813511316030",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "小鹏MONA L05的优缺点",
+      "url": "https://www.dongchedi.com/video/7698712589869728280",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
     {
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
-      "status": "failed",
-      "count": 0,
-      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
+      "status": "ok",
+      "count": 25
     },
     {
       "sourceId": "autohome-industry",
       "url": "https://www.autohome.com.cn/hangye/",
-      "status": "failed",
-      "count": 0,
-      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
+      "status": "ok",
+      "count": 0
     },
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-19T04:45:10.726Z",
+      "collectedAt": "2026-10-22T06:11:38.418Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 48,
+      "candidateCount": 56,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
