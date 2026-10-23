@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-23T05:25:49.150Z",
+  "collectedAt": "2026-10-23T06:07:27.791Z",
   "targetDates": [
     "2026-10-22",
     "2026-10-23"
@@ -2605,10 +2605,10 @@
       "sourceId": "yiche-news",
       "sourceName": "易车",
       "sourceType": "vertical-media",
-      "title": "易车网-价格全知道，买车不吃亏，国内领先的汽车网",
+      "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-18 2026-10-19",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-22 2026-10-23",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-18 2026-10-19",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-22 2026-10-23",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2635,10 +2635,10 @@
       "sourceId": "yiche-news",
       "sourceName": "易车",
       "sourceType": "vertical-media",
-      "title": "易车网-价格全知道，买车不吃亏，国内领先的汽车网",
+      "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/?lang=zh",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-17 2026-10-18",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-22 2026-10-23",
       "verificationStatus": "media-discovery"
     },
     {
@@ -5267,7 +5267,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "4没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道132.43w",
+      "title": "7没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道118.32w",
       "url": "https://auto.news18a.com/news/storys_303056.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -8790,7 +8790,7 @@
       "title": "【汽车报价】汽车最新报价_汽车价格查询_太平洋汽车",
       "url": "https://price.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-17 2026-10-18",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-22 2026-10-23",
       "verificationStatus": "media-discovery"
     },
     {
@@ -13651,7 +13651,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "3补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地166.85w",
+      "title": "6补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地124.37w",
       "url": "https://auto.news18a.com/news/storys_306801.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -13671,7 +13671,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "69.99万的大众，不是降价是重新进门127.72w",
+      "title": "59.99万的大众，不是降价是重新进门128.2w",
       "url": "https://auto.news18a.com/news/storys_306304.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -14648,6 +14648,171 @@
       "discoveryPublishedAt": "2026-10-23",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "换电，越来越香了？",
+      "url": "https://auto.gasgoo.com/news/202610/23I70475606C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "赵福全：AI转型是一把手工程",
+      "url": "https://auto.gasgoo.com/news/202610/23I70475707C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】2027款极狐阿尔法S5于10月23日开启预售，预售价12.18万元起",
+      "url": "https://auto.ifeng.com/c/8xSLQEXY0pE",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】沃尔沃汽车首席执行官称需凭借国产汽车重返中国市场",
+      "url": "https://auto.ifeng.com/c/8xSLQEXY0pF",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2027款极狐阿尔法S5于10月23日开启预售，预售价12.18万元起",
+      "url": "https://auto.news18a.com/news/storys_307568.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "沃尔沃汽车首席执行官称需凭借国产汽车重返中国市场",
+      "url": "https://www.news18a.com/news/storys_307567.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞海外发布瑞虎X系列首款车型瑞虎X7及新一代瑞虎7",
+      "url": "https://www.news18a.com/news/storys_307561.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中汽数研公布2026年1-9月国内新能源汽车品牌销量排名",
+      "url": "https://auto.news18a.com/news/storys_307558.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马首款纯电3系旅行车i3 Touring路测谍照曝光 预计2027年亮相",
+      "url": "https://www.news18a.com/news/storys_307555.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "博世计划将智能出行业务分拆至独立有限责任公司",
+      "url": "https://auto.news18a.com/news/storys_307553.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "阿维塔汽车于10月23日开始推送AVATR. OS 6.1.0车机更新",
+      "url": "https://www.news18a.com/news/storys_307544.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "付于武在2026第十四届汽车与环境创新论坛致辞",
+      "url": "https://auto.news18a.com/news/storys_307543.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏MONA L05超级增程版宣布适配多地区油品标准",
+      "url": "https://www.news18a.com/news/storys_307535.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "沃尔沃汽车宣布全球再裁约 2500 人，2026Q3 在中国交付量同比降 40%",
+      "url": "https://www.ithome.com/1/016/976.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "乘联分会崔东树：1-9 月中国汽车出口 863 万辆同比增长 52%，全年预计 1200 万辆",
+      "url": "https://www.ithome.com/1/016/972.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "2027 款极狐阿尔法 S5 纯电宽体轿跑预售：标配激光雷达，12.18 万元起",
+      "url": "https://www.ithome.com/1/016/969.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -14671,9 +14836,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 2,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 2 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -14687,17 +14852,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 12,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 12 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 24,
+      "candidateCount": 25,
       "status": "ok",
-      "publicLabel": "列表已读 24 条待核验线索"
+      "publicLabel": "列表已读 25 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
