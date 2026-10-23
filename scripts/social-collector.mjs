@@ -1,4 +1,8 @@
+import { mapLimit } from './async-pool.mjs';
 import { ajaxListToItems, fetchAjaxTimeline, fetchMobileTimeline, mintWeiboVisitor, mobileCardsToItems } from './weibo-public.mjs';
+
+const accountTimeoutMs = 8_000;
+const accountConcurrency = 4;
 
 export const officialSocialAccounts = [
   { sourceId: 'li-auto-weibo', sourceName: '理想汽车官方微博', name: '理想汽车', uid: '6001272153', url: 'https://www.weibo.com/lixiangzhizao' },
@@ -181,7 +185,7 @@ async function collectAccountWithoutBrowser(account, visitorCookie, ownerCookie,
   const attempts = [];
   if (visitorCookie) {
     try {
-      const cards = await fetchMobileTimeline(account, visitorCookie, fetchImpl);
+      const cards = await fetchMobileTimeline(account, visitorCookie, fetchImpl, accountTimeoutMs);
       const posts = parseOfficialSocialPosts(mobileCardsToItems(cards, account), account);
       if (posts.length) return { posts, mode: 'visitor' };
       attempts.push('访客会话未读到通过校验的原帖');
@@ -189,13 +193,30 @@ async function collectAccountWithoutBrowser(account, visitorCookie, ownerCookie,
   } else attempts.push('访客会话未签发');
   if (ownerCookie) {
     try {
-      const list = await fetchAjaxTimeline(account, ownerCookie, fetchImpl);
+      const list = await fetchAjaxTimeline(account, ownerCookie, fetchImpl, accountTimeoutMs);
       const posts = parseOfficialSocialPosts(ajaxListToItems(list, account), account);
       if (posts.length) return { posts, mode: 'cookie' };
       attempts.push('WEIBO_COOKIE 未读到通过校验的原帖');
     } catch (error) { attempts.push(error.message); }
   }
   throw new Error(attempts.join('；'));
+}
+
+async function collectPublicAccount(account, visitorCookie, ownerCookie, fetchImpl) {
+  try {
+    const { posts, mode } = await collectAccountWithoutBrowser(account, visitorCookie, ownerCookie, fetchImpl);
+    return {
+      candidates: posts,
+      sourceResult: {
+        sourceId: account.sourceId, status: 'partial', collectedAt: new Date().toISOString(), candidateCount: posts.length,
+        entryUrl: account.url, authorVerified: true, accessMode: mode,
+        publicLabel: `已读 ${posts.length} 条公开原帖`,
+        reason: '已读取公开时间线中通过账号、蓝V与绝对时间校验的原帖；不代表覆盖全部发布。'
+      }
+    };
+  } catch (error) {
+    return degradedResult(account, error.message);
+  }
 }
 
 export async function collectOfficialSocial({ fetchImpl = fetch } = {}) {
@@ -209,23 +230,22 @@ export async function collectOfficialSocial({ fetchImpl = fetch } = {}) {
     }
     return { candidates, sourceResults };
   }
+  const started = Date.now();
   let visitorCookie = '';
-  try { visitorCookie = await mintWeiboVisitor(fetchImpl); } catch { visitorCookie = ''; }
+  let visitorTimer;
+  try {
+    visitorCookie = await new Promise((resolve, reject) => {
+      visitorTimer = setTimeout(() => reject(new Error('微博访客会话超时')), 12_000);
+      mintWeiboVisitor(fetchImpl).then(resolve, reject);
+    });
+  } catch { visitorCookie = ''; }
+  finally { clearTimeout(visitorTimer); }
   const ownerCookie = process.env.WEIBO_COOKIE || '';
-  for (const account of officialSocialAccounts) {
-    try {
-      const { posts, mode } = await collectAccountWithoutBrowser(account, visitorCookie, ownerCookie, fetchImpl);
-      candidates.push(...posts);
-      sourceResults.push({
-        sourceId: account.sourceId, status: 'partial', collectedAt: new Date().toISOString(), candidateCount: posts.length,
-        entryUrl: account.url, authorVerified: true, accessMode: mode,
-        publicLabel: `已读 ${posts.length} 条公开原帖`,
-        reason: '已读取公开时间线中通过账号、蓝V与绝对时间校验的原帖；不代表覆盖全部发布。'
-      });
-    } catch (error) {
-      const result = degradedResult(account, error.message);
-      sourceResults.push(result.sourceResult);
-    }
+  const results = await mapLimit(officialSocialAccounts, accountConcurrency, account => collectPublicAccount(account, visitorCookie, ownerCookie, fetchImpl));
+  for (const result of results) {
+    candidates.push(...result.candidates);
+    sourceResults.push(result.sourceResult);
   }
+  console.log(`官微公开时间线：${officialSocialAccounts.length} 个账号，并发 ${accountConcurrency}，单账号 ${accountTimeoutMs}ms，读到 ${candidates.length} 条，耗时 ${Date.now() - started}ms`);
   return { candidates, sourceResults };
 }

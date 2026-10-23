@@ -14,12 +14,19 @@ catch (error) { if (error.code === 'EEXIST') { console.error('已有采集任务
 const startedAt = new Date().toISOString();
 const steps = [];
 async function run(script) {
-  await new Promise((resolve, reject) => {
-    const child = spawn(process.execPath, [fileURLToPath(new URL(script, import.meta.url))], { cwd: new URL('../', import.meta.url), stdio: 'inherit', windowsHide: true });
-    child.on('error', reject);
-    child.on('close', code => code === 0 ? resolve() : reject(new Error(`${script} 未成功完成（${code}）`)));
-  });
-  steps.push({ script, completedAt: new Date().toISOString() });
+  const started = Date.now();
+  console.log(`[daily] 开始 ${script}`);
+  try {
+    await new Promise((resolve, reject) => {
+      const child = spawn(process.execPath, [fileURLToPath(new URL(script, import.meta.url))], { cwd: new URL('../', import.meta.url), stdio: 'inherit', windowsHide: true });
+      child.on('error', reject);
+      child.on('close', code => code === 0 ? resolve() : reject(new Error(`${script} 未成功完成（${code}）`)));
+    });
+  } finally {
+    const durationMs = Date.now() - started;
+    steps.push({ script, completedAt: new Date().toISOString(), durationMs });
+    console.log(`[daily] 结束 ${script} ${durationMs}ms`);
+  }
 }
 try {
   // Each collector preserves earlier successful content. A failure in one layer does not erase another.

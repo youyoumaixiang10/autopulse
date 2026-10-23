@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { isTransientNavigationError, officialSocialAccounts, parseOfficialSocialPosts } from '../scripts/social-collector.mjs';
+import { collectOfficialSocial, isTransientNavigationError, officialSocialAccounts, parseOfficialSocialPosts } from '../scripts/social-collector.mjs';
 import { sourceRegistry } from '../data/sources.js';
 
 const liAuto = officialSocialAccounts[0];
@@ -69,6 +69,38 @@ test('keeps quoted content separate from the official author text', () => {
   assert.deepEqual(post.contentParagraphs, [fixture.text]);
   assert.equal(post.postKind, 'repost');
   assert.deepEqual(post.quotedPost, quotedPost);
+});
+
+test('public weibo accounts stay covered and share a small concurrency limit', async () => {
+  let active = 0;
+  let maxActive = 0;
+  const seen = [];
+  const fetchImpl = async (url, options) => {
+    const href = String(url);
+    if (href.includes('genvisitor')) return { ok: true, headers: { getSetCookie: () => [] }, text: async () => 'cb({"data":{"tid":"abc"}})' };
+    if (href.includes('visitor?')) return { ok: true, headers: { getSetCookie: () => [] }, text: async () => 'cross_domain({"data":{"sub":"SUBVALUE","subp":"SUBPVALUE"}})' };
+    if (!href.includes('m.weibo.cn/api/container/getIndex')) throw new Error(`unexpected ${href}`);
+    assert.ok(options.signal instanceof AbortSignal);
+    active++;
+    maxActive = Math.max(maxActive, active);
+    await new Promise(resolve => setTimeout(resolve, 30));
+    active--;
+    seen.push(new URL(href).searchParams.get('value'));
+    return { ok: true, json: async () => ({ ok: 1, data: { cards: [] } }) };
+  };
+  const previous = process.env.WEIBO_COOKIE;
+  delete process.env.WEIBO_COOKIE;
+  try {
+    const result = await collectOfficialSocial({ fetchImpl });
+    assert.equal(result.sourceResults.length, officialSocialAccounts.length);
+    assert.equal(result.candidates.length, 0);
+    assert.deepEqual(seen.sort(), officialSocialAccounts.map(account => account.uid).sort());
+    assert.ok(maxActive > 1 && maxActive <= 4);
+    assert.ok(result.sourceResults.every(item => item.status === 'degraded'));
+  } finally {
+    if (previous === undefined) delete process.env.WEIBO_COOKIE;
+    else process.env.WEIBO_COOKIE = previous;
+  }
 });
 
 test('reads Denza exact post URL and ignores unrelated header links', () => {

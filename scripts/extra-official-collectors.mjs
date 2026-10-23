@@ -100,10 +100,10 @@ export function parseLeapmotorRecords(records) {
   }));
 }
 
-async function proxyRequest(path, body) {
+async function proxyRequest(path, body, timeoutMs = 45000) {
   const response = await fetch(`${proxy}${path}`, {
     ...(body === undefined ? {} : { method: 'POST', body }),
-    signal: AbortSignal.timeout(45000)
+    signal: AbortSignal.timeout(Math.max(1, timeoutMs))
   });
   const result = await response.json();
   if (!response.ok || result.error || result.exceptionDetails) {
@@ -112,19 +112,29 @@ async function proxyRequest(path, body) {
   return result;
 }
 
-async function readInBrowser(url, expression) {
-  const { targetId } = await proxyRequest('/new', url);
+async function readInBrowser(url, expression, deadlineMs = 80_000) {
+  const deadlineAt = Date.now() + deadlineMs;
+  const left = () => deadlineAt - Date.now();
+  const call = (path, body, cap) => {
+    const timeout = Math.min(cap, left());
+    if (timeout < 800) throw new Error('官网页面加载超时');
+    return proxyRequest(path, body, timeout);
+  };
+  const { targetId } = await call('/new', url, 35_000);
   if (!targetId) throw new Error('浏览器未返回页面编号');
   try {
     let ready = false;
-    for (let attempt = 0; attempt < 40; attempt++) {
-      const { value } = await proxyRequest(`/eval?target=${targetId}`, 'JSON.stringify({url:location.href,ready:document.readyState})');
+    for (let attempt = 0; attempt < 16; attempt++) {
+      if (left() < 2_000) break;
+      const { value } = await call(`/eval?target=${targetId}`, 'JSON.stringify({url:location.href,ready:document.readyState})', 5_000);
       const state = JSON.parse(value);
       if (state.url.startsWith(new URL(url).origin) && state.ready !== 'loading') { ready = true; break; }
-      await new Promise(resolve => setTimeout(resolve, 250));
+      const pause = Math.min(250, Math.max(0, left()));
+      if (!pause) break;
+      await new Promise(resolve => setTimeout(resolve, pause));
     }
     if (!ready) throw new Error('官网页面加载超时');
-    const { value } = await proxyRequest(`/eval?target=${targetId}`, expression);
+    const { value } = await call(`/eval?target=${targetId}`, expression, Math.min(45_000, left()));
     const result = typeof value === 'string' ? JSON.parse(value) : value;
     if (!result || !Array.isArray(result.records) || !result.records.length) throw new Error('未读到官方新闻列表');
     return result;
@@ -228,13 +238,13 @@ const leapmotorExpression = `(async () => {
 })()`;
 
 export async function collectExtraOfficialSources() {
-  const candidates = [], sourceResults = [];
+  const started = Date.now();
   const checkedAt = new Date().toISOString();
   const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai' }).format(new Date());
   const cutoff = new Date(`${today}T00:00:00Z`);
   cutoff.setUTCDate(cutoff.getUTCDate() - 7);
   const since = cutoff.toISOString().slice(0, 10);
-  for (const source of [
+  const collected = await Promise.all([
     { id: 'byd-news', url: 'https://prod.byd.com/cn/news', expression: bydExpression, parse: parseBydRecords },
     { id: 'deepal-news', url: 'https://deepal.com.cn/news', expression: deepalExpression, parse: parseDeepalRecords },
     { id: 'zeekr-info', url: 'https://www.zeekrlife.com/information', expression: zeekrExpression, parse: parseZeekrRecords },
@@ -243,25 +253,34 @@ export async function collectExtraOfficialSources() {
       parse: parseLeapmotorRecords, softFailure: true,
       publicFailureLabel: '官网新闻列表暂不可读 · 官方微博仍持续采集'
     }
-  ]) {
+  ].map(async source => {
     try {
       const result = await readInBrowser(source.url, source.expression);
       const items = source.parse(result.records);
       if (items.length !== result.total) throw new Error(`有效新闻 ${items.length} 条，接口报告 ${result.total} 条，需检查列表字段或分页`);
       const recentCount = items.filter(item => item.publishedAt >= since && item.publishedAt <= today).length;
-      candidates.push(...items);
-      sourceResults.push({
-        sourceId: source.id, url: source.url, checkedAt, status: recentCount ? 'collected' : 'no-recent-updates',
-        listRead: true, itemCount: items.length, recentCount, latestPublishedAt: items[0].publishedAt,
-        since, pageCount: result.pageCount
-      });
+      return {
+        candidates: items,
+        sourceResult: {
+          sourceId: source.id, url: source.url, checkedAt, status: recentCount ? 'collected' : 'no-recent-updates',
+          listRead: true, itemCount: items.length, recentCount, latestPublishedAt: items[0].publishedAt,
+          since, pageCount: result.pageCount
+        }
+      };
     } catch (error) {
-      sourceResults.push({
-        sourceId: source.id, url: source.url, checkedAt, status: source.softFailure ? 'partial' : 'failed',
-        listRead: false, candidateCount: 0, ...(source.publicFailureLabel ? { publicLabel: source.publicFailureLabel } : {}),
-        error: error.message
-      });
+      return {
+        candidates: [],
+        sourceResult: {
+          sourceId: source.id, url: source.url, checkedAt, status: source.softFailure ? 'partial' : 'failed',
+          listRead: false, candidateCount: 0, ...(source.publicFailureLabel ? { publicLabel: source.publicFailureLabel } : {}),
+          error: error.message
+        }
+      };
     }
-  }
-  return { candidates, sourceResults };
+  }));
+  console.log(`[daily] 官网列表耗时 ${Date.now() - started}ms`);
+  return {
+    candidates: collected.flatMap(result => result.candidates),
+    sourceResults: collected.map(result => result.sourceResult)
+  };
 }
