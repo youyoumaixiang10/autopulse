@@ -5031,7 +5031,6 @@
     "url": "https://www.pcauto.com.cn/nation/1165/11652099.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10267,6 +10266,69 @@
     ]
   },
   {
+    "title": "C Talk | 安道拓总裁兼CEO Jerome Dorlack：扎根中国，以中国创新驱动全球竞争力",
+    "sourceName": "盖世汽车",
+    "url": "https://auto.gasgoo.com/news/202610/23I70475512C1207.shtml",
+    "reasons": [
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "腾势N8将10月26日开启小订/11月上市 大五座SUV 纯电续航1003km",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51895096.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "比亚迪第三代秦PLUS内饰官图 简约设计 细节有惊喜",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51895028.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "22.5万元起？比亚迪第三代唐预扣款价曝光 第四季度内上市",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51895018.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "捷达M6上市 售7.98万元起/支持城市领航辅助",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51895039.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "赛力斯AIVA ME7实车亮相 纯电轿跑SUV+豆包赋能",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51894861.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "FREELANDER神行者8大五座版 将于10月31日开启交付",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51894815.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
     "title": "四季度上市/第六代DM-i混动技术 方程豹钛9内饰谍照曝光",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202609/1317075.html",
@@ -10486,6 +10548,14 @@
     "title": "赵非：预计2027年L3级实现量产",
     "sourceName": "盖世汽车",
     "url": "https://auto.gasgoo.com/news/202610/21I70475508C601.shtml",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "阿里 Qoder 官宣支持 Linux ARM64 与龙芯平台，适配统信 UOS、银河麒麟操作系统",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/016/927.htm",
     "reasons": [
       "标题与正文不是同一事件"
     ]
