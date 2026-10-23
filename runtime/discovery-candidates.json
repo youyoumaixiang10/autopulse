@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-23T06:07:19.290Z",
+  "collectedAt": "2026-10-23T07:39:04.201Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3429,7 +3429,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "����/��ȫ/���еȶ๦������ ��ά��ӭ��OTA���� 2Сʱǰ 331 0 [����֮�� ��Ѷ] 10��23�գ����Ǵӹٷ���Ϥ����ά��ӭ��AVATR.OS 6.1.0�汾OTA���������θ���Χ�����ո��Ի����������֡�����ʵ�ù�...",
+      "title": "座舱/安全/出行等多功能新增 阿维塔迎来OTA升级",
       "sourceMonth": "2026-10",
       "url": "https://www.autohome.com.cn/news/202610/1317945.html",
       "candidateBrands": [
@@ -3615,6 +3615,42 @@
         "深蓝"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "提供插混和纯电动力可选 新款比亚迪海豹07内饰官图发布",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317952.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "三种座椅布局可选/租电方案27.48万起 蔚来ES8完成第160000台交付",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317951.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "新增激光雷达 尺寸全面加大 全新比亚迪秦PLUS将于10月27日上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317950.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -3622,7 +3658,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 1
+      "count": 27
     },
     {
       "sourceId": "autohome-industry",
@@ -3633,7 +3669,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-23T06:06:42.783Z",
+      "collectedAt": "2026-10-23T07:38:52.557Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 63,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
