@@ -1,15 +1,7 @@
 {
-  "collectedAt": "2026-10-23T07:38:52.495Z",
-  "cutoffDate": "2026-09-08",
+  "collectedAt": "2026-10-24T00:12:49.789Z",
+  "cutoffDate": "2026-09-09",
   "candidates": [
-    {
-      "sourceId": "avatr-news",
-      "sourceName": "阿维塔新闻中心",
-      "sourceType": "official",
-      "title": "阿维塔9系亮相工信部公告，超千匹马力、转弯半径4米级",
-      "publishedAt": "2026-09-08",
-      "url": "https://www.avatr.com/news?newsChId=75c67c1bcfcac8a52d29bf9a6197ca5f&newsEngId="
-    },
     {
       "sourceId": "miit",
       "sourceName": "工业和信息化部",
@@ -111,139 +103,6 @@
       "sourcePageUrl": "https://www.weibo.com/avatr"
     },
     {
-      "sourceId": "deepal-weibo",
-      "sourceName": "深蓝汽车官方微博",
-      "sourceType": "official-social",
-      "title": "【蓝粉充电站】第1️⃣期正式上线！小蓝想听听你的故事💬",
-      "url": "https://weibo.com/7751244203/RhaIebK2v",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T17:30:00+08:00",
-      "authorVerified": true,
-      "authorId": "7751244203",
-      "authorName": "深蓝汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "【蓝粉充电站】第1️⃣期正式上线！小蓝想听听你的故事💬\n\n还记得小时候在后座的念想吗？\n盼着长大，拥有属于自己的车，想去哪就去哪。\n直到真正握住方向盘才发现，🚗长大不只是拥有一台车。\n🌇能自由出发，也意味着选择和责任。\n来聊聊：你在多少岁第一次开车上路？\n\n参与方式：\n关注@深蓝汽车 官方\n转发并评论此条微博，带话题#蓝粉充电站#分享你的故事（图文不限）\n🎁小蓝将随机抽5位朋友送出DEEPAL 睡眠舒压眼罩\n9月20日18:00截止\n#深蓝汽车##蓝粉充电站##有奖征集# 抽奖详情"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/7751244203"
-    },
-    {
-      "sourceId": "byd-weibo",
-      "sourceName": "比亚迪汽车官方微博",
-      "sourceType": "official-social",
-      "title": "路上想追剧，随口说即可播！",
-      "url": "https://weibo.com/1746221281/RhapG7mE1",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T16:44:00+08:00",
-      "authorVerified": true,
-      "authorId": "1746221281",
-      "authorName": "比亚迪汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "路上想追剧，随口说即可播！\n@优酷 携手超级智能体「迪迪虾」，\n语音点播、解放双手，首发#腾势N8L纯电#\n美好出行，家倍从容，迪迪虾我们一起走！ 比亚迪汽车的微博视频"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/bydauto"
-    },
-    {
-      "sourceId": "byd-weibo",
-      "sourceName": "比亚迪汽车官方微博",
-      "sourceType": "official-social",
-      "title": "导航不只是指路，更是懂你的出行伙伴！",
-      "url": "https://weibo.com/1746221281/Rh9vkdr9F",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T14:25:00+08:00",
-      "authorVerified": true,
-      "authorId": "1746221281",
-      "authorName": "比亚迪汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "导航不只是指路，更是懂你的出行伙伴！\n@高德地图 携手超级智能体「迪迪虾」，\n从被动响应到主动理解，首发#腾势N8L纯电#\n美好出行，家倍从容，迪迪虾我们一起走！ 比亚迪汽车的微博视频"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/bydauto"
-    },
-    {
-      "sourceId": "byd-weibo",
-      "sourceName": "比亚迪汽车官方微博",
-      "sourceType": "official-social",
-      "title": "#比亚迪梦想乐队成团大赛#",
-      "url": "https://weibo.com/1746221281/Rh9p266vG",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T14:10:00+08:00",
-      "authorVerified": true,
-      "authorId": "1746221281",
-      "authorName": "比亚迪汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "#比亚迪梦想乐队成团大赛#\n晋级赛四大赛区40支乐队尽显风采\n8强实力突围全国总决赛\n9月12日，我们深圳见！\n#为热爱发声# 比亚迪汽车的微博视频"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/bydauto"
-    },
-    {
-      "sourceId": "byd-weibo",
-      "sourceName": "比亚迪汽车官方微博",
-      "sourceType": "official-social",
-      "title": "开车路上随口说，酒店即刻订！",
-      "url": "https://weibo.com/1746221281/Rh9kO031u",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T14:00:00+08:00",
-      "authorVerified": true,
-      "authorId": "1746221281",
-      "authorName": "比亚迪汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "开车路上随口说，酒店即刻订！\n@飞猪 携手超级智能体「迪迪虾」，\n预订确认全搞定，首发#腾势N8L纯电#\n美好出行，家倍从容，迪迪虾我们一起走！ 比亚迪汽车的微博视频"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/bydauto"
-    },
-    {
-      "sourceId": "byd-weibo",
-      "sourceName": "比亚迪汽车官方微博",
-      "sourceType": "official-social",
-      "title": "开车路上随口说，外卖准时送到家！",
-      "url": "https://weibo.com/1746221281/Rh8ZHjblj",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T13:08:00+08:00",
-      "authorVerified": true,
-      "authorId": "1746221281",
-      "authorName": "比亚迪汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "开车路上随口说，外卖准时送到家！\n@淘宝闪购 携手超级智能体「迪迪虾」，\n动口不动手，首发#腾势N8L纯电#\n美好出行，家倍从容，迪迪虾我们一起走！ 比亚迪汽车的微博视频"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/bydauto"
-    },
-    {
-      "sourceId": "byd-weibo",
-      "sourceName": "比亚迪汽车官方微博",
-      "sourceType": "official-social",
-      "title": "世界级 AI 云，遇上世界级新能源汽车！",
-      "url": "https://weibo.com/1746221281/Rh7uKoFFS",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T09:19:00+08:00",
-      "authorVerified": true,
-      "authorId": "1746221281",
-      "authorName": "比亚迪汽车",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "世界级 AI 云，遇上世界级新能源汽车！\n@阿里云 携手超级智能体「迪迪虾」，\n听得明白更懂你，首发#腾势N8L纯电#\n美好出行，家倍从容，迪迪虾我们一起走！ 比亚迪汽车的微博视频"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/bydauto"
-    },
-    {
       "sourceId": "zeekr-weibo",
       "sourceName": "极氪官方微博",
       "sourceType": "official-social",
@@ -261,25 +120,6 @@
       "contentComplete": true,
       "contentScope": "post-text",
       "sourcePageUrl": "https://weibo.com/u/7576049404"
-    },
-    {
-      "sourceId": "galaxy-weibo",
-      "sourceName": "吉利银河官方微博",
-      "sourceType": "official-social",
-      "title": "无畏进化！",
-      "url": "https://weibo.com/7794864065/RhcHQnpAf",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T22:35:00+08:00",
-      "authorVerified": true,
-      "authorId": "7794864065",
-      "authorName": "吉利银河",
-      "verificationEvidence": "帖文发布者名称、UID、蓝V标识与指定官方账号一致",
-      "contentParagraphs": [
-        "无畏进化！\n#银河战舰700# 将于9月15日开启全球预售"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text",
-      "sourcePageUrl": "https://weibo.com/u/7794864065"
     },
     {
       "sourceId": "changan-qiyuan-weibo",
@@ -426,78 +266,6 @@
       "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
       "contentParagraphs": [
         "9月9日，NIO Power 2站上新\n\nNO.4076 蔚来换电站 | 石家庄裕华区怀特聚星城 \nNO.3403 蔚来超充站 | 石家庄裕华区怀特聚星城 \n\n截至今日，蔚来全国建成9,330座充换电站，其中换电站4,076座、充电站5,254座、充电桩30,294根，累计提供超1.2亿次换电，持续建设，让加电比加油更方便!\n#乐道汽车#"
-      ],
-      "contentComplete": false,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "onvo-weibo",
-      "sourceName": "乐道汽车官方微博",
-      "sourceType": "official-social",
-      "title": "全家出行，坐得舒服就装不下行李？L90表示没有问题！",
-      "url": "https://weibo.com/7892483716/RhbdcD2dW",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T18:46:00+08:00",
-      "authorVerified": true,
-      "authorId": "7892483716",
-      "authorName": "乐道汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "全家出行，坐得舒服就装不下行李？L90表示没有问题！\n不放倒三排座椅，把露营、囤货、远行、开学的出行难题一一测给你看。\n9月9日15:00，锁定乐道汽车直播间，解锁空间自由。\n#从中秋乐道国庆##乐道汽车##蔚来乐道L90#"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "onvo-weibo",
-      "sourceName": "乐道汽车官方微博",
-      "sourceType": "official-social",
-      "title": "“坐得下人，装不下行李”、“后备舱变大床，行李无处放”。",
-      "url": "https://weibo.com/7892483716/RhabSh4ac",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T16:10:00+08:00",
-      "authorVerified": true,
-      "authorId": "7892483716",
-      "authorName": "乐道汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "“坐得下人，装不下行李”、“后备舱变大床，行李无处放”。\n乐道L90用纯电技术实现「前后能装」。大型SUV的革新空间所见即所得，真正适配出行全场景。一支视频带你看懂。\n#乐道汽车##蔚来乐道L90##乐道L90蔚来世界模型版# http://t.cn/AX0RJtRS"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "onvo-weibo",
-      "sourceName": "乐道汽车官方微博",
-      "sourceType": "official-social",
-      "title": "带上座驾来试驾，赢好礼！乐道L60上市2周年特别策划",
-      "url": "https://weibo.com/7892483716/Rha7wl73s",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T16:00:00+08:00",
-      "authorVerified": true,
-      "authorId": "7892483716",
-      "authorName": "乐道汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "带上座驾来试驾，赢好礼！乐道L60上市2周年特别策划\n\n9月8日-10月4日，带上你的座驾到店试驾乐道L60，100%赢好礼，晒试驾体验瓜分10万流量池，车主邀友试驾更享福利加码。小红书优质分享周周赢积分，更有终极大奖乐道L60 1个月使用权等你来\n#从中秋乐道国庆##乐道L60带上座驾来试驾##每一程皆乐道#"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "onvo-weibo",
-      "sourceName": "乐道汽车官方微博",
-      "sourceType": "official-social",
-      "title": "在中国，有三条相连的国道紧贴国境线，组成一条令人向往的「黄金大外环」。用车轮丈量中国的国境线，是很多自驾爱好者心中的终极浪漫。",
-      "url": "https://weibo.com/7892483716/Rh9Mrxj7m",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T15:08:00+08:00",
-      "authorVerified": true,
-      "authorId": "7892483716",
-      "authorName": "乐道汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "在中国，有三条相连的国道紧贴国境线，组成一条令人向往的「黄金大外环」。用车轮丈量中国的国境线，是很多自驾爱好者心中的终极浪漫。\n在过去八年里，一直有人尝试开纯电车挑战这条路线。八年前，他们想证明「油车能去的地方，电车都能去」；八年后，环线沿途已经布满了充电桩、换电站，不再有任何里"
       ],
       "contentComplete": false,
       "contentScope": "post-text"
@@ -934,168 +702,6 @@
       "contentScope": "post-text"
     },
     {
-      "sourceId": "denza-weibo",
-      "sourceName": "腾势汽车官方微博",
-      "sourceType": "official-social",
-      "title": "旗舰新生，锋芒再启",
-      "url": "https://weibo.com/2664689831/RhctuoiQE",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T21:59:00+08:00",
-      "authorVerified": true,
-      "authorId": "2664689831",
-      "authorName": "腾势汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "旗舰新生，锋芒再启\n#全新腾势Z9GT#\n加推纯电易三方新款型\n以纯粹驾控，诠释豪华GT本色\n9月9日，敬请期待\n#新锐精英首选豪华GT#"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "denza-weibo",
-      "sourceName": "腾势汽车官方微博",
-      "sourceType": "official-social",
-      "title": "#腾势D9尊航版# ",
-      "url": "https://weibo.com/2664689831/RhbaUCTcI",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T18:41:00+08:00",
-      "authorVerified": true,
-      "authorId": "2664689831",
-      "authorName": "腾势汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "#腾势D9尊航版# \n限时至高3.5万元权益\n即刻拥有科技豪华旗舰MPV"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "denza-weibo",
-      "sourceName": "腾势汽车官方微博",
-      "sourceType": "official-social",
-      "title": "路上想追剧，随口说即可播！",
-      "url": "https://weibo.com/2664689831/RhavSiYGF",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T17:00:00+08:00",
-      "authorVerified": true,
-      "authorId": "2664689831",
-      "authorName": "腾势汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "路上想追剧，随口说即可播！\n@优酷 携手超级智能体迪迪虾，语音点播、解放双手，首发#腾势N8L纯电#，美好出行，家倍从容，迪迪虾我们一起走！ http://t.cn/AX0RaQ2d"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "denza-weibo",
-      "sourceName": "腾势汽车官方微博",
-      "sourceType": "official-social",
-      "title": "导航不只是指路，更是懂你的出行伙伴！",
-      "url": "https://weibo.com/2664689831/Rha7Ecaq6",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T16:00:00+08:00",
-      "authorVerified": true,
-      "authorId": "2664689831",
-      "authorName": "腾势汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "导航不只是指路，更是懂你的出行伙伴！\n@高德地图 携手超级智能体迪迪虾，从被动响应到主动理解，首发#腾势N8L纯电#，美好出行，家倍从容，迪迪虾我们一起走！ http://t.cn/AX0Rxq8E"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "denza-weibo",
-      "sourceName": "腾势汽车官方微博",
-      "sourceType": "official-social",
-      "title": "蝉鸣启盛夏，乘风赴远方",
-      "url": "https://weibo.com/2664689831/Rha1dyOLo",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T15:44:00+08:00",
-      "authorVerified": true,
-      "authorId": "2664689831",
-      "authorName": "腾势汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "蝉鸣启盛夏，乘风赴远方\n#腾势公益#月月有好势\n8月暖意收官，公益步履不停"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "denza-weibo",
-      "sourceName": "腾势汽车官方微博",
-      "sourceType": "official-social",
-      "title": "开车路上随口说，酒店即刻订！",
-      "url": "https://weibo.com/2664689831/Rh9JppcGv",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T15:00:00+08:00",
-      "authorVerified": true,
-      "authorId": "2664689831",
-      "authorName": "腾势汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "开车路上随口说，酒店即刻订！\n@飞猪 携手超级智能体迪迪虾，预订确认全搞定，首发#腾势N8L纯电#，美好出行，家倍从容，迪迪虾我们一起走！ http://t.cn/AX0RtByL"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "denza-weibo",
-      "sourceName": "腾势汽车官方微博",
-      "sourceType": "official-social",
-      "title": "开车路上随口说，外卖准时送到家！",
-      "url": "https://weibo.com/2664689831/Rh9wkb7lj",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T14:28:00+08:00",
-      "authorVerified": true,
-      "authorId": "2664689831",
-      "authorName": "腾势汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "开车路上随口说，外卖准时送到家！\n@淘宝闪购 携手超级智能体迪迪虾，动口不动手，首发#腾势N8L纯电#，美好出行，家倍从容，迪迪虾我们一起走！ http://t.cn/AX0RGbJS"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "denza-weibo",
-      "sourceName": "腾势汽车官方微博",
-      "sourceType": "official-social",
-      "title": "如果把手机的“三折叠”带进车机里",
-      "url": "https://weibo.com/2664689831/Rh9ofaIdM",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T14:08:00+08:00",
-      "authorVerified": true,
-      "authorId": "2664689831",
-      "authorName": "腾势汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "如果把手机的“三折叠”带进车机里\n会带来怎样的全新体验？\n#腾势N8#首搭全新一代腾势巨幕智能座舱\n开合之间，阔屏视界，打开更多想象\n#车机也有三折叠##腾势N8全新智能座舱#"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "denza-weibo",
-      "sourceName": "腾势汽车官方微博",
-      "sourceType": "official-social",
-      "title": "世界级AI云，遇上世界级新能源汽车！",
-      "url": "https://weibo.com/2664689831/Rh90z2K5F",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T13:10:00+08:00",
-      "authorVerified": true,
-      "authorId": "2664689831",
-      "authorName": "腾势汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "世界级AI云，遇上世界级新能源汽车！\n@阿里云 携手超级智能体迪迪虾，听得明白、更懂你，真正能办事，正式上车#腾势N8L纯电#！\n美好出行，家倍从容，迪迪虾我们一起走！   http://t.cn/AX0RvYux"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
       "sourceId": "leapmotor-weibo",
       "sourceName": "零跑汽车官方微博",
       "sourceType": "official-social",
@@ -1199,60 +805,6 @@
       "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
       "contentParagraphs": [
         "一场风靡全球的体能挑战赛#HYROX#即将开赛\nLafa车主战队已集结完毕🔥\n#零跑Lafa5Ultra#车主@赵奕欢Chloe 带队出征\n七位选手，横跨女子、女双及男女混合组别\n拼力量、拼耐力，更拼意志力\n敢上场，更热爱💪\n9月12日，北京，Lafa战队，场上见！\n#零跑Lafa5##你有点Lafa#"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "leapmotor-weibo",
-      "sourceName": "零跑汽车官方微博",
-      "sourceType": "official-social",
-      "title": "海拔高耸，抵挡不住向上的信念",
-      "url": "https://weibo.com/5872290888/Rh9Ja2k2Q",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T15:00:00+08:00",
-      "authorVerified": true,
-      "authorId": "5872290888",
-      "authorName": "零跑汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "海拔高耸，抵挡不住向上的信念\n路途遥远，阻隔不了并肩的热忱\n7天奔赴世界屋脊，亲历山川巍峨、湖泊澄澈\n也见证了零居从相遇到彼此熟悉\n2026#零跑在世界屋脊#之旅虽已收官\n但抵达从不是终点，下一程，继续向远方\n#零跑D19##零跑D99# http://t.cn/AX0RtnrE"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "leapmotor-weibo",
-      "sourceName": "零跑汽车官方微博",
-      "sourceType": "official-social",
-      "title": "蔡康永常常会想：",
-      "url": "https://weibo.com/5872290888/Rh8Ws7FiC",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T13:00:00+08:00",
-      "authorVerified": true,
-      "authorId": "5872290888",
-      "authorName": "零跑汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "蔡康永常常会想：\n如果有一天，遇见过去的我，会聊些什么？\n这一次他将走进#零跑D99#\n开启一场与「另一个自己」的深度对话\n回望来路，看见本心，9月9日，如约相见\n#零跑D99品牌挚友蔡康永##蔡康永##蔡康永遇见蔡康永##BAZAARART# http://t.cn/AX08szFc"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "leapmotor-weibo",
-      "sourceName": "零跑汽车官方微博",
-      "sourceType": "official-social",
-      "title": "天地无声，唯有长风掠过车窗",
-      "url": "https://weibo.com/5872290888/Rh7LV3cG8",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T10:01:00+08:00",
-      "authorVerified": true,
-      "authorId": "5872290888",
-      "authorName": "零跑汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "天地无声，唯有长风掠过车窗\n在平均海拔4500+的阿里大环线\n生灵有生灵的节奏，山川有山川的静谧\n驾驶#零跑D19#，不争朝夕，不立归期\n只将身心彻底沉浸在这片纯粹的旷野里🚘\n#零跑D19丈量中国#"
       ],
       "contentComplete": true,
       "contentScope": "post-text"
@@ -1474,42 +1026,6 @@
       "contentScope": "post-text"
     },
     {
-      "sourceId": "onvo-weibo",
-      "sourceName": "乐道汽车官方微博",
-      "sourceType": "official-social",
-      "title": "无铬鞣、超纤绒、CN95......这些专业名词背后，是L80为全家人乘坐健康做出的努力。一篇文章，带你看懂。",
-      "url": "https://weibo.com/7892483716/Rh9qs0EWf",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T14:13:00+08:00",
-      "authorVerified": true,
-      "authorId": "7892483716",
-      "authorName": "乐道汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "无铬鞣、超纤绒、CN95......这些专业名词背后，是L80为全家人乘坐健康做出的努力。一篇文章，带你看懂。\n#乐道L80双舱小房车##蔚来乐道L80##乐道汽车#"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "onvo-weibo",
-      "sourceName": "乐道汽车官方微博",
-      "sourceType": "official-social",
-      "title": "9月8日，NIO Power 5站上新",
-      "url": "https://weibo.com/7892483716/Rh7n1EwFm",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T09:00:00+08:00",
-      "authorVerified": true,
-      "authorId": "7892483716",
-      "authorName": "乐道汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "9月8日，NIO Power 5站上新\n\nNO.4072 蔚来换电站 | G8511昆磨高速通关服务区昆明方向\nNO.4073 蔚来换电站 | G8511昆磨高速通关服务区磨憨方向\nNO.4074 蔚来换电站 | G5京昆高速元谋服务区昆明方向\nNO.4075 蔚来换电站 | G5京昆高速元谋服务区北京方向\nNO.3402 蔚来超充站 | 衡阳武广新城\n\n截至今日，蔚"
-      ],
-      "contentComplete": false,
-      "contentScope": "post-text"
-    },
-    {
       "sourceId": "xiaomi-auto-weibo",
       "sourceName": "小米汽车官方微博",
       "sourceType": "official-social",
@@ -1523,42 +1039,6 @@
       "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
       "contentParagraphs": [
         "恰逢教师节和开学季，小米汽车献上专属购车礼遇。\n活动期间锁单YU7、SU7、SU7 Ultra全系现车，\n完成提车即可赠送价值599元的4K云台摄像头。\n\n2026年10月7日24点前下定，少量现车可享3年0息，或6000元保险补贴，详情可见小米汽车APP。\n#小米YU7##新一代SU7#"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "xiaomi-auto-weibo",
-      "sourceName": "小米汽车官方微博",
-      "sourceType": "official-social",
-      "title": "“小米澎程发布了4款新车，都很喜欢，该买哪个？”",
-      "url": "https://weibo.com/7871239944/RhcQbDWRT",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T22:55:00+08:00",
-      "authorVerified": true,
-      "authorId": "7871239944",
-      "authorName": "小米汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "“小米澎程发布了4款新车，都很喜欢，该买哪个？”\n“小米澎程系列上市价格多少？如何下定？”\n“锁单后，哪里可以看到交付周期？”\n“截至9月10日24时的限时改配活动有什么限制吗？改配是否会影响交付周期？”\n“小订用户优先排产权的具体规则是什么？”\n“小订意向金权益 车载桌板双杯托版 怎么领取"
-      ],
-      "contentComplete": false,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "xiaomi-auto-weibo",
-      "sourceName": "小米汽车官方微博",
-      "sourceType": "official-social",
-      "title": "小米汽车首席设计师李田原，首次对外分享武士黑 哑光的设计理念和工艺：",
-      "url": "https://weibo.com/7871239944/RhbCNpz1m",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T19:49:00+08:00",
-      "authorVerified": true,
-      "authorId": "7871239944",
-      "authorName": "小米汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "小米汽车首席设计师李田原，首次对外分享武士黑 哑光的设计理念和工艺：\n“武士黑，是在重构「黑」的本质，不是选了一种漆，而是重建了一整套工艺标准，对瑕疵零容忍，部分车漆仍需经验丰富的工匠手工喷涂。”\n\n实车现已到成都万象城旗舰店，8.31-9.15欢迎到店品鉴。"
       ],
       "contentComplete": true,
       "contentScope": "post-text"
@@ -1726,42 +1206,6 @@
       "contentScope": "post-text"
     },
     {
-      "sourceId": "voyah-weibo",
-      "sourceName": "岚图汽车官方微博",
-      "sourceType": "official-social",
-      "title": "想不想在赛道上飙一圈？！",
-      "url": "https://weibo.com/7351024207/RhaWiFgES",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T18:05:00+08:00",
-      "authorVerified": true,
-      "authorId": "7351024207",
-      "authorName": "岚图汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "想不想在赛道上飙一圈？！\n想不想体验赛车级的驾控？！\n#岚图追光S# 驾趣体验营开课啦📢\n全国12城联动，零百加速，蛇形绕桩……\n立即扫码报名，变身追光赛车手"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
-      "sourceId": "voyah-weibo",
-      "sourceName": "岚图汽车官方微博",
-      "sourceType": "official-social",
-      "title": "华为乾崑智驾 200万用户信赖之选",
-      "url": "https://weibo.com/7351024207/Rh8f026X3",
-      "publishedAt": "2026-09-08",
-      "publishedTime": "2026-09-08T11:12:00+08:00",
-      "authorVerified": true,
-      "authorId": "7351024207",
-      "authorName": "岚图汽车",
-      "verificationEvidence": "历史分页返回的发布者 UID、蓝V 标识与指定官方账号一致",
-      "contentParagraphs": [
-        "华为乾崑智驾 200万用户信赖之选\n#岚图汽车# 携手@华为乾崑智能汽车解决方案\n让每一程的出发，都安心抵达\n#华为乾崑200万用户的信赖之选# \n#买车就买乾崑智驾#"
-      ],
-      "contentComplete": true,
-      "contentScope": "post-text"
-    },
-    {
       "sourceId": "miit",
       "sourceName": "工业和信息化部",
       "sourceType": "government",
@@ -1912,7 +1356,7 @@
       "url": "https://www.avatr.com/newscenter",
       "sourceId": "avatr-news",
       "status": "ok",
-      "count": 40,
+      "count": 37,
       "latestPublishedAt": "2026-10-11",
       "reason": null
     },
@@ -1928,8 +1372,8 @@
       "url": "https://www.miit.gov.cn/zwgk/",
       "sourceId": "miit",
       "status": "ok",
-      "count": 2,
-      "latestPublishedAt": "2026-10-16",
+      "count": 1,
+      "latestPublishedAt": "2026-01-16",
       "reason": null
     },
     {
@@ -1943,43 +1387,43 @@
     {
       "sourceId": "byd-news",
       "url": "https://prod.byd.com/cn/news",
-      "checkedAt": "2026-10-23T07:38:28.459Z",
-      "status": "collected",
+      "checkedAt": "2026-10-24T00:12:28.032Z",
+      "status": "no-recent-updates",
       "listRead": true,
       "itemCount": 169,
-      "recentCount": 1,
+      "recentCount": 0,
       "latestPublishedAt": "2026-10-16",
-      "since": "2026-10-16",
+      "since": "2026-10-17",
       "pageCount": 4
     },
     {
       "sourceId": "deepal-news",
       "url": "https://deepal.com.cn/news",
-      "checkedAt": "2026-10-23T07:38:28.459Z",
+      "checkedAt": "2026-10-24T00:12:28.032Z",
       "status": "no-recent-updates",
       "listRead": true,
       "itemCount": 47,
       "recentCount": 0,
       "latestPublishedAt": "2026-06-15",
-      "since": "2026-10-16",
+      "since": "2026-10-17",
       "pageCount": 1
     },
     {
       "sourceId": "zeekr-info",
       "url": "https://www.zeekrlife.com/information",
-      "checkedAt": "2026-10-23T07:38:28.459Z",
+      "checkedAt": "2026-10-24T00:12:28.032Z",
       "status": "no-recent-updates",
       "listRead": true,
       "itemCount": 116,
       "recentCount": 0,
       "latestPublishedAt": "2026-05-19",
-      "since": "2026-10-16",
+      "since": "2026-10-17",
       "pageCount": 6
     },
     {
       "sourceId": "leapmotor-news",
       "url": "https://leapmotor.cn/news/news.html",
-      "checkedAt": "2026-10-23T07:38:28.459Z",
+      "checkedAt": "2026-10-24T00:12:28.032Z",
       "status": "partial",
       "listRead": false,
       "candidateCount": 0,
@@ -1989,7 +1433,7 @@
     {
       "sourceId": "tesla-home",
       "url": "https://www.tesla.cn/blog",
-      "checkedAt": "2026-10-23T07:38:45.307Z",
+      "checkedAt": "2026-10-24T00:12:41.325Z",
       "listRead": true,
       "status": "no-recent-updates",
       "candidateCount": 0,
@@ -1999,7 +1443,7 @@
     {
       "sourceId": "galaxy-official",
       "url": "https://galaxy.geely.com/news",
-      "checkedAt": "2026-10-23T07:38:45.311Z",
+      "checkedAt": "2026-10-24T00:12:41.328Z",
       "listRead": true,
       "status": "partial",
       "candidateCount": 0,
@@ -2008,7 +1452,7 @@
     {
       "sourceId": "li-auto-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:51.489Z",
+      "collectedAt": "2026-10-24T00:12:48.776Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/lixiangzhizao",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2017,7 +1461,7 @@
     {
       "sourceId": "denza-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:51.490Z",
+      "collectedAt": "2026-10-24T00:12:48.765Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/2664689831",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2026,7 +1470,7 @@
     {
       "sourceId": "byd-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:51.694Z",
+      "collectedAt": "2026-10-24T00:12:48.965Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/bydauto",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2035,7 +1479,7 @@
     {
       "sourceId": "leapmotor-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:51.695Z",
+      "collectedAt": "2026-10-24T00:12:48.977Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/u/5872290888",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2044,7 +1488,7 @@
     {
       "sourceId": "nio-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:51.764Z",
+      "collectedAt": "2026-10-24T00:12:49.041Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/nextevofficial",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2053,7 +1497,7 @@
     {
       "sourceId": "onvo-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:51.762Z",
+      "collectedAt": "2026-10-24T00:12:49.049Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7892483716",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2062,7 +1506,7 @@
     {
       "sourceId": "xiaomi-auto-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:51.957Z",
+      "collectedAt": "2026-10-24T00:12:49.228Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7871239944",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2071,7 +1515,7 @@
     {
       "sourceId": "xpeng-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:51.960Z",
+      "collectedAt": "2026-10-24T00:12:49.243Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/5710264970",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2080,7 +1524,7 @@
     {
       "sourceId": "voyah-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:52.040Z",
+      "collectedAt": "2026-10-24T00:12:49.315Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7351024207",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2089,7 +1533,7 @@
     {
       "sourceId": "avatr-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:52.030Z",
+      "collectedAt": "2026-10-24T00:12:49.328Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/avatr",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2098,7 +1542,7 @@
     {
       "sourceId": "deepal-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:52.223Z",
+      "collectedAt": "2026-10-24T00:12:49.494Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/7751244203",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2107,7 +1551,7 @@
     {
       "sourceId": "tesla-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:52.226Z",
+      "collectedAt": "2026-10-24T00:12:49.515Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/teslaofficial",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2116,7 +1560,7 @@
     {
       "sourceId": "zeekr-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:52.285Z",
+      "collectedAt": "2026-10-24T00:12:49.579Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7576049404",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2125,7 +1569,7 @@
     {
       "sourceId": "galaxy-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:52.297Z",
+      "collectedAt": "2026-10-24T00:12:49.599Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7794864065",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2134,7 +1578,7 @@
     {
       "sourceId": "changan-qiyuan-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:52.490Z",
+      "collectedAt": "2026-10-24T00:12:49.766Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/3194397971",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -2143,7 +1587,7 @@
     {
       "sourceId": "hima-weibo",
       "status": "degraded",
-      "collectedAt": "2026-10-23T07:38:52.487Z",
+      "collectedAt": "2026-10-24T00:12:49.785Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/3032210184",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
