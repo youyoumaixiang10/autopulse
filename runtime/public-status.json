@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-10-24T06:03:54.314Z",
+  "completedAt": "2026-10-24T07:27:40.702Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -314,7 +314,7 @@
       "name": "汽车之家资讯",
       "brands": [],
       "status": "ok",
-      "label": "已读 27 条"
+      "label": "已读 1 条"
     },
     {
       "id": "autohome-industry",
@@ -328,7 +328,7 @@
       "name": "懂车帝资讯",
       "brands": [],
       "status": "partial",
-      "label": "已读 64 条 · 读取范围有限"
+      "label": "已读 65 条 · 读取范围有限"
     },
     {
       "id": "sina-auto",
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 7 条待核验线索"
+      "label": "列表已读 9 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
@@ -412,7 +412,7 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 25 条待核验线索"
+      "label": "列表已读 17 条待核验线索"
     },
     {
       "id": "netease-auto",
