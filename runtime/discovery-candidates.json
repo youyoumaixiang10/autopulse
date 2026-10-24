@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-24T04:41:39.330Z",
+  "collectedAt": "2026-10-24T06:01:39.269Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3651,6 +3651,18 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "10月26日开启小订/11月内上市 腾势N8将提供四款内饰配色",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317960.html",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -3658,7 +3670,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 26
+      "count": 27
     },
     {
       "sourceId": "autohome-industry",
@@ -3669,7 +3681,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-24T04:41:27.738Z",
+      "collectedAt": "2026-10-24T06:01:27.640Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 64,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
