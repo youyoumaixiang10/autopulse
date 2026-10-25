@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-25T06:18:17.774Z",
+  "collectedAt": "2026-10-25T07:40:14.564Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3429,7 +3429,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "����/��ȫ/���еȶ๦������ ��ά��ӭ��OTA���� 2��ǰ 799 0 [����֮�� ��Ѷ] 10��23�գ����Ǵӹٷ���Ϥ����ά��ӭ��AVATR.OS 6.1.0�汾OTA���������θ���Χ�����ո��Ի����������֡�����ʵ�ù�...",
+      "title": "座舱/安全/出行等多功能新增 阿维塔迎来OTA升级",
       "sourceMonth": "2026-10",
       "url": "https://www.autohome.com.cn/news/202610/1317945.html",
       "candidateBrands": [
@@ -3842,7 +3842,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 1
+      "count": 26
     },
     {
       "sourceId": "autohome-industry",
@@ -3853,7 +3853,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-25T06:17:41.906Z",
+      "collectedAt": "2026-10-25T07:40:02.692Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

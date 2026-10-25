@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-25T06:18:26.315Z",
+  "collectedAt": "2026-10-25T07:40:22.546Z",
   "targetDates": [
     "2026-10-24",
     "2026-10-25"
@@ -5267,7 +5267,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "10没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道110.26w",
+      "title": "3没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道136.8w",
       "url": "https://auto.news18a.com/news/storys_303056.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -13651,7 +13651,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "4补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地122.5w",
+      "title": "5补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地124.24w",
       "url": "https://auto.news18a.com/news/storys_306801.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -13671,7 +13671,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "99.99万的大众，不是降价是重新进门112.04w",
+      "title": "89.99万的大众，不是降价是重新进门112.51w",
       "url": "https://auto.news18a.com/news/storys_306304.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -15413,7 +15413,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "售33.5-37.5万元 2027款坦克500正式上市",
+      "title": "坦克500新款正式上市",
       "url": "https://www.sohu.com/a/1091871329_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -15423,7 +15423,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "权益价7.89万起 2027款吉利博越上市 搭1.5TD+7DCT",
+      "title": "吉利博越新款搭1.5T上市",
       "url": "https://www.sohu.com/a/1091877550_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -15433,7 +15433,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时置换价12.99万起 天元智驾T800 东风风神L8+上市",
+      "title": "东风风神L8+正式上市",
       "url": "https://www.sohu.com/a/1091862784_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -16478,7 +16478,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "指导价17.99-24.99万元 大众安徽与众09正式上市",
+      "title": "大众安徽与众09正式上市",
       "url": "https://www.sohu.com/a/1092226026_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -16488,7 +16488,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "置换价13.99万起 捷途山海L7 PLUS新车型上市",
+      "title": "捷途山海L7 PLUS新车型上市",
       "url": "https://www.sohu.com/a/1092220237_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -17167,6 +17167,171 @@
       "discoveryPublishedAt": "2026-10-25",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】赛豆科技AIVA全球首家AI生活实验室在重庆开幕并展出ME7实车",
+      "url": "https://auto.ifeng.com/c/8xVkzo1fgSx",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉宣布自研AI地图导航系统 将随FSD v15上线",
+      "url": "https://auto.ifeng.com/c/8xVjjQgbaC7",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "赛豆科技AIVA全球首家AI生活实验室在重庆开幕并展出ME7实车",
+      "url": "https://auto.news18a.com/news/storys_308021.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉宣布自研AI地图导航系统 将随FSD v15上线",
+      "url": "https://www.news18a.com/news/storys_308020.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "捷达M6、比亚迪第二代海鸥、荣威家越07上市，北京越野星钽5X开启预售",
+      "url": "https://www.news18a.com/news/storys_308019.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "无人驾驶矿卡国内出货量六年增长近百倍 产品出口东南亚、非洲及拉美",
+      "url": "https://auto.news18a.com/news/storys_308017.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "斯巴鲁计划以数字仿真取代大部分实车碰撞测试，力争将下一代车型研发周期缩短40%",
+      "url": "https://www.news18a.com/news/storys_308014.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "沃尔沃计划2030年底前推出13款新车，其中3款将于2027年亮相",
+      "url": "https://auto.news18a.com/news/storys_308011.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞汽车计划2027年进入加拿大市场并考虑在当地设厂",
+      "url": "https://www.news18a.com/news/storys_308009.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026世界智能网联汽车大会在北京举办，发布车联网技术标准体系建设指南征求意见稿",
+      "url": "https://auto.news18a.com/news/storys_307863.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "雷军在社交平台表示想开小米澎程探索版去海边，回复晒图车主称羡慕",
+      "url": "https://www.news18a.com/news/storys_307861.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蓝思科技：第三季度归母净利润 8.43 亿元，同比下降 50.42%",
+      "url": "https://www.ithome.com/1/017/613.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奥迪计划投资 40 亿美元建设其在美国的首座整车工厂，年产能 20 万辆",
+      "url": "https://www.ithome.com/1/017/604.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "赛力斯赛豆科技 AIVA 全球首家 AI 生活实验室今日开幕，店内展出 ME7 实车",
+      "url": "https://www.ithome.com/1/017/602.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉确认正自研 AI 地图，将随 FSD v15 逐步推送",
+      "url": "https://www.ithome.com/1/017/597.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "吉利在英国势头迅猛，9 月新车注册量超过马自达、本田",
+      "url": "https://www.ithome.com/1/017/595.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -17206,9 +17371,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 8,
+      "candidateCount": 11,
       "status": "ok",
-      "publicLabel": "列表已读 8 条待核验线索"
+      "publicLabel": "列表已读 11 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -17262,9 +17427,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 15,
+      "candidateCount": 29,
       "status": "ok",
-      "publicLabel": "列表已读 15 条待核验线索"
+      "publicLabel": "列表已读 29 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
