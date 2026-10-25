@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-25T04:46:56.428Z",
+  "collectedAt": "2026-10-25T06:18:26.315Z",
   "targetDates": [
     "2026-10-24",
     "2026-10-25"
@@ -5267,7 +5267,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "10没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道116.54w",
+      "title": "10没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道110.26w",
       "url": "https://auto.news18a.com/news/storys_303056.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -13651,7 +13651,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "8补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地127.19w",
+      "title": "4补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地122.5w",
       "url": "https://auto.news18a.com/news/storys_306801.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -13671,7 +13671,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "49.99万的大众，不是降价是重新进门131.49w",
+      "title": "99.99万的大众，不是降价是重新进门112.04w",
       "url": "https://auto.news18a.com/news/storys_306304.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -15413,7 +15413,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "坦克500新款正式上市",
+      "title": "售33.5-37.5万元 2027款坦克500正式上市",
       "url": "https://www.sohu.com/a/1091871329_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -15423,7 +15423,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "吉利博越新款搭1.5T上市",
+      "title": "权益价7.89万起 2027款吉利博越上市 搭1.5TD+7DCT",
       "url": "https://www.sohu.com/a/1091877550_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -15433,7 +15433,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "东风风神L8+正式上市",
+      "title": "限时置换价12.99万起 天元智驾T800 东风风神L8+上市",
       "url": "https://www.sohu.com/a/1091862784_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -16478,7 +16478,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "大众安徽与众09正式上市",
+      "title": "指导价17.99-24.99万元 大众安徽与众09正式上市",
       "url": "https://www.sohu.com/a/1092226026_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -16488,7 +16488,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "捷途山海L7 PLUS新车型上市",
+      "title": "置换价13.99万起 捷途山海L7 PLUS新车型上市",
       "url": "https://www.sohu.com/a/1092220237_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -17016,6 +17016,157 @@
       "discoveryPublishedAt": "2026-10-25",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】捷达M6、比亚迪第二代海鸥、荣威家越07上市，北京越野星钽5X开启预售",
+      "url": "https://auto.ifeng.com/c/8xVgIzXwg2Y",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】鸿蒙智行智界RX于2026年10月25日开启全国大规模交付",
+      "url": "https://auto.ifeng.com/c/8xVexuXkqIZ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】保时捷在美国扩大召回548辆2024款911和718车型",
+      "url": "https://auto.ifeng.com/c/8xVauCYWa5T",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】无人驾驶矿卡国内出货量六年增长近百倍 产品出口东南亚、非洲及拉美",
+      "url": "https://auto.ifeng.com/c/8xVd4Wp8UiU",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "捷达M6、比亚迪第二代海鸥、荣威家越07上市，北京越野星钽5X开启预售",
+      "url": "https://auto.news18a.com/news/storys_308019.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行智界RX于2026年10月25日开启全国大规模交付",
+      "url": "https://www.news18a.com/news/storys_308018.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "保时捷在美国扩大召回548辆2024款911和718车型",
+      "url": "https://www.news18a.com/news/storys_308016.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "无人驾驶矿卡国内出货量六年增长近百倍 产品出口东南亚、非洲及拉美",
+      "url": "https://www.news18a.com/news/storys_308017.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "张雪驾驶改装摩托车MX450挑战“改装摩托车在开阔水域行驶最远距离”吉尼斯世界纪录",
+      "url": "https://www.news18a.com/news/storys_308015.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "斯巴鲁计划以数字仿真取代大部分实车碰撞测试，力争将下一代车型研发周期缩短40%",
+      "url": "https://auto.news18a.com/news/storys_308014.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "“张雪机车”创始人张雪今日驾驶改装摩托车MX450挑战吉尼斯世界纪录",
+      "url": "https://www.news18a.com/news/storys_308013.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "岚图销售顾问接待两名儿童获家长联系计划购买泰山X8",
+      "url": "https://www.news18a.com/news/storys_308012.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "沃尔沃计划2030年底前推出13款新车，其中3款将于2027年亮相",
+      "url": "https://www.news18a.com/news/storys_308011.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉2028款Roadster推力版原型车在洛杉矶彼得森汽车博物馆展出",
+      "url": "https://www.news18a.com/news/storys_308010.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行智界 RX 轿跑 SUV 整装发运：今日同步开启全国大规模交付，赛车手谢欣哲成首批车主",
+      "url": "https://www.ithome.com/1/017/587.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -17039,9 +17190,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 1,
+      "candidateCount": 0,
       "listRead": false,
-      "publicLabel": "公开检索发现 1 条待核验线索"
+      "publicLabel": "直连列表与公开检索均未匹配"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -17111,9 +17262,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 29,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 29 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -17126,11 +17277,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
