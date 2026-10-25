@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-24T07:24:02.482Z",
+  "collectedAt": "2026-10-25T00:13:06.397Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3429,7 +3429,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "����/��ȫ/���еȶ๦������ ��ά��ӭ��OTA���� 1��ǰ 693 0 [����֮�� ��Ѷ] 10��23�գ����Ǵӹٷ���Ϥ����ά��ӭ��AVATR.OS 6.1.0�汾OTA���������θ���Χ�����ո��Ի����������֡�����ʵ�ù�...",
+      "title": "座舱/安全/出行等多功能新增 阿维塔迎来OTA升级",
       "sourceMonth": "2026-10",
       "url": "https://www.autohome.com.cn/news/202610/1317945.html",
       "candidateBrands": [
@@ -3663,6 +3663,166 @@
         "腾势"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "预售68万起/支付2万意向金锁单 腾势Z将于今年四季度上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317966.html",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "将于10月27日上市/轴距达2800mm 全新比亚迪秦PLUS正式亮相",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317964.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "比亚迪全新海鸥探店体验",
+      "url": "https://www.dongchedi.com/video/7699792751893873177",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "共同试驾特斯拉Model3",
+      "url": "https://www.dongchedi.com/video/7699428029612917310",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "5座9箱 小鹏MONA L05",
+      "url": "https://www.dongchedi.com/video/7699878849995522622",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "深蓝S07AI激光版适合谁",
+      "url": "https://www.dongchedi.com/article/7700062827989647896",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "深蓝"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "科技FUV岚图追光S",
+      "url": "https://www.dongchedi.com/video/7699745439155061272",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "岚图"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "从不同角度看理想i9 Home",
+      "url": "https://www.dongchedi.com/video/7699747457437057598",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "腾势N9值不值得买？",
+      "url": "https://www.dongchedi.com/video/7699422443412570686",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "为啥理想i9 Home最有性价比",
+      "url": "https://www.dongchedi.com/video/7699774362072973849",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -3670,7 +3830,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 1
+      "count": 28
     },
     {
       "sourceId": "autohome-industry",
@@ -3681,9 +3841,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-24T07:23:28.297Z",
+      "collectedAt": "2026-10-25T00:12:53.399Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 65,
+      "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
