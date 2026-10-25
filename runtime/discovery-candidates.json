@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-25T00:13:06.397Z",
+  "collectedAt": "2026-10-25T04:46:43.188Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3823,6 +3823,18 @@
         "理想"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售25.98万起 智界RX首批车主交付 为驾驶而生的纯电SUV",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317971.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -3830,7 +3842,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 28
+      "count": 26
     },
     {
       "sourceId": "autohome-industry",
@@ -3841,7 +3853,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-25T00:12:53.399Z",
+      "collectedAt": "2026-10-25T04:46:31.553Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
