@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-26T06:26:20.566Z",
+  "collectedAt": "2026-10-26T07:54:01.652Z",
   "targetDates": [
     "2026-10-25",
     "2026-10-26"
@@ -5267,7 +5267,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "5没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道125.46w",
+      "title": "3没有对手的自我超越：全球首试全新一代奥迪A6 allroad的王者之道131.8w",
       "url": "https://auto.news18a.com/news/storys_303056.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -13651,7 +13651,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "3补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地136.45w",
+      "title": "8补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地108.04w",
       "url": "https://auto.news18a.com/news/storys_306801.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -14201,7 +14201,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "捷达M6上市最高续航555km",
+      "title": "捷达M6上市续航达555km",
       "url": "https://www.sohu.com/a/1091146471_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -14905,7 +14905,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "指导价12.78-15.28万元 荣威家越07正式上市",
+      "title": "荣威家越07正式上市",
       "url": "https://www.sohu.com/a/1091629732_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -15433,7 +15433,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时置换价12.99万起 天元智驾T800 东风风神L8+上市",
+      "title": "东风风神L8+上市搭智驾",
       "url": "https://www.sohu.com/a/1091862784_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -15443,7 +15443,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "2027款吉利缤越超能版官图发布 将于10月27日正式上市",
+      "title": "吉利缤越超能版官图发布",
       "url": "https://www.sohu.com/a/1091728772_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -16488,7 +16488,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "置换价13.99万起 捷途山海L7 PLUS新车型正式上市",
+      "title": "捷途山海L7 PLUS新车发布",
       "url": "https://www.sohu.com/a/1092220237_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -17465,7 +17465,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "指导价34.98-42.98万元 红旗G919正式上市",
+      "title": "34.98万起 红旗G919正式上市",
       "url": "https://www.sohu.com/a/1090150250_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -17475,7 +17475,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时20.98万起 搭越野版XHUD 猛士X700正式上市",
+      "title": "限时20.98万起 猛士X700上市",
       "url": "https://www.sohu.com/a/1092528279_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -17485,7 +17485,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时感恩价5.99万起 2027款吉利帝豪向上系列正式上市",
+      "title": "吉利帝豪向上系列上市",
       "url": "https://www.sohu.com/a/1092521835_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -18572,7 +18572,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "权益价25.98万起 魏牌高山8 HEV正式上市",
+      "title": "魏牌高山8 HEV正式上市",
       "url": "https://www.sohu.com/a/1092831278_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -18620,6 +18620,317 @@
       "discoveryPublishedAt": "2026-10-26",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "路面将迎来青蓝色车灯：标识自动驾驶车辆",
+      "url": "https://auto.gasgoo.com/news/202610/26I70475905C111.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "加拿大政府将尾气排放法规冻结至2030年",
+      "url": "https://auto.gasgoo.com/news/202610/26I70475904C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "韩系车9月在华零售跌破1万辆，份额降至0.6%",
+      "url": "https://auto.gasgoo.com/news/202610/26I70475897C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "奇瑞风云A9增程版正式上市",
+      "url": "https://www.sohu.com/a/1092866220_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "风云A9增程版正式上市，限时置换价11.69万元起",
+      "url": "https://auto.ifeng.com/c/8xXLiKK6FQf",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "魏牌高山8 HEV正式上市，限时权益价25.98万元起",
+      "url": "https://auto.ifeng.com/c/8xXIXyGbKLx",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "猛士X700正式上市，限时焕新价20.98万元起",
+      "url": "https://auto.ifeng.com/c/8xXIGQJFKDn",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "博主发布新一代小米SU7 Ultra伪装车路测视频",
+      "url": "https://auto.news18a.com/news/storys_308277.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "保时捷Sonderwunsch部门正推进15个专属定制项目，价格最高约1500万美元",
+      "url": "https://www.news18a.com/news/storys_308275.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蜂巢能源首批100kWh混合固液超充电池包在常州下线",
+      "url": "https://www.news18a.com/news/storys_308270.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "现代与起亚9月在华零售合计约9000辆 同比下滑39%",
+      "url": "https://www.news18a.com/news/storys_308269.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉中国推出家充桩延保服务限时优惠，最低199元延长2年保障",
+      "url": "https://www.news18a.com/news/storys_308267.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利为欧洲市场研发专属车型，预计2027年亮相",
+      "url": "https://auto.news18a.com/news/storys_308266.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "相关部门推动车辆安装蜂窝车联网C-V2X强标制定工作",
+      "url": "https://www.news18a.com/news/storys_308262.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "北京持续实施消费品以旧换新政策，累计带动销售额超1400亿元",
+      "url": "https://www.news18a.com/news/storys_308253.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第二代海豹07于10月26日开启盲订",
+      "url": "https://www.news18a.com/news/storys_308251.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞风云A9增程版上市，限时超级置换价11.69万元起",
+      "url": "https://www.news18a.com/news/storys_308248.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "魏牌高山8HEV上市 限时权益价25.98-27.98万元",
+      "url": "https://auto.news18a.com/news/storys_308244.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年9月中国进口汽车2.1万辆 同比下降49%",
+      "url": "https://www.news18a.com/news/storys_308246.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "东风日产公布NX7内饰官图",
+      "url": "https://www.news18a.com/news/storys_308242.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "新福特锐界L将于10月29日在成都发布",
+      "url": "https://www.news18a.com/news/storys_308240.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "科络达获2026第八届金辑奖“最佳技术实践应用奖”",
+      "url": "https://www.news18a.com/news/storys_308245.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "大众中国在合肥获得 L3 级自动驾驶道路测试牌照",
+      "url": "https://www.ithome.com/1/017/935.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "理想汽车 CEO 李想预告 i6 今日直播拆车，称造车不能造“速成车”",
+      "url": "https://www.ithome.com/1/017/933.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "新一代小米 SU7 Ultra 伪装车路测视频曝光，超大尾翼设计巨吸睛",
+      "url": "https://www.ithome.com/1/017/925.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "保时捷正打造 15 辆独一无二的定制车型，最高售价达 1500 万美元",
+      "url": "https://www.ithome.com/1/017/921.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "国家能源局：截至 9 月底全国累计发电装机容量 41.3 亿千瓦，同比增长 11.2%",
+      "url": "https://www.ithome.com/1/017/918.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蜂巢能源首批 100kWh 混合固液超充电池包量产下线，称混合固液将长期存在并成主流路线",
+      "url": "https://www.ithome.com/1/017/915.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "吉利为欧洲市场研发专属车型，预计明年亮相",
+      "url": "https://www.ithome.com/1/017/901.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉中国推出汽车家充桩延保服务限时优惠，明年 1 月 20 日前购买延保服务最低 199 元",
+      "url": "https://www.ithome.com/1/017/900.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -18659,9 +18970,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 18,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 18 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -18715,26 +19026,26 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 15,
+      "candidateCount": 22,
       "status": "ok",
-      "publicLabel": "列表已读 15 条待核验线索"
+      "publicLabel": "列表已读 22 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
-      "listRead": true,
-      "candidateCount": 20,
-      "status": "ok",
-      "publicLabel": "列表已读 20 条待核验线索"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/",
       "status": "partial",
       "candidateCount": 0,
       "listRead": false,
       "publicLabel": "直连列表暂不可读，将回退公开检索",
       "error": "fetch failed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://auto.news18a.com/",
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

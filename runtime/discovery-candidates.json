@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-26T06:26:07.421Z",
+  "collectedAt": "2026-10-26T07:53:47.445Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3893,6 +3893,18 @@
         "腾势"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售10.58万元 2026款吉利银河星舰7优行版上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317986.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -3900,7 +3912,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 22
+      "count": 23
     },
     {
       "sourceId": "autohome-industry",
@@ -3911,7 +3923,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-26T06:25:55.568Z",
+      "collectedAt": "2026-10-26T07:53:35.640Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
