@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-26T04:52:30.200Z",
+  "collectedAt": "2026-10-26T06:26:20.566Z",
   "targetDates": [
     "2026-10-25",
     "2026-10-26"
@@ -17465,7 +17465,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "指导价34.98万起/四电机非承载SUV 红旗G919上市",
+      "title": "指导价34.98-42.98万元 红旗G919正式上市",
       "url": "https://www.sohu.com/a/1090150250_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -18512,6 +18512,114 @@
       "discoveryPublishedAt": "2026-10-26",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "乘联分会崔东树：2027年国内车市零售预计增2%",
+      "url": "https://auto.gasgoo.com/news/202610/26I70475894C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "沃尔沃汽车第三季度由盈转亏 拟裁2,500人",
+      "url": "https://auto.gasgoo.com/news/202610/26I70475895C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "腾势N8开启小订，CLTC续航最高1003公里",
+      "url": "https://auto.gasgoo.com/news/202610/26I70475893C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "【国际快讯】沃尔沃汽车Q3营业利润转负；奥迪将斥资40亿美元在美国新建一家工厂；奇瑞汽车考虑在加拿大建立本土生产基地",
+      "url": "https://auto.gasgoo.com/news/202610/26I70475892C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "进口车退潮，从加价排队走向腰斩",
+      "url": "https://auto.gasgoo.com/news/202610/26I70475888C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "权益价25.98万起 魏牌高山8 HEV正式上市",
+      "url": "https://www.sohu.com/a/1092831278_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "全新一代捷途山海L7 PLUS激光雷达版上市13.99万起，随机路人直播实测不烧心",
+      "url": "https://auto.ifeng.com/c/8xXGcODyxaO",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称相关部门已在推动车辆安装蜂窝车联网 C-V2X 强标制定工作",
+      "url": "https://www.ithome.com/1/017/893.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第二代海豹 07 盲订开启：定位 C 级全享家轿，轴距 2960mm",
+      "url": "https://www.ithome.com/1/017/876.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长城魏牌高山 8 HEV 上市：号称“不用充电的智能豪华四驱 MPV”，限时权益价 25.98 万元起",
+      "url": "https://www.ithome.com/1/017/845.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -18551,9 +18659,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 17,
+      "candidateCount": 18,
       "status": "ok",
-      "publicLabel": "列表已读 17 条待核验线索"
+      "publicLabel": "列表已读 18 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -18622,10 +18730,11 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
