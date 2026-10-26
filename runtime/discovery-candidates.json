@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-25T07:40:14.564Z",
+  "collectedAt": "2026-10-26T00:14:10.090Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3835,6 +3835,52 @@
         "鸿蒙智行"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全新秦PLUS/新款理想i6等 2026年第44周(10.26-11.1)新车预告",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317953.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "零跑C16舍它其谁？",
+      "url": "https://www.dongchedi.com/video/7699424668796764734",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "吉利银河星耀7怎么选？",
+      "url": "https://www.dongchedi.com/video/7699426310149947928",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -3842,7 +3888,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 26
+      "count": 24
     },
     {
       "sourceId": "autohome-industry",
@@ -3853,9 +3899,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-25T07:40:02.692Z",
+      "collectedAt": "2026-10-26T00:13:58.244Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 68,
+      "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
