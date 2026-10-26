@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-26T00:14:10.090Z",
+  "collectedAt": "2026-10-26T04:52:22.248Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3881,6 +3881,18 @@
         "吉利银河"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "将于11月上市 腾势N8正式发布 配四把零重力座椅+1003km续航",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317970.html",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -3888,7 +3900,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 24
+      "count": 23
     },
     {
       "sourceId": "autohome-industry",
@@ -3899,7 +3911,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-26T00:13:58.244Z",
+      "collectedAt": "2026-10-26T04:52:10.567Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
