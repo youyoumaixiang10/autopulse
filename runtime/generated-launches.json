@@ -2282,6 +2282,25 @@
     "observation": "由日报新车事件自动写入；价格与上市日只取原文可追溯表述。"
   },
   {
+    "id": "launch-f4fdddab578ad2dd",
+    "month": "2026-10",
+    "date": "2026-10-27",
+    "dateText": "10月27日",
+    "brand": "吉利",
+    "model": "Auto 2",
+    "kind": "年款上市",
+    "powertrain": "动力形式待公布",
+    "priceText": "6.68万元",
+    "status": "launched",
+    "statusLabel": "已上市",
+    "sourceName": "IT之家",
+    "sourceUrl": "https://www.ithome.com/1/018/444.htm",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-10-27",
+    "detail": "IT之家 10 月 27 日消息，2027 款吉利缤越超能版正式上市，共推出 3 款车型，售价 6.68—7.88 万元，限时先享价 5.98—7.18 万元，新车在智能座舱领域带来全面升级。 1.5D+5MT 超能 MT 版，指导价 6.68 万元，上市先享价 5.98 万元 1.5D+CVT 超能 CVT 版，指导价 7.38 万元，上市先享价 6.68 万元 1.5D+CVT 超能 Max 版，指导价 7.88 万元，上市先享价 7.18 万元",
+    "observation": "由日报新车事件自动写入；价格与上市日只取原文可追溯表述。"
+  },
+  {
     "id": "launch-0107a854d2327ab2",
     "month": "2026-10",
     "date": "2026-10-28",

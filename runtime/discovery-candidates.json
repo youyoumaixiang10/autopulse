@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-27T06:26:02.774Z",
+  "collectedAt": "2026-10-27T07:58:52.711Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4072,6 +4072,42 @@
         "腾势"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "展车和试驾车预计10月底陆续到店 方程豹钛9计划11月中下旬上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318007.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "将于11月正式发布 仰望鼎曜预告图 采用对开门+双色车身设计",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318006.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "9项新增功能 2项优化！方程豹钛7第六次OTA开启推送",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318005.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -4079,7 +4115,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 18
+      "count": 21
     },
     {
       "sourceId": "autohome-industry",
@@ -4090,7 +4126,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-27T06:25:46.352Z",
+      "collectedAt": "2026-10-27T07:58:40.985Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 70,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
