@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-27T00:15:51.274Z",
+  "collectedAt": "2026-10-27T05:10:18.622Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3917,6 +3917,161 @@
         "小鹏"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "新增记忆泊车自定义限速调节等 2027款零跑C系车型陆续推送OTA",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317997.html",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "1.5L甲醇插电混动 外观升级 吉利银河星耀6EF将于11月3日上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317994.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "9月热销SUV盘点：特斯拉Model Y强势登顶 国产新能源全面领跑",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317977.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "全新比亚迪秦PLUS DM限时7.69万起",
+      "url": "https://www.dongchedi.com/article/7700882301153460760",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "腾势N8：每个位置都是C位",
+      "url": "https://www.dongchedi.com/video/7700774484504216088",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "体验比亚迪第二代海豹07",
+      "url": "https://www.dongchedi.com/video/7699803128002527806",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "腾势N8十大功能，静态全解析",
+      "url": "https://www.dongchedi.com/video/7699878788716511806",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "腾势N8L纯电试驾",
+      "url": "https://www.dongchedi.com/video/7700830630904578585",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "腾势N8空间有多大？",
+      "url": "https://www.dongchedi.com/video/7700805607301022232",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "腾势N8座舱新内饰，新体验",
+      "url": "https://www.dongchedi.com/video/7700789620988445208",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -3924,7 +4079,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 21
+      "count": 20
     },
     {
       "sourceId": "autohome-industry",
@@ -3935,9 +4090,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-27T00:15:39.483Z",
+      "collectedAt": "2026-10-27T05:10:06.823Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 69,
+      "candidateCount": 70,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
