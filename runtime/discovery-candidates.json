@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-26T07:53:47.445Z",
+  "collectedAt": "2026-10-27T00:15:51.274Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3905,6 +3905,18 @@
         "吉利银河"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小鹏Robotaxi获批L4级示范运营资质 将在广州开展运营",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317987.html",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -3912,7 +3924,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 23
+      "count": 21
     },
     {
       "sourceId": "autohome-industry",
@@ -3923,7 +3935,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-26T07:53:35.640Z",
+      "collectedAt": "2026-10-27T00:15:39.483Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
