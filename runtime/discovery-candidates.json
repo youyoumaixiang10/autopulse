@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-27T05:10:18.622Z",
+  "collectedAt": "2026-10-27T06:26:02.774Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -3958,7 +3958,7 @@
       "sourceId": "dongchedi-news",
       "sourceName": "懂车帝公开首页",
       "sourceType": "vertical-media",
-      "title": "全新比亚迪秦PLUS DM限时7.69万起",
+      "title": "全新比亚迪秦PLUS DM",
       "url": "https://www.dongchedi.com/article/7700882301153460760",
       "publishedAt": null,
       "sourceMonth": null,
@@ -4079,7 +4079,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 20
+      "count": 18
     },
     {
       "sourceId": "autohome-industry",
@@ -4090,7 +4090,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-27T05:10:06.823Z",
+      "collectedAt": "2026-10-27T06:25:46.352Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 70,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

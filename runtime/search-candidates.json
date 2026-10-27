@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-27T05:10:32.357Z",
+  "collectedAt": "2026-10-27T06:26:09.909Z",
   "targetDates": [
     "2026-10-26",
     "2026-10-27"
@@ -13651,7 +13651,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "8补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地108.04w",
+      "title": "4补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地120.04w",
       "url": "https://auto.news18a.com/news/storys_306801.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -18969,7 +18969,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "只换不修的电池包，正在困住第一批电车车主",
+      "title": "只换不修的电池包，困住第一批电车车主",
       "url": "https://auto.gasgoo.com/news/202610/27I70475945C108.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-10-27",
@@ -19850,6 +19850,298 @@
       "discoveryPublishedAt": "2026-10-27",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "中国车企在欧洲季度销量首次超越日系车企",
+      "url": "https://auto.gasgoo.com/news/202610/27I70476008C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-27",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "2026年1—9月汽车行业利润率3.3%，利润同比降23%",
+      "url": "https://auto.gasgoo.com/news/202610/27I70476007C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-27",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "长安启源Q06首批实测",
+      "url": "https://www.sohu.com/a/1093331962_507881",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "空间更大/综合续航2290km 第三代秦PLUS DM-i上市限时价7.69万元起",
+      "url": "https://auto.ifeng.com/c/8xYvOSrYyeF",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "岚图汽车李博晓：出海是必答题，要把标签从“像谁”变成“是谁”",
+      "url": "https://auto.ifeng.com/c/8xYjo2ERf4U",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "广汽国际李牮：走出去已成既定事实，接下来要走上去",
+      "url": "https://auto.ifeng.com/c/8xYjrdVwdeI",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "丰田忙着合，奥迪忙着分：拆开四个圈，能拆出销量吗？",
+      "url": "https://auto.ifeng.com/c/8xYjwOuPT3e",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宁德时代等共同出资成立上海时代宸远创业投资合伙企业",
+      "url": "https://auto.news18a.com/news/storys_308569.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽奥迪为E7X及E5 Sportback推出限时五重购车礼遇",
+      "url": "https://www.news18a.com/news/storys_308568.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "乘联分会崔东树发文：2026年1—9月汽车行业销售利润率3.3%",
+      "url": "https://www.news18a.com/news/storys_308562.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第三代秦PLUS DM-i于10月27日上市，限时售价7.69万-9.79万元",
+      "url": "https://www.news18a.com/news/storys_308560.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "张雪机车10月26日在重庆大学进行校园招聘",
+      "url": "https://www.news18a.com/news/storys_308558.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "土耳其一辆特斯拉Model Y与卡车相撞起火 消防员耗时约3小时扑灭",
+      "url": "https://auto.news18a.com/news/storys_308557.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "SONATUS旗下Fastlane Insight获2026第八届金辑奖“最佳技术实践应用奖”",
+      "url": "https://www.news18a.com/news/storys_308555.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "新吉奥房车股价跌近37%，香港证监会公布其股权高度集中查讯结果",
+      "url": "https://www.news18a.com/news/storys_308551.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "孙晓光获“2026中国汽车产业影响力人物”奖项",
+      "url": "https://www.news18a.com/news/storys_308554.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "工信部在2026世界智能网联汽车大会期间主持召开汽车产业国际合作圆桌会",
+      "url": "https://www.news18a.com/news/storys_308548.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中国汽车维修行业协会发布2026年汽车售后服务满意度调查结果",
+      "url": "https://auto.news18a.com/news/storys_308550.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "闪迪哨兵系列microSD存储卡上市，提供行车记录仪与安防监控双版本",
+      "url": "https://www.news18a.com/news/storys_308545.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "韩巴大学研究显示阳离子无序化有望改善富锂正极材料",
+      "url": "https://www.news18a.com/news/storys_308549.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "东芯半导体获2026第八届金辑奖最佳技术实践应用奖",
+      "url": "https://www.news18a.com/news/storys_308546.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一名瑞典男子在德国驾驶特斯拉Cybertruck被警方拦停并禁止继续行驶",
+      "url": "https://www.news18a.com/news/storys_308543.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年前九个月欧洲乘用车销量榜单发布 吉利与比亚迪进入前十",
+      "url": "https://auto.news18a.com/news/storys_308541.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "零跑C系2026款车型OTA于10月开始推送",
+      "url": "https://www.news18a.com/news/storys_308538.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "意法半导体推出汽车安全组合传感器",
+      "url": "https://www.news18a.com/news/storys_308540.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "欧摩威在2026中国生态共创大会上全球首发第七代毫米波雷达RAD72C",
+      "url": "https://www.news18a.com/news/storys_308539.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉Cybercab电池包预留空间以兼容磷酸铁锂电池",
+      "url": "https://www.news18a.com/news/storys_308535.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "AUDI能否在市场站稳脚跟",
+      "url": "https://auto.news18a.com/news/storys_308298.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大召回“平反”后，丰田做了什么？",
+      "url": "https://auto.news18a.com/news/storys_308530.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
     }
   ],
   "sourceResults": [
@@ -19889,9 +20181,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 8,
+      "candidateCount": 7,
       "status": "ok",
-      "publicLabel": "列表已读 8 条待核验线索"
+      "publicLabel": "列表已读 7 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -19945,9 +20237,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 29,
+      "candidateCount": 26,
       "status": "ok",
-      "publicLabel": "列表已读 29 条待核验线索"
+      "publicLabel": "列表已读 26 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -19960,11 +20252,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
