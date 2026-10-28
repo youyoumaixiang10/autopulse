@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-28T00:14:15.969Z",
+  "collectedAt": "2026-10-28T05:46:58.686Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4132,6 +4132,42 @@
         "阿维塔"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "预售38.98万起 新款问界M8将于11月13日上市 10月30日起陆续到店",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318019.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "终极目标是无线充电 特斯拉计划用人形机器人为Robotaxi充电",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318018.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小米/一汽-大众/赛力斯三家工厂拟入选国家级名单",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318017.html",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -4139,7 +4175,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 22
+      "count": 23
     },
     {
       "sourceId": "autohome-industry",
@@ -4150,7 +4186,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-28T00:14:04.056Z",
+      "collectedAt": "2026-10-28T05:46:46.546Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 70,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
