@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-27T07:58:52.711Z",
+  "collectedAt": "2026-10-28T00:14:15.969Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4108,6 +4108,30 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小鹏MONA L05将于10月29日上市 预售16.98万起 增程+纯电中型SUV",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1317934.html",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "或降低896线激光雷达门槛 阿维塔07L Max版将于10月29日正式上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318010.html",
+      "candidateBrands": [
+        "阿维塔"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -4115,7 +4139,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 21
+      "count": 22
     },
     {
       "sourceId": "autohome-industry",
@@ -4126,7 +4150,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-27T07:58:40.985Z",
+      "collectedAt": "2026-10-28T00:14:04.056Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 70,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

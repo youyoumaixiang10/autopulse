@@ -5802,6 +5802,7 @@
     "url": "https://www.pcauto.com.cn/nation/5187/51872053.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -8683,6 +8684,7 @@
     "url": "https://www.pcauto.com.cn/nation/5188/51886322.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10575,6 +10577,86 @@
     ]
   },
   {
+    "title": "魏牌第二代蓝山首发亮相 中大型方盒子SUV 2.0T插混/配后轮转向",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899626.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "阿维塔07L Max版10月29日上市 提供更多选择空间",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899613.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "售价23.98-31.98万元 新款智界R7开启全国交付",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899612.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "情怀向专属版本 日产探陆40周年纪念版官图发布",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899603.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "深蓝汽车进入埃及一周年拿下当地增程细分市场第一",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899601.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "小鹏MONA L05新产线首批5000台下线 预售16.98万起/10月29日上市",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899602.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "先享价5.98万起 2027款吉利缤越超能版上市 内外焕新/1.5L发动机",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899595.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "仰望全新超豪华行政旗舰轿车正式命名为“鼎曜” 将11月首发亮相",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899587.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "IT早报 1028：张一鸣以 6700 亿元刷新中国首富财富纪录；谷歌推最强世界模型 Genie 4；苹果推 M6 芯片 14 寸 MacBook Pro；小米 REDMI K100 手机发布...",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/018/722.htm",
+    "reasons": [
+      "频道问候或无具体车型事件的周期汇总"
+    ]
+  },
+  {
     "title": "四季度上市/第六代DM-i混动技术 方程豹钛9内饰谍照曝光",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202609/1317075.html",
@@ -10810,6 +10892,14 @@
     "title": "阿里 Qoder 官宣支持 Linux ARM64 与龙芯平台，适配统信 UOS、银河麒麟操作系统",
     "sourceName": "IT之家",
     "url": "https://www.ithome.com/1/016/927.htm",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "告别冰箱彩电沙发 造车新势力开始比拼“靠谱”？",
+    "sourceName": "凤凰网汽车",
+    "url": "https://auto.ifeng.com/c/8xYkCWhtZAW",
     "reasons": [
       "标题与正文不是同一事件"
     ]
