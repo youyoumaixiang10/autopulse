@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-28T05:47:05.312Z",
+  "collectedAt": "2026-10-28T06:56:17.075Z",
   "targetDates": [
     "2026-10-27",
     "2026-10-28"
@@ -13651,7 +13651,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "7补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地117.37w",
+      "title": "3补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地129.49w",
       "url": "https://auto.news18a.com/news/storys_306801.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -20191,7 +20191,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "比亚迪秦PLUS DM-i上市",
+      "title": "限时7.69万起 比亚迪第三代秦PLUS DM-i正式上市",
       "url": "https://www.sohu.com/a/1093350435_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -20201,7 +20201,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时先享价5.98万起 吉利缤越超能版正式上市",
+      "title": "限时先享价5.98万起 2027款吉利缤越超能版正式上市",
       "url": "https://www.sohu.com/a/1093350054_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -21341,6 +21341,193 @@
       "discoveryPublishedAt": "2026-10-28",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "92%综合得分率 岚图泰山获C-NCAP五星+认证",
+      "url": "https://auto.sina.com.cn/news/2026-10-28/detail-iniwuefy3415143.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "个性化公共交通：研究人员开发出自动驾驶出行服务",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476144C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "SaverOne发布全新的纯软件驾驶安全产品",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476143C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "Seeds | 4亿元制鞋订单在手，中科慧灵完成数亿元A++轮融资",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476142C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "尊界S800之后，仰望再掏顶级行政旗舰，干掉56E满足不了自主品牌了？",
+      "url": "https://auto.ifeng.com/c/8xaL0pqQ8zI",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "梅赛德斯-奔驰公布2026年第三季度财报并宣布降本及超40款新车计划",
+      "url": "https://auto.news18a.com/news/storys_308844.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马推进星闪数字钥匙方案，计划2030年上车",
+      "url": "https://www.news18a.com/news/storys_308840.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宾利MULLINER发布三款致敬哥白尼限量版车型",
+      "url": "https://www.news18a.com/news/storys_308838.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长城皮卡公布1-9月海外累计销量59651辆",
+      "url": "https://auto.news18a.com/news/storys_308833.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽通用五菱宣布宏光MINIEV累计销量突破200万辆",
+      "url": "https://www.news18a.com/news/storys_308822.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马首款三排纯电SUV iX7曝光 计划2027年下半年投产",
+      "url": "https://auto.news18a.com/news/storys_308817.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏MONA L05将于10月29日上市并首次开放准现车抢定",
+      "url": "https://www.news18a.com/news/storys_308813.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉车主手册将“FSD Computer”更名为“SI Computer”",
+      "url": "https://auto.news18a.com/news/storys_308801.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "仰望发布全新车型鼎曜预告图 计划11月在阿联酋首发",
+      "url": "https://www.news18a.com/news/storys_308803.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "广汽AION UT与AION V登陆罗马尼亚市场并开启预订",
+      "url": "https://auto.news18a.com/news/storys_308845.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "中国品牌纯电单一车型累计销量冠军：五菱宏光 MINIEV 累计销量破 200 万辆",
+      "url": "https://www.ithome.com/1/018/902.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "在华销量大幅下滑，奔驰开启史上最大产品攻势以修复盈利",
+      "url": "https://www.ithome.com/1/018/900.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称宝马推进星闪数字钥匙方案，预计 2030 年上车",
+      "url": "https://www.ithome.com/1/018/893.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -21348,9 +21535,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 6,
+      "candidateCount": 7,
       "status": "ok",
-      "publicLabel": "列表已读 6 条待核验线索"
+      "publicLabel": "列表已读 7 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -21364,9 +21551,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 7,
+      "candidateCount": 0,
       "listRead": false,
-      "publicLabel": "公开检索发现 7 条待核验线索"
+      "publicLabel": "直连列表与公开检索均未匹配"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -21380,9 +21567,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 8,
+      "candidateCount": 9,
       "status": "ok",
-      "publicLabel": "列表已读 8 条待核验线索"
+      "publicLabel": "列表已读 9 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -21436,9 +21623,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 26,
+      "candidateCount": 7,
       "status": "ok",
-      "publicLabel": "列表已读 26 条待核验线索"
+      "publicLabel": "列表已读 7 条待核验线索"
     },
     {
       "sourceId": "netease-auto",

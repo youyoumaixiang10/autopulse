@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-28T05:46:58.740Z",
+  "collectedAt": "2026-10-28T06:56:09.191Z",
   "discoveryVersion": 7,
   "providerStatus": "skipped",
   "reason": "日报默认不调用 OpenAI。线索来自官网、媒体列表和必应搜索，标题使用本地规则。",

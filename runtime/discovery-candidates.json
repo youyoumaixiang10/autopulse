@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-28T05:46:58.686Z",
+  "collectedAt": "2026-10-28T06:56:09.141Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4175,7 +4175,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 23
+      "count": 22
     },
     {
       "sourceId": "autohome-industry",
@@ -4186,9 +4186,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-28T05:46:46.546Z",
+      "collectedAt": "2026-10-28T06:55:57.459Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 70,
+      "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
