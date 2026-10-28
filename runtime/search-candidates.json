@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-28T06:56:17.075Z",
+  "collectedAt": "2026-10-28T08:41:57.028Z",
   "targetDates": [
     "2026-10-27",
     "2026-10-28"
@@ -20201,7 +20201,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时先享价5.98万起 2027款吉利缤越超能版正式上市",
+      "title": "2027款吉利缤越超能版上市",
       "url": "https://www.sohu.com/a/1093350054_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -20462,7 +20462,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "美国电动车销量为何遇冷而欧洲持续火热",
+      "title": "电动车销量为何美国遇冷而欧洲持续火热",
       "url": "https://auto.gasgoo.com/news/202610/27I70476046C501.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-10-27",
@@ -21528,6 +21528,214 @@
       "discoveryPublishedAt": "2026-10-28",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "谁是真“千里马”？CLTC破千纯电车型盘点",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476155C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "共话汽车知识生态丨盖世汽车周晓莺受邀出席研讨会并获优秀作者",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476141C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "一汽奔腾小马五门版10月28日全球上市",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476081C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "2026款理想i6实测纯电续航811.4公里，10月29日开启交付",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476082C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "万集科技携激光雷达等产品亮相智能交通世界大会",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476084C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "祝贺！比亚迪王传福获2026汽车工业饶斌奖",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476152C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "在中国为全球 | 立足中国市场、撬动全球技术、快速迭代，实现全球技术的螺旋式发展",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476153C106.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "德赛西威与IAG先歌国际达成战略合作",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476085C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "千觉助力无界动力MWA™-Phoenix 六榜登顶",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476087C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "禾赛科技布局机器人运动与三维世界数据引擎",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476088C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "红旗G919正式上市 售价34.98万-42.98万元",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476083C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "Seeds | 靠一张 “灵巧脸” ，灵颜科技拿下数千万元融资",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476151C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "中国研究人员开发出脉冲式3D打印技术 可制备长度超过一米的抗蠕变单晶",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476149C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "福特汽车申请广告牌信息回溯系统专利",
+      "url": "https://auto.gasgoo.com/news/202610/28I70476148C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "比亚迪迪虾AI智能助手体验",
+      "url": "https://www.sohu.com/a/1093909365_348030",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "曝奥迪南北“分家”后 AITC 召开首次员工大会：开发四款全新 AUDI 车型，明确研发方向",
+      "url": "https://www.ithome.com/1/018/972.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "反对行业卷“提车即巅峰”配置军备赛，曾清林官宣奕境 X9 终身质保转为长期固定权益",
+      "url": "https://www.ithome.com/1/018/967.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "《北京市“十五五”时期新型能源体系规划》印发：新注册登记汽车中新能源车比例达到 65%",
+      "url": "https://www.ithome.com/1/018/944.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "斯特兰蒂斯 2026 财年第三季度归母净亏损 4.7 亿欧元，同比收窄约 90%",
+      "url": "https://www.ithome.com/1/018/921.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-28",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -21575,9 +21783,9 @@
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 26,
+      "candidateCount": 30,
       "status": "ok",
-      "publicLabel": "列表已读 26 条待核验线索"
+      "publicLabel": "列表已读 30 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -21623,25 +21831,26 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 7,
+      "candidateCount": 25,
       "status": "ok",
-      "publicLabel": "列表已读 7 条待核验线索"
+      "publicLabel": "列表已读 25 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 23,
+      "candidateCount": 22,
       "status": "ok",
-      "publicLabel": "列表已读 23 条待核验线索"
+      "publicLabel": "列表已读 22 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

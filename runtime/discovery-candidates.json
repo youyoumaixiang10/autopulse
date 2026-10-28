@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-28T06:56:09.141Z",
+  "collectedAt": "2026-10-28T08:41:43.292Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4149,7 +4149,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "终极目标是无线充电 特斯拉计划用人形机器人为Robotaxi充电",
+      "title": "�ռ�Ŀ�������߳�� ��˹���ƻ������λ�����ΪRobotaxi��� 4Сʱǰ 1464 0 [����֮�� ��Ѷ] ���գ���Munro Live�Ĳɷ��У���˹���������̸��ܲ�����˹&#183;Ī��ά��Lars Moravy����Cybercab��...",
       "sourceMonth": "2026-10",
       "url": "https://www.autohome.com.cn/news/202610/1318018.html",
       "candidateBrands": [
@@ -4175,7 +4175,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 22
+      "count": 1
     },
     {
       "sourceId": "autohome-industry",
@@ -4186,9 +4186,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-28T06:55:57.459Z",
+      "collectedAt": "2026-10-28T08:41:06.807Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 69,
+      "candidateCount": 70,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
