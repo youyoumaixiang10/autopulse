@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-29T07:17:06.566Z",
+  "collectedAt": "2026-10-29T08:37:55.672Z",
   "targetDates": [
     "2026-10-28",
     "2026-10-29"
@@ -13651,7 +13651,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "4补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地134.41w",
+      "title": "9补齐纯电短板、重构增程优势！理想Power Day连山体系全面落地103.37w",
       "url": "https://auto.news18a.com/news/storys_306801.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -14511,7 +14511,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "8从燃油到纯电，捷达的“可靠”还能不能打？109.05w",
+      "title": "8从燃油到纯电，捷达的“可靠”还能不能打？113.4w",
       "url": "https://auto.news18a.com/news/storys_307483.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -23216,6 +23216,236 @@
       "discoveryPublishedAt": "2026-10-29",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "XHEART正式发布大模型芯片X7 Ultra，大模型算力700 TOPS",
+      "url": "https://auto.gasgoo.com/news/202610/29I70476270C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-29",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "第一波电动车老了，电池后市场这门生意来了",
+      "url": "https://auto.gasgoo.com/news/202610/29I70476271C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-29",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "丰田发布皇冠Signia GT-S概念车 底盘与外观升级动力沿用标准版",
+      "url": "https://auto.gasgoo.com/news/202610/29I70476203C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-29",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "大众汽车集团电池召回范围扩大至奥迪 全球受影响车辆达85,402辆",
+      "url": "https://auto.gasgoo.com/news/202610/29I70476233C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-29",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "锋龙股份成立全资子公司新锋龙，多款产品已量产",
+      "url": "https://auto.gasgoo.com/news/202610/29I70476269C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-29",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "福特召回102,159辆F-150及Super Duty卡车 修复仪表盘显示问题",
+      "url": "https://auto.gasgoo.com/news/202610/29I70476256C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-29",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "奇瑞2030年出口海外生产比例升至七成",
+      "url": "https://auto.gasgoo.com/news/202610/29I70476221C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-29",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "XHEART新芯航途披露X7系列芯片量产8个月累计出货超20万颗",
+      "url": "https://auto.news18a.com/news/storys_309140.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽集团发布2026年前三季度及第三季度财报",
+      "url": "https://www.news18a.com/news/storys_309136.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉汽车销售服务（雄安）有限公司成立",
+      "url": "https://www.news18a.com/news/storys_309137.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "丰田在2026年SEMA车展发布皇冠Signia GT-S概念车",
+      "url": "https://www.news18a.com/news/storys_309138.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "EMTA品牌K-Car车型专利图曝光 首款纯电车型计划2027年在日本上市",
+      "url": "https://www.news18a.com/news/storys_309131.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "东风汽车宣布奕派M8天元激光版将于11月3日上市",
+      "url": "https://auto.news18a.com/news/storys_309130.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "福特召回102,159辆F-150及Super Duty卡车修复仪表盘显示问题",
+      "url": "https://www.news18a.com/news/storys_309132.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一辆2023款特斯拉Model 3夜间停车时车内起火",
+      "url": "https://www.news18a.com/news/storys_309124.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "韩国89名特斯拉车主起诉要求退还FSD费用遭法院驳回",
+      "url": "https://www.news18a.com/news/storys_309122.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众集团发布2026财年前三季度财报，归母净利润亏损20.74亿欧元",
+      "url": "https://auto.news18a.com/news/storys_309120.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来能源与长沙经开集团首批10座换电站交付并启动第二批20座共建",
+      "url": "https://www.news18a.com/news/storys_309127.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "保隆科技获中国汽车工程学会“创新团队奖”",
+      "url": "https://www.news18a.com/news/storys_309126.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行问界新 M8 试驾车全国发运：搭华为乾崑智驾 ADS 5、面向 L3 架构设计，11 月 13 日上市",
+      "url": "https://www.ithome.com/1/019/579.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-29",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽集团 2026 年第三季度归母净利润 4.86 亿元，同比下降 76.7%",
+      "url": "https://www.ithome.com/1/019/557.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-29",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "东风奕派 M8 天元激光版车型将于 11 月 3 日上市，售价有望进一步下探",
+      "url": "https://www.ithome.com/1/019/536.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-29",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -23239,9 +23469,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 1,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 1 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -23255,9 +23485,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 16,
+      "candidateCount": 12,
       "status": "ok",
-      "publicLabel": "列表已读 16 条待核验线索"
+      "publicLabel": "列表已读 12 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",

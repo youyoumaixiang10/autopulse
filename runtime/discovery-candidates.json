@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-29T07:16:59.037Z",
+  "collectedAt": "2026-10-29T08:37:47.837Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4243,27 +4243,37 @@
         "鸿蒙智行"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "卡哇伊！比亚迪之后奇瑞也进军K-Car市场 EMTA K-Car专利图",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318040.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
     {
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
-      "status": "failed",
-      "count": 0,
-      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
+      "status": "ok",
+      "count": 22
     },
     {
       "sourceId": "autohome-industry",
       "url": "https://www.autohome.com.cn/hangye/",
-      "status": "failed",
-      "count": 0,
-      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
+      "status": "ok",
+      "count": 0
     },
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-29T07:16:03.784Z",
+      "collectedAt": "2026-10-29T08:37:35.897Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

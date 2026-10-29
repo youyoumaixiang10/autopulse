@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-10-29T07:21:08.023Z",
+  "completedAt": "2026-10-29T08:40:13.805Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -313,15 +313,15 @@
       "id": "autohome-news",
       "name": "汽车之家资讯",
       "brands": [],
-      "status": "failed",
-      "label": "读取异常"
+      "status": "ok",
+      "label": "已读 22 条"
     },
     {
       "id": "autohome-industry",
       "name": "汽车之家行业频道",
       "brands": [],
-      "status": "failed",
-      "label": "读取异常"
+      "status": "ok",
+      "label": "已读 0 条"
     },
     {
       "id": "dongchedi-news",
@@ -349,7 +349,7 @@
       "name": "易车",
       "brands": [],
       "status": "partial",
-      "label": "直连列表与公开检索均未匹配"
+      "label": "公开检索发现 1 条待核验线索"
     },
     {
       "id": "cailianpress-auto",
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 16 条待核验线索"
+      "label": "列表已读 12 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
