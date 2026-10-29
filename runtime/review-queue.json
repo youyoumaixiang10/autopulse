@@ -4877,6 +4877,7 @@
     "url": "https://www.pcauto.com.cn/nation/4336/43363879.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10655,6 +10656,77 @@
     ]
   },
   {
+    "title": "售4.49万起/续航达328km 奔腾小马五门版上市",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899668.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "限时售23.98万元 2026款理想i6上市 加量不加价/纯电续航780km",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899667.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "一汽-大众ID. AURA L5实车亮相 纯电掀背+激光雷达",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899666.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "岚图泰山获C-NCAP五星+认证 综合得分率92.0%",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899653.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "2027款奕派007将于10月30日上市 官方称真长续航激光轿跑",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899646.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "通用汽车高管炮轰纯视觉辅助驾驶路线 称其无视物理规律",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899645.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "预售38.98万起 新款问界M8将11月13日上市 纯电续航最高830km",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5189/51899644.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "IT早报 1029：腾讯 WorkBuddy 手机远程控制电脑功能上线；苹果首款触控屏 MacBook Pro 发布；鸿蒙 7 设备占比升至 77%；1399 元起华为畅享 100 手机发布...",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/019/280.htm",
+    "reasons": [
+      "频道问候或无具体车型事件的周期汇总"
+    ]
+  },
+  {
     "title": "四季度上市/第六代DM-i混动技术 方程豹钛9内饰谍照曝光",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202609/1317075.html",
@@ -10898,6 +10970,30 @@
     "title": "告别冰箱彩电沙发 造车新势力开始比拼“靠谱”？",
     "sourceName": "凤凰网汽车",
     "url": "https://auto.ifeng.com/c/8xYkCWhtZAW",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "浩瀚能源吉利智充创新产品全面亮相2026 SAECCE",
+    "sourceName": "盖世汽车",
+    "url": "https://auto.gasgoo.com/news/202610/28I70476172C109.shtml",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "搭宁德时代电池 奔腾小马五门版上市权益价3.99万起",
+    "sourceName": "网易汽车",
+    "url": "https://www.163.com/auto/article/LABSJCBF0008856R.html",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "阿维塔 07L Max 纯电版线上发布会宣布取消，10 月 29 日直接公布正式售价、产品配置及上市权益",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/019/230.htm",
     "reasons": [
       "标题与正文不是同一事件"
     ]
