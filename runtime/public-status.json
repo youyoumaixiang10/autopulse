@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-10-29T05:55:50.442Z",
+  "completedAt": "2026-10-29T07:21:08.023Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -313,22 +313,22 @@
       "id": "autohome-news",
       "name": "汽车之家资讯",
       "brands": [],
-      "status": "ok",
-      "label": "已读 22 条"
+      "status": "failed",
+      "label": "读取异常"
     },
     {
       "id": "autohome-industry",
       "name": "汽车之家行业频道",
       "brands": [],
-      "status": "ok",
-      "label": "已读 0 条"
+      "status": "failed",
+      "label": "读取异常"
     },
     {
       "id": "dongchedi-news",
       "name": "懂车帝资讯",
       "brands": [],
       "status": "partial",
-      "label": "已读 69 条 · 读取范围有限"
+      "label": "已读 68 条 · 读取范围有限"
     },
     {
       "id": "sina-auto",
@@ -349,7 +349,7 @@
       "name": "易车",
       "brands": [],
       "status": "partial",
-      "label": "公开检索发现 1 条待核验线索"
+      "label": "直连列表与公开检索均未匹配"
     },
     {
       "id": "cailianpress-auto",
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 12 条待核验线索"
+      "label": "列表已读 16 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
@@ -412,7 +412,7 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 4 条待核验线索"
+      "label": "列表已读 11 条待核验线索"
     },
     {
       "id": "netease-auto",
