@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-29T00:13:57.625Z",
+  "collectedAt": "2026-10-29T05:52:52.275Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4209,6 +4209,40 @@
         "理想"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "推进充换电站等业务 蔚来能源与中广核新能源达成战略合作",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318039.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "上海拟依法有序推动自动驾驶技术在出租汽车行业安全应用",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318035.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售38.98万起/二排旋转座椅 智界V9累计交付突破30000台",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318034.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -4227,7 +4261,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-29T00:13:45.652Z",
+      "collectedAt": "2026-10-29T05:52:20.500Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

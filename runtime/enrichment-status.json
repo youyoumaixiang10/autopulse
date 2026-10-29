@@ -1,9 +1,9 @@
 {
-  "completedAt": "2026-10-29T00:17:52.694Z",
-  "durationMs": 226732,
-  "fetched": 259,
-  "skipped": 789,
-  "cached": 1441,
+  "completedAt": "2026-10-29T05:55:41.496Z",
+  "durationMs": 162253,
+  "fetched": 111,
+  "skipped": 824,
+  "cached": 1605,
   "failures": [
     {
       "sourceId": "chezhitong-auto",
@@ -54,72 +54,117 @@
       "sourceId": "news18a-auto",
       "url": "https://www.news18a.com/news/storys_304053.html",
       "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "url": "https://auto.gasgoo.com/news/202610/15I70474655C1207.shtml",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "url": "https://auto.gasgoo.com/news/202610/14I70474814C1207.shtml",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "url": "https://auto.gasgoo.com/news/202610/16I70475137C1203.shtml",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "url": "https://auto.gasgoo.com/news/202610/22I70475511C1201.shtml",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "url": "https://auto.gasgoo.com/news/202610/22I70475459C1203.shtml",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "url": "https://auto.gasgoo.com/news/202610/23I70475512C1207.shtml",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "url": "https://auto.gasgoo.com/news/202610/27I70475989C103.shtml",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "url": "https://auto.gasgoo.com/news/202610/29I70476264C103.shtml",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "url": "https://auto.gasgoo.com/news/202610/29I70476262C601.shtml",
+      "reason": "The operation was aborted due to timeout"
     }
   ],
   "sourceBudgets": [
     {
       "sourceId": "dongchedi-news",
-      "failureMs": 146338,
-      "skipped": 82,
+      "failureMs": 159115,
+      "skipped": 84,
       "stopped": true
     },
     {
       "sourceId": "autohome-news",
-      "failureMs": 5352,
-      "skipped": 0,
-      "stopped": false
-    },
-    {
-      "sourceId": "yiche-news",
-      "failureMs": 33649,
+      "failureMs": 5644,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "gasgoo-auto",
-      "failureMs": 37802,
+      "failureMs": 223970,
+      "skipped": 19,
+      "stopped": true
+    },
+    {
+      "sourceId": "yiche-news",
+      "failureMs": 33544,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sina-auto",
-      "failureMs": 97678,
-      "skipped": 8,
+      "failureMs": 104194,
+      "skipped": 2,
+      "stopped": true
+    },
+    {
+      "sourceId": "sohu-auto",
+      "failureMs": 96697,
+      "skipped": 177,
       "stopped": true
     },
     {
       "sourceId": "pcauto-news",
-      "failureMs": 15894,
+      "failureMs": 13515,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "chezhitong-auto",
-      "failureMs": 24020,
+      "failureMs": 24006,
       "skipped": 0,
       "stopped": false
     },
     {
-      "sourceId": "sohu-auto",
-      "failureMs": 93940,
-      "skipped": 178,
-      "stopped": true
-    },
-    {
       "sourceId": "news18a-auto",
-      "failureMs": 216016,
-      "skipped": 521,
+      "failureMs": 216050,
+      "skipped": 542,
       "stopped": true
     },
     {
       "sourceId": "ithome-auto",
-      "failureMs": 1306,
+      "failureMs": 811,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "ifeng-auto",
-      "failureMs": 3866,
+      "failureMs": 1926,
       "skipped": 0,
       "stopped": false
     }

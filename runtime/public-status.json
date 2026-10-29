@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-10-29T00:18:01.031Z",
+  "completedAt": "2026-10-29T05:55:50.442Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -349,7 +349,7 @@
       "name": "易车",
       "brands": [],
       "status": "partial",
-      "label": "直连列表与公开检索均未匹配"
+      "label": "公开检索发现 1 条待核验线索"
     },
     {
       "id": "cailianpress-auto",
@@ -363,14 +363,14 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 5 条待核验线索"
+      "label": "列表已读 12 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
       "name": "盖世汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 22 条待核验线索"
+      "label": "列表已读 30 条待核验线索"
     },
     {
       "id": "chezhitong-auto",
@@ -412,14 +412,14 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 29 条待核验线索"
+      "label": "列表已读 4 条待核验线索"
     },
     {
       "id": "netease-auto",
       "name": "网易汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 23 条待核验线索"
+      "label": "列表已读 24 条待核验线索"
     },
     {
       "id": "news18a-auto",
