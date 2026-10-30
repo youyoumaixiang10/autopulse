@@ -1,9 +1,9 @@
 {
-  "completedAt": "2026-10-30T07:22:17.918Z",
-  "durationMs": 231183,
-  "fetched": 290,
-  "skipped": 885,
-  "cached": 1614,
+  "completedAt": "2026-10-30T08:47:08.219Z",
+  "durationMs": 133299,
+  "fetched": 121,
+  "skipped": 910,
+  "cached": 1776,
   "failures": [
     {
       "sourceId": "autohome-news",
@@ -11,75 +11,120 @@
       "reason": "The operation was aborted due to timeout"
     },
     {
-      "sourceId": "chezhitong-auto",
-      "url": "https://m.12365auto.com/news/20260825/574352.shtml",
+      "sourceId": "news18a-auto",
+      "url": "https://auto.news18a.com/news/storys_304071.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304067.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304068.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304064.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304058.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://auto.news18a.com/news/storys_304056.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304055.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304054.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304053.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "url": "https://www.pcauto.com.cn/",
       "reason": "The operation was aborted due to timeout"
     }
   ],
   "sourceBudgets": [
     {
       "sourceId": "dongchedi-news",
-      "failureMs": 148418,
+      "failureMs": 149324,
       "skipped": 90,
       "stopped": true
     },
     {
-      "sourceId": "yiche-news",
-      "failureMs": 70915,
+      "sourceId": "gasgoo-auto",
+      "failureMs": 36757,
       "skipped": 0,
       "stopped": false
     },
     {
-      "sourceId": "gasgoo-auto",
-      "failureMs": 39543,
+      "sourceId": "yiche-news",
+      "failureMs": 32397,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sina-auto",
-      "failureMs": 98010,
-      "skipped": 4,
+      "failureMs": 97338,
+      "skipped": 2,
       "stopped": true
     },
     {
       "sourceId": "autohome-news",
-      "failureMs": 24007,
+      "failureMs": 24005,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "chezhitong-auto",
-      "failureMs": 24002,
-      "skipped": 0,
-      "stopped": false
-    },
-    {
-      "sourceId": "pcauto-news",
-      "failureMs": 31054,
+      "failureMs": 7565,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sohu-auto",
-      "failureMs": 105037,
-      "skipped": 187,
+      "failureMs": 94032,
+      "skipped": 189,
       "stopped": true
     },
     {
+      "sourceId": "pcauto-news",
+      "failureMs": 34125,
+      "skipped": 0,
+      "stopped": false
+    },
+    {
       "sourceId": "news18a-auto",
-      "failureMs": 130464,
-      "skipped": 604,
+      "failureMs": 216016,
+      "skipped": 629,
       "stopped": true
     },
     {
       "sourceId": "ithome-auto",
-      "failureMs": 1299,
+      "failureMs": 1878,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "ifeng-auto",
-      "failureMs": 3994,
+      "failureMs": 1733,
       "skipped": 0,
       "stopped": false
     }

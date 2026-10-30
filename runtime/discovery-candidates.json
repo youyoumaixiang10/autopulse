@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-30T07:18:17.234Z",
+  "collectedAt": "2026-10-30T08:44:45.500Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4509,6 +4509,18 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "欣旺达动力引入小米作为股东 此前小米澎程N70已搭载欣旺达电池",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318066.html",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -4516,7 +4528,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 27
+      "count": 26
     },
     {
       "sourceId": "autohome-industry",
@@ -4527,7 +4539,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-30T07:18:05.389Z",
+      "collectedAt": "2026-10-30T08:44:33.355Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

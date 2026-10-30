@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-30T07:18:26.216Z",
+  "collectedAt": "2026-10-30T08:44:54.326Z",
   "targetDates": [
     "2026-10-29",
     "2026-10-30"
@@ -2628,7 +2628,7 @@
       "title": "新浪汽车 - 汽车生活源动力！",
       "url": "https://auto.sina.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-28 2026-10-29",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-29 2026-10-30",
       "verificationStatus": "media-discovery"
     },
     {
@@ -14511,7 +14511,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "5从燃油到纯电，捷达的“可靠”还能不能打？136w",
+      "title": "7从燃油到纯电，捷达的“可靠”还能不能打？119.93w",
       "url": "https://auto.news18a.com/news/storys_307483.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -22002,7 +22002,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "理想i6新款上市 续航780km",
+      "title": "限时23.98万起 理想i6正式上市 CLTC续航最高780km",
       "url": "https://www.sohu.com/a/1093982535_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -22012,7 +22012,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "奔腾小马五门版上市",
+      "title": "权益后3.99万起 奔腾小马五门版正式上市",
       "url": "https://www.sohu.com/a/1094052716_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -23706,7 +23706,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "阿维塔07L Max纯电版",
+      "title": "限时21.59万元 阿维塔07L Max纯电版正式上市",
       "url": "https://www.sohu.com/a/1094559734_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -23716,7 +23716,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "22.98万起 新福特锐界L上市",
+      "title": "22.98万起/一箱油续航近1200km 新福特锐界L上市",
       "url": "https://www.sohu.com/a/1094593471_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -24224,7 +24224,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "【国际快讯】丰田4–9月在华销量跌至九年新低；雷诺第三季度营收涨幅超预期；丰田、本田、日产削减在华产量",
+      "title": "国际| 丰田4–9月在华销量跌至九年新低",
       "url": "https://auto.gasgoo.com/news/202610/30I70476366C108.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-10-30",
@@ -24780,7 +24780,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "梅赛德斯AMG GLC 53 4MATIC+上市 指导价59.90万元",
+      "title": "AMG GLC 53 上市售 59.90 万",
       "url": "https://auto.news18a.com/news/storys_309404.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -24933,7 +24933,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "全新AMG GLC 53 SUV上市",
+      "title": "全新梅赛德斯‑AMG GLC 53 4MATIC+ SUV上市",
       "url": "https://www.sohu.com/a/1094811113_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25214,6 +25214,279 @@
       "discoveryPublishedAt": "2026-10-30",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "大众汽车第三季度营业亏损66亿美元 电动汽车利润率低于内燃机汽车",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476389C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "跨国车企们，在一起做减法",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476399C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "2026年8月中国车企出口新动态：欧洲、独联体成核心市场，区域布局各有侧重丨盖世汽车研究院",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476398C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "上汽通用五菱发布智慧装备战略，首款车规级无人物流车正式落地",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476397C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "蔚来能源14座充换电站上线，全国充换电站总数达9729座",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476377C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "特斯拉上线\"特从容\"分期方案：5年0息、首付门槛再降",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476395C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】本田打造Passport Baja Spec赛车，搭载2.4L双涡轮V6混动系统综合功率超1300马",
+      "url": "https://auto.ifeng.com/c/8xe7N0ru3vZ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】德布勒森法院驳回当地居民针对宁德时代电池工厂的诉讼请求",
+      "url": "https://auto.ifeng.com/c/8xe6sNZZyP9",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】中国台湾一特斯拉车主油门踏板断裂 客服回应称强度满足全球法规标准",
+      "url": "https://auto.ifeng.com/c/8xe7N0ru3vY",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】鸿蒙智行问界新M8选配信息公开，预售价38.98万元起",
+      "url": "https://auto.ifeng.com/c/8xe6tAuwbGm",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "本田打造Passport Baja Spec赛车，搭载2.4L双涡轮V6混动系统综合功率超1300马力",
+      "url": "https://auto.news18a.com/news/storys_309450.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "德布勒森法院驳回当地居民针对宁德时代电池工厂的诉讼请求",
+      "url": "https://www.news18a.com/news/storys_309451.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马斯克10月29日在社交平台称苹果顶配Mac Studio售价让特斯拉显得实惠",
+      "url": "https://www.news18a.com/news/storys_309452.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中国台湾一特斯拉车主油门踏板断裂 客服回应称强度满足全球法规标准",
+      "url": "https://www.news18a.com/news/storys_309448.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行问界新M8选配信息公开，预售价38.98万元起",
+      "url": "https://www.news18a.com/news/storys_309444.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "深蓝汽车公示车载洗脚装置发明专利",
+      "url": "https://auto.news18a.com/news/storys_309445.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "第20万台理想i6下线，11月产能计划达2万台",
+      "url": "https://www.news18a.com/news/storys_309430.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "起亚汽车发布2026财年前三季度及第三财季业绩快报",
+      "url": "https://auto.news18a.com/news/storys_309428.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2027款奕派007在第二十六届武汉国际汽车展览会上市",
+      "url": "https://auto.news18a.com/news/storys_309411.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "东山精密 2026 年第三季度归母净利润 23.32 亿元，同比增长 401.18%",
+      "url": "https://www.ithome.com/1/020/167.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿海 2026 科技日三车齐发：休旅车 MODEL A+ & K+，货运卡车 MODEL K",
+      "url": "https://www.ithome.com/1/020/170.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞汽车 2026 财年前三季度报归母净利润 139.63 亿元，同比下降 2.8%",
+      "url": "https://www.ithome.com/1/020/168.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "传音控股 2026 年前三季度归母净利润 26.3 亿元，同比增长 22.44%",
+      "url": "https://www.ithome.com/1/020/163.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "阳光电源 2026 年前三季度归母净利润 65.99 亿元，同比下降 44.46%",
+      "url": "https://www.ithome.com/1/020/157.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "【IT之家开箱】红魔 12 Pro+ 图赏：水冷 RGB 配真全面屏，设计大胆又前卫",
+      "url": "https://www.ithome.com/1/020/141.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "前特斯拉 Autopilot 负责人抨击纯视觉方案：无视物理规律的技术执念",
+      "url": "https://www.ithome.com/1/020/137.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -25237,9 +25510,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 1,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 1 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -25253,9 +25526,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 11,
+      "candidateCount": 12,
       "status": "ok",
-      "publicLabel": "列表已读 11 条待核验线索"
+      "publicLabel": "列表已读 12 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -25309,17 +25582,17 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 26,
+      "candidateCount": 10,
       "status": "ok",
-      "publicLabel": "列表已读 26 条待核验线索"
+      "publicLabel": "列表已读 10 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 22,
+      "candidateCount": 21,
       "status": "ok",
-      "publicLabel": "列表已读 22 条待核验线索"
+      "publicLabel": "列表已读 21 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
