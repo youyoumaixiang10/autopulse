@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-29T08:37:47.837Z",
+  "collectedAt": "2026-10-30T00:16:13.583Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4255,27 +4255,165 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "小鹏MONA L05正式上市",
+      "url": "https://www.dongchedi.com/article/7701230176886227518",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "吉利银河战舰700买前必看",
+      "url": "https://www.dongchedi.com/video/7701170504900084286",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "试驾长安启源Q06",
+      "url": "https://www.dongchedi.com/video/7701529388084888089",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "腾势N8，没有车比我更懂折叠！",
+      "url": "https://www.dongchedi.com/video/7701712308682572312",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "法国巴黎试驾2026款理想i6",
+      "url": "https://www.dongchedi.com/video/7701392415567643198",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "体验2027款比亚迪海鸥",
+      "url": "https://www.dongchedi.com/video/7701534373644632638",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "小米澎程N90开起来怎么样？",
+      "url": "https://www.dongchedi.com/video/7700966838301409854",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "比亚迪二代海鸥空间实测",
+      "url": "https://www.dongchedi.com/video/7701229113448825368",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
     {
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
-      "status": "ok",
-      "count": 22
+      "status": "failed",
+      "count": 0,
+      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
     },
     {
       "sourceId": "autohome-industry",
       "url": "https://www.autohome.com.cn/hangye/",
-      "status": "ok",
-      "count": 0
+      "status": "failed",
+      "count": 0,
+      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
     },
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-29T08:37:35.897Z",
+      "collectedAt": "2026-10-30T00:15:18.277Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 68,
+      "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
