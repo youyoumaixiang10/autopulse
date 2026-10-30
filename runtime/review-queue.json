@@ -4886,7 +4886,6 @@
     "url": "https://www.pcauto.com.cn/nation/4328/43284559.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -4896,7 +4895,6 @@
     "url": "https://www.pcauto.com.cn/nation/4347/43472239.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -5005,7 +5003,6 @@
     "url": "https://www.pcauto.com.cn/nation/1161/11615177.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10690,7 +10687,6 @@
     "url": "https://www.pcauto.com.cn/nation/5189/51899653.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10816,6 +10812,16 @@
     "url": "https://www.ithome.com/1/019/839.htm",
     "reasons": [
       "频道问候或无具体车型事件的周期汇总"
+    ]
+  },
+  {
+    "title": "成为最快达成30万销量中大型SUV成就 方程豹钛7销量突破30万台",
+    "sourceName": "汽车之家资讯",
+    "url": "https://www.autohome.com.cn/news/202610/1318056.html",
+    "reasons": [
+      "正文获取失败",
+      "尚未具备完整的日期与原文",
+      "信息来源待核验"
     ]
   },
   {
@@ -11094,14 +11100,6 @@
     "title": "阿斯顿·马丁VALHALLA SPIDER发布 2027年Q3开启交付",
     "sourceName": "网易汽车",
     "url": "https://www.163.com/auto/article/LADCMD1D0008856R.html",
-    "reasons": [
-      "标题与正文不是同一事件"
-    ]
-  },
-  {
-    "title": "阿维塔07L Max纯电版上市 限时权益后21.59万元",
-    "sourceName": "网易汽车",
-    "url": "https://www.163.com/auto/article/LAEE53I80008856R.html",
     "reasons": [
       "标题与正文不是同一事件"
     ]
