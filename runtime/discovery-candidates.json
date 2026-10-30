@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-30T05:53:45.682Z",
+  "collectedAt": "2026-10-30T07:18:17.234Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4497,6 +4497,18 @@
         "极氪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "仰望汽车胡晓庆：鼎曜采用对开门设计 拥有近90度开合角度",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318061.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -4504,7 +4516,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 26
+      "count": 27
     },
     {
       "sourceId": "autohome-industry",
@@ -4515,9 +4527,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-30T05:53:33.688Z",
+      "collectedAt": "2026-10-30T07:18:05.389Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 69,
+      "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
