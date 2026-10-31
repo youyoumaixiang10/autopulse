@@ -2529,6 +2529,25 @@
     "observation": "谍照或申报不是正式上市，未公布的价格与日期保持待定。"
   },
   {
+    "id": "launch-bd8803a22c111b9f",
+    "month": "2026-10",
+    "dateText": "待定",
+    "windowText": "即将登场（具体日期待官宣）",
+    "brand": "小米",
+    "model": "小米 SU7",
+    "kind": "计划上市",
+    "powertrain": "动力形式待公布",
+    "priceText": "价格待公布",
+    "status": "estimated",
+    "statusLabel": "未官宣",
+    "sourceName": "IT之家",
+    "sourceUrl": "https://www.ithome.com/1/020/441.htm",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-10-31",
+    "detail": "IT之家 10 月 31 日消息，据蓝鲸新闻从知情人士处获悉，新款小米 SU7 Ultra 预计在 2027 年上市。知情人士透露，新车将对外观造型进行调整升级，整套空气动力学套件全面优化，并搭载 DRS 鹅颈尾翼，相比在售版本改动幅度较大。 IT之家注意到，新款小米 SU7 Ultra 无伪装实车现已曝光。 值得一提的是，目前曝光的新款小米 SU7 Ultra 车牌为 MSU7650E。",
+    "observation": "尚未看到正式上市报道，日历只保留原文写出的时间窗口。"
+  },
+  {
     "id": "launch-2d39e658199224b5",
     "month": "2026-10",
     "dateText": "待定",
