@@ -10607,6 +10607,7 @@
     "url": "https://www.pcauto.com.cn/nation/5189/51899603.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10815,11 +10816,64 @@
     ]
   },
   {
+    "title": "省下两万，还是加钱上Ultra SE？小鹏MONA L05六个版本怎么选",
+    "sourceName": "凤凰网汽车",
+    "url": "https://auto.ifeng.com/c/8xdu1Dhj86N",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
     "title": "曝 DeepSeek 第二轮融资 1055 亿元：估值 6155 亿元，腾讯、宁德时代、长鑫存储、中芯国际、美团、vivo 等参与",
     "sourceName": "IT之家",
     "url": "https://www.ithome.com/1/020/121.htm",
     "reasons": [
       "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
+    "title": "方程豹钛7累计销量达成30万辆 连续4个月中大型SUV销量冠军",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5190/51902512.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "更多预告图更新 仰望鼎曜确认搭载对开门",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5190/51902728.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "预售价38.98-45.98万元 新款问界M8配置信息公布 15亿投入8大升级",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5190/51902517.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "限时售10.99万起 2027款奕派007上市 纯电续航最高675km",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5190/51902511.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "IT早报 1031：Apple 智能官宣入华；华为 Mate 60 Pro 处理器官方首次“揭秘”；《影之刃零》媒体评分超《黑神话：悟空》；小米 17 亿入股欣旺达动力...",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/020/401.htm",
+    "reasons": [
+      "频道问候或无具体车型事件的周期汇总"
     ]
   },
   {
@@ -11098,6 +11152,14 @@
     "title": "阿斯顿·马丁VALHALLA SPIDER发布 2027年Q3开启交付",
     "sourceName": "网易汽车",
     "url": "https://www.163.com/auto/article/LADCMD1D0008856R.html",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "阿维塔07L Max纯电版上市，限时权益后21.59万元",
+    "sourceName": "凤凰网汽车",
+    "url": "https://auto.ifeng.com/c/8xdjtR5oXGX",
     "reasons": [
       "标题与正文不是同一事件"
     ]

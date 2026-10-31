@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-10-30T08:44:54.326Z",
+  "collectedAt": "2026-10-31T00:08:30.443Z",
   "targetDates": [
-    "2026-10-29",
-    "2026-10-30"
+    "2026-10-30",
+    "2026-10-31"
   ],
   "candidates": [
     {
@@ -2608,7 +2608,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-29 2026-10-30",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-30 2026-10-31",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-29 2026-10-30",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-30 2026-10-31",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2628,7 +2628,7 @@
       "title": "新浪汽车 - 汽车生活源动力！",
       "url": "https://auto.sina.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-29 2026-10-30",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-30 2026-10-31",
       "verificationStatus": "media-discovery"
     },
     {
@@ -14511,7 +14511,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "7从燃油到纯电，捷达的“可靠”还能不能打？119.93w",
+      "title": "3从燃油到纯电，捷达的“可靠”还能不能打？115.13w",
       "url": "https://auto.news18a.com/news/storys_307483.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -24770,7 +24770,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达",
+      "title": "11阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达33.71w",
       "url": "https://auto.news18a.com/news/storys_309399.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25487,6 +25487,609 @@
       "discoveryPublishedAt": "2026-10-30",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "奇瑞汽车发布前三季度财报 营收2412.34亿元，同比增长12.29%",
+      "url": "https://auto.sina.com.cn/news/2026-10-30/detail-iniwzazt8166925.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "中国方案向全球，供应链递交“中国答卷” ｜2026金辑奖中国汽车新供应链百强榜",
+      "url": "https://auto.gasgoo.com/news/202610/31I70476376C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "进博聚焦丨松下将展出三大核心领域成果，用科技回应时代命题",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476442C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "丰田汽车4–9月在华销量跌至九年新低",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476441C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "汽车行业的利润去了哪里？",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476427C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "博银合创苏州总部启用，已进入博世供应商体系",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476430C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "万里扬首条关节模组生产线量产",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476429C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "Mobileye 2026财年第三季度营收4.92亿美元，同比微降2%",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476425C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "数字向上，语气向下：吉利三季报的“寒冬”与“窗口”",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476424C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "第20万台理想i6下线，年内提车有了准信",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476413C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "香港理工大学揭示针对电动汽车充电导航系统的新型跨域网络攻击风险 助力电力系统安全运行",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476416C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "现代汽车集团将发布商用氢燃料电池系统",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476415C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "Fraunhofer IOSB-AST研发出量子经典系统 旨在解决电动汽车充电问题",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476414C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "马自达计划2027年推出CX-5混合动力版本并搭载全新自研动力系统",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476279C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "斯堪尼亚在瑞典启用全新研发测试场 投资975,000,000瑞典克朗",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476409C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "丰田汽车与Waymo合作 计划2027年在日本推出bZ4X自动驾驶出租车",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476407C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "通用汽车计划2028年推出高速公路自动驾驶功能 拒绝纯视觉方案",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476322C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "丰田汽车前三季度全球销量下降3.4% 纯电动汽车销量增长127.4%",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476357C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "现代摩比斯第三季度净利润同比下降35.7% 计划进军人形机器人零部件市场",
+      "url": "https://auto.gasgoo.com/news/202610/30I70476371C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "更多预告图更新 仰望鼎曜确认搭载对开门",
+      "url": "https://www.pcauto.com.cn/nation/5190/51902728.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "预售价38.98-45.98万元 新款问界M8配置信息公布 15亿投入8大升级",
+      "url": "https://www.pcauto.com.cn/nation/5190/51902517.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "方程豹钛7累计销量达成30万辆 连续4个月中大型SUV销量冠军",
+      "url": "https://www.pcauto.com.cn/nation/5190/51902512.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "限时售10.99万起 2027款奕派007上市 纯电续航最高675km",
+      "url": "https://www.pcauto.com.cn/nation/5190/51902511.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "限时10.99万起 2027款东风奕派007正式上市",
+      "url": "https://www.sohu.com/a/1094985318_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "长安汽车2026年三季报发布 海外与智能化业务加速推进",
+      "url": "https://www.sohu.com/a/1095093806_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "新福特锐界L宽窄巷子上市 1200km级续航全家安心出游",
+      "url": "https://www.sohu.com/a/1095068095_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "问界新M8公布Max、Max+、Ultra三款配置，即日起开放选",
+      "url": "https://www.163.com/auto/article/LAGQJDOH0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "长安汽车披露三季度报，短期业绩承压，长期收益窗口期渐显",
+      "url": "https://auto.ifeng.com/c/8xeOO1cgX6c",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "问界新M8公布Max、Max+、Ultra三款配置，即日起开放选择",
+      "url": "https://auto.ifeng.com/c/8xeIUmavvAg",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】一汽奥迪与上汽奥迪划清业务边界 四环品牌与字母标品牌分治运营",
+      "url": "https://auto.ifeng.com/c/8xfC4Oh32Rx",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】初代小鹏X9累计行驶46万公里 第三方检测电池健康度剩余91%",
+      "url": "https://auto.ifeng.com/c/8xehdGOMAR8",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "阿维塔07L Max：把生活半径，开成自由半径",
+      "url": "https://auto.ifeng.com/c/8xedoVa8fpe",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "广汽前三季归母亏 69.87 亿",
+      "url": "https://auto.ifeng.com/c/8xeb3zdnUPT",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】长安汽车披露2026年前三季度财报：营收1018.84亿元，海外批售72.97万辆",
+      "url": "https://auto.ifeng.com/c/8xebE46BEuI",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽奥迪与上汽奥迪划清业务边界 四环品牌与字母标品牌分治运营",
+      "url": "https://auto.news18a.com/news/storys_309699.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "初代小鹏X9累计行驶46万公里 第三方检测电池健康度剩余91%",
+      "url": "https://www.news18a.com/news/storys_309659.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "华为官网公开鸿蒙智行享界V8配置及选配信息，预售价32.98万元起",
+      "url": "https://www.news18a.com/news/storys_309662.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "丰田与Waymo宣布2027年在日本启动bZ4X Robotaxi车队测试",
+      "url": "https://www.news18a.com/news/storys_309652.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长安汽车披露2026年前三季度财报：营收1018.84亿元，海外批售72.97万辆",
+      "url": "https://www.news18a.com/news/storys_309650.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "丰田、本田、日产、马自达四家日系车企2026年4至9月在华合计产量同比下降32%",
+      "url": "https://auto.news18a.com/news/storys_309506.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "丰田汽车4-9月在华销量同比下降25%",
+      "url": "https://www.news18a.com/news/storys_309507.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宁德时代巧克力换电在海南完成48座换电站组网并交付1500台车辆",
+      "url": "https://www.news18a.com/news/storys_309500.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "地平线芯片与HSD系统进入比亚迪天神之眼B方案，首款车型11月上市",
+      "url": "https://www.news18a.com/news/storys_309495.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏汇天创始人赵德力表示若马斯克来中国将邀请其体验飞行汽车",
+      "url": "https://www.news18a.com/news/storys_309492.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第二代海豹07将于11月5日上市",
+      "url": "https://auto.news18a.com/news/storys_309488.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "江淮汽车发布2026年第三季度报告 前三季度净亏损11.41亿元",
+      "url": "https://www.news18a.com/news/storys_309490.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞汽车公布前三季度业绩：营收2412.34亿元，9月欧洲销量居中国品牌第一",
+      "url": "https://www.news18a.com/news/storys_309487.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪与吉利汽车第三季度归母净利润同比均增长约28%",
+      "url": "https://www.news18a.com/news/storys_309485.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Mobileye公布2026财年第三季度财报，营收4.92亿美元",
+      "url": "https://www.news18a.com/news/storys_309484.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪发布第三代唐大五座SUV外观及内饰官图",
+      "url": "https://auto.news18a.com/news/storys_309473.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪方程豹事业部总经理回应方程S黄色车漆排产情况",
+      "url": "https://www.news18a.com/news/storys_309470.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "布加迪CEO里马克的Chiron超跑在克罗地亚被盗，嫌疑人于奥地利被警方抓获",
+      "url": "https://www.news18a.com/news/storys_309468.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "香港理工大学发现针对电动汽车充电导航系统的新型跨域网络攻击风险",
+      "url": "https://www.news18a.com/news/storys_309472.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "现代汽车集团将在2026年世界氢能博览会发布商用氢燃料电池系统",
+      "url": "https://www.news18a.com/news/storys_309471.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1031：Apple 智能官宣入华；华为 Mate 60 Pro 处理器官方首次“揭秘”；《影之刃零》媒体评分超《黑神话：悟空》；小米 17 亿入股欣旺达动力...",
+      "url": "https://www.ithome.com/1/020/401.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为官网公开鸿蒙智行享界 V8 选配：标配 ±12° 后轮转向、Ultra 采用 L3 自动驾驶架构，32.98 万元起",
+      "url": "https://www.ithome.com/1/020/386.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "丰田携手 Waymo，2027 年在日本启动 bZ4X Robotaxi 车队测试",
+      "url": "https://www.ithome.com/1/020/375.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "地平线创始人余凯吐槽智驾芯片 PPT 算力虚标：英伟达按稠密算力两倍标，而业界已经吹到 6-7 倍",
+      "url": "https://www.ithome.com/1/020/358.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-30",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -25494,9 +26097,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 6,
+      "candidateCount": 4,
       "status": "ok",
-      "publicLabel": "列表已读 6 条待核验线索"
+      "publicLabel": "列表已读 4 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -25526,17 +26129,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 12,
+      "candidateCount": 4,
       "status": "ok",
-      "publicLabel": "列表已读 12 条待核验线索"
+      "publicLabel": "列表已读 4 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 30,
+      "candidateCount": 22,
       "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "publicLabel": "列表已读 22 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -25590,9 +26193,9 @@
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 21,
+      "candidateCount": 22,
       "status": "ok",
-      "publicLabel": "列表已读 21 条待核验线索"
+      "publicLabel": "列表已读 22 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",

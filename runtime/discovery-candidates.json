@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-30T08:44:45.500Z",
+  "collectedAt": "2026-10-31T00:08:19.269Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4521,6 +4521,28 @@
         "小米"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "奇瑞汽车前三季度营收2412.34亿元 9月欧洲销量位居中国品牌第一",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318070.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "插混和纯电可选/尺寸迎来升级 全新比亚迪海豹07将于11月5日上市",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318067.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -4539,7 +4561,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-30T08:44:33.355Z",
+      "collectedAt": "2026-10-31T00:08:07.522Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
