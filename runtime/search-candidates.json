@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-31T07:06:51.084Z",
+  "collectedAt": "2026-10-31T08:30:37.393Z",
   "targetDates": [
     "2026-10-30",
     "2026-10-31"
@@ -14511,7 +14511,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "4从燃油到纯电，捷达的“可靠”还能不能打？137.01w",
+      "title": "9从燃油到纯电，捷达的“可靠”还能不能打？103.11w",
       "url": "https://auto.news18a.com/news/storys_307483.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -23716,7 +23716,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "22.98万起/一箱油续航近1200km 新福特锐界L上市",
+      "title": "新福特锐界L正式上市",
       "url": "https://www.sohu.com/a/1094593471_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -24770,7 +24770,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "11阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达50.07w",
+      "title": "11阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达63.28w",
       "url": "https://auto.news18a.com/news/storys_309399.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25741,7 +25741,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时10.99万起 2027款东风奕派007正式上市",
+      "title": "2027款东风奕派007正式上市",
       "url": "https://www.sohu.com/a/1094985318_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25751,7 +25751,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "长安汽车发布2026三季报 海外/智能化业务提速",
+      "title": "长安汽车发布2026三季报 短期业绩承压",
       "url": "https://www.sohu.com/a/1095093806_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25761,7 +25761,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新福特锐界L宽窄巷子上市 1200km级续航全家安心出游",
+      "title": "福特锐界L宽窄巷子上市",
       "url": "https://www.sohu.com/a/1095068095_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -26553,6 +26553,241 @@
       "discoveryPublishedAt": "2026-10-31",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "中国汽车动力方案正走向全球",
+      "url": "https://auto.gasgoo.com/news/202610/31I70476496C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】FREELANDER神行者8大五座版上市交付",
+      "url": "https://auto.ifeng.com/c/8xfmZIIZ11I",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】鸿蒙智行享界V8更新甄选配置清单，大定锁单后1-4周可提车",
+      "url": "https://auto.ifeng.com/c/8xflnJ4HXwv",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪2026年前九个月在韩国销售超2万辆 跃居进口车品牌第四位",
+      "url": "https://auto.ifeng.com/c/8xflnJ4HXwu",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】“中国心”2026年度十佳发动机及混动系统入围实车测试于10月26日启动",
+      "url": "https://auto.ifeng.com/c/8xfl4i7vVdV",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】奇瑞控股集团新闻发言人金弋波回应多品牌策略，集团公布9月及前三季度销量数据",
+      "url": "https://auto.ifeng.com/c/8xfl3qaYHUk",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "FREELANDER神行者8大五座版上市交付",
+      "url": "https://auto.news18a.com/news/storys_309760.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行享界V8更新甄选配置清单，大定锁单后1-4周可提车",
+      "url": "https://www.news18a.com/news/storys_309757.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪2026年前九个月在韩国销售超2万辆 跃居进口车品牌第四位",
+      "url": "https://www.news18a.com/news/storys_309755.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "“中国心”2026年度十佳发动机及混动系统入围实车测试于10月26日启动",
+      "url": "https://www.news18a.com/news/storys_309758.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "别克至境三车已全部推送OS2.1版本，支持Apple CarPlay、华为HiCar及ICCOA Carlink",
+      "url": "https://www.news18a.com/news/storys_309751.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞控股集团新闻发言人金弋波回应多品牌策略，集团公布9月及前三季度销量数据",
+      "url": "https://auto.news18a.com/news/storys_309750.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奥迪计划在美投资40亿美元建厂 美国政府承诺关税减免",
+      "url": "https://www.news18a.com/news/storys_309748.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞金弋波称奇瑞新能源汽车销量在中国排前三、全球排前五",
+      "url": "https://www.news18a.com/news/storys_309747.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞汽车公布前三季度财务数据 戚士龙称预计2027年补足国内新能源盈利短板",
+      "url": "https://www.news18a.com/news/storys_309742.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "腾讯地图Agent能力全面开放，元宝、微信、OPPO等已接入",
+      "url": "https://auto.news18a.com/news/storys_309740.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞执行副总裁戚士龙回应智界独立造车：将现有工厂产能与生产主体身份转移至智界名下",
+      "url": "https://www.news18a.com/news/storys_309731.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "国轩高科旗下国轩闰辉年产20万吨正极材料项目全线投产",
+      "url": "https://auto.news18a.com/news/storys_309729.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中国汽车流通协会发布2026年10月汽车经销商库存预警指数为62.2%",
+      "url": "https://www.news18a.com/news/storys_309722.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "大众暂停“纯电高尔夫”ID.Golf 研发：需要更审慎地安排资金投入",
+      "url": "https://www.ithome.com/1/020/511.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "迈凯伦主力超跑 750S 后继有人：接班车型或命名 McL 820，明年问世",
+      "url": "https://www.ithome.com/1/020/508.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "国产经典动画《星游记》时隔 15 年回归，前传电影官宣启动",
+      "url": "https://www.ithome.com/1/020/500.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行享界 V8 甄选配置更新，可在 1-4 周内提车",
+      "url": "https://www.ithome.com/1/020/496.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -26567,11 +26802,10 @@
     {
       "sourceId": "ifeng-auto",
       "url": "https://auto.ifeng.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     },
     {
       "sourceId": "yiche-news",
@@ -26593,9 +26827,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 9,
+      "candidateCount": 12,
       "status": "ok",
-      "publicLabel": "列表已读 9 条待核验线索"
+      "publicLabel": "列表已读 12 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -26649,9 +26883,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 10,
+      "candidateCount": 27,
       "status": "ok",
-      "publicLabel": "列表已读 10 条待核验线索"
+      "publicLabel": "列表已读 27 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -26664,11 +26898,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
