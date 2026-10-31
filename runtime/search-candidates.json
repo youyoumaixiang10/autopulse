@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-31T05:48:03.858Z",
+  "collectedAt": "2026-10-31T07:06:51.084Z",
   "targetDates": [
     "2026-10-30",
     "2026-10-31"
@@ -23716,7 +23716,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新福特锐界L正式上市",
+      "title": "22.98万起/一箱油续航近1200km 新福特锐界L上市",
       "url": "https://www.sohu.com/a/1094593471_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25741,7 +25741,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "2027款东风奕派007正式上市",
+      "title": "限时10.99万起 2027款东风奕派007正式上市",
       "url": "https://www.sohu.com/a/1094985318_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25751,7 +25751,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "长安汽车发布2026三季报 短期业绩承压",
+      "title": "长安汽车发布2026三季报 海外/智能化业务提速",
       "url": "https://www.sohu.com/a/1095093806_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25761,7 +25761,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "福特锐界L宽窄巷子上市",
+      "title": "新福特锐界L宽窄巷子上市 1200km级续航全家安心出游",
       "url": "https://www.sohu.com/a/1095068095_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -26531,6 +26531,28 @@
       "discoveryPublishedAt": "2026-10-31",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞金弋波回应多品牌策略：最关键是每个品牌要做出区隔，做出差异化",
+      "url": "https://www.ithome.com/1/020/481.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞金弋波：假如奇瑞没有燃油车也是新能源汽车大厂，奇瑞新能源已经排中国前三、全球前五",
+      "url": "https://www.ithome.com/1/020/472.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -26545,10 +26567,11 @@
     {
       "sourceId": "ifeng-auto",
       "url": "https://auto.ifeng.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     },
     {
       "sourceId": "yiche-news",
@@ -26626,9 +26649,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 27,
+      "candidateCount": 10,
       "status": "ok",
-      "publicLabel": "列表已读 27 条待核验线索"
+      "publicLabel": "列表已读 10 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -26641,10 +26664,11 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

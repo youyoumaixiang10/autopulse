@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-31T05:47:51.434Z",
+  "collectedAt": "2026-10-31T07:06:35.313Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4608,6 +4608,16 @@
         "鸿蒙智行"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "长安汽车第三季度营收362.49亿元 三季度海外销量同比增加64%",
+      "sourceMonth": "2026-10",
+      "url": "https://www.autohome.com.cn/news/202610/1318077.html",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -4615,7 +4625,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 27
+      "count": 28
     },
     {
       "sourceId": "autohome-industry",
@@ -4626,7 +4636,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-10-31T05:47:39.771Z",
+      "collectedAt": "2026-10-31T07:06:23.766Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
