@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-01T06:11:43.528Z",
+  "collectedAt": "2026-11-01T07:40:41.195Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4705,6 +4705,30 @@
         "岚图"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "即将达成第200万台下线 零跑汽车10月全球交付106127台",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318088.html",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "前三季度大型SUV市场占有率超30% 蔚来10月份交付新车34,246台",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318087.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -4712,7 +4736,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 27
+      "count": 28
     },
     {
       "sourceId": "autohome-industry",
@@ -4723,7 +4747,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-01T06:11:31.452Z",
+      "collectedAt": "2026-11-01T07:40:28.989Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 65,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
