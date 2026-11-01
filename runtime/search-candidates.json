@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-01T07:40:52.135Z",
+  "collectedAt": "2026-11-01T09:23:14.749Z",
   "targetDates": [
     "2026-10-31",
     "2026-11-01"
@@ -25741,7 +25741,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时补贴价10.99万起 2027款东风奕派007上市",
+      "title": "限时补贴价10.99万起 2027款东风奕派007正式上市",
       "url": "https://www.sohu.com/a/1094985318_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25761,7 +25761,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "锐界L成都上市续航1200km",
+      "title": "新福特锐界L宽窄巷子上市 1200km级续航全家安心出游",
       "url": "https://www.sohu.com/a/1095068095_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -27201,7 +27201,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "28.99万起 神行者8大五座正式上市",
+      "title": "28.99万起 FREELANDER神行者8大五座正式上市",
       "url": "https://www.sohu.com/a/1095619297_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -27251,7 +27251,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "大众VEGA技术矩阵发布",
+      "title": "大众技术日VEGA矩阵发布 中国创新赋能全球",
       "url": "https://www.sohu.com/a/1095616275_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -27616,7 +27616,7 @@
       "sourceId": "ithome-auto",
       "sourceName": "IT之家",
       "sourceType": "vertical-media",
-      "title": "2026 年 10 月汽车销量 / 交付汇总（持续更新）：广汽昊铂埃安 BU 销量 42357 辆，同比增长 56.79%",
+      "title": "2026 年 10 月汽车销量 / 交付汇总（持续更新）：赛力斯 27037 辆，同比下降 50.29%",
       "url": "https://www.ithome.com/1/020/661.htm",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-01",
@@ -28078,6 +28078,143 @@
       "discoveryPublishedAt": "2026-11-01",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "即将达成第200万台下线！零跑10月全球交付达106127台",
+      "url": "https://www.163.com/auto/article/LALQFKQR0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】赛力斯2026年10月汽车销量27037辆，同比下降50.29%",
+      "url": "https://auto.ifeng.com/c/8xhUYqF4JY7",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】岚图汽车2026年10月交付新车13030辆",
+      "url": "https://auto.ifeng.com/c/8xhUPSJxfeu",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】赛力斯发布投资者关系活动记录表：问界用户突破120万，与华为达成新五年合作",
+      "url": "https://auto.ifeng.com/c/8xhUB4UIByC",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】小米17亿元入股欣旺达动力 东风与宁德时代签署集团级战略合作协议",
+      "url": "https://auto.ifeng.com/c/8xhW4NuNBK1",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】上汽集团2026年10月整车销量43.00万辆 同比下降5.28%",
+      "url": "https://auto.ifeng.com/c/8xhUPSJxfev",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "电动 MINI JCW 高能玩家限定系列车型上市，限时礼遇价 25.38 万元",
+      "url": "https://www.ithome.com/1/020/769.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "阿里千问 AI 眼镜 OTA 升级：新增通话翻译、媒体翻译等",
+      "url": "https://www.ithome.com/1/020/768.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "赛力斯 10 月汽车销量 27037 辆，同比下降 50.29%",
+      "url": "https://www.ithome.com/1/020/762.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "岚图汽车 2026 年 10 月交付超 1.3 万辆，今年累计 128,511 辆同比增长 13%",
+      "url": "https://www.ithome.com/1/020/761.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "赛力斯：公司与华为是长期、稳定、互信的战略合作关系，问界用户已突破 120 万",
+      "url": "https://www.ithome.com/1/020/759.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽集团：10 月整车销量 43 万辆，同比降 5.28%",
+      "url": "https://www.ithome.com/1/020/756.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长城汽车 10 月销量 12.04 万辆，同比下降 15.87%",
+      "url": "https://www.ithome.com/1/020/745.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -28101,9 +28238,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 2,
+      "candidateCount": 1,
       "listRead": false,
-      "publicLabel": "公开检索发现 2 条待核验线索"
+      "publicLabel": "公开检索发现 1 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -28117,17 +28254,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 23,
+      "candidateCount": 22,
       "status": "ok",
-      "publicLabel": "列表已读 23 条待核验线索"
+      "publicLabel": "列表已读 22 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 20,
+      "candidateCount": 18,
       "status": "ok",
-      "publicLabel": "列表已读 20 条待核验线索"
+      "publicLabel": "列表已读 18 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -28173,9 +28310,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 25,
+      "candidateCount": 9,
       "status": "ok",
-      "publicLabel": "列表已读 25 条待核验线索"
+      "publicLabel": "列表已读 9 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -28188,10 +28325,11 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
