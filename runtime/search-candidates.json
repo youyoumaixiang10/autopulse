@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-01T00:10:10.406Z",
+  "collectedAt": "2026-11-01T06:11:50.832Z",
   "targetDates": [
     "2026-10-31",
     "2026-11-01"
@@ -1738,7 +1738,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "问界M6试驾年轻SUV新选",
+      "title": "试驾问界M6成熟SUV之选",
       "url": "https://www.sohu.com/a/1012482515_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -1748,7 +1748,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "尚界Z7T试驾体验",
+      "title": "尚界Z7T动态试驾体验",
       "url": "https://www.sohu.com/a/1012495282_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -1758,7 +1758,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "仰望U8越野体验eTCS2.0",
+      "title": "仰望U8越野eTCS 2.0体验",
       "url": "https://www.sohu.com/a/1005139452_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -2608,7 +2608,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-30 2026-10-31",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-31 2026-11-01",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-30 2026-10-31",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-31 2026-11-01",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2628,7 +2628,7 @@
       "title": "新浪汽车 - 汽车生活源动力！",
       "url": "https://auto.sina.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-30 2026-10-31",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-31 2026-11-01",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2638,7 +2638,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/?lang=zh",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-23 2026-10-24",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-31 2026-11-01",
       "verificationStatus": "media-discovery"
     },
     {
@@ -8790,7 +8790,7 @@
       "title": "【汽车报价】汽车最新报价_汽车价格查询_太平洋汽车",
       "url": "https://price.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-29 2026-10-30",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-31 2026-11-01",
       "verificationStatus": "media-discovery"
     },
     {
@@ -14511,7 +14511,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "9从燃油到纯电，捷达的“可靠”还能不能打？103.11w",
+      "title": "7从燃油到纯电，捷达的“可靠”还能不能打？125.72w",
       "url": "https://auto.news18a.com/news/storys_307483.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -20191,7 +20191,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "比亚迪秦PLUS DM-i升级上市",
+      "title": "比亚迪秦PLUS DM-i三代上市",
       "url": "https://www.sohu.com/a/1093350435_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -20201,7 +20201,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "吉利缤越超能版上市",
+      "title": "吉利缤越超能版正式上市",
       "url": "https://www.sohu.com/a/1093350054_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -22002,7 +22002,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "理想i6上市 续航达780km",
+      "title": "理想i6新款上市 续航780km",
       "url": "https://www.sohu.com/a/1093982535_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -22012,7 +22012,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "奔腾小马五门版正式上市",
+      "title": "奔腾小马五门版上市",
       "url": "https://www.sohu.com/a/1094052716_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -23572,7 +23572,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "2026年1-8月电气化供应商装机量排行榜：车企自制占据电池PACK市场份额过半丨盖世汽车研究院",
+      "title": "2026年1-8月电气化供应商装机量排行榜",
       "url": "https://auto.gasgoo.com/news/202610/29I70476290C103.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-10-29",
@@ -23706,7 +23706,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时21.59万元 阿维塔07L Max纯电版正式上市",
+      "title": "阿维塔07L Max纯电版上市",
       "url": "https://www.sohu.com/a/1094559734_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -23716,7 +23716,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新福特锐界L上市续航1200km",
+      "title": "新福特锐界L正式上市",
       "url": "https://www.sohu.com/a/1094593471_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -24770,7 +24770,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "11阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达63.28w",
+      "title": "2阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达157.36w",
       "url": "https://auto.news18a.com/news/storys_309399.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -24933,7 +24933,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "全新AMG GLC 53上市",
+      "title": "AMG GLC 53 SUV上市",
       "url": "https://www.sohu.com/a/1094811113_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25741,7 +25741,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "2027款东风奕派007正式上市",
+      "title": "限时补贴价10.99万起 2027款东风奕派007上市",
       "url": "https://www.sohu.com/a/1094985318_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25761,7 +25761,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新锐界L成都上市续航1200km",
+      "title": "锐界L成都上市续航1200km",
       "url": "https://www.sohu.com/a/1095068095_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -26438,7 +26438,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "新芯航途X7 Ultra正式发布：换个思路做智驾芯片",
+      "title": "热点时评聚焦热议话题，提供深度评论，解析行业现象新芯航途X7 Ultra正式发布：换个思路做智驾芯片2026-10-31",
       "url": "https://auto.news18a.com/news/storys_309675.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -27075,6 +27075,784 @@
       "discoveryPublishedAt": "2026-10-31",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "极氪10月交付32483辆 同比增长51.6%",
+      "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixferx3103712.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "深蓝汽车10月全球交付达32602辆",
+      "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixeyiu4147208.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "广汽丰田10月终端销量达到53022台",
+      "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixeyiu4205558.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "小米汽车10月交付量超50000台",
+      "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixetzw4268526.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行10月交付新车33537台 全系成交均价超40万元",
+      "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixferx3103123.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "上汽MG10月全球销量成功突破85000辆",
+      "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixeyiw0925943.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "上汽通用五菱10月全球销量达142757辆",
+      "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixferu0862203.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "理想汽车10月交付新车29025台",
+      "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixeyix6719705.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "小鹏汽车10月交付新车50237台 创单月交付量历史新高",
+      "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixeyiu4172032.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "蔚来10月交付新车34246台",
+      "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixferx3070637.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "零跑汽车10月全球交付量达106127台",
+      "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixeyiz3170441.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "28.99万起 神行者8大五座正式上市",
+      "url": "https://www.sohu.com/a/1095619297_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "日产新款SUV将上市",
+      "url": "https://www.sohu.com/a/1095485511_126686",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "问界新M8内外饰升级",
+      "url": "https://www.sohu.com/a/1095492344_115706",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "取消发布会变成新流量密码?",
+      "url": "https://www.sohu.com/a/1095499387_183083",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "中国车企在欧洲销量将达270万辆",
+      "url": "https://www.sohu.com/a/1095492121_115831",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "大众VEGA技术矩阵发布",
+      "url": "https://www.sohu.com/a/1095616275_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "有“新”有“趣”丨2026第二十六届武汉国际汽车展览会盛大启幕",
+      "url": "https://auto.ifeng.com/c/8xhAW2Ahn74",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "零跑10月全球交付达106127台，即将达成第200万台下线",
+      "url": "https://auto.ifeng.com/c/8xh9BJl2mBn",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "逆势六连涨，华境S 10月交付7507台再创新高",
+      "url": "https://auto.ifeng.com/c/8xh8McfaILX",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "理想汽车2026年10月交付29,025辆",
+      "url": "https://auto.ifeng.com/c/8xh9BJl2mBC",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "小鹏MONA L05正式上市，限时价13.98万元起",
+      "url": "https://auto.ifeng.com/c/8xhA1Cd4iZT",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】奕境X9自10月18日批量交付起两周交付3612台",
+      "url": "https://auto.ifeng.com/c/8xhINxZjM1i",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】长安启源10月全球销量63,648辆，Q06上市首月销量达10,152辆",
+      "url": "https://auto.ifeng.com/c/8xhHB7IS5cL",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】蔚来公司公布2026年10月交付34246台新车",
+      "url": "https://auto.ifeng.com/c/8xhClkTmeOX",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】鸿蒙智行2026年10月交付33537台，累计交付突破160万台",
+      "url": "https://auto.ifeng.com/c/8xhDkWTA0Gi",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】极氪2026年10月交付汽车32483辆",
+      "url": "https://auto.ifeng.com/c/8xhDacXde3T",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奕境X9自10月18日批量交付起两周交付3612台",
+      "url": "https://auto.news18a.com/news/storys_309987.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长安启源10月全球销量63,648辆，Q06上市首月销量达10,152辆",
+      "url": "https://www.news18a.com/news/storys_309986.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来公司公布2026年10月交付34246台新车",
+      "url": "https://www.news18a.com/news/storys_309984.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行2026年10月交付33537台，累计交付突破160万台",
+      "url": "https://www.news18a.com/news/storys_309982.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "极氪2026年10月交付汽车32483辆",
+      "url": "https://www.news18a.com/news/storys_309981.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "欧阳明高在第33届中国汽车工程学会年会上称预计到2030年中国动力电池出货量将接近翻倍",
+      "url": "https://auto.news18a.com/news/storys_309979.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "华为乾崑智驾累计辅助驾驶里程突破173亿公里",
+      "url": "https://www.news18a.com/news/storys_309978.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "东风本田2026年10月终端销量17,026台",
+      "url": "https://www.news18a.com/news/storys_309976.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "广汽丰田2026年10月销量53022台，铂智3X累计交付超15万台",
+      "url": "https://www.news18a.com/news/storys_309975.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "西安市交通运输综合执法支队要求网约车平台自查“只送货不载人”违规行为",
+      "url": "https://www.news18a.com/news/storys_309974.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "零跑汽车10月全球交付106127台",
+      "url": "https://auto.news18a.com/news/storys_309973.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽通用五菱2026年10月全球总销量超14.27万辆",
+      "url": "https://www.news18a.com/news/storys_309972.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "问界新M8、智己LS8NEO纯电等多款车型于11月上市",
+      "url": "https://www.news18a.com/news/storys_309970.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小米汽车推出SU7/YU7限时“0息”购车权益",
+      "url": "https://www.news18a.com/news/storys_309967.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众安徽10月交付汽车1597台",
+      "url": "https://www.news18a.com/news/storys_309965.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏集团2026年10月交付新车50,237台",
+      "url": "https://auto.news18a.com/news/storys_309964.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "理想汽车2026年10月交付29025辆，累计交付达1862676辆",
+      "url": "https://www.news18a.com/news/storys_309963.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小米汽车公布2026年10月交付量超5万台 澎程N70少量现车可选",
+      "url": "https://www.news18a.com/news/storys_309962.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "深蓝汽车2026年10月全球销量32602辆",
+      "url": "https://www.news18a.com/news/storys_309959.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "截至2026年11月1日蔚来全国建成9775座充换电站",
+      "url": "https://www.news18a.com/news/storys_309960.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "里程碑时刻：长城汽车旗下坦克品牌全球销量达 100 万辆",
+      "url": "https://www.ithome.com/1/020/719.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奕境 X9 汽车 10 月两周交付 3612 台，平均成交价超 34 万元",
+      "url": "https://www.ithome.com/1/020/718.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长安启源 10 月全球销量 63,648 辆：环比增长 22.24%，Q06 上市首月销量破万",
+      "url": "https://www.ithome.com/1/020/708.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蔚来 2026 年 10 月交付新车 34,246 台，今年累计破 33.45 万台创历史新高",
+      "url": "https://www.ithome.com/1/020/703.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "一地叫停网约车“只送货不载人”，回应称并非一刀切禁止“四轮小件”货运",
+      "url": "https://www.ithome.com/1/020/702.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "2026 年 10 月汽车销量 / 交付汇总（持续更新）：蔚来公司交付新车 34,246 台，全年累计交付新车 334,547 台创历史新高",
+      "url": "https://www.ithome.com/1/020/661.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行官宣 10 月交付 33537 台、均价超 40 万元，累计销量 160 万台刷新中国新势力纪录",
+      "url": "https://www.ithome.com/1/020/701.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "极氪 10 月交付汽车 32483 辆，同比增长 51.6%",
+      "url": "https://www.ithome.com/1/020/698.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "中国科学院院士欧阳明高：未来十年，磷酸铁锂仍将继续主导国内动力和储能电池市场",
+      "url": "https://www.ithome.com/1/020/695.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为乾崑智驾累计辅助驾驶里程突破 170 亿公里",
+      "url": "https://www.ithome.com/1/020/693.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "广汽丰田 10 月销量 53022 台，铂智 3X 累计交付超 15 万台",
+      "url": "https://www.ithome.com/1/020/692.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "东风本田 10 月终端销量 17,026 台，环比增长 16.9%",
+      "url": "https://www.ithome.com/1/020/689.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽通用五菱 2026 年 10 月全球总销量超 14.27 万辆，海外年销破 32 万台 / 套",
+      "url": "https://www.ithome.com/1/020/686.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "零跑汽车 10 月全球交付 106127 台：同比增长 51%，连续 4 个月超 10 万台",
+      "url": "https://www.ithome.com/1/020/685.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米推出限时“0 息”购车权益，SU7 / YU7 现车可享“3 年 0 息”或“5 年分期 3 年 0 息”",
+      "url": "https://www.ithome.com/1/020/679.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "大众安徽 10 月交付汽车 1597 台，累计同比增长 52%",
+      "url": "https://www.ithome.com/1/020/677.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小鹏集团 2026 年 10 月交付新车 50,237 台，创单月历史新高",
+      "url": "https://www.ithome.com/1/020/675.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "理想汽车 2026 年 10 月交付 29025 辆，其中新款 MEGA 超 3000 辆",
+      "url": "https://www.ithome.com/1/020/671.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米澎程少量 N70 现车可选：享 3 年 0 息 / 5 年分期前 3 年 0 息等方案",
+      "url": "https://www.ithome.com/1/020/668.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全新奖励计划海外推出后，曝特斯拉砍掉买车推荐奖励",
+      "url": "https://www.ithome.com/1/020/665.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "深蓝汽车 10 月全球销量 32602 辆，环比增长 8.01%",
+      "url": "https://www.ithome.com/1/020/662.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽 MG 品牌 10 月全球新能源销量突破 8.5 万辆，国内超 3.1 万辆",
+      "url": "https://www.ithome.com/1/020/660.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华境 S 10 月交付 7507 台，连续 6 个月增长",
+      "url": "https://www.ithome.com/1/020/658.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "乘联分会崔东树：今年前 9 个月中国对欧盟汽车出口 183 万辆远超去年全年，比亚迪断层式领跑、吉利暴增 991%",
+      "url": "https://www.ithome.com/1/020/657.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米汽车 2026 年 10 月交付量超过 50,000 台",
+      "url": "https://www.ithome.com/1/020/656.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪方程豹熊甜波：10 月方程系列交付总量没达到预期，11 月会全力提产提速",
+      "url": "https://www.ithome.com/1/020/653.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "吉利汽车规划 2030 年前实现“县县通”：布局 15 万座充电站，其中智充站 10 万座",
+      "url": "https://www.ithome.com/1/020/648.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -27082,9 +27860,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 3,
+      "candidateCount": 14,
       "status": "ok",
-      "publicLabel": "列表已读 3 条待核验线索"
+      "publicLabel": "列表已读 14 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -27098,9 +27876,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 2,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 2 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -27114,17 +27892,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 12,
+      "candidateCount": 27,
       "status": "ok",
-      "publicLabel": "列表已读 12 条待核验线索"
+      "publicLabel": "列表已读 27 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 21,
+      "candidateCount": 20,
       "status": "ok",
-      "publicLabel": "列表已读 21 条待核验线索"
+      "publicLabel": "列表已读 20 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -27170,9 +27948,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 25,
+      "candidateCount": 24,
       "status": "ok",
-      "publicLabel": "列表已读 25 条待核验线索"
+      "publicLabel": "列表已读 24 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -27185,11 +27963,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
