@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-10-31T08:30:37.393Z",
+  "collectedAt": "2026-11-01T00:10:10.406Z",
   "targetDates": [
-    "2026-10-30",
-    "2026-10-31"
+    "2026-10-31",
+    "2026-11-01"
   ],
   "candidates": [
     {
@@ -20191,7 +20191,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "比亚迪秦PLUS DM-i新款上市",
+      "title": "比亚迪秦PLUS DM-i升级上市",
       "url": "https://www.sohu.com/a/1093350435_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -22002,7 +22002,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "理想i6 2026款上市 续航780km",
+      "title": "理想i6上市 续航达780km",
       "url": "https://www.sohu.com/a/1093982535_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -22012,7 +22012,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "奔腾小马五门版上市",
+      "title": "奔腾小马五门版正式上市",
       "url": "https://www.sohu.com/a/1094052716_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -23716,7 +23716,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新福特锐界L正式上市",
+      "title": "新福特锐界L上市续航1200km",
       "url": "https://www.sohu.com/a/1094593471_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -24933,7 +24933,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新AMG GLC 53 SUV上市",
+      "title": "全新AMG GLC 53上市",
       "url": "https://www.sohu.com/a/1094811113_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25761,7 +25761,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "福特锐界L宽窄巷子上市",
+      "title": "新锐界L成都上市续航1200km",
       "url": "https://www.sohu.com/a/1095068095_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -26788,6 +26788,293 @@
       "discoveryPublishedAt": "2026-10-31",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "继理想之后，小米17亿入股欣旺达动力成第三大股东",
+      "url": "https://auto.gasgoo.com/news/202610/31I70476511C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "重庆青山电机无位置传感器控制技术量产应用",
+      "url": "https://auto.gasgoo.com/news/202610/31I70476479C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "新芯航途发布大模型芯片X7 Ultra，首款芯片X7累计出货超20万颗",
+      "url": "https://auto.gasgoo.com/news/202610/31I70476474C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "精进电动菏泽基地全新扁线电机及控制器投产下线",
+      "url": "https://auto.gasgoo.com/news/202610/31I70476478C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "大众公布三款智电新车锁单数据 均搭载酷睿程智驾方案",
+      "url": "https://auto.gasgoo.com/news/202610/31I70476460C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "智能化大进阶 全新一代迈腾竞争力分析",
+      "url": "https://www.pcauto.com.cn/nation/4336/43361839.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "10个月达成10万台交付 埃安i60创双动力SUV最快交付纪录",
+      "url": "https://www.pcauto.com.cn/nation/5190/51903465.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "权益价28.99万元起 FREELANDER神行者8大五座开启交付",
+      "url": "https://www.pcauto.com.cn/nation/5190/51903339.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "全新艾瑞泽7完成新车申报 预计将于2026年四季度正式上市",
+      "url": "https://www.pcauto.com.cn/nation/5190/51903057.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "FREELANDER神行者8 大五座正式上市，限时权益价28.99万元起",
+      "url": "https://auto.ifeng.com/c/8xgGJ0yWAeM",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉在海外市场推出FSD监督版推荐奖励计划",
+      "url": "https://auto.ifeng.com/c/8xgrjwHVR8V",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "雷克萨斯首款国产纯电 SUV 定档 2027",
+      "url": "https://auto.ifeng.com/c/8xgUjDEyqyE",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "上汽携手 XHEART 推 700TOPS 智驾芯片",
+      "url": "https://auto.ifeng.com/c/8xgMP6UQ9PZ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "王凤英：2027 年设 MONA 独立门店",
+      "url": "https://auto.ifeng.com/c/8xgMimiZ9A5",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "权益价28.99-36.99万元 FREELANDER神行者8大五座版正式上市",
+      "url": "https://auto.ifeng.com/c/8xgLTE0LN5q",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1101：苹果中国官网上线 Apple 智能介绍页面；新款小米 SU7 Ultra 无伪装实车曝光；我国首次载人登月任务乘组计划由三人组成...",
+      "url": "https://www.ithome.com/1/020/641.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉在海外推出全新奖励计划：车主邀请朋友体验 FSD 监督版，可获免费订阅或积分",
+      "url": "https://www.ithome.com/1/020/640.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小鹏集团总裁王凤英：2027 年起，部分城市将设立 MONA 独立门店",
+      "url": "https://www.ithome.com/1/020/629.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "国补后 890 → 664 元：怒喵 Infinity.100 电竞鼠标直降，1.2 秒热插拔磁吸换电、含电池重 49g",
+      "url": "https://www.ithome.com/1/020/621.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽荣威家越 07 明日开启全国交付：首搭豆包座舱助手，限时权益价 11.98 万元起",
+      "url": "https://www.ithome.com/1/020/618.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "数据显示，“存储五巨头”上季度营业利润及净利总额首超美国科技五巨头",
+      "url": "https://www.ithome.com/1/020/617.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "2027 款领克 08 EM-P 官图公布，11 月 5 日登场",
+      "url": "https://www.ithome.com/1/020/609.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "无界动力与京东达成战略合作，机器人 K15 上岗七鲜咖啡",
+      "url": "https://www.ithome.com/1/020/598.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克再撕比尔盖茨：一边资助攻击我的人，一边做空特斯拉",
+      "url": "https://www.ithome.com/1/020/590.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全新一代智己 LS6 首月交付突破 8000 台，19.79 万元起",
+      "url": "https://www.ithome.com/1/020/589.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "Waymo 无人驾驶出租车长期霸占充电桩，美国电车车主不胜其扰",
+      "url": "https://www.ithome.com/1/020/585.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "涉电动汽车、App 适老化等，500 多项国家标准下月实施",
+      "url": "https://www.ithome.com/1/020/577.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-10-31",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -26795,9 +27082,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 4,
+      "candidateCount": 3,
       "status": "ok",
-      "publicLabel": "列表已读 4 条待核验线索"
+      "publicLabel": "列表已读 3 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -26835,9 +27122,9 @@
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 29,
+      "candidateCount": 21,
       "status": "ok",
-      "publicLabel": "列表已读 29 条待核验线索"
+      "publicLabel": "列表已读 21 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -26883,25 +27170,26 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 27,
+      "candidateCount": 25,
       "status": "ok",
-      "publicLabel": "列表已读 27 条待核验线索"
+      "publicLabel": "列表已读 25 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 22,
+      "candidateCount": 20,
       "status": "ok",
-      "publicLabel": "列表已读 22 条待核验线索"
+      "publicLabel": "列表已读 20 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
