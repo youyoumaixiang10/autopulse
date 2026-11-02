@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-01T09:23:01.030Z",
+  "collectedAt": "2026-11-02T00:13:25.588Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4729,6 +4729,80 @@
         "蔚来"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "零跑增51%/小米、小鹏均破5万 10月新势力品牌销量简报",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318099.html",
+      "candidateBrands": [
+        "零跑",
+        "小米",
+        "小鹏"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "1-10月累计交付320887辆 极氪品牌10月交付32483辆",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318098.html",
+      "candidateBrands": [
+        "极氪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "1-10月累计同比增长13% 岚图汽车10月交付13030辆",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318096.html",
+      "candidateBrands": [
+        "岚图"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "乘用车销售483125辆 比亚迪10月份销售490168辆",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318095.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全系成交均价超40万/累计交付破160万台 鸿蒙智行10月交付33537台",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318094.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "环比增长22.24% 长安启源10月份全球销量63648辆",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318090.html",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -4736,7 +4810,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 28
+      "count": 31
     },
     {
       "sourceId": "autohome-industry",
@@ -4747,9 +4821,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-01T09:22:49.022Z",
+      "collectedAt": "2026-11-02T00:13:13.785Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 65,
+      "candidateCount": 59,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

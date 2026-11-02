@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-11-01T09:23:14.749Z",
+  "collectedAt": "2026-11-02T00:13:33.461Z",
   "targetDates": [
-    "2026-10-31",
-    "2026-11-01"
+    "2026-11-01",
+    "2026-11-02"
   ],
   "candidates": [
     {
@@ -14511,7 +14511,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "4从燃油到纯电，捷达的“可靠”还能不能打？135.78w",
+      "title": "11从燃油到纯电，捷达的“可靠”还能不能打？103.83w",
       "url": "https://auto.news18a.com/news/storys_307483.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -24770,7 +24770,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "2阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达169.39w",
+      "title": "2阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达136.84w",
       "url": "https://auto.news18a.com/news/storys_309399.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25741,7 +25741,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时补贴价10.99万起 2027款东风奕派007正式上市",
+      "title": "限时补贴价10.99万起 2027款东风奕派007上市",
       "url": "https://www.sohu.com/a/1094985318_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25761,7 +25761,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新福特锐界L宽窄巷子上市 1200km级续航全家安心出游",
+      "title": "锐界L成都上市续航1200km",
       "url": "https://www.sohu.com/a/1095068095_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -27201,7 +27201,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "28.99万起 FREELANDER神行者8大五座正式上市",
+      "title": "28.99万起 神行者8大五座正式上市",
       "url": "https://www.sohu.com/a/1095619297_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -27251,7 +27251,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "大众技术日VEGA矩阵发布 中国创新赋能全球",
+      "title": "大众VEGA技术矩阵发布",
       "url": "https://www.sohu.com/a/1095616275_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -27616,7 +27616,7 @@
       "sourceId": "ithome-auto",
       "sourceName": "IT之家",
       "sourceType": "vertical-media",
-      "title": "2026 年 10 月汽车销量 / 交付汇总（持续更新）：赛力斯 27037 辆，同比下降 50.29%",
+      "title": "2026 年 10 月汽车销量 / 交付汇总（持续更新）：奇瑞汽车 28.25 万辆，同比增长 7.2%",
       "url": "https://www.ithome.com/1/020/661.htm",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-01",
@@ -28215,6 +28215,509 @@
       "discoveryPublishedAt": "2026-11-01",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "吉利汽车10月销量310183辆 环比增长6%",
+      "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixfrfv1080384.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "比亚迪10月销量49.02万辆 今年1-10月累计销量362.17万辆",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905616.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "长安启源10月全球销量63648辆 启源Q06上市首月销量破万",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905611.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "限时售25.38万元 电动MINI JCW高能玩家限定系列上市",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905610.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "昊铂埃安10月销量42357辆 同比增长56.79% Ray7将11月12日上市",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905609.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "深蓝汽车10月全球销量32602辆 多款车型推5年0息金融权益",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905598.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "MG品牌10月全球新能源销量超8.5万辆 国内新能源销量超3.1万辆",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905597.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "极氪10月交付32483辆 1-10月交付超32万辆 同比增长94.4%",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905594.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "理想汽车10月交付29025辆 新一代理想MEGA交付超3000辆",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905593.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "谁动了宁德时代和比亚迪的“奶酪”",
+      "url": "https://www.sohu.com/a/1094828243_122189",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "戳破新车订单泡沫",
+      "url": "https://www.sohu.com/a/1095675696_115571",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "10月新势力分化：问界、阿维塔销量腰斩",
+      "url": "https://www.sohu.com/a/1095805029_114986",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "10月49万辆，比亚迪仍未“达标”，但有两个数，友商“恨之入骨”",
+      "url": "https://auto.ifeng.com/c/8xiXd4rUbDJ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪2026年前三季度研发费用363亿元，比归母净利润高140亿元",
+      "url": "https://auto.ifeng.com/c/8xiXHJdVmSI",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】为旌科技VS919L车规级智驾芯片获2026第八届金辑奖最佳应用实践奖",
+      "url": "https://auto.ifeng.com/c/8xiXP7mwUZf",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】第九届中国国际进口博览会将展出无方向盘无人驾驶量产车",
+      "url": "https://auto.ifeng.com/c/8xiSD9XWc7o",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】赛力斯发布投资者关系活动记录表，问界将全面进入欧洲市场",
+      "url": "https://auto.ifeng.com/c/8xhuqdg64Dd",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪2026年前三季度研发费用363亿元，比归母净利润高140亿元",
+      "url": "https://auto.news18a.com/news/storys_310171.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "为旌科技VS919L车规级智驾芯片获2026第八届金辑奖最佳应用实践奖",
+      "url": "https://www.news18a.com/news/storys_310174.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "第九届中国国际进口博览会将展出无方向盘无人驾驶量产车",
+      "url": "https://www.news18a.com/news/storys_310172.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "赛力斯发布投资者关系活动记录表，问界将全面进入欧洲市场",
+      "url": "https://www.news18a.com/news/storys_310029.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年10月汽车销量及交付数据公布：比亚迪490,168辆居首，小米汽车交付超50,000辆",
+      "url": "https://www.news18a.com/news/storys_310026.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "阿维塔10月交付7056辆，全系车型推送AVATR.OS 6.1.0系统",
+      "url": "https://auto.news18a.com/news/storys_310023.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞集团10月销售汽车29.59万辆 同比增长5.3%",
+      "url": "https://www.news18a.com/news/storys_310022.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞汽车2026年10月销量28.25万辆 同比增长7.2%",
+      "url": "https://www.news18a.com/news/storys_310021.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利汽车2026年10月总销量31.02万辆",
+      "url": "https://www.news18a.com/news/storys_310019.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪发布2026年10月产销快报，新能源汽车销量约49.02万辆",
+      "url": "https://www.news18a.com/news/storys_310015.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "北汽新能源公布2026年10月销量数据，极狐阿尔法T7开启交付",
+      "url": "https://auto.news18a.com/news/storys_310014.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "电动MINI JCW高能玩家限定系列上市，限时礼遇价25.38万元",
+      "url": "https://www.news18a.com/news/storys_310013.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "赛力斯2026年10月汽车销量27037辆，同比下降50.29%",
+      "url": "https://www.news18a.com/news/storys_310008.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "赛力斯发布投资者关系活动记录表：问界用户突破120万，与华为达成新五年合作",
+      "url": "https://www.news18a.com/news/storys_310007.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "岚图汽车2026年10月交付新车13030辆",
+      "url": "https://www.news18a.com/news/storys_310006.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽商用车NAVECO品牌纯电宽体轻客领胜V100正式上市",
+      "url": "https://auto.news18a.com/news/storys_310011.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小米17亿元入股欣旺达动力 东风与宁德时代签署集团级战略合作协议",
+      "url": "https://www.news18a.com/news/storys_310010.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽集团2026年10月整车销量43.00万辆 同比下降5.28%",
+      "url": "https://www.news18a.com/news/storys_310004.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长城汽车发布2026年10月产销快报，销量120374辆",
+      "url": "https://www.news18a.com/news/storys_310000.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽红旗发布全新红旗H9预热视频，全系标配闭式空气悬架与iDCS可变阻尼减振器",
+      "url": "https://www.news18a.com/news/storys_309995.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1102：2026 年 10 月汽车销量榜出炉；问界将全面进入欧洲市场；首付 7.99 万元起小米推限时 0 息购车权益；2027 年度春节假期可连休 9 天...",
+      "url": "https://www.ithome.com/1/020/850.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪前三季度研发比净利润高 140 亿元：何志奇称不是不会算账，是在算一本更长的账",
+      "url": "https://www.ithome.com/1/020/845.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "赛力斯：问界将全面进入欧洲市场，公司不参与价格战和规模内卷",
+      "url": "https://www.ithome.com/1/020/839.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "2026 年 10 月汽车销量 / 交付榜出炉：比亚迪超 49 万辆稳居榜首，小米月销重回 5 万辆",
+      "url": "https://www.ithome.com/1/020/835.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪各品牌销量公布：方程豹 43872 辆，腾势 15152 辆",
+      "url": "https://www.ithome.com/1/020/830.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "阿维塔官宣 10 月交付 7,056 辆，全系车型推送 AVATR.OS 6.1.0 系统",
+      "url": "https://www.ithome.com/1/020/828.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞汽车 10 月销量 28.25 万辆同比增长 7.2%，智界 6090 辆",
+      "url": "https://www.ithome.com/1/020/823.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "吉利汽车 10 月总销量为 31.02 万辆，同比增长约 1%",
+      "url": "https://www.ithome.com/1/020/815.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "工信部赛迪研究院：我国人工智能推理数据量首超训练数据量，截至 6 月日均词元调用量超 175 万亿",
+      "url": "https://www.ithome.com/1/020/809.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪 10 月新能源汽车销量约 49.02 万辆，同比增长 10.97%",
+      "url": "https://www.ithome.com/1/020/805.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "第二十四届半导体封测年会定档 11 月 4 日至 6 日举办，华为、龙芯中科、小米汽车等确认参会",
+      "url": "https://www.ithome.com/1/020/803.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "北汽新能源：极狐汽车 10 月销量 26325 台，同比增长 12.56%",
+      "url": "https://www.ithome.com/1/020/784.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-01",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -28238,9 +28741,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 1,
+      "candidateCount": 0,
       "listRead": false,
-      "publicLabel": "公开检索发现 1 条待核验线索"
+      "publicLabel": "直连列表与公开检索均未匹配"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -28254,17 +28757,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 22,
+      "candidateCount": 13,
       "status": "ok",
-      "publicLabel": "列表已读 22 条待核验线索"
+      "publicLabel": "列表已读 13 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 18,
+      "candidateCount": 6,
       "status": "ok",
-      "publicLabel": "列表已读 18 条待核验线索"
+      "publicLabel": "列表已读 6 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -28310,9 +28813,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 9,
+      "candidateCount": 23,
       "status": "ok",
-      "publicLabel": "列表已读 9 条待核验线索"
+      "publicLabel": "列表已读 23 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -28325,11 +28828,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

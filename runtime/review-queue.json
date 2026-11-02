@@ -10387,6 +10387,7 @@
     "url": "https://www.pcauto.com.cn/nation/5189/51895181.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10536,6 +10537,7 @@
     "url": "https://www.pcauto.com.cn/nation/5189/51897419.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10776,6 +10778,7 @@
     "url": "https://www.pcauto.com.cn/nation/5190/51901958.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10831,15 +10834,6 @@
     ]
   },
   {
-    "title": "中国方案向全球，供应链递交“中国答卷” ｜2026金辑奖中国汽车新供应链百强榜",
-    "sourceName": "盖世汽车",
-    "url": "https://auto.gasgoo.com/news/202610/31I70476376C103.shtml",
-    "reasons": [
-      "正文尚未读取成功",
-      "尚未具备完整的日期与原文"
-    ]
-  },
-  {
     "title": "方程豹钛7累计销量达成30万辆 连续4个月中大型SUV销量冠军",
     "sourceName": "太平洋汽车",
     "url": "https://www.pcauto.com.cn/nation/5190/51902512.html",
@@ -10872,6 +10866,7 @@
     "url": "https://www.pcauto.com.cn/nation/5190/51902511.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10897,6 +10892,7 @@
     "url": "https://www.pcauto.com.cn/nation/4336/43361839.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10941,6 +10937,86 @@
     "url": "https://www.nio.com/news/20261101001",
     "reasons": [
       "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
+    "title": "比亚迪10月销量49.02万辆 今年1-10月累计销量362.17万辆",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5190/51905616.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "长安启源10月全球销量63648辆 启源Q06上市首月销量破万",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5190/51905611.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "限时售25.38万元 电动MINI JCW高能玩家限定系列上市",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5190/51905610.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "深蓝汽车10月全球销量32602辆 多款车型推5年0息金融权益",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5190/51905598.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "昊铂埃安10月销量42357辆 同比增长56.79% Ray7将11月12日上市",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5190/51905609.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "MG品牌10月全球新能源销量超8.5万辆 国内新能源销量超3.1万辆",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5190/51905597.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "极氪10月交付32483辆 1-10月交付超32万辆 同比增长94.4%",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5190/51905594.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "理想汽车10月交付29025辆 新一代理想MEGA交付超3000辆",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5190/51905593.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "IT早报 1102：2026 年 10 月汽车销量榜出炉；问界将全面进入欧洲市场；首付 7.99 万元起小米推限时 0 息购车权益；2027 年度春节假期可连休 9 天...",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/020/850.htm",
+    "reasons": [
+      "频道问候或无具体车型事件的周期汇总"
     ]
   },
   {
