@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-02T06:11:32.174Z",
+  "collectedAt": "2026-11-02T07:47:40.200Z",
   "targetDates": [
     "2026-11-01",
     "2026-11-02"
@@ -2608,7 +2608,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-31 2026-11-01",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-01 2026-11-02",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-31 2026-11-01",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-01 2026-11-02",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2628,7 +2628,7 @@
       "title": "新浪汽车 - 汽车生活源动力！",
       "url": "https://auto.sina.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-31 2026-11-01",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-01 2026-11-02",
       "verificationStatus": "media-discovery"
     },
     {
@@ -14511,7 +14511,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "7从燃油到纯电，捷达的“可靠”还能不能打？109.47w",
+      "title": "6从燃油到纯电，捷达的“可靠”还能不能打？115.69w",
       "url": "https://auto.news18a.com/news/storys_307483.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -20191,7 +20191,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "比亚迪秦PLUS DM-i三代上市",
+      "title": "比亚迪第三代秦PLUS DM-i上市",
       "url": "https://www.sohu.com/a/1093350435_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -20201,7 +20201,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "吉利缤越超能版正式上市",
+      "title": "吉利缤越超能版上市",
       "url": "https://www.sohu.com/a/1093350054_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -22002,7 +22002,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "理想i6新款上市 续航780km",
+      "title": "2026款理想i6正式上市",
       "url": "https://www.sohu.com/a/1093982535_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -24770,7 +24770,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "5阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达119.75w",
+      "title": "3阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达136.39w",
       "url": "https://auto.news18a.com/news/storys_309399.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25741,7 +25741,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时补贴价10.99万起 2027款东风奕派007正式上市",
+      "title": "东风奕派007新款上市",
       "url": "https://www.sohu.com/a/1094985318_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25761,7 +25761,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新福特锐界L宽窄巷子上市 1200km级续航全家安心出游",
+      "title": "新福特锐界L成都上市",
       "url": "https://www.sohu.com/a/1095068095_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -27251,7 +27251,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "大众技术日VEGA矩阵发布 中国创新赋能全球",
+      "title": "大众VEGA技术矩阵发布",
       "url": "https://www.sohu.com/a/1095616275_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -29236,6 +29236,269 @@
       "discoveryPublishedAt": "2026-11-02",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "2027款领克新车曝光 将于11月5日上市",
+      "url": "https://www.sohu.com/a/1095813224_190872",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "三种动力 27款丰田亚洲龙将上市",
+      "url": "https://www.sohu.com/a/1095808920_120061554",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "吉利远程2026年10月销量21476辆",
+      "url": "https://www.sohu.com/a/1096078802_120774496",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "10月车企销量:比亚迪累计销量反超上汽",
+      "url": "https://www.sohu.com/a/1096078096_430289",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】问界汽车发布问界M9 Ultimate领世加长版用户画像数据",
+      "url": "https://auto.ifeng.com/c/8xj3iqbyEWP",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】青岛市商务局发布2026年11月汽车以旧换新补贴配额公告，配额为2.5亿元",
+      "url": "https://auto.ifeng.com/c/8xj16DTSDa0",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】爱沙尼亚塔林一辆Starship送货无人车闯红灯致公交车急刹9人受伤",
+      "url": "https://auto.ifeng.com/c/8xj1BhDbIwD",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】大众安徽10月交付新车1597台 公布11月订购权益价格",
+      "url": "https://auto.ifeng.com/c/8xj1BhDbIwA",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】曾毓群在2026世界顶尖科学家论坛称AI已筛选千种化合物锁定7种潜力材料",
+      "url": "https://auto.ifeng.com/c/8xj1BhDbIwB",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "理想汽车回应常州停车场视频传闻：待处置展车试驾车为几百台，场地共3900个停车位",
+      "url": "https://auto.news18a.com/news/storys_310222.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "东风柳汽公布“十五五”海外规划：目标累计销量100万台、新建15家工厂",
+      "url": "https://www.news18a.com/news/storys_310223.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "问界汽车发布问界M9 Ultimate领世加长版用户画像数据",
+      "url": "https://www.news18a.com/news/storys_310221.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "青岛市商务局发布2026年11月汽车以旧换新补贴配额公告，配额为2.5亿元",
+      "url": "https://www.news18a.com/news/storys_310220.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "爱沙尼亚塔林一辆Starship送货无人车闯红灯致公交车急刹9人受伤",
+      "url": "https://www.news18a.com/news/storys_310219.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众安徽10月交付新车1597台 公布11月订购权益价格",
+      "url": "https://auto.news18a.com/news/storys_310218.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "曾毓群在2026世界顶尖科学家论坛称AI已筛选千种化合物锁定7种潜力材料",
+      "url": "https://www.news18a.com/news/storys_310217.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "郎柯科技智能物流车总部项目在无锡签约落地",
+      "url": "https://www.news18a.com/news/storys_310216.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026款奔驰E 300 L改款轿车上市，起售价下调1.6万元",
+      "url": "https://www.news18a.com/news/storys_310214.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年9月自主品牌乘用车销量榜发布：比亚迪以391,357辆位列第一",
+      "url": "https://www.news18a.com/news/storys_310215.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "多家国内汽车企业近期赴北京与相关部门协商混动汽车出口欧盟配额",
+      "url": "https://auto.news18a.com/news/storys_310213.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "享界汽车10月销量6174辆 MPV车型V8预售价32.98万元起",
+      "url": "https://www.news18a.com/news/storys_310207.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "单月销量26325台、同比增长12.56%，极狐10月销量跃上新台阶",
+      "url": "https://auto.news18a.com/news/storys_310205.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "格陆博科技完成超6亿元C++轮融资并启动D轮融资",
+      "url": "https://www.news18a.com/news/storys_310201.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "极星 Polestar 2 停产，继任车型明年推出",
+      "url": "https://www.ithome.com/1/021/055.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行问界 M9 Ultimate 领世加长版车主画像官方揭秘，近 7 成家庭税后年收入超百万",
+      "url": "https://www.ithome.com/1/021/040.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "青岛发布 2026 年 11 月汽车以旧换新补贴公告：配额 2.5 亿元先到先得",
+      "url": "https://www.ithome.com/1/021/033.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -29259,9 +29522,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 1,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 1 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -29275,17 +29538,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 19,
+      "candidateCount": 13,
       "status": "ok",
-      "publicLabel": "列表已读 19 条待核验线索"
+      "publicLabel": "列表已读 13 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 4,
+      "candidateCount": 5,
       "status": "ok",
-      "publicLabel": "列表已读 4 条待核验线索"
+      "publicLabel": "列表已读 5 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -29322,18 +29585,18 @@
     {
       "sourceId": "pcauto-news",
       "url": "https://www.pcauto.com.cn/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 1,
+      "listRead": false,
+      "publicLabel": "公开检索发现 1 条待核验线索"
     },
     {
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 12,
+      "candidateCount": 21,
       "status": "ok",
-      "publicLabel": "列表已读 12 条待核验线索"
+      "publicLabel": "列表已读 21 条待核验线索"
     },
     {
       "sourceId": "netease-auto",

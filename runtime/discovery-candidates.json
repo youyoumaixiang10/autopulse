@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-02T06:11:26.121Z",
+  "collectedAt": "2026-11-02T07:47:33.249Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4839,6 +4839,16 @@
         "深蓝"
       ],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "长安汽车10月销量23.38万辆 海外销量10.24万台",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318113.html",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -4857,7 +4867,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-02T06:11:14.368Z",
+      "collectedAt": "2026-11-02T07:47:21.264Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 60,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
