@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-02T07:47:40.200Z",
+  "collectedAt": "2026-11-02T09:37:29.674Z",
   "targetDates": [
     "2026-11-01",
     "2026-11-02"
@@ -14511,7 +14511,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "6从燃油到纯电，捷达的“可靠”还能不能打？115.69w",
+      "title": "4从燃油到纯电，捷达的“可靠”还能不能打？131.2w",
       "url": "https://auto.news18a.com/news/storys_307483.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -24770,7 +24770,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "3阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达136.39w",
+      "title": "10阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达104.68w",
       "url": "https://auto.news18a.com/news/storys_309399.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -29499,6 +29499,250 @@
       "discoveryPublishedAt": "2026-11-02",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】2026年1-9月全球汽车销量7252万台 中国占32.1%份额",
+      "url": "https://auto.ifeng.com/c/8xjAiMU5fby",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】浩思动力巴西库里蒂巴发动机气缸盖铸造厂开业投产",
+      "url": "https://auto.ifeng.com/c/8xjCdP03SVm",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】捷达汽车科技公司“全价值链柔性协同的整车智能工厂”项目获评工信部2026年度卓越级智能工厂",
+      "url": "https://auto.ifeng.com/c/8xj9kxk3IOw",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】2026年1-8月中国乘用车出口数据发布：奇瑞欧洲出口369,798辆，吉利东南亚出口130,562",
+      "url": "https://auto.ifeng.com/c/8xjCkdEf2Fc",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】中国汽车流通协会发布2026年10月保值率报告：小米YU7一年车龄保值率82.3%居首，特斯拉三款车",
+      "url": "https://auto.ifeng.com/c/8xjA0OQUpga",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "浩思动力巴西库里蒂巴发动机气缸盖铸造厂开业投产",
+      "url": "https://auto.news18a.com/news/storys_310270.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年1-9月全球汽车销量7252万台 中国占32.1%份额",
+      "url": "https://www.news18a.com/news/storys_310261.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "捷达汽车科技公司“全价值链柔性协同的整车智能工厂”项目获评工信部2026年度卓越级智能工厂",
+      "url": "https://www.news18a.com/news/storys_310258.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年1-8月中国乘用车出口数据发布：奇瑞欧洲出口369,798辆，吉利东南亚出口130,562辆",
+      "url": "https://www.news18a.com/news/storys_310268.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中国汽车流通协会发布2026年10月保值率报告：小米YU7一年车龄保值率82.3%居首，特斯拉三款车型占据三年车龄榜单前三",
+      "url": "https://www.news18a.com/news/storys_310233.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "星宇股份2026年第三季度归母净利润同比下降39.62%，此前解约107名应届生",
+      "url": "https://auto.news18a.com/news/storys_310234.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "雷军11月2日在青岛驾驶小米澎程N70，该车型售价20.99万元起",
+      "url": "https://www.news18a.com/news/storys_310232.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞捷豹路虎神行者8自9月19日开启交付至10月31日累计交付1680台",
+      "url": "https://www.news18a.com/news/storys_310231.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "兰博基尼发布2026财年前三季度财报，营收25.3亿欧元",
+      "url": "https://www.news18a.com/news/storys_310227.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏汽车公布MONA L05续航实测结果：实际行驶566.1km",
+      "url": "https://www.news18a.com/news/storys_310226.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "汽车产业出海模式创新发展大会11月1日在海南澄迈举行",
+      "url": "https://auto.news18a.com/news/storys_310230.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "极星Polestar 2正式停产，六年间全球累计销量超19万辆",
+      "url": "https://www.news18a.com/news/storys_310225.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞飞鱼智能行驶单元于10月20日首次公开亮相",
+      "url": "https://www.news18a.com/news/storys_310224.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "泰国投资促进委员会介绍当地汽车产销数据及中国车企布局情况",
+      "url": "https://www.news18a.com/news/storys_310229.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "杨云桐在汽车产业出海模式创新发展大会上介绍“前店—中脑—后厂”出海模式",
+      "url": "https://www.news18a.com/news/storys_310228.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "三星计划 2030 年底前关闭 8 英寸晶圆代工所有产线",
+      "url": "https://www.ithome.com/1/021/101.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "理想高管辟谣常州停车场有上万台 0 公里二手车：实为撤展车、试驾车，仓库总规模仅 3900 个车位",
+      "url": "https://www.ithome.com/1/021/083.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞捷豹路虎神行者 8 全国累计交付 1680 台：搭载华为乾崑智驾 ADS 5，28.99 万元起",
+      "url": "https://www.ithome.com/1/021/076.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "兰博基尼 2026 财年前三季度营收 25.3 亿欧元，同比增长约 5%",
+      "url": "https://www.ithome.com/1/021/056.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -29522,9 +29766,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 1,
+      "candidateCount": 0,
       "listRead": false,
-      "publicLabel": "公开检索发现 1 条待核验线索"
+      "publicLabel": "直连列表与公开检索均未匹配"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -29538,9 +29782,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 13,
+      "candidateCount": 5,
       "status": "ok",
-      "publicLabel": "列表已读 13 条待核验线索"
+      "publicLabel": "列表已读 5 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -29585,10 +29829,10 @@
     {
       "sourceId": "pcauto-news",
       "url": "https://www.pcauto.com.cn/",
-      "status": "partial",
-      "candidateCount": 1,
-      "listRead": false,
-      "publicLabel": "公开检索发现 1 条待核验线索"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     },
     {
       "sourceId": "sohu-auto",
@@ -29602,9 +29846,9 @@
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 17,
+      "candidateCount": 16,
       "status": "ok",
-      "publicLabel": "列表已读 17 条待核验线索"
+      "publicLabel": "列表已读 16 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
