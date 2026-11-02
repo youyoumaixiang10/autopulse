@@ -2719,25 +2719,6 @@
     "observation": "谍照或申报不是正式上市，未公布的价格与日期保持待定。"
   },
   {
-    "id": "launch-c59fde7ff6705ceb",
-    "month": "2026-10",
-    "dateText": "待定",
-    "windowText": "即将登场（具体日期待官宣）",
-    "brand": "智己",
-    "model": "智己 LS8",
-    "kind": "官宣",
-    "powertrain": "纯电",
-    "priceText": "24.98万元",
-    "status": "confirmed",
-    "statusLabel": "已官宣",
-    "sourceName": "IT之家",
-    "sourceUrl": "https://www.ithome.com/1/019/760.htm",
-    "evidenceLabel": "媒体报道",
-    "publishedAt": "2026-10-29",
-    "detail": "IT之家 10 月 29 日消息，智己 LS8 NEO 纯电版现已开启预售，权益价 24.98 万元起。该车采用全域 800V 高压平台、全新 NEO 飓风电机和全新 IM ECU Master 能效大师管理系统 3.0，配备宁德时代电池。 IT之家附该车各版本预售价格如下： 93 Max+：24.98 万元",
-    "observation": "已官宣但未形成可追溯的正式上市日；未公布价格记为待公布。"
-  },
-  {
     "id": "launch-65e214e2b1d9438e",
     "month": "2026-10",
     "dateText": "待定",
@@ -3173,6 +3154,25 @@
     "observation": "谍照或申报不是正式上市，未公布的价格与日期保持待定。"
   },
   {
+    "id": "launch-6b564f4f91cc0eca",
+    "month": "2026-11",
+    "date": "2026-11-02",
+    "dateText": "11月2日",
+    "brand": "奔驰",
+    "model": "奔驰 E 300",
+    "kind": "年款上市",
+    "powertrain": "轿车",
+    "priceText": "42.38-50.98万元",
+    "status": "launched",
+    "statusLabel": "已上市",
+    "sourceName": "IT之家",
+    "sourceUrl": "https://www.ithome.com/1/020/944.htm",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-11-02",
+    "detail": "IT之家 11 月 2 日消息，2026 款奔驰 E 300 L 改款轿车今日正式上市，建议零售价格 42.38 万元至 50.98 万元，相比之前的版本起售价下调 1.6 万元。 E 300 L 晖银版建议零售价 42.38 万元 E 300 L 鎏金版建议零售价 46.68 万元",
+    "observation": "由日报新车事件自动写入；价格与上市日只取原文可追溯表述。"
+  },
+  {
     "id": "launch-bcf44f9bd322ba06",
     "month": "2026-11",
     "date": "2026-11-03",
@@ -3209,6 +3209,25 @@
     "publishedAt": "2026-10-23",
     "detail": "IT之家 10 月 23 日消息，据易车消息，全新 smart 精灵#2 将于 11 月 5 日正式上市。新车搭载 35.8kWh 宁德时代磷酸铁锂电芯，CLTC 工况实现最高 410km 纯电续航。 据IT之家此前报道，9 月 14 日，全新 smart 精灵 2 号早鸟计划已开启，下订金额 298 元。 工信部申报信息显示，该车长度 2751 mm/2764 mm，宽度 1669 mm，高度 1555 mm，轴距 1875 mm，整备质量 1130 kg，总质量 1315 kg，最高车速 140 km/h。 而全新 smart 精灵 2 号鎏金高定版小车已于 10 月 12 日正式上市，中国限量发售 999 台，官方零售价 112,999 元。",
     "observation": "由日报新车事件自动写入；价格与上市日只取原文可追溯表述。"
+  },
+  {
+    "id": "launch-2b094a883dceb20e",
+    "month": "2026-11",
+    "date": "2026-11-05",
+    "dateText": "11月5日",
+    "brand": "智己",
+    "model": "智己 LS8",
+    "kind": "官宣",
+    "powertrain": "纯电",
+    "priceText": "24.98万元起",
+    "status": "confirmed",
+    "statusLabel": "已官宣",
+    "sourceName": "IT之家",
+    "sourceUrl": "https://www.ithome.com/1/020/907.htm",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-11-02",
+    "detail": "IT之家 11 月 2 日消息，据易车消息，智己 LS8 NEO 纯电版将于 11 月 5 日正式上市。 据IT之家此前报道，智己 LS8 NEO 纯电版于 10 月 29 日开启预售，预售权益价 24.98 万元起： 93 Max+：24.98 万元",
+    "observation": "已官宣但未形成可追溯的正式上市日；未公布价格记为待公布。"
   },
   {
     "id": "launch-49b82a0ffa897494",
