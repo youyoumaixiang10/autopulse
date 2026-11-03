@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-03T08:00:59.549Z",
+  "collectedAt": "2026-11-03T09:40:12.835Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4978,6 +4978,18 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "新增哨兵模式定时、小窗CarPlay等多项功能 仰望U8推送OTA更新",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318138.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -4985,7 +4997,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 27
+      "count": 28
     },
     {
       "sourceId": "autohome-industry",
@@ -4996,7 +5008,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-03T08:00:47.815Z",
+      "collectedAt": "2026-11-03T09:40:00.877Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
