@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-03T00:15:00.850Z",
+  "collectedAt": "2026-11-03T06:53:14.162Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4861,6 +4861,123 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪全新汉有望广州车展首发 车长增加161mm 外观更具高级感",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318134.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "超60项升级 全新蔚来ES8/ES9/ET9即日起推送Cedar雪松1.6.0版",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318131.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "特斯拉又曝新技术？手机可调单独车轮悬架高度？新专利用途揭晓",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318126.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "现款租电方案售27.48万起 蔚来ES8特别版将于广州车展上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318125.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "探店比亚迪元UP",
+      "url": "https://www.dongchedi.com/video/7703752953098093081",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "启境GX7/理想L6/问界M6对比",
+      "url": "https://www.dongchedi.com/video/7703769113101369881",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行",
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "15万级长安启源Q06",
+      "url": "https://www.dongchedi.com/video/7703767451737342488",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "试驾比亚迪海豹08EV",
+      "url": "https://www.dongchedi.com/article/7703753529853018649",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -4868,7 +4985,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 28
+      "count": 27
     },
     {
       "sourceId": "autohome-industry",
@@ -4879,9 +4996,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-03T00:14:49.046Z",
+      "collectedAt": "2026-11-03T06:53:01.797Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 60,
+      "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
