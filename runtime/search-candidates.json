@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-11-02T09:37:29.674Z",
+  "collectedAt": "2026-11-03T00:15:09.751Z",
   "targetDates": [
-    "2026-11-01",
-    "2026-11-02"
+    "2026-11-02",
+    "2026-11-03"
   ],
   "candidates": [
     {
@@ -2608,7 +2608,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-01 2026-11-02",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-02 2026-11-03",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-01 2026-11-02",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-02 2026-11-03",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2628,7 +2628,7 @@
       "title": "新浪汽车 - 汽车生活源动力！",
       "url": "https://auto.sina.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-01 2026-11-02",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-02 2026-11-03",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2638,7 +2638,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/?lang=zh",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-31 2026-11-01",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-02 2026-11-03",
       "verificationStatus": "media-discovery"
     },
     {
@@ -8790,7 +8790,7 @@
       "title": "【汽车报价】汽车最新报价_汽车价格查询_太平洋汽车",
       "url": "https://price.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-10-31 2026-11-01",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-02 2026-11-03",
       "verificationStatus": "media-discovery"
     },
     {
@@ -14511,7 +14511,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "4从燃油到纯电，捷达的“可靠”还能不能打？131.2w",
+      "title": "4从燃油到纯电，捷达的“可靠”还能不能打？129.47w",
       "url": "https://auto.news18a.com/news/storys_307483.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -24770,7 +24770,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "10阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达104.68w",
+      "title": "3阿维塔07L Max上市 限时权益价21.59万起 搭载896线激光雷达130.3w",
       "url": "https://auto.news18a.com/news/storys_309399.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -29743,6 +29743,425 @@
       "discoveryPublishedAt": "2026-11-02",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "小鹏MONA L03 10月交付超20000台 售价12.38-15.68万元",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905703.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "全新问界M9累计交付突破5万台 Ultimate领世加长版成交均价超70万",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905700.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "智己LS8 NEO纯电将于11月5日上市 预售价24.98万起",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905699.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "方程豹10月销量43872辆 同比增长41.3% 钛7销量再破3万辆",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905683.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "红旗E-HS9、红旗EHS4右舵版首次登陆澳门车展",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905675.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第二代海豹07将于11月5日上市 搭载磁流变悬架",
+      "url": "https://www.pcauto.com.cn/nation/5190/51905671.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "东风汽车高层人事调整：吴碧磊任党委副书记、卢放任副总经理",
+      "url": "https://auto.ifeng.com/c/8xjNZjffavN",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "大众+小鹏，没换来“大鹏展翅”，直接变“小众”了",
+      "url": "https://auto.ifeng.com/c/8xkB5gAvNan",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】吉利星瑞L PLUS在北京区域上市 起售价10.97万元",
+      "url": "https://auto.ifeng.com/c/8xkC9kDUL0N",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】韩国警方调查80余名破解FSD功能的特斯拉车主",
+      "url": "https://auto.ifeng.com/c/8xkBsgZEt8E",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】汽车创新联盟敦促美国国会通过永久禁止中国汽车进口法案",
+      "url": "https://auto.ifeng.com/c/8xkC9kDUKrP",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】奇瑞风云A9增程版上市 售价11.99万-12.99万元",
+      "url": "https://auto.ifeng.com/c/8xkCWLcXUz0",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "韩国警方调查80余名破解FSD功能的特斯拉车主",
+      "url": "https://auto.news18a.com/news/storys_310627.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "汽车创新联盟敦促美国国会通过永久禁止中国汽车进口法案",
+      "url": "https://www.news18a.com/news/storys_310624.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞风云A9增程版上市 售价11.99万-12.99万元",
+      "url": "https://www.news18a.com/news/storys_310621.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "起亚汽车2026年10月全球销量达291,219辆 同比增长10.3%",
+      "url": "https://www.news18a.com/news/storys_310515.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年9月燃油及新能源乘用车车型销量数据发布",
+      "url": "https://www.news18a.com/news/storys_310511.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "捷途首款纯电SUV环游者实车亮相 全系标配67.2kWh电池CLTC续航550km",
+      "url": "https://auto.news18a.com/news/storys_310359.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "亿咖通科技与Arm签署合作备忘录 共同开发下一代高性能AI计算平台",
+      "url": "https://www.news18a.com/news/storys_310348.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "苏州固锝：今年1—9月车规级产品占半导体板块收入比例持续增加",
+      "url": "https://www.news18a.com/news/storys_310350.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽大众ID.ERA 5X将于11月12日上市",
+      "url": "https://www.news18a.com/news/storys_310338.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宾夕法尼亚大学开发名为“快速特征场”的通用计算工具",
+      "url": "https://www.news18a.com/news/storys_310344.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "韩国科学技术院研究团队提出无负极电池锂沉积新方法",
+      "url": "https://auto.news18a.com/news/storys_310337.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "LeTugrance宣布将展示多功能生物矿物夹层复合材料",
+      "url": "https://www.news18a.com/news/storys_310335.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "南洋理工大学团队研发出可接受人类纠正并持续学习的自动驾驶汽车",
+      "url": "https://www.news18a.com/news/storys_310334.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来江苏累计交付突破20万辆，前三季度终端销量增长69.6%",
+      "url": "https://www.news18a.com/news/storys_310317.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "通用汽车“可重构屏幕系统”专利申请于2026年10月22日公布",
+      "url": "https://www.news18a.com/news/storys_310328.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Stratasys将在Formnext展会发布F870 FDM系统",
+      "url": "https://auto.news18a.com/news/storys_310326.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "仰望U9X在国内封闭场地测试中发生超400km/h撞击事故后跑出457.89km/h极速纪录",
+      "url": "https://www.news18a.com/news/storys_310319.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马宣布计划2027年将L2辅助驾驶扩展至城市道路，将在德国率先推出",
+      "url": "https://www.news18a.com/news/storys_310314.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "恩智浦向经销商发函计划2027年1月1日起对部分产品线调价",
+      "url": "https://www.news18a.com/news/storys_310312.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中国汽车流通协会发布保值率报告 极氪9X位列双榜第一",
+      "url": "https://www.news18a.com/news/storys_310324.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "日本拟修订汽车安全认证标准，为 L4、L5 级自动驾驶车辆量产铺路",
+      "url": "https://www.ithome.com/1/021/304.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-03",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1103：奥尔特曼称个人电脑浪费内存遭全网声讨；苹果 2026 财年净利润 1321 亿美元；美团称外卖 15 元以下订单数量减半；世界机器人登泰山大赛收官...",
+      "url": "https://www.ithome.com/1/021/302.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-03",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "宝马高管：我们的纯电卖的好，反而有助于继续生产 V8 发动机",
+      "url": "https://www.ithome.com/1/021/301.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-03",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "起亚汽车 10 月全球总销量达到 29.12 万辆，同比增长 10.3%",
+      "url": "https://www.ithome.com/1/021/279.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "一体化电视全国推广部署推进会召开，加快落实终端适配",
+      "url": "https://www.ithome.com/1/021/276.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "现代汽车 10 月销量为 32.98 万辆同比减少 6.3%，连续 13 个月下降",
+      "url": "https://www.ithome.com/1/021/275.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽大众 ID.ERA 5X 将于 11 月 12 日上市，家族首款纯电 SUV",
+      "url": "https://www.ithome.com/1/021/261.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "宁德时代与蓝色向量达成合作，为 SKYLA V30 定制开发航空动力电池",
+      "url": "https://www.ithome.com/1/021/256.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "沃顿教授：转行技工难以抵御 AI 冲击，四类核心能力才是破局关键",
+      "url": "https://www.ithome.com/1/021/246.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-02",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -29766,9 +30185,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 2,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 2 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -29782,17 +30201,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 5,
+      "candidateCount": 9,
       "status": "ok",
-      "publicLabel": "列表已读 5 条待核验线索"
+      "publicLabel": "列表已读 9 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 5,
+      "candidateCount": 1,
       "status": "ok",
-      "publicLabel": "列表已读 5 条待核验线索"
+      "publicLabel": "列表已读 1 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",

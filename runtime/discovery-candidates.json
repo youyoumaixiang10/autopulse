@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-02T09:37:22.683Z",
+  "collectedAt": "2026-11-03T00:15:00.850Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -4849,6 +4849,18 @@
       "url": "https://www.autohome.com.cn/news/202611/1318113.html",
       "candidateBrands": [],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "扎堆上新！全新比亚迪唐/仰望鼎曜/方程豹钛9领衔 11月新车前瞻",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318121.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -4856,7 +4868,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 29
+      "count": 28
     },
     {
       "sourceId": "autohome-industry",
@@ -4867,7 +4879,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-02T09:37:10.929Z",
+      "collectedAt": "2026-11-03T00:14:49.046Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 60,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
