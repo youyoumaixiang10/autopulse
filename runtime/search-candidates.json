@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-11-03T09:40:26.614Z",
+  "collectedAt": "2026-11-04T00:17:23.217Z",
   "targetDates": [
-    "2026-11-02",
-    "2026-11-03"
+    "2026-11-03",
+    "2026-11-04"
   ],
   "candidates": [
     {
@@ -2608,7 +2608,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-02 2026-11-03",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-03 2026-11-04",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-02 2026-11-03",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-03 2026-11-04",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2638,7 +2638,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/?lang=zh",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-02 2026-11-03",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-03 2026-11-04",
       "verificationStatus": "media-discovery"
     },
     {
@@ -8790,7 +8790,7 @@
       "title": "【汽车报价】汽车最新报价_汽车价格查询_太平洋汽车",
       "url": "https://price.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-02 2026-11-03",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-03 2026-11-04",
       "verificationStatus": "media-discovery"
     },
     {
@@ -25771,7 +25771,7 @@
       "sourceId": "netease-auto",
       "sourceName": "网易汽车",
       "sourceType": "vertical-media",
-      "title": "问界新M8公布Max、Max+、Ultra三款配置，即日起开放选",
+      "title": "问界新M8公布Max、Max+、Ultra三款配置，即日起开放选择",
       "url": "https://www.163.com/auto/article/LAGQJDOH0008856R.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -27251,7 +27251,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "现场体验大众VEGA技术矩阵发布",
+      "title": "大众技术日VEGA矩阵发布 中国创新赋能全球",
       "url": "https://www.sohu.com/a/1095616275_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -31028,6 +31028,377 @@
       "discoveryPublishedAt": "2026-11-03",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "比油省钱比电抗冻 星耀6EF上市/限时7.68万元起",
+      "url": "https://www.pcauto.com.cn/nation/5190/51907821.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "限时售15.98万起 奕派M8天元激光版上市 800V平台/续航600km",
+      "url": "https://www.pcauto.com.cn/nation/5190/51907815.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "售23.59万起 比亚迪大汉上市19天热销4000辆 纯电续航1008km",
+      "url": "https://www.pcauto.com.cn/nation/5190/51907812.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "比亚迪全新汉有望广州车展首发 车长超5米1",
+      "url": "https://www.pcauto.com.cn/nation/5190/51907801.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "四门版糯玉米要来了！长安Lumin PLUS实车曝光",
+      "url": "https://www.pcauto.com.cn/nation/5190/51907797.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "极狐阿尔法T7百城万台交付收官 上市1小时大定锁单超3万台",
+      "url": "https://www.pcauto.com.cn/nation/5190/51907795.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "2027款领克08 EM-P将于11月5日上市 升级激光雷达",
+      "url": "https://www.pcauto.com.cn/nation/5190/51907791.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "售23.99万起 比亚迪大唐10月销量14000辆 连续4个月销量破万",
+      "url": "https://www.pcauto.com.cn/nation/5190/51907790.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "今年中国汽车出口有望突破1000万辆",
+      "url": "https://www.sohu.com/a/1096746506_115362",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "全球汽车产业迈入生态出海周期",
+      "url": "https://www.sohu.com/a/1096757692_122014422",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "德国汽车零部件厂商舍弗勒裁员并发力国防",
+      "url": "https://www.sohu.com/a/1096746121_122014422",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "荣威家越X7混动版完成新车申报",
+      "url": "https://www.sohu.com/a/1096799627_121423427",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "长城汽车10月销量下滑！欧拉继续暴涨",
+      "url": "https://www.sohu.com/a/1096762420_122014422",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "特斯拉欧洲辅助驾驶更名收紧限速余量",
+      "url": "https://www.sohu.com/a/1096812796_121423427",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "车企销量集中放量验证终端需求景气",
+      "url": "https://www.sohu.com/a/1096665519_114984",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "限时7.68万起/可醇可电可油 吉利银河星耀6 EF正式上市",
+      "url": "https://www.sohu.com/a/1096167812_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "补贴价15.98万起/搭自研天元智驾方案 奕派M8天元激光版上市",
+      "url": "https://www.sohu.com/a/1096720334_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "可油可甲醇/每公里成本2毛 银河星耀6EF焕新价7.68万起",
+      "url": "https://www.163.com/auto/article/LARFPDVI0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "天元智能+宁德纯电 奕派M8天元激光版上市限时15.98万",
+      "url": "https://www.163.com/auto/article/LAR575TP0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "东风奕派M8天元激光版上市，限时补贴价15.98万起",
+      "url": "https://auto.ifeng.com/c/8xl88vMdoZw",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪仰望品牌海外首秀定档11月6日，轿车鼎曜同步亮相",
+      "url": "https://auto.ifeng.com/c/8xlqJgflXQK",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】富赛获2026第八届金辑奖·中国汽车新供应链百强奖",
+      "url": "https://auto.ifeng.com/c/8xlr7RneKdN",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】斯泰兰蒂斯汽车金融诉潘某融资租赁合同纠纷案2026年11月4日开庭",
+      "url": "https://auto.ifeng.com/c/8xldynriZAR",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】工信部第413批新车公示：荣威家越X7 HEV完成申报",
+      "url": "https://auto.ifeng.com/c/8xlLhrncI5N",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】上海嘉定区市场监管局对上海上汽大众汽车销售有限公司立案调查",
+      "url": "https://auto.ifeng.com/c/8xlG0pNev7v",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1104：iOS 27.3 测试版携国行 Apple 智能如约而至；中兴辟谣 400 亿卖手机业务；全球首款甲醇电混家轿吉利银河星耀 6EF 上市；全国放心消费平台上线...",
+      "url": "https://www.ithome.com/1/021/893.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪仰望品牌海外首秀定档 11 月 6 日，超豪华行政旗舰轿车鼎曜同步亮相",
+      "url": "https://www.ithome.com/1/021/890.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "荣威家越 X7 HEV 新车申报：1.5T 油电混动大五座中型 SUV",
+      "url": "https://www.ithome.com/1/021/856.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "荣威家越 06 新车申报：纯电 / 插混动力 SUV，可选锰基锂电池版本",
+      "url": "https://www.ithome.com/1/021/855.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-03",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长安林肯飞行家 AVIATOR EX8 新车申报：搭载 1.5T 插混动力，磷酸铁锂电池",
+      "url": "https://www.ithome.com/1/021/854.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-03",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "广汽埃安 AION V 纯电 SUV 新车申报：自带“鼻孔”，165kW + 磷酸铁锂电池",
+      "url": "https://www.ithome.com/1/021/853.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-03",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "别克 ELECTRA GS 新车申报：溜背轿跑造型，1.5T 插混动力",
+      "url": "https://www.ithome.com/1/021/852.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-03",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华晨宝马 330L 新车申报，搭载 B48B20N 2.0T 涡轮增压发动机",
+      "url": "https://www.ithome.com/1/021/851.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-03",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "新款极氪 001 轿车申报：370kW 单电机后驱，搭载磷酸铁锂电池",
+      "url": "https://www.ithome.com/1/021/849.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-03",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽奥迪被市监局立案调查，此前发布“AUDI 全系买一赠一”营销文案陷争议",
+      "url": "https://www.ithome.com/1/021/838.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-03",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米汽车官宣明日将继续启程前往德国纽博格林北环",
+      "url": "https://www.ithome.com/1/021/834.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-03",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -31051,9 +31422,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 2,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 2 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -31067,9 +31438,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 9,
+      "candidateCount": 11,
       "status": "ok",
-      "publicLabel": "列表已读 9 条待核验线索"
+      "publicLabel": "列表已读 11 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -31123,26 +31494,26 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 22,
+      "candidateCount": 11,
       "status": "ok",
-      "publicLabel": "列表已读 22 条待核验线索"
+      "publicLabel": "列表已读 11 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
+      "listRead": true,
+      "candidateCount": 17,
+      "status": "ok",
+      "publicLabel": "列表已读 17 条待核验线索"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://auto.news18a.com/",
       "status": "partial",
       "candidateCount": 0,
       "listRead": false,
       "publicLabel": "直连列表暂不可读，将回退公开检索",
       "error": "fetch failed"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
