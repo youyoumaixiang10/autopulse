@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-04T06:29:49.552Z",
+  "collectedAt": "2026-11-04T07:36:54.105Z",
   "targetDates": [
     "2026-11-03",
     "2026-11-04"
@@ -31862,6 +31862,211 @@
       "discoveryPublishedAt": "2026-11-04",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "比亚迪全新汉申报 车长增 161mm",
+      "url": "https://auto.ifeng.com/c/8xmLokiObou",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】安波福公布2026年第三季度财报：营收32亿美元，汽车业务同比下降1%",
+      "url": "https://auto.ifeng.com/c/8xmMfPa3VhD",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "林肯飞行家EX8申报图曝光 搭1.5T插混系统 采用5座布局",
+      "url": "https://auto.ifeng.com/c/8xmKdaZdH5K",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "全新宝马3系长轴距版申报图曝光 搭载2.0T发动机 预计2027年上市",
+      "url": "https://auto.ifeng.com/c/8xmKvy4bNJe",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "腾势N9纯电版申报图曝光 三电机综合功率890千瓦",
+      "url": "https://auto.ifeng.com/c/8xmKmdOSiT5",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉公布Cybercab拆解细节及生产线数据",
+      "url": "https://auto.news18a.com/news/storys_311004.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "安波福公布2026年第三季度财报：营收32亿美元，汽车业务同比下降1%",
+      "url": "https://www.news18a.com/news/storys_311006.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "丰田汽车预计2026年第三季度营业利润同比增长18%",
+      "url": "https://www.news18a.com/news/storys_310994.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "领克汽车宣布吴艳妮成为领克07GT车型挚友并公开帕尔马紫高定版车色",
+      "url": "https://www.news18a.com/news/storys_310992.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉10月中国产电动车交付量同比增长10.3%",
+      "url": "https://auto.news18a.com/news/storys_310989.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉11月4日推送软件更新：欧洲市场FSD更名为辅助驾驶，超速余量上限下调至10%",
+      "url": "https://www.news18a.com/news/storys_310976.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "腾势N9纯电版出现在工信部申报信息中",
+      "url": "https://auto.news18a.com/news/storys_310964.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "法拉利11月3日上调2026年业绩预期，第三季度交付3368辆汽车",
+      "url": "https://www.news18a.com/news/storys_310958.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏汽车公布MONA L05超级增程版超8000公里实测数据",
+      "url": "https://auto.news18a.com/news/storys_310954.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "极氪推进方盒子硬派越野SUV项目 预计2028至2029年量产",
+      "url": "https://www.news18a.com/news/storys_310946.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "中汽协会：2026 年 9 月我国汽车整车进口 2.1 万辆，同比下降 48.7%",
+      "url": "https://www.ithome.com/1/022/178.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "荷兰 RDW 批准特斯拉欧洲 FSD 调整：更名 TAD，超速偏移上限降至 10%",
+      "url": "https://www.ithome.com/1/022/165.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉 Cybercab 深度拆解：模块化可维修电池、全新逆变器",
+      "url": "https://www.ithome.com/1/022/149.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "苹果 iOS 27.3 开发者预览版 Beta 新增“迫近威胁警报”选项，铺路接入自然灾害政府预警",
+      "url": "https://www.ithome.com/1/022/143.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克：特斯拉下一次财报电话会议将改为视频形式",
+      "url": "https://www.ithome.com/1/022/133.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -31901,9 +32106,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 12,
+      "candidateCount": 14,
       "status": "ok",
-      "publicLabel": "列表已读 12 条待核验线索"
+      "publicLabel": "列表已读 14 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",

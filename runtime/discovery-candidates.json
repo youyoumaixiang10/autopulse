@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-04T06:29:42.547Z",
+  "collectedAt": "2026-11-04T07:36:46.381Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5070,6 +5070,54 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "置换至高享50000元补贴 岚图汽车推11月购车政策",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318157.html",
+      "candidateBrands": [
+        "岚图"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "日均换电单量突破11万次/全国4236座换电站 蔚来换电突破1.3亿次",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318155.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "新款极氪001申报图 可选装运动套件 2027年第一季度上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318153.html",
+      "candidateBrands": [
+        "极氪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "搭易三方控制平台/定位大型SUV 腾势N9纯电版申报图曝光",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318151.html",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -5077,7 +5125,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 0
+      "count": 25
     },
     {
       "sourceId": "autohome-industry",
@@ -5088,7 +5136,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-04T06:29:06.105Z",
+      "collectedAt": "2026-11-04T07:36:34.539Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
