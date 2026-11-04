@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-04T00:17:23.217Z",
+  "collectedAt": "2026-11-04T06:29:49.552Z",
   "targetDates": [
     "2026-11-03",
     "2026-11-04"
@@ -31399,6 +31399,469 @@
       "discoveryPublishedAt": "2026-11-03",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "大众汽车集团（中国）携七款重磅车型及最新技术成果亮相进博会",
+      "url": "https://auto.sina.com.cn/news/hy/2026-11-04/detail-inixqaaw6165511.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "“境界”表现截然不同!鸿蒙智行被“抄”后路?",
+      "url": "https://www.sohu.com/a/1096730225_598586",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "汽车芯片价格三连涨!车企再被供应链卡脖子",
+      "url": "https://www.sohu.com/a/1096708963_742622",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "林肯飞行家EX8/新一代宝马3系 多款新车申报图曝光",
+      "url": "https://www.163.com/auto/article/LASV0P2R0008856S.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】二一二212 X03插电混动版完成工信部第413批新产品公示申报",
+      "url": "https://auto.ifeng.com/c/8xmGWARguBu",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉10月中国产电动车交付量同比增长10.3%",
+      "url": "https://auto.ifeng.com/c/8xmHooib5XP",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】广发证券维持奇瑞汽车“买入”评级，对应合理价值32.06港元",
+      "url": "https://auto.ifeng.com/c/8xmGgCSUs7V",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪称网传“天神之眼C停产”等消息不实",
+      "url": "https://auto.ifeng.com/c/8xmGWARguBt",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉11月4日推送软件更新：欧洲市场FSD更名为辅助驾驶，超速余量上限下调至10%",
+      "url": "https://auto.ifeng.com/c/8xmCLFIqOmY",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "领克汽车宣布吴艳妮成为领克07GT车型挚友并公开帕尔马紫高定版车色",
+      "url": "https://auto.news18a.com/news/storys_310992.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "二一二212 X03插电混动版完成工信部第413批新产品公示申报",
+      "url": "https://www.news18a.com/news/storys_310986.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉10月中国产电动车交付量同比增长10.3%",
+      "url": "https://www.news18a.com/news/storys_310989.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪称网传“天神之眼C停产”等消息不实",
+      "url": "https://www.news18a.com/news/storys_310979.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "广发证券维持奇瑞汽车“买入”评级，对应合理价值32.06港元",
+      "url": "https://www.news18a.com/news/storys_310981.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉11月4日推送软件更新：欧洲市场FSD更名为辅助驾驶，超速余量上限下调至10%",
+      "url": "https://auto.news18a.com/news/storys_310976.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "启境GX7上市并预置L3级自动驾驶架构",
+      "url": "https://www.news18a.com/news/storys_310968.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "腾势N9纯电版出现在工信部申报信息中",
+      "url": "https://www.news18a.com/news/storys_310964.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "东风汽车与Stellantis集团领导团队在武汉举行座谈",
+      "url": "https://www.news18a.com/news/storys_310971.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "韩国消费者团体拟向公平交易委员会投诉特斯拉销售FSD",
+      "url": "https://www.news18a.com/news/storys_310962.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "法拉利11月3日上调2026年业绩预期，第三季度交付3368辆汽车",
+      "url": "https://auto.news18a.com/news/storys_310958.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "富士康发布三款整车参考车型并拟收购三菱电机移动公司50%股权",
+      "url": "https://www.news18a.com/news/storys_310966.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏汽车公布MONA L05超级增程版超8000公里实测数据",
+      "url": "https://www.news18a.com/news/storys_310954.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "博主曝光全新蔚来ET5T路试谍照 新车基于NT3.0平台打造",
+      "url": "https://www.news18a.com/news/storys_310955.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "博世宣布计划于2028年1月1日设立半导体事业部",
+      "url": "https://www.news18a.com/news/storys_310951.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "极氪推进方盒子硬派越野SUV项目 预计2028至2029年量产",
+      "url": "https://auto.news18a.com/news/storys_310946.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪宣布11月27日广州车展将推出一款新车型",
+      "url": "https://www.news18a.com/news/storys_310937.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞iCAR V25方盒子SUV定档11月19日上市",
+      "url": "https://www.news18a.com/news/storys_310933.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "汽车创新联盟支持特朗普政府放宽车辆油耗标准 反对加州等州诉讼",
+      "url": "https://www.news18a.com/news/storys_310926.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "工信部第413批公告公示宝马第八代3系长轴版申报信息",
+      "url": "https://www.news18a.com/news/storys_310918.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "尊界要还V800清白，一招就灵",
+      "url": "https://auto.news18a.com/news/storys_310988.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利银河星耀6 EF上市",
+      "url": "https://auto.news18a.com/news/storys_310834.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2027 款标致 408 11 月 6 日上市",
+      "url": "https://auto.news18a.com/news/storys_310718.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "MONA L05 正式上市",
+      "url": "https://auto.news18a.com/news/storys_309395.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "CrowdStrike 造出“终止开关”，宣称能立即阻止失控 AI 智能体",
+      "url": "https://www.ithome.com/1/022/112.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "六个季度以来首次：丰田汽车今年 Q3 营业利润有望恢复增长",
+      "url": "https://www.ithome.com/1/022/048.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "领克汽车宣布与运动员吴艳妮合作，领克 07GT 帕尔马紫调高定版即将上市",
+      "url": "https://www.ithome.com/1/022/047.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "212 X03 插混版申报：独特方盒子硬派越野外观，还有外挂备胎、激光雷达",
+      "url": "https://www.ithome.com/1/022/043.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪：网传“天神之眼 C 停产”等消息不实",
+      "url": "https://www.ithome.com/1/022/033.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "北汽集团 10 月整车销量超 14.8 万辆，环比增长 11%",
+      "url": "https://www.ithome.com/1/022/028.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪腾势 N9 纯电版申报：搭载三电机四驱系统",
+      "url": "https://www.ithome.com/1/022/023.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "法拉利 Q3 业绩超预期后上调 2026 全年预期，首款纯电车型 Luce 需求强劲",
+      "url": "https://www.ithome.com/1/022/012.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "明知车辆用不了 FSD 却仍然推销，特斯拉在韩国遭消费者组织投诉",
+      "url": "https://www.ithome.com/1/022/009.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称极氪计划推出硬派越野 SUV：对标奔驰大 G，预计 2028-2029 年量产",
+      "url": "https://www.ithome.com/1/021/961.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪新车型确认 11 月 27 日广州车展首发，预计为全新一代比亚迪汉",
+      "url": "https://www.ithome.com/1/021/955.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "预订价格 13.98 万-17.58 万元，奇瑞 iCAR V25 方盒子 SUV 上市定档 11 月 19 日",
+      "url": "https://www.ithome.com/1/021/949.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -31406,9 +31869,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 15,
+      "candidateCount": 16,
       "status": "ok",
-      "publicLabel": "列表已读 15 条待核验线索"
+      "publicLabel": "列表已读 16 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -31422,9 +31885,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 2,
+      "candidateCount": 0,
       "listRead": false,
-      "publicLabel": "公开检索发现 2 条待核验线索"
+      "publicLabel": "直连列表与公开检索均未匹配"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -31438,9 +31901,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 11,
+      "candidateCount": 12,
       "status": "ok",
-      "publicLabel": "列表已读 11 条待核验线索"
+      "publicLabel": "列表已读 12 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -31494,26 +31957,25 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 11,
+      "candidateCount": 13,
       "status": "ok",
-      "publicLabel": "列表已读 11 条待核验线索"
+      "publicLabel": "列表已读 13 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 17,
+      "candidateCount": 18,
       "status": "ok",
-      "publicLabel": "列表已读 17 条待核验线索"
+      "publicLabel": "列表已读 18 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
