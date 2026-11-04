@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-04T07:36:54.105Z",
+  "collectedAt": "2026-11-04T09:25:57.449Z",
   "targetDates": [
     "2026-11-03",
     "2026-11-04"
@@ -20191,7 +20191,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "比亚迪第三代秦PLUS DM-i上市",
+      "title": "比亚迪秦PLUS DM-i空间续航升级",
       "url": "https://www.sohu.com/a/1093350435_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -22002,7 +22002,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "2026款理想i6正式上市",
+      "title": "理想i6正式上市 续航780km",
       "url": "https://www.sohu.com/a/1093982535_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25761,7 +25761,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新福特锐界L成都上市",
+      "title": "新福特锐界L上市 续航1200km",
       "url": "https://www.sohu.com/a/1095068095_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -27251,7 +27251,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "大众技术日VEGA矩阵发布 中国创新赋能全球",
+      "title": "现场体验大众VEGA技术矩阵发布",
       "url": "https://www.sohu.com/a/1095616275_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -31183,7 +31183,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时7.68万起/可醇可电可油 吉利银河星耀6 EF正式上市",
+      "title": "吉利银河星耀6 EF 限时7.68万起",
       "url": "https://www.sohu.com/a/1096167812_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -31193,7 +31193,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "补贴价15.98万起/搭自研天元智驾方案 奕派M8天元激光版上市",
+      "title": "奕派M8天元激光版上市",
       "url": "https://www.sohu.com/a/1096720334_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -31415,7 +31415,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "“境界”表现截然不同!鸿蒙智行被“抄”后路?",
+      "title": "鸿蒙智行被\"抄\"后路?",
       "url": "https://www.sohu.com/a/1096730225_598586",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -31425,7 +31425,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "汽车芯片价格三连涨!车企再被供应链卡脖子",
+      "title": "汽车芯片价格三连涨!",
       "url": "https://www.sohu.com/a/1096708963_742622",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -32067,6 +32067,272 @@
       "discoveryPublishedAt": "2026-11-04",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "荣威家越X7 HEV新车申报",
+      "url": "https://www.sohu.com/a/1096779242_114760",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "比亚迪全新汉带激光雷达亮相",
+      "url": "https://www.sohu.com/a/1096703348_117381",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "10月国内汽车保值率出炉",
+      "url": "https://www.sohu.com/a/1096730691_119627",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】沃尔沃汽车2026年8至10月全球销量141,656辆，同比下降16%",
+      "url": "https://auto.ifeng.com/c/8xmTtz6q7YZ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】乘联分会发布10月乘用车市场初步统计数据：零售169.3万辆，新能源渗透率67.8%",
+      "url": "https://auto.ifeng.com/c/8xmU6lreRSN",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "亏电才算真本事：ID.ERA 8X能耗实测",
+      "url": "https://auto.ifeng.com/c/8xmUm9uahBM",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】OpenAI宣布与马自达合作，将GPT-6Astra用于汽车设计与仿真评估",
+      "url": "https://auto.ifeng.com/c/8xmTinJDq61",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】鸿蒙智行宣布星夜服务升级，预约维保支持20公里内免费上门取送车",
+      "url": "https://auto.ifeng.com/c/8xmU6lreRSO",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "沃尔沃汽车2026年8至10月全球销量141,656辆，同比下降16%",
+      "url": "https://auto.news18a.com/news/storys_311127.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "乘联分会发布10月乘用车市场初步统计数据：零售169.3万辆，新能源渗透率67.8%",
+      "url": "https://www.news18a.com/news/storys_311126.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行宣布星夜服务升级，预约维保支持20公里内免费上门取送车",
+      "url": "https://www.news18a.com/news/storys_311088.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "OpenAI宣布与马自达合作，将GPT-6Astra用于汽车设计与仿真评估",
+      "url": "https://www.news18a.com/news/storys_311124.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "香港特区政府计划11月推出网约车平台牌照，车辆数量上限设为1万辆",
+      "url": "https://www.news18a.com/news/storys_311070.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年9月中国汽车整车进口同比下降48.7%，出口量达105.3万辆",
+      "url": "https://auto.news18a.com/news/storys_311068.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行智界汽车发布智界R7答网友问说明改款升级情况",
+      "url": "https://www.news18a.com/news/storys_311067.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "理想汽车官方电动踏板上线，售价6999元",
+      "url": "https://www.news18a.com/news/storys_311065.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏MONA L05举行首批车主交付仪式，何小鹏称首月交付有望突破1万辆",
+      "url": "https://www.news18a.com/news/storys_311061.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉公布Cybercab拆解细节及生产线数据",
+      "url": "https://www.news18a.com/news/storys_311004.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "安波福公布2026年第三季度财报：营收32亿美元，汽车业务同比下降1%",
+      "url": "https://auto.news18a.com/news/storys_311006.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪称网传“天神之眼C停产”等消息不实",
+      "url": "https://auto.news18a.com/news/storys_310979.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "NIO IN 2026 蔚来创新科技日定档 11 月 25 日，AI 驱动的全新智能座舱、辅助驾驶产品将亮相",
+      "url": "https://www.ithome.com/1/022/269.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "沃尔沃汽车 2026 年 8-10 月全球销量 141,656 辆，同比下降 16%",
+      "url": "https://www.ithome.com/1/022/256.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行官宣星夜服务升级，预约维保支持 20 公里内免费上门取送车",
+      "url": "https://www.ithome.com/1/022/253.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行智界汽车：今年 9 月，是 R7 上市两年来的第二次完整改款",
+      "url": "https://www.ithome.com/1/022/230.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "理想官方电动踏板上线：适用于 24、25 款的理想 L7、L8、L9，售价 6999 元",
+      "url": "https://www.ithome.com/1/022/207.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "OpenAI 展示员工“副业”硬件成果：一周出图、一月出样，外壳、电路板、固件 AI 全包办",
+      "url": "https://www.ithome.com/1/022/204.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -32106,9 +32372,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 14,
+      "candidateCount": 8,
       "status": "ok",
-      "publicLabel": "列表已读 14 条待核验线索"
+      "publicLabel": "列表已读 8 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -32162,17 +32428,17 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 13,
+      "candidateCount": 27,
       "status": "ok",
-      "publicLabel": "列表已读 13 条待核验线索"
+      "publicLabel": "列表已读 27 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 18,
+      "candidateCount": 17,
       "status": "ok",
-      "publicLabel": "列表已读 18 条待核验线索"
+      "publicLabel": "列表已读 17 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",

@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-04T07:36:46.381Z",
+  "collectedAt": "2026-11-04T09:25:48.789Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5118,6 +5118,30 @@
         "腾势"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪辟谣：网传“天神之眼C停产”等消息不实",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318160.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "限时售13.98万起/提供增程和纯电可选 小鹏MONA L05正式开启交付",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318159.html",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -5125,7 +5149,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 25
+      "count": 27
     },
     {
       "sourceId": "autohome-industry",
@@ -5136,7 +5160,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-04T07:36:34.539Z",
+      "collectedAt": "2026-11-04T09:25:36.482Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
