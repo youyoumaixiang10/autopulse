@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-05T06:52:34.083Z",
+  "collectedAt": "2026-11-05T07:59:47.993Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5207,7 +5207,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "全新国产宝马3系长轴距版/家越X9等 第413批工信部重点新车汇总",
+      "title": "全新国产宝马3系/林肯飞行家EX8等 第413批工信部重点新车汇总",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318178.html",
       "candidateBrands": [],
@@ -5299,6 +5299,40 @@
         "吉利银河"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "到店体验全新深蓝S05",
+      "url": "https://www.dongchedi.com/video/7703913687811441177",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "深蓝"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "银河星耀6 EF北方实测",
+      "url": "https://www.dongchedi.com/video/7703883323777073688",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -5306,7 +5340,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 27
+      "count": 26
     },
     {
       "sourceId": "autohome-industry",
@@ -5317,7 +5351,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-05T06:52:22.191Z",
+      "collectedAt": "2026-11-05T07:59:36.132Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

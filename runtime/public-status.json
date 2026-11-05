@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-11-05T06:57:14.155Z",
+  "completedAt": "2026-11-05T08:01:53.938Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -314,7 +314,7 @@
       "name": "汽车之家资讯",
       "brands": [],
       "status": "ok",
-      "label": "已读 27 条"
+      "label": "已读 26 条"
     },
     {
       "id": "autohome-industry",
@@ -335,7 +335,7 @@
       "name": "新浪汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 16 条待核验线索"
+      "label": "列表已读 19 条待核验线索"
     },
     {
       "id": "ifeng-auto",
@@ -412,7 +412,7 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 10 条待核验线索"
+      "label": "列表已读 20 条待核验线索"
     },
     {
       "id": "netease-auto",
