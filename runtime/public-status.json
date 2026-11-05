@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-11-05T08:01:53.938Z",
+  "completedAt": "2026-11-05T09:38:35.266Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -109,7 +109,7 @@
         "吉利银河"
       ],
       "status": "partial",
-      "label": "新闻接口可读，但返回条目没有可公开访问的详情链接"
+      "label": "官网新闻接口暂不可读"
     },
     {
       "id": "deepal-news",
@@ -314,7 +314,7 @@
       "name": "汽车之家资讯",
       "brands": [],
       "status": "ok",
-      "label": "已读 26 条"
+      "label": "已读 25 条"
     },
     {
       "id": "autohome-industry",
@@ -335,7 +335,7 @@
       "name": "新浪汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 19 条待核验线索"
+      "label": "列表已读 20 条待核验线索"
     },
     {
       "id": "ifeng-auto",
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 12 条待核验线索"
+      "label": "列表已读 17 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
@@ -425,8 +425,8 @@
       "id": "news18a-auto",
       "name": "网通社",
       "brands": [],
-      "status": "ok",
-      "label": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "label": "直连列表暂不可读，将回退公开检索"
     }
   ]
 }

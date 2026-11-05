@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-05T07:59:47.993Z",
+  "collectedAt": "2026-11-05T09:36:24.791Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5333,6 +5333,18 @@
         "吉利银河"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "超豪华行政旗舰轿车鼎曜本周末见 仰望将11月6日进行品牌海外首秀",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318188.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -5340,7 +5352,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 26
+      "count": 25
     },
     {
       "sourceId": "autohome-industry",
@@ -5351,7 +5363,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-05T07:59:36.132Z",
+      "collectedAt": "2026-11-05T09:36:13.014Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
