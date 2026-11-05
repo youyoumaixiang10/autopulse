@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-05T00:18:55.981Z",
+  "collectedAt": "2026-11-05T06:52:40.732Z",
   "targetDates": [
     "2026-11-04",
     "2026-11-05"
@@ -31183,7 +31183,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "吉利银河星耀6 EF 限时7.68万起",
+      "title": "限时7.68万起/搭甲醇电混动力 吉利银河星耀6 EF上市",
       "url": "https://www.sohu.com/a/1096167812_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -31193,7 +31193,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "奕派M8天元激光版上市",
+      "title": "补贴价15.98万起 奕派M8天元激光版正式上市",
       "url": "https://www.sohu.com/a/1096720334_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -32448,7 +32448,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "全新自由者7/自由者7 PLUS C-DM上市",
+      "title": "限时焕新价8.99万起 全新自由者7/自由者7 PLUS C-DM上市",
       "url": "https://www.sohu.com/a/1097228194_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -32748,7 +32748,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "全球家用大方盒丨全新自由者7限时焕新价8.99万元起，再享价值18388元权益大礼包",
+      "title": "自由者7限时价8.99万起",
       "url": "https://auto.news18a.com/news/storys_311190.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -32885,6 +32885,438 @@
       "discoveryPublishedAt": "2026-11-04",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "2027奔驰新车矩阵:小号G级、敞篷AMG G63、AMG C级六缸回归",
+      "url": "https://www.sohu.com/a/1097257489_603694",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "仰望U9X再刷极速 国产汽车拼速度时在拼什么?",
+      "url": "https://www.sohu.com/a/1097251824_121306556",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "保值率82.3%对73.5% 小米YU7赢了\"时间\"?",
+      "url": "https://www.sohu.com/a/1097176560_156265",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "国家市场监管总局发布多则召回公告 涉及奥迪、丰田等多个品牌",
+      "url": "https://www.sohu.com/a/1097251491_115479",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "七大豪华升级覆盖安全舒适智能 2027款极氪7X预售价22.98万元起",
+      "url": "https://auto.ifeng.com/c/8xngUVo2RxO",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "特斯拉第九届进博会亮相：从无人驾驶到人形机器人，展示技术落地进展",
+      "url": "https://auto.ifeng.com/c/8xnvfX2AOG2",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】吉利在山东投资成立国际贸易公司",
+      "url": "https://auto.ifeng.com/c/8xnvfX2AOG1",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】杭州消费者购买台铃王者MAX电摩因电机与证书不符无法上牌，涉事批次共680辆被处罚",
+      "url": "https://auto.ifeng.com/c/8xnvIl5P2eK",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "福特连续九年参展进博会",
+      "url": "https://auto.ifeng.com/c/8xnvgorQKAx",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "上汽 750 辆国宾车服务进博会",
+      "url": "https://auto.ifeng.com/c/8xnw5Hsbp4t",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利星越L PLUS将于11月12日开启预售",
+      "url": "https://auto.news18a.com/news/storys_311463.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "11月5日日本出口类股票上涨 丰田汽车股价一度大涨15.5%",
+      "url": "https://www.news18a.com/news/storys_311462.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "百度地图宣布登陆张雪机车820RR系列",
+      "url": "https://www.news18a.com/news/storys_311458.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利在山东投资成立国际贸易公司",
+      "url": "https://www.news18a.com/news/storys_311453.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "杭州消费者购买台铃王者MAX电摩因电机与证书不符无法上牌，涉事批次共680辆被处罚",
+      "url": "https://www.news18a.com/news/storys_311451.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奥迪创新技术中心在上海开业，四款全新AUDI车型计划2028年推出",
+      "url": "https://auto.news18a.com/news/storys_311448.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "腾势D9闪充版在泰国发布",
+      "url": "https://www.news18a.com/news/storys_311443.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "丰田汽车发布2027财年半年报 归母净利润2.24万亿日元",
+      "url": "https://www.news18a.com/news/storys_311441.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "福田汽车在非洲区域合作伙伴大会上发布两款重卡及一款插混皮卡",
+      "url": "https://www.news18a.com/news/storys_311455.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "红旗品牌两款右舵新能源车型亮相第十六届中国（澳门）国际汽车博览会",
+      "url": "https://www.news18a.com/news/storys_311437.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "美国加州I-80高速一辆开启FSD的特斯拉撞死横穿道路男子，死者随后遭后车碾轧",
+      "url": "https://auto.news18a.com/news/storys_311424.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "欧洲议会环境委员会11月4日投票拟放宽欧盟2035年汽车排放目标",
+      "url": "https://www.news18a.com/news/storys_311428.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奥迪创新技术中心总经理冯思远称AUDI品牌车型目前没有出口海外计划",
+      "url": "https://www.news18a.com/news/storys_311414.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "加拿大与中国达成协议将农产品降税安排延长至2028年底",
+      "url": "https://www.news18a.com/news/storys_311420.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "王传福出席第三十三届中国汽车工程学会年会并获饶斌奖，披露比亚迪员工总数超102万人",
+      "url": "https://www.news18a.com/news/storys_311411.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉上海超级工厂零部件本土化率提升至98%",
+      "url": "https://auto.news18a.com/news/storys_311418.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奔驰公布将显示元件嵌入车窗玻璃的车载显示研发方案",
+      "url": "https://www.news18a.com/news/storys_311405.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "欧洲汽车工业协会首次以参展方身份亮相第九届进博会",
+      "url": "https://www.news18a.com/news/storys_311410.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪与vivo达成战略合作，实现AI智能体跨端融合",
+      "url": "https://www.news18a.com/news/storys_311397.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "五菱星光L五座版通过工信部申报",
+      "url": "https://www.news18a.com/news/storys_311396.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "阿维塔称 07L Max 遭遇批量网络不实侵权，下周一全球首拆",
+      "url": "https://www.ithome.com/1/022/738.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "丰田成立机器人部门，整合研发资源加速技术落地",
+      "url": "https://www.ithome.com/1/022/709.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "Enough Phone 手机开启众筹：5.3 英寸 LCD 屏幕、3500mAh 可拆卸电池、5 年安卓更新",
+      "url": "https://www.ithome.com/1/022/698.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "任天堂 2027 财年半年报归母净利润 2209.17 亿日元，同比增长 11%",
+      "url": "https://www.ithome.com/1/022/690.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "吉利星越 L PLUS 将于 11 月 12 日开启预售：Flyme Auto 座舱，千里浩瀚 H5 智驾方案",
+      "url": "https://www.ithome.com/1/022/687.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "丰田汽车 2027 财年半年报归母净利润 2.24 万亿日元，同比增长 26.1%",
+      "url": "https://www.ithome.com/1/022/667.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉美国 FSD 再陷致命事故：71 岁男子横穿高速被撞身亡，车速约 113km/h",
+      "url": "https://www.ithome.com/1/022/665.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奥迪创新技术中心总经理冯思远：AUDI 没有出口海外计划",
+      "url": "https://www.ithome.com/1/022/606.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "国铁集团：Z、N、V 字头普速旅客列车 11 月 25 日发行，首批车票 11 月 11 日起发售",
+      "url": "https://www.ithome.com/1/022/551.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "五菱星光 L 五座版汽车通过工信部申报",
+      "url": "https://www.ithome.com/1/022/547.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪与 vivo 达成战略合作，实现 AI 智能体跨端融合",
+      "url": "https://www.ithome.com/1/022/545.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行问界新 M8 更多规格公布：升级三零重力座椅、-18℃ 超低温速冷车载冷暖箱，11 月 13 日上市",
+      "url": "https://www.ithome.com/1/022/544.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -32980,9 +33412,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 22,
+      "candidateCount": 10,
       "status": "ok",
-      "publicLabel": "列表已读 22 条待核验线索"
+      "publicLabel": "列表已读 10 条待核验线索"
     },
     {
       "sourceId": "netease-auto",

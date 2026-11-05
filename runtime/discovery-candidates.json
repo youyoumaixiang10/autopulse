@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-05T00:18:48.683Z",
+  "collectedAt": "2026-11-05T06:52:34.083Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5167,7 +5167,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "部分车型影响车辆行驶稳定性 广汽丰田召回超12万辆铂智3X/铂智7",
+      "title": "因软件控制程序等问题 广汽丰田召回超12万辆铂智3X/铂智7",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318167.html",
       "candidateBrands": [],
@@ -5202,6 +5202,103 @@
       "url": "https://www.autohome.com.cn/news/202611/1318164.html",
       "candidateBrands": [],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全新国产宝马3系长轴距版/家越X9等 第413批工信部重点新车汇总",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318178.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2027款极氪7X预售22.98万起 900V架构 10%至80%充电10.5分钟",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318175.html",
+      "candidateBrands": [
+        "极氪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "配备三零重力座椅等/11月13日上市 新款问界M8更多配置信息曝光",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318172.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "发布全新智能座舱等 NIO IN 2026蔚来创新科技日将于11月25日开幕",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318171.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "小鹏MONA L05开起来怎么样？",
+      "url": "https://www.dongchedi.com/video/7703845543667171865",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "理想L6为啥一直这么火？",
+      "url": "https://www.dongchedi.com/video/7703893212909699609",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "吉利银河星耀6EF醇耗实测",
+      "url": "https://www.dongchedi.com/video/7703887013572788761",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -5209,7 +5306,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 25
+      "count": 27
     },
     {
       "sourceId": "autohome-industry",
@@ -5220,9 +5317,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-05T00:18:12.539Z",
+      "collectedAt": "2026-11-05T06:52:22.191Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 67,
+      "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

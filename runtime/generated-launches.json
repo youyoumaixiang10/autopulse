@@ -3458,6 +3458,25 @@
     "observation": "谍照或申报不是正式上市，未公布的价格与日期保持待定。"
   },
   {
+    "id": "launch-f97f07178220ddf9",
+    "month": "2026-11",
+    "dateText": "待定",
+    "windowText": "11月12日开启预售",
+    "brand": "吉利",
+    "model": "H5",
+    "kind": "亮相",
+    "powertrain": "动力形式待公布",
+    "priceText": "价格待公布",
+    "status": "confirmed",
+    "statusLabel": "已官宣",
+    "sourceName": "IT之家",
+    "sourceUrl": "https://www.ithome.com/1/022/687.htm",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-11-05",
+    "detail": "IT之家 11 月 5 日消息，据易车报道，吉利星越 L PLUS 将于 11 月 12 日开启预售。新车延续了星越 L 的家族化设计语言，将搭载千里浩瀚 H5 智驾方案。 IT之家注意到，吉利星越 L PLUS 于 9 月 5 日亮相，新车延续星越 L 的家族设计，通过大面积镀铬来营造豪华风格，长宽高分别为 4955/1960/1769mm，轴距达到 2900mm，车顶配备了激光雷达，支持千里浩瀚 H5 等高阶辅助驾驶功能。 新车座舱采用中控 + 副驾双联屏方案，形成 30 英寸一体式天际屏，并配有 17.3 英寸二排娱乐屏；车机搭载高通骁龙 8295 芯片、Flyme Auto 智能座舱，内置超级 Eva 智能体。",
+    "observation": "已官宣但未形成可追溯的正式上市日；未公布价格记为待公布。"
+  },
+  {
     "id": "launch-27fbc5433cbece09",
     "month": "2026-11",
     "dateText": "待定",
