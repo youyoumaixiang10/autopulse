@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-11-04T09:25:57.449Z",
+  "collectedAt": "2026-11-05T00:18:55.981Z",
   "targetDates": [
-    "2026-11-03",
-    "2026-11-04"
+    "2026-11-04",
+    "2026-11-05"
   ],
   "candidates": [
     {
@@ -20191,7 +20191,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "比亚迪秦PLUS DM-i空间续航升级",
+      "title": "比亚迪秦PLUS DM-i升级上市",
       "url": "https://www.sohu.com/a/1093350435_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -22002,7 +22002,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "理想i6正式上市 续航780km",
+      "title": "理想i6 2026款正式上市",
       "url": "https://www.sohu.com/a/1093982535_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -23716,7 +23716,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新福特锐界L正式上市",
+      "title": "新福特锐界L上市续航1200km",
       "url": "https://www.sohu.com/a/1094593471_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25761,7 +25761,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新福特锐界L上市 续航1200km",
+      "title": "新福特锐界L成都上市",
       "url": "https://www.sohu.com/a/1095068095_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -27251,7 +27251,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "现场体验大众VEGA技术矩阵发布",
+      "title": "VEGA技术矩阵发布，大众中国以创新赋能全球",
       "url": "https://www.sohu.com/a/1095616275_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -31695,7 +31695,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "尊界要还V800清白，一招就灵",
+      "title": "车市问答车市热点，以国际视野与专业逻辑，解答车市关键问题尊界要还V800清白，一招就灵2026-11-04",
       "url": "https://auto.news18a.com/news/storys_310988.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -32082,7 +32082,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "比亚迪全新汉带激光雷达亮相",
+      "title": "新比亚迪汉亮相",
       "url": "https://www.sohu.com/a/1096703348_117381",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -32333,6 +32333,558 @@
       "discoveryPublishedAt": "2026-11-04",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "捷途自由者7 PLUS C-DM上市 12.49万起 插混方盒子",
+      "url": "https://www.pcauto.com.cn/nation/5190/51909145.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "捷途自由者7上市 8.99万元起 搭载1.5T+7DCT动力",
+      "url": "https://www.pcauto.com.cn/nation/5190/51909143.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "欣旺达供电池 荣威家越X7油电混动版申报信息",
+      "url": "https://www.pcauto.com.cn/nation/5190/51908323.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "售11.98万起 比亚迪元PLUS 10月热销30240辆 纯电续航最高630km",
+      "url": "https://www.pcauto.com.cn/nation/5190/51908317.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "半固态电池上车！荣威家越06申报信息",
+      "url": "https://www.pcauto.com.cn/nation/5190/51908316.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "预售13.98万起 iCAR V25将11月19日上市 中型方盒子SUV/1.5T增程",
+      "url": "https://www.pcauto.com.cn/nation/5190/51907879.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "合资版小米SU7？别克ELECTRA GS申报图 中型插混轿车 轴距2865mm",
+      "url": "https://www.pcauto.com.cn/nation/5190/51907875.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "新款极氪001申报图 延续现款猎装造型 明年一季度上市",
+      "url": "https://www.pcauto.com.cn/nation/5190/51907866.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "月销5万后，何小鹏再下军令状",
+      "url": "https://www.sohu.com/a/1096891922_100202083",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "特斯拉又推优惠政策 中国销量已多月下滑",
+      "url": "https://www.sohu.com/a/1097211964_115362",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "德国十月纯电新车份额升至近四成",
+      "url": "https://www.sohu.com/a/1097326299_121423427",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "全新自由者7/自由者7 PLUS C-DM上市",
+      "url": "https://www.sohu.com/a/1097228194_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "方盒子再添猛将 全新自由者7上市限时价8.99万起",
+      "url": "https://www.163.com/auto/article/LATTJFPQ0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "全新自由者7正式上市，限时焕新价8.99万元起",
+      "url": "https://auto.ifeng.com/c/8xmov51ydjo",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "电耗挑战9字头！埃安Ray7全民排位赛燃情开启",
+      "url": "https://auto.ifeng.com/c/8xmhwip0LrT",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "搭载新一代甲醇电混技术 吉利银河星耀6 E-fuel上市限时焕新价7.68万元起",
+      "url": "https://auto.ifeng.com/c/8xmMSDqG9vk",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "35块钱！9个月卖了170万辆车，一辆车的利润，换不来一顿外卖",
+      "url": "https://auto.ifeng.com/c/8xnWrJhrpbc",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】上海汇众许昌工厂正式投产",
+      "url": "https://auto.ifeng.com/c/8xnUfSFxMx4",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】未来黑科技发布透明全景显示技术TPHUD",
+      "url": "https://auto.ifeng.com/c/8xnWelp0gDD",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】大众正式发布全新ID.3 GTI",
+      "url": "https://auto.ifeng.com/c/8xnWSSqNRLI",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】麦格纳于10月28日举办创新技术体验日 展示电动化与智能化产品布局",
+      "url": "https://auto.ifeng.com/c/8xnUaaHawNr",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上海汇众许昌工厂正式投产",
+      "url": "https://auto.news18a.com/news/storys_311357.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "未来黑科技发布透明全景显示技术TPHUD",
+      "url": "https://www.news18a.com/news/storys_311355.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众正式发布全新ID.3 GTI",
+      "url": "https://www.news18a.com/news/storys_311354.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "麦格纳于10月28日举办创新技术体验日 展示电动化与智能化产品布局",
+      "url": "https://www.news18a.com/news/storys_311352.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "京东推出新能源汽车充电桩线缆安装“按米收费”服务",
+      "url": "https://www.news18a.com/news/storys_311180.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "SKF Vertevo于11月3日揭晓全新品牌并计划12月1日挂牌上市",
+      "url": "https://auto.news18a.com/news/storys_311185.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞全新捷途自由者7燃油SUV上市，售价11.39万-13.49万元",
+      "url": "https://www.news18a.com/news/storys_311177.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年1-9月比亚迪乘用车出口目的地TOP10公布：巴西居首，约旦首次进入榜单",
+      "url": "https://www.news18a.com/news/storys_311183.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "巴西真人秀BB冠军Samira获赠吉利EX2，该车型上市16个工作日位列巴西电动车销量第二",
+      "url": "https://www.news18a.com/news/storys_311173.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "现代汽车集团在2026世界氢能博览会展示自动加氢机器人与升级燃料电池系统",
+      "url": "https://www.news18a.com/news/storys_311170.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "山西在2026中国城市停车产业大会发布城市停车AI智能体“泊邻”",
+      "url": "https://auto.news18a.com/news/storys_311168.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众在华推进渠道调整：20家一汽-大众门店可销售大众安徽车型，40家进口大众店获售后授权",
+      "url": "https://www.news18a.com/news/storys_311164.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽丰田召回47347辆国产普拉多及8130辆进口雷克萨斯GX",
+      "url": "https://www.news18a.com/news/storys_311162.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "武汉路特斯汽车销售有限公司召回33辆进口莲花Elise 220汽车",
+      "url": "https://www.news18a.com/news/storys_311160.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "克莱斯勒（中国）与斯泰兰蒂斯（上海）备案召回计划 涉及部分进口牧马人和角斗士汽车",
+      "url": "https://www.news18a.com/news/storys_311159.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "光束汽车备案召回计划，涉及714辆国产MINI纯电动汽车",
+      "url": "https://auto.news18a.com/news/storys_311157.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "广汽丰田备案召回计划 涉及铂智3X及铂智7共计121260辆",
+      "url": "https://www.news18a.com/news/storys_311152.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众汽车（中国）、上汽大众、一汽-大众备案召回计划 共计召回超58万辆汽车",
+      "url": "https://www.news18a.com/news/storys_311151.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "赛力斯在互动平台表示正积极准备L3级自动驾驶相关工作",
+      "url": "https://www.news18a.com/news/storys_311149.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来李斌出席2026年世界互联网大会乌镇峰会并发表演讲",
+      "url": "https://www.news18a.com/news/storys_311142.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "全球家用大方盒丨全新自由者7限时焕新价8.99万元起，再享价值18388元权益大礼包",
+      "url": "https://auto.news18a.com/news/storys_311190.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "德国 10 月纯电动车注册量同比增长 79.5%：占新车市场 37%，进口车占一半",
+      "url": "https://www.ithome.com/1/022/495.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小鹏 MONA L05 开启首批车主交付，何小鹏现场交车",
+      "url": "https://www.ithome.com/1/022/481.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "彭博社称苹果收紧员工 AI 使用预算：部分工程师日额度下降 33%，恐进一步下探至 100 美元",
+      "url": "https://www.ithome.com/1/022/479.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "Arm 2027 财年第二财季营收 14.4 亿美元同比增长 27% 创 Q2 历史新高，GAAP 净利润 1.30 亿美元同比下降 45%",
+      "url": "https://www.ithome.com/1/022/475.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "高通 2026 财年归母净利润 136.28 亿美元同比增长 146%，与苹果、华为续签长期技术授权许可协议",
+      "url": "https://www.ithome.com/1/022/473.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "张雪：中国摩托车超越全球顶级对手和品牌要耐得住寂寞，这个过程一定是痛并快乐着的",
+      "url": "https://www.ithome.com/1/022/427.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蔚来李斌：现在出货量最多的具身智能体就是智能电动汽车",
+      "url": "https://www.ithome.com/1/022/423.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蔚来李斌：智能驾驶最大意义应是解放精力，不该让出租车 / 网约车司机丢工作",
+      "url": "https://www.ithome.com/1/022/419.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "京东宣布率先在行业内推出安装充电桩线缆“按米收费”：0 米起售，用多少米买多少米",
+      "url": "https://www.ithome.com/1/022/414.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "格罗方德 2026 财年第三财季归母亏损 2.7 亿美元，同比下降 208%",
+      "url": "https://www.ithome.com/1/022/413.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "支持一键微信通话：小米智能摄像机 4 Pro 329 → 242 元直降，老人小孩轻松使用",
+      "url": "https://www.ithome.com/1/022/409.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞全新捷途自由者 7 燃油 SUV 上市，限时焕新价 8.99 万元起",
+      "url": "https://www.ithome.com/1/022/408.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-04",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -32372,9 +32924,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 8,
+      "candidateCount": 12,
       "status": "ok",
-      "publicLabel": "列表已读 8 条待核验线索"
+      "publicLabel": "列表已读 12 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -32428,9 +32980,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 27,
+      "candidateCount": 22,
       "status": "ok",
-      "publicLabel": "列表已读 27 条待核验线索"
+      "publicLabel": "列表已读 22 条待核验线索"
     },
     {
       "sourceId": "netease-auto",

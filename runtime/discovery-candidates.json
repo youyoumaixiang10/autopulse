@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-04T09:25:48.789Z",
+  "collectedAt": "2026-11-05T00:18:48.683Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5142,6 +5142,66 @@
         "小鹏"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "导致转向助力失效/极端存在起火风险 部分进口牧马人/角斗士召回",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318169.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "发动机熄火风险 更换低压燃油泵 莲花跑车召回33辆Elise 220",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318168.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "部分车型影响车辆行驶稳定性 广汽丰田召回超12万辆铂智3X/铂智7",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318167.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "极端情况下内后视镜可能脱落 国产电动MINI召回714辆新车",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318166.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "需更换转向机固定螺栓 大众/奥迪多款车型召回 涉及61万辆",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318165.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "有燃油泄漏安全隐患 共计5万多台国产普拉多/雷克萨斯GX550h召回",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318164.html",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -5149,7 +5209,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 27
+      "count": 25
     },
     {
       "sourceId": "autohome-industry",
@@ -5160,7 +5220,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-04T09:25:36.482Z",
+      "collectedAt": "2026-11-05T00:18:12.539Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
