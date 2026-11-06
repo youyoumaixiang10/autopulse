@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-06T00:16:57.396Z",
+  "collectedAt": "2026-11-06T06:52:08.899Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5338,7 +5338,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "行政旗舰轿车鼎曜11月7日亮相 仰望将于11月6日进行品牌海外首秀",
+      "title": "定位超豪华行政旗舰轿车/售价或突破200万 仰望鼎曜将11月7日亮相",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318188.html",
       "candidateBrands": [
@@ -5357,6 +5357,40 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "中期改款7系内饰同步亮相 全新宝马i3长轴距版将在广州车展预售",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318211.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "VLA2.5/地图出行Agent/智能油电2.0等 理想汽车OTA 9.2开启推送",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318205.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "腾势N8将于11月12日上市 五座纯电SUV 引入30英寸全景屏+天际屏",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318200.html",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -5364,7 +5398,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 25
+      "count": 23
     },
     {
       "sourceId": "autohome-industry",
@@ -5375,9 +5409,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-06T00:16:45.513Z",
+      "collectedAt": "2026-11-06T06:51:56.988Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 68,
+      "candidateCount": 70,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

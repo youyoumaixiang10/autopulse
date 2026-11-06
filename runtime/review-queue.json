@@ -5076,7 +5076,6 @@
     "url": "https://www.pcauto.com.cn/nation/5124/51243125.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -5372,7 +5371,7 @@
     ]
   },
   {
-    "title": "试驾问界M6：年轻SUV新选",
+    "title": "试驾问界M6：年轻SUV的新选择",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1012482515_430526",
     "reasons": [
@@ -5382,7 +5381,7 @@
     ]
   },
   {
-    "title": "尚界Z7T试驾体验",
+    "title": "尚界Z7T动态体验",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1012495282_430526",
     "reasons": [
@@ -5392,7 +5391,7 @@
     ]
   },
   {
-    "title": "仰望U8 eTCS 2.0越野体验",
+    "title": "仰望U8越野体验eTCS2.0",
     "sourceName": "搜狐汽车",
     "url": "https://www.sohu.com/a/1005139452_430526",
     "reasons": [
@@ -6968,6 +6967,7 @@
     "url": "https://www.pcauto.com.cn/nation/5188/51880790.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11278,7 +11278,6 @@
     "url": "https://www.pcauto.com.cn/nation/5191/51911621.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11315,6 +11314,24 @@
     "url": "https://www.ithome.com/1/023/040.htm",
     "reasons": [
       "频道问候或无具体车型事件的周期汇总"
+    ]
+  },
+  {
+    "title": "VLA2.5/地图出行Agent/智能油电2.0等 理想汽车OTA 9.2开启推送",
+    "sourceName": "汽车之家资讯",
+    "url": "https://www.autohome.com.cn/news/202611/1318205.html",
+    "reasons": [
+      "正文获取失败",
+      "尚未具备完整的日期与原文",
+      "信息来源待核验"
+    ]
+  },
+  {
+    "title": "工信部等六部门：加快推进具身智能、大语言模型、脑机接口、外骨骼等在养老领域应用，鼓励电商平台设立银发消费板块",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/023/230.htm",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
     ]
   },
   {
