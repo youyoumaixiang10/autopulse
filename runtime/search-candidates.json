@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-11-05T09:36:38.740Z",
+  "collectedAt": "2026-11-06T00:17:10.873Z",
   "targetDates": [
-    "2026-11-04",
-    "2026-11-05"
+    "2026-11-05",
+    "2026-11-06"
   ],
   "candidates": [
     {
@@ -1738,7 +1738,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "试驾问界M6年轻SUV",
+      "title": "试驾问界M6：年轻SUV新选",
       "url": "https://www.sohu.com/a/1012482515_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -1748,7 +1748,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "尚界Z7T动态试驾体验",
+      "title": "尚界Z7T试驾体验",
       "url": "https://www.sohu.com/a/1012495282_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -2608,7 +2608,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-03 2026-11-04",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-05 2026-11-06",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-03 2026-11-04",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-05 2026-11-06",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2628,7 +2628,7 @@
       "title": "新浪汽车 - 汽车生活源动力！",
       "url": "https://auto.sina.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-02 2026-11-03",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-05 2026-11-06",
       "verificationStatus": "media-discovery"
     },
     {
@@ -23706,7 +23706,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "阿维塔07L Max纯电上市",
+      "title": "阿维塔07L Max纯电版上市",
       "url": "https://www.sohu.com/a/1094559734_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -23716,7 +23716,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新福特锐界L正式上市",
+      "title": "新福特锐界L上市",
       "url": "https://www.sohu.com/a/1094593471_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -24933,7 +24933,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "全新AMG GLC 53 SUV上市",
+      "title": "梅赛德斯AMG GLC 53上市",
       "url": "https://www.sohu.com/a/1094811113_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25741,7 +25741,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "东风奕派007正式上市",
+      "title": "东风奕派007上市",
       "url": "https://www.sohu.com/a/1094985318_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -31183,7 +31183,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "吉利银河星耀6 EF上市",
+      "title": "银河星耀6混动版上市",
       "url": "https://www.sohu.com/a/1096167812_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -31213,7 +31213,7 @@
       "sourceId": "netease-auto",
       "sourceName": "网易汽车",
       "sourceType": "vertical-media",
-      "title": "天元智能+宁德纯电 奕派M8天元激光版上市限时15.98万",
+      "title": "天元智能+宁德纯电 奕派M8天元激光版上市限时15.98万起",
       "url": "https://www.163.com/auto/article/LAR575TP0008856R.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -32448,7 +32448,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新自由者7/自由者7 PLUS C-DM上市",
+      "title": "自由者7/C-DM系列上市",
       "url": "https://www.sohu.com/a/1097228194_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -33757,6 +33757,332 @@
       "discoveryPublishedAt": "2026-11-05",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "奥迪创新技术中心开业：AUDI迈向AI定义汽车时代",
+      "url": "https://auto.sina.com.cn/news/2026-11-05/detail-inixtafs9346816.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "奔驰携多款新车亮相第九届进博会",
+      "url": "https://auto.sina.com.cn/news/2026-11-05/detail-inixsvxu9428878.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "智己LS8 NEO纯电版上市 23.98万元起 标配线控底盘",
+      "url": "https://www.pcauto.com.cn/nation/5191/51912017.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "15万级“小皇冠”？ 限时13.38万起/全新亚洲龙上市",
+      "url": "https://www.pcauto.com.cn/nation/5191/51912000.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "限时9.99万起 全新smart精灵2上市 纯电续航410km+后五连杆悬架",
+      "url": "https://www.pcauto.com.cn/nation/5191/51911989.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "置换价13.59万元起 第二代海豹07上市 云辇-M/最高纯电续航775km",
+      "url": "https://www.pcauto.com.cn/nation/5191/51911971.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "埃安Ray7将11月12日上市 把大5米纯电轿车电耗卷进9字头",
+      "url": "https://www.pcauto.com.cn/nation/5191/51911956.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "吉利星越L PLUS将11月12日开启预售 中大型SUV/2.0T混动+后轮转向",
+      "url": "https://www.pcauto.com.cn/nation/5191/51911955.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "预售22.98万起 2027款极氪7X开启预售 全系900V/续航最高802km",
+      "url": "https://www.pcauto.com.cn/nation/5191/51911621.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "“金九银十”汽车销售两重天",
+      "url": "https://www.sohu.com/a/1097832118_161795",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "路透社：全球汽车产业前景黯淡",
+      "url": "https://www.sohu.com/a/1097782379_140060",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "阿维塔称07LMax遭网络不实侵权",
+      "url": "https://www.sohu.com/a/1097719273_119627",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "路虎揽胜威斯敏斯特版上市",
+      "url": "https://www.sohu.com/a/1097626733_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "智己LS8 NEO纯电上市权益价23.98万起",
+      "url": "https://www.sohu.com/a/1097701766_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "2027款领克08 EM-P上市",
+      "url": "https://www.sohu.com/a/1097712812_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "限时置换价15.98万元起 2027款领克08 EM-P上市",
+      "url": "https://www.163.com/auto/article/LB0NQH2R0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "不是，顶配才16.89万？第二代海豹07这次给得有点多",
+      "url": "https://www.163.com/auto/article/LB0H96KH0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "宁德电池+线控底盘 智己LS8 NEO纯电上市23.98万起",
+      "url": "https://www.163.com/auto/article/LB0FB08E0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "13.38万起，全新亚洲龙上市！这张皇冠脸，是更帅了还",
+      "url": "https://www.163.com/auto/article/LB0EPTUB0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "纯电续航410km 全新smart#2 Premium豪华版限时9.99万",
+      "url": "https://www.163.com/auto/article/LB0DPC0P0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "全系标配宁德时代电池与全线控底盘 智己LS8 NEO纯电上市权益价23.98万元起",
+      "url": "https://auto.ifeng.com/c/8xoWCtfB4Td",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "首搭云辇-M智能磁流变车身控制系统 第二代海豹07上市置换价13.59万元起",
+      "url": "https://auto.ifeng.com/c/8xoNZQp8oGy",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "焕新登场 质感跃升！新款一汽丰田亚洲龙正式上市",
+      "url": "https://auto.ifeng.com/c/8xoRsYMzHlc",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】博世亮相第九届进博会 展示智能出行与具身智能技术",
+      "url": "https://auto.ifeng.com/c/8xp9KtgRrAp",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】蔡司微光学在SAECCE 2026首次公开展示全息后排娱乐显示、全息风挡显示及透明摄像头样机",
+      "url": "https://auto.ifeng.com/c/8xpAGX6vxQb",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "2026进博会保时捷双车首发：赛道新品+中国特供版齐登场",
+      "url": "https://auto.ifeng.com/c/8xok7SSsYrt",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "smart精灵#2正式上市，限时售价9.99万元",
+      "url": "https://auto.ifeng.com/c/8xof3Iy4rh8",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】火山引擎汽车业务研发人员苏杰离职",
+      "url": "https://auto.ifeng.com/c/8xoYLQLRgnt",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1106：华为鸿蒙终端用户数本月将突破 1 亿大关；奥迪研发高管抨击速成车；华为鸿蒙电脑官宣年内支持侧载；2027 年放假安排出炉...",
+      "url": "https://www.ithome.com/1/023/040.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "不法分子冒充大众发布虚假召回短信，大众中国官方发布声明提醒车主提高警惕",
+      "url": "https://www.ithome.com/1/022/990.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "一汽丰田全新亚洲龙上市，限时权益价 13.38 万元起",
+      "url": "https://www.ithome.com/1/022/982.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "2027 款领克 08 EM-P 上市：标配 192 线激光雷达、至高千里浩瀚 H7，限时 15.98 万元起",
+      "url": "https://www.ithome.com/1/022/980.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-05",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -33764,9 +34090,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 20,
+      "candidateCount": 22,
       "status": "ok",
-      "publicLabel": "列表已读 20 条待核验线索"
+      "publicLabel": "列表已读 22 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -33780,9 +34106,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 1,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 1 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -33796,9 +34122,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 17,
+      "candidateCount": 4,
       "status": "ok",
-      "publicLabel": "列表已读 17 条待核验线索"
+      "publicLabel": "列表已读 4 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -33852,9 +34178,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 20,
+      "candidateCount": 19,
       "status": "ok",
-      "publicLabel": "列表已读 20 条待核验线索"
+      "publicLabel": "列表已读 19 条待核验线索"
     },
     {
       "sourceId": "netease-auto",

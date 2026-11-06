@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-05T09:36:24.791Z",
+  "collectedAt": "2026-11-06T00:16:57.396Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5338,9 +5338,21 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "超豪华行政旗舰轿车鼎曜本周末见 仰望将11月6日进行品牌海外首秀",
+      "title": "行政旗舰轿车鼎曜11月7日亮相 仰望将于11月6日进行品牌海外首秀",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318188.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第二代海豹07置换价13.59-16.89万 续航提升 有磁流变悬架",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318193.html",
       "candidateBrands": [
         "比亚迪"
       ],
@@ -5363,7 +5375,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-05T09:36:13.014Z",
+      "collectedAt": "2026-11-06T00:16:45.513Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
