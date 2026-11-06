@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-06T08:01:22.908Z",
+  "collectedAt": "2026-11-06T09:29:36.118Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5241,7 +5241,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "����ȫ���������յ� NIO IN 2026ε�����¿Ƽ��ս���11��25�տ�Ļ 1��ǰ 1629 0 [����֮�� ��Ѷ] 11��4�գ����Ǵ�ε���ٷ��˽⵽��NIO IN 2026ε�����¿Ƽ��ս���11��25���ڹ��ݾ��С���ʱ���ٷ�����Է���AIԭ����...",
+      "title": "发布全新智能座舱等 NIO IN 2026蔚来创新科技日将于11月25日开幕",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318171.html",
       "candidateBrands": [
@@ -5391,6 +5391,96 @@
         "腾势"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "科幻感十足 方盒子硬派造型 奇瑞纵横R700将于广州车展亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318216.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "503.17km/h！地表最快量产车！仰望U9X极速纪录官宣",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318215.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "吉利银河E5高速试驾感受",
+      "url": "https://www.dongchedi.com/video/7704871645177299480",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "试驾理想L9 Livis",
+      "url": "https://www.dongchedi.com/video/7704857091689218622",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "探店吉利银河TT",
+      "url": "https://www.dongchedi.com/video/7704868584417395262",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "启境GX7和理想L6怎么选",
+      "url": "https://www.dongchedi.com/video/7704707548176024126",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -5398,7 +5488,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 1
+      "count": 24
     },
     {
       "sourceId": "autohome-industry",
@@ -5409,7 +5499,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-06T08:00:46.611Z",
+      "collectedAt": "2026-11-06T09:29:24.573Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

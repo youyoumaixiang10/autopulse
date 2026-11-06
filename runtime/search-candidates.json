@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-06T08:01:30.028Z",
+  "collectedAt": "2026-11-06T09:29:43.238Z",
   "targetDates": [
     "2026-11-05",
     "2026-11-06"
@@ -32448,7 +32448,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "自由者7/C-DM新车发布",
+      "title": "全新自由者7/自由者7 PLUS C-DM正式上市",
       "url": "https://www.sohu.com/a/1097228194_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -33864,7 +33864,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "路透社:全球汽车产业前景黯淡",
+      "title": "路透社：全球汽车产业前景黯淡",
       "url": "https://www.sohu.com/a/1097782379_140060",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -33884,7 +33884,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "路虎揽胜威斯敏斯特版上市",
+      "title": "指导价149.8万元 路虎揽胜威斯敏斯特版正式上市",
       "url": "https://www.sohu.com/a/1097626733_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -33894,7 +33894,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "智己LS8 NEO纯电上市权益价23.98万起",
+      "title": "权益价23.98万元起 智己LS8 NEO纯电正式上市",
       "url": "https://www.sohu.com/a/1097701766_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -33904,7 +33904,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "2027款领克08 EM-P上市",
+      "title": "限时置换价15.98万元起 2027款领克08 EM-P正式上市",
       "url": "https://www.sohu.com/a/1097712812_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34088,7 +34088,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "9.97万元 东风标致2027款408上市",
+      "title": "官方指导价9.97万元 东风标致2027款408正式上市",
       "url": "https://www.sohu.com/a/1098010568_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34098,7 +34098,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "置换价13.59万起 海豹07首搭云辇‑M正式上市",
+      "title": "置换价13.59万起 首搭云辇‑M 第二代海豹07正式上市",
       "url": "https://www.sohu.com/a/1097600518_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34757,6 +34757,291 @@
       "discoveryPublishedAt": "2026-11-06",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "13.08万元/CLTC续航505km 2026款AION S Plus出行版正式上市",
+      "url": "https://www.sohu.com/a/1098093294_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "成绩503.17km/h 仰望U9 Xtreme创造全新极速世界纪录",
+      "url": "https://www.sohu.com/a/1098084707_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "限时权益价9.99万起 全新smart精灵#2正式上市",
+      "url": "https://www.sohu.com/a/1097698439_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "余凯：活过 2027、赢在 2030 智驾竞争回归商业本质",
+      "url": "https://www.163.com/auto/article/LB2MU04K0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】博主曝光全新蔚来ET5T预测渲染图 据称将于12月NioDay首发外观",
+      "url": "https://auto.ifeng.com/c/8xpnUZO27wT",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】宝马、大众、理想等车企声明“气囊召回”短信系电信诈骗",
+      "url": "https://auto.ifeng.com/c/8xpnfERFh2h",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】2026年1-9月中国乘用车出口数据发布：俄罗斯居整体首位，巴西居新能源首位",
+      "url": "https://auto.ifeng.com/c/8xpo1bEWq17",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】Vector Informatik推出CANoe Emulation Package EV仿真套件",
+      "url": "https://auto.ifeng.com/c/8xplg8QyDnR",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】新款宝马iX2路试谍照曝光",
+      "url": "https://auto.ifeng.com/c/8xploo5DmvW",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽红旗宣布全新红旗H9轿车定档11月7日开启预售",
+      "url": "https://auto.news18a.com/news/storys_312061.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "博主曝光全新蔚来ET5T预测渲染图 据称将于12月NioDay首发外观",
+      "url": "https://www.news18a.com/news/storys_312054.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马、大众、理想等车企声明“气囊召回”短信系电信诈骗",
+      "url": "https://www.news18a.com/news/storys_312056.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年1-9月中国乘用车出口数据发布：俄罗斯居整体首位，巴西居新能源首位",
+      "url": "https://www.news18a.com/news/storys_312059.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "新款宝马iX2路试谍照曝光",
+      "url": "https://www.news18a.com/news/storys_312050.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Vector Informatik推出CANoe Emulation Package EV仿真套件",
+      "url": "https://auto.news18a.com/news/storys_312049.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "英飞凌发布首个基于RISC-V架构的微控制器平台AURIX RC1",
+      "url": "https://www.news18a.com/news/storys_312047.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "众泰汽车Wink Y01国际版右舵车型下线",
+      "url": "https://www.news18a.com/news/storys_312041.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪仰望U9X在阿布扎比公共道路完成极速挑战并发布全过程视频",
+      "url": "https://www.news18a.com/news/storys_312040.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马斯克称特斯拉将于2027年年中在得州超级工厂逐步减产Cybertruck",
+      "url": "https://www.news18a.com/news/storys_312037.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪海獭入围日本JCOTY 2026-2027年度十佳及RJC进口车六佳名单",
+      "url": "https://auto.news18a.com/news/storys_312032.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "503.17km/h！仰望U9 Xtreme官宣全新极速纪录",
+      "url": "https://www.news18a.com/news/storys_312022.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "梅赛德斯-奔驰拟将下一代GLC美国工厂组装时间推迟至2030年5月",
+      "url": "https://auto.news18a.com/news/storys_312034.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "丰田汽车宣布新设机器人事业部并调整中国本部长人选",
+      "url": "https://www.news18a.com/news/storys_312013.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "广汽集团 10 月汽车销量 143687 辆，同比下降 15.84%",
+      "url": "https://www.ithome.com/1/023/466.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪：仰望 U9X 去年 496.22km/h 取得世界第一后，团队判断仍有性能余量决定探索更高极速",
+      "url": "https://www.ithome.com/1/023/462.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米汽车架构调整：成立国际业务部，副总裁于立国兼任国际业务部总经理",
+      "url": "https://www.ithome.com/1/023/430.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全新红旗 H9 轿车定档 11 月 7 日预售，搭载华为乾崑智驾 ADS 5 + 鸿蒙智舱 HarmonySpace",
+      "url": "https://www.ithome.com/1/023/413.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全华班团队：比亚迪仰望 U9X“地表最快量产车”研发工程师揭秘，平均年龄不足 30 岁",
+      "url": "https://www.ithome.com/1/023/401.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -34796,9 +35081,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 20,
+      "candidateCount": 13,
       "status": "ok",
-      "publicLabel": "列表已读 20 条待核验线索"
+      "publicLabel": "列表已读 13 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -34852,17 +35137,17 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 21,
+      "candidateCount": 12,
       "status": "ok",
-      "publicLabel": "列表已读 21 条待核验线索"
+      "publicLabel": "列表已读 12 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 13,
+      "candidateCount": 14,
       "status": "ok",
-      "publicLabel": "列表已读 13 条待核验线索"
+      "publicLabel": "列表已读 14 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
