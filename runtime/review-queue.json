@@ -6967,7 +6967,6 @@
     "url": "https://www.pcauto.com.cn/nation/5188/51880790.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11317,16 +11316,6 @@
     ]
   },
   {
-    "title": "VLA2.5/地图出行Agent/智能油电2.0等 理想汽车OTA 9.2开启推送",
-    "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202611/1318205.html",
-    "reasons": [
-      "正文获取失败",
-      "尚未具备完整的日期与原文",
-      "信息来源待核验"
-    ]
-  },
-  {
     "title": "工信部等六部门：加快推进具身智能、大语言模型、脑机接口、外骨骼等在养老领域应用，鼓励电商平台设立银发消费板块",
     "sourceName": "IT之家",
     "url": "https://www.ithome.com/1/023/230.htm",
@@ -11650,6 +11639,14 @@
     "title": "NIO IN 2026 蔚来创新科技日定档 11 月 25 日，AI 驱动的全新智能座舱、辅助驾驶产品将亮相",
     "sourceName": "IT之家",
     "url": "https://www.ithome.com/1/022/269.htm",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "一汽-大众纯电轿车 ID. AURA L5 将于 11 月 16 日开启盲订，有望年内上市",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/023/342.htm",
     "reasons": [
       "标题与正文不是同一事件"
     ]

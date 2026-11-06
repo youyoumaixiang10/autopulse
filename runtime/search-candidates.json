@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-06T06:52:22.229Z",
+  "collectedAt": "2026-11-06T08:01:30.028Z",
   "targetDates": [
     "2026-11-05",
     "2026-11-06"
@@ -25741,7 +25741,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "东风奕派007新款上市",
+      "title": "东风奕派007上市限时优惠",
       "url": "https://www.sohu.com/a/1094985318_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -25761,7 +25761,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新福特锐界L宽窄巷子上市",
+      "title": "新福特锐界L成都上市",
       "url": "https://www.sohu.com/a/1095068095_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -27201,7 +27201,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "神行者8大五座正式发布",
+      "title": "FREELANDER神行者五座上市",
       "url": "https://www.sohu.com/a/1095619297_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -32448,7 +32448,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "全新自由者7/自由者7 PLUS C-DM正式上市",
+      "title": "自由者7/C-DM新车发布",
       "url": "https://www.sohu.com/a/1097228194_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -33904,7 +33904,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "领克08 EM-P新款上市",
+      "title": "2027款领克08 EM-P上市",
       "url": "https://www.sohu.com/a/1097712812_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34098,7 +34098,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "第二代海豹07正式上市",
+      "title": "置换价13.59万起 海豹07首搭云辇‑M正式上市",
       "url": "https://www.sohu.com/a/1097600518_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34380,6 +34380,383 @@
       "discoveryPublishedAt": "2026-11-06",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "享界V8动态首试感受",
+      "url": "https://www.sohu.com/a/1098043816_309541",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "东风标致2027款408焕新上市，售价9.97万元",
+      "url": "https://auto.ifeng.com/c/8xpdRNGjQpb",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "閤先庆乌镇演讲：新汽车时代，广汽要从“造出好产品”到“长成好生态”",
+      "url": "https://auto.ifeng.com/c/8xpdexZ79Dq",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "九万九千七，2027款408把家用的账算清楚了",
+      "url": "https://auto.ifeng.com/c/8xph03tQKWn",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】503.17km/h！仰望U9 Xtreme官宣全新极速纪录",
+      "url": "https://auto.ifeng.com/c/8xpf57NsF7I",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】梅赛德斯-奔驰拟将下一代GLC美国工厂组装时间推迟至2030年5月",
+      "url": "https://auto.ifeng.com/c/8xph9e1qkeV",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉与SpaceX自周二收盘以来合计市值损失超4200亿美元",
+      "url": "https://auto.ifeng.com/c/8xph9e1qkTm",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】国家发改委：2030年我国充电基础设施将超4000万个",
+      "url": "https://auto.ifeng.com/c/8xpf57NsF7G",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马斯克称特斯拉将于2027年年中在得州超级工厂逐步减产Cybertruck",
+      "url": "https://auto.news18a.com/news/storys_312037.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪海獭入围日本JCOTY 2026-2027年度十佳及RJC进口车六佳名单",
+      "url": "https://www.news18a.com/news/storys_312032.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行尊界汽车官方微博于11月6日重启V800车型宣传",
+      "url": "https://www.news18a.com/news/storys_312030.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽-大众ID. AURA L5将于11月16日开启盲订",
+      "url": "https://www.news18a.com/news/storys_312028.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "消息称比亚迪仰望U9X在阿布扎比跑出503.17km/h极速成绩",
+      "url": "https://www.news18a.com/news/storys_312024.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "503.17km/h！仰望U9 Xtreme官宣全新极速纪录",
+      "url": "https://auto.news18a.com/news/storys_312022.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "梅赛德斯-奔驰拟将下一代GLC美国工厂组装时间推迟至2030年5月",
+      "url": "https://www.news18a.com/news/storys_312034.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉与SpaceX自周二收盘以来合计市值损失超4200亿美元",
+      "url": "https://www.news18a.com/news/storys_312026.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "国家发改委：2030年我国充电基础设施将超4000万个",
+      "url": "https://www.news18a.com/news/storys_312018.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "领克07GT帕尔马紫调高定版将于11月9日上市",
+      "url": "https://www.news18a.com/news/storys_312011.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "丰田汽车宣布新设机器人事业部并调整中国本部长人选",
+      "url": "https://auto.news18a.com/news/storys_312013.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026款广汽埃安AION S Plus出行版上市，官方指导价13.08万元",
+      "url": "https://www.news18a.com/news/storys_312005.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽-大众与大众汽车集团签署合作备忘录 2027年将进口奥迪整车及零部件",
+      "url": "https://www.news18a.com/news/storys_312014.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "松下在第九届进博会期间发布中国地域战略",
+      "url": "https://www.news18a.com/news/storys_312007.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞纵横R700将于11月广州车展首发",
+      "url": "https://www.news18a.com/news/storys_312000.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长城欧拉5GT激光雷达版于11月6日开放下订",
+      "url": "https://auto.news18a.com/news/storys_311999.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "岚图汽车法务部发布声明辟谣虚假价格信息",
+      "url": "https://www.news18a.com/news/storys_311996.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "启境GX7将于11月8日启动集中交付",
+      "url": "https://www.news18a.com/news/storys_311994.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "本田中国10月汽车销量28652辆，同比下降52.2%",
+      "url": "https://www.news18a.com/news/storys_311990.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "李斌在2026世界互联网大会论坛上称汽车重量增两成对路面破坏增至2.07倍",
+      "url": "https://www.news18a.com/news/storys_311983.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026款AION S Plus出行版上市 官方指导价13.08万元",
+      "url": "https://auto.news18a.com/news/storys_311948.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2027 款领克 08 EM-P 上市",
+      "url": "https://auto.news18a.com/news/storys_311934.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "中国超跑突破时刻！比亚迪仰望 U9X 极速挑战全过程记录视频发布，第一视角亲历 500km/h 之上极速",
+      "url": "https://www.ithome.com/1/023/385.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "众泰汽车 Wink Y01 国际版右舵车型下线，计划 2027 年初实现量产交付",
+      "url": "https://www.ithome.com/1/023/375.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "地表最快量产车！比亚迪仰望 U9X 超跑极速挑战 503.17km/h 再创全球新纪录",
+      "url": "https://www.ithome.com/1/023/373.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克：特斯拉明年年中在得州超级工厂逐步减产 Cybertruck，为 Cybercab 腾出空间",
+      "url": "https://www.ithome.com/1/023/369.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "一汽-大众纯电轿车 ID. AURA L5 将于 11 月 16 日开启盲订，有望年内上市",
+      "url": "https://www.ithome.com/1/023/342.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "刹车踏板支架断裂风波一个月后，鸿蒙智行尊界汽车官方微博重启 V800 车型宣传",
+      "url": "https://www.ithome.com/1/023/340.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "汽车历史首次的突破！消息称比亚迪仰望 U9X 超跑创造 503.17km/h 全新极速世界纪录",
+      "url": "https://www.ithome.com/1/023/329.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-06",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -34419,9 +34796,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 17,
+      "candidateCount": 20,
       "status": "ok",
-      "publicLabel": "列表已读 17 条待核验线索"
+      "publicLabel": "列表已读 20 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -34475,9 +34852,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 22,
+      "candidateCount": 21,
       "status": "ok",
-      "publicLabel": "列表已读 22 条待核验线索"
+      "publicLabel": "列表已读 21 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -34490,11 +34867,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-06T06:52:08.899Z",
+  "collectedAt": "2026-11-06T08:01:22.908Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5241,7 +5241,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "发布全新智能座舱等 NIO IN 2026蔚来创新科技日将于11月25日开幕",
+      "title": "����ȫ���������յ� NIO IN 2026ε�����¿Ƽ��ս���11��25�տ�Ļ 1��ǰ 1629 0 [����֮�� ��Ѷ] 11��4�գ����Ǵ�ε���ٷ��˽⵽��NIO IN 2026ε�����¿Ƽ��ս���11��25���ڹ��ݾ��С���ʱ���ٷ�����Է���AIԭ����...",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318171.html",
       "candidateBrands": [
@@ -5398,7 +5398,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 23
+      "count": 1
     },
     {
       "sourceId": "autohome-industry",
@@ -5409,9 +5409,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-06T06:51:56.988Z",
+      "collectedAt": "2026-11-06T08:00:46.611Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 70,
+      "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
