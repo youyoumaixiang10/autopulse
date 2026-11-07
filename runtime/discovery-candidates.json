@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-06T09:29:36.118Z",
+  "collectedAt": "2026-11-07T00:15:05.945Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5481,6 +5481,46 @@
         "理想"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "超18万台 可能动力中断/驻车功能无法启动 奔驰召回国产/进口车型",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318223.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "泊车辅助系统软件存在偏差 保时捷召回18274辆Cayenne",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318221.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "后轴因焊接不良导致脱开 奇瑞召回超5万辆瑞虎5x/欧萌达系列",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318220.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "森林人、BRZ等多款车型/共计196494辆 斯巴鲁召回旗下多款车型",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318219.html",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -5488,7 +5528,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 24
+      "count": 28
     },
     {
       "sourceId": "autohome-industry",
@@ -5499,7 +5539,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-06T09:29:24.573Z",
+      "collectedAt": "2026-11-07T00:14:54.214Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
