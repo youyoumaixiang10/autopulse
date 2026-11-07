@@ -989,7 +989,6 @@
     "url": "https://news.yiche.com/xinchexiaoxi/20250920/20103721483.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -4958,6 +4957,7 @@
     "url": "https://www.pcauto.com.cn/nation/5186/51865814.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -5040,7 +5040,6 @@
     "url": "https://www.pcauto.com.cn/nation/862/8620151.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10316,6 +10315,7 @@
     "url": "https://www.pcauto.com.cn/nation/5189/51894861.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11322,16 +11322,6 @@
     "url": "https://www.ithome.com/1/023/230.htm",
     "reasons": [
       "无法生成符合编辑规范的标题：缺少标题"
-    ]
-  },
-  {
-    "title": "后轴因焊接不良导致脱开 奇瑞召回超5万辆瑞虎5x/欧萌达系列",
-    "sourceName": "汽车之家资讯",
-    "url": "https://www.autohome.com.cn/news/202611/1318220.html",
-    "reasons": [
-      "正文获取失败",
-      "尚未具备完整的日期与原文",
-      "信息来源待核验"
     ]
   },
   {
