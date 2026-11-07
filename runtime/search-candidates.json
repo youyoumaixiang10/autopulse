@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-07T07:20:13.913Z",
+  "collectedAt": "2026-11-07T08:53:56.296Z",
   "targetDates": [
     "2026-11-06",
     "2026-11-07"
@@ -8790,7 +8790,7 @@
       "title": "【汽车报价】汽车最新报价_汽车价格查询_太平洋汽车",
       "url": "https://price.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-03 2026-11-04",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-06 2026-11-07",
       "verificationStatus": "media-discovery"
     },
     {
@@ -36354,6 +36354,185 @@
       "discoveryPublishedAt": "2026-11-07",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】沃尔沃汽车发布声明辟谣气囊召回短信",
+      "url": "https://auto.ifeng.com/c/8xrOp4worrT",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】奔驰调整自动驾驶路线：优先发展L2级系统，计划2030年后量产L4级",
+      "url": "https://auto.ifeng.com/c/8xrOKxqpe5p",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】本田发布全新冠道预告视频 新车将于12月1日在泰国曼谷车展全球首发",
+      "url": "https://auto.ifeng.com/c/8xrOLUMkps7",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利汽车集团与中国气象局地球系统数值预报中心签署战略合作框架协议并推出交通气象大模型",
+      "url": "https://auto.news18a.com/news/storys_312365.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行发布10月车主用车报告：辅助驾驶里程突破11.14亿公里",
+      "url": "https://www.news18a.com/news/storys_312363.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "本田公布纯电SUV名称Honda Alpha，定于2026年12月2日在印度全球首发",
+      "url": "https://www.news18a.com/news/storys_312361.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "沃尔沃汽车发布声明辟谣气囊召回短信",
+      "url": "https://www.news18a.com/news/storys_312358.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奔驰调整自动驾驶路线：优先发展L2级系统，计划2030年后量产L4级",
+      "url": "https://www.news18a.com/news/storys_312356.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为更多机型鸿蒙 HarmonyOS 7 系统转公测，含 nova 12 / 13 系列、畅享 70X 等",
+      "url": "https://www.ithome.com/1/023/755.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "“超视距安全预警”可识别结冰等危险路况并提示，吉利发布首个车道级气象环境监测大模型",
+      "url": "https://www.ithome.com/1/023/749.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "不法分子冒名发布涉气囊虚假召回信息，沃尔沃汽车发布声明提醒用户提高警惕",
+      "url": "https://www.ithome.com/1/023/748.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "印度生产、走向世界，本田首款全球纯电 SUV 定名 Honda Alpha",
+      "url": "https://www.ithome.com/1/023/747.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称内存价格彻底崩坏前各手机厂商“超大杯”部分影像配置已属绝版硬件",
+      "url": "https://www.ithome.com/1/023/746.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奔驰承认 L3 自动驾驶推进得“太超前”：当下专心搞 L2、未来直接上 L4",
+      "url": "https://www.ithome.com/1/023/737.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为余承东：享界 V8 全国试驾正式开启，发布会临近敬请期待",
+      "url": "https://www.ithome.com/1/023/726.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行发布 10 月车主用车报告，单月辅助驾驶里程突破 11.14 亿公里",
+      "url": "https://www.ithome.com/1/023/716.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "通用汽车新专利：不用踩踏板，车辆在直线加速赛中能自动弹射起步",
+      "url": "https://www.ithome.com/1/023/698.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -36377,9 +36556,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 1,
+      "candidateCount": 3,
       "listRead": false,
-      "publicLabel": "公开检索发现 1 条待核验线索"
+      "publicLabel": "公开检索发现 3 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -36393,9 +36572,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 9,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 9 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",

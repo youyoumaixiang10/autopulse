@@ -1,10 +1,15 @@
 {
-  "completedAt": "2026-11-07T07:25:11.022Z",
-  "durationMs": 296651,
-  "fetched": 328,
-  "skipped": 1430,
-  "cached": 2194,
+  "completedAt": "2026-11-07T08:56:01.845Z",
+  "durationMs": 124928,
+  "fetched": 114,
+  "skipped": 1444,
+  "cached": 2410,
   "failures": [
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://auto.news18a.com/news/storys_304071.html",
+      "reason": "The operation was aborted due to timeout"
+    },
     {
       "sourceId": "news18a-auto",
       "url": "https://www.news18a.com/news/storys_304067.html",
@@ -27,6 +32,11 @@
     },
     {
       "sourceId": "news18a-auto",
+      "url": "https://auto.news18a.com/news/storys_304056.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
       "url": "https://www.news18a.com/news/storys_304055.html",
       "reason": "The operation was aborted due to timeout"
     },
@@ -39,77 +49,72 @@
       "sourceId": "news18a-auto",
       "url": "https://www.news18a.com/news/storys_304053.html",
       "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304052.html",
-      "reason": "The operation was aborted due to timeout"
     }
   ],
   "sourceBudgets": [
     {
       "sourceId": "dongchedi-news",
-      "failureMs": 156941,
-      "skipped": 117,
+      "failureMs": 158104,
+      "skipped": 118,
       "stopped": true
     },
     {
-      "sourceId": "autohome-news",
-      "failureMs": 4338,
-      "skipped": 0,
-      "stopped": false
-    },
-    {
       "sourceId": "gasgoo-auto",
-      "failureMs": 34558,
+      "failureMs": 39436,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "yiche-news",
-      "failureMs": 43328,
+      "failureMs": 41128,
+      "skipped": 0,
+      "stopped": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "failureMs": 4881,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sina-auto",
-      "failureMs": 100944,
-      "skipped": 25,
+      "failureMs": 97782,
+      "skipped": 24,
       "stopped": true
     },
     {
       "sourceId": "chezhitong-auto",
-      "failureMs": 10794,
-      "skipped": 0,
-      "stopped": false
-    },
-    {
-      "sourceId": "pcauto-news",
-      "failureMs": 30365,
+      "failureMs": 9751,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sohu-auto",
-      "failureMs": 103259,
-      "skipped": 259,
+      "failureMs": 94683,
+      "skipped": 266,
       "stopped": true
     },
     {
+      "sourceId": "pcauto-news",
+      "failureMs": 18629,
+      "skipped": 0,
+      "stopped": false
+    },
+    {
       "sourceId": "news18a-auto",
-      "failureMs": 195417,
-      "skipped": 1029,
+      "failureMs": 216020,
+      "skipped": 1036,
       "stopped": true
     },
     {
       "sourceId": "ithome-auto",
-      "failureMs": 1327,
+      "failureMs": 628,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "ifeng-auto",
-      "failureMs": 2898,
+      "failureMs": 1863,
       "skipped": 0,
       "stopped": false
     }

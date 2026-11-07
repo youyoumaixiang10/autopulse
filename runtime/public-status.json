@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-11-07T07:25:19.704Z",
+  "completedAt": "2026-11-07T08:56:13.723Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -349,7 +349,7 @@
       "name": "易车",
       "brands": [],
       "status": "partial",
-      "label": "公开检索发现 1 条待核验线索"
+      "label": "公开检索发现 3 条待核验线索"
     },
     {
       "id": "cailianpress-auto",
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 9 条待核验线索"
+      "label": "列表已读 15 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
