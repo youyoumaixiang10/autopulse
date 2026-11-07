@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-07T00:15:14.999Z",
+  "collectedAt": "2026-11-07T06:03:36.838Z",
   "targetDates": [
     "2026-11-06",
     "2026-11-07"
@@ -2608,7 +2608,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-05 2026-11-06",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-06 2026-11-07",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-05 2026-11-06",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-06 2026-11-07",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2628,7 +2628,7 @@
       "title": "新浪汽车 - 汽车生活源动力！",
       "url": "https://auto.sina.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-05 2026-11-06",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-06 2026-11-07",
       "verificationStatus": "media-discovery"
     },
     {
@@ -33884,7 +33884,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "路虎揽胜威斯敏斯特版上市",
+      "title": "指导价149.8万元 路虎揽胜威斯敏斯特版正式上市",
       "url": "https://www.sohu.com/a/1097626733_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -33894,7 +33894,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "智己LS8 NEO纯电上市权益价23.98万起",
+      "title": "权益价23.98万元起 智己LS8 NEO纯电正式上市",
       "url": "https://www.sohu.com/a/1097701766_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -33904,7 +33904,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "领克08 EM-P上市",
+      "title": "限时置换价15.98万元起 2027款领克08 EM-P正式上市",
       "url": "https://www.sohu.com/a/1097712812_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -33944,7 +33944,7 @@
       "sourceId": "netease-auto",
       "sourceName": "网易汽车",
       "sourceType": "vertical-media",
-      "title": "13.38万起，全新亚洲龙上市！这张皇冠脸，是更帅了还",
+      "title": "13.38万起，全新亚洲龙上市！这张皇冠脸，是更帅了还是老款",
       "url": "https://www.163.com/auto/article/LB0EPTUB0008856R.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34088,7 +34088,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "东风标致2027款408上市",
+      "title": "官方指导价9.97万元 东风标致2027款408正式上市",
       "url": "https://www.sohu.com/a/1098010568_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34098,7 +34098,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "置换价13.59万起 海豹07首搭云辇‑M正式上市",
+      "title": "置换价13.59万起 首搭云辇‑M 第二代海豹07正式上市",
       "url": "https://www.sohu.com/a/1097600518_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34762,7 +34762,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "2026款AION S Plus出行版上市",
+      "title": "售13.08万元 2026款AION S Plus出行版正式上市",
       "url": "https://www.sohu.com/a/1098093294_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34772,7 +34772,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "仰望U9X创全新极速世界纪录",
+      "title": "成绩503.17km/h 仰望U9 Xtreme创造全新极速世界纪录",
       "url": "https://www.sohu.com/a/1098084707_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -35794,6 +35794,373 @@
       "discoveryPublishedAt": "2026-11-06",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "纵横R700将于广州车展首发 封闭式格栅/硬派简约",
+      "url": "https://www.sohu.com/a/1098231200_119208",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "车长近4米9/全景天窗 一汽大众全新ID.AURA L5将上市",
+      "url": "https://www.sohu.com/a/1098216990_120061554",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "续航干到2000km 能量密度是固态5倍!锂空气电池才是\"终极电池\"?",
+      "url": "https://www.sohu.com/a/1098181154_114760",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "智驾提示退出,但车主踩油门无效致追尾 小鹏:属人机共驾",
+      "url": "https://www.sohu.com/a/1098189519_260616",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "里程碑时刻！埃安i60交付破十万台",
+      "url": "https://auto.ifeng.com/c/8xpo1bEWqAb",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】小米汽车与四川美术学院CMF校企合作成果将于11月11日发布",
+      "url": "https://auto.ifeng.com/c/8xr2GNTEcdK",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】智己IM6在巴西圣保罗上市 售价36.899万雷亚尔起",
+      "url": "https://auto.ifeng.com/c/8xr1qH3qWDH",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】岚图汽车辟谣车型虚假价格信息，哪吒汽车新增被执行人信息，特斯拉计划2027年年中左右停止生产Cybe",
+      "url": "https://auto.ifeng.com/c/8xqsst7QWXV",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】2026年1-9月中国出口至“一带一路”沿线国家汽车商品金额达1357.7亿美元",
+      "url": "https://auto.ifeng.com/c/8xqufqoS6gA",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】上汽集团副总裁杨晓东辞职",
+      "url": "https://auto.ifeng.com/c/8xqstMZjfQf",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小米汽车与四川美术学院CMF校企合作成果将于11月11日发布",
+      "url": "https://auto.news18a.com/news/storys_312338.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "智己IM6在巴西圣保罗上市 售价36.899万雷亚尔起",
+      "url": "https://www.news18a.com/news/storys_312336.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "哪吒汽车关联公司新增2则被执行人信息，执行标的逾1.1亿元",
+      "url": "https://www.news18a.com/news/storys_312333.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽集团副总裁杨晓东辞职",
+      "url": "https://www.news18a.com/news/storys_312331.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年1-9月中国出口至“一带一路”沿线国家汽车商品金额达1357.7亿美元",
+      "url": "https://www.news18a.com/news/storys_312330.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "岚图汽车辟谣车型虚假价格信息，哪吒汽车新增被执行人信息，特斯拉计划2027年年中左右停止生产Cybertruck，本田巴西工厂追加投资33亿雷亚尔",
+      "url": "https://auto.news18a.com/news/storys_312328.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "博主分享理想Mega新版本MPV谍照",
+      "url": "https://www.news18a.com/news/storys_312324.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "文远知行创始人韩旭称希望四五年内实现Robotaxi从广州直达香港",
+      "url": "https://www.news18a.com/news/storys_312318.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "参加2026年第七届世界媒体峰会的全球媒体代表探访小米汽车工厂",
+      "url": "https://auto.news18a.com/news/storys_312290.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪发布通知提醒车主警惕伪造车辆召回通知诈骗",
+      "url": "https://www.news18a.com/news/storys_312124.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利星愿STAR限定系列Ace和Chill车型上市，限时权益价8.88万元",
+      "url": "https://auto.news18a.com/news/storys_312113.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "猛士汽车公布猛士X700零部件级拆车信息",
+      "url": "https://www.news18a.com/news/storys_312103.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小米汽车与四川美术学院CMF校企合作成果将于11月11日发布",
+      "url": "https://www.news18a.com/news/storys_312338.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "岚图汽车辟谣车型虚假价格信息，哪吒汽车新增被执行人信息，特斯拉计划2027年年中左右停止生产Cybertruck，本田巴西工厂追加投资33亿雷亚尔",
+      "url": "https://www.news18a.com/news/storys_312328.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "首搭银河战舰700，吉利AI新能源越野技术全球首发2026-08-28",
+      "url": "https://auto.news18a.com/news/storys_291226.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "六载同行 300万份玩心集结！五菱代步车全球300万用户盛典燃动成都露天音乐公园2026-08-08",
+      "url": "https://auto.news18a.com/news/storys_284065.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "东风柳汽迪拜用户大会：全球化战略“走进去”的深度实践2026-02-07",
+      "url": "https://auto.news18a.com/news/storys_230898.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "新势力慌了吗？大众开始用“中国速度”围剿市场2026-04-27",
+      "url": "https://auto.news18a.com/news/storys_251888.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "AITO问界与Abu Dhabi Motors 达成战略合作，开启新豪华全球化新篇章2026-02-06",
+      "url": "https://auto.news18a.com/news/storys_230817.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克：特斯拉 Optimus 机器人考虑只租不卖，生产力是人类的 5 倍、初期造价约 3 万美元",
+      "url": "https://www.ithome.com/1/023/675.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "6.5 升 V12 加三电机：兰博基尼为沙特客户交付两辆沙漠主题 Revuelto 超跑",
+      "url": "https://www.ithome.com/1/023/670.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "男子利用 AI 眼镜、智能戒指驾考作弊被成都交管查获：罚款 1900 元 + 禁考一年",
+      "url": "https://www.ithome.com/1/023/665.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米 18 标准版手机通过 3C 认证，支持 100W 快充",
+      "url": "https://www.ithome.com/1/023/652.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米汽车 × 四川美术学院 CMF 校企合作成果 11 月 11 日发布：当传统民艺遇见当代汽车设计",
+      "url": "https://www.ithome.com/1/023/649.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "保时捷推出 911 Carrera RS 2.7 联名咖啡机，单卖 48200 元",
+      "url": "https://www.ithome.com/1/023/632.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "工信部就机器人“身份证”暂行办法征求意见，全品类机器人“一机一码”",
+      "url": "https://www.ithome.com/1/023/625.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -35809,17 +36176,17 @@
       "sourceId": "ifeng-auto",
       "url": "https://auto.ifeng.com/",
       "listRead": true,
-      "candidateCount": 29,
+      "candidateCount": 30,
       "status": "ok",
-      "publicLabel": "列表已读 29 条待核验线索"
+      "publicLabel": "列表已读 30 条待核验线索"
     },
     {
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 1,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 1 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -35833,17 +36200,18 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 11,
+      "candidateCount": 9,
       "status": "ok",
-      "publicLabel": "列表已读 11 条待核验线索"
+      "publicLabel": "列表已读 9 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
-      "listRead": true,
+      "status": "partial",
       "candidateCount": 0,
-      "status": "no-recent-updates",
-      "publicLabel": "列表已读，窗口内未解析到新闻链接"
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -35889,9 +36257,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 21,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 21 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
