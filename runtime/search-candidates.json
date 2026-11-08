@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-11-07T08:53:56.296Z",
+  "collectedAt": "2026-11-08T00:15:08.563Z",
   "targetDates": [
-    "2026-11-06",
-    "2026-11-07"
+    "2026-11-07",
+    "2026-11-08"
   ],
   "candidates": [
     {
@@ -36533,6 +36533,301 @@
       "discoveryPublishedAt": "2026-11-07",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "预计售208万元！仰望鼎曜全球首发并开启预定 对标劳斯莱斯",
+      "url": "https://www.pcauto.com.cn/nation/5191/51914957.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "一车三床座椅加持 东风日产NX7将于11月13日发布",
+      "url": "https://www.pcauto.com.cn/nation/5191/51912801.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "折合44.7万元起 智己IM6登陆巴西市场",
+      "url": "https://www.pcauto.com.cn/nation/5191/51912795.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "格局变了！全新冠道升级全球车 还带混动系统",
+      "url": "https://www.pcauto.com.cn/nation/5191/51912793.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "中国超豪华行政旗舰轿车 仰望鼎曜于阿布扎比全球首发",
+      "url": "https://www.sohu.com/a/1098578622_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "限量版定金30万元/搭璇玑A3/对开门 仰望鼎曜正式亮相",
+      "url": "https://www.163.com/auto/article/LB5VT9SH0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "\"功夫车，一起造\"：宝马携手产业链伙伴，护航创新技术高质量规模化落地",
+      "url": "https://auto.ifeng.com/c/8xrca8rxQoA",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "北汽福田超充战略正式发布 8C超充轻卡与兆瓦级重卡同步亮相",
+      "url": "https://auto.ifeng.com/c/8xrcgiZKc3w",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "仰望 U9X 阿布扎比跑 503.17km/h",
+      "url": "https://auto.ifeng.com/c/8xsTBXBYhkS",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "仰望鼎曜全球首发",
+      "url": "https://auto.ifeng.com/c/8xsTBXBYhkR",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】马斯克称特斯拉将为Cybertruck增加生产班次以在明年拆除产线前完成订单",
+      "url": "https://auto.ifeng.com/c/8xsSw9iwlzt",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】苏某诉上海皓电汽车租赁有限公司等车辆租赁合同纠纷案将于2026年12月8日开庭",
+      "url": "https://auto.ifeng.com/c/8xsB5Yatq25",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】宝马与宁德时代在11月5日走访活动中披露新世代电池合作细节",
+      "url": "https://auto.ifeng.com/c/8xryaF2OCEk",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "索尼全球首发“基于视觉语言模型的驾驶接管危险预警”，为驾驶员提供分级提示",
+      "url": "https://www.ithome.com/1/023/849.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1108：比亚迪超豪华行政旗舰轿车仰望鼎曜行政版发布；中国空间站将迎首位外籍航天员；深蓝汽车“车载洗脚装置”专利公布；搜狗问问正式停运...",
+      "url": "https://www.ithome.com/1/023/846.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克：特斯拉将增加 Cybertruck 生产班次，以在明年产线拆除前清订单",
+      "url": "https://www.ithome.com/1/023/833.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪超豪华行政旗舰轿车登场！仰望鼎曜行政版车长 5.6 米、续航破千公里",
+      "url": "https://www.ithome.com/1/023/827.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪仰望鼎曜「山河鼎韵」限量版全球限量发售，定金 30 万元",
+      "url": "https://www.ithome.com/1/023/826.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪仰望鼎曜「山河鼎韵」限量版轿车设计细节公布，拥有专属外观内饰「棕岩白玉」及高定配置",
+      "url": "https://www.ithome.com/1/023/825.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克再次表白中国，称赞中国汽车工业水平高",
+      "url": "https://www.ithome.com/1/023/822.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪仰望鼎曜超豪华行政旗舰轿车官图发布：对开车门带雨伞、四座布局后排设香槟杯座",
+      "url": "https://www.ithome.com/1/023/820.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "东方底蕴 + 前沿科技：比亚迪超豪华行政旗舰轿车“仰望鼎曜”全球首秀",
+      "url": "https://www.ithome.com/1/023/817.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "未来 6G 基站不光能通信还能当雷达，新闻联播报道详解新一代通信网加快建设",
+      "url": "https://www.ithome.com/1/023/815.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "日产汽车声明：警惕冒充日产中国发布虚假召回信息的电信诈骗",
+      "url": "https://www.ithome.com/1/023/809.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪方程豹熊甜波：网传的钛 6 确实有，方程 SL 也预计明年会和大家见面",
+      "url": "https://www.ithome.com/1/023/803.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全新红旗 H9 预售：华为乾崑 ADS 5 高阶版加持，32.98 万-41.98 万元",
+      "url": "https://www.ithome.com/1/023/796.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "回顾特斯拉 Cybertruck 坎坷旅程：车窗破裂、长期跳票、11 次召回……",
+      "url": "https://www.ithome.com/1/023/795.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "日本纯电动汽车新车年销量首次突破 10 万辆，明年起补贴金额将下调",
+      "url": "https://www.ithome.com/1/023/794.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-07",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -36540,9 +36835,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 23,
+      "candidateCount": 22,
       "status": "ok",
-      "publicLabel": "列表已读 23 条待核验线索"
+      "publicLabel": "列表已读 22 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -36556,9 +36851,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 3,
+      "candidateCount": 0,
       "listRead": false,
-      "publicLabel": "公开检索发现 3 条待核验线索"
+      "publicLabel": "直连列表与公开检索均未匹配"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -36628,25 +36923,26 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 15,
-      "status": "ok",
-      "publicLabel": "列表已读 15 条待核验线索"
-    },
-    {
-      "sourceId": "netease-auto",
-      "url": "https://auto.163.com/",
-      "listRead": true,
       "candidateCount": 16,
       "status": "ok",
       "publicLabel": "列表已读 16 条待核验线索"
     },
     {
+      "sourceId": "netease-auto",
+      "url": "https://auto.163.com/",
+      "listRead": true,
+      "candidateCount": 17,
+      "status": "ok",
+      "publicLabel": "列表已读 17 条待核验线索"
+    },
+    {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

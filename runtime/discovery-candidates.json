@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-07T08:53:46.495Z",
+  "collectedAt": "2026-11-08T00:14:55.081Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5241,7 +5241,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "发布全新智能座舱等 NIO IN 2026蔚来创新科技日将于11月25日开幕",
+      "title": "����ȫ���������յ� NIO IN 2026ε�����¿Ƽ��ս���11��25�տ�Ļ 2��ǰ 1995 0 [����֮�� ��Ѷ] 11��4�գ����Ǵ�ε���ٷ��˽⵽��NIO IN 2026ε�����¿Ƽ��ս���11��25���ڹ��ݾ��С���ʱ���ٷ�����Է���AIԭ����...",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318171.html",
       "candidateBrands": [
@@ -5645,7 +5645,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "马斯克：明年逐步停产Cybertruck 产线让位于Cybercab",
+      "title": "��˹�ˣ�������ͣ��Cybertruck ������λ��Cybercab 20Сʱǰ 3121 0 [����֮�� ��Ѷ] ����ʱ��11��6�գ���˹��CEO��˹�����罻ƽ̨���ģ��ƹ�˾������������ǰ������β���ݳ���������Cybertruck������ΪC...",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318227.html",
       "candidateBrands": [
@@ -5659,7 +5659,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 27
+      "count": 2
     },
     {
       "sourceId": "autohome-industry",
@@ -5670,7 +5670,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-07T08:53:34.474Z",
+      "collectedAt": "2026-11-08T00:14:22.697Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

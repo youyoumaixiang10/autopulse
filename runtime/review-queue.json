@@ -989,6 +989,7 @@
     "url": "https://news.yiche.com/xinchexiaoxi/20250920/20103721483.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -8691,6 +8692,7 @@
     "url": "https://www.pcauto.com.cn/nation/5188/51886318.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11403,6 +11405,50 @@
     ]
   },
   {
+    "title": "一车三床座椅加持 东风日产NX7将于11月13日发布",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5191/51912801.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "预计售208万元！仰望鼎曜全球首发并开启预定 对标劳斯莱斯",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5191/51914957.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "折合44.7万元起 智己IM6登陆巴西市场",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5191/51912795.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "格局变了！全新冠道升级全球车 还带混动系统",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5191/51912793.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "IT早报 1108：比亚迪超豪华行政旗舰轿车仰望鼎曜行政版发布；中国空间站将迎首位外籍航天员；深蓝汽车“车载洗脚装置”专利公布；搜狗问问正式停运...",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/023/846.htm",
+    "reasons": [
+      "频道问候或无具体车型事件的周期汇总"
+    ]
+  },
+  {
     "title": "四季度上市/第六代DM-i混动技术 方程豹钛9内饰谍照曝光",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202609/1317075.html",
@@ -11726,6 +11772,14 @@
     "title": "一汽-大众纯电轿车 ID. AURA L5 将于 11 月 16 日开启盲订，有望年内上市",
     "sourceName": "IT之家",
     "url": "https://www.ithome.com/1/023/342.htm",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "【网通社快报】奔驰调整自动驾驶路线：优先发展L2级系统，计划2030年后量产L4级",
+    "sourceName": "凤凰网汽车",
+    "url": "https://auto.ifeng.com/c/8xrOKxqpe5p",
     "reasons": [
       "标题与正文不是同一事件"
     ]
