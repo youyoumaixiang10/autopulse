@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-08T06:05:55.466Z",
-  "completedAt": "2026-11-08T06:08:48.769Z",
+  "startedAt": "2026-11-08T07:29:56.172Z",
+  "completedAt": "2026-11-08T07:35:36.964Z",
   "state": "partial",
   "failures": [],
   "blocking": [],
@@ -8,98 +8,57 @@
     "官方微博 16 个账号未采集（微博公开时间线未返回帖文）。公开访客会话读不到时可配置可选密钥 WEIBO_COOKIE；未读到帖文只记警告，不阻断已核验官网内容发布。",
     "部分官网或政策页读取异常：zeekr-info（page.evaluate: Error: 极氪新闻分页信息无效 at eval (eval at <anonymous> (eval at evaluate (:311:30)), <anonymous>:15:52) at async eval (eval at evaluate (:311:30), <anonymous>:1:15) at async）。"
   ],
-  "enrichmentFailures": [
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304067.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304068.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304064.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304058.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304055.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304054.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304053.html",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "sourceId": "news18a-auto",
-      "url": "https://www.news18a.com/news/storys_304052.html",
-      "reason": "The operation was aborted due to timeout"
-    }
-  ],
+  "enrichmentFailures": [],
   "steps": [
     {
       "script": "collect-pilot.mjs",
-      "completedAt": "2026-11-08T06:06:23.860Z",
-      "durationMs": 28393
+      "completedAt": "2026-11-08T07:30:22.973Z",
+      "durationMs": 26801
     },
     {
       "script": "collect-discovery.mjs",
-      "completedAt": "2026-11-08T06:06:35.635Z",
-      "durationMs": 11775
+      "completedAt": "2026-11-08T07:30:34.915Z",
+      "durationMs": 11942
     },
     {
       "script": "collect-openai-web-discovery.mjs",
-      "completedAt": "2026-11-08T06:06:35.669Z",
-      "durationMs": 33
+      "completedAt": "2026-11-08T07:30:34.968Z",
+      "durationMs": 53
     },
     {
       "script": "collect-search-discovery.mjs",
-      "completedAt": "2026-11-08T06:06:42.590Z",
-      "durationMs": 6921
+      "completedAt": "2026-11-08T07:30:41.983Z",
+      "durationMs": 7015
     },
     {
       "script": "enrich-content.mjs",
-      "completedAt": "2026-11-08T06:08:42.275Z",
-      "durationMs": 119685
+      "completedAt": "2026-11-08T07:35:23.826Z",
+      "durationMs": 281843
     },
     {
       "script": "title-editor.mjs",
-      "completedAt": "2026-11-08T06:08:42.303Z",
-      "durationMs": 28
+      "completedAt": "2026-11-08T07:35:23.868Z",
+      "durationMs": 42
     },
     {
       "script": "reconcile-launch-calendar.mjs",
-      "completedAt": "2026-11-08T06:08:42.388Z",
-      "durationMs": 85
+      "completedAt": "2026-11-08T07:35:23.996Z",
+      "durationMs": 128
     },
     {
       "script": "build-daily-report.mjs",
-      "completedAt": "2026-11-08T06:08:48.629Z",
-      "durationMs": 6241
+      "completedAt": "2026-11-08T07:35:36.747Z",
+      "durationMs": 12751
     },
     {
       "script": "validate-content.mjs",
-      "completedAt": "2026-11-08T06:08:48.727Z",
-      "durationMs": 98
+      "completedAt": "2026-11-08T07:35:36.901Z",
+      "durationMs": 153
     },
     {
       "script": "check-coverage.mjs",
-      "completedAt": "2026-11-08T06:08:48.761Z",
-      "durationMs": 34
+      "completedAt": "2026-11-08T07:35:36.952Z",
+      "durationMs": 51
     }
   ],
   "sourceResults": [
@@ -146,7 +105,7 @@
     {
       "sourceId": "byd-news",
       "url": "https://prod.byd.com/cn/news",
-      "checkedAt": "2026-11-08T06:06:05.035Z",
+      "checkedAt": "2026-11-08T07:30:05.044Z",
       "status": "collected",
       "listRead": true,
       "itemCount": 172,
@@ -158,7 +117,7 @@
     {
       "sourceId": "deepal-news",
       "url": "https://deepal.com.cn/news",
-      "checkedAt": "2026-11-08T06:06:05.035Z",
+      "checkedAt": "2026-11-08T07:30:05.044Z",
       "status": "no-recent-updates",
       "listRead": true,
       "itemCount": 47,
@@ -170,7 +129,7 @@
     {
       "sourceId": "zeekr-info",
       "url": "https://www.zeekrlife.com/information",
-      "checkedAt": "2026-11-08T06:06:05.035Z",
+      "checkedAt": "2026-11-08T07:30:05.044Z",
       "status": "failed",
       "listRead": false,
       "candidateCount": 0,
@@ -179,7 +138,7 @@
     {
       "sourceId": "leapmotor-news",
       "url": "https://leapmotor.cn/news/news.html",
-      "checkedAt": "2026-11-08T06:06:05.035Z",
+      "checkedAt": "2026-11-08T07:30:05.044Z",
       "status": "partial",
       "listRead": false,
       "candidateCount": 0,
@@ -189,7 +148,7 @@
     {
       "sourceId": "tesla-home",
       "url": "https://www.tesla.cn/blog",
-      "checkedAt": "2026-11-08T06:06:18.244Z",
+      "checkedAt": "2026-11-08T07:30:18.400Z",
       "listRead": true,
       "status": "no-recent-updates",
       "candidateCount": 0,
@@ -199,7 +158,7 @@
     {
       "sourceId": "galaxy-official",
       "url": "https://galaxy.geely.com/news",
-      "checkedAt": "2026-11-08T06:06:18.247Z",
+      "checkedAt": "2026-11-08T07:30:18.406Z",
       "listRead": true,
       "status": "partial",
       "candidateCount": 0,
@@ -208,7 +167,7 @@
     {
       "sourceId": "li-auto-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:22.852Z",
+      "collectedAt": "2026-11-08T07:30:22.042Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/lixiangzhizao",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -217,7 +176,7 @@
     {
       "sourceId": "denza-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:22.853Z",
+      "collectedAt": "2026-11-08T07:30:22.049Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/2664689831",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -226,7 +185,7 @@
     {
       "sourceId": "byd-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.060Z",
+      "collectedAt": "2026-11-08T07:30:22.198Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/bydauto",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -235,7 +194,7 @@
     {
       "sourceId": "leapmotor-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.058Z",
+      "collectedAt": "2026-11-08T07:30:22.206Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/u/5872290888",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -244,7 +203,7 @@
     {
       "sourceId": "nio-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.133Z",
+      "collectedAt": "2026-11-08T07:30:22.286Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/nextevofficial",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -253,7 +212,7 @@
     {
       "sourceId": "onvo-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.117Z",
+      "collectedAt": "2026-11-08T07:30:22.278Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7892483716",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -262,7 +221,7 @@
     {
       "sourceId": "xiaomi-auto-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.315Z",
+      "collectedAt": "2026-11-08T07:30:22.440Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7871239944",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -271,7 +230,7 @@
     {
       "sourceId": "xpeng-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.319Z",
+      "collectedAt": "2026-11-08T07:30:22.448Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/5710264970",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -280,7 +239,7 @@
     {
       "sourceId": "voyah-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.379Z",
+      "collectedAt": "2026-11-08T07:30:22.522Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7351024207",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -289,7 +248,7 @@
     {
       "sourceId": "avatr-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.399Z",
+      "collectedAt": "2026-11-08T07:30:22.517Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/avatr",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -298,7 +257,7 @@
     {
       "sourceId": "deepal-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.578Z",
+      "collectedAt": "2026-11-08T07:30:22.717Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/7751244203",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -307,7 +266,7 @@
     {
       "sourceId": "tesla-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.575Z",
+      "collectedAt": "2026-11-08T07:30:22.684Z",
       "candidateCount": 0,
       "entryUrl": "https://www.weibo.com/teslaofficial",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -316,7 +275,7 @@
     {
       "sourceId": "zeekr-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.646Z",
+      "collectedAt": "2026-11-08T07:30:22.755Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7576049404",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -325,7 +284,7 @@
     {
       "sourceId": "galaxy-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.679Z",
+      "collectedAt": "2026-11-08T07:30:22.771Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/7794864065",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -334,7 +293,7 @@
     {
       "sourceId": "changan-qiyuan-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.832Z",
+      "collectedAt": "2026-11-08T07:30:22.929Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/3194397971",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -343,7 +302,7 @@
     {
       "sourceId": "hima-weibo",
       "status": "degraded",
-      "collectedAt": "2026-11-08T06:06:23.839Z",
+      "collectedAt": "2026-11-08T07:30:22.951Z",
       "candidateCount": 0,
       "entryUrl": "https://weibo.com/u/3032210184",
       "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
@@ -353,7 +312,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 24
+      "count": 21
     },
     {
       "sourceId": "autohome-industry",
@@ -364,9 +323,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-08T06:06:23.898Z",
+      "collectedAt": "2026-11-08T07:30:23.035Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 70,
+      "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     },
     {
@@ -389,9 +348,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 2,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 2 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",

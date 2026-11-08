@@ -3685,6 +3685,25 @@
     "observation": "已官宣但未形成可追溯的正式上市日；未公布价格记为待公布。"
   },
   {
+    "id": "launch-a1377f5528295e42",
+    "month": "2026-11",
+    "dateText": "待定",
+    "windowText": "已亮相（上市日期待官宣）",
+    "brand": "本田",
+    "model": "RN0",
+    "kind": "亮相",
+    "powertrain": "动力形式待公布",
+    "priceText": "价格待公布",
+    "status": "confirmed",
+    "statusLabel": "已官宣",
+    "sourceName": "IT之家",
+    "sourceUrl": "https://www.ithome.com/1/023/903.htm",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-11-08",
+    "detail": "IT之家 11 月 8 日消息，在 2026 年米兰国际摩托车展上，本田首款高端电助力山地车 RN0 正式亮相。RN0 由本田与德国高端电助力山地车制造商 ROTWILD 联合开发，采用专门设计的碳纤维单体壳车架和独特的鸥翼式后摇臂，后者设计灵感来自本田多年来积累的摩托车车架研发经验。 IT之家获悉，RN0 整车重约 24kg，是一款兼顾多种骑行场景的电助力山地车。前部配备 160mm 行程的 FOX 36 FLOAT Factory Kashima 前叉，后部则采用 FOX FLOAT X Factory Kashima 避震器。车辆采用 DT Swiss H1900 SPLINE 轮组，具备前 29 英寸、后 27.5 英寸的混搭轮径，搭配 Shimano DEORE XT 四活塞碟刹。 动力系统方面，RN0 搭载 Shimano 新款电机，重量仅 2.3kg，最大扭矩 100Nm，峰值功率 750W，电池容量则达到 720",
+    "observation": "已官宣但未形成可追溯的正式上市日；未公布价格记为待公布。"
+  },
+  {
     "id": "launch-8553b52eea257d74",
     "month": "2026-11",
     "dateText": "待定",

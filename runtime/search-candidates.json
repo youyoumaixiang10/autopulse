@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-08T06:06:42.555Z",
+  "collectedAt": "2026-11-08T07:30:41.940Z",
   "targetDates": [
     "2026-11-07",
     "2026-11-08"
@@ -2608,7 +2608,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-06 2026-11-07",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-07 2026-11-08",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-06 2026-11-07",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-07 2026-11-08",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2628,7 +2628,7 @@
       "title": "新浪汽车 - 汽车生活源动力！",
       "url": "https://auto.sina.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-06 2026-11-07",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-07 2026-11-08",
       "verificationStatus": "media-discovery"
     },
     {
@@ -8790,7 +8790,7 @@
       "title": "【汽车报价】汽车最新报价_汽车价格查询_太平洋汽车",
       "url": "https://price.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-06 2026-11-07",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-07 2026-11-08",
       "verificationStatus": "media-discovery"
     },
     {
@@ -37238,6 +37238,190 @@
       "discoveryPublishedAt": "2026-11-08",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "启境 GX7 累计交付破 4000 台",
+      "url": "https://auto.ifeng.com/c/8xsxxYq8Sws",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪宣布腾势N8全国首批实车到店，将于11月12日上市",
+      "url": "https://auto.ifeng.com/c/8xsyt7M2xaV",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪李柯回应收购玛莎拉蒂传闻：几年前有兴趣，现在已无",
+      "url": "https://auto.ifeng.com/c/8xsybBLthcW",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】仰望鼎曜、2027款领克08 EM-P、smart精灵#2等多款新车于11月发布或上市",
+      "url": "https://auto.ifeng.com/c/8xsvmtbTgOc",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪宣布腾势N8全国首批实车到店，将于11月12日上市",
+      "url": "https://auto.news18a.com/news/storys_312600.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪李柯回应收购玛莎拉蒂传闻：几年前有兴趣，现在已无",
+      "url": "https://www.news18a.com/news/storys_312603.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "仰望鼎曜、2027款领克08 EM-P、smart精灵#2等多款新车于11月发布或上市",
+      "url": "https://www.news18a.com/news/storys_312598.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "索尼在第九届进博会全球首发“语义慧行”可透视车联网预警系统",
+      "url": "https://www.news18a.com/news/storys_312596.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "荣威家越07上市首周交付量突破5000台",
+      "url": "https://auto.news18a.com/news/storys_312592.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "启境GX7在深圳举行集体交付活动，累计交付量突破4000台",
+      "url": "https://www.news18a.com/news/storys_312586.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉上调美国市场Cybertruck售价并暂停入门版订单",
+      "url": "https://auto.news18a.com/news/storys_312582.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "索尼在第九届中国国际进口博览会全球首发“基于视觉语言模型的驾驶接管危险预警”技术",
+      "url": "https://www.news18a.com/news/storys_312576.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "苏某诉上海皓电汽车租赁有限公司等车辆租赁合同纠纷案将于2026年12月8日开庭",
+      "url": "https://auto.news18a.com/news/storys_312569.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪仰望鼎曜在阿布扎比全球首秀，「山河鼎韵」限量版开启发售",
+      "url": "https://www.news18a.com/news/storys_312560.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "本田首款高端电助力山地车 RN0 亮相：碳纤维车架、100Nm 扭矩、720Wh 电池",
+      "url": "https://www.ithome.com/1/023/903.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称广汽人形机器人预计 2029 年形成万台产能",
+      "url": "https://www.ithome.com/1/023/902.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪李柯回应收购玛莎拉蒂传闻：或许几年前兴趣更高，但现在我们已经走出属于自己的道路",
+      "url": "https://www.ithome.com/1/023/894.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪腾势 N8 首批实车到店，11 月 12 日上市",
+      "url": "https://www.ithome.com/1/023/889.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -37261,9 +37445,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 2,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 2 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
