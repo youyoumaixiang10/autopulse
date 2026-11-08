@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-08T00:14:55.081Z",
+  "collectedAt": "2026-11-08T06:06:35.625Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5241,7 +5241,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "����ȫ���������յ� NIO IN 2026ε�����¿Ƽ��ս���11��25�տ�Ļ 2��ǰ 1995 0 [����֮�� ��Ѷ] 11��4�գ����Ǵ�ε���ٷ��˽⵽��NIO IN 2026ε�����¿Ƽ��ս���11��25���ڹ��ݾ��С���ʱ���ٷ�����Է���AIԭ����...",
+      "title": "发布全新智能座舱等 NIO IN 2026蔚来创新科技日将于11月25日开幕",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318171.html",
       "candidateBrands": [
@@ -5645,13 +5645,35 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "��˹�ˣ�������ͣ��Cybertruck ������λ��Cybercab 20Сʱǰ 3121 0 [����֮�� ��Ѷ] ����ʱ��11��6�գ���˹��CEO��˹�����罻ƽ̨���ģ��ƹ�˾������������ǰ������β���ݳ���������Cybertruck������ΪC...",
+      "title": "马斯克：明年逐步停产Cybertruck 产线让位于Cybercab",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318227.html",
       "candidateBrands": [
         "特斯拉"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪版劳斯莱斯？山河鼎韵限量版预选价208万 一文看懂仰望鼎曜",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318233.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "沃尔沃声明：网传“气囊召回”通知系假冒，切勿点击不明链接",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318230.html",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -5659,7 +5681,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 2
+      "count": 24
     },
     {
       "sourceId": "autohome-industry",
@@ -5670,9 +5692,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-08T00:14:22.697Z",
+      "collectedAt": "2026-11-08T06:06:23.898Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 69,
+      "candidateCount": 70,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

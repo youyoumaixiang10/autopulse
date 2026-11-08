@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-08T00:15:08.563Z",
+  "collectedAt": "2026-11-08T06:06:42.555Z",
   "targetDates": [
     "2026-11-07",
     "2026-11-08"
@@ -35658,7 +35658,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "吉利星愿上市两年销量突破百万辆，两款限定车型同步上市",
+      "title": "吉利星愿限定系列上市",
       "url": "https://auto.news18a.com/news/storys_312269.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -36828,6 +36828,416 @@
       "discoveryPublishedAt": "2026-11-07",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "全新设计风格/新车标 新款本田冠道将发布",
+      "url": "https://www.sohu.com/a/1098564101_126686",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展:补能、订阅、车云一体化开启新生态",
+      "url": "https://www.sohu.com/a/1098657103_389163",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "新车申报从90款跌到5款 车企不敢上新了?",
+      "url": "https://www.sohu.com/a/1098546055_116062",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "设独立门店 撑起小鹏半边天的MONA要单飞?",
+      "url": "https://www.sohu.com/a/1098665930_256375",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "8C超充轻卡/兆瓦级重卡亮相 北汽福田超充战略发布",
+      "url": "https://www.sohu.com/a/1098695310_120774496",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】索尼在第九届进博会全球首发“语义慧行”可透视车联网预警系统",
+      "url": "https://auto.ifeng.com/c/8xsu9koItTc",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】仰望U9X在阿联酋跑出503.17km/h并获两项吉尼斯世界纪录",
+      "url": "https://auto.ifeng.com/c/8xstIzjSKGd",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】荣威家越07上市首周交付量突破5000台",
+      "url": "https://auto.ifeng.com/c/8xsreZwgbv3",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】马斯克在Baron投资峰会披露特斯拉上海工厂独资谈判过程",
+      "url": "https://auto.ifeng.com/c/8xspN2nUN5m",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】欧洲汽车工业协会在第九届进博会举办商用车行业对话",
+      "url": "https://auto.ifeng.com/c/8xspZOSAvyY",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "索尼在第九届进博会全球首发“语义慧行”可透视车联网预警系统",
+      "url": "https://auto.news18a.com/news/storys_312596.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "仰望U9X在阿联酋跑出503.17km/h并获两项吉尼斯世界纪录",
+      "url": "https://www.news18a.com/news/storys_312594.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "荣威家越07上市首周交付量突破5000台",
+      "url": "https://www.news18a.com/news/storys_312592.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马斯克在Baron投资峰会披露特斯拉上海工厂独资谈判过程",
+      "url": "https://www.news18a.com/news/storys_312590.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "欧洲汽车工业协会在第九届进博会举办商用车行业对话",
+      "url": "https://www.news18a.com/news/storys_312588.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "启境GX7在深圳举行集体交付活动，累计交付量突破4000台",
+      "url": "https://auto.news18a.com/news/storys_312586.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "美国NHTSA推进车辆召回机制改革，将OTA升级作为提升修复率核心路径",
+      "url": "https://www.news18a.com/news/storys_312584.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉上调美国市场Cybertruck售价并暂停入门版订单",
+      "url": "https://www.news18a.com/news/storys_312582.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "索尼在第九届进博会首发车载乘客眩晕检测技术",
+      "url": "https://www.news18a.com/news/storys_312580.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "第九届进博会汽车展区：安波福、米其林、伟巴斯特展出车载光纤、轮胎感知软件及车顶遮阳系统",
+      "url": "https://www.news18a.com/news/storys_312578.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "索尼在第九届中国国际进口博览会全球首发“基于视觉语言模型的驾驶接管危险预警”技术",
+      "url": "https://auto.news18a.com/news/storys_312576.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马斯克称特斯拉将为Cybertruck增加生产班次以在明年拆除产线前完成订单",
+      "url": "https://www.news18a.com/news/storys_312571.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "苏某诉上海皓电汽车租赁有限公司等车辆租赁合同纠纷案将于2026年12月8日开庭",
+      "url": "https://www.news18a.com/news/storys_312569.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马第六代eDrive电驱技术在中国实现量产",
+      "url": "https://www.news18a.com/news/storys_312564.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马与宁德时代在11月5日走访活动中披露新世代电池合作细节",
+      "url": "https://www.news18a.com/news/storys_312562.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪仰望鼎曜在阿布扎比全球首秀，「山河鼎韵」限量版开启发售",
+      "url": "https://auto.news18a.com/news/storys_312560.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪仰望鼎曜轿车在阿布扎比全球首秀",
+      "url": "https://www.news18a.com/news/storys_312426.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "日产汽车发布声明提示防范冒充官方发送虚假召回信息的电信诈骗",
+      "url": "https://www.news18a.com/news/storys_312421.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马集团公布2026年前三季度全球销量数据",
+      "url": "https://www.news18a.com/news/storys_312419.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长城汽车2026年前三季度归母净利润38.26亿元 同比下降55.69%",
+      "url": "https://www.news18a.com/news/storys_312420.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽荣威家越 07 上市首周交付突破 5000 台，限时权益价 11.98-14.48 万元",
+      "url": "https://www.ithome.com/1/023/884.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "科学家研发石墨烯能量采集器：可从环境电磁辐射中“隔空取电”，为传感器供电",
+      "url": "https://www.ithome.com/1/023/882.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "乘联分会崔东树：1-10 月新车 129 款，增程车型 42 款翻倍增长",
+      "url": "https://www.ithome.com/1/023/878.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉更新 AI 加速器路线图：SI6 算力达 HW4 的 80 倍，Dojo D3 将面向太空部署",
+      "url": "https://www.ithome.com/1/023/876.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "启境 GX7 累计交付量突破 4000 台，搭载华为乾崑智驾 ADS 5 与鸿蒙座舱 6",
+      "url": "https://www.ithome.com/1/023/875.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "OPPO 认证新款 120W 三口充电器，1A2C 接口设计",
+      "url": "https://www.ithome.com/1/023/868.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "美国 NHTSA 推进车辆召回机制改革，OTA 升级成提升修复率核心路径",
+      "url": "https://www.ithome.com/1/023/866.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "明年停产的特斯拉 Cybertruck 又涨价，入门版已暂停接受订单",
+      "url": "https://www.ithome.com/1/023/863.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "陶琳：特斯拉上海超级工厂零部件本土化率达 98%",
+      "url": "https://www.ithome.com/1/023/861.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长城欧拉 7 车尾官图发布，旅行车赛道再添新成员",
+      "url": "https://www.ithome.com/1/023/852.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -36867,9 +37277,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 15,
+      "candidateCount": 16,
       "status": "ok",
-      "publicLabel": "列表已读 15 条待核验线索"
+      "publicLabel": "列表已读 16 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -36923,9 +37333,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 16,
+      "candidateCount": 17,
       "status": "ok",
-      "publicLabel": "列表已读 16 条待核验线索"
+      "publicLabel": "列表已读 17 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -36938,11 +37348,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

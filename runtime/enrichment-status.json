@@ -1,115 +1,115 @@
 {
-  "completedAt": "2026-11-08T00:19:39.639Z",
-  "durationMs": 270542,
-  "fetched": 350,
-  "skipped": 1426,
-  "cached": 2220,
+  "completedAt": "2026-11-08T06:08:42.224Z",
+  "durationMs": 119265,
+  "fetched": 133,
+  "skipped": 1457,
+  "cached": 2448,
   "failures": [
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_304071.html",
+      "url": "https://www.news18a.com/news/storys_304067.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_304056.html",
+      "url": "https://www.news18a.com/news/storys_304068.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_304051.html",
+      "url": "https://www.news18a.com/news/storys_304064.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_304047.html",
+      "url": "https://www.news18a.com/news/storys_304058.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_303569.html",
+      "url": "https://www.news18a.com/news/storys_304055.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_301101.html",
+      "url": "https://www.news18a.com/news/storys_304054.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_300904.html",
+      "url": "https://www.news18a.com/news/storys_304053.html",
       "reason": "The operation was aborted due to timeout"
     },
     {
       "sourceId": "news18a-auto",
-      "url": "https://auto.news18a.com/news/storys_299736.html",
+      "url": "https://www.news18a.com/news/storys_304052.html",
       "reason": "The operation was aborted due to timeout"
     }
   ],
   "sourceBudgets": [
     {
       "sourceId": "dongchedi-news",
-      "failureMs": 156964,
+      "failureMs": 155939,
       "skipped": 117,
       "stopped": true
     },
     {
-      "sourceId": "gasgoo-auto",
-      "failureMs": 42748,
+      "sourceId": "autohome-news",
+      "failureMs": 4005,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "yiche-news",
-      "failureMs": 34977,
+      "failureMs": 30135,
       "skipped": 0,
       "stopped": false
     },
     {
-      "sourceId": "autohome-news",
-      "failureMs": 5916,
+      "sourceId": "gasgoo-auto",
+      "failureMs": 42735,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sina-auto",
-      "failureMs": 94213,
+      "failureMs": 101309,
       "skipped": 24,
       "stopped": true
     },
     {
       "sourceId": "chezhitong-auto",
-      "failureMs": 8771,
-      "skipped": 0,
-      "stopped": false
-    },
-    {
-      "sourceId": "pcauto-news",
-      "failureMs": 14871,
+      "failureMs": 8555,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sohu-auto",
-      "failureMs": 97906,
-      "skipped": 264,
+      "failureMs": 99164,
+      "skipped": 262,
       "stopped": true
     },
     {
+      "sourceId": "pcauto-news",
+      "failureMs": 14343,
+      "skipped": 0,
+      "stopped": false
+    },
+    {
       "sourceId": "news18a-auto",
-      "failureMs": 210931,
-      "skipped": 1021,
+      "failureMs": 197566,
+      "skipped": 1054,
       "stopped": true
     },
     {
       "sourceId": "ithome-auto",
-      "failureMs": 1000,
+      "failureMs": 795,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "ifeng-auto",
-      "failureMs": 3760,
+      "failureMs": 3187,
       "skipped": 0,
       "stopped": false
     }
