@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-11-08T09:07:13.985Z",
+  "collectedAt": "2026-11-09T00:10:20.055Z",
   "targetDates": [
-    "2026-11-07",
-    "2026-11-08"
+    "2026-11-08",
+    "2026-11-09"
   ],
   "candidates": [
     {
@@ -2608,7 +2608,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-07 2026-11-08",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-08 2026-11-09",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-07 2026-11-08",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-08 2026-11-09",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2628,7 +2628,7 @@
       "title": "新浪汽车 - 汽车生活源动力！",
       "url": "https://auto.sina.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-07 2026-11-08",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-08 2026-11-09",
       "verificationStatus": "media-discovery"
     },
     {
@@ -8790,7 +8790,7 @@
       "title": "【汽车报价】汽车最新报价_汽车价格查询_太平洋汽车",
       "url": "https://price.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-07 2026-11-08",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-08 2026-11-09",
       "verificationStatus": "media-discovery"
     },
     {
@@ -37524,6 +37524,408 @@
       "discoveryPublishedAt": "2026-11-08",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "国产宝马3系/极氪001领衔 最新一期工信部申报信息汇总",
+      "url": "https://www.pcauto.com.cn/nation/5191/51915109.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "配空气悬架+后轮转向 全新红旗H9预售32.98万元起",
+      "url": "https://www.pcauto.com.cn/nation/5191/51915060.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "限时售11.98万起 荣威家越07上市首周交付5000辆",
+      "url": "https://www.pcauto.com.cn/nation/5191/51915059.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "魏牌二代蓝山即将预售！全系800V/2.0T插混 配双腔空悬+后轮转向",
+      "url": "https://www.pcauto.com.cn/nation/5191/51915058.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "埃安Ray7纯电轿车实测续航",
+      "url": "https://www.sohu.com/a/1098805599_463482",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "配14.6英寸大屏/505km续航 2026款AION S Plus出行版售13.08",
+      "url": "https://www.163.com/auto/article/LB8B06SB0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】全新红旗H9于11月7日开启预售，全系搭载华为乾崑智驾及鸿蒙座舱",
+      "url": "https://auto.ifeng.com/c/8xuAAAJYAOj",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】鸿蒙智行问界新M8宣布配备全新一代智能底盘并新增主动式后轮转向",
+      "url": "https://auto.ifeng.com/c/8xu8Y8wR5yP",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】QNX 2026年度开发者大会将于12月3日在上海举办",
+      "url": "https://auto.ifeng.com/c/8xu7bHaouev",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】科大讯飞发布星火智慧座舱3.0及两款AI Box，已搭载于奇瑞、长城魏牌、东风日产车型",
+      "url": "https://auto.ifeng.com/c/8xu7bHaoueu",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪李云飞称2026年全年销量预计较2025年略有增长",
+      "url": "https://auto.ifeng.com/c/8xtXXXo67dd",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "全新红旗H9于11月7日开启预售，全系搭载华为乾崑智驾及鸿蒙座舱",
+      "url": "https://auto.news18a.com/news/storys_312826.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行问界新M8宣布配备全新一代智能底盘并新增主动式后轮转向",
+      "url": "https://www.news18a.com/news/storys_312821.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "科大讯飞发布星火智慧座舱3.0及两款AI Box，已搭载于奇瑞、长城魏牌、东风日产车型",
+      "url": "https://www.news18a.com/news/storys_312824.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "QNX 2026年度开发者大会将于12月3日在上海举办",
+      "url": "https://www.news18a.com/news/storys_312823.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马斯克称特斯拉将改进Cybercab，换装40kWh电池组并新增液态银色配色",
+      "url": "https://www.news18a.com/news/storys_312817.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪李云飞称2026年全年销量预计较2025年略有增长",
+      "url": "https://auto.news18a.com/news/storys_312685.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "李书福在2026世界互联网大会乌镇咖荟·汽车夜话上称吉利完全认同换电模式",
+      "url": "https://www.news18a.com/news/storys_312683.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "保时捷发布新一代通讯管理系统，911、Taycan、Panamera及卡宴将搭载",
+      "url": "https://www.news18a.com/news/storys_312681.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "方程豹披露多款新车规划 钛9将于11月上市",
+      "url": "https://www.news18a.com/news/storys_312679.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来智慧工厂半个月内两次登上央视报道",
+      "url": "https://www.news18a.com/news/storys_312677.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长安Lumin PLUS将于11月11日上市",
+      "url": "https://auto.news18a.com/news/storys_312675.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "无人配送车补胎后未付20元费用驶离，修车店老板花费200多元油费追回",
+      "url": "https://www.news18a.com/news/storys_312669.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "北汽极狐贝塔S3获推OTA升级 新增6项功能",
+      "url": "https://www.news18a.com/news/storys_312665.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利银河星耀6 EF上市、富士康发布三款新车及多项汽车行业进展",
+      "url": "https://www.news18a.com/news/storys_312667.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪仰望鼎曜“山河鼎韵”限量版价格公布为208万元",
+      "url": "https://www.news18a.com/news/storys_312663.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "荷兰一辆2016款大众XL1在Catawiki网站进行拍卖",
+      "url": "https://auto.news18a.com/news/storys_312605.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1109：208 万元比亚迪仰望鼎曜限量版车型价格揭晓；曝 ChatGPT 突现封号风波；特斯拉上海工厂零部件本土化率达 98%；央视曝光二手交易“到手刀”乱象...",
+      "url": "https://www.ithome.com/1/024/030.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "靳玉志：全新红旗 H9 全系搭载华为乾崑智驾、鸿蒙座舱、智能车控、HUAWEI SOUND、鲸鳍通信等",
+      "url": "https://www.ithome.com/1/024/028.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行问界新 M8 官宣配备全新一代智能底盘，升级双阀连续可变阻尼减振器等",
+      "url": "https://www.ithome.com/1/024/026.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克：特斯拉将进一步改进 Cybercab，提升能效、新增配色",
+      "url": "https://www.ithome.com/1/024/011.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "博世吴永桥：汽车不该拿来订咖啡、订机票，建议手机和车机划清边界",
+      "url": "https://www.ithome.com/1/024/008.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "李云飞：比亚迪今年全年销量预计略有增长，海外增长更高",
+      "url": "https://www.ithome.com/1/024/007.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "李书福称吉利完全认同换电模式，“车电不同寿”的矛盾还没集中爆发",
+      "url": "https://www.ithome.com/1/024/005.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "保时捷多款车型车机性能升级：新一代通讯管理系统算力达前代 5 倍",
+      "url": "https://www.ithome.com/1/024/004.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奔驰要把屏幕“装”进车玻璃：后挡风能提醒注意路况，侧窗能告诉你汽车电量",
+      "url": "https://www.ithome.com/1/024/002.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "四门版“糯玉米”：消息称长安 Lumin PLUS 纯电小车将于 11 月 11 日上市",
+      "url": "https://www.ithome.com/1/023/994.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "劳斯莱斯今年前 9 月交付同比降 12.4%，成宝马集团旗下跌幅最大品牌",
+      "url": "https://www.ithome.com/1/023/942.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "北汽极狐贝塔 S3 获推 OTA 升级，增加苹果 CarPlay、华为 HiCar 手机互联等",
+      "url": "https://www.ithome.com/1/023/929.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-08",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -37547,9 +37949,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 1,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 1 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -37563,9 +37965,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 15,
+      "candidateCount": 12,
       "status": "ok",
-      "publicLabel": "列表已读 15 条待核验线索"
+      "publicLabel": "列表已读 12 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -37619,17 +38021,17 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 26,
+      "candidateCount": 27,
       "status": "ok",
-      "publicLabel": "列表已读 26 条待核验线索"
+      "publicLabel": "列表已读 27 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 17,
+      "candidateCount": 18,
       "status": "ok",
-      "publicLabel": "列表已读 17 条待核验线索"
+      "publicLabel": "列表已读 18 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
