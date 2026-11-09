@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-09T08:08:41.500Z",
+  "collectedAt": "2026-11-09T09:54:46.151Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5842,9 +5842,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-09T08:08:29.575Z",
+      "collectedAt": "2026-11-09T09:54:34.189Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 70,
+      "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

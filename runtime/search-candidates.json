@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-09T08:08:55.641Z",
+  "collectedAt": "2026-11-09T09:54:53.224Z",
   "targetDates": [
     "2026-11-08",
     "2026-11-09"
@@ -36166,7 +36166,7 @@
       "sourceId": "ifeng-auto",
       "sourceName": "凤凰网汽车",
       "sourceType": "vertical-media",
-      "title": "第七届“世界互联网大会乌镇咖荟·汽车夜话”圆满落幕",
+      "title": "第七届“世界互联网大会乌镇咖荟·汽车夜话”",
       "url": "https://auto.ifeng.com/c/8xr8pQwKy3B",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -36598,7 +36598,7 @@
       "sourceId": "ifeng-auto",
       "sourceName": "凤凰网汽车",
       "sourceType": "vertical-media",
-      "title": "\"功夫车，一起造\"：宝马携手产业链伙伴，护航创新技术高质量规模化落地",
+      "title": "宝马携手产业链伙伴，护航创新技术高质量规模化落地",
       "url": "https://auto.ifeng.com/c/8xrca8rxQoA",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -38589,7 +38589,7 @@
       "sourceId": "ithome-auto",
       "sourceName": "IT之家",
       "sourceType": "vertical-media",
-      "title": "乘联分会报告披露小米汽车 10 月零售销量 50,168 辆",
+      "title": "乘联分会报告披露小米汽车 10 月销量数据：批发 50,168 辆，零售 50,123 辆",
       "url": "https://www.ithome.com/1/024/335.htm",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-09",
@@ -38628,6 +38628,385 @@
       "discoveryPublishedAt": "2026-11-09",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "预计售35-40万 方程豹钛9顶配开启预定/配置曝光",
+      "url": "https://www.163.com/auto/article/LBAFUIU60008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "舍弗勒亮出四大汽车技术主题！500余件产品亮相，坚定立足中国",
+      "url": "https://auto.ifeng.com/c/8xumbqK1Nd5",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪第1900万辆新能源汽车下线，车型为方程豹钛9",
+      "url": "https://auto.ifeng.com/c/8xunqnr4j5q",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】松下在第九届进博会发布中国区域发展战略",
+      "url": "https://auto.ifeng.com/c/8xunqnr4j5p",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】百度地图在2026世界互联网大会乌镇峰会披露时空智能布局及相关数据",
+      "url": "https://auto.ifeng.com/c/8xunnyZUI4A",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】捷豹路虎中国发布声明提醒警惕虚假车辆召回信息",
+      "url": "https://auto.ifeng.com/c/8xumbqK1NRM",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奥迪A8正式停产，继任车型计划2030年前推出",
+      "url": "https://auto.news18a.com/news/storys_312988.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "丰田计划扩大中国本地采购并发布2027财年半年报",
+      "url": "https://www.news18a.com/news/storys_312985.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Aratas亮相第九届进博会并发布中国区战略",
+      "url": "https://www.news18a.com/news/storys_312981.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第1900万辆新能源汽车下线，车型为方程豹钛9",
+      "url": "https://www.news18a.com/news/storys_312976.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "百度地图在2026世界互联网大会乌镇峰会披露时空智能布局及相关数据",
+      "url": "https://www.news18a.com/news/storys_312972.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "松下在第九届进博会发布中国区域发展战略",
+      "url": "https://auto.news18a.com/news/storys_312974.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "极狐贝塔S3 535ULTRA+激光换电版将于11月13日上市",
+      "url": "https://www.news18a.com/news/storys_312965.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "捷豹路虎中国发布声明提醒警惕虚假车辆召回信息",
+      "url": "https://www.news18a.com/news/storys_312964.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "北汽福田发布全域超充生态战略并亮相两款新能源商用车",
+      "url": "https://www.news18a.com/news/storys_312967.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "工信部第413批新车申报目录公示 申报总数较上一批次下滑",
+      "url": "https://www.news18a.com/news/storys_312962.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "仰望两款车型在阿联酋亮相 一款获503.17km/h极速认证 一款开启限量预定",
+      "url": "https://auto.news18a.com/news/storys_312960.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "捷达德方总经理回应网友纯电方头捷达量产提议：将交内部团队评估",
+      "url": "https://www.news18a.com/news/storys_312979.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "倍耐力与蔚来签署战略合作协议",
+      "url": "https://www.news18a.com/news/storys_312961.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "河南省商务厅等19部门联合印发促进汽车全链条消费行动方案",
+      "url": "https://www.news18a.com/news/storys_312958.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "现代起亚10月电动车销量达1.2267万辆 同比增长95.9%",
+      "url": "https://www.news18a.com/news/storys_312956.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽-大众因转向螺栓隐患召回超41.7万辆揽境与奥迪Q3",
+      "url": "https://auto.news18a.com/news/storys_312955.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "三菱汽车发布2026财年上半年财报并下调全年销量预期",
+      "url": "https://www.news18a.com/news/storys_312970.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "10月国内二手车批售指数报收62 较上月回落3个点位",
+      "url": "https://www.news18a.com/news/storys_312951.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "新石器与上汽大通联合开发的X6T无人车在上汽大通南京工厂连续运行四个多月",
+      "url": "https://www.news18a.com/news/storys_312968.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "新出行CEO贺磊辟谣尊界推出40万至50万元SUV子品牌传闻",
+      "url": "https://www.news18a.com/news/storys_312950.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "领克07GT帕尔马紫调高定版上市 售价15.98万元起",
+      "url": "https://auto.news18a.com/news/storys_312931.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行：问界 M8 上市 19 个月，累计交付突破 19 万台",
+      "url": "https://www.ithome.com/1/024/381.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪方程豹钛 9 顶配版官宣，将搭载全景 PHUD 天际屏等“全新科技”",
+      "url": "https://www.ithome.com/1/024/378.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奥迪 A8 旗舰轿车正式停产，继任车型 2030 年前亮相",
+      "url": "https://www.ithome.com/1/024/376.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "丰田计划通过扩大本地采购“重夺中国市场份额”",
+      "url": "https://www.ithome.com/1/024/373.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "河南：2028 年底前累计建成充电枪超 33 万个，支持各市县取消皮卡车进城限制",
+      "url": "https://www.ithome.com/1/024/366.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第 1900 万辆新能源汽车下线，车型为方程豹钛 9",
+      "url": "https://www.ithome.com/1/024/365.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "捷豹路虎提醒：警惕不法分子发送虚假车辆召回信息",
+      "url": "https://www.ithome.com/1/024/359.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "极狐贝塔 S3 535ULTRA+ 激光换电版将于 11 月 13 日上市，支持 99 秒极速换电",
+      "url": "https://www.ithome.com/1/024/358.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称鸿蒙智行尊界将迎“大年”：切入 50 万级 SUV 赛道，或推“三品牌”策略",
+      "url": "https://www.ithome.com/1/024/352.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "记者卧底调查女厕偷拍黑产：超10万女性被拍",
+      "url": "https://www.sohu.com/a/1097528656_349247",
+      "publishedAt": null,
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-08 2026-11-09",
+      "verificationStatus": "media-discovery"
     }
   ],
   "sourceResults": [
@@ -38667,9 +39046,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 10,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 10 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -38738,11 +39117,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
