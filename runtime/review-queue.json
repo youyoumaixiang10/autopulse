@@ -6159,7 +6159,6 @@
     "url": "https://www.pcauto.com.cn/nation/5187/51878248.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11428,7 +11427,6 @@
     "url": "https://www.pcauto.com.cn/nation/5191/51912795.html",
     "reasons": [
       "缺少原文发布日期",
-      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11491,16 +11489,6 @@
     "url": "https://www.ithome.com/1/024/030.htm",
     "reasons": [
       "频道问候或无具体车型事件的周期汇总"
-    ]
-  },
-  {
-    "title": "【网通社快报】鸿蒙智行问界新M8宣布配备全新一代智能底盘并新增主动式后轮转向",
-    "sourceName": "凤凰网汽车",
-    "url": "https://auto.ifeng.com/c/8xu8Y8wR5yP",
-    "reasons": [
-      "正文获取失败",
-      "尚未具备完整的日期与原文",
-      "信息来源待核验"
     ]
   },
   {
@@ -11835,6 +11823,14 @@
     "title": "【网通社快报】奔驰调整自动驾驶路线：优先发展L2级系统，计划2030年后量产L4级",
     "sourceName": "凤凰网汽车",
     "url": "https://auto.ifeng.com/c/8xrOKxqpe5p",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "上汽奥迪 AUDI DAY 2026 定档 11 月 13 日，E7X/E5 Sportback 特别版车型登场",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/024/067.htm",
     "reasons": [
       "标题与正文不是同一事件"
     ]

@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-09T00:10:11.231Z",
+  "collectedAt": "2026-11-09T06:37:40.754Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5800,6 +5800,18 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "钛9将于11月底上市/钛6等车型2027年上市 方程豹部分产品规划曝光",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318244.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -5807,7 +5819,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 20
+      "count": 18
     },
     {
       "sourceId": "autohome-industry",
@@ -5818,9 +5830,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-09T00:09:59.411Z",
+      "collectedAt": "2026-11-09T06:37:28.963Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 69,
+      "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
