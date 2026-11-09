@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-09T06:37:47.908Z",
+  "collectedAt": "2026-11-09T08:08:55.641Z",
   "targetDates": [
     "2026-11-08",
     "2026-11-09"
@@ -33894,7 +33894,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "智己LS8 NEO纯电上市",
+      "title": "权益价23.98万元起 智己LS8 NEO纯电正式上市",
       "url": "https://www.sohu.com/a/1097701766_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -33904,7 +33904,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "领克08 EM-P新款上市",
+      "title": "限时置换价15.98万元起 2027款领克08 EM-P正式上市",
       "url": "https://www.sohu.com/a/1097712812_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34088,7 +34088,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "东风标致408 2027款上市",
+      "title": "官方指导价9.97万元 东风标致2027款408正式上市",
       "url": "https://www.sohu.com/a/1098010568_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34098,7 +34098,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "海豹07首搭云辇-M上市",
+      "title": "置换价13.59万起 首搭云辇‑M 第二代海豹07正式上市",
       "url": "https://www.sohu.com/a/1097600518_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34762,7 +34762,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "AION S Plus出行版上市",
+      "title": "售13.08万元 2026款AION S Plus出行版正式上市",
       "url": "https://www.sohu.com/a/1098093294_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34772,7 +34772,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "仰望U9 Xtreme创极速纪录",
+      "title": "成绩503.17km/h 仰望U9 Xtreme创造全新极速世界纪录",
       "url": "https://www.sohu.com/a/1098084707_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34782,7 +34782,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "smart精灵#2纯电双门上市",
+      "title": "限时权益价9.99万起 全新smart精灵#2正式上市",
       "url": "https://www.sohu.com/a/1097698439_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -36578,7 +36578,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "仰望鼎曜超豪华行政旗舰轿车在阿布扎比全球首发",
+      "title": "中国超豪华行政旗舰轿车 仰望鼎曜于阿布扎比全球首发",
       "url": "https://www.sohu.com/a/1098578622_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -38011,7 +38011,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "长安糯玉米四门版即将上市",
+      "title": "长安糯玉米四门版将上市 车身加长222mm 续航205/301km",
       "url": "https://www.sohu.com/a/1098860630_126686",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -38031,7 +38031,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "新势力10月销量:鸿蒙理想失速",
+      "title": "新势力10月销量:零跑守住10万 鸿蒙理想失速",
       "url": "https://www.sohu.com/a/1098895002_120500769",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -38460,6 +38460,174 @@
       "discoveryPublishedAt": "2026-11-09",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "配华为896线激光雷达+5C超充 新款岚图知音11月13日上市",
+      "url": "https://www.163.com/auto/article/LBA57NU70008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "20万以内买全家安心，2027款岚图知音把896线雷达做成标配",
+      "url": "https://auto.ifeng.com/c/8xuekEtRi1c",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "2026乌镇咖荟·汽车夜话：剧变前夜，中国汽车向何处去？",
+      "url": "https://auto.ifeng.com/c/8xudfhkQjsW",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】马斯克称特斯拉Cybertruck产线将于约8个月后停产，腾出空间增产Cybercab",
+      "url": "https://auto.ifeng.com/c/8xuhphl4uDF",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】乘联分会披露小米汽车2026年10月零售销量为50,123辆",
+      "url": "https://auto.ifeng.com/c/8xuhtjsWVOj",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】2026款凯迪拉克CT5上市，售价28.99万元起",
+      "url": "https://auto.ifeng.com/c/8xuhtjsWVOi",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】现代起亚、ALTEN Korea与巴斯夫联合为起亚EV3 Study Car 2.0打造可循环概念座",
+      "url": "https://auto.ifeng.com/c/8xui4LRjIOq",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】广东鸿图全年一体化压铸板块营收预计近7亿元，拿下丰田订单",
+      "url": "https://auto.ifeng.com/c/8xui4LRjIOs",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "2027 款领克 03 车型 11 月 13 日上市：全新红色车漆、动力性能升级",
+      "url": "https://www.ithome.com/1/024/347.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克回应 SpaceX 与 Anthropic 算力协议：合同是双向的，谁也别抱怨",
+      "url": "https://www.ithome.com/1/024/344.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "三星 SDI 将为波士顿动力 Atlas 人形机器人供应电池",
+      "url": "https://www.ithome.com/1/024/339.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克：特斯拉 Cybertruck 的订单量远超我们的产量，但生产该车的机会成本太高",
+      "url": "https://www.ithome.com/1/024/337.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "乘联分会报告披露小米汽车 10 月零售销量 50,168 辆",
+      "url": "https://www.ithome.com/1/024/335.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "限时一口价 20.69 万元起，2026 款凯迪拉克 CT5 上市",
+      "url": "https://www.ithome.com/1/024/307.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称玛莎拉蒂与尊界新车外观确认，属华为、江淮和 Stellantis 三方合作项目",
+      "url": "https://www.ithome.com/1/024/268.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称英国拟将 2030 年电动汽车销售目标从 80% 下调至 60%，以缓解车企压力",
+      "url": "https://www.ithome.com/1/024/267.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-09",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -38499,9 +38667,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 14,
+      "candidateCount": 10,
       "status": "ok",
-      "publicLabel": "列表已读 14 条待核验线索"
+      "publicLabel": "列表已读 10 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -38555,25 +38723,26 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 27,
+      "candidateCount": 18,
       "status": "ok",
-      "publicLabel": "列表已读 27 条待核验线索"
+      "publicLabel": "列表已读 18 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 14,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 14 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

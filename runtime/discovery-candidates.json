@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-09T06:37:40.754Z",
+  "collectedAt": "2026-11-09T08:08:41.500Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5812,6 +5812,18 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "配置迎来升级/提供全新内外配色 2027款岚图知音将于11月13日上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318251.html",
+      "candidateBrands": [
+        "岚图"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -5830,9 +5842,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-09T06:37:28.963Z",
+      "collectedAt": "2026-11-09T08:08:29.575Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 68,
+      "candidateCount": 70,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-11-09T06:42:45.230Z",
+  "completedAt": "2026-11-09T08:11:10.533Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -64,7 +64,7 @@
         "阿维塔"
       ],
       "status": "ok",
-      "label": "已读 35 条"
+      "label": "已读 28 条"
     },
     {
       "id": "zeekr-info",
@@ -328,7 +328,7 @@
       "name": "懂车帝资讯",
       "brands": [],
       "status": "partial",
-      "label": "已读 68 条 · 读取范围有限"
+      "label": "已读 70 条 · 读取范围有限"
     },
     {
       "id": "sina-auto",
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 14 条待核验线索"
+      "label": "列表已读 10 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
@@ -412,21 +412,21 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 27 条待核验线索"
+      "label": "列表已读 18 条待核验线索"
     },
     {
       "id": "netease-auto",
       "name": "网易汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 14 条待核验线索"
+      "label": "列表已读 15 条待核验线索"
     },
     {
       "id": "news18a-auto",
       "name": "网通社",
       "brands": [],
-      "status": "ok",
-      "label": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "label": "直连列表暂不可读，将回退公开检索"
     }
   ]
 }
