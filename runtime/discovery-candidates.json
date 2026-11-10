@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-10T08:29:39.820Z",
+  "collectedAt": "2026-11-10T10:00:26.786Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5645,7 +5645,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "马斯克：明年逐步停产Cybertruck 产线让位于Cybercab",
+      "title": "��˹�ˣ�������ͣ��Cybertruck ������λ��Cybercab 3��ǰ 4742 0 [����֮�� ��Ѷ] ����ʱ��11��6�գ���˹��CEO��˹�����罻ƽ̨���ģ��ƹ�˾������������ǰ������β���ݳ���������Cybertruck������ΪC...",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318227.html",
       "candidateBrands": [
@@ -5937,7 +5937,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 24
+      "count": 1
     },
     {
       "sourceId": "autohome-industry",
@@ -5948,7 +5948,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-10T08:29:28.173Z",
+      "collectedAt": "2026-11-10T09:59:49.995Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

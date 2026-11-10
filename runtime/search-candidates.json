@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-10T08:29:46.608Z",
+  "collectedAt": "2026-11-10T10:00:40.360Z",
   "targetDates": [
     "2026-11-09",
     "2026-11-10"
@@ -39135,7 +39135,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "四维图新程鹏:中国汽车要赢在数据",
+      "title": "四维图新程鹏：未来中国汽车要赢在数据",
       "url": "https://www.sohu.com/a/1099275260_430289",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -39592,7 +39592,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "魏建军：长城H10产能大幅提升，11月力保18000台、挑战20000台",
+      "title": "魏建军：长城H10 11月力保生产18000台",
       "url": "https://auto.gasgoo.com/news/202611/10I70477476C109.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-10",
@@ -39680,7 +39680,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "【国际快讯】中国车企前三季度在泰国纯电市场份额高达90.4%；特斯拉大量退还Cybertruck订单；本田投30亿美元在美国建新厂",
+      "title": "【国际】特斯拉大量退还Cybertruck订单",
       "url": "https://auto.gasgoo.com/news/202611/10I70477467C108.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-10",
@@ -40329,7 +40329,7 @@
       "sourceId": "ithome-auto",
       "sourceName": "IT之家",
       "sourceType": "vertical-media",
-      "title": "点外卖、打网约车真实手机号将隐藏，首批十家企业获批 700 专用码号服务业务试点",
+      "title": "点外卖、打网约车真实手机号将隐藏，阿里云、腾讯云等首批十家企业获批 700 专用码号试点",
       "url": "https://www.ithome.com/1/024/870.htm",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-10",
@@ -40379,6 +40379,196 @@
       "discoveryPublishedAt": "2026-11-10",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "浩思动力联手莲花跑车 旗下首套V8混动系统将搭载莲花Type 135",
+      "url": "https://auto.gasgoo.com/news/202611/10I70477529C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-10",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "中国车出海，很难一套动力打天下",
+      "url": "https://auto.gasgoo.com/news/202611/10I70477508C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-10",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "三星与现代汽车集团深化合作 布局机器人与物理AI市场",
+      "url": "https://auto.gasgoo.com/news/202611/10I70477427C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-10",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "斯巴鲁发布2027财年第二季度财报 实现增收增益并维持全年预期",
+      "url": "https://auto.gasgoo.com/news/202611/10I70477515C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-10",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "发现你的皇冠：一汽丰田2027款皇冠承耀而来",
+      "url": "https://auto.ifeng.com/c/8xwTYq9CdEV",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "10月再夺冠！全新一代问界M9系列连续五个月获50万以上车型销量第一",
+      "url": "https://auto.ifeng.com/c/8xwSukkKVu4",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "宝马新世代“功夫车”背后：宁德时代与唐山爱信，两种路径一种“极致”",
+      "url": "https://auto.ifeng.com/c/8xwOxW0F0Gm",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "福特跑完20亿英里，16万公里电池还剩九成",
+      "url": "https://auto.ifeng.com/c/8xwV1qwZi6v",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "问界M9连拿5个月第一，50万价签换人",
+      "url": "https://auto.ifeng.com/c/8xwUTXuYuJy",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "新能源渗透率67.5%，燃油车少卖45%",
+      "url": "https://auto.ifeng.com/c/8xwUMcCzZ76",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】辽宁锦州暂停受理网约车经营许可业务",
+      "url": "https://auto.ifeng.com/c/8xwQtCCMEnC",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】理想汽车法务部声明“理想i6团购返佣”活动与公司无关并向警方报案",
+      "url": "https://auto.ifeng.com/c/8xwRObeWsct",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "禾赛科技 2026 财年第三季度归母净利润 8079 万元，同比增长 13.7%",
+      "url": "https://www.ithome.com/1/024/957.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-10",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奔驰董事长康林松：燃油发动机至少还能再战 10 至 15 年",
+      "url": "https://www.ithome.com/1/024/958.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-10",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "极星 Formula 2030 概念车亮相：无 B 柱设计，还有对开门",
+      "url": "https://www.ithome.com/1/024/955.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-10",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "猛士 M817 Ultimate 座舱公布：全新汉白赭 / 帕因棕配色",
+      "url": "https://www.ithome.com/1/024/891.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-10",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "理想汽车法务部声明“理想 i6 团购返佣”活动与公司无关，已就相关情况向警方报案",
+      "url": "https://www.ithome.com/1/024/886.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-10",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "沃尔夫冈参与设计，比亚迪全新个性双门微型车外观专利图公告",
+      "url": "https://www.ithome.com/1/024/885.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-10",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -40402,9 +40592,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 1,
+      "candidateCount": 0,
       "listRead": false,
-      "publicLabel": "公开检索发现 1 条待核验线索"
+      "publicLabel": "直连列表与公开检索均未匹配"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -40418,17 +40608,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 11,
+      "candidateCount": 13,
       "status": "ok",
-      "publicLabel": "列表已读 11 条待核验线索"
+      "publicLabel": "列表已读 13 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 23,
+      "candidateCount": 25,
       "status": "ok",
-      "publicLabel": "列表已读 23 条待核验线索"
+      "publicLabel": "列表已读 25 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -40474,9 +40664,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 25,
+      "candidateCount": 24,
       "status": "ok",
-      "publicLabel": "列表已读 25 条待核验线索"
+      "publicLabel": "列表已读 24 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -40489,10 +40679,11 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
