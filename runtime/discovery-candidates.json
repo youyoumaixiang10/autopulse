@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-09T09:54:46.151Z",
+  "collectedAt": "2026-11-10T00:08:18.727Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5824,6 +5824,42 @@
         "岚图"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "首搭30英寸全景屏+天际屏/将于11月12日上市 一文看懂腾势N8",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318257.html",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "预计售价35-40万/有望11月19日上市 方程豹钛9正式开启预订",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318259.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "尊界与玛莎拉蒂合作项目曝光 规划2027年四季度量产 华为赋能",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318258.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -5831,7 +5867,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 18
+      "count": 20
     },
     {
       "sourceId": "autohome-industry",
@@ -5842,9 +5878,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-09T09:54:34.189Z",
+      "collectedAt": "2026-11-10T00:08:06.847Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 69,
+      "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
