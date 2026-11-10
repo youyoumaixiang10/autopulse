@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-10T07:23:50.441Z",
+  "collectedAt": "2026-11-10T08:29:39.820Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5918,6 +5918,18 @@
         "启源"
       ],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全新ES8累计交付超160000台 蔚来ES9本周将迎来第40000台交付",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318270.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -5925,7 +5937,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 23
+      "count": 24
     },
     {
       "sourceId": "autohome-industry",
@@ -5936,7 +5948,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-10T07:23:38.361Z",
+      "collectedAt": "2026-11-10T08:29:28.173Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
