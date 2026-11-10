@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-10T00:08:18.727Z",
+  "collectedAt": "2026-11-10T07:23:50.441Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5679,7 +5679,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "10月销量快报：没想到这两家进销量前三 均破5万台 小米冲进前五",
+      "title": "10月销量快报：没想到这两家进销量前三 小米冲进前五 均破5万台",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318222.html",
       "candidateBrands": [
@@ -5860,6 +5860,64 @@
         "鸿蒙智行"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "预选价格208万/预定金30万 仰望鼎曜将在广州车展公众亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318268.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "或17.98万/轴距2880mm 深蓝G318四驱畅行乾崑版将于11月11日上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318266.html",
+      "candidateBrands": [
+        "深蓝"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全新宝马i3/X5特别版/5系特别版等 宝马发布2026广州车展阵容",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318265.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "马斯克：特斯拉将向大量预订用户退还Cybertruck订金",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318262.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "上市首月交付10105台/售13.99万起 长安启源Q06推5年0息限时政策",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318261.html",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -5867,7 +5925,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 20
+      "count": 23
     },
     {
       "sourceId": "autohome-industry",
@@ -5878,7 +5936,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-10T00:08:06.847Z",
+      "collectedAt": "2026-11-10T07:23:38.361Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

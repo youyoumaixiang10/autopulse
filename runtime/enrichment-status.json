@@ -1,74 +1,74 @@
 {
-  "completedAt": "2026-11-10T00:12:56.461Z",
-  "durationMs": 270676,
-  "fetched": 397,
+  "completedAt": "2026-11-10T07:28:56.293Z",
+  "durationMs": 294646,
+  "fetched": 453,
   "skipped": 1535,
-  "cached": 2346,
+  "cached": 2359,
   "failures": [],
   "sourceBudgets": [
     {
       "sourceId": "dongchedi-news",
-      "failureMs": 149790,
+      "failureMs": 146450,
       "skipped": 124,
       "stopped": true
     },
     {
       "sourceId": "autohome-news",
-      "failureMs": 5244,
-      "skipped": 0,
-      "stopped": false
-    },
-    {
-      "sourceId": "yiche-news",
-      "failureMs": 35269,
+      "failureMs": 4554,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "gasgoo-auto",
-      "failureMs": 42293,
+      "failureMs": 36935,
+      "skipped": 0,
+      "stopped": false
+    },
+    {
+      "sourceId": "yiche-news",
+      "failureMs": 31194,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sina-auto",
-      "failureMs": 102668,
+      "failureMs": 114334,
       "skipped": 24,
       "stopped": true
     },
     {
       "sourceId": "chezhitong-auto",
-      "failureMs": 7501,
+      "failureMs": 9845,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "pcauto-news",
-      "failureMs": 16710,
+      "failureMs": 13654,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sohu-auto",
-      "failureMs": 101898,
-      "skipped": 296,
+      "failureMs": 103441,
+      "skipped": 289,
       "stopped": true
     },
     {
       "sourceId": "news18a-auto",
-      "failureMs": 98644,
-      "skipped": 1091,
+      "failureMs": 100588,
+      "skipped": 1098,
       "stopped": true
     },
     {
       "sourceId": "ithome-auto",
-      "failureMs": 1408,
+      "failureMs": 1217,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "ifeng-auto",
-      "failureMs": 4211,
+      "failureMs": 2441,
       "skipped": 0,
       "stopped": false
     }
