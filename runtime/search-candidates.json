@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-11T06:28:49.897Z",
+  "collectedAt": "2026-11-11T07:50:23.085Z",
   "targetDates": [
     "2026-11-10",
     "2026-11-11"
@@ -34762,7 +34762,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "AION S Plus出行版上市",
+      "title": "售13.08万元 2026款AION S Plus出行版正式上市",
       "url": "https://www.sohu.com/a/1098093294_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -36578,7 +36578,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "仰望鼎曜阿布扎比首发",
+      "title": "中国超豪华行政旗舰轿车 仰望鼎曜于阿布扎比全球首发",
       "url": "https://www.sohu.com/a/1098578622_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -39691,7 +39691,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "宝马新iX3/i3广州车展亮相",
+      "title": "宝马公布2026广州车展阵容:新世代iX3/i3即将上市",
       "url": "https://www.sohu.com/a/1099490401_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -40763,7 +40763,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "曝理想i6\"团购返佣\" 理想报案",
+      "title": "理想i6被曝\"团购返佣\"，理想汽车：已报案",
       "url": "https://www.sohu.com/a/1099750855_116237",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -40773,7 +40773,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "玛莎拉蒂/尊界合作:各取所需的联姻",
+      "title": "玛莎拉蒂与尊界：一场各取所需的产业联姻",
       "url": "https://www.sohu.com/a/1099743681_116237",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -41841,6 +41841,408 @@
       "discoveryPublishedAt": "2026-11-11",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "一汽-大众揽巡出口车型下线，已获1600台中东市场订单",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477654C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "均胜给宇树做了个“背包”，里面装着机器人的“大脑”",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477653C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "雷军“叫卖”小米澎程N70：有少量现车",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477651C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "大众汽车10月在华新能源销量大增346.9%，跃升品牌销量榜前15名",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477652C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "6个亿的战损车，为什么不能卖给用户",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477647C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "AUDI再向“本土化”纵深",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477646C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "均胜电子向宇树科技交付首台机器人高算力大脑背包",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477648C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "限时权益价4.99万起 长安Lumin PLUS正式上市",
+      "url": "https://www.sohu.com/a/1100108635_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "2026年10月商用车销量35.4万辆 重卡同比下降15.8%",
+      "url": "https://www.sohu.com/a/1100126311_120774496",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "10月交付12,032辆 被ID. AURA T6的\"爆单\"惊呆了",
+      "url": "https://www.163.com/auto/article/LBFAFU2A0008856S.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "从“糯玉米”到“大玉米”，长安Lumin PLUS正式上市，限时权益价4.99万元起",
+      "url": "https://auto.ifeng.com/c/8xxyj7bqBhQ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉中国回应网传召回赔偿2800元短信：系诈骗",
+      "url": "https://auto.ifeng.com/c/8xxxqqdjxrC",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】中国汽车工业协会发布10月汽车产销数据：产销量均超300万辆，新能源汽车出口60.6万辆",
+      "url": "https://auto.ifeng.com/c/8xxxNtcA9bQ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来ES9完成第4万台交付",
+      "url": "https://auto.news18a.com/news/storys_313752.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "日产发布2027财年上半年业绩报告：营业总收入6.07万亿日元，归母净利润亏损397.05亿日元",
+      "url": "https://www.news18a.com/news/storys_313747.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉中国回应网传召回赔偿2800元短信：系诈骗",
+      "url": "https://www.news18a.com/news/storys_313741.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中国汽车工业协会发布10月汽车产销数据：产销量均超300万辆，新能源汽车出口60.6万辆",
+      "url": "https://www.news18a.com/news/storys_313737.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽乘用车11月11日宣布截至11月初全年销量突破100万辆",
+      "url": "https://www.news18a.com/news/storys_313736.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪就大唐部分车辆轮辋装配问题发布声明并提供免费调换",
+      "url": "https://auto.news18a.com/news/storys_313729.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "山西运城发布新能源车辆免费停车时长调整情况说明",
+      "url": "https://www.news18a.com/news/storys_313730.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "张雪机车宣布53号冠军赛车拍卖款不再捐赠韩红基金会，改为资助中国小车手",
+      "url": "https://www.news18a.com/news/storys_313727.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宾利Mulliner发布欧陆GT奥林匹亚典藏版 全球限量12台",
+      "url": "https://www.news18a.com/news/storys_313725.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长安Lumin PLUS上市，限时权益价4.99万元起",
+      "url": "https://www.news18a.com/news/storys_313722.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "深蓝G318四驱畅行乾崑版上市，官方一口价18.98万元",
+      "url": "https://auto.news18a.com/news/storys_313721.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Waymo无人出租车2026年5月在旧金山高速试图绕行警车，事后暂停四城高速运营",
+      "url": "https://www.news18a.com/news/storys_313718.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "阿维塔公布1300台测试车场地照片，总价值6亿元",
+      "url": "https://www.news18a.com/news/storys_313714.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "儿童版仰望U9视频流传，具备舞动行驶与原地漂移功能",
+      "url": "https://www.news18a.com/news/storys_313710.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "改装厂Unplugged Performance提议接手特斯拉Cybertruck生产线",
+      "url": "https://www.news18a.com/news/storys_313709.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "理想汽车发布OTA 8.7.0版本并开启推送",
+      "url": "https://auto.news18a.com/news/storys_313707.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "王晓慧两次到店体验小鹏MONA L05",
+      "url": "https://www.news18a.com/news/storys_313705.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "神龙科技与火山引擎签署全面战略合作，联合开发智能座舱系统",
+      "url": "https://www.news18a.com/news/storys_313716.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "博主披露小米澎程N90终端销售数据及车主画像",
+      "url": "https://www.news18a.com/news/storys_313698.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上海印发道路停车收费政策调整通知 15分钟内限次免费停放",
+      "url": "https://www.news18a.com/news/storys_313695.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "深蓝G318四驱畅行乾崑版上市，官方一口价18.98万元",
+      "url": "https://auto.news18a.com/news/storys_313735.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "谷歌 Pixel Tag 防丢追踪器开售：对标苹果 AirTag，售价 29.99 美元",
+      "url": "https://www.ithome.com/1/025/553.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "李斌：蔚来 ES9 第 4 万台交付，连续五个月位居 50 万级纯电销量第一",
+      "url": "https://www.ithome.com/1/025/529.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "日产 2027 财年上半年归母亏损 397.05 亿日元，同比收窄 82.11%",
+      "url": "https://www.ithome.com/1/025/449.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "深度操作系统 deepin 25.3.0 正式版发布：新增防卡死保护，小 U 同学全面进化",
+      "url": "https://www.ithome.com/1/025/472.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "网传特斯拉召回车辆并赔偿 2800 元？特斯拉中国回应：系诈骗，切勿点击相关链接",
+      "url": "https://www.ithome.com/1/025/447.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -41880,9 +42282,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 15,
+      "candidateCount": 9,
       "status": "ok",
-      "publicLabel": "列表已读 15 条待核验线索"
+      "publicLabel": "列表已读 9 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -41936,9 +42338,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 23,
+      "candidateCount": 10,
       "status": "ok",
-      "publicLabel": "列表已读 23 条待核验线索"
+      "publicLabel": "列表已读 10 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -41951,11 +42353,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
