@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-11-11T01:06:24.507Z",
+  "completedAt": "2026-11-11T06:35:06.517Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -109,7 +109,7 @@
         "吉利银河"
       ],
       "status": "partial",
-      "label": "官网新闻接口暂不可读"
+      "label": "新闻接口可读，但返回条目没有可公开访问的详情链接"
     },
     {
       "id": "deepal-news",
@@ -349,7 +349,7 @@
       "name": "易车",
       "brands": [],
       "status": "partial",
-      "label": "公开检索发现 1 条待核验线索"
+      "label": "直连列表与公开检索均未匹配"
     },
     {
       "id": "cailianpress-auto",
@@ -363,14 +363,14 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 9 条待核验线索"
+      "label": "列表已读 15 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
       "name": "盖世汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 28 条待核验线索"
+      "label": "列表已读 30 条待核验线索"
     },
     {
       "id": "chezhitong-auto",
@@ -419,14 +419,14 @@
       "name": "网易汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 16 条待核验线索"
+      "label": "列表已读 12 条待核验线索"
     },
     {
       "id": "news18a-auto",
       "name": "网通社",
       "brands": [],
-      "status": "ok",
-      "label": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "label": "直连列表暂不可读，将回退公开检索"
     }
   ]
 }

@@ -10422,6 +10422,7 @@
     "url": "https://www.pcauto.com.cn/nation/5189/51895282.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11651,6 +11652,14 @@
     ]
   },
   {
+    "title": "马斯克、特斯拉因证券欺诈推文各缴 2000 万美元罚款，SEC 向 3350 名投资者分配 4153 万美元",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/025/317.htm",
+    "reasons": [
+      "无法生成符合编辑规范的标题：缺少标题"
+    ]
+  },
+  {
     "title": "四季度上市/第六代DM-i混动技术 方程豹钛9内饰谍照曝光",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202609/1317075.html",
@@ -11998,6 +12007,14 @@
     "title": "李斌：蔚来 ES9 连续 5 个月拿下 50 万级纯电销冠，即将迎来第 4 万台新车交付",
     "sourceName": "IT之家",
     "url": "https://www.ithome.com/1/024/738.htm",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "闪迪公布 eMMC 模组 iNAND CL EM181，面向嵌入式应用",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/025/434.htm",
     "reasons": [
       "标题与正文不是同一事件"
     ]

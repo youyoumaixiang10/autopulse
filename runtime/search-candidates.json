@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-11T01:04:17.310Z",
+  "collectedAt": "2026-11-11T06:28:49.897Z",
   "targetDates": [
     "2026-11-10",
     "2026-11-11"
@@ -34762,7 +34762,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "售13.08万元 2026款AION S Plus出行版正式上市",
+      "title": "AION S Plus出行版上市",
       "url": "https://www.sohu.com/a/1098093294_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -36578,7 +36578,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "仰望鼎曜阿布扎比全球首发",
+      "title": "仰望鼎曜阿布扎比首发",
       "url": "https://www.sohu.com/a/1098578622_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -41284,7 +41284,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "10月车型排行：特斯拉暴跌，荣放连续两月杀入前十，奔腾小马成“奔腾黑马”",
+      "title": "10月车型排行：特斯拉暴跌，荣放入前十",
       "url": "https://auto.gasgoo.com/news/202611/11I70477602C108.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-11",
@@ -41495,6 +41495,352 @@
       "discoveryPublishedAt": "2026-11-11",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "聚焦具身智能机器人发展，北京印发三年行动方案",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477640C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "珞石+地瓜，具身智能的“大脑”和“小脑”合体了",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477635C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "【国际快讯】中国品牌将于2030年前在加拿大推出18款电动车；奇瑞将为加拿大市场打造耐寒电动车；本田上调全年净利润预期",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477630C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "奥迪·上汽舒睿泽：AUDI品牌三年内推三款新车，聚焦中国不出口欧洲",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477629C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "第五代贡嘎人形机器人正式发布",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477622C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "神龙科技与火山引擎签署合作，联合开发座舱系统",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477621C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "余承东：享界V8定档11月20日上市，OSTA星芒将首秀",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477620C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "奔驰康林松：内燃机至少再存续10至15年",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477619C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "阿维塔总裁雍军回应直播中“6亿废车场”",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477615C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "禾赛机器人动力模组出货已超3.5万套",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477614C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "乌镇夜话汽车行业竞合关系：要打“道德战”，也要活下去",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477613C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "银河战舰700城市与越野体验",
+      "url": "https://www.sohu.com/a/1100096131_100109212",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】上汽乘用车11月11日宣布截至11月初全年销量突破100万辆",
+      "url": "https://auto.ifeng.com/c/8xxu4dlJAUE",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "深蓝 G318 乾崑版上市 18.98 万",
+      "url": "https://auto.ifeng.com/c/8xxsooNrVAj",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "A7L旅行车“北上”，一汽奥迪或迎首款猎装车",
+      "url": "https://auto.ifeng.com/c/8xxqSCQfENn",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪就大唐部分车辆轮辋装配问题发布声明并提供免费调换",
+      "url": "https://auto.ifeng.com/c/8xxoqZsJckG",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】山西运城发布新能源车辆免费停车时长调整情况说明",
+      "url": "https://auto.ifeng.com/c/8xxoqZsJckF",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "中汽协会：我国 10 月汽车产销量双双超过 300 万辆，新能源销量同比增长 13.1%",
+      "url": "https://www.ithome.com/1/025/438.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "闪迪公布 eMMC 模组 iNAND CL EM181，面向嵌入式应用",
+      "url": "https://www.ithome.com/1/025/434.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽乘用车迈入百万阵营：截至 11 月初全年销量突破 100 万辆，国内第 5 家达成",
+      "url": "https://www.ithome.com/1/025/407.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉推出 Cybertruck 遥控模型车、2.5 代人形机器人摆件，199 元起",
+      "url": "https://www.ithome.com/1/025/401.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪就大唐轮辋装配问题致歉：系供应商录入失误，提供免费调换",
+      "url": "https://www.ithome.com/1/025/396.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "使用 FSD 破解版进行智驾测试、被特斯拉发函后，第一电动网 CEO 庞义成回应称“不可能撤稿”",
+      "url": "https://www.ithome.com/1/025/394.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "四门“糯玉米”：长安 Lumin PLUS 上市，限时权益价 4.99 万元起",
+      "url": "https://www.ithome.com/1/025/329.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全新深蓝 G318 四驱畅行乾崑版上市，一口价 18.98 万元，搭载华为全家桶",
+      "url": "https://www.ithome.com/1/025/324.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "公安机关依法严打网络售假犯罪：10 起典型案例公布，制售假冒品牌汽车轮毂涉案金额达 2.3 亿余元",
+      "url": "https://www.ithome.com/1/025/321.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克、特斯拉因证券欺诈推文各缴 2000 万美元罚款，SEC 向 3350 名投资者分配 4153 万美元",
+      "url": "https://www.ithome.com/1/025/317.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为星芒手机官方微博上线：新品牌 11 月 20 日发布，余承东已换上 OSTA O1 Pro 阔直板新机",
+      "url": "https://www.ithome.com/1/025/313.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "理想汽车 OTA 8.7.0 开启推送：VLA 新增驾驶风格切换，支持眼镜指挥泊车方位控制",
+      "url": "https://www.ithome.com/1/025/308.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克宣布特斯拉 Cybertruck 赛博皮卡即将停产后，改装厂主动请缨接手",
+      "url": "https://www.ithome.com/1/025/310.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "余承东换上 OSTA O1 Pro 阔直板新机，官宣全新华为子品牌 OSTA 星芒",
+      "url": "https://www.ithome.com/1/025/300.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全球首款 176 吨纯电刚性矿卡在十堰下线，零部件 100% 国产化",
+      "url": "https://www.ithome.com/1/025/297.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -41518,9 +41864,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 1,
+      "candidateCount": 0,
       "listRead": false,
-      "publicLabel": "公开检索发现 1 条待核验线索"
+      "publicLabel": "直连列表与公开检索均未匹配"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -41534,17 +41880,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 9,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 9 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 28,
+      "candidateCount": 30,
       "status": "ok",
-      "publicLabel": "列表已读 28 条待核验线索"
+      "publicLabel": "列表已读 30 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -41598,17 +41944,18 @@
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 16,
+      "candidateCount": 12,
       "status": "ok",
-      "publicLabel": "列表已读 16 条待核验线索"
+      "publicLabel": "列表已读 12 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
