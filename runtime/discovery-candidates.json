@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-10T10:00:26.786Z",
+  "collectedAt": "2026-11-11T00:19:56.481Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -5645,7 +5645,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "��˹�ˣ�������ͣ��Cybertruck ������λ��Cybercab 3��ǰ 4742 0 [����֮�� ��Ѷ] ����ʱ��11��6�գ���˹��CEO��˹�����罻ƽ̨���ģ��ƹ�˾������������ǰ������β���ݳ���������Cybertruck������ΪC...",
+      "title": "马斯克：明年逐步停产Cybertruck 产线让位于Cybercab",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318227.html",
       "candidateBrands": [
@@ -5930,6 +5930,42 @@
         "蔚来"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "理想i6团购大定 不用提车就可赚取1000元佣金？理想汽车官方回应",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318274.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "比亚迪版fortwo 全新两门概念车专利图 价格会更诱人吗?",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318273.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "疑似腾势D9L专利图曝光 比腾势D9更高级 全新前脸设计",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318272.html",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -5937,7 +5973,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 1
+      "count": 22
     },
     {
       "sourceId": "autohome-industry",
@@ -5948,9 +5984,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-10T09:59:49.995Z",
+      "collectedAt": "2026-11-11T00:19:44.595Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 68,
+      "candidateCount": 70,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
