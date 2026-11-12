@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-12T00:12:42.868Z",
+  "collectedAt": "2026-11-12T07:15:46.167Z",
   "targetDates": [
     "2026-11-11",
     "2026-11-12"
@@ -39691,7 +39691,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "宝马新iX3/i3广州车展亮相",
+      "title": "宝马公布2026广州车展阵容:新世代iX3/i3即将上市",
       "url": "https://www.sohu.com/a/1099490401_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -41522,7 +41522,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "【国际快讯】中国品牌将于2030年前在加拿大推出18款电动车；奇瑞将为加拿大市场打造耐寒电动车；本田上调全年净利润预期",
+      "title": "国际 | 中国品牌将在加推出18款电动车",
       "url": "https://auto.gasgoo.com/news/202611/11I70477630C108.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-11",
@@ -41846,7 +41846,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "一汽-大众揽巡出口车型下线，已获1600台中东市场订单",
+      "title": "一汽-大众揽巡出口车型下线",
       "url": "https://auto.gasgoo.com/news/202611/11I70477654C109.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-11",
@@ -41857,7 +41857,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "均胜给宇树做了个“背包”，里面装着机器人的“大脑”",
+      "title": "均胜给宇树做了个“大脑背包”",
       "url": "https://auto.gasgoo.com/news/202611/11I70477653C601.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-11",
@@ -41879,7 +41879,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "大众汽车10月在华新能源销量大增346.9%，跃升品牌销量榜前15名",
+      "title": "大众汽车10月在华新能源销量大增346.9%",
       "url": "https://auto.gasgoo.com/news/202611/11I70477652C110.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-11",
@@ -41923,7 +41923,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "长安Lumin PLUS正式上市",
+      "title": "限时权益价4.99万起 长安Lumin PLUS正式上市",
       "url": "https://www.sohu.com/a/1100108635_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -42958,6 +42958,389 @@
       "discoveryPublishedAt": "2026-11-11",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "蔚来ES9完成第40000台新车交付",
+      "url": "https://auto.sina.com.cn/news/2026-11-12/detail-iniynaxi3873319.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "奔驰CEO官宣转向全新“100%立足中国、服务中国”战略",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477757C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "从“怕错过”到“怕踩雷”，具身智能融资换挡",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477748C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "冬天了，续航焦虑又要来了？",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477756C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "Motive推出AI智能体 助力外勤团队在问题发生前采取行动",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477751C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "Universal Display与OLEDWorks推进青色OLED照明技术 助力自动驾驶系统实现通信功能",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477749C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "具身智能分岔口：本体补脑，脑公司找出口",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477750C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "日产下调全球销量预期：中国市场已成沉重包袱，销量或将创23年新低",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477747C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "【国际快讯】英伟达董事会拟罢免CEO黄仁勋；奔驰将转向“100%中国为中国”战略；日产第二财季利润暴跌96%",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477746C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "优必选，把机器人卖进汽车4S店了",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477745C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "日产中国区10月销量22,295辆，同比下滑67.1%",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477738C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "优必选拉上沐曦造芯片，天使轮就拿了5亿，投后估值达40亿",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477744C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "10月全球电动汽车销量达209万辆 欧洲市场同比增长36%",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477741C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "黄仁勋再被爆婚外情，可能被董事会解除CEO职务",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477736C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "首次覆盖商用车动力！“中国心”2026年度十佳商用车动力发布",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477737C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "蔚来ES9第4万台交付 连续5个月居50万级纯电销冠",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477734C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "晓莺说｜重新定义中国市场：从规模价值到全球创新前沿",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477642C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "蔚来能源与保利置业签约 共建社区场景充换电网络",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477733C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "谷歌升级机器人“大脑”，奔驰工厂测试成功率达96%",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477732C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "汽车厂商不想再做甲方了",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477729C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "于清教：中国电池新能源产业迎来价值重构时刻",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477726C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "装车量不到15%，三元锂电池不香了？",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477725C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "小车当道，越卖越好？",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477724C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "小米新车官宣：11月11日继续开售",
+      "url": "https://www.sohu.com/a/1100286978_532378",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "梅赛德斯奔驰中国市场销量超预期下滑22%",
+      "url": "https://www.sohu.com/a/1100397258_122014422",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "比亚迪出海：留给中国车企的时间只有两三年",
+      "url": "https://www.sohu.com/a/1100299525_632979",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "保利置业跨界联手蔚来，传递了什么信号？",
+      "url": "https://www.sohu.com/a/1100280299_122014422",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "特斯拉Cybertruck销量新高 但生产终将落幕",
+      "url": "https://www.sohu.com/a/1100244114_114765",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "汽车产业链企业盯上两轮车 这生意好做吗？",
+      "url": "https://www.sohu.com/a/1100240366_250147",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "长城汽车提醒警惕伪造召回短信",
+      "url": "https://www.sohu.com/a/1100263001_122135404",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "双电机布局!长城汽车发布欧拉7官图与配置信息",
+      "url": "https://www.sohu.com/a/1100281149_119627",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】国轩高科全固态中试线稳定运行，2GWh全固态量产线工作已启动",
+      "url": "https://auto.ifeng.com/c/8xzdT0BsvMu",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】张雪机车创始人张雪回应“读书无用论”并公布10月销量及盈利数据",
+      "url": "https://auto.ifeng.com/c/8xzdJ1yOQHP",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉将Cybertruck停产时间推迟至2027年夏末",
+      "url": "https://auto.ifeng.com/c/8xzdHz5LahI",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】奇瑞汽车提示近日有不法分子冒用其名义发送虚假“召回通知”实施诈骗",
+      "url": "https://auto.ifeng.com/c/8xzcHWfHxjV",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】Universal Display与OLEDWorks宣布合作评估用于自动驾驶系统通信的青色OLED",
+      "url": "https://auto.ifeng.com/c/8xzdJ1yOQHO",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
     }
   ],
   "sourceResults": [
@@ -42965,9 +43348,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 9,
+      "candidateCount": 10,
       "status": "ok",
-      "publicLabel": "列表已读 9 条待核验线索"
+      "publicLabel": "列表已读 10 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -42996,18 +43379,19 @@
     {
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
-      "listRead": true,
-      "candidateCount": 9,
-      "status": "ok",
-      "publicLabel": "列表已读 9 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "HTTP 404"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 21,
+      "candidateCount": 30,
       "status": "ok",
-      "publicLabel": "列表已读 21 条待核验线索"
+      "publicLabel": "列表已读 30 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -43053,9 +43437,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 24,
+      "candidateCount": 10,
       "status": "ok",
-      "publicLabel": "列表已读 24 条待核验线索"
+      "publicLabel": "列表已读 10 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
