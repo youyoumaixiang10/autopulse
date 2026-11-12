@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-11T09:32:27.132Z",
+  "collectedAt": "2026-11-12T00:12:29.344Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6024,6 +6024,18 @@
       "url": "https://www.autohome.com.cn/news/202611/1318297.html",
       "candidateBrands": [],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "升级800V平台/现款售9.78万起 新款零跑Lafa5将于广州车展上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318308.html",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -6031,7 +6043,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 22
+      "count": 23
     },
     {
       "sourceId": "autohome-industry",
@@ -6042,9 +6054,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-11T09:32:15.239Z",
+      "collectedAt": "2026-11-12T00:12:17.587Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 67,
+      "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

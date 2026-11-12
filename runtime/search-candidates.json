@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-11-11T09:32:34.617Z",
+  "collectedAt": "2026-11-12T00:12:42.868Z",
   "targetDates": [
-    "2026-11-10",
-    "2026-11-11"
+    "2026-11-11",
+    "2026-11-12"
   ],
   "candidates": [
     {
@@ -1738,7 +1738,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "试驾问界M6：年轻SUV新体验",
+      "title": "试驾问界M6 年轻SUV新选",
       "url": "https://www.sohu.com/a/1012482515_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -1748,7 +1748,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "尚界Z7T动态试驾报告",
+      "title": "尚界Z7T年轻动感试驾",
       "url": "https://www.sohu.com/a/1012495282_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -40773,7 +40773,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "玛莎拉蒂/尊界合作:各取所需的联姻",
+      "title": "玛莎拉蒂与尊界：一场各取所需的产业联姻",
       "url": "https://www.sohu.com/a/1099743681_116237",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -41522,7 +41522,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "国际 | 中国品牌将在加推出18款电动车",
+      "title": "【国际快讯】中国品牌将于2030年前在加拿大推出18款电动车；奇瑞将为加拿大市场打造耐寒电动车；本田上调全年净利润预期",
       "url": "https://auto.gasgoo.com/news/202611/11I70477630C108.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-11",
@@ -42666,6 +42666,298 @@
       "discoveryPublishedAt": "2026-11-11",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "神龙科技与火山引擎达成全面战略合作",
+      "url": "https://auto.sina.com.cn/news/2026-11-11/detail-iniykkpw8402031.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "速腾聚创与BitRobot达成战略合作，联合发布100小时真实场景机器人数据集",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477668C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "晓莺说 | 汽车出海方法论：出海赛道隐形较量",
+      "url": "https://auto.gasgoo.com/news/202611/11I70477639C1213.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "极星Formula 2030概念车发布 新一代极星2设计提前曝光",
+      "url": "https://www.pcauto.com.cn/nation/5191/51917890.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "瑞虎9猎鹰700版上市 限时17.29万元起/支持无图漫游NOA功能",
+      "url": "https://www.pcauto.com.cn/nation/5191/51917879.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "10月交付7507台斩获四连冠 华境S累计交付突破四万台",
+      "url": "https://www.pcauto.com.cn/nation/5191/51917877.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "蔚来ES9累计交付40000辆 连续5个月获50万级纯电车型销量第一",
+      "url": "https://www.pcauto.com.cn/nation/5191/51917728.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "林肯全新旗舰SUV定名飞行家EX8 2027年上半年上市",
+      "url": "https://www.pcauto.com.cn/nation/5191/51917587.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "限时4.99万起 长安Lumin PLUS上市 四门四座+纯电续航最高301km",
+      "url": "https://www.pcauto.com.cn/nation/5191/51917580.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "细节藏专属身份 猛士M817 Ultimate内饰带来全新座舱质感",
+      "url": "https://www.pcauto.com.cn/nation/5191/51917572.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "售18.98万元/深蓝G318新版本上市 四驱加乾崑智驾一步到位",
+      "url": "https://www.pcauto.com.cn/nation/5191/51917571.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "揭秘享界V8品质标准",
+      "url": "https://www.sohu.com/a/1100267238_99944122",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "座舱换大屏/增激光雷达 瑞虎9猎鹰700版限时价17.29万",
+      "url": "https://www.163.com/auto/article/LBG363780008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "瑞虎9猎鹰700版11月11日正式上市，限时焕新价17.29万元起",
+      "url": "https://auto.ifeng.com/c/8xyAx3npfqk",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】上海内环高架两辆特斯拉碰撞事故后续：42岁司机涉嫌寻衅滋事罪被移送审查起诉，71岁司机被罚款",
+      "url": "https://auto.ifeng.com/c/8xz85EBAuWD",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】谷歌宣布Gemini接入苹果CarPlay",
+      "url": "https://auto.ifeng.com/c/8xz83aROkyQ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】领克汽车公布领克900L车型参数及上市计划",
+      "url": "https://auto.ifeng.com/c/8xycRvVaqlT",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "一汽-大众出口成双“轿车+ SUV”双线并进｜汽势之声",
+      "url": "https://auto.ifeng.com/c/8xyQc57wADC",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "一汽 - 大众：2027 年取消 BD 奖金",
+      "url": "https://auto.ifeng.com/c/8xyRTgsnLy0",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1112：曝英伟达正准备罢免 CEO 黄仁勋；华为全新子品牌星芒官宣；苹果 20 周年款 iPhone 前瞻整机如整块玻璃；5 位师傅仅 2 位说实话家电维修乱象曝光...",
+      "url": "https://www.ithome.com/1/025/847.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "11.3 特斯拉：约 7.2 米新型超导磁体通过关键测试，磁场强度约为医用磁共振设备的 3.8 倍",
+      "url": "https://www.ithome.com/1/025/846.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "2026 年金摇杆奖获奖名单公布！《生化危机：安魂曲》斩获年度终极游戏，《影之刃零》差 1% 惜败得第二",
+      "url": "https://www.ithome.com/1/025/843.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉上海内环高架斗车事件后续：42 岁司机涉嫌刑事犯罪被移送审查起诉，另一 71 岁司机被罚款",
+      "url": "https://www.ithome.com/1/025/842.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "苹果员工驾车超速至 145km/h 撞上等红灯车辆，致 2 岁儿童死亡后被控谋杀",
+      "url": "https://www.ithome.com/1/025/834.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "保时捷 CEO 骆明楷批评特斯拉 Roadster 发布会：我们不想搞任何特效或表演",
+      "url": "https://www.ithome.com/1/025/820.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "中国民航大学与宁德时代签约：共建航空电池适航实验室，联合培养航空领域人才",
+      "url": "https://www.ithome.com/1/025/794.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "同比暴降 67.14%：日产汽车中国区 10 月销量 22,295 辆，连续 7 个月同比下滑",
+      "url": "https://www.ithome.com/1/025/791.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长城魏牌二代蓝山预售 48 小时小订 13086 台，预售价 28.98 万元起",
+      "url": "https://www.ithome.com/1/025/785.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-11",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -42673,9 +42965,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 21,
+      "candidateCount": 9,
       "status": "ok",
-      "publicLabel": "列表已读 21 条待核验线索"
+      "publicLabel": "列表已读 9 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -42705,17 +42997,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 14,
+      "candidateCount": 9,
       "status": "ok",
-      "publicLabel": "列表已读 14 条待核验线索"
+      "publicLabel": "列表已读 9 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 29,
+      "candidateCount": 21,
       "status": "ok",
-      "publicLabel": "列表已读 29 条待核验线索"
+      "publicLabel": "列表已读 21 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -42769,17 +43061,18 @@
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 14,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 14 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
