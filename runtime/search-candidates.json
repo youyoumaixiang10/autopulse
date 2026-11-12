@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-12T07:15:46.167Z",
+  "collectedAt": "2026-11-12T08:27:17.873Z",
   "targetDates": [
     "2026-11-11",
     "2026-11-12"
@@ -14511,7 +14511,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "4从燃油到纯电，捷达的“可靠”还能不能打？129.47w",
+      "title": "热点时评聚焦热议话题，提供深度评论，解析行业现象从燃油到纯电，捷达的“可靠”还能不能打？2026-10-22",
       "url": "https://auto.news18a.com/news/storys_307483.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -42540,7 +42540,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "神龙科技与火山引擎达成战略合作 将在新车上搭载最新一代AI座舱",
+      "title": "神龙科技与火山引擎合作",
       "url": "https://auto.news18a.com/news/storys_313783.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -43051,7 +43051,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "【国际快讯】英伟达董事会拟罢免CEO黄仁勋；奔驰将转向“100%中国为中国”战略；日产第二财季利润暴跌96%",
+      "title": "【国际】英伟达董事会拟罢免CEO黄仁勋",
       "url": "https://auto.gasgoo.com/news/202611/12I70477746C108.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-12",
@@ -43341,6 +43341,518 @@
       "publishedAt": null,
       "verificationStatus": "media-discovery",
       "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "首尔国立大学发明新通信和内存工具 减少人工智能数据流量和响应延迟",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477767C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "中国车企出口规模增长 人民币升值侵蚀利润",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477766C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "福特申请具有交互式音频的车辆系统专利",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477765C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "横滨国立大学添加石墨烯介孔海绵可帮助锂离子电池存储更多能量",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477763C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "韩国科学技术院开发下一代电池隔膜 充电速度更快、续航时间更长",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477760C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "大众中国新能源车型月销量创历史新高，显现复苏信号",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477762C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "现代汽车申请双向尾门专利 可增加动力",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477752C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "大众取消沃尔夫斯堡工厂先进制造项目 劳资矛盾恐进一步升级",
+      "url": "https://auto.gasgoo.com/news/202611/12I70477759C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "限时权益价12.69万起/搭乾崑智驾 北京越野星钽5X正式上市",
+      "url": "https://www.sohu.com/a/1100217390_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】反转！荷兰法院驳回捷豹路虎突击取证申请",
+      "url": "https://auto.ifeng.com/c/8xzgVW34QBK",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】北汽星钽5X于11月12日上市，共推出7款车型，限时焕新价12.69万元起",
+      "url": "https://auto.ifeng.com/c/8xzgPGU54zH",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】现代与起亚向美国专利商标局申请分体式尾门专利",
+      "url": "https://auto.ifeng.com/c/8xzgPGU54zI",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】2027款极狐阿尔法S5将于11月16日上市",
+      "url": "https://auto.ifeng.com/c/8xzgVaTYWyI",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉柏林工厂负责人表示若扩建将不再新建Model Y工厂",
+      "url": "https://auto.ifeng.com/c/8xzgP0RkFVg",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奔驰确认2027年推出SL敞篷跑车第三个版本",
+      "url": "https://auto.news18a.com/news/storys_314121.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "反转！荷兰法院驳回捷豹路虎突击取证申请",
+      "url": "https://www.news18a.com/news/storys_314115.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "北汽星钽5X于11月12日上市，共推出7款车型，限时焕新价12.69万元起",
+      "url": "https://www.news18a.com/news/storys_314116.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "现代与起亚向美国专利商标局申请分体式尾门专利",
+      "url": "https://www.news18a.com/news/storys_314119.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2027款极狐阿尔法S5将于11月16日上市",
+      "url": "https://www.news18a.com/news/storys_314111.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉柏林工厂负责人表示若扩建将不再新建Model Y工厂",
+      "url": "https://auto.news18a.com/news/storys_314106.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "美国汽车创新联盟致信国会呼吁永久禁止中国联网汽车在美进口销售与制造",
+      "url": "https://www.news18a.com/news/storys_314105.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉于2026年1月取消新车基础版Autopilot，马斯克决定此举以推动FSD订阅量",
+      "url": "https://www.news18a.com/news/storys_314102.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "11月12日24时起国内汽柴油价格每吨分别下调645元和625元",
+      "url": "https://www.news18a.com/news/storys_314100.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉将Cybertruck停产时间推迟至2027年夏末",
+      "url": "https://www.news18a.com/news/storys_314096.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "张雪机车创始人张雪回应“读书无用论”并公布10月销量及盈利数据",
+      "url": "https://auto.news18a.com/news/storys_314095.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "国轩高科全固态中试线稳定运行，2GWh全固态量产线工作已启动",
+      "url": "https://www.news18a.com/news/storys_314093.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞汽车提示近日有不法分子冒用其名义发送虚假“召回通知”实施诈骗",
+      "url": "https://www.news18a.com/news/storys_314091.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Universal Display与OLEDWorks宣布合作评估用于自动驾驶系统通信的青色OLED照明",
+      "url": "https://www.news18a.com/news/storys_314098.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "百度宣布萝卜快跑与神州租车在海南推出无人车租赁服务，已运营满一年",
+      "url": "https://www.news18a.com/news/storys_314088.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞艾瑞泽8征服版「尚」车型上市，官方指导价10.59万元",
+      "url": "https://auto.news18a.com/news/storys_314083.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "日产汽车年内第二次下调全球销量预期至297万–300万辆",
+      "url": "https://www.news18a.com/news/storys_314085.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "荷兰海牙法院驳回捷豹路虎针对比亚迪Ti 7的证据保全申请",
+      "url": "https://www.news18a.com/news/storys_314078.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长城汽车董事长魏建军称首台混动超跑计划2027年上市",
+      "url": "https://www.news18a.com/news/storys_314072.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026款岚图梦想家推出限时金融政策 至高贴息54500元",
+      "url": "https://www.news18a.com/news/storys_314068.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "新款零跑Lafa5将于11月27日广州车展上市 升级800V平台",
+      "url": "https://auto.news18a.com/news/storys_314080.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称安克押注的机器人公司阿米奥大幅收缩，原 CTO、COO 和产品负责人均已离职",
+      "url": "https://www.ithome.com/1/026/135.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "定价近 500 万元！奥迪全新超跑 Nuvolari 确认将进入美国市场",
+      "url": "https://www.ithome.com/1/026/130.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "Rimac 宣布 Nevera 电动超跑即将停产，累计仅生产 71 辆",
+      "url": "https://www.ithome.com/1/026/124.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奔驰 SL 敞篷跑车明年将增新成员：在 AMG 与迈巴赫之外强调“舒适性”",
+      "url": "https://www.ithome.com/1/026/122.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "关海涛欢迎华为推子品牌星芒：这件事最大的意义，就是让大家知道荣耀是荣耀",
+      "url": "https://www.ithome.com/1/026/112.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "2027 款极狐阿尔法 S5 将于 11 月 16 日上市：预售 12.18 万元起，标配激光雷达",
+      "url": "https://www.ithome.com/1/026/107.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉柏林工厂扩建将生产新车型，不再建第二座 Model Y 工厂",
+      "url": "https://www.ithome.com/1/026/096.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "岚图汽车推出限时购车权益：2026 款梦想家系列部分车型可享专属置换补贴",
+      "url": "https://www.ithome.com/1/026/094.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称特斯拉取消基础版 Autopilot 是马斯克亲自拍板，意在增加 FSD 订阅量",
+      "url": "https://www.ithome.com/1/026/085.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉 Cybertruck 停产时间推迟至 2027 年夏末，马斯克称出于情感因素",
+      "url": "https://www.ithome.com/1/026/079.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞汽车：警惕不法分子冒用奇瑞名义实施“虚假召回”诈骗",
+      "url": "https://www.ithome.com/1/026/075.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "软银领投 Agile Robots 公司 5 亿美元融资，加码人形机器人规模化生产",
+      "url": "https://www.ithome.com/1/026/072.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿海 2026 年前三季度归母净利润 1874.17 亿新台币，同比增长 30%",
+      "url": "https://www.ithome.com/1/026/063.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称某厂 2nm 中杯机型备案有顶配 16GB+1TB，预计为小米 18 标准版",
+      "url": "https://www.ithome.com/1/026/059.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-12",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -43379,11 +43891,10 @@
     {
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "HTTP 404"
+      "listRead": true,
+      "candidateCount": 14,
+      "status": "ok",
+      "publicLabel": "列表已读 14 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -43437,9 +43948,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 10,
+      "candidateCount": 11,
       "status": "ok",
-      "publicLabel": "列表已读 10 条待核验线索"
+      "publicLabel": "列表已读 11 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -43452,11 +43963,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
