@@ -10378,6 +10378,7 @@
     "url": "https://www.pcauto.com.cn/nation/5189/51895191.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11748,6 +11749,77 @@
     ]
   },
   {
+    "title": "预售15.77万起 吉利星越L PLUS开启预售 中大型SUV 搭载2.0T混动",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5192/51922380.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "腾势N8售26.99万起 标配云辇-A/后轮转向 纯电续航最高1003km",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5192/51922379.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "2027款奇瑞风云T11上市 置换价17.99万起 配置升级",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5192/51922377.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "上汽大众ID.ERA 5X上市 9.99万元起 纯电中型SUV",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5192/51922374.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "北汽星钽5X上市 12.99万元 配华为乾崑ADS 5 Pro",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5192/51921704.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "长城首款跑车官宣明年上市 搭载V8混动系统 对标法拉利SF90",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5192/51920942.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "2026款岚图梦想家推出0首付5年0息金融方案 至高可省5.45万元",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5192/51920938.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "IT早报 1113：英伟达宣布 CEO 黄仁勋即刻辞职；腾讯公关总监辟谣公司裁员 50%；长安汽车拟挂牌转让阿维塔 10% 股权；演员赵丽颖起诉红果短剧侵犯肖像权...",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/026/470.htm",
+    "reasons": [
+      "频道问候或无具体车型事件的周期汇总"
+    ]
+  },
+  {
     "title": "四季度上市/第六代DM-i混动技术 方程豹钛9内饰谍照曝光",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202609/1317075.html",
@@ -12103,6 +12175,14 @@
     "title": "闪迪公布 eMMC 模组 iNAND CL EM181，面向嵌入式应用",
     "sourceName": "IT之家",
     "url": "https://www.ithome.com/1/025/434.htm",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "【网通社快报】2027款极狐阿尔法S5将于11月16日上市",
+    "sourceName": "凤凰网汽车",
+    "url": "https://auto.ifeng.com/c/8xzgVaTYWyI",
     "reasons": [
       "标题与正文不是同一事件"
     ]

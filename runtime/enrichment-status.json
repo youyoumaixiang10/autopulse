@@ -1,80 +1,125 @@
 {
-  "completedAt": "2026-11-12T09:58:19.306Z",
-  "durationMs": 111724,
-  "fetched": 187,
-  "skipped": 1695,
-  "cached": 2876,
+  "completedAt": "2026-11-13T00:15:13.833Z",
+  "durationMs": 302205,
+  "fetched": 390,
+  "skipped": 1755,
+  "cached": 2659,
   "failures": [
     {
-      "sourceId": "autohome-news",
-      "url": "https://www.autohome.com.cn/news/202609/1317236.html",
+      "sourceId": "chezhitong-auto",
+      "url": "https://m.12365auto.com/news/20260825/574352.shtml",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://auto.news18a.com/news/storys_304071.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304067.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304068.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304064.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304058.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://auto.news18a.com/news/storys_304056.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304055.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304054.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "url": "https://www.news18a.com/news/storys_304053.html",
       "reason": "The operation was aborted due to timeout"
     }
   ],
   "sourceBudgets": [
     {
       "sourceId": "dongchedi-news",
-      "failureMs": 147548,
-      "skipped": 129,
+      "failureMs": 157216,
+      "skipped": 128,
       "stopped": true
     },
     {
-      "sourceId": "gasgoo-auto",
-      "failureMs": 49640,
+      "sourceId": "autohome-news",
+      "failureMs": 4780,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "yiche-news",
-      "failureMs": 48744,
+      "failureMs": 34580,
+      "skipped": 0,
+      "stopped": false
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "failureMs": 36518,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sina-auto",
-      "failureMs": 101139,
-      "skipped": 27,
+      "failureMs": 93735,
+      "skipped": 28,
       "stopped": true
     },
     {
-      "sourceId": "autohome-news",
-      "failureMs": 24004,
+      "sourceId": "chezhitong-auto",
+      "failureMs": 24019,
       "skipped": 0,
       "stopped": false
     },
     {
-      "sourceId": "chezhitong-auto",
-      "failureMs": 9575,
+      "sourceId": "pcauto-news",
+      "failureMs": 15355,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sohu-auto",
-      "failureMs": 102021,
-      "skipped": 319,
+      "failureMs": 105581,
+      "skipped": 323,
       "stopped": true
     },
     {
-      "sourceId": "pcauto-news",
-      "failureMs": 20062,
-      "skipped": 0,
-      "stopped": false
-    },
-    {
       "sourceId": "news18a-auto",
-      "failureMs": 96302,
-      "skipped": 1220,
+      "failureMs": 216013,
+      "skipped": 1276,
       "stopped": true
     },
     {
       "sourceId": "ithome-auto",
-      "failureMs": 1306,
+      "failureMs": 695,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "ifeng-auto",
-      "failureMs": 2320,
+      "failureMs": 3166,
       "skipped": 0,
       "stopped": false
     }

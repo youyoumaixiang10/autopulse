@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-12T09:56:19.475Z",
+  "collectedAt": "2026-11-13T00:09:57.290Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6180,6 +6180,30 @@
         "小鹏"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "DMS混动平台 综合续航1630km 旗舰家用方盒子！一文看懂方程豹钛9",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318327.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售26.99万起 首搭30英寸全景屏+天际屏 腾势N8正式上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318332.html",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -6187,7 +6211,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 0
+      "count": 21
     },
     {
       "sourceId": "autohome-industry",
@@ -6198,9 +6222,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-12T09:55:43.007Z",
+      "collectedAt": "2026-11-13T00:09:45.584Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 66,
+      "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
