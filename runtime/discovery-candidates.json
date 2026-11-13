@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-13T06:51:15.804Z",
+  "collectedAt": "2026-11-13T08:10:33.584Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6288,6 +6288,45 @@
         "岚图"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售37.98-46.98万元 新款问界M8上市 标配华为乾崑智驾ADS 5",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318350.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "共计1146辆 阿尔法·罗密欧Giulia朱丽叶/Stelvio斯坦维召回",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318348.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "26.99万起售，腾势N8正式上市",
+      "url": "https://www.dongchedi.com/article/7707268949289402905",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -6295,7 +6334,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 22
+      "count": 23
     },
     {
       "sourceId": "autohome-industry",
@@ -6306,9 +6345,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-13T06:51:04.008Z",
+      "collectedAt": "2026-11-13T08:10:21.151Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 67,
+      "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

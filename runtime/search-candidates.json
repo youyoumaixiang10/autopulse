@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-13T06:51:23.826Z",
+  "collectedAt": "2026-11-13T08:10:47.592Z",
   "targetDates": [
     "2026-11-12",
     "2026-11-13"
@@ -2608,7 +2608,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-10 2026-11-11",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-12 2026-11-13",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-10 2026-11-11",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-12 2026-11-13",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2628,7 +2628,7 @@
       "title": "新浪汽车 - 汽车生活源动力！",
       "url": "https://auto.sina.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-10 2026-11-11",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-12 2026-11-13",
       "verificationStatus": "media-discovery"
     },
     {
@@ -34098,7 +34098,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "海豹07首搭云辇‑M上市",
+      "title": "海豹07首次搭云辇-M上市",
       "url": "https://www.sohu.com/a/1097600518_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -34772,7 +34772,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "仰望U9 Xtreme创极速纪录",
+      "title": "仰望U9 Xtreme刷新极速纪录",
       "url": "https://www.sohu.com/a/1098084707_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -36578,7 +36578,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "仰望鼎曜阿布扎比全球首发",
+      "title": "仰望鼎曜全球首发",
       "url": "https://www.sohu.com/a/1098578622_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -39691,7 +39691,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "宝马2026广州车展阵容公布",
+      "title": "宝马新世代车展阵容曝光",
       "url": "https://www.sohu.com/a/1099490401_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -43434,7 +43434,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "北京越野星钽5X上市",
+      "title": "星钽5X上市搭乾崑智驾",
       "url": "https://www.sohu.com/a/1100217390_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -44440,7 +44440,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时9.99万起 上汽大众ID. ERA 5X上市",
+      "title": "限时权益价9.99万元起 上汽大众ID. ERA 5X上市",
       "url": "https://www.sohu.com/a/1100739125_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -45516,6 +45516,272 @@
       "discoveryPublishedAt": "2026-11-13",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "开上纯电之后，28%的车主为什么想换混动？",
+      "url": "https://auto.gasgoo.com/news/202611/13I70477903C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "英伟达员工呼吁黄仁勋回归：内部请愿帖获超1600条评论",
+      "url": "https://auto.gasgoo.com/news/202611/13I70477898C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "问界合作模式再生变？余承东称华为仍主导产品定义与设计",
+      "url": "https://auto.gasgoo.com/news/202611/13I70477899C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "星尘智能牵头全球首个IEEE家用具身智能国际标准立项",
+      "url": "https://auto.gasgoo.com/news/202611/13I70477786C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "砸了1000亿，大众拿下3个爆款",
+      "url": "https://auto.gasgoo.com/news/202611/13I70477861C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "权益价19.79万元 2027款岚图知音正式上市",
+      "url": "https://www.sohu.com/a/1101073033_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "启境GT7 Ultra舒享版正式上市",
+      "url": "https://www.sohu.com/a/1101095263_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "体验岚图知音激光雷达超充",
+      "url": "https://www.sohu.com/a/1101078208_536295",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "神龙科技与火山引擎达成全面战略合作",
+      "url": "https://auto.ifeng.com/c/8y16EwgYAlC",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】问界新M8于2026年11月13日上市，搭载全维手势交互系统",
+      "url": "https://auto.ifeng.com/c/8y1M87MUwGu",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】余承东在问界新M8发布会上介绍华为与赛力斯问界2.0联合研发模式",
+      "url": "https://auto.ifeng.com/c/8y1M87MUwGw",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】问界新M8于11月13日正式上市",
+      "url": "https://auto.ifeng.com/c/8y1M87MUwGx",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】华为何刚亮相问界新M8上市发布会主讲产品配置",
+      "url": "https://auto.ifeng.com/c/8y1LAMs9vVH",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】华为余承东在问界新M8上市发布会上公布乾崑ADS安全数据",
+      "url": "https://auto.ifeng.com/c/8y1LxK8t0Am",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "三星 Galaxy S27 系列手机壁纸曝光：5 种颜色，折叠丝带设计吸睛",
+      "url": "https://www.ithome.com/1/026/802.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行问界新 M8 正式上市，37.98 万-46.98 万元",
+      "url": "https://www.ithome.com/1/026/799.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长安汽车拟挂牌转让阿维塔 10% 股权，阿维塔回应称与 IPO 无关",
+      "url": "https://www.ithome.com/1/026/797.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "游戏《巴士模拟器 27》上新免费 DLC，内含比亚迪 K9UD、K11U 两款电动车型",
+      "url": "https://www.ithome.com/1/026/795.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "手指哪里控制哪里，问界新 M8 汽车搭载全维手势交互系统",
+      "url": "https://www.ithome.com/1/026/785.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为何刚惊喜亮相问界新 M8 上市发布会，主讲产品配置",
+      "url": "https://www.ithome.com/1/026/762.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "UCIe 4.0 规范发布，将芯粒互连扩展至系统级集成",
+      "url": "https://www.ithome.com/1/026/751.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "余承东、张兴海同台喊口号：华为与赛力斯打造的问界进入新合作阶段，在一起，为用户",
+      "url": "https://www.ithome.com/1/026/750.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "广汽传祺越 7 两驱智驾版 11 月 18 日上市，有望搭载 192 线激光雷达",
+      "url": "https://www.ithome.com/1/026/747.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为余承东：问界新 M8 研发投入 15 亿元，技术创新 126 项",
+      "url": "https://www.ithome.com/1/026/746.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为余承东亮相问界新 M8 上市发布会，再晒鸿蒙智行品牌矩阵",
+      "url": "https://www.ithome.com/1/026/740.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -45539,9 +45805,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 1,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 1 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -45555,9 +45821,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 14,
+      "candidateCount": 17,
       "status": "ok",
-      "publicLabel": "列表已读 14 条待核验线索"
+      "publicLabel": "列表已读 17 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -45611,9 +45877,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 19,
+      "candidateCount": 20,
       "status": "ok",
-      "publicLabel": "列表已读 19 条待核验线索"
+      "publicLabel": "列表已读 20 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -45626,10 +45892,11 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
