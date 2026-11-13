@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-13T08:10:47.592Z",
+  "collectedAt": "2026-11-13T09:39:50.241Z",
   "targetDates": [
     "2026-11-12",
     "2026-11-13"
@@ -45047,7 +45047,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "10月销量减半 鸿蒙智行还有几道坎",
+      "title": "销量减半 鸿蒙智行还有几道坎",
       "url": "https://www.sohu.com/a/1100696702_115479",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -45754,7 +45754,7 @@
       "sourceId": "ithome-auto",
       "sourceName": "IT之家",
       "sourceType": "vertical-media",
-      "title": "广汽传祺越 7 两驱智驾版 11 月 18 日上市，有望搭载 192 线激光雷达",
+      "title": "广汽传祺越 7 两驱智驾版将于 11 月下旬上市，有望搭载 192 线激光雷达",
       "url": "https://www.ithome.com/1/026/747.htm",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-13",
@@ -45782,6 +45782,333 @@
       "discoveryPublishedAt": "2026-11-13",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "北汽携手新紫光集团，舱驾控一体芯片拟2028年量产上车",
+      "url": "https://auto.gasgoo.com/news/202611/13I70477902C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "启境GT7 Ultra舒享版增程纯电双车上新，限时22.19万起",
+      "url": "https://auto.gasgoo.com/news/202611/13I70477924C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "2026年1-9月智能座舱供应商装机量排行榜：本土阵营强势主导座舱域控领域丨盖世汽车研究院",
+      "url": "https://auto.gasgoo.com/news/202611/13I70477913C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "问界新M8实拍体验",
+      "url": "https://www.sohu.com/a/1101139354_120107790",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "702km续航+华为技术加持 埃安Ray7限时价11.47万起",
+      "url": "https://auto.ifeng.com/c/8y1RBmXuWTu",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "1300台“战损车”集体亮相 阿维塔把造车底气从幕后搬到台前",
+      "url": "https://auto.ifeng.com/c/8y1QyDmcRiE",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】克里斯·海姆斯沃斯新南威尔士州庄园发生入室盗窃，三辆车被盗含一台比亚迪",
+      "url": "https://auto.ifeng.com/c/8y1QHkdFWTf",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】2026年1-9月国内乘用车智能座舱供应商装机量数据发布",
+      "url": "https://auto.ifeng.com/c/8y1R75Tgd6F",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】宝马计划2027年在i3 M60 xDrive上推出自研模拟换挡系统",
+      "url": "https://auto.ifeng.com/c/8y1Q1HIEjNT",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "多部门联合编制的〈汽车改装管理办法〉公开征求意见",
+      "url": "https://auto.news18a.com/news/storys_314551.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众SSP平台开发延期，纯电奥迪A4投产时间推迟至2029年",
+      "url": "https://www.news18a.com/news/storys_314548.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "克里斯·海姆斯沃斯新南威尔士州庄园发生入室盗窃，三辆车被盗含一台比亚迪",
+      "url": "https://www.news18a.com/news/storys_314544.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年1-9月国内乘用车智能座舱供应商装机量数据发布",
+      "url": "https://www.news18a.com/news/storys_314546.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马计划2027年在i3 M60 xDrive上推出自研模拟换挡系统",
+      "url": "https://www.news18a.com/news/storys_314537.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "问界新M8于11月13日发布，公布续航、底盘及转向系统参数",
+      "url": "https://auto.news18a.com/news/storys_314533.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "驾驶模拟游戏〈巴士模拟器27〉于11月12日上线免费比亚迪纯电巴士DLC",
+      "url": "https://www.news18a.com/news/storys_314529.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "问界新M8于2026年11月13日上市，搭载全维手势交互系统",
+      "url": "https://www.news18a.com/news/storys_314524.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "余承东在问界新M8发布会上介绍华为与赛力斯问界2.0联合研发模式",
+      "url": "https://www.news18a.com/news/storys_314521.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "问界新M8于11月13日正式上市",
+      "url": "https://www.news18a.com/news/storys_314522.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "华为何刚亮相问界新M8上市发布会主讲产品配置",
+      "url": "https://auto.news18a.com/news/storys_314517.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "华为余承东在问界新M8上市发布会上公布乾崑ADS安全数据",
+      "url": "https://www.news18a.com/news/storys_314515.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奔驰冻结德国所有新投资并评估关停工厂可能性",
+      "url": "https://www.news18a.com/news/storys_314513.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "广汽传祺越7两驱智驾版将于11月18日上市",
+      "url": "https://www.news18a.com/news/storys_314509.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行问界新M8于11月13日上市，余承东出席发布会介绍五大品牌矩阵",
+      "url": "https://www.news18a.com/news/storys_314506.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽多款新车近期上市，月度整车销量达43万辆",
+      "url": "https://auto.news18a.com/news/storys_314511.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "雷克萨斯TZ将于11月27日广州车展亮相",
+      "url": "https://www.news18a.com/news/storys_314497.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "今年双11，我心仪的那款车没打“骨折”",
+      "url": "https://auto.news18a.com/news/storys_314543.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2027款岚图知音限时19.79万元 搭载华为896线激光雷达",
+      "url": "https://auto.news18a.com/news/storys_314505.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "东风日产 NX7 插混 SUV 预售：全系宁德时代电池，12.99 万元起",
+      "url": "https://www.ithome.com/1/026/871.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "重点突出“安全”“环保”，《汽车改装管理办法》公开征求意见",
+      "url": "https://www.ithome.com/1/026/863.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "大众 SSP 平台开发遇挫，纯电奥迪 A4 上市推迟至 2029 年",
+      "url": "https://www.ithome.com/1/026/858.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "真香：宝马要给 i3 M60 装上模拟换挡系统，此前曾称其是“噱头”",
+      "url": "https://www.ithome.com/1/026/806.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-13",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -45805,9 +46132,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 1,
+      "candidateCount": 0,
       "listRead": false,
-      "publicLabel": "公开检索发现 1 条待核验线索"
+      "publicLabel": "直连列表与公开检索均未匹配"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -45821,9 +46148,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 17,
+      "candidateCount": 16,
       "status": "ok",
-      "publicLabel": "列表已读 17 条待核验线索"
+      "publicLabel": "列表已读 16 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -45892,11 +46219,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

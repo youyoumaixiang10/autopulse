@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-13T08:10:33.584Z",
+  "collectedAt": "2026-11-13T09:39:41.557Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6327,6 +6327,23 @@
         "腾势"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "新款问界M8开启预售",
+      "url": "https://www.dongchedi.com/article/7707187480361075262",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -6334,7 +6351,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 23
+      "count": 21
     },
     {
       "sourceId": "autohome-industry",
@@ -6345,7 +6362,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-13T08:10:21.151Z",
+      "collectedAt": "2026-11-13T09:39:29.652Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
