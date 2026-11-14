@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-14T07:41:19.067Z",
+  "collectedAt": "2026-11-14T09:04:07.729Z",
   "targetDates": [
     "2026-11-13",
     "2026-11-14"
@@ -44440,7 +44440,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时权益价9.99万元起 上汽大众ID. ERA 5X上市",
+      "title": "上汽大众ID. ERA 5X上市",
       "url": "https://www.sohu.com/a/1100739125_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -44460,7 +44460,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "埃安Ray7纯电运动轿跑上市",
+      "title": "埃安Ray7纯电轿跑上市",
       "url": "https://www.sohu.com/a/1100222221_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -44480,7 +44480,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时置换价17.99-23.99万元 2027款奇瑞风云T11上市",
+      "title": "奇瑞风云T11新款上市",
       "url": "https://www.sohu.com/a/1100763708_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -45576,7 +45576,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时权益价19.79万元 2027款岚图知音正式上市",
+      "title": "岚图知音新车上市配激光雷达",
       "url": "https://www.sohu.com/a/1101073033_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46238,7 +46238,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "指导价37.98-46.98万元 投十五亿改款 问界新M8上市",
+      "title": "指导价37.98万起 问界新M8上市",
       "url": "https://www.sohu.com/a/1100600962_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46248,7 +46248,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "预售价12.99-14.99万元 东风日产NX7发布预售",
+      "title": "东风日产NX7发布预售",
       "url": "https://www.sohu.com/a/1101068485_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46258,7 +46258,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时权益价10.38万起 2027款领克03家族正式上市",
+      "title": "2027款领克03家族正式上市",
       "url": "https://www.sohu.com/a/1101240348_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46268,7 +46268,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "\"极+时代\"全民换电生态 极狐贝塔S3换电版/贝塔T1换电版上市",
+      "title": "极狐贝塔S3换电版/贝塔T1换电版",
       "url": "https://www.sohu.com/a/1101261268_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46898,7 +46898,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "上汽大通大拿系列新车型发布",
+      "title": "上汽大通大拿系列全场景上市",
       "url": "https://www.sohu.com/a/1101247896_120774496",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -47337,6 +47337,161 @@
       "discoveryPublishedAt": "2026-11-14",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】宝马北美公司宣布在美国召回720,796辆汽车",
+      "url": "https://auto.ifeng.com/c/8y34feqwGFv",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】本田停止生产CR-V e:FCEV氢燃料电池车，累计租出约300辆",
+      "url": "https://auto.ifeng.com/c/8y34nWYM7Eg",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】郑州日产Z9新能源皮卡·悦享版上市，售价14.99万元起",
+      "url": "https://auto.ifeng.com/c/8y342XPOyGW",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】大众在巴西推出换标上汽大通V90轻客Tempest，预订订单超1000份",
+      "url": "https://auto.ifeng.com/c/8y34feqwGFw",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】马斯克称Cybercab自动驾驶订阅月费应在115美元左右",
+      "url": "https://auto.ifeng.com/c/8y30M7EGclM",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "本田停止生产CR-V e:FCEV氢燃料电池车，累计租出约300辆",
+      "url": "https://auto.news18a.com/news/storys_314866.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马北美公司宣布在美国召回720,796辆汽车",
+      "url": "https://www.news18a.com/news/storys_314864.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "郑州日产Z9新能源皮卡·悦享版上市，售价14.99万元起",
+      "url": "https://www.news18a.com/news/storys_314862.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众在巴西推出换标上汽大通V90轻客Tempest，预订订单超1000份",
+      "url": "https://www.news18a.com/news/storys_314860.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马斯克称Cybercab自动驾驶订阅月费应在115美元左右",
+      "url": "https://www.news18a.com/news/storys_314857.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "熄火状态下存起火风险：宝马在美国召回 72 万辆车，管理部门敦促车主将车停放在室外",
+      "url": "https://www.ithome.com/1/027/172.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "本田停止生产 CR-V e:FCEV 氢燃料电池车，生命周期内累计仅租出约 300 辆",
+      "url": "https://www.ithome.com/1/027/171.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "大众把换标上汽大通 V90 轻客卖到巴西，拿下当地超千份订单",
+      "url": "https://www.ithome.com/1/027/164.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "极狐贝塔 T1 换电版上市：电池月租 399 元起，终端零售价 5.2 万元起",
+      "url": "https://www.ithome.com/1/027/161.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "299 美元月费约为 1% 车价：马斯克回应 Cybercab 自动驾驶订阅费太高，应在 115 美元左右",
+      "url": "https://www.ithome.com/1/027/159.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -47376,9 +47531,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 12,
+      "candidateCount": 13,
       "status": "ok",
-      "publicLabel": "列表已读 12 条待核验线索"
+      "publicLabel": "列表已读 13 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -47432,9 +47587,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 10,
+      "candidateCount": 22,
       "status": "ok",
-      "publicLabel": "列表已读 10 条待核验线索"
+      "publicLabel": "列表已读 22 条待核验线索"
     },
     {
       "sourceId": "netease-auto",

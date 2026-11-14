@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-11-14T07:43:06.769Z",
+  "completedAt": "2026-11-14T09:06:08.774Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 12 条待核验线索"
+      "label": "列表已读 13 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
@@ -412,7 +412,7 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 10 条待核验线索"
+      "label": "列表已读 22 条待核验线索"
     },
     {
       "id": "netease-auto",
