@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-14T00:11:53.688Z",
+  "collectedAt": "2026-11-14T06:29:30.472Z",
   "targetDates": [
     "2026-11-13",
     "2026-11-14"
@@ -2608,7 +2608,7 @@
       "title": "易车-价格全知道，买车不吃亏，国内领先的汽车网",
       "url": "https://www.yiche.com/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-12 2026-11-13",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-13 2026-11-14",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2618,7 +2618,7 @@
       "title": "太平洋汽车_精准报价_专业评测_以车会友,汽车世界由此精彩",
       "url": "https://www.pcauto.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-12 2026-11-13",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-13 2026-11-14",
       "verificationStatus": "media-discovery"
     },
     {
@@ -2628,7 +2628,7 @@
       "title": "新浪汽车 - 汽车生活源动力！",
       "url": "https://auto.sina.com.cn/",
       "publishedAt": null,
-      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-12 2026-11-13",
+      "discoveryQuery": "汽车行业 政策 OR 车展 OR 工信部 2026-11-13 2026-11-14",
       "verificationStatus": "media-discovery"
     },
     {
@@ -36578,7 +36578,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "仰望鼎曜全球首发",
+      "title": "仰望鼎曜全球首发于阿布扎比",
       "url": "https://www.sohu.com/a/1098578622_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -39691,7 +39691,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "宝马新世代iX3/i3广州车展亮相",
+      "title": "宝马新iX3/i3广州车展亮相",
       "url": "https://www.sohu.com/a/1099490401_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -43073,7 +43073,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "日产中国区10月销量22,295辆，同比下滑67.1%",
+      "title": "日产中国区10月销量22,295辆",
       "url": "https://auto.gasgoo.com/news/202611/12I70477738C110.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-12",
@@ -43434,7 +43434,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "北京越野星钽5X正式发布",
+      "title": "北京越野星钽5X上市",
       "url": "https://www.sohu.com/a/1100217390_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -44460,7 +44460,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "埃安Ray7纯电动轿跑上市",
+      "title": "埃安Ray7纯电运动轿跑上市",
       "url": "https://www.sohu.com/a/1100222221_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -44480,7 +44480,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "奇瑞风云T11新款上市",
+      "title": "奇瑞风云T11新车上市",
       "url": "https://www.sohu.com/a/1100763708_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -45521,7 +45521,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "开上纯电之后，28%的车主为什么想换混动？",
+      "title": "开上纯电之后，28%的车主想换混动？",
       "url": "https://auto.gasgoo.com/news/202611/13I70477903C501.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-13",
@@ -45576,7 +45576,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "岚图知音2027款上市搭激光雷达",
+      "title": "岚图知音搭激光雷达上市",
       "url": "https://www.sohu.com/a/1101073033_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46238,7 +46238,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "指导价37.98万元起 问界新M8上市",
+      "title": "指导价37.98万起 问界新M8上市",
       "url": "https://www.sohu.com/a/1100600962_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46258,7 +46258,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "2027款领克03家族上市",
+      "title": "2027款领克03家族正式上市",
       "url": "https://www.sohu.com/a/1101240348_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46268,7 +46268,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "极狐发布换电新品贝塔S3/T1",
+      "title": "极狐贝塔S3换电版/贝塔T1换电版",
       "url": "https://www.sohu.com/a/1101261268_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46731,6 +46731,359 @@
       "discoveryPublishedAt": "2026-11-13",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "​极狐发布“极+时代”换电生态，两款新车上市，租电价5.2万元起",
+      "url": "https://auto.gasgoo.com/news/202611/14I70477996C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "11月LAB续航榜丨纯电小车续航创新高，低能耗将成新战场？",
+      "url": "https://auto.gasgoo.com/news/202611/14I70477991C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "10月方盒子排行：坦克300不复当年勇，多款新玩家杀入！",
+      "url": "https://auto.gasgoo.com/news/202611/14I70477990C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "“速成车”后时代：合资电车强势回春，蓝牌混动崛起",
+      "url": "https://auto.gasgoo.com/news/202611/14I70477989C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "法院判了：“不在4S店保养就取消终身质保”站不住！修理厂借\"外修证明\"抢客户的时机到了？",
+      "url": "https://auto.gasgoo.com/news/202611/14I70477912C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "因雨刮臂脱落隐患 福特召回林肯领航员国内召回",
+      "url": "https://auto.gasgoo.com/news/202611/14I70477920C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "因车轮轴承问题 北京奔驰召回部分国产汽车国内召回",
+      "url": "https://auto.gasgoo.com/news/202611/14I70477926C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "因前排气囊隐患 斯泰兰蒂斯召回大切诺基4xe国内召回",
+      "url": "https://auto.gasgoo.com/news/202611/14I70477927C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "因熄火隐患 斯泰兰蒂斯召回朱丽叶等车型国内召回",
+      "url": "https://auto.gasgoo.com/news/202611/14I70477928C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "因动力中断隐患 宝马召回进口5系等车型国内召回",
+      "url": "https://auto.gasgoo.com/news/202611/14I70477929C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "因喇叭无法鸣响隐患 丰田汽车召回进口86国内召回",
+      "url": "https://auto.gasgoo.com/news/202611/14I70477930C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "一周融资速览｜思灵机器人5亿美元F轮融资",
+      "url": "https://auto.gasgoo.com/news/202611/14I70477901C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "10月MPV销量排行",
+      "url": "https://www.sohu.com/a/1100891078_120829155",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "纯电小车续航高 低能耗新战场",
+      "url": "https://www.sohu.com/a/1101209273_115706",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "SpaceX与特斯拉合并新消息",
+      "url": "https://www.sohu.com/a/1101227411_260616",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "上汽大通大拿系列新车型发布",
+      "url": "https://www.sohu.com/a/1101247896_120774496",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "极狐换电体验",
+      "url": "https://www.sohu.com/a/1101242384_121645965",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】极狐贝塔S3 535Ultra+激光换电版上市，限时补贴价7.88万元起",
+      "url": "https://auto.ifeng.com/c/8y2r9XX3223",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪公布辅助驾驶车型保有量超419万辆，天神之眼日生成数据超2.6亿公里",
+      "url": "https://auto.ifeng.com/c/8y2nQZJbCaZ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "上汽大众ID. ERA 5X售9.99万起 最稀缺的是其确定性",
+      "url": "https://auto.ifeng.com/c/8y2nUBbpXoC",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "一句顶一万句 余承东张兴海同台喊“在一起，为用户”",
+      "url": "https://auto.ifeng.com/c/8y2nRoqMW8F",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "2027款岚图知音把华为896线激光雷达拽进20万内 还有长续航和5C快充",
+      "url": "https://auto.ifeng.com/c/8y2nRoqMW8E",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪：网传“某数字能源出售给比亚迪”不实",
+      "url": "https://www.ithome.com/1/027/121.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "极狐贝塔 S3 激光换电版上市：宁德时代电池，限时补贴价 7.88 万元起",
+      "url": "https://www.ithome.com/1/027/120.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪辅助驾驶车型保有量超 419 万辆，天神之眼日数据达 2.6 亿公里",
+      "url": "https://www.ithome.com/1/027/076.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "中国商飞 10 吨级电动商用飞机 CE-25A 有人驾驶首飞成功",
+      "url": "https://www.ithome.com/1/027/075.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽大通 27 款大拿 M1 上市：83 度宁德时代天行电池，19.28 万元起",
+      "url": "https://www.ithome.com/1/027/065.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽大通 27 款大拿 V1 上市：标配宁德时代天行电池，8.88 万元起",
+      "url": "https://www.ithome.com/1/027/054.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "南方电网：南方五省区新能源汽车产业链前 10 月贡献全网用电增量超三成",
+      "url": "https://www.ithome.com/1/027/045.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪方程豹钛 9 官宣 11 月 19 日上市，闪充技术 + 二代刀片电池加持",
+      "url": "https://www.ithome.com/1/027/036.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉 Cybercab 面向个人用户开放销售：售 29990 美元，每月还需支付 299 美元自动驾驶订阅费用",
+      "url": "https://www.ithome.com/1/027/034.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "日产 Z NISMO 硬顶跑车国内首发：售价 66 万元，半年内全国仅 9 台配额",
+      "url": "https://www.ithome.com/1/027/024.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1114：曝黄仁勋离任前夕心力交瘁；微软 365 核心服务全球宕机超 10 个小时；华为首个动态血糖仪官宣；37.98 万元起鸿蒙智行问界新 M8 上市...",
+      "url": "https://www.ithome.com/1/027/020.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -46754,9 +47107,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 0,
+      "candidateCount": 1,
       "listRead": false,
-      "publicLabel": "直连列表与公开检索均未匹配"
+      "publicLabel": "公开检索发现 1 条待核验线索"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -46770,17 +47123,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 8,
+      "candidateCount": 12,
       "status": "ok",
-      "publicLabel": "列表已读 8 条待核验线索"
+      "publicLabel": "列表已读 12 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 20,
+      "candidateCount": 29,
       "status": "ok",
-      "publicLabel": "列表已读 20 条待核验线索"
+      "publicLabel": "列表已读 29 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -46826,9 +47179,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 17,
+      "candidateCount": 22,
       "status": "ok",
-      "publicLabel": "列表已读 17 条待核验线索"
+      "publicLabel": "列表已读 22 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -46841,10 +47194,11 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"

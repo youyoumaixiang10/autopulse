@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-14T00:11:47.301Z",
+  "collectedAt": "2026-11-14T06:29:16.685Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6364,6 +6364,157 @@
       "url": "https://www.autohome.com.cn/news/202611/1318353.html",
       "candidateBrands": [],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "躺着赚钱变成现实？仅售20万 特斯拉无人驾驶网约车开放个人购买",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318369.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "经典中的经典 三门越野车 可拆卸车顶 212 T10将于广州车展上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318365.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "奕境X9纯电版将于广州车展首发 六座大型SUV 搭华为乾崑智驾ADS 5",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318364.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "静态体验全新问界M8",
+      "url": "https://www.dongchedi.com/video/7707317946854785561",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "2026款的理想L6来了",
+      "url": "https://www.dongchedi.com/video/7707191115569021464",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "零跑A10带你玩转冬日",
+      "url": "https://www.dongchedi.com/video/7707566518015525438",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "22.99万掏空比亚迪的家底？",
+      "url": "https://www.dongchedi.com/video/7707267499087512089",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "《夏东评车》试驾新款问界M8",
+      "url": "https://www.dongchedi.com/video/7707570241492599358",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "问界新M8抢先试驾",
+      "url": "https://www.dongchedi.com/video/7707476634630308377",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "20分钟聊新问界M8试驾感受",
+      "url": "https://www.dongchedi.com/video/7706889191409664536",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -6371,7 +6522,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 22
+      "count": 24
     },
     {
       "sourceId": "autohome-industry",
@@ -6382,9 +6533,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-14T00:11:35.413Z",
+      "collectedAt": "2026-11-14T06:29:05.089Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 69,
+      "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
