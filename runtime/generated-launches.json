@@ -3041,25 +3041,6 @@
     "observation": "已官宣但未形成可追溯的正式上市日；未公布价格记为待公布。"
   },
   {
-    "id": "launch-851c9b3d82fd4bbd",
-    "month": "2026-10",
-    "dateText": "待定",
-    "windowText": "第四季度（具体日期待官宣）",
-    "brand": "东风",
-    "model": "NX7",
-    "kind": "官宣",
-    "powertrain": "插混 SUV",
-    "priceText": "12.99-14.99万元",
-    "status": "confirmed",
-    "statusLabel": "已官宣",
-    "sourceName": "凤凰网汽车",
-    "sourceUrl": "https://auto.ifeng.com/c/8xrK2PY5Ilv",
-    "evidenceLabel": "媒体报道",
-    "publishedAt": "2026-11-07",
-    "detail": "日产汽车NISSANDAY将于11月13日在珠海国际会展中心举办，届时东风日产NX7与另一款车型将正式发布亮相。东风日产NX7定位为中型SUV，采用5座布局，搭载1.5L插电式混合动力系统，预计将于2026年第四季度正式上市。该车已于2026年8月完成申报，车身尺寸为4785×1932×1665mm，轴距2815mm；搭载40.9度宁德时代电池；配备激光雷达，支持城市NOA功能。配置方面，该车全舱可触面积90%为软包，中控台、门板、扶手等采用圆角处理；配备256色撞色氛围灯及隐藏光源设计；搭载AI零压云毯座椅2.0… Notice: The content above (including the videos, pictures and audios if any) is uploaded and posted by the user of Dafeng Hao, which is a social media platfor",
-    "observation": "已官宣但未形成可追溯的正式上市日；未公布价格记为待公布。"
-  },
-  {
     "id": "launch-4130f0bd8f0f848f",
     "month": "2026-10",
     "dateText": "待定",
@@ -3589,6 +3570,25 @@
     "publishedAt": "2026-11-09",
     "detail": "IT之家 11 月 9 日消息，宝马中国今日宣布，新世代 BMW iX3 与新世代 BMW i3 双车大订，即将开启。 11 月 25 日，新世代 BMW iX3 正式上市，试驾及客户交付同步启动，采用全国统一价模式，已预订客户可直接转大订。 11 月 27 日，新世代 BMW i3 于广州车展正式上市，大订通道同步开放，采用全国统一价模式，无需小订，一步锁定。 IT之家从公开信息获悉，新世代宝马 iX3 长轴距版基于全新 Neue Klasse 纯电平台打造，轴距达 3005 mm，较海外标轴版加长 108 mm，该车尺寸为 4885 x 1895 x 1635mm，前脸配备 3D 光耀格栅与“数字天使光翼”一体式灯组。该车型基于 800V 高压架构打造，搭载第六代 BMW eDrive 电驱技术，配备 108.7kWh 大圆柱电池组。CLTC 工况下综合续航里程超过 900 公里，充电 21 分钟可从 10% 充至 80%。",
     "observation": "由日报新车事件自动写入；价格与上市日只取原文可追溯表述。"
+  },
+  {
+    "id": "launch-f943d6c72a57e111",
+    "month": "2026-11",
+    "date": "2026-11-27",
+    "dateText": "11月27日",
+    "brand": "东风",
+    "model": "NX7",
+    "kind": "官宣",
+    "powertrain": "插混 SUV",
+    "priceText": "12.99-14.99万元",
+    "status": "confirmed",
+    "statusLabel": "已官宣",
+    "sourceName": "汽车之家资讯",
+    "sourceUrl": "https://www.autohome.com.cn/news/202611/1318353.html",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-11-13",
+    "detail": "11月13日，东风日产NX7开启预售，共计推出3款车型，预售价12.99-14.99万元，具体购车权益如下图。新车定位五座中型SUV，采用插混动力，主打家用舒适与高阶智能驾驶，依托日产AI云擎电混平台打造，新车将于11月27日广州车展上市。 320 Ultra 激光雷达版 外观方面，东风日产NX7延续N系列简约科技化设计语言，前脸采用分体式灯组布局，中央搭载可发光日产 LOGO，两侧设置空气导流槽，优化气流表现。车顶集成激光雷达硬件，搭载Momenta R7智能辅助驾驶方案，支持城市NOA，可实现城市拥堵跟车、路口通行、复杂路段自主穿行等功能，覆盖高频城市通勤场景。",
+    "observation": "已官宣但未形成可追溯的正式上市日；未公布价格记为待公布。"
   },
   {
     "id": "launch-4b5332524039af06",

@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-13T09:39:41.557Z",
+  "collectedAt": "2026-11-14T00:11:47.301Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6344,6 +6344,26 @@
         "鸿蒙智行"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "改装的春天来了？工信部就《汽车改装管理办法》公开征求意见",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318362.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "东风日产NX7预售12.99万起 综合续航1666km 11月27日广州车展上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318353.html",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -6351,7 +6371,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 21
+      "count": 22
     },
     {
       "sourceId": "autohome-industry",
@@ -6362,9 +6382,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-13T09:39:29.652Z",
+      "collectedAt": "2026-11-14T00:11:35.413Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 68,
+      "candidateCount": 69,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],
