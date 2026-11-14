@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-14T06:29:30.472Z",
+  "collectedAt": "2026-11-14T07:41:19.067Z",
   "targetDates": [
     "2026-11-13",
     "2026-11-14"
@@ -44480,7 +44480,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "奇瑞风云T11新车上市",
+      "title": "限时置换价17.99-23.99万元 2027款奇瑞风云T11上市",
       "url": "https://www.sohu.com/a/1100763708_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -45576,7 +45576,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "岚图知音搭激光雷达上市",
+      "title": "限时权益价19.79万元 2027款岚图知音正式上市",
       "url": "https://www.sohu.com/a/1101073033_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -45586,7 +45586,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "启境GT7 Ultra舒享版上市",
+      "title": "限时权益价22.19万起 启境GT7 Ultra舒享版正式上市",
       "url": "https://www.sohu.com/a/1101095263_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46238,7 +46238,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "指导价37.98万起 问界新M8上市",
+      "title": "指导价37.98-46.98万元 投十五亿改款 问界新M8上市",
       "url": "https://www.sohu.com/a/1100600962_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46248,7 +46248,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "东风日产NX7发布预售",
+      "title": "预售价12.99-14.99万元 东风日产NX7发布预售",
       "url": "https://www.sohu.com/a/1101068485_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46258,7 +46258,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "2027款领克03家族正式上市",
+      "title": "限时权益价10.38万起 2027款领克03家族正式上市",
       "url": "https://www.sohu.com/a/1101240348_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46268,7 +46268,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "极狐贝塔S3换电版/贝塔T1换电版",
+      "title": "\"极+时代\"全民换电生态 极狐贝塔S3换电版/贝塔T1换电版上市",
       "url": "https://www.sohu.com/a/1101261268_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -47084,6 +47084,259 @@
       "discoveryPublishedAt": "2026-11-14",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "宝马/奔驰/丰田/福特等多品牌启动召回 超1.3万辆汽车存安全隐患",
+      "url": "https://www.sohu.com/a/1101370647_162758",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】一汽解放CA6DV1-E66C重型柴油发动机通过欧盟欧六e+排放法规认证",
+      "url": "https://auto.ifeng.com/c/8y2vW0xVsjl",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】蔚来第三代ES6正面谍照曝光 预计车长超5米2027年4月亮相",
+      "url": "https://auto.ifeng.com/c/8y2vp4bumTY",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪称网传“某数字能源出售给比亚迪”为虚假信息",
+      "url": "https://auto.ifeng.com/c/8y2vW0xVsjk",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "日产中国宣布2026年合资公司产品将出口至30多个国家",
+      "url": "https://auto.news18a.com/news/storys_314851.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "10月吉利雷达销量同比上涨44.6%",
+      "url": "https://www.news18a.com/news/storys_314854.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "德国图林根州宪法保卫局局长称特斯拉汽车可能构成间谍风险",
+      "url": "https://www.news18a.com/news/storys_314853.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "美国车企Slate为纯电皮卡推出纸质地图集",
+      "url": "https://www.news18a.com/news/storys_314849.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽解放CA6DV1-E66C重型柴油发动机通过欧盟欧六e+排放法规认证",
+      "url": "https://www.news18a.com/news/storys_314847.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来第三代ES6正面谍照曝光 预计车长超5米2027年4月亮相",
+      "url": "https://auto.news18a.com/news/storys_314845.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪称网传“某数字能源出售给比亚迪”为虚假信息",
+      "url": "https://www.news18a.com/news/storys_314841.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "极狐贝塔S3 535Ultra+激光换电版上市，限时补贴价7.88万元起",
+      "url": "https://www.news18a.com/news/storys_314839.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪公布辅助驾驶车型保有量超419万辆，天神之眼日生成数据超2.6亿公里",
+      "url": "https://www.news18a.com/news/storys_314835.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽大通27款大拿M1于11月13日上市，售价19.28万元起",
+      "url": "https://www.news18a.com/news/storys_314828.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽大通27款大拿V1于11月13日上市，售价8.88万元起",
+      "url": "https://auto.news18a.com/news/storys_314825.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "南方电网：2026年前10月南方五省区新能源汽车产业链对全网用电增量贡献率达34.1%",
+      "url": "https://www.news18a.com/news/storys_314823.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉宣布向部分个人用户开放Cybercab购买渠道，起售价29990美元",
+      "url": "https://www.news18a.com/news/storys_314819.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "日产Z NISMO硬顶跑车国内首发，建议售价66万元",
+      "url": "https://www.news18a.com/news/storys_314815.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中国长安汽车与中信集团签署战略合作协议",
+      "url": "https://www.news18a.com/news/storys_314812.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "余承东亮相问界新M8发布会，梅赛德斯-奔驰暂停在德国投资，长安汽车与中信集团签署战略合作协议，北汽与新紫光联合芯片项目拟2028年量产上车",
+      "url": "https://auto.news18a.com/news/storys_314811.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "青岛交警查处一起高速公路上使用智能辅助驾驶时躺倒睡觉的违法行为",
+      "url": "https://www.news18a.com/news/storys_314809.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "捷豹路虎确认全新入门级SUV将于2027年投产并率先推出纯电版",
+      "url": "https://www.news18a.com/news/storys_314778.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "日产中国：今年合资公司的产品将会出口到 30 多个国家，明年将再翻一倍",
+      "url": "https://www.ithome.com/1/027/149.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "车内没有导航的另类解决方案？美车企 Slate 为“2.5 万美元极简皮卡”推出纸质地图",
+      "url": "https://www.ithome.com/1/027/145.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "超 5 万人请愿恢复黄仁勋英伟达 CEO 职务，马斯克参与签名",
+      "url": "https://www.ithome.com/1/027/125.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-14",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -47107,9 +47360,9 @@
       "sourceId": "yiche-news",
       "url": "https://news.yiche.com/",
       "status": "partial",
-      "candidateCount": 1,
+      "candidateCount": 0,
       "listRead": false,
-      "publicLabel": "公开检索发现 1 条待核验线索"
+      "publicLabel": "直连列表与公开检索均未匹配"
     },
     {
       "sourceId": "cailianpress-auto",
@@ -47179,26 +47432,25 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 22,
+      "candidateCount": 10,
       "status": "ok",
-      "publicLabel": "列表已读 22 条待核验线索"
+      "publicLabel": "列表已读 10 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 22,
+      "candidateCount": 21,
       "status": "ok",
-      "publicLabel": "列表已读 22 条待核验线索"
+      "publicLabel": "列表已读 21 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
