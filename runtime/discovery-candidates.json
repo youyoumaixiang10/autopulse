@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-15T06:38:59.495Z",
+  "collectedAt": "2026-11-15T07:57:07.063Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6315,7 +6315,7 @@
       "sourceId": "dongchedi-news",
       "sourceName": "懂车帝公开首页",
       "sourceType": "vertical-media",
-      "title": "26.99万起售，腾势N8正式上市",
+      "title": "全新腾势N8正式上市",
       "url": "https://www.dongchedi.com/article/7707268949289402905",
       "publishedAt": null,
       "sourceMonth": null,
@@ -6533,7 +6533,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-15T06:38:46.896Z",
+      "collectedAt": "2026-11-15T07:56:55.201Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

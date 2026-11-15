@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-15T06:39:07.228Z",
+  "collectedAt": "2026-11-15T07:57:16.563Z",
   "targetDates": [
     "2026-11-14",
     "2026-11-15"
@@ -30527,7 +30527,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "8沃尔沃的日子，紧了124.78w",
+      "title": "6沃尔沃的日子，紧了125.46w",
       "url": "https://auto.news18a.com/news/storys_310183.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -47937,6 +47937,171 @@
       "discoveryPublishedAt": "2026-11-15",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】Stellantis获得电动拖车装置专利",
+      "url": "https://auto.ifeng.com/c/8y4cFFVLisd",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】领克900L SPA Evo数字架构将于11月16日发布",
+      "url": "https://auto.ifeng.com/c/8y4c6kzQc4z",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "领克900L SPA Evo数字架构将于11月16日发布",
+      "url": "https://auto.news18a.com/news/storys_315071.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Stellantis获得电动拖车装置专利",
+      "url": "https://www.news18a.com/news/storys_315069.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "领克03家族、岚图知音、北京越野星钽5X上市，北汽极狐发布换电战略并推出两款新车",
+      "url": "https://www.news18a.com/news/storys_315067.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "第10万辆岚图知音纯电SUV交付，2027款车型于11月13日上市",
+      "url": "https://auto.news18a.com/news/storys_315061.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中国汽车工业协会：10月我国新能源重卡单月渗透率超过50%",
+      "url": "https://www.news18a.com/news/storys_315057.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "华为智能汽车解决方案BU发布乾崑答网友问第18期 解答智能车灯与AR-HUD相关问题",
+      "url": "https://auto.news18a.com/news/storys_315050.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小米汽车通过国际EPD体系整车及材料双项认证",
+      "url": "https://www.news18a.com/news/storys_315045.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "美国一爱好者借助AI与Arduino开发板使1994款Jeep切诺基通过加州尾气检测",
+      "url": "https://auto.news18a.com/news/storys_314880.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪董事长王传福在河南商丘门店为第二代海鸥车主交付新车",
+      "url": "https://www.news18a.com/news/storys_314876.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "美国市场入门版特斯拉 Model Y 续航提升 8.5%，售价保持不变",
+      "url": "https://www.ithome.com/1/027/347.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "上汽大众傅强：新能源车明年下半年甚至有可能会超过 80% 的市场占比",
+      "url": "https://www.ithome.com/1/027/346.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "Stellantis 获新型电动拖车专利，利用 AI 助力让普通小车也能拖挂房车",
+      "url": "https://www.ithome.com/1/027/332.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称欧盟拟推迟对英国产电动汽车征收 10% 关税",
+      "url": "https://www.ithome.com/1/027/331.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "领克 900L SPA Evo 数字架构明日发布：2.0T 插混大七座 SUV，预计年底上市",
+      "url": "https://www.ithome.com/1/027/329.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-15",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -47976,9 +48141,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 12,
+      "candidateCount": 11,
       "status": "ok",
-      "publicLabel": "列表已读 12 条待核验线索"
+      "publicLabel": "列表已读 11 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
