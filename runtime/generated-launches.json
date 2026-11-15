@@ -3610,6 +3610,25 @@
     "observation": "已官宣但未形成可追溯的正式上市日；未公布价格记为待公布。"
   },
   {
+    "id": "launch-83c1050f59b6a00e",
+    "month": "2026-11",
+    "dateText": "待定",
+    "windowText": "即将登场（具体日期待官宣）",
+    "brand": "宝马",
+    "model": "宝马 iX4",
+    "kind": "计划上市",
+    "powertrain": "SUV",
+    "priceText": "53.2万元",
+    "status": "estimated",
+    "statusLabel": "未官宣",
+    "sourceName": "IT之家",
+    "sourceUrl": "https://www.ithome.com/1/027/398.htm",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-11-15",
+    "detail": "IT之家 11 月 15 日消息，宝马 iX4 已经在匈牙利德布勒森工厂正式投产，将于 2027 年 3 月上市。这是宝马在该工厂生产的第二款新世代（Neue Klasse）车型，此前投产的是 iX3。 其中，续航更长的 iX4 50 xDrive 按照 WLTP 测试标准，续航里程最高可达 828 公里，超过 iX3 的表现。内部代号为 NA7 的 iX4 延续了宝马 X4 的设计思路，将 SUV 车身与向下倾斜的溜背车顶相结合，并采用新世代车型的技术平台。 iX4 将于 2027 年 3 月推出两个版本，目前两个版本均已开始下线生产。40 xDrive 上路起售价 60,170 英镑（现汇率约合 53.2 万元人民币），50 xDrive 起售价 66,075 英镑（现汇率约合 58.4 万元人民币）；M60 xDrive 售价暂未公布。",
+    "observation": "尚未看到正式上市报道，日历只保留原文写出的时间窗口。"
+  },
+  {
     "id": "launch-4b5332524039af06",
     "month": "2026-11",
     "dateText": "待定",
