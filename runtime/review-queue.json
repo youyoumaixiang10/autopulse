@@ -5847,6 +5847,7 @@
     "url": "https://www.pcauto.com.cn/nation/5187/51872003.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -6150,6 +6151,7 @@
     "url": "https://www.pcauto.com.cn/nation/5187/51878307.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11925,6 +11927,15 @@
     ]
   },
   {
+    "title": "神行者8大五座权益价28.99万起 中大型SUV 标配双腔空悬+后轮转向",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5192/51925872.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
     "title": "四季度上市/第六代DM-i混动技术 方程豹钛9内饰谍照曝光",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202609/1317075.html",
@@ -12288,6 +12299,22 @@
     "title": "【网通社快报】2027款极狐阿尔法S5将于11月16日上市",
     "sourceName": "凤凰网汽车",
     "url": "https://auto.ifeng.com/c/8xzgVaTYWyI",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "星动纪元高自由度五指灵巧手限量发售，已嵌入英伟达 GR00T 2 生态",
+    "sourceName": "盖世汽车",
+    "url": "https://auto.gasgoo.com/news/202611/16I70478101C601.shtml",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "宝马首款国产新世代 BMW iX3 投产，11 月 25 日开启交付",
+    "sourceName": "IT之家",
+    "url": "https://www.ithome.com/1/027/599.htm",
     "reasons": [
       "标题与正文不是同一事件"
     ]

@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-15T09:34:19.488Z",
+  "collectedAt": "2026-11-16T06:36:09.293Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6369,7 +6369,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "躺着赚钱变成现实？仅售20万 特斯拉无人驾驶网约车开放个人购买",
+      "title": "����׬Ǯ�����ʵ������20�� ��˹�����˼�ʻ��Լ�����Ÿ��˹��� 2��ǰ 5257 0 [����֮�� ��Ѷ] ��ǰ����˹���������ָ����û�����������Cybercab���˼�ʻ���������ۼ�Ϊ2.999����Ԫ��Լ�������20��Ԫ���������պ��...",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318369.html",
       "candidateBrands": [
@@ -6515,6 +6515,40 @@
         "鸿蒙智行"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "开银河战舰700通勤体验",
+      "url": "https://www.dongchedi.com/video/7708063498898784793",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "试驾吉利银河战舰700",
+      "url": "https://www.dongchedi.com/video/7708289586602033689",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "video",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -6522,7 +6556,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 24
+      "count": 1
     },
     {
       "sourceId": "autohome-industry",
@@ -6533,7 +6567,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-15T09:34:07.890Z",
+      "collectedAt": "2026-11-16T06:35:32.724Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
