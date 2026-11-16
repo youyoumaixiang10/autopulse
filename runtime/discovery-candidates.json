@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-16T06:36:09.293Z",
+  "collectedAt": "2026-11-16T08:05:47.939Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6369,7 +6369,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "����׬Ǯ�����ʵ������20�� ��˹�����˼�ʻ��Լ�����Ÿ��˹��� 2��ǰ 5257 0 [����֮�� ��Ѷ] ��ǰ����˹���������ָ����û�����������Cybercab���˼�ʻ���������ۼ�Ϊ2.999����Ԫ��Լ�������20��Ԫ���������պ��...",
+      "title": "躺着赚钱变成现实？仅售20万 特斯拉无人驾驶网约车开放个人购买",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318369.html",
       "candidateBrands": [
@@ -6549,6 +6549,91 @@
         "吉利银河"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "基本延续汉L风格？比亚迪全新汉内饰谍照曝光 有望广州车展首发",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318387.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "吉利银河购车至高享4万元焕新补贴 战舰700限时焕新价16.98万元起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318386.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "疑似极氪009插电混动版谍照曝光 不止新动力，外观也有所调整",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318385.html",
+      "candidateBrands": [
+        "极氪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售26.99万起/首搭30英寸全景屏 腾势N8正式开启交付",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318383.html",
+      "candidateBrands": [
+        "腾势"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "外观焕新 尚界Z7T星野套装实车曝光 新车已到店 将于11月20日上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318379.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "近期完成亮相/轴距为3030mm 吉利银河M8预告图",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318377.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "方程豹钛9/享界V8等 2026年第47周(11.16-11.22)新车预告",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318374.html",
+      "candidateBrands": [
+        "鸿蒙智行",
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -6556,7 +6641,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 1
+      "count": 26
     },
     {
       "sourceId": "autohome-industry",
@@ -6567,9 +6652,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-16T06:35:32.724Z",
+      "collectedAt": "2026-11-16T08:05:36.214Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 67,
+      "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

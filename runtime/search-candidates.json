@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-16T06:36:14.794Z",
+  "collectedAt": "2026-11-16T08:05:54.701Z",
   "targetDates": [
     "2026-11-15",
     "2026-11-16"
@@ -30527,7 +30527,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "6沃尔沃的日子，紧了123.97w",
+      "title": "5沃尔沃的日子，紧了122.97w",
       "url": "https://auto.news18a.com/news/storys_310183.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -49093,7 +49093,7 @@
       "sourceId": "ithome-auto",
       "sourceName": "IT之家",
       "sourceType": "vertical-media",
-      "title": "长沙比亚迪 4S 店新车交付时被偷走：门店承认管理疏漏，嫌疑人已被拘留",
+      "title": "新车交付时在门店被人偷走，4S 店承认管理疏漏并退款、嫌疑人被拘",
       "url": "https://www.ithome.com/1/027/614.htm",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-16",
@@ -49198,6 +49198,370 @@
       "discoveryPublishedAt": "2026-11-16",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "魔视智能获北京现代平台定点，将于2027年量产并出口十余国",
+      "url": "https://auto.gasgoo.com/news/202611/16I70478128C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "报告：印度制造业激励计划新增就业不及预期",
+      "url": "https://auto.gasgoo.com/news/202611/16I70478127C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "恩智浦推出统一机器人平台 加速可信物理人工智能的部署",
+      "url": "https://auto.gasgoo.com/news/202611/16I70478124C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "蔡司推出用于工业自动化检测的 TALOS 系统",
+      "url": "https://auto.gasgoo.com/news/202611/16I70478122C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "提雅智行发布端到端自动驾驶方案 可适配多种地图信息与传感器配置",
+      "url": "https://auto.gasgoo.com/news/202611/16I70478119C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "QuantumScape推出用于电池开发的开放式全固态平台Osprey",
+      "url": "https://auto.gasgoo.com/news/202611/16I70478116C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "尽管电动车快速普及，印度燃油需求或将持续增长至2034年",
+      "url": "https://auto.gasgoo.com/news/202611/16I70478118C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "特斯拉向特定客户开放Cybercab预订",
+      "url": "https://auto.gasgoo.com/news/202611/16I70478117C111.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "印度电动汽车厂商考虑IPO 电动化转型浪潮持续升温",
+      "url": "https://auto.gasgoo.com/news/202611/16I70478115C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "密歇根大学工程学院开发出新型神经网络组件PRISM 帮助机器人实现更出色的移动表现",
+      "url": "https://auto.gasgoo.com/news/202611/16I70478114C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "快充不高温，边充边保养！吉利智充C12完成双枪兆瓦充电首秀",
+      "url": "https://auto.ifeng.com/c/8y6HXLZNOnC",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】理想汽车法务部声明网传“动力电池召回”及“4000元赔偿”信息均属虚构",
+      "url": "https://auto.ifeng.com/c/8y6KOp75TWb",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "银河M8官宣，5.2米车身做出大五座",
+      "url": "https://auto.ifeng.com/c/8y6KoQP82pO",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】河南省两部门印发物流网建设实施方案 提出探索低空物流通道及无人车规模化配送",
+      "url": "https://auto.ifeng.com/c/8y6KPka0XFe",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】工信部等四部门发布汽车研发测试验证管理征求意见稿 明确准入红线与时间表",
+      "url": "https://auto.ifeng.com/c/8y6KzoaHfyX",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】中汽数研发布2026年10月燃油轿车销量榜",
+      "url": "https://auto.ifeng.com/c/8y6KoQP82oZ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "理想汽车法务部声明网传“动力电池召回”及“4000元赔偿”信息均属虚构",
+      "url": "https://auto.news18a.com/news/storys_315340.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "河南省两部门印发物流网建设实施方案 提出探索低空物流通道及无人车规模化配送",
+      "url": "https://www.news18a.com/news/storys_315338.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "工信部等四部门发布汽车研发测试验证管理征求意见稿 明确准入红线与时间表",
+      "url": "https://www.news18a.com/news/storys_315332.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中汽数研发布2026年10月燃油轿车销量榜",
+      "url": "https://www.news18a.com/news/storys_315329.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔡司推出用于工业自动化检测的计量机器人TALOS",
+      "url": "https://www.news18a.com/news/storys_315335.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "提雅智行开发并开源多款端到端自动驾驶AI模型",
+      "url": "https://auto.news18a.com/news/storys_315334.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马恒达旗下电动三轮车业务计划18个月后启动上市",
+      "url": "https://www.news18a.com/news/storys_315327.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "加拿大政府提议将纯电动及氢燃料汽车奢侈品税起征门槛上调至15万加元",
+      "url": "https://www.news18a.com/news/storys_315326.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Diodes Incorporated推出三款符合汽车标准的高侧功率开关",
+      "url": "https://www.news18a.com/news/storys_315320.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "广东美嘉胜新增小米关联公司股东 注册资本增至9000万元",
+      "url": "https://www.news18a.com/news/storys_315318.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "10月汽车制造业价格环比持平 结束连续3个月下降",
+      "url": "https://auto.news18a.com/news/storys_315322.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪第三代唐将于11月24日上市，预售价22.5万元起",
+      "url": "https://www.news18a.com/news/storys_315312.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "10月汽车工业增加值增长0.9%，前10个月汽车产量同比下降4%",
+      "url": "https://www.news18a.com/news/storys_315321.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长沙比亚迪4S店新车交付时被开走，15.5万元购车款已退还，嫌疑人被拘留",
+      "url": "https://auto.news18a.com/news/storys_315307.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年10月中国皮卡销量6.1万辆 出口占比达64%",
+      "url": "https://www.news18a.com/news/storys_315303.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "理想汽车法务部：网传“动力电池召回”“4000 元赔偿”均属虚构，所附网址为诈骗网站",
+      "url": "https://www.ithome.com/1/027/753.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "“AI 教父”辛顿：相比奥尔特曼、扎克伯格、马斯克，我更信任黄仁勋",
+      "url": "https://www.ithome.com/1/027/730.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "博世中国总裁徐大全谈“速成车”：电动汽车开发速度比冰箱还快",
+      "url": "https://www.ithome.com/1/027/725.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "日本最尖端超级计算机“富岳”遭黑客非法访问，或致企业机密研发信息泄露",
+      "url": "https://www.ithome.com/1/027/722.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-16",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -49237,17 +49601,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 12,
+      "candidateCount": 10,
       "status": "ok",
-      "publicLabel": "列表已读 12 条待核验线索"
+      "publicLabel": "列表已读 10 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 29,
+      "candidateCount": 30,
       "status": "ok",
-      "publicLabel": "列表已读 29 条待核验线索"
+      "publicLabel": "列表已读 30 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -49301,9 +49665,9 @@
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 21,
+      "candidateCount": 20,
       "status": "ok",
-      "publicLabel": "列表已读 21 条待核验线索"
+      "publicLabel": "列表已读 20 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
