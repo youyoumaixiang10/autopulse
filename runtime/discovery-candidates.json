@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-16T08:05:47.939Z",
+  "collectedAt": "2026-11-16T09:53:21.217Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6369,7 +6369,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "躺着赚钱变成现实？仅售20万 特斯拉无人驾驶网约车开放个人购买",
+      "title": "����׬Ǯ�����ʵ������20�� ��˹�����˼�ʻ��Լ�����Ÿ��˹��� 2��ǰ 5552 0 [����֮�� ��Ѷ] ��ǰ����˹���������ָ����û�����������Cybercab���˼�ʻ���������ۼ�Ϊ2.999����Ԫ��Լ�������20��Ԫ���������պ��...",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318369.html",
       "candidateBrands": [
@@ -6641,7 +6641,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 26
+      "count": 1
     },
     {
       "sourceId": "autohome-industry",
@@ -6652,7 +6652,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-16T08:05:36.214Z",
+      "collectedAt": "2026-11-16T09:52:44.215Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 68,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
