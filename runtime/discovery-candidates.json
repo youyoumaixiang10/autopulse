@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-16T09:53:21.217Z",
+  "collectedAt": "2026-11-17T07:58:51.213Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6369,7 +6369,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "����׬Ǯ�����ʵ������20�� ��˹�����˼�ʻ��Լ�����Ÿ��˹��� 2��ǰ 5552 0 [����֮�� ��Ѷ] ��ǰ����˹���������ָ����û�����������Cybercab���˼�ʻ���������ۼ�Ϊ2.999����Ԫ��Լ�������20��Ԫ���������պ��...",
+      "title": "躺着赚钱变成现实？仅售20万 特斯拉无人驾驶网约车开放个人购买",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318369.html",
       "candidateBrands": [
@@ -6634,6 +6634,76 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "吉利银河M8首发 5座中大型SUV 与银河M9尺寸一致 起售价更低吗？",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318411.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全系下定即享20000积分等 智界品牌迎来三周年推出限时权益",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318410.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "奔驰VLE将于广州车展首发亮相 VAN.EA模块化架构打造",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318403.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "营收242.8亿元/交付量118390台 小鹏集团发布2026年第三季度财报",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318401.html",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "奥迪Q9/新款航海家/全新汉/仰望鼎曜领衔 2026广州车展新车前瞻",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318399.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "预售22.50万起/轴距为2950mm 全新比亚迪唐将于11月24日正式上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318390.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -6641,7 +6711,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 1
+      "count": 28
     },
     {
       "sourceId": "autohome-industry",
@@ -6652,9 +6722,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-16T09:52:44.215Z",
+      "collectedAt": "2026-11-17T07:58:39.677Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 68,
+      "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

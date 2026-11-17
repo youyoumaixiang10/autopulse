@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-11-16T09:55:32.632Z",
+  "completedAt": "2026-11-17T08:05:45.945Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -18,8 +18,8 @@
         "比亚迪",
         "腾势"
       ],
-      "status": "failed",
-      "label": "读取异常"
+      "status": "no-recent-updates",
+      "label": "列表可读 · 最近发布 2026-11-04"
     },
     {
       "id": "li-auto-news",
@@ -117,8 +117,8 @@
       "brands": [
         "深蓝"
       ],
-      "status": "no-recent-updates",
-      "label": "列表可读 · 最近发布 2026-06-15"
+      "status": "failed",
+      "label": "读取异常"
     },
     {
       "id": "changan-qiyuan",
@@ -163,7 +163,7 @@
       "name": "工业和信息化部",
       "brands": [],
       "status": "ok",
-      "label": "已读 1 条"
+      "label": "已读 2 条"
     },
     {
       "id": "byd-weibo",
@@ -314,7 +314,7 @@
       "name": "汽车之家资讯",
       "brands": [],
       "status": "ok",
-      "label": "已读 1 条"
+      "label": "已读 28 条"
     },
     {
       "id": "autohome-industry",
@@ -328,14 +328,14 @@
       "name": "懂车帝资讯",
       "brands": [],
       "status": "partial",
-      "label": "已读 68 条 · 读取范围有限"
+      "label": "已读 67 条 · 读取范围有限"
     },
     {
       "id": "sina-auto",
       "name": "新浪汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 7 条待核验线索"
+      "label": "列表已读 6 条待核验线索"
     },
     {
       "id": "ifeng-auto",
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 11 条待核验线索"
+      "label": "列表已读 13 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
@@ -412,7 +412,7 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 25 条待核验线索"
+      "label": "列表已读 21 条待核验线索"
     },
     {
       "id": "netease-auto",
