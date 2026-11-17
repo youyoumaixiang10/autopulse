@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-17T09:19:46.660Z",
+  "collectedAt": "2026-11-17T10:50:29.785Z",
   "targetDates": [
     "2026-11-16",
     "2026-11-17"
@@ -30527,7 +30527,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "7沃尔沃的日子，紧了113.03w",
+      "title": "4沃尔沃的日子，紧了120.45w",
       "url": "https://auto.news18a.com/news/storys_310183.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46258,7 +46258,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "2027款领克03家族上市",
+      "title": "限时权益价10.38万起 2027款领克03家族正式上市",
       "url": "https://www.sohu.com/a/1101240348_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -46268,7 +46268,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "极狐贝塔S3/T1换电版上市",
+      "title": "极狐贝塔S3换电版/贝塔T1换电版正式上市",
       "url": "https://www.sohu.com/a/1101261268_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -48771,7 +48771,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "首款国产新世代BMW iX3正式投产 将于11月25日上市交付",
+      "title": "首款国产新世代BMW iX3投产 11月25日上市",
       "url": "https://www.sohu.com/a/1102157923_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -50175,7 +50175,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "丰田在华重构供应链：走出日系“嫡系圈”",
+      "title": "丰田在华重构供应链",
       "url": "https://auto.gasgoo.com/news/202611/16I70478166C109.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-16",
@@ -50369,7 +50369,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "2027款极狐阿尔法S5上市",
+      "title": "限时补贴价11.58万起 2027款极狐阿尔法S5上市",
       "url": "https://www.sohu.com/a/1102370403_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -51218,6 +51218,256 @@
       "discoveryPublishedAt": "2026-11-17",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "腾势正式进入印度市场，Z9 GT与D9同步发布",
+      "url": "https://auto.gasgoo.com/news/202611/17I70478282C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "人形机器人大小脑，一定要“分家”吗？",
+      "url": "https://auto.gasgoo.com/news/202611/17I70478256C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "王传福：比亚迪累计产销1900万辆新能源车，减排量相当于种下24亿棵树",
+      "url": "https://auto.gasgoo.com/news/202611/17I70478281C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "限时权益价6.99万起 2027款瑞虎5x高能版正式上市",
+      "url": "https://www.sohu.com/a/1102545029_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "超级焕新价18.49万起 捷途旅行者7 C-DM华为乾崑智驾版上市",
+      "url": "https://www.sohu.com/a/1102387557_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "一汽-大众ID.AURA L5开启预订 年内上市",
+      "url": "https://www.sohu.com/a/1102383312_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】雷诺集团宣布计划到2028年在法国工厂新增2000名员工并削减至多1000个白领岗位",
+      "url": "https://auto.ifeng.com/c/8y87QvDdnSu",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】宾利首款纯电SUV Torcal 2027年产能已售罄，将于2027年上半年投产",
+      "url": "https://auto.ifeng.com/c/8y881dXF0Uc",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "王传福在2026年APEC工商领导人峰会上介绍比亚迪海外工厂及员工数据",
+      "url": "https://auto.news18a.com/news/storys_315697.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽红旗宣布全新红旗H9将于11月27日广州车展上市",
+      "url": "https://www.news18a.com/news/storys_315695.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "雷诺集团宣布计划到2028年在法国工厂新增2000名员工并削减至多1000个白领岗位",
+      "url": "https://www.news18a.com/news/storys_315689.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宾利首款纯电SUV Torcal 2027年产能已售罄，将于2027年上半年投产",
+      "url": "https://www.news18a.com/news/storys_315685.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众汽车发布GTI概念车预告图 将于11月20日正式亮相",
+      "url": "https://www.news18a.com/news/storys_315679.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利银河M8于11月17日全球首秀",
+      "url": "https://auto.news18a.com/news/storys_315677.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奕境X9纯电版11月17日亮相工信部新车公示 将在广州车展上市",
+      "url": "https://www.news18a.com/news/storys_315683.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年11月17日下午多地比亚迪App出现故障，远程控车等功能无法使用",
+      "url": "https://auto.news18a.com/news/storys_315657.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "李彦宏在2026年APEC工商领导人峰会称无人驾驶出租车安全记录约为人类司机10倍",
+      "url": "https://auto.news18a.com/news/storys_315636.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "72.4 亿日元，鸿海拟收购索尼半导体车载摄像头模组业务",
+      "url": "https://www.ithome.com/1/028/459.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "出海不是“抢饭碗”！比亚迪王传福称外界对中国制造有误会，新能源车是填补当地的空白",
+      "url": "https://www.ithome.com/1/028/456.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪王传福：可持续发展是一个全球目标，而中国在这方面做得卓有成效",
+      "url": "https://www.ithome.com/1/028/451.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全新红旗 H9 将于 11 月 27 日广州车展正式上市，预售价 32.98 万元起",
+      "url": "https://www.ithome.com/1/028/442.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小米雷军：具身智能机器人未来一定是一个巨大的产业机会，它的想象力会超过汽车产业",
+      "url": "https://www.ithome.com/1/028/437.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "扩招裁员两手抓：雷诺将新增 2000 个生产岗，并裁减至多 1000 个白领岗",
+      "url": "https://www.ithome.com/1/028/430.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "还未投产，宾利首款纯电车 Torcal 明年产能已售罄",
+      "url": "https://www.ithome.com/1/028/428.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -51257,17 +51507,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 15,
+      "candidateCount": 21,
       "status": "ok",
-      "publicLabel": "列表已读 15 条待核验线索"
+      "publicLabel": "列表已读 21 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 30,
+      "candidateCount": 29,
       "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "publicLabel": "列表已读 29 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -51313,9 +51563,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 20,
+      "candidateCount": 16,
       "status": "ok",
-      "publicLabel": "列表已读 20 条待核验线索"
+      "publicLabel": "列表已读 16 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
