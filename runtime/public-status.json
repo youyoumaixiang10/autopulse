@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-11-17T08:05:45.945Z",
+  "completedAt": "2026-11-17T09:23:17.698Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -117,8 +117,8 @@
       "brands": [
         "深蓝"
       ],
-      "status": "failed",
-      "label": "读取异常"
+      "status": "no-recent-updates",
+      "label": "列表可读 · 最近发布 2026-06-15"
     },
     {
       "id": "changan-qiyuan",
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 13 条待核验线索"
+      "label": "列表已读 15 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
@@ -412,7 +412,7 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 21 条待核验线索"
+      "label": "列表已读 20 条待核验线索"
     },
     {
       "id": "netease-auto",

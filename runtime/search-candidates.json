@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-17T07:59:00.417Z",
+  "collectedAt": "2026-11-17T09:19:46.660Z",
   "targetDates": [
     "2026-11-16",
     "2026-11-17"
@@ -30527,7 +30527,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "2沃尔沃的日子，紧了133.14w",
+      "title": "7沃尔沃的日子，紧了113.03w",
       "url": "https://auto.news18a.com/news/storys_310183.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -50759,7 +50759,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "捷途环游者EV预售9.99万元起，旅行者7华为乾崑智驾版上市",
+      "title": "捷途环游者 EV 预售 9.99 万起",
       "url": "https://auto.news18a.com/news/storys_315560.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -50769,7 +50769,7 @@
       "sourceId": "ithome-auto",
       "sourceName": "IT之家",
       "sourceType": "vertical-media",
-      "title": "多地车主反映比亚迪 App 崩了，控车等功能无法使用",
+      "title": "多地车主反映比亚迪 App 崩了，控车等功能无法使用（更新：已恢复）",
       "url": "https://www.ithome.com/1/028/283.htm",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-17",
@@ -50907,6 +50907,317 @@
       "discoveryPublishedAt": "2026-11-17",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "网传抹黑财务经营信息不实，蔚来：已报案",
+      "url": "https://auto.gasgoo.com/news/202611/17I70478279C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "英伟达董事会排除黄仁勋回归可能",
+      "url": "https://auto.gasgoo.com/news/202611/17I70478260C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "黄仁勋风波发酵，美国进一步收紧对华先进芯片出口管制",
+      "url": "https://auto.gasgoo.com/news/202611/17I70478258C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "奕境X9纯电版获工信部公示，广州车展上市",
+      "url": "https://auto.gasgoo.com/news/202611/17I70478257C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】大众汽车发布GTI概念车预告图 将于11月20日正式亮相",
+      "url": "https://auto.ifeng.com/c/8y831ERNG2o",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "把纯电方盒打到10万级！捷途环游者EV开启全球预售",
+      "url": "https://auto.ifeng.com/c/8y84ibFj4uZ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】理想汽车CEO李想称将逐步开放马赫M100芯片外供",
+      "url": "https://auto.ifeng.com/c/8y835bB0XpE",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】吉利银河M8于11月17日全球首秀",
+      "url": "https://auto.ifeng.com/c/8y835bB0XpD",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】王传福在2026年APEC工商领导人峰会上提及深圳公交出租车全电动化",
+      "url": "https://auto.ifeng.com/c/8y831ERNG2n",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众汽车发布GTI概念车预告图 将于11月20日正式亮相",
+      "url": "https://auto.news18a.com/news/storys_315679.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利银河M8于11月17日全球首秀",
+      "url": "https://www.news18a.com/news/storys_315677.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "理想汽车CEO李想称将逐步开放马赫M100芯片外供",
+      "url": "https://www.news18a.com/news/storys_315675.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "王传福在2026年APEC工商领导人峰会上提及深圳公交出租车全电动化",
+      "url": "https://www.news18a.com/news/storys_315668.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长城汽车法务部通报部分网络侵权案件进展",
+      "url": "https://www.news18a.com/news/storys_315663.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奕境X9纯电版11月17日亮相工信部新车公示 将在广州车展上市",
+      "url": "https://auto.news18a.com/news/storys_315683.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年11月17日下午多地比亚迪App出现故障，远程控车等功能无法使用",
+      "url": "https://www.news18a.com/news/storys_315657.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉Robotaxi迈阿密服务范围扩大92%至59平方英里，新增市中心等区域",
+      "url": "https://www.news18a.com/news/storys_315648.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马斯克称特斯拉最早12月启动个人车主车辆接入Robotaxi网络试运营",
+      "url": "https://auto.news18a.com/news/storys_315643.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来第94条加电风景线黔川山水人文线贯通，全程1067公里布局22座充换电站",
+      "url": "https://www.news18a.com/news/storys_315632.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来法务部就网络传言抹黑公司财务经营情况向公安机关报案",
+      "url": "https://auto.news18a.com/news/storys_315627.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "领克六款车型在张家口完成17项安全测试",
+      "url": "https://www.news18a.com/news/storys_315650.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利汽车公布银河M8大五座SUV官图及内部信息",
+      "url": "https://www.news18a.com/news/storys_315652.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "梅赛德斯-奔驰计划2027年在美国推出高速公路离手与点对点L2辅助驾驶",
+      "url": "https://www.news18a.com/news/storys_315622.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "大众预告神秘 GTI 概念车：宽体设计搭配巨型尾翼，号称史上最狂野 GTI",
+      "url": "https://www.ithome.com/1/028/391.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "支付宝芝麻信用上线“超享订”汽车订阅服务，蔚来乐道 L90 成为首发车型",
+      "url": "https://www.ithome.com/1/028/363.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "理想汽车 CEO 李想：会逐步开放马赫 M100 芯片的外供",
+      "url": "https://www.ithome.com/1/028/357.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "吉利银河首款旗舰大五座 SUV，银河 M8 全球首秀",
+      "url": "https://www.ithome.com/1/028/349.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪王传福点赞深圳公交出租车全电动化，称十几年前全球都认为是不能达到的目标",
+      "url": "https://www.ithome.com/1/028/339.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "索尼新专利：颈部设备可模拟吹风效果，玩 VR 恐怖游戏时能感觉“背后有人”",
+      "url": "https://www.ithome.com/1/028/307.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长城汽车法务部通报部分网络侵权案件进展：多家 MCN 拉踩新车，将追究法律责任",
+      "url": "https://www.ithome.com/1/028/299.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-17",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -50946,9 +51257,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 13,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 13 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -51002,9 +51313,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 21,
+      "candidateCount": 20,
       "status": "ok",
-      "publicLabel": "列表已读 21 条待核验线索"
+      "publicLabel": "列表已读 20 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
