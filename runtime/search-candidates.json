@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-18T07:38:43.812Z",
+  "collectedAt": "2026-11-18T08:43:21.613Z",
   "targetDates": [
     "2026-11-17",
     "2026-11-18"
@@ -30527,7 +30527,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "2沃尔沃的日子，紧了134.56w",
+      "title": "6沃尔沃的日子，紧了118.22w",
       "url": "https://auto.news18a.com/news/storys_310183.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -51223,7 +51223,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "腾势正式进入印度市场，Z9 GT与D9同步发布",
+      "title": "腾势正式进入印度市场，Z9 GT与D9发布",
       "url": "https://auto.gasgoo.com/news/202611/17I70478282C109.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-17",
@@ -52335,6 +52335,351 @@
       "discoveryPublishedAt": "2026-11-18",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "博世披露底盘软件开发进展，18个月完成3500余版集成验证",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478396C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "龚成明：充电运营商的收入正从卖电转向调节",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478395C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "新思科技披露汽车仿真新进展，振动分析结果文件缩减90%",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478391C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "林枝棠：8万个场站40万根快充枪 滴滴充电把派单做进了电网调度",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478394C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "同驭汽车EMB将2027上半年量产，正开展多车型装车验证",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478389C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "又一研发中心项目落地安亭",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478390C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "黄仁勋表态愿重返英伟达，但董事会拒绝",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478345C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "红旗H9定档27日，33万起装L3硬件",
+      "url": "https://auto.ifeng.com/c/8y9gR0Cktq4",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】零跑汽车宣布D系车型OTA升级，D19、D99启用苹果数字钥匙系统",
+      "url": "https://auto.ifeng.com/c/8y9eLAbPWEM",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】宝马纯电i3完成5886.7公里跨欧洲行驶，全程充电用时2小时46分钟",
+      "url": "https://auto.ifeng.com/c/8y9elnzOHTE",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】智界获道路机动车辆独立生产资质",
+      "url": "https://auto.ifeng.com/c/8y9eZiKCYrM",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】荷兰车辆管理局批准特斯拉欧洲版TAD系统新调整：时速超130公里须手握方向盘",
+      "url": "https://auto.ifeng.com/c/8y9eFwp3fIy",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众回应称未与一汽就在欧洲生产汽车开展讨论",
+      "url": "https://auto.news18a.com/news/storys_315971.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宾利推出全球限量12辆的欧陆GT Olympia Collection特别版",
+      "url": "https://www.news18a.com/news/storys_315967.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "路虎卫士松赞朝圣之路联名版上市，售价79.88万元",
+      "url": "https://www.news18a.com/news/storys_315966.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Uber与Momenta在德国慕尼黑启动Robotaxi试运营",
+      "url": "https://www.news18a.com/news/storys_315964.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "零跑汽车宣布D系车型OTA升级，D19、D99启用苹果数字钥匙系统",
+      "url": "https://www.news18a.com/news/storys_315962.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马纯电i3完成5886.7公里跨欧洲行驶，全程充电用时2小时46分钟",
+      "url": "https://auto.news18a.com/news/storys_315959.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "荷兰车辆管理局批准特斯拉欧洲版TAD系统新调整：时速超130公里须手握方向盘",
+      "url": "https://www.news18a.com/news/storys_315956.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "智界获道路机动车辆独立生产资质",
+      "url": "https://www.news18a.com/news/storys_315954.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉在纽约时代广场投放FSD广告，SpaceXSI在拉斯维加斯Sphere为Grok Bot投放广告",
+      "url": "https://www.news18a.com/news/storys_315953.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "邹朋：到2030年全国充电设施要达到4000万，未来有约1300万增量",
+      "url": "https://auto.news18a.com/news/storys_315942.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽解放携11款产品亮相第25届中国国际内燃机及零部件展览会",
+      "url": "https://www.news18a.com/news/storys_315921.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小米辟谣汽车召回短信 岚图汽车获得独立生产资质 宝马新世代车型在华量产 特斯拉计划量产Cybercab",
+      "url": "https://auto.news18a.com/news/storys_315904.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "北京汽车公告：北汽动力总成拟挂牌出售112座换电站相关资产",
+      "url": "https://www.news18a.com/news/storys_315907.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "一汽拟利用欧洲闲置产能生产红旗，大众回应称未与一汽讨论欧洲造车合作",
+      "url": "https://www.ithome.com/1/028/876.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "路虎卫士松赞朝圣之路联名版上市：限量发售 20 台，售价 79.88 万元",
+      "url": "https://www.ithome.com/1/028/860.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "致敬百年经典，宾利推出全球限量 12 辆的欧陆 GT 奥林匹亚典藏版",
+      "url": "https://www.ithome.com/1/028/858.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "零跑 D 系车型获推 OTA 升级：D19、D99 启用苹果数字钥匙系统，可用 iPhone、Apple Watch 解锁并启动",
+      "url": "https://www.ithome.com/1/028/843.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉推出 Powercore：集成变压器、逆变器和断路器，明年投入使用",
+      "url": "https://www.ithome.com/1/028/841.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "宝马 i3 完成“跨越欧洲”壮举：全程充电不到 3 小时，跑完 5886.7 公里路程",
+      "url": "https://www.ithome.com/1/028/840.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "“纯血鸿蒙智行”再进化！智界获道路机动车辆独立生产资质",
+      "url": "https://www.ithome.com/1/028/833.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉欧洲版 FSD 再加安全限制：时速超过 130 公里必须手握方向盘",
+      "url": "https://www.ithome.com/1/028/832.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -52374,9 +52719,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 12,
+      "candidateCount": 16,
       "status": "ok",
-      "publicLabel": "列表已读 12 条待核验线索"
+      "publicLabel": "列表已读 16 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
