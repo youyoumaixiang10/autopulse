@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-18T08:43:21.613Z",
+  "collectedAt": "2026-11-18T10:17:42.970Z",
   "targetDates": [
     "2026-11-17",
     "2026-11-18"
@@ -51539,7 +51539,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "长安汽车已开发全线控底盘样车，集成EMB、前后轮转向等技术",
+      "title": "长安汽车推进AI赋能智能底盘体系开发，实现驱制转悬跨域融合控制",
       "url": "https://auto.gasgoo.com/news/202611/18I70478381C109.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-18",
@@ -52680,6 +52680,308 @@
       "discoveryPublishedAt": "2026-11-18",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "收入高增、亏损收窄，小马智行三季报藏着哪些关键信息？",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478417C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "充换电标准，正在从分散走向收敛",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478413C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "卫蓝新能源与煜邦电力签约，布局新型储能",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478415C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "Momenta与Uber在德国启动Robotaxi试运营，乘客可免费体验",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478414C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "华申瑞利EMB将2027年量产，乘用车项目已进入PV验证阶段",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478411C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "11月过半，年末冲量难改车市寒意",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478410C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "继小米后，又有两大车企拿到造车“准生证”",
+      "url": "https://auto.gasgoo.com/news/202611/18I70478409C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "中国汽车出海撞上的“第三堵墙”",
+      "url": "https://auto.ifeng.com/c/8y9mUp7Ftvg",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】比亚迪李云飞称年内第三个黑科技将由方程豹钛9首搭，新车11月19日上市",
+      "url": "https://auto.ifeng.com/c/8y9mHCTpCB2",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "上汽大众电动化，为何选了一条最难的路？",
+      "url": "https://auto.ifeng.com/c/8y9mZGVZH7P",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】联发科在2026中国国际半导体博览会展示天玑汽车平台",
+      "url": "https://auto.ifeng.com/c/8y9mTpPUJsB",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "奥迪的电动化，是技术进化不是品牌重启",
+      "url": "https://auto.ifeng.com/c/8y9mHCTpCB0",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪李云飞称年内第三个黑科技将由方程豹钛9首搭，新车11月19日上市",
+      "url": "https://auto.news18a.com/news/storys_315982.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "联发科在2026中国国际半导体博览会展示天玑汽车平台",
+      "url": "https://www.news18a.com/news/storys_315979.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "理想汽车CTO谢炎在台积电OIP论坛发表演讲，介绍马赫M100芯片技术及应用",
+      "url": "https://www.news18a.com/news/storys_315977.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽解放向中国土木阿尔及利亚铁路项目交付296辆卡车",
+      "url": "https://www.news18a.com/news/storys_315974.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "大众回应称未与一汽就在欧洲生产汽车开展讨论",
+      "url": "https://www.news18a.com/news/storys_315971.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宾利推出全球限量12辆的欧陆GT Olympia Collection特别版",
+      "url": "https://auto.news18a.com/news/storys_315967.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马纯电i3完成5886.7公里跨欧洲行驶，全程充电用时2小时46分钟",
+      "url": "https://www.news18a.com/news/storys_315959.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "荷兰车辆管理局批准特斯拉欧洲版TAD系统新调整：时速超130公里须手握方向盘",
+      "url": "https://auto.news18a.com/news/storys_315956.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "别克宣布全新至境世家MPV将于11月27日亮相 新增2.0T版本",
+      "url": "https://auto.news18a.com/news/storys_315931.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中国汽车出海撞上的\"第三堵墙\"",
+      "url": "https://auto.news18a.com/news/storys_315700.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽大众电动化，为何选了一条最难的路？",
+      "url": "https://auto.news18a.com/news/storys_315691.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奥迪的电动化，是技术进化不是品牌重启",
+      "url": "https://auto.news18a.com/news/storys_315976.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "2026 小米精英驾驶 · 赛照培训正式收官，162 位小米车主成为国家 B 级赛车手",
+      "url": "https://www.ithome.com/1/028/950.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "日产确认 R36 将回归圆形头灯，致敬早期 GT-R 经典设计",
+      "url": "https://www.ithome.com/1/028/946.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "李云飞：比亚迪今年已打二代刀片电池闪充 + 智驾兜底两张技术牌，年内第三个黑科技方程豹钛 9 首搭",
+      "url": "https://www.ithome.com/1/028/932.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "理想汽车 CTO 谢炎台积电 OIP 论坛开讲，解读马赫 M100 从技术到应用全流程",
+      "url": "https://www.ithome.com/1/028/924.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "黄仁勋离职风波引发诉讼风险：英伟达高管有保险，公司自身却未投保",
+      "url": "https://www.ithome.com/1/028/912.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-18",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -52719,9 +53021,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 16,
+      "candidateCount": 17,
       "status": "ok",
-      "publicLabel": "列表已读 16 条待核验线索"
+      "publicLabel": "列表已读 17 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -52775,9 +53077,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 15,
+      "candidateCount": 14,
       "status": "ok",
-      "publicLabel": "列表已读 15 条待核验线索"
+      "publicLabel": "列表已读 14 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
