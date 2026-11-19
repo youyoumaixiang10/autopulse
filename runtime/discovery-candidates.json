@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-19T08:54:57.701Z",
+  "collectedAt": "2026-11-19T10:29:01.288Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6916,6 +6916,26 @@
         "启源"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "预售10.58万起 新款Lafa5将于广州车展上市 升级800V平台",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318453.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "致敬911 GT1 保时捷将于广州车展发布特别版车型",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318450.html",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -6923,7 +6943,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 0
+      "count": 30
     },
     {
       "sourceId": "autohome-industry",
@@ -6934,7 +6954,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-19T08:54:21.204Z",
+      "collectedAt": "2026-11-19T10:28:49.745Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
