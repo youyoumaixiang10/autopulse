@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-18T10:17:36.815Z",
+  "collectedAt": "2026-11-19T07:30:51.429Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -6822,6 +6822,100 @@
       "url": "https://www.autohome.com.cn/news/202611/1318418.html",
       "candidateBrands": [],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "设计越来越国际化 比亚迪全新汉实车曝光 有望广州车展首发",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318448.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "抢先看！展车总数1106台 2026广州车展展位图发布",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318447.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "小鹏科技日将于11月25日举办 何小鹏官宣今年主题",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318446.html",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "阿维塔06T Max先锋版将于11月25日上市 入门车型配置全面升级",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318445.html",
+      "candidateBrands": [
+        "阿维塔"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "预售22.98万起 七大升级 2027款极氪7X将于11月27日广州车展上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318443.html",
+      "candidateBrands": [
+        "极氪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全系产品齐亮相 小米汽车2026广州车展阵容曝光",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318440.html",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行全新家庭MPV！享界V8将于11月20日上市 预售价32.98万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318437.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "纯电/增程双动力 外观内饰同步升级 新款长安启源A07谍照曝光",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318439.html",
+      "candidateBrands": [
+        "启源"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -6829,7 +6923,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 25
+      "count": 29
     },
     {
       "sourceId": "autohome-industry",
@@ -6840,7 +6934,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-18T10:17:25.105Z",
+      "collectedAt": "2026-11-19T07:30:39.857Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
