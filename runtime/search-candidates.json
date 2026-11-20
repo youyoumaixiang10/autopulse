@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-20T07:21:06.063Z",
+  "collectedAt": "2026-11-20T08:42:27.270Z",
   "targetDates": [
     "2026-11-19",
     "2026-11-20"
@@ -52902,7 +52902,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "6中国汽车出海撞上的\"第三堵墙\"120.83w",
+      "title": "10中国汽车出海撞上的\"第三堵墙\"103.82w",
       "url": "https://auto.news18a.com/news/storys_315700.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -54473,7 +54473,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "【国际快讯】日本车企全球销量预计将连续第三年下滑；特斯拉计划继续增加上海工厂产量",
+      "title": "国际|日本车企全球销量预计将连跌三年",
       "url": "https://auto.gasgoo.com/news/202611/20I70478614C108.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-20",
@@ -55288,6 +55288,427 @@
       "discoveryPublishedAt": "2026-11-20",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "一边深耕本土，一边助力出海：采埃孚商用车的中国新打法",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478638C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "罗姆王天宇：第五代碳化硅转向平面型，2027年量产",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478657C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "DGIST开发出用于电动汽车电机的高性能永磁体关键技术",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478655C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "意法半导体张培荣：“X in 1”中的“X”并非越多越好，集成度需综合多维度评估",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478656C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "福特申请车辆灯光通信系统专利",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478654C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "香港科技大学研发出高分辨率仿生眼 集全彩广角视觉与事件驱动型运动检测于一体",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478653C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "以菠萝叶纤维为原料 日产与 FOOD REBORN打造出汽车外车身覆盖件",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478652C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "MIT发明超轻型飞行机器人 自带传感器和计算机",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478651C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "福特申请车辆泊车系统专利 或许能为驾驶员留出更多空间",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478650C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "Sonatus推出基于人工智能的即插即用型硬件解决方案Fastlane® Copilo 旨在支持开发、测试与验证工作",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478649C409.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "指导价31.98万起 享界V8正式上市",
+      "url": "https://www.sohu.com/a/1103656359_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "iCAR V25上市，11.98万元配激光雷达",
+      "url": "https://auto.ifeng.com/c/8yD0Q2soXZ4",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】日本汽车工业协会与零部件协会发布联合倡议推进材料与零部件标准化",
+      "url": "https://auto.ifeng.com/c/8yCyONc97MF",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】鸿蒙智行享界V8在发布会上亮相 公布车身尺寸及风阻系数",
+      "url": "https://auto.ifeng.com/c/8yCyCwa9O9L",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】福特汽车（中国）有限公司召回54辆进口福特F-150汽车",
+      "url": "https://auto.ifeng.com/c/8yCyCwa9O9M",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】捷豹路虎备案召回计划，涉及18辆进口路虎揽胜运动版及卫士汽车",
+      "url": "https://auto.ifeng.com/c/8yCyACdXFrj",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "余承东宣布鸿蒙智行尚界汽车累计交付近九万台",
+      "url": "https://auto.news18a.com/news/storys_316462.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "雷克萨斯中国宣布全新一代ES纯电版将于11月22日上市",
+      "url": "https://www.news18a.com/news/storys_316459.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "享界V8开启120km/h L3自动驾驶跨城高速路测",
+      "url": "https://www.news18a.com/news/storys_316458.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "日本汽车工业协会与零部件协会发布联合倡议推进材料与零部件标准化",
+      "url": "https://www.news18a.com/news/storys_316456.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行享界V8在发布会上亮相 公布车身尺寸及风阻系数",
+      "url": "https://www.news18a.com/news/storys_316453.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奔驰在华备案召回计划 涉及进口及国产汽车共计179354辆",
+      "url": "https://auto.news18a.com/news/storys_316451.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "捷豹路虎备案召回计划，涉及18辆进口路虎揽胜运动版及卫士汽车",
+      "url": "https://www.news18a.com/news/storys_316449.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "福特汽车（中国）有限公司召回54辆进口福特F-150汽车",
+      "url": "https://www.news18a.com/news/storys_316448.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "华为与北汽战略共同体升级，聚焦四大体系",
+      "url": "https://www.news18a.com/news/storys_316446.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "余承东在鸿蒙智行享界V8及星芒品牌发布会上介绍鸿蒙智行定义及新增测试标准",
+      "url": "https://auto.news18a.com/news/storys_316442.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "瑞银首次覆盖奇瑞汽车给予“买入”评级，目标价34.4港元",
+      "url": "https://www.news18a.com/news/storys_316433.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长安启源Q06新增602越享+版车型",
+      "url": "https://auto.news18a.com/news/storys_316428.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪张卓发布预热海报宣布海洋网旗舰MPV即将亮相",
+      "url": "https://www.news18a.com/news/storys_316423.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为星芒刘赫：得麒麟芯者得天下，OSTA O1 Pro 搭载麒麟 9030S 旗舰 τ 芯片",
+      "url": "https://www.ithome.com/1/030/085.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为星芒 OSTA O1 Pro 手机外观亮相：16:9.5 比例 1.5K LTPS 直屏、屏占比 96.1%",
+      "url": "https://www.ithome.com/1/030/082.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "尚界 Z7T 星野套装版车型发布：星野外观套件、星夜蓝内饰，27.48 万元起",
+      "url": "https://www.ithome.com/1/030/077.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为全新子品牌星芒 OSTA 正式登场，余承东称目标成为 AI 时代消费者喜爱的先锋科技品牌",
+      "url": "https://www.ithome.com/1/030/068.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为余承东：鸿蒙智行尚界汽车累计交付近九万台",
+      "url": "https://www.ithome.com/1/030/057.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行享界 V8 MPV 正式上市，31.98 万-42.98 万元起",
+      "url": "https://www.ithome.com/1/030/051.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为余承东：L3 自动驾驶来了以后开车是可以睡觉的，别睡死过去就行",
+      "url": "https://www.ithome.com/1/030/048.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全新一代雷克萨斯 ES 纯电版官宣 11 月 22 日上市",
+      "url": "https://www.ithome.com/1/030/043.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "为提高效率，日本车企将推进零部件与材料标准化",
+      "url": "https://www.ithome.com/1/030/003.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行享界 V8 搭载全新立体精雕 LOGO，5 款车身配色、4 款个性内饰亮相",
+      "url": "https://www.ithome.com/1/029/968.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "燃油箱可能松脱甚至在行驶中脱落，福特中国召回 54 辆进口福特 F-150 汽车",
+      "url": "https://www.ithome.com/1/029/942.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -55327,9 +55748,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 15,
+      "candidateCount": 19,
       "status": "ok",
-      "publicLabel": "列表已读 15 条待核验线索"
+      "publicLabel": "列表已读 19 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -55383,17 +55804,17 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 20,
+      "candidateCount": 21,
       "status": "ok",
-      "publicLabel": "列表已读 20 条待核验线索"
+      "publicLabel": "列表已读 21 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 19,
+      "candidateCount": 18,
       "status": "ok",
-      "publicLabel": "列表已读 19 条待核验线索"
+      "publicLabel": "列表已读 18 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",

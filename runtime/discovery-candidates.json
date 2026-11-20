@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-20T07:20:58.429Z",
+  "collectedAt": "2026-11-20T08:42:21.913Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -7024,6 +7024,60 @@
       "url": "https://www.autohome.com.cn/news/202611/1318449.html",
       "candidateBrands": [],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "因存在安全隐患 召回部分路虎揽胜运动/路虎卫士车型",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318482.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "共计54辆 燃油箱可能松脱甚至脱落 福特F-150召回",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318481.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "部分奔驰A级、B级、GLB、CLA、GLA、GLB、GLE和GLS召回",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318479.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "真香！售27.48万元起 圆你跨界猎装车梦 尚界Z7T星野套装版上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318478.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售31.98万起 享界V8上市 纯电最大续航830km 增程最大续航1465km",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318476.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -7031,7 +7085,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 33
+      "count": 34
     },
     {
       "sourceId": "autohome-industry",
@@ -7042,7 +7096,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-20T07:20:46.287Z",
+      "collectedAt": "2026-11-20T08:42:09.650Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 66,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
