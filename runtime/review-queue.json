@@ -5847,6 +5847,7 @@
     "url": "https://www.pcauto.com.cn/nation/5187/51872003.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10378,6 +10379,7 @@
     "url": "https://www.pcauto.com.cn/nation/5189/51895191.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10616,6 +10618,7 @@
     "url": "https://www.pcauto.com.cn/nation/5189/51899601.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -12173,6 +12176,51 @@
     ]
   },
   {
+    "title": "售27.99万起 方程豹钛9正式上市 首搭全新DMS平台/折叠方向盘",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5193/51936400.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "限时价11.98万元起 iCAR V25上市/配四驱+城区智驾",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5193/51936310.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "预售15.77万起 星越L PLUS首搭吉利2.0T i-HEV智擎混动",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5193/51935699.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "10.58万元起 新款零跑Lafa5开启预售/纯电续航640km",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5193/51935701.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "27款极氪7X将于广州车展上市 预售22.98万起/900V平台",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5193/51934494.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
     "title": "四季度上市/第六代DM-i混动技术 方程豹钛9内饰谍照曝光",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202609/1317075.html",
@@ -12568,6 +12616,22 @@
     "title": "奔驰G 400领衔 奔驰广州车展阵容曝光 一个首发+四个上市",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202611/1318430.html",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "全系产品齐亮相 小米汽车2026广州车展阵容曝光",
+    "sourceName": "汽车之家资讯",
+    "url": "https://www.autohome.com.cn/news/202611/1318440.html",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "2.0Ti-HEV搭载星越L PLUS 智擎混动技术全谱系量产落地",
+    "sourceName": "网易汽车",
+    "url": "https://www.163.com/auto/article/LC4JBF30000884ML.html",
     "reasons": [
       "标题与正文不是同一事件"
     ]
