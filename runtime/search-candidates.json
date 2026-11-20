@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-20T08:42:27.270Z",
+  "collectedAt": "2026-11-20T10:09:22.397Z",
   "targetDates": [
     "2026-11-19",
     "2026-11-20"
@@ -52902,7 +52902,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "10中国汽车出海撞上的\"第三堵墙\"103.82w",
+      "title": "10中国汽车出海撞上的\"第三堵墙\"96.83w",
       "url": "https://auto.news18a.com/news/storys_315700.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -54028,7 +54028,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "新能源时代，日产正在重新走到中国用户面前",
+      "title": "热点时评聚焦热议话题，提供深度评论，解析行业现象新能源时代，日产正在重新走到中国用户面前2026-11-19",
       "url": "https://auto.news18a.com/news/storys_316220.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -55709,6 +55709,306 @@
       "discoveryPublishedAt": "2026-11-20",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "大众5X上市背后：上汽大众如何重建新能源竞争力",
+      "url": "https://auto.sina.com.cn/news/2026-11-20/detail-inizkqia7205479.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sina-auto",
+      "sourceName": "新浪汽车",
+      "sourceType": "vertical-media",
+      "title": "Holger Hampf：MINI设计不靠颠覆证明创新",
+      "url": "https://auto.sina.com.cn/news/2026-11-20/detail-inizkqia7182372.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "马威宁鹤颀：W-pin铜线平台已稳定量产，铝线电机进入客户验证阶段",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478667C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "Allegro曹姜威：从高压电驱到48V革新，双线布局动力系统能效与安全",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478663C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "试驾岚图知音升级亮点",
+      "url": "https://www.sohu.com/a/1104188591_117058",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "斩获10亿级订单 千台岚图梦想家9右舵版发运出海！",
+      "url": "https://auto.ifeng.com/c/8yD5ZeqqsKc",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "延续驾驶乐趣 赛道体验全新宝马i3",
+      "url": "https://auto.ifeng.com/c/8yD1RfW59z9",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】余承东称享界V8硬件具备L3能力但功能未开放，目前使用L2辅助驾驶",
+      "url": "https://auto.ifeng.com/c/8yD6do4S7Xj",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "传祺越7两驱版激光雷达版权益价18.78万元，配齐激光雷达方盒子",
+      "url": "https://auto.ifeng.com/c/8yD6sfmpTKr",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "尚界Z7T星野套装上市27.48万起，“满配”之上讲述户外愿景",
+      "url": "https://auto.ifeng.com/c/8yD3x3sDM4U",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】奇瑞捷途环游者 EV 将于11月24日上市",
+      "url": "https://auto.ifeng.com/c/8yD1zaP3X7J",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】本田于2026年11月20日正式发布全新冠道",
+      "url": "https://auto.ifeng.com/c/8yD21g2La3G",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "余承东称享界V8硬件具备L3能力但功能未开放，目前使用L2辅助驾驶",
+      "url": "https://auto.news18a.com/news/storys_316473.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞捷途环游者 EV 将于11月24日上市",
+      "url": "https://www.news18a.com/news/storys_316469.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "本田于2026年11月20日正式发布全新冠道",
+      "url": "https://www.news18a.com/news/storys_316467.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "尚界Z7T星野套装版车型发布，售价27.48万元起",
+      "url": "https://www.news18a.com/news/storys_316464.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "余承东宣布鸿蒙智行尚界汽车累计交付近九万台",
+      "url": "https://www.news18a.com/news/storys_316462.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "雷克萨斯中国宣布全新一代ES纯电版将于11月22日上市",
+      "url": "https://auto.news18a.com/news/storys_316459.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奔驰在华备案召回计划 涉及进口及国产汽车共计179354辆",
+      "url": "https://www.news18a.com/news/storys_316451.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "捷豹路虎备案召回计划，涉及18辆进口路虎揽胜运动版及卫士汽车",
+      "url": "https://auto.news18a.com/news/storys_316449.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "千台岚图梦想家9右舵版发运出海并在泰国上市",
+      "url": "https://auto.news18a.com/news/storys_316440.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "传祺越7两驱版激光雷达版权益价18.78万元，配齐激光雷达方盒子",
+      "url": "https://auto.news18a.com/news/storys_316472.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "长安启源Q06新增602越享+版 限时权益价13.59万元",
+      "url": "https://auto.news18a.com/news/storys_316436.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为余承东：享界 V8 硬件具备 L3 自动驾驶能力但功能没开放，开车不能睡觉",
+      "url": "https://www.ithome.com/1/030/132.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "华为北汽战略共同体升级详情公布：强化鸿蒙智行模式合作、享界持续投入专项资金",
+      "url": "https://www.ithome.com/1/030/125.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞捷途环游者 EV 将于 11 月 24 日上市，预售 9.99 万元起",
+      "url": "https://www.ithome.com/1/030/121.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "5499 元起，“首款为 AI 而生的鸿蒙手机”华为星芒 OSTA O1 Pro 阔直板正式发布",
+      "url": "https://www.ithome.com/1/030/120.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙全新版本来袭！华为星芒 OSTA O1 Pro 官宣首搭 HarmonyOS 7 AI 先锋版系统",
+      "url": "https://www.ithome.com/1/030/101.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "本田全新一代冠道亮相，全新外观、全新混动平台加持",
+      "url": "https://www.ithome.com/1/030/094.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -55716,9 +56016,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 8,
+      "candidateCount": 10,
       "status": "ok",
-      "publicLabel": "列表已读 8 条待核验线索"
+      "publicLabel": "列表已读 10 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -55748,9 +56048,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 19,
+      "candidateCount": 23,
       "status": "ok",
-      "publicLabel": "列表已读 19 条待核验线索"
+      "publicLabel": "列表已读 23 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
