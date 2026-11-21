@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-20T10:09:16.852Z",
+  "collectedAt": "2026-11-21T07:14:31.951Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -7078,6 +7078,74 @@
         "鸿蒙智行"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "有望于2027年上市 新款理想L7谍照曝光 有望迎来全面升级",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318495.html",
+      "candidateBrands": [
+        "理想"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "搭载1.5T油电混动系统 长城大狗PLUS混动版将于广州车展正式上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318494.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "BaaS方案售53万起 蔚来ES9地平线鎏金特别版正式上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318493.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全新艾瑞泽7预售 奇瑞集团广州车展阵容曝光 还有全新概念车首秀",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318483.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "连续季度盈利 营收创历史新高 零跑汽车发布2026年第三季度财报",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318489.html",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "岚图梦想家9右舵版发运东南亚市场 斩获10亿级订单",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318488.html",
+      "candidateBrands": [
+        "岚图"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -7085,7 +7153,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 0
+      "count": 33
     },
     {
       "sourceId": "autohome-industry",
@@ -7096,9 +7164,9 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-20T10:08:40.398Z",
+      "collectedAt": "2026-11-21T07:14:20.863Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 65,
+      "candidateCount": 53,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

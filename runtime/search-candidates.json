@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-11-20T10:09:22.397Z",
+  "collectedAt": "2026-11-21T07:14:44.697Z",
   "targetDates": [
-    "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21"
   ],
   "candidates": [
     {
@@ -50409,7 +50409,7 @@
       "sourceId": "netease-auto",
       "sourceName": "网易汽车",
       "sourceType": "vertical-media",
-      "title": "小鹏三季度营收交付双创新高，四季度交付有望突破17万辆",
+      "title": "小鹏三季度营收交付双创新高，四季度交付有望突破17万",
       "url": "https://www.163.com/auto/article/LBUR8NL80008856R.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -53814,7 +53814,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "不用等5-9周，MONA L05不带吸顶屏版本已开始交付",
+      "title": "MONA L05不带吸顶屏版本已开始交付",
       "url": "https://auto.gasgoo.com/news/202611/19I70478507C501.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-19",
@@ -54082,7 +54082,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "中国方案・全球价值｜2026金辑奖观察：中国智驾算法进入“量产验证＋全球输出”新阶段",
+      "title": "26金辑奖观察：中国智驾算法迈入新阶段",
       "url": "https://auto.gasgoo.com/news/202611/19I70478393C108.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-19",
@@ -54126,7 +54126,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "跑通演示之后：软件定义工厂如何跨越集成这道坎",
+      "title": "软件定义工厂如何跨越集成这道坎",
       "url": "https://auto.gasgoo.com/news/202611/19I70478522C601.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-19",
@@ -54169,7 +54169,7 @@
       "sourceId": "ifeng-auto",
       "sourceName": "凤凰网汽车",
       "sourceType": "vertical-media",
-      "title": "吉利星越L PLUS丽江实测 验证混动化+智能化给燃油车用户带来更好体验",
+      "title": "探店实拍全新帝豪向上 6万级家用燃油轿车新选择",
       "url": "https://auto.ifeng.com/c/8yBJmG8lrQa",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -54738,7 +54738,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "置换价27.39万起 方程豹钛9正式上市",
+      "title": "置换惊喜价27.39-32.39万元 方程豹钛9正式上市",
       "url": "https://www.sohu.com/a/1103062717_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -54748,7 +54748,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "iCAR V25正式上市",
+      "title": "限时红包价11.98-14.98万 iCAR V25正式上市",
       "url": "https://www.sohu.com/a/1103678880_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -54758,7 +54758,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "2027款凯翼昆仑官图发布",
+      "title": "2027款凯翼昆仑官图发布 细节焕新/12月8日上市",
       "url": "https://www.sohu.com/a/1104052224_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -55403,7 +55403,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "指导价31.98万起 享界V8正式上市",
+      "title": "指导价31.98万-42.98万元 享界V8正式上市",
       "url": "https://www.sohu.com/a/1103656359_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -56009,6 +56009,407 @@
       "discoveryPublishedAt": "2026-11-20",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "过度竞争的”火“，烧到补能市场",
+      "url": "https://auto.gasgoo.com/news/202611/21I70478716C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "融资周报｜Genesis AI完成33亿元A轮融资；蓝点触控完成数亿元D3轮融资",
+      "url": "https://auto.gasgoo.com/news/202611/21I70478622C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "中国Robotaxi出海，开始接受欧洲乘客检验",
+      "url": "https://auto.gasgoo.com/news/202611/21I70478583C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "欧洲车企开始为中国造车技术付费",
+      "url": "https://auto.gasgoo.com/news/202611/21I70478679C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "尚界Z7T星野套装27.48万起 猎装车加了10处外观件",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478683C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "华为北汽再加码，享界进入体系作战",
+      "url": "https://auto.gasgoo.com/news/202611/21I70478691C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "瑞萨电子：从分散到集中，从控制到智能——高实时控制芯片的演进与技术创新",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478671C106.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "向新・向智・向全球，2026中国汽车软件大会在上海嘉定召开",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478677C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "零跑与欧宝签署联合开发协议，全新纯电SUV计划2028年上市",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478676C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "智能座舱体验，多了一把“AI尺子”",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478675C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "充换电行业转入下半场，五个问题待解",
+      "url": "https://auto.gasgoo.com/news/202611/19I70478545C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-19",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "李鑫：全国重卡900万台，电动化率6.3%",
+      "url": "https://auto.gasgoo.com/news/202611/19I70478544C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-19",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "售价27.48万起 尚界Z7T星野套装版上市 专属星野外观套件",
+      "url": "https://www.pcauto.com.cn/nation/5193/51938005.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "售31.98万起 享界V8上市 全系标配800V+后轮转向+4零重力座椅",
+      "url": "https://www.pcauto.com.cn/nation/5193/51937999.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "从中国特供转向全球旗舰三排SUV 全新一代本田冠道全球首发",
+      "url": "https://www.pcauto.com.cn/nation/5193/51937970.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "荣威家越07纯电版开启预售 纯电续航651km/广州车展上市",
+      "url": "https://www.pcauto.com.cn/nation/5193/51936610.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "海洋网旗舰MPV预告图 预计年内亮相",
+      "url": "https://www.pcauto.com.cn/nation/5193/51936605.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "传祺越7两驱激光雷达版上市 限时价18.78万元/支持城市领航辅助",
+      "url": "https://www.pcauto.com.cn/nation/5193/51936600.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "2027款凯翼昆仑官图发布 将于12月8日上市",
+      "url": "https://www.pcauto.com.cn/nation/5193/51936591.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "firefly萤火虫片刻流金特别版上市 限量333台 整车售价13.58万起",
+      "url": "https://www.pcauto.com.cn/nation/5193/51936589.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "限时权益价18.78万元 传祺越7两驱激光雷达版正式上市",
+      "url": "https://www.sohu.com/a/1104248907_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展即将开幕:\"含华量\"继续提升 传统车企成新车主力",
+      "url": "https://www.sohu.com/a/1104221819_115542",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "27.48万-31.98万元 尚界Z7T星野套装版上市",
+      "url": "https://www.sohu.com/a/1104274192_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "35万级MPV的满配答案 享界V8正式上市售31.98万起",
+      "url": "https://www.163.com/auto/article/LC6UEGLD0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】岚图梦想家9右舵版在泰国上市，12月15日将登陆中国香港",
+      "url": "https://auto.ifeng.com/c/8yEYF4Enuz6",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】问界M6推出限时购车权益：1万元补贴、3年0息或贷5免3三选一",
+      "url": "https://auto.ifeng.com/c/8yEYF4Enuz5",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】工信部公示光束汽车ORA 7申报电耗百公里12.1度",
+      "url": "https://auto.ifeng.com/c/8yEPycGK98v",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】蔚来ES9地平线鎏金特别版上市，售价63.8万元起",
+      "url": "https://auto.ifeng.com/c/8yEHBUVWD5f",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】前小鹏汽车西欧及南欧董事总经理强顺强于2026年9月加入小米汽车出任欧洲区董事总经理",
+      "url": "https://auto.ifeng.com/c/8yEIgLWjaI8",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "岚图梦想家 9 右舵版在泰国市场上市，12 月 15 日还将登陆中国香港",
+      "url": "https://www.ithome.com/1/030/362.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "22.98 万元起鸿蒙智行问界 M6 现车权益：1 万元补贴、3 年 0 息、贷 5 免 3 三选一",
+      "url": "https://www.ithome.com/1/030/361.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "冲刺 2027 年出海，消息称前小鹏汽车西欧及南欧董事总经理强顺强加入小米汽车",
+      "url": "https://www.ithome.com/1/030/349.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "Steam 黑五多款游戏新史低：《战地 6》65.34 元、《对马岛之魂：导剪版》199 元、《最终幻想 7：重制版》35.64 元",
+      "url": "https://www.ithome.com/1/030/344.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全球仅此一件：马斯克到访上海工厂收到员工特制“边角料手办”，陶琳晒图",
+      "url": "https://www.ithome.com/1/030/334.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蔚来 ES9 地平线鎏金特别版上市：24K 鎏金车标，售 63.8 万元起",
+      "url": "https://www.ithome.com/1/030/329.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "比亚迪闪充枪突破 3.1 万个：覆盖全国 345 城，用户超 357 万人",
+      "url": "https://www.ithome.com/1/030/323.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长城猛龙混动版 11 月 27 日广州车展上市，搭载 1.5T 油电混动系统",
+      "url": "https://www.ithome.com/1/030/309.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "现价近 7000 欧元的英伟达 RTX 5090 FE 显卡送修后被销毁，平台只愿退原价 2369 欧元",
+      "url": "https://www.ithome.com/1/030/307.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -56048,9 +56449,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 23,
+      "candidateCount": 9,
       "status": "ok",
-      "publicLabel": "列表已读 23 条待核验线索"
+      "publicLabel": "列表已读 9 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -56104,9 +56505,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 21,
+      "candidateCount": 12,
       "status": "ok",
-      "publicLabel": "列表已读 21 条待核验线索"
+      "publicLabel": "列表已读 12 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -56119,10 +56520,11 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
