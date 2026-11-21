@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-21T08:22:46.852Z",
+  "collectedAt": "2026-11-21T09:56:30.356Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -7168,6 +7168,16 @@
         "吉利银河"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "现款售10.99万起 2027款长安CS75蓝鲸超擎混动版将于广州车展首发",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318500.html",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -7175,7 +7185,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 34
+      "count": 35
     },
     {
       "sourceId": "autohome-industry",
@@ -7186,7 +7196,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-21T08:22:34.848Z",
+      "collectedAt": "2026-11-21T09:56:17.772Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 53,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

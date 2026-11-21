@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-21T08:22:54.688Z",
+  "collectedAt": "2026-11-21T09:56:36.356Z",
   "targetDates": [
     "2026-11-20",
     "2026-11-21"
@@ -52902,7 +52902,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "1中国汽车出海撞上的\"第三堵墙\"169.77w",
+      "title": "6中国汽车出海撞上的\"第三堵墙\"117.15w",
       "url": "https://auto.news18a.com/news/storys_315700.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -55928,7 +55928,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "传祺越7两驱版激光雷达版权益价18.78万元，配齐激光雷达方盒子",
+      "title": "传祺越7两驱激光雷达版",
       "url": "https://auto.news18a.com/news/storys_316472.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -55938,7 +55938,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "长安启源Q06新增602越享+版 限时权益价13.59万元",
+      "title": "长安启源 Q06 新增 602 越享 + 版",
       "url": "https://auto.news18a.com/news/storys_316436.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -56716,6 +56716,148 @@
       "discoveryPublishedAt": "2026-11-21",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "福特密歇根州电池工厂投产",
+      "url": "https://auto.gasgoo.com/news/202611/19I70478535C101.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-19",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】蔚来宣布将于11月25日发布NWM 3.0世界模型",
+      "url": "https://auto.ifeng.com/c/8yEgb04F9Ju",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】Moment Energy推出Nova电池储能系统，预计2027年第一季度开始发货",
+      "url": "https://auto.ifeng.com/c/8yEhP8tusyB",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】兰博基尼为苹果Vision Pro应用更新Temerario Spyder可折叠硬顶展示功能",
+      "url": "https://auto.ifeng.com/c/8yEgQ7IJnTn",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来宣布将于11月25日发布NWM 3.0世界模型",
+      "url": "https://auto.news18a.com/news/storys_316741.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Moment Energy推出Nova电池储能系统，预计2027年第一季度开始发货",
+      "url": "https://www.news18a.com/news/storys_316738.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "兰博基尼为苹果Vision Pro应用更新Temerario Spyder可折叠硬顶展示功能",
+      "url": "https://www.news18a.com/news/storys_316734.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "亿纬锂能董事长刘金成在第十一届动力电池应用国际峰会上发言",
+      "url": "https://auto.news18a.com/news/storys_316725.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "岚图梦想家9右舵版在泰国上市，12月15日将登陆中国香港",
+      "url": "https://www.news18a.com/news/storys_316720.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "前小鹏汽车西欧及南欧董事总经理强顺强于2026年9月加入小米汽车出任欧洲区董事总经理",
+      "url": "https://auto.news18a.com/news/storys_316706.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "广汽夸克电驱非晶-碳纤维电驱第10万套量产下线",
+      "url": "https://www.news18a.com/news/storys_316694.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "阿维塔科技与Kamps Import AG签约进入瑞士市场",
+      "url": "https://auto.news18a.com/news/storys_316690.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "零跑汽车回应A10后备厢受损视频：系下层独立储物盒超载损坏",
+      "url": "https://www.news18a.com/news/storys_316679.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蔚来官宣 NWM 3.0 世界模型，11 月 25 日在 NIO IN 2026 蔚来创新科技日发布",
+      "url": "https://www.ithome.com/1/030/410.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -56755,9 +56897,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 13,
+      "candidateCount": 11,
       "status": "ok",
-      "publicLabel": "列表已读 13 条待核验线索"
+      "publicLabel": "列表已读 11 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",

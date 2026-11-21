@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-11-21T08:25:06.043Z",
+  "completedAt": "2026-11-21T09:58:39.923Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -109,7 +109,7 @@
         "吉利银河"
       ],
       "status": "partial",
-      "label": "新闻接口可读，但返回条目没有可公开访问的详情链接"
+      "label": "官网新闻接口暂不可读"
     },
     {
       "id": "deepal-news",
@@ -314,7 +314,7 @@
       "name": "汽车之家资讯",
       "brands": [],
       "status": "ok",
-      "label": "已读 34 条"
+      "label": "已读 35 条"
     },
     {
       "id": "autohome-industry",
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 13 条待核验线索"
+      "label": "列表已读 11 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
