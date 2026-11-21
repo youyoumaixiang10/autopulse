@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-21T07:14:31.951Z",
+  "collectedAt": "2026-11-21T08:22:46.852Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -7146,6 +7146,28 @@
         "岚图"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全新概念车MERCURY Concept领衔 现代汽车广州车展阵容曝光",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318499.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "尺寸与M9一致/采用大五座布局 吉利银河M8将于11月24日预售",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318498.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -7153,7 +7175,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 33
+      "count": 34
     },
     {
       "sourceId": "autohome-industry",
@@ -7164,7 +7186,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-21T07:14:20.863Z",
+      "collectedAt": "2026-11-21T08:22:34.848Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 53,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

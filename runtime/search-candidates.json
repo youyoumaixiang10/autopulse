@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-21T07:14:44.697Z",
+  "collectedAt": "2026-11-21T08:22:54.688Z",
   "targetDates": [
     "2026-11-20",
     "2026-11-21"
@@ -50749,7 +50749,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "热点时评聚焦热议话题，提供深度评论，解析行业现象百变不是噱头，技术才是创富底色——解析27款大拿产品底层逻辑2026-11-16",
+      "title": "热点时评聚焦热议话题，提供深度评论，解析行业现象一台创富车，应该怎么造？2026-11-16",
       "url": "https://auto.news18a.com/news/storys_315371.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -52902,7 +52902,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "10中国汽车出海撞上的\"第三堵墙\"96.83w",
+      "title": "1中国汽车出海撞上的\"第三堵墙\"169.77w",
       "url": "https://auto.news18a.com/news/storys_315700.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -55098,7 +55098,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "固态电池，名字可不能再乱叫了",
+      "title": "热点时评聚焦热议话题，提供深度评论，解析行业现象固态电池，名字可不能再乱叫了2026-11-19",
       "url": "https://auto.news18a.com/news/storys_316238.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -55108,7 +55108,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "家越07纯电版将于11月27日上市 全系标配800V平台",
+      "title": "家越 07 纯电版 11.27 上市",
       "url": "https://auto.news18a.com/news/storys_316437.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -56410,6 +56410,312 @@
       "discoveryPublishedAt": "2026-11-21",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】享界V8于11月21日在全国18城开启大规模交付",
+      "url": "https://auto.ifeng.com/c/8yEclCatCiF",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】马斯克称FSD V15将于下个月全面推送",
+      "url": "https://auto.ifeng.com/c/8yEdUTe7hkt",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】亿纬锂能董事长刘金成在第十一届动力电池应用国际峰会上发言",
+      "url": "https://auto.ifeng.com/c/8yEclu7lIW0",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "兰博基尼为苹果Vision Pro应用更新Temerario Spyder可折叠硬顶展示功能",
+      "url": "https://auto.news18a.com/news/storys_316734.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "享界V8于11月21日在全国18城开启大规模交付",
+      "url": "https://www.news18a.com/news/storys_316731.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "马斯克称FSD V15将于下个月全面推送",
+      "url": "https://www.news18a.com/news/storys_316732.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "亿纬锂能董事长刘金成在第十一届动力电池应用国际峰会上发言",
+      "url": "https://www.news18a.com/news/storys_316725.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "问界M6推出限时购车权益：1万元补贴、3年0息或贷5免3三选一",
+      "url": "https://www.news18a.com/news/storys_316721.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "岚图梦想家9右舵版在泰国上市，12月15日将登陆中国香港",
+      "url": "https://auto.news18a.com/news/storys_316720.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "工信部公示光束汽车ORA 7申报电耗百公里12.1度",
+      "url": "https://www.news18a.com/news/storys_316715.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来ES9地平线鎏金特别版上市，售价63.8万元起",
+      "url": "https://www.news18a.com/news/storys_316705.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "前小鹏汽车西欧及南欧董事总经理强顺强于2026年9月加入小米汽车出任欧洲区董事总经理",
+      "url": "https://www.news18a.com/news/storys_316706.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪公布闪充网络数据：截至11月20日累计上线闪充枪31014个",
+      "url": "https://www.news18a.com/news/storys_316702.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "广汽夸克电驱非晶-碳纤维电驱第10万套量产下线",
+      "url": "https://auto.news18a.com/news/storys_316694.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "上汽通用汽车发布“真龙插混MAX”插混技术",
+      "url": "https://www.news18a.com/news/storys_316693.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "赛豆科技称AIVA首款量产车型AIVA ME7将于2027年第一季度上市",
+      "url": "https://www.news18a.com/news/storys_316691.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "阿维塔科技与Kamps Import AG签约进入瑞士市场",
+      "url": "https://www.news18a.com/news/storys_316690.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪方程豹钛9于11月19日上市，售价27.99万元起，11月底开启交付",
+      "url": "https://www.news18a.com/news/storys_316688.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "零跑汽车回应A10后备厢受损视频：系下层独立储物盒超载损坏",
+      "url": "https://auto.news18a.com/news/storys_316679.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉辅助驾驶系统获意大利运行许可，成为欧洲第12个获批国家",
+      "url": "https://www.news18a.com/news/storys_316668.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "梅赛德斯-奔驰成为德国首家获得点到点辅助驾驶监管许可的车企",
+      "url": "https://www.news18a.com/news/storys_316514.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "问界新M8上市 赛力斯公布投入15亿元及多项技术参数",
+      "url": "https://www.news18a.com/news/storys_316508.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "Waymo自11月11日起暂停全美无人驾驶出租车高速公路商业服务",
+      "url": "https://www.news18a.com/news/storys_316505.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "享界V8上市",
+      "url": "https://auto.news18a.com/news/storys_316515.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "零跑汽车：明年将是产品大年，C、D 系列都会有重磅产品",
+      "url": "https://www.ithome.com/1/030/388.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "韩国首次利用紧急灾难通知“0 级短信”打击 AI 辅助作弊行为，成功在高考中抓获 54 名违规考生",
+      "url": "https://www.ithome.com/1/030/387.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "Moment Energy 推出 Nova 储能系统：可循环利用退役电动汽车电池，2027 年第一季度开始发货",
+      "url": "https://www.ithome.com/1/030/386.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "兰博基尼 Temerario Spyder“入驻”苹果 Vision Pro，带你沉浸式体验车顶开合",
+      "url": "https://www.ithome.com/1/030/384.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长城大狗 PLUS HEV 版 11 月 27 日广州车展上市，1.5T 油电混动系统",
+      "url": "https://www.ithome.com/1/030/377.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "东风日产辛宇：绝对不能做速成车，品质是我们的底线",
+      "url": "https://www.ithome.com/1/030/374.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -56449,9 +56755,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 9,
+      "candidateCount": 13,
       "status": "ok",
-      "publicLabel": "列表已读 9 条待核验线索"
+      "publicLabel": "列表已读 13 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -56520,11 +56826,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
