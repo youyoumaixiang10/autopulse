@@ -1,8 +1,8 @@
 {
-  "collectedAt": "2026-11-21T09:56:36.356Z",
+  "collectedAt": "2026-11-22T06:55:09.857Z",
   "targetDates": [
-    "2026-11-20",
-    "2026-11-21"
+    "2026-11-21",
+    "2026-11-22"
   ],
   "candidates": [
     {
@@ -50409,7 +50409,7 @@
       "sourceId": "netease-auto",
       "sourceName": "网易汽车",
       "sourceType": "vertical-media",
-      "title": "小鹏三季度营收交付双创新高，四季度交付有望突破17万",
+      "title": "小鹏三季度营收交付双创新高，四季度交付有望突破17万辆",
       "url": "https://www.163.com/auto/article/LBUR8NL80008856R.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -52902,7 +52902,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "6中国汽车出海撞上的\"第三堵墙\"117.15w",
+      "title": "7中国汽车出海撞上的\"第三堵墙\"122.18w",
       "url": "https://auto.news18a.com/news/storys_315700.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -54385,7 +54385,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "云山动力袁定凯：2030年大圆柱电池市场有望达834GWh",
+      "title": "2030年大圆柱电池市场有望达834GWh",
       "url": "https://auto.gasgoo.com/news/202611/20I70478646C501.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-20",
@@ -56058,7 +56058,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "尚界Z7T星野套装27.48万起 猎装车加了10处外观件",
+      "title": "尚界Z7T星野套装27.48万起",
       "url": "https://auto.gasgoo.com/news/202611/20I70478683C107.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-20",
@@ -56080,7 +56080,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "瑞萨电子：从分散到集中，从控制到智能——高实时控制芯片的演进与技术创新",
+      "title": "高实时控制芯片的演进与技术创新",
       "url": "https://auto.gasgoo.com/news/202611/20I70478671C106.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-20",
@@ -56102,7 +56102,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "零跑与欧宝签署联合开发协议，全新纯电SUV计划2028年上市",
+      "title": "零跑与欧宝签署联合开发协议",
       "url": "https://auto.gasgoo.com/news/202611/20I70478676C109.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-20",
@@ -56226,7 +56226,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "限时权益价18.78万元 传祺越7两驱激光雷达版正式上市",
+      "title": "限时18.78万元 传祺越7两驱激光雷达版正式上市",
       "url": "https://www.sohu.com/a/1104248907_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -56858,6 +56858,548 @@
       "discoveryPublishedAt": "2026-11-21",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "上汽商用车：智领变革 下一代轻型商用车智能底盘技术创新与实践",
+      "url": "https://auto.gasgoo.com/news/202611/22I70478766C106.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "pcauto-news",
+      "sourceName": "太平洋汽车",
+      "sourceType": "vertical-media",
+      "title": "24K鎏金加持 蔚来ES9地平线鎏金特别版正式发布 BaaS租电53万起",
+      "url": "https://www.pcauto.com.cn/nation/5193/51938208.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "一汽奥迪宣布Q9将于11月27日在广州车展完成中国首秀",
+      "url": "https://www.sohu.com/a/1104631806_122143",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "奇瑞新车曝光:11月24日正式上市 预售9.99万元起",
+      "url": "https://www.sohu.com/a/1104637722_532378",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "2027款岚图泰山定档广州车展 11月27日开启预售",
+      "url": "https://www.sohu.com/a/1104759146_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "旗舰纯电大六座 2027款岚图泰山将于广州车展预售",
+      "url": "https://www.163.com/auto/article/LCBAV10T0008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "netease-auto",
+      "sourceName": "网易汽车",
+      "sourceType": "vertical-media",
+      "title": "标配即满配 尚界Z7系列上新星野套装27.48万起",
+      "url": "https://www.163.com/auto/article/LC72IN590008856R.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "中式旗舰纯电大六座来了 2027款岚图泰山11月27日广州车展预售",
+      "url": "https://auto.ifeng.com/c/8yG2Sbt32EN",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】鸿蒙智行问界新M7无伪装实车上路，新增银色车漆款",
+      "url": "https://auto.ifeng.com/c/8yG8W4QMNha",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉在美国市场推出FSD v15，马斯克称实景视图仅动用AI4芯片一个TRIP加速器一半算力",
+      "url": "https://auto.ifeng.com/c/8yG5SLLkzpf",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】小鹏汇天A868电动飞行汽车完成倾转过渡试飞",
+      "url": "https://auto.ifeng.com/c/8yG4WN3Bfez",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】极氪法务部发布声明提醒车主防范虚假召回短信",
+      "url": "https://auto.ifeng.com/c/8yG41OvtsPf",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "35年轿车王者再出手：ID.AURA L5用四个“超级”回答家庭纯电轿车",
+      "url": "https://auto.ifeng.com/c/8yG3jIcnYPf",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行问界新M7无伪装实车上路，新增银色车漆款",
+      "url": "https://auto.news18a.com/news/storys_316939.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "极氪法务部发布声明提醒车主防范虚假召回短信",
+      "url": "https://www.news18a.com/news/storys_316935.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏汇天A868电动飞行汽车完成倾转过渡试飞",
+      "url": "https://www.news18a.com/news/storys_316934.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉在美国市场推出FSD v15，马斯克称实景视图仅动用AI4芯片一个TRIP加速器一半算力",
+      "url": "https://www.news18a.com/news/storys_316933.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "全新雷克萨斯ES纯电版上市，定价33.99万元起",
+      "url": "https://www.news18a.com/news/storys_316931.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奕境汽车品牌总经理曾清林回应“汽车博主直播喊话车企拆车”话题",
+      "url": "https://auto.news18a.com/news/storys_316929.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2027款岚图泰山将于11月27日开启预售",
+      "url": "https://www.news18a.com/news/storys_316927.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏汽车发布提示警惕冒用其名义的“召回领赔偿”诈骗",
+      "url": "https://www.news18a.com/news/storys_316925.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来在挪威奥斯陆推出Haven特别版萤火虫车型并开启预订",
+      "url": "https://www.news18a.com/news/storys_316923.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉在美国市场推出FSD v15并向EAP成员推送首批版本",
+      "url": "https://www.news18a.com/news/storys_316918.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "改装厂商Inverted完成1967款保时捷912电动化改造",
+      "url": "https://auto.news18a.com/news/storys_316919.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪腾势B5在英国邓斯福机场完成三轮拖曳180吨客机测试",
+      "url": "https://www.news18a.com/news/storys_316921.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "中创新航研究院实验室通过大众汽车集团电池测试中心认证",
+      "url": "https://www.news18a.com/news/storys_316755.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽奥迪宣布奥迪Q9将于11月27日在2026广州车展完成中国首秀",
+      "url": "https://www.news18a.com/news/storys_316751.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "美国公司Hoffman EV在SEMA展会展示基于特斯拉Model 3零部件打造的电动汽车Badger",
+      "url": "https://www.news18a.com/news/storys_316747.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马iX5续航测试：表显电量归零后继续行驶35公里",
+      "url": "https://auto.news18a.com/news/storys_316745.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来宣布将于11月25日发布NWM 3.0世界模型",
+      "url": "https://www.news18a.com/news/storys_316741.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来ES9地平线鎏金特别版上市 售63.8万元起",
+      "url": "https://auto.news18a.com/news/storys_316757.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉更新 Robotaxi 应急方案：确认 Cybercab 新硬件，个人车辆入网在即",
+      "url": "https://www.ithome.com/1/030/575.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "北汽张建勇：享界是北汽品牌向上的战略承重墙，与华为的战略共同体就是墙的根基",
+      "url": "https://www.ithome.com/1/030/574.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全球电子协会警告 PCB 或短缺至 2027 年上半年，风险堪比 2021 年芯片短缺",
+      "url": "https://www.ithome.com/1/030/573.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉在韩连续 9 个月位居进口车销量第一，大多产自上海超级工厂",
+      "url": "https://www.ithome.com/1/030/569.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行问界新 M7 无伪装实车上路，新增银色车漆款",
+      "url": "https://www.ithome.com/1/030/566.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "长城谭健确认魏牌二代蓝山本月上市，预售价 28.98 万起",
+      "url": "https://www.ithome.com/1/030/565.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "33.99 万元起：全新雷克萨斯 ES 纯电版上市",
+      "url": "https://www.ithome.com/1/030/564.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "无需游戏引擎！马斯克称特斯拉 FSD v15 实景视图仅动用 AI4 芯片一个 TRIP 加速器一半算力",
+      "url": "https://www.ithome.com/1/030/563.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "中国第一家：小鹏汇天 A868 电动飞行汽车倾转过渡试飞成功",
+      "url": "https://www.ithome.com/1/030/561.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "极氪提醒防范虚假召回信息：不会以召回为由，要求车主提交隐私信息",
+      "url": "https://www.ithome.com/1/030/559.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉 FSD v15 全新可视化 UI 引热议，消息称是在硬件劣势的情况做了 3D 高斯全场景重建",
+      "url": "https://www.ithome.com/1/030/555.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "新字头、新读音，铁路部门解答车次编排改革热点问题",
+      "url": "https://www.ithome.com/1/030/554.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "品牌全球销量破百万：长城坦克首支单曲《百万分之一》定档 11 月 25 日“唱响”",
+      "url": "https://www.ithome.com/1/030/550.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奕境曾清林回应“汽车博主直播喊话车企拆车”话题：会落实，时间和方式定了第一时间公开",
+      "url": "https://www.ithome.com/1/030/543.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "2027 款岚图泰山旗舰纯电大六座 SUV 定档 11 月 27 日开启预售",
+      "url": "https://www.ithome.com/1/030/539.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小鹏辟谣：警惕冒用小鹏汽车名义的“召回领赔偿”诈骗",
+      "url": "https://www.ithome.com/1/030/537.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蔚来在欧洲推出 Haven 特别版萤火虫，预计 2027 年春季交付",
+      "url": "https://www.ithome.com/1/030/532.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全球首款星闪音箱因科美 SL10 通过 OpenHarmony 兼容性测评，搭载开源鸿蒙 5.1 系统",
+      "url": "https://www.ithome.com/1/030/525.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "IT早报 1122：曝其他厂商也考虑推出阔直板形态手机；Anthropic 研究员预测 2027 年底 AI 比肩顶尖专家；华为星芒 O1 Pro 定价 5499 元起引争议...",
+      "url": "https://www.ithome.com/1/030/518.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉海外推出 FSD v15：安全关键场景处理能力提升 25 倍，全新可视化 UI",
+      "url": "https://www.ithome.com/1/030/512.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "1967 款保时捷 912 借电动化喜获新生：输出 304 马力，续航 400 公里",
+      "url": "https://www.ithome.com/1/030/510.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-21",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -56865,9 +57407,9 @@
       "sourceId": "sina-auto",
       "url": "https://auto.sina.com.cn/",
       "listRead": true,
-      "candidateCount": 10,
+      "candidateCount": 9,
       "status": "ok",
-      "publicLabel": "列表已读 10 条待核验线索"
+      "publicLabel": "列表已读 9 条待核验线索"
     },
     {
       "sourceId": "ifeng-auto",
@@ -56897,17 +57439,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 11,
+      "candidateCount": 21,
       "status": "ok",
-      "publicLabel": "列表已读 11 条待核验线索"
+      "publicLabel": "列表已读 21 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 30,
+      "candidateCount": 26,
       "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "publicLabel": "列表已读 26 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -56953,17 +57495,17 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 12,
+      "candidateCount": 14,
       "status": "ok",
-      "publicLabel": "列表已读 12 条待核验线索"
+      "publicLabel": "列表已读 14 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
       "url": "https://auto.163.com/",
       "listRead": true,
-      "candidateCount": 18,
+      "candidateCount": 19,
       "status": "ok",
-      "publicLabel": "列表已读 18 条待核验线索"
+      "publicLabel": "列表已读 19 条待核验线索"
     },
     {
       "sourceId": "news18a-auto",
