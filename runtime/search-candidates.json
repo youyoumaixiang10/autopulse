@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-22T08:12:35.796Z",
+  "collectedAt": "2026-11-22T09:53:39.777Z",
   "targetDates": [
     "2026-11-21",
     "2026-11-22"
@@ -52902,7 +52902,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "6中国汽车出海撞上的\"第三堵墙\"119.89w",
+      "title": "6中国汽车出海撞上的\"第三堵墙\"131.29w",
       "url": "https://auto.news18a.com/news/storys_315700.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -57587,6 +57587,214 @@
       "discoveryPublishedAt": "2026-11-22",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "E周看点 | 两大车企拿到造车“准生证”；零跑汽车200万台整车下线",
+      "url": "https://auto.gasgoo.com/news/202611/22I70478767C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "小智一周要闻|Optimus拟18个月内胜任家务；黑芝麻智能在深圳成立具身智能总部",
+      "url": "https://auto.gasgoo.com/news/202611/22I70478648C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "德国汽车业劳资纠纷升级",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478681C101.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "大众寻求冻结薪资并延长工时",
+      "url": "https://auto.gasgoo.com/news/202611/20I70478680C101.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-20",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉通过OTA向2027款Cybertruck推送转弯半径缩小功能",
+      "url": "https://auto.ifeng.com/c/8yGMSleDeJX",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】丰田公布BKE Concept微型折叠电动两轮车",
+      "url": "https://auto.ifeng.com/c/8yGL9Yp4mWh",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】张雪机车计划2027年推出外卖骑手电动摩托车",
+      "url": "https://auto.ifeng.com/c/8yGJLJ1C7wV",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】蔚来李斌称新款ET5T和ES6将于2027年上半年交付，ET5和EC6无改款计划",
+      "url": "https://auto.ifeng.com/c/8yGJLJ1C7wW",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "丰田公布BKE Concept微型折叠电动两轮车",
+      "url": "https://auto.news18a.com/news/storys_316952.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉通过OTA向2027款Cybertruck推送转弯半径缩小功能",
+      "url": "https://www.news18a.com/news/storys_316950.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来李斌称新款ET5T和ES6将于2027年上半年交付，ET5和EC6无改款计划",
+      "url": "https://www.news18a.com/news/storys_316946.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "张雪机车计划2027年推出外卖骑手电动摩托车",
+      "url": "https://www.news18a.com/news/storys_316945.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉更新Robotaxi应急方案，确认Cybercab新硬件并开放个人订购",
+      "url": "https://www.news18a.com/news/storys_316943.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "法拉利发布296 Challenge与296 Challenge EVO",
+      "url": "https://auto.news18a.com/news/storys_316941.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "全新雷克萨斯ES纯电版上市，定价33.99万元起",
+      "url": "https://auto.news18a.com/news/storys_316931.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉在美国市场推出FSD v15并向EAP成员推送首批版本",
+      "url": "https://auto.news18a.com/news/storys_316918.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "Neuralink 展示脑机接口新成果：瘫痪患者成功在《GTA 6》里自由驾驶、射击",
+      "url": "https://www.ithome.com/1/030/625.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "全新一代比亚迪汉新款配色实车曝光",
+      "url": "https://www.ithome.com/1/030/617.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "即将停产的特斯拉 Cybertruck 迎来 OTA 更新：2027 款转弯半径缩小",
+      "url": "https://www.ithome.com/1/030/615.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "丰田公布 BKE Concept 微型折叠电动两轮车，可 30 秒完成折叠放进 GR86 跑车后备箱",
+      "url": "https://www.ithome.com/1/030/611.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -57626,17 +57834,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 23,
+      "candidateCount": 17,
       "status": "ok",
-      "publicLabel": "列表已读 23 条待核验线索"
+      "publicLabel": "列表已读 17 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 26,
+      "candidateCount": 25,
       "status": "ok",
-      "publicLabel": "列表已读 26 条待核验线索"
+      "publicLabel": "列表已读 25 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
