@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-22T06:55:00.759Z",
+  "collectedAt": "2026-11-22T08:12:30.178Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -7244,29 +7244,83 @@
         "吉利银河"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "现款售37.99万起/配置或迎来升级 2027款凯迪拉克XT5广州车展亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318512.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "新增大海道版本车型 2027款福特烈马家族将于广州车展上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318510.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "将于11月24日开启预售/搭1.5T插混系统 吉利银河M8正式亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318509.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "蔚来将于11月25日NIO IN 2026蔚来创新科技日发布NWM 3.0",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318508.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "现款插混版售37.99万起 2027款岚图泰山纯电版将于广州车展预售",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318503.html",
+      "candidateBrands": [
+        "岚图"
+      ],
+      "industry": true
     }
   ],
   "sourceResults": [
     {
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
-      "status": "failed",
-      "count": 0,
-      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
+      "status": "ok",
+      "count": 36
     },
     {
       "sourceId": "autohome-industry",
       "url": "https://www.autohome.com.cn/hangye/",
-      "status": "failed",
-      "count": 0,
-      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
+      "status": "ok",
+      "count": 0
     },
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-22T06:54:05.493Z",
+      "collectedAt": "2026-11-22T08:12:18.198Z",
       "entryUrl": "https://www.dongchedi.com/",
-      "candidateCount": 66,
+      "candidateCount": 67,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
     }
   ],

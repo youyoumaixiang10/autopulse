@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-11-22T07:02:22.979Z",
+  "completedAt": "2026-11-22T08:15:02.502Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -117,8 +117,8 @@
       "brands": [
         "深蓝"
       ],
-      "status": "failed",
-      "label": "读取异常"
+      "status": "no-recent-updates",
+      "label": "列表可读 · 最近发布 2026-06-15"
     },
     {
       "id": "changan-qiyuan",
@@ -313,22 +313,22 @@
       "id": "autohome-news",
       "name": "汽车之家资讯",
       "brands": [],
-      "status": "failed",
-      "label": "读取异常"
+      "status": "ok",
+      "label": "已读 36 条"
     },
     {
       "id": "autohome-industry",
       "name": "汽车之家行业频道",
       "brands": [],
-      "status": "failed",
-      "label": "读取异常"
+      "status": "ok",
+      "label": "已读 0 条"
     },
     {
       "id": "dongchedi-news",
       "name": "懂车帝资讯",
       "brands": [],
       "status": "partial",
-      "label": "已读 66 条 · 读取范围有限"
+      "label": "已读 67 条 · 读取范围有限"
     },
     {
       "id": "sina-auto",
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 21 条待核验线索"
+      "label": "列表已读 23 条待核验线索"
     },
     {
       "id": "gasgoo-auto",

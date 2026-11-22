@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-22T06:55:09.857Z",
+  "collectedAt": "2026-11-22T08:12:35.796Z",
   "targetDates": [
     "2026-11-21",
     "2026-11-22"
@@ -52902,7 +52902,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "7中国汽车出海撞上的\"第三堵墙\"122.18w",
+      "title": "6中国汽车出海撞上的\"第三堵墙\"119.89w",
       "url": "https://auto.news18a.com/news/storys_315700.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -57284,7 +57284,7 @@
       "sourceId": "ithome-auto",
       "sourceName": "IT之家",
       "sourceType": "vertical-media",
-      "title": "特斯拉 FSD v15 全新可视化 UI 引热议，消息称是在硬件劣势的情况做了 3D 高斯全场景重建",
+      "title": "特斯拉 FSD v15 全新实景视图引热议，消息称是在硬件劣势的情况做了 3D 高斯全场景重建",
       "url": "https://www.ithome.com/1/030/555.htm",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-22",
@@ -57400,6 +57400,193 @@
       "discoveryPublishedAt": "2026-11-21",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】法拉利发布296 Challenge与296 Challenge EVO",
+      "url": "https://auto.ifeng.com/c/8yGI3RkMfq5",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】特斯拉更新Robotaxi应急方案，确认Cybercab新硬件并开放个人订购",
+      "url": "https://auto.ifeng.com/c/8yGI3RkMfq4",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉更新Robotaxi应急方案，确认Cybercab新硬件并开放个人订购",
+      "url": "https://auto.news18a.com/news/storys_316943.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "法拉利发布296 Challenge与296 Challenge EVO",
+      "url": "https://www.news18a.com/news/storys_316941.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行问界新M7无伪装实车上路，新增银色车漆款",
+      "url": "https://www.news18a.com/news/storys_316939.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉在美国市场推出FSD v15，马斯克称实景视图仅动用AI4芯片一个TRIP加速器一半算力",
+      "url": "https://auto.news18a.com/news/storys_316933.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奕境汽车品牌总经理曾清林回应“汽车博主直播喊话车企拆车”话题",
+      "url": "https://www.news18a.com/news/storys_316929.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来在挪威奥斯陆推出Haven特别版萤火虫车型并开启预订",
+      "url": "https://auto.news18a.com/news/storys_316923.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "改装厂商Inverted完成1967款保时捷912电动化改造",
+      "url": "https://www.news18a.com/news/storys_316919.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽奥迪宣布奥迪Q9将于11月27日在2026广州车展完成中国首秀",
+      "url": "https://auto.news18a.com/news/storys_316751.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马iX5续航测试：表显电量归零后继续行驶35公里",
+      "url": "https://www.news18a.com/news/storys_316745.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "张雪机车计划明年推出针对外卖骑手的电动摩托车，价格尽量控制在 1 万元左右",
+      "url": "https://www.ithome.com/1/030/604.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "博主成功让 2007 年的 64MB 显存 HD2350 老卡成功运行《GTA5》，序章场景约 15 帧",
+      "url": "https://www.ithome.com/1/030/598.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蔚来李斌：新款 ET5T 和 ES6 明年上半年陆续交付，ET5 和 EC6 明年没有改款计划",
+      "url": "https://www.ithome.com/1/030/596.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "星芒 OSTA O1 Pro 新机确认支持华为自研 Wi-Fi 7+ 芯片级协同技术",
+      "url": "https://www.ithome.com/1/030/589.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "电动汽车成为《GTA6》主流交通工具之一：充电对应现实时间约 10 秒、受损时从底盘电池位置着火",
+      "url": "https://www.ithome.com/1/030/584.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "法拉利 296 Challenge 双车发布：基于纯燃油动力架构打造",
+      "url": "https://www.ithome.com/1/030/583.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "打破前作传统：《GTA6》终于可以让火车停下来",
+      "url": "https://www.ithome.com/1/030/577.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-22",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -57439,9 +57626,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 21,
+      "candidateCount": 23,
       "status": "ok",
-      "publicLabel": "列表已读 21 条待核验线索"
+      "publicLabel": "列表已读 23 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
