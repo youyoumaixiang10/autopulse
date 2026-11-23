@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-23T09:16:57.718Z",
+  "collectedAt": "2026-11-23T10:53:27.765Z",
   "targetDates": [
     "2026-11-22",
     "2026-11-23"
@@ -1738,7 +1738,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "试驾问界M6：年轻SUV的新选择",
+      "title": "试驾问界M6：年轻SUV新选",
       "url": "https://www.sohu.com/a/1012482515_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -1748,7 +1748,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "尚界Z7T动态体验",
+      "title": "尚界Z7T个性动态体验",
       "url": "https://www.sohu.com/a/1012495282_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -1758,7 +1758,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "仰望U8硬派越野体验",
+      "title": "2026款仰望U8越野表现体验",
       "url": "https://www.sohu.com/a/1005139452_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -58922,6 +58922,242 @@
       "discoveryPublishedAt": "2026-11-23",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "大晓机器人发布具身通用模型ACE-Brain-0.7",
+      "url": "https://auto.gasgoo.com/news/202611/23I70478853C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "总投资18亿元，小鹏集团新项目落地肇庆",
+      "url": "https://auto.gasgoo.com/news/202611/23I70478851C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "盖世汽车周晓莺：主办方欢迎致辞",
+      "url": "https://auto.gasgoo.com/news/202611/23I70478849C106.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "8个汽车产业链项目落地西安经开区",
+      "url": "https://auto.gasgoo.com/news/202611/23I70478850C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "上汽MG4增推530从容版：530km续航首次进入7万元区间",
+      "url": "https://auto.gasgoo.com/news/202611/23I70478848C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "上汽集团公布近期海外业务进展，加速全球化体系布局",
+      "url": "https://auto.gasgoo.com/news/202611/23I70478846C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "还在说油车没有未来？吉利i-HEV市占率达到55.8%",
+      "url": "https://auto.gasgoo.com/news/202611/23I70478845C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "中国车企收缩人形机器人布局",
+      "url": "https://auto.gasgoo.com/news/202611/23I70478844C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "奔驰点对点辅助驾驶获德国监管批准",
+      "url": "https://auto.gasgoo.com/news/202611/23I70478842C111.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "欧盟拟对华混动车型设限，中国车企转向增程路线",
+      "url": "https://auto.gasgoo.com/news/202611/23I70478840C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "因电动车助力，中国车企已在39个市场领先日系对手",
+      "url": "https://auto.gasgoo.com/news/202611/23I70478837C108.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "5万块买C级车，换电意在刺激消费？",
+      "url": "https://auto.gasgoo.com/news/202611/23I70478796C107.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "深蓝S07激光版智能辅助实测",
+      "url": "https://www.sohu.com/a/1105175233_154499",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "享界V8七款车型同步上市，31.98万元起售",
+      "url": "https://auto.ifeng.com/c/8yI7oMcJH2K",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "MG4新增530公里续航版本，限时售价7.88万元",
+      "url": "https://auto.ifeng.com/c/8yI8M9el9tm",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "新款问界M7官图发布，C柱新增侧后摄像头",
+      "url": "https://auto.ifeng.com/c/8yI7rtIXOxf",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】懂车帝回应平台对比测试限制传闻 称系按《网络测评活动规范》更新规则",
+      "url": "https://auto.ifeng.com/c/8yI5vWpKCRJ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "问界新 M7 新增翡冷翠等车色",
+      "url": "https://auto.ifeng.com/c/8yI4pw8fmCS",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "2027 款岚图泰山旗舰 SUV 预热：搭载华为乾崑 896 线激光雷达，前排换用全新双联屏设计",
+      "url": "https://www.ithome.com/1/031/094.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "懂车帝回应“测试内容大调整”：信息多处失实，部分内容为 AI 撰写",
+      "url": "https://www.ithome.com/1/031/091.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "阿维塔总裁直播测试高速四轮同时爆胎，测试时速 145Km/h",
+      "url": "https://www.ithome.com/1/031/088.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "《GTA6》里“特斯拉”自带防盗系统，初次偷车会被自动驾驶送到警察局",
+      "url": "https://www.ithome.com/1/031/015.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-23",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -58961,17 +59197,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 14,
+      "candidateCount": 15,
       "status": "ok",
-      "publicLabel": "列表已读 14 条待核验线索"
+      "publicLabel": "列表已读 15 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 28,
+      "candidateCount": 29,
       "status": "ok",
-      "publicLabel": "列表已读 28 条待核验线索"
+      "publicLabel": "列表已读 29 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -59017,9 +59253,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 23,
+      "candidateCount": 25,
       "status": "ok",
-      "publicLabel": "列表已读 23 条待核验线索"
+      "publicLabel": "列表已读 25 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -59032,10 +59268,11 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "listRead": true,
-      "candidateCount": 30,
-      "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "status": "partial",
+      "candidateCount": 0,
+      "listRead": false,
+      "publicLabel": "直连列表暂不可读，将回退公开检索",
+      "error": "fetch failed"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
