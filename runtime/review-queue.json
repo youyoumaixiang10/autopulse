@@ -6931,6 +6931,7 @@
     "url": "https://www.pcauto.com.cn/nation/5188/51880916.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -8638,6 +8639,7 @@
     "url": "https://www.pcauto.com.cn/nation/5188/51886345.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -8665,6 +8667,7 @@
     "url": "https://www.pcauto.com.cn/nation/5188/51886329.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -9106,6 +9109,7 @@
     "url": "https://www.pcauto.com.cn/nation/5188/51886830.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11003,6 +11007,7 @@
     "url": "https://www.pcauto.com.cn/nation/5190/51905593.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11392,6 +11397,7 @@
     "url": "https://www.pcauto.com.cn/nation/5191/51912474.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11718,6 +11724,7 @@
     "url": "https://www.pcauto.com.cn/nation/5191/51917580.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -12315,6 +12322,42 @@
     ]
   },
   {
+    "title": "享界V8入局，谁的蛋糕危险了？",
+    "sourceName": "盖世汽车",
+    "url": "https://auto.gasgoo.com/news/202611/21I70478725C1202.shtml",
+    "reasons": [
+      "正文尚未读取成功",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "大众ID.Polo GTI Clubsport概念车 把大车电机硬塞进小型车",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5194/51940209.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "售价33.99-35.99万元 全新雷克萨斯ES纯电版上市 续航最高707km",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5194/51940208.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "仰望鼎曜/全新比亚迪汉领衔 2026广州车展新车前瞻（上）",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5194/51940240.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
     "title": "四季度上市/第六代DM-i混动技术 方程豹钛9内饰谍照曝光",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202609/1317075.html",
@@ -12734,6 +12777,14 @@
     "title": "斩获10亿级订单 千台岚图梦想家9右舵版发运出海！",
     "sourceName": "凤凰网汽车",
     "url": "https://auto.ifeng.com/c/8yD5ZeqqsKc",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "将于11月24日开启预售/搭1.5T插混系统 吉利银河M8正式亮相",
+    "sourceName": "汽车之家资讯",
+    "url": "https://www.autohome.com.cn/news/202611/1318509.html",
     "reasons": [
       "标题与正文不是同一事件"
     ]
