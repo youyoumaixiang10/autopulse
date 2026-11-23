@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-23T07:44:25.158Z",
+  "collectedAt": "2026-11-23T09:16:52.161Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -7443,6 +7443,50 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "年底上市/采用7座布局 领克900L将于广州车展开启预售",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318527.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "马斯克又有大动作：特斯拉引入星链，FSD V15超现实界面全球刷屏",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318526.html",
+      "candidateBrands": [
+        "特斯拉"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "纵横R700设计手稿曝光 硬核方盒子中大型SUV 将于广州车展首发",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318525.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "新增云境灰内饰/将于11月25日亮相 小鹏P7晨曦粉配色官图发布",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318524.html",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -7450,7 +7494,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 35
+      "count": 37
     },
     {
       "sourceId": "autohome-industry",
@@ -7461,7 +7505,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-23T07:44:13.264Z",
+      "collectedAt": "2026-11-23T09:16:40.182Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 58,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
