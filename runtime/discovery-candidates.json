@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-24T09:58:58.350Z",
+  "collectedAt": "2026-11-24T11:09:00.434Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -7649,6 +7649,40 @@
       "url": "https://www.autohome.com.cn/news/202611/1318529.html",
       "candidateBrands": [],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "预计年内上市 比亚迪海洋网旗舰MPV将在广州车展首发亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318551.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：2027款极氪7X将于车展上市 预售22.98万元起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318549.html",
+      "candidateBrands": [
+        "极氪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：东风日产NX7将于车展上市 预售12.99万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318548.html",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -7656,7 +7690,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 45
+      "count": 46
     },
     {
       "sourceId": "autohome-industry",
@@ -7667,7 +7701,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-24T09:58:46.553Z",
+      "collectedAt": "2026-11-24T11:08:48.488Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 59,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
