@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-24T11:09:00.434Z",
+  "collectedAt": "2026-11-24T12:36:51.891Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -7683,6 +7683,18 @@
       "url": "https://www.autohome.com.cn/news/202611/1318548.html",
       "candidateBrands": [],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "19.98万起 配备激光雷达/综合续航1560km 吉利银河M8开启预售",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318552.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -7701,7 +7713,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-24T11:08:48.488Z",
+      "collectedAt": "2026-11-24T12:36:39.617Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 59,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
