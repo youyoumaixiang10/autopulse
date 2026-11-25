@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-25T09:57:03.400Z",
+  "collectedAt": "2026-11-25T11:26:51.642Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -7952,6 +7952,43 @@
       "url": "https://www.autohome.com.cn/news/202611/1318580.html",
       "candidateBrands": [],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "NOMI 4.0同步推出 蔚来世界模型NWM 3.0正式发布",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318586.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "全新宝马i3/阿维塔T09/仰望鼎曜等 2026广州车展探馆新车抢先看",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318585.html",
+      "candidateBrands": [
+        "比亚迪",
+        "阿维塔"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "限时权益价19.99万 阿维塔06T Max先锋版上市 搭载896线激光雷达",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318584.html",
+      "candidateBrands": [
+        "阿维塔"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -7970,7 +8007,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-25T09:56:51.132Z",
+      "collectedAt": "2026-11-25T11:26:39.400Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 59,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

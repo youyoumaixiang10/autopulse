@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-25T09:57:16.181Z",
+  "collectedAt": "2026-11-25T11:26:58.154Z",
   "targetDates": [
     "2026-11-24",
     "2026-11-25"
@@ -51256,7 +51256,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "瑞虎5x高能版上市6.99万起",
+      "title": "2027款瑞虎5x高能版上市",
       "url": "https://www.sohu.com/a/1102545029_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -51266,7 +51266,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "捷途旅行者7 C-DM上市",
+      "title": "捷途旅行者7智驾版上市",
       "url": "https://www.sohu.com/a/1102387557_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -52902,7 +52902,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "5中国汽车出海撞上的\"第三堵墙\"124.46w",
+      "title": "5中国汽车出海撞上的\"第三堵墙\"134.51w",
       "url": "https://auto.news18a.com/news/storys_315700.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -54738,7 +54738,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "方程豹钛9上市首搭隐藏方向盘",
+      "title": "方程豹钛9首搭隐藏方向盘上市",
       "url": "https://www.sohu.com/a/1103062717_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -54748,7 +54748,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "iCAR V25限时红包价上市",
+      "title": "iCAR V25正式上市",
       "url": "https://www.sohu.com/a/1103678880_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -54758,7 +54758,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "凯翼昆仑焕新官图发布",
+      "title": "凯翼昆仑官图发布",
       "url": "https://www.sohu.com/a/1104052224_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -56246,7 +56246,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "尚界Z7T星野版上市",
+      "title": "尚界Z7T星野套装版同步登场",
       "url": "https://www.sohu.com/a/1104274192_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -60693,7 +60693,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "【国际快讯】比亚迪洽谈收购英力士法国工厂；欧盟正式出台混动汽车进口临时配额；巴斯夫出售电池回收业务",
+      "title": "【国际】比亚迪洽谈收购英力士法国工厂",
       "url": "https://auto.gasgoo.com/news/202611/25I70479059C108.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-25",
@@ -61537,7 +61537,7 @@
       "sourceId": "ithome-auto",
       "sourceName": "IT之家",
       "sourceType": "vertical-media",
-      "title": "网民针对华为手机 / 鸿蒙系统发布数百条不实评论、捏造“千亿营销费用”等虚假信息，已被行政处罚",
+      "title": "网警公开典型案例：一网民针对华为手机 / 鸿蒙 / 问界持续发布数百条不实评论、捏造“千亿营销”等虚假信息，已被行政处罚",
       "url": "https://www.ithome.com/1/032/371.htm",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-25",
@@ -61631,6 +61631,438 @@
       "discoveryPublishedAt": "2026-11-25",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "物理AI走向完整智能体竞争，小鹏发布图灵具身智能架构",
+      "url": "https://auto.gasgoo.com/news/202611/25I70479096C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "11月1—22日乘用车零售98.4万辆，新能源零售渗透率71.3%",
+      "url": "https://auto.gasgoo.com/news/202611/25I70479095C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "经纬恒润马来西亚研发中心开业",
+      "url": "https://auto.gasgoo.com/news/202611/25I70479093C103.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "阿维塔06T Max先锋版上市",
+      "url": "https://www.sohu.com/a/1106308262_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "大五座SUV新标杆，全系6大标配拉满，吉利银河M819.98万元起预售",
+      "url": "https://auto.ifeng.com/c/8yLU7PUCGrQ",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】阿维塔06T Max先锋版上市，官方指导价21.99万元",
+      "url": "https://auto.ifeng.com/c/8yLSdFY2Hbr",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "8.99万元起售的环游者EV，是捷途纯电旅行的新答卷",
+      "url": "https://auto.ifeng.com/c/8yLU7PUCGrS",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】吉利缤越第150万辆量产下线",
+      "url": "https://auto.ifeng.com/c/8yLSfIorKV9",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】何小鹏在2026小鹏科技日后回应特斯拉FSDv15实景视图功能",
+      "url": "https://auto.ifeng.com/c/8yLT38Uc7YB",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "别克新GL8陆上公务舱先享版车型上市，限时售价22.49万元",
+      "url": "https://auto.news18a.com/news/storys_317797.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "阿维塔06T Max先锋版上市，官方指导价21.99万元",
+      "url": "https://www.news18a.com/news/storys_317792.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利缤越第150万辆量产下线",
+      "url": "https://www.news18a.com/news/storys_317789.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "何小鹏在2026小鹏科技日后回应特斯拉FSDv15实景视图功能",
+      "url": "https://www.news18a.com/news/storys_317787.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来发布NOMI Intelligence 4.0",
+      "url": "https://www.news18a.com/news/storys_317782.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞捷途环游者EV上市20小时大定破10000台",
+      "url": "https://auto.news18a.com/news/storys_317781.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "一汽大众被曝口头通知取消2025年与2026年BD奖金",
+      "url": "https://www.news18a.com/news/storys_317779.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来在NIO IN 2026发布世界模型NWM 3.0",
+      "url": "https://www.news18a.com/news/storys_317775.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "蔚来公布2030年换电站及充换电消费量目标，截至11月25日全国建成9896座充换电站",
+      "url": "https://www.news18a.com/news/storys_317773.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "美国纽约州一辆2022款特斯拉Model Y撞树起火 电动门把手故障致驾驶员被困",
+      "url": "https://www.news18a.com/news/storys_317772.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "理想汽车发布2026财年第三季度报告：归母净亏损3.14亿元",
+      "url": "https://auto.news18a.com/news/storys_317768.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "深蓝汽车宣布S07 AI激光版智驾升级 将与L07 AI激光版同步亮相广州车展",
+      "url": "https://www.news18a.com/news/storys_317767.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小鹏宣布IRON人形机器人将于11月27日主持2026广州车展发布会",
+      "url": "https://www.news18a.com/news/storys_317764.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "交通运输部印发高速公路服务区充（换）电区域交通组织技术指南",
+      "url": "https://www.news18a.com/news/storys_317763.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "李斌在2026 NIO IN蔚来创新科技日发表演讲",
+      "url": "https://www.news18a.com/news/storys_317758.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "何小鹏在小鹏科技日介绍有人驾驶eVTOL TC认证进入最后阶段及A868完成倾转过渡试飞",
+      "url": "https://auto.news18a.com/news/storys_317761.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "特斯拉副总裁陶琳宣布上海超级工厂即将迎来第500万辆整车下线",
+      "url": "https://www.news18a.com/news/storys_317753.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "11月25日宁德时代A股收跌8.33%，H股一度跌超13%",
+      "url": "https://www.news18a.com/news/storys_317751.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "智己汽车宣布全新一代智己L6 Prof. Jimmy Choo高定限量版限量200台开放预定",
+      "url": "https://www.news18a.com/news/storys_317747.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "谷歌在Android Auto 18.2版本中将部分应用顶部导航栏改为侧边栏",
+      "url": "https://www.news18a.com/news/storys_317745.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "宝马新世代 iX3 上市交付",
+      "url": "https://auto.news18a.com/news/storys_317680.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "五菱缤果 Pro 宁德版上市",
+      "url": "https://auto.news18a.com/news/storys_317670.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "7研发东移，德国制造还剩什么120.35w",
+      "url": "https://auto.news18a.com/news/storys_317208.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "10售价18.79万起，定位8系SUV，比亚迪第三代唐EV上市27.41w",
+      "url": "https://auto.news18a.com/news/storys_317631.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "特斯拉 FSD 欧盟审批会议推迟至 12 月 15 日举行",
+      "url": "https://www.ithome.com/1/032/466.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "懂车帝最新回应“尊界 V800 刹车踏板支架断裂”事件：公司内部仍在等待相关结果",
+      "url": "https://www.ithome.com/1/032/464.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "别克新 GL8 陆上公务舱先享版车型上市，限时售 22.49 万元",
+      "url": "https://www.ithome.com/1/032/458.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "阿维塔 06T Max 先锋版上市：搭载 896 线激光雷达，限时权益价 19.99 万元",
+      "url": "https://www.ithome.com/1/032/442.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "何小鹏：机器人产业规模将超汽车，关键是做出高等级机器人、跑通商业模型",
+      "url": "https://www.ithome.com/1/032/410.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "历时 8 年，第 150 万辆吉利缤越量产下线",
+      "url": "https://www.ithome.com/1/032/402.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "何小鹏谈特斯拉 FSD 实时渲染新功能：技术上并不是那么困难，要看值不值得用算力实现",
+      "url": "https://www.ithome.com/1/032/381.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "8.99 万元起，奇瑞捷途环游者 EV 上市 20 小时大定破万",
+      "url": "https://www.ithome.com/1/032/377.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蔚来发布 NOMI Intelligence 4.0，能够感知车内外环境并调用整车工具",
+      "url": "https://www.ithome.com/1/032/373.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -61678,9 +62110,9 @@
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 30,
+      "candidateCount": 29,
       "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "publicLabel": "列表已读 29 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -61726,9 +62158,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 25,
+      "candidateCount": 26,
       "status": "ok",
-      "publicLabel": "列表已读 25 条待核验线索"
+      "publicLabel": "列表已读 26 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
@@ -61741,11 +62173,10 @@
     {
       "sourceId": "news18a-auto",
       "url": "https://auto.news18a.com/",
-      "status": "partial",
-      "candidateCount": 0,
-      "listRead": false,
-      "publicLabel": "直连列表暂不可读，将回退公开检索",
-      "error": "fetch failed"
+      "listRead": true,
+      "candidateCount": 30,
+      "status": "ok",
+      "publicLabel": "列表已读 30 条待核验线索"
     }
   ],
   "publicationRule": "列表和检索只用于发现线索；仅在原文页面核验发布日期与正文后，才会作为媒体报道进入日报。"
