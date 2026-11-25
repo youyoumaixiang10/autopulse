@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-24T12:36:51.891Z",
+  "collectedAt": "2026-11-25T08:40:52.487Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -7327,13 +7327,13 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "新款问界M7官图发布 提升辅助驾驶硬件感知能力 将于广州车展首发",
+      "title": "新款问界M7官图 提升辅助驾驶硬件感知能力 将于11月26日开启预售",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318516.html",
       "candidateBrands": [
         "鸿蒙智行"
       ],
-      "industry": true
+      "industry": false
     },
     {
       "sourceId": "autohome-news",
@@ -7614,7 +7614,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "魏牌V8X纯电/V9X纯电将于广州车展开启预订 全新蓝山同步亮相",
+      "title": "魏牌V8X纯电/V9X纯电将于广州车展开启预订 全新蓝山将正式上市",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318533.html",
       "candidateBrands": [],
@@ -7695,6 +7695,231 @@
         "吉利银河"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：享界V8实车曝光，售31.98万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318579.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：北汽星钽5X飞翎定制版实车曝光",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318578.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：东风奕派EP7实车现身 将于车展首发亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318577.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：Jeep品牌未来三年将在华推出多款车型",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318576.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：北京越野BJ40激光雷达版实车曝光",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318575.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：别克至境世家艾维亚实车 纯电续航将突破400km",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318573.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：2027款长安CS75蓝鲸超擎混动版曝光",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318572.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：雷克萨斯TZ实车尺寸够大 七座纯电旗舰SUV",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318571.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：国产全新本田冠道原型车实车 增加激光雷达",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318570.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：全新比亚迪唐实车真香 售18.79万起 中大型SUV",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318569.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：全新红旗H9实车 气场过于强大 华为智驾/插混",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318568.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：家越07纯电版实车 将于广州车展上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318567.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：蔚来ES9地平线鎏金特别版实车 电池租用53万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318566.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：全新魏牌蓝山实车更顺眼 变身方盒子造型",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318565.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：长城H6L混动/猛龙混动/大狗PLUS混动实车",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318564.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：魏牌V9X EV实车 车展首发实锤 饼形轮圈提气",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318563.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：212 T10实车 经典中的经典 三门短轴版来了！",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318562.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：全新宝马i3实车 已到店 将于11月27日上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318561.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展探馆：奥迪Q9实车亮相 实车巨大 国内上市进入倒计时",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318560.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "售18.79-21.99万/定位8系大五座 全新一代比亚迪唐正式上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318554.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "预售价22.5万起，全新一代比亚迪唐正式预售",
+      "url": "https://www.dongchedi.com/article/7700120852525171225",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": false
     }
   ],
   "sourceResults": [
@@ -7702,7 +7927,7 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 46
+      "count": 53
     },
     {
       "sourceId": "autohome-industry",
@@ -7713,7 +7938,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-24T12:36:39.617Z",
+      "collectedAt": "2026-11-25T08:40:40.889Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 59,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
