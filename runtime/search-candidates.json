@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-25T08:41:05.208Z",
+  "collectedAt": "2026-11-25T09:57:16.181Z",
   "targetDates": [
     "2026-11-24",
     "2026-11-25"
@@ -61399,6 +61399,238 @@
       "discoveryPublishedAt": "2026-11-25",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "国内首个纯电动商用车底盘换电互换标准发布",
+      "url": "https://auto.gasgoo.com/news/202611/25I70479092C501.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "理想汽车Q3营收288.3亿元，自由现金流转正",
+      "url": "https://auto.gasgoo.com/news/202611/25I70479091C109.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "小鹏IRON量产定档！2027年1月量产，二季度正式发布",
+      "url": "https://auto.gasgoo.com/news/202611/25I70479090C601.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "小鹏Origin原点2026科技日",
+      "url": "https://www.sohu.com/a/1106266482_430526",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "李建军:中国汽车要转向价值创造",
+      "url": "https://www.sohu.com/a/1106247789_430289",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "sohu-auto",
+      "sourceName": "搜狐汽车",
+      "sourceType": "vertical-media",
+      "title": "试驾腾势N8盘山路表现",
+      "url": "https://www.sohu.com/a/1106278958_117058",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "第三代唐正式上市18.79万起 主打顾家悦己的大五座纯电SUV",
+      "url": "https://auto.ifeng.com/c/8yLGuazgBHo",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "捷途环游者EV正式上市，上市价格8.99万元起",
+      "url": "https://auto.ifeng.com/c/8yLGf0GSjeE",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】深蓝汽车宣布S07 AI激光版智驾升级 将与L07 AI激光版同步亮相广州车展",
+      "url": "https://auto.ifeng.com/c/8yLKPXtjLuq",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】理想汽车发布2026财年第三季度报告：归母净亏损3.14亿元",
+      "url": "https://auto.ifeng.com/c/8yLLuqbggjD",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】交通运输部印发高速公路服务区充（换）电区域交通组织技术指南",
+      "url": "https://auto.ifeng.com/c/8yLKJWspGJf",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】小鹏宣布IRON人形机器人将于11月27日主持2026广州车展发布会",
+      "url": "https://auto.ifeng.com/c/8yLKurtGYeM",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】李斌在2026 NIO IN蔚来创新科技日发表演讲",
+      "url": "https://auto.ifeng.com/c/8yLKWEPlFjm",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "网民针对华为手机 / 鸿蒙系统发布数百条不实评论、捏造“千亿营销费用”等虚假信息，已被行政处罚",
+      "url": "https://www.ithome.com/1/032/371.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "到 2030 年，蔚来换电站将超 1 万座、年度充换电消费量将超 100 亿 kWh",
+      "url": "https://www.ithome.com/1/032/347.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蔚来世界模型 NWM 3.0 发布：引入显式 + 隐式空间强化学习设计、汽车控制时延进一步降低",
+      "url": "https://www.ithome.com/1/032/345.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "理想汽车 2026 财年第三季度归母净亏损 3.14 亿元，同比减亏 49.7%",
+      "url": "https://www.ithome.com/1/032/268.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "马斯克带俩娃到访英伟达总部与黄仁勋会面，还拍了大合照",
+      "url": "https://www.ithome.com/1/032/293.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "行业首次：小鹏 IRON 人形机器人将亲自主持 2026 广州车展发布会",
+      "url": "https://www.ithome.com/1/032/263.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "蔚来李斌：汽车产业，将会是体量最大的 AI 应用产业",
+      "url": "https://www.ithome.com/1/032/225.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "《GTA6》配音演员爆料：保密文件厚度堪比购房购车文件，录制当天才见素材",
+      "url": "https://www.ithome.com/1/032/205.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "小鹏 IRON 人形机器人官宣明年 Q2 正式对外发布，Q1 率先在小鹏国内门店实习",
+      "url": "https://www.ithome.com/1/032/194.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-25",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -61438,9 +61670,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 17,
+      "candidateCount": 19,
       "status": "ok",
-      "publicLabel": "列表已读 17 条待核验线索"
+      "publicLabel": "列表已读 19 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
@@ -61494,9 +61726,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 24,
+      "candidateCount": 25,
       "status": "ok",
-      "publicLabel": "列表已读 24 条待核验线索"
+      "publicLabel": "列表已读 25 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
