@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-26T09:43:56.799Z",
+  "checkedAt": "2026-11-26T11:02:44.673Z",
   "passed": true,
   "summary": {
     "completeBrands": 8,
@@ -7,7 +7,7 @@
     "healthyMedia": 10,
     "totalMedia": 17,
     "policyHealthy": true,
-    "unresolvedCandidates": 1366
+    "unresolvedCandidates": 1368
   },
   "brands": [
     {
@@ -28,11 +28,11 @@
           "id": "hima-weibo",
           "sourceId": "hima-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.072Z",
+          "collectedAt": "2026-11-26T11:00:14.122Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/3032210184",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -54,7 +54,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -73,7 +73,7 @@
           "id": "byd-news",
           "sourceId": "byd-news",
           "url": "https://prod.byd.com/cn/news",
-          "checkedAt": "2026-11-26T09:40:39.606Z",
+          "checkedAt": "2026-11-26T10:59:58.649Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 172,
@@ -88,11 +88,11 @@
           "id": "byd-weibo",
           "sourceId": "byd-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.071Z",
+          "collectedAt": "2026-11-26T11:00:13.344Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/bydauto",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -114,7 +114,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -133,7 +133,7 @@
           "id": "leapmotor-news",
           "sourceId": "leapmotor-news",
           "url": "https://leapmotor.cn/news/news.html",
-          "checkedAt": "2026-11-26T09:40:39.606Z",
+          "checkedAt": "2026-11-26T10:59:58.649Z",
           "status": "partial",
           "listRead": false,
           "candidateCount": 0,
@@ -146,11 +146,11 @@
           "id": "leapmotor-weibo",
           "sourceId": "leapmotor-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.071Z",
+          "collectedAt": "2026-11-26T11:00:13.352Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/u/5872290888",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -172,7 +172,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -202,11 +202,11 @@
           "id": "nio-weibo",
           "sourceId": "nio-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.071Z",
+          "collectedAt": "2026-11-26T11:00:13.367Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/nextevofficial",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -228,7 +228,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -258,11 +258,11 @@
           "id": "onvo-weibo",
           "sourceId": "onvo-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.071Z",
+          "collectedAt": "2026-11-26T11:00:13.383Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7892483716",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -284,7 +284,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -314,11 +314,11 @@
           "id": "li-auto-weibo",
           "sourceId": "li-auto-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.071Z",
+          "collectedAt": "2026-11-26T11:00:13.114Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/lixiangzhizao",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -340,7 +340,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -359,7 +359,7 @@
           "id": "zeekr-info",
           "sourceId": "zeekr-info",
           "url": "https://www.zeekrlife.com/information",
-          "checkedAt": "2026-11-26T09:40:39.606Z",
+          "checkedAt": "2026-11-26T10:59:58.649Z",
           "status": "failed",
           "listRead": false,
           "candidateCount": 0,
@@ -371,11 +371,11 @@
           "id": "zeekr-weibo",
           "sourceId": "zeekr-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.072Z",
+          "collectedAt": "2026-11-26T11:00:13.869Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7576049404",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -397,7 +397,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -422,11 +422,11 @@
           "id": "xiaomi-auto-weibo",
           "sourceId": "xiaomi-auto-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.071Z",
+          "collectedAt": "2026-11-26T11:00:13.609Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7871239944",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -448,7 +448,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -473,11 +473,11 @@
           "id": "xpeng-weibo",
           "sourceId": "xpeng-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.071Z",
+          "collectedAt": "2026-11-26T11:00:13.613Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/5710264970",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -499,7 +499,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -524,11 +524,11 @@
           "id": "voyah-weibo",
           "sourceId": "voyah-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.072Z",
+          "collectedAt": "2026-11-26T11:00:13.621Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7351024207",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -550,7 +550,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -584,11 +584,11 @@
           "id": "avatr-weibo",
           "sourceId": "avatr-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.072Z",
+          "collectedAt": "2026-11-26T11:00:13.637Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/avatr",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -610,7 +610,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -629,7 +629,7 @@
           "id": "deepal-news",
           "sourceId": "deepal-news",
           "url": "https://deepal.com.cn/news",
-          "checkedAt": "2026-11-26T09:40:39.606Z",
+          "checkedAt": "2026-11-26T10:59:58.649Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 46,
@@ -648,11 +648,11 @@
           "id": "deepal-weibo",
           "sourceId": "deepal-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.072Z",
+          "collectedAt": "2026-11-26T11:00:13.853Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/7751244203",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -674,7 +674,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -697,7 +697,7 @@
           "id": "byd-news",
           "sourceId": "byd-news",
           "url": "https://prod.byd.com/cn/news",
-          "checkedAt": "2026-11-26T09:40:39.606Z",
+          "checkedAt": "2026-11-26T10:59:58.649Z",
           "status": "no-recent-updates",
           "listRead": true,
           "itemCount": 172,
@@ -712,11 +712,11 @@
           "id": "denza-weibo",
           "sourceId": "denza-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.071Z",
+          "collectedAt": "2026-11-26T11:00:13.102Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/2664689831",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -738,7 +738,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -757,7 +757,7 @@
           "id": "galaxy-official",
           "sourceId": "galaxy-official",
           "url": "https://galaxy.geely.com/news",
-          "checkedAt": "2026-11-26T09:41:10.357Z",
+          "checkedAt": "2026-11-26T11:00:07.953Z",
           "listRead": true,
           "status": "partial",
           "candidateCount": 0,
@@ -769,11 +769,11 @@
           "id": "galaxy-weibo",
           "sourceId": "galaxy-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.072Z",
+          "collectedAt": "2026-11-26T11:00:13.893Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/7794864065",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -795,7 +795,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -814,7 +814,7 @@
           "id": "tesla-home",
           "sourceId": "tesla-home",
           "url": "https://www.tesla.cn/blog",
-          "checkedAt": "2026-11-26T09:41:10.353Z",
+          "checkedAt": "2026-11-26T11:00:07.948Z",
           "listRead": true,
           "status": "no-recent-updates",
           "candidateCount": 0,
@@ -827,11 +827,11 @@
           "id": "tesla-weibo",
           "sourceId": "tesla-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.072Z",
+          "collectedAt": "2026-11-26T11:00:13.879Z",
           "candidateCount": 0,
           "entryUrl": "https://www.weibo.com/teslaofficial",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -853,7 +853,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -882,11 +882,11 @@
           "id": "changan-qiyuan-weibo",
           "sourceId": "changan-qiyuan-weibo",
           "status": "degraded",
-          "collectedAt": "2026-11-26T09:41:20.072Z",
+          "collectedAt": "2026-11-26T11:00:14.119Z",
           "candidateCount": 0,
           "entryUrl": "https://weibo.com/u/3194397971",
           "publicLabel": "公开时间线暂不可读 · 可选配置 WEIBO_COOKIE，不阻断发布",
-          "reason": "访客会话未签发"
+          "reason": "微博公开时间线未返回帖文"
         }
       ],
       "discoveryStatuses": [
@@ -908,7 +908,7 @@
           "id": "dongchedi-news",
           "sourceId": "dongchedi-news",
           "status": "partial",
-          "collectedAt": "2026-11-26T09:41:20.137Z",
+          "collectedAt": "2026-11-26T11:00:14.196Z",
           "entryUrl": "https://www.dongchedi.com/",
           "candidateCount": 59,
           "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -938,7 +938,7 @@
       "name": "懂车帝资讯",
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-26T09:41:20.137Z",
+      "collectedAt": "2026-11-26T11:00:14.196Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 59,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
@@ -989,9 +989,9 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 14,
+      "candidateCount": 19,
       "status": "ok",
-      "publicLabel": "列表已读 14 条待核验线索"
+      "publicLabel": "列表已读 19 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
@@ -999,9 +999,9 @@
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 30,
+      "candidateCount": 29,
       "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "publicLabel": "列表已读 29 条待核验线索"
     },
     {
       "id": "chezhitong-auto",
@@ -1059,9 +1059,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 22,
+      "candidateCount": 12,
       "status": "ok",
-      "publicLabel": "列表已读 22 条待核验线索"
+      "publicLabel": "列表已读 12 条待核验线索"
     },
     {
       "id": "netease-auto",

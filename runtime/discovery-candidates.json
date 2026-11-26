@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-26T09:41:32.226Z",
+  "collectedAt": "2026-11-26T11:00:25.976Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -7994,7 +7994,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "长城欧拉5 PLUS预告图 燃油/混动/纯电 将于11月27日广州车展首发",
+      "title": "长城欧拉5 PLUS官图发布 提供四种动力 将于11月27日广州车展首发",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318626.html",
       "candidateBrands": [],
@@ -8183,7 +8183,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-26T09:41:20.137Z",
+      "collectedAt": "2026-11-26T11:00:14.196Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 59,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"

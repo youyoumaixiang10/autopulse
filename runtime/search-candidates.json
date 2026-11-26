@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-26T09:41:39.193Z",
+  "collectedAt": "2026-11-26T11:00:33.133Z",
   "targetDates": [
     "2026-11-25",
     "2026-11-26"
@@ -54028,7 +54028,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "5新能源时代，日产正在重新走到中国用户面前116.95w",
+      "title": "6新能源时代，日产正在重新走到中国用户面前113.81w",
       "url": "https://auto.news18a.com/news/storys_316220.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -55098,7 +55098,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "9固态电池，名字可不能再乱叫了107.25w",
+      "title": "5固态电池，名字可不能再乱叫了118.24w",
       "url": "https://auto.news18a.com/news/storys_316238.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -61117,7 +61117,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "吉利银河M8开启预售",
+      "title": "预售价19.98‑23.58万元 吉利银河M8开启预售",
       "url": "https://www.sohu.com/a/1105883371_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -61949,7 +61949,7 @@
       "sourceId": "news18a-auto",
       "sourceName": "网通社",
       "sourceType": "vertical-media",
-      "title": "1研发东移，德国制造还剩什么199.36w",
+      "title": "9研发东移，德国制造还剩什么108.29w",
       "url": "https://auto.news18a.com/news/storys_317208.html",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -62123,7 +62123,7 @@
       "sourceId": "gasgoo-auto",
       "sourceName": "盖世汽车",
       "sourceType": "vertical-media",
-      "title": "美国拟对中国等14个经济体加征301关税，汽车产业成调查重点",
+      "title": "美国拟对中国等14个经济体加征301关税",
       "url": "https://auto.gasgoo.com/news/202611/26I70479185C108.shtml",
       "publishedAt": null,
       "discoveryPublishedAt": "2026-11-26",
@@ -62423,7 +62423,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "汽车人开放麦 车圈大佬聊了这些",
+      "title": "汽车人年度开放麦 车圈大佬围绕行业\"关键局点\"聊了这些议题",
       "url": "https://www.sohu.com/a/1106382089_430289",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -62473,7 +62473,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "智界R7 2027焕新款探馆实拍",
+      "title": "续航最长可达 855km 智界R7 2027焕新款探馆实拍",
       "url": "https://www.sohu.com/a/1106716707_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -62483,7 +62483,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "Jeep正式发布\"Jeep+\"生态战略",
+      "title": "\"Jeep+\"生态战略发布 三款新能源车规划公布",
       "url": "https://www.sohu.com/a/1106547358_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -63029,7 +63029,7 @@
       "sourceId": "sohu-auto",
       "sourceName": "搜狐汽车",
       "sourceType": "vertical-media",
-      "title": "30.98万起 问界新M7开启预售",
+      "title": "预售价30.98万元起 问界新M7正式开启预售",
       "url": "https://www.sohu.com/a/1106775327_430526",
       "publishedAt": null,
       "verificationStatus": "media-discovery",
@@ -63277,6 +63277,298 @@
       "discoveryPublishedAt": "2026-11-26",
       "verificationStatus": "media-discovery",
       "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "欧洲10月车市：销量增长3.4%，电动化份额超七成，中国品牌占到13.6%",
+      "url": "https://auto.gasgoo.com/news/202611/26I70479213C110.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "gasgoo-auto",
+      "sourceName": "盖世汽车",
+      "sourceType": "vertical-media",
+      "title": "关税压顶，配额限流，欧洲为何仍是出海战略高地？",
+      "url": "https://auto.gasgoo.com/news/202611/26I70479192C106.shtml",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】工信部第414批公告公示吉利银河星舰7 EV/EF完成申报",
+      "url": "https://auto.ifeng.com/c/8yN4FZiGVL7",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】新款奇瑞风云T9插电式混合动力SUV完成工信部申报",
+      "url": "https://auto.ifeng.com/c/8yN3olGDGkN",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "在日均三场发布会之后，车企在广州谈“扎根”",
+      "url": "https://auto.ifeng.com/c/8yN5AcQFdd9",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】日产汽车拟将中国生产的插电式混合动力汽车反向进口至日本",
+      "url": "https://auto.ifeng.com/c/8yN3l1LMnno",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ifeng-auto",
+      "sourceName": "凤凰网汽车",
+      "sourceType": "vertical-media",
+      "title": "【网通社快报】新款奇瑞星途ES纯电轿车完成工信部第414批公告申报",
+      "url": "https://auto.ifeng.com/c/8yN4M5LZszy",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "华为乾崑智驾累计辅助驾驶里程突破183亿公里",
+      "url": "https://auto.news18a.com/news/storys_318201.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞艾瑞泽9完成工信部第414批新车申报",
+      "url": "https://www.news18a.com/news/storys_318199.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "2026年1-10月中国汽车出口974万辆 新能源汽车出口同比增长75%",
+      "url": "https://www.news18a.com/news/storys_318198.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "奇瑞全新瑞虎8 PLUS完成工信部申报并公布官图，将于11月27日广州车展亮相",
+      "url": "https://www.news18a.com/news/storys_318195.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "新款奇瑞风云T9插电式混合动力SUV完成工信部申报",
+      "url": "https://www.news18a.com/news/storys_318192.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "工信部第414批公告公示吉利银河星舰7 EV/EF完成申报",
+      "url": "https://auto.news18a.com/news/storys_318190.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "新款奇瑞星途ES纯电轿车完成工信部第414批公告申报",
+      "url": "https://www.news18a.com/news/storys_318188.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "日产汽车拟将中国生产的插电式混合动力汽车反向进口至日本",
+      "url": "https://www.news18a.com/news/storys_318186.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "比亚迪仰望鼎曜将于11月27日在2026广州车展国内公众首秀",
+      "url": "https://www.news18a.com/news/storys_318185.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "吉利星越L PLUS正式上市",
+      "url": "https://www.news18a.com/news/storys_318183.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "news18a-auto",
+      "sourceName": "网通社",
+      "sourceType": "vertical-media",
+      "title": "小米营收站上千亿，利润为什么少了近一半？",
+      "url": "https://auto.news18a.com/news/storys_318175.html",
+      "publishedAt": null,
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "鸿蒙智行官宣尊界汽车将亮相广州车展，消息称 SUV 车型会在“小黑屋”展示",
+      "url": "https://www.ithome.com/1/033/047.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "零跑 D99 黑金定制版 MPV 车型官图发布，将于 11 月 28 日广州车展亮相",
+      "url": "https://www.ithome.com/1/033/031.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "阿维塔 T09 旗舰 SUV 中国首秀定档明日，概念版搭载晶钻阵列大灯、四激光雷达",
+      "url": "https://www.ithome.com/1/033/030.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞艾瑞泽 9 新车申报：车长达 5 米，提供 1.6T / 2.0T 燃油与 1.5T 混动版本",
+      "url": "https://www.ithome.com/1/032/995.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞全新瑞虎 8 PLUS 官图公布：全新设计语言，广州车展亮相",
+      "url": "https://www.ithome.com/1/032/982.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "新款吉利银河星舰 7 EV / EF 申报：甲醇插混与纯电双版本，轴距 2752mm",
+      "url": "https://www.ithome.com/1/032/981.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "新款奇瑞风云 T9 插混中型 SUV 申报：全新外观，尺寸显著提升",
+      "url": "https://www.ithome.com/1/032/977.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "消息称日产将从中国“反向进口”插电式混合动力汽车",
+      "url": "https://www.ithome.com/1/032/976.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "新款奇瑞星途 ES 纯电轿车申报：采用半隐藏门把手，配备激光雷达",
+      "url": "https://www.ithome.com/1/032/975.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
+    },
+    {
+      "sourceId": "ithome-auto",
+      "sourceName": "IT之家",
+      "sourceType": "vertical-media",
+      "title": "奇瑞风云 T5 EV 申报：搭 178kW 单电机，轴距 2700mm",
+      "url": "https://www.ithome.com/1/032/966.htm",
+      "publishedAt": null,
+      "discoveryPublishedAt": "2026-11-26",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "list-date"
     }
   ],
   "sourceResults": [
@@ -63316,17 +63608,17 @@
       "sourceId": "ithome-auto",
       "url": "https://www.ithome.com/",
       "listRead": true,
-      "candidateCount": 14,
+      "candidateCount": 19,
       "status": "ok",
-      "publicLabel": "列表已读 14 条待核验线索"
+      "publicLabel": "列表已读 19 条待核验线索"
     },
     {
       "sourceId": "gasgoo-auto",
       "url": "https://auto.gasgoo.com/",
       "listRead": true,
-      "candidateCount": 30,
+      "candidateCount": 29,
       "status": "ok",
-      "publicLabel": "列表已读 30 条待核验线索"
+      "publicLabel": "列表已读 29 条待核验线索"
     },
     {
       "sourceId": "chezhitong-auto",
@@ -63372,9 +63664,9 @@
       "sourceId": "sohu-auto",
       "url": "https://auto.sohu.com/",
       "listRead": true,
-      "candidateCount": 22,
+      "candidateCount": 12,
       "status": "ok",
-      "publicLabel": "列表已读 22 条待核验线索"
+      "publicLabel": "列表已读 12 条待核验线索"
     },
     {
       "sourceId": "netease-auto",
