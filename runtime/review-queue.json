@@ -4985,6 +4985,7 @@
     "url": "https://www.pcauto.com.cn/nation/5186/51865359.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -6150,6 +6151,7 @@
     "url": "https://www.pcauto.com.cn/nation/5187/51878307.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -10758,6 +10760,7 @@
     "url": "https://www.pcauto.com.cn/nation/5190/51902018.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11153,6 +11156,7 @@
     "url": "https://www.pcauto.com.cn/nation/5190/51907790.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -11241,6 +11245,7 @@
     "url": "https://www.pcauto.com.cn/nation/5190/51907866.html",
     "reasons": [
       "缺少原文发布日期",
+      "正文尚未读取成功",
       "尚未具备完整的日期与原文"
     ]
   },
@@ -12592,6 +12597,78 @@
     ]
   },
   {
+    "title": "MPV也能玩升顶帐篷？享界V8顶帐版申报图",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5195/51950278.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "smart精灵#2 BRABUS版申报信息 可爱外表藏运动心",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5195/51950277.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "新增个性版本 新乐道L60黑骑士版将于11月27日上市",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5195/51950230.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "30.98万元起 问界新M7开启预售 L3架构+800V平台上车",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5195/51950202.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "奇瑞艾瑞泽7纯电版申报图 外观大变样！",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5195/51950178.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "新款小米SU7 Ultra申报图 鹅颈大尾翼+1548匹马力",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5195/51950176.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "全新奇瑞瑞虎8 PLUS申报图 尺寸更大 外观更大气",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5195/51950268.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
+    "title": "日产全新硬派SUV来了！ 日产Terrano申报图",
+    "sourceName": "太平洋汽车",
+    "url": "https://www.pcauto.com.cn/nation/5195/51950173.html",
+    "reasons": [
+      "缺少原文发布日期",
+      "尚未具备完整的日期与原文"
+    ]
+  },
+  {
     "title": "四季度上市/第六代DM-i混动技术 方程豹钛9内饰谍照曝光",
     "sourceName": "汽车之家资讯",
     "url": "https://www.autohome.com.cn/news/202609/1317075.html",
@@ -13059,6 +13136,14 @@
     "title": "奇瑞艾瑞泽 9 新车申报：车长达 5 米，提供 1.6T / 2.0T 燃油与 1.5T 混动版本",
     "sourceName": "IT之家",
     "url": "https://www.ithome.com/1/032/995.htm",
+    "reasons": [
+      "标题与正文不是同一事件"
+    ]
+  },
+  {
+    "title": "启境发布全新品牌标识，双智能旗舰同台亮相广州车展",
+    "sourceName": "盖世汽车",
+    "url": "https://auto.gasgoo.com/news/202611/27I70479342C107.shtml",
     "reasons": [
       "标题与正文不是同一事件"
     ]
