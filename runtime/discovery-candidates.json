@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-27T09:45:47.786Z",
+  "collectedAt": "2026-11-27T10:58:58.350Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -8678,7 +8678,7 @@
       "sourceId": "autohome-news",
       "sourceName": "汽车之家资讯",
       "sourceType": "vertical-media",
-      "title": "2026广州车展：阿维塔T09量产版首发亮相 将于年内上市",
+      "title": "2026广州车展：阿维塔T09量产版首发亮相 2027年第一季度上市",
       "sourceMonth": "2026-11",
       "url": "https://www.autohome.com.cn/news/202611/1318658.html",
       "candidateBrands": [
@@ -8900,6 +8900,16 @@
       "discoveryUrl": "https://www.dongchedi.com/",
       "candidateBrands": [],
       "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "奔驰VLE、全新宝马i3等65款新车 2026广州车展重磅车汇总",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318706.html",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -8918,7 +8928,7 @@
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-27T09:45:36.027Z",
+      "collectedAt": "2026-11-27T10:58:46.423Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 66,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
