@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-27T08:40:07.535Z",
+  "collectedAt": "2026-11-27T09:45:47.786Z",
   "candidates": [
     {
       "sourceId": "autohome-news",
@@ -8265,6 +8265,641 @@
         "比亚迪"
       ],
       "industry": false
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：212全新中大型SUV X03亮相，品牌首款混动产品",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318702.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：QQ3“QQ啡车”亮相并开启众筹 售9.69万元",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318701.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：新款宝马7系个性化定制双质感涂装首发",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318699.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：MG宣布2027年1月1日起面向中国大陆市场停产燃油车",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318698.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：宝马5系曜影限量版首发亮相 限量2000台",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318697.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：FREELANDER神行者8推出12月购车礼遇 首付9.99万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318696.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：全新MINI COUNTRYMAN/多款MINI特别版亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318695.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：长城大狗智能领航版上市 限时换新价10.59万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318694.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：长城大狗PLUS HEV混动版售12.18万起 搭1.5T混动",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318693.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：长城猛龙混动版/新款燃油版上市 限时售13.69万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318691.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：标配全线控灵蜥底盘 新款智己LS9将于12月10日亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318690.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：长城H6L HEV版/PHEV版上市 限时售10.59万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318689.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：权益价13.28万起 有202L前备厢 家越07纯电版上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318687.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：小鹏人形机器人IRON“上岗”！计划明年下半年上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318686.html",
+      "candidateBrands": [
+        "小鹏"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：端到端能力再跃升 长安汽车天枢领航Ultra 2.0发布",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318685.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：雷克萨斯TZ正式亮相 三排座椅布局 双电机四驱",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318684.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：蔚来ES9地平线鎏金特别版亮相，租电方案53万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318683.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：奇瑞风云全新概念车LEPAS AURA首发亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318682.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：吉利银河M8亮相 预售价19.98万起 综合续航1560km",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318681.html",
+      "candidateBrands": [
+        "吉利银河"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：搭载1.5T插电混动系统 星途EX6首发亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318678.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：延续方盒子硬派造型 奇瑞纵横R700首发亮相！",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318677.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：仰望鼎曜国内亮相，预选价格208万，比尊还尊",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318676.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：新款深蓝L07 AI激光版上市 限时权益价14.99万元起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318675.html",
+      "candidateBrands": [
+        "深蓝"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：2027款凯迪拉克XT5上市 限时21.59万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318674.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：国产全新奔驰VLE正式发布 将于2027年上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318673.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：2027款长安CS75蓝鲸超擎混动版正式亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318672.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：领克900L开启预售 座椅可旋转 纯电最大续航430km",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318671.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：售25.49万起 全新奔驰纯电GLC晖银版/星铂版等上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318670.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：全新一代比亚迪唐正式亮相，售18.79万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318669.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：丰田首款增程车汉兰达9X定名 2027年一季度首发",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318668.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：限时权益价24.99万起 林肯新款航海家上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318667.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：比亚迪海洋网旗舰MPV——海鲸首发，预计售价30万",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318666.html",
+      "candidateBrands": [
+        "比亚迪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：售19.9万起 搭载1.5T混动系统 奔驰CLA混动版上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318665.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：限时11.99万起 综合续航1666km 东风日产NX7上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318664.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：售27.98万起 提供单/双电机车型 奕境X9纯电版上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318663.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：全新奇瑞瑞虎8 PLUS首发 提供5座/7座版",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318662.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：售152.3万起 新增3.0T低功率版本 奔驰G 400上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318661.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：21.68万起 安全/舒适等七大升级 2027款极氪7X上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318660.html",
+      "candidateBrands": [
+        "极氪"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：限时10.28万元起 新款零跑Lafa5正式上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318659.html",
+      "candidateBrands": [
+        "零跑"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：阿维塔T09量产版首发亮相 将于年内上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318658.html",
+      "candidateBrands": [
+        "阿维塔"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：蔚来ES8玄金揽月特别版上市，租电方案售43.48万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318657.html",
+      "candidateBrands": [
+        "蔚来"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：奥迪Q9国内首秀 2027年一季度上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318656.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：新款乐道L60黑骑士版租电方案后售15.38万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318655.html",
+      "candidateBrands": [
+        "乐道"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：现代艾尼氪水星概念车首发 全新入门车艾尼氪M预览",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318654.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：搭载新一代混动系统 国产全新本田冠道发布",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318653.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：售17.99万起 212 T10上市 重塑经典 短轴版回归！",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318652.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：全新宝马i3长轴距版正式上市 售24.99万起",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318651.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：纯电续航705km 2027款岚图泰山预售43.99万元",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318650.html",
+      "candidateBrands": [
+        "岚图"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：新款问界M7首发 预售30.98万起 将于12月15日上市",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318649.html",
+      "candidateBrands": [
+        "鸿蒙智行"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：售32.98万起 全新红旗H9上市 配备华为乾崑ADS 5",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318648.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：2027款福特烈马大海道版上市 售49.88万元",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318647.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：广汽传祺将推出5款新车 包含新能源和混动车型",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318646.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：搭载2.0T插混系统 新款别克至境世家开启预售",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318645.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：外观内饰多项升级 小米澎程N70滑雪车首发亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318644.html",
+      "candidateBrands": [
+        "小米"
+      ],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：大众ID.ERA 8X Ultra上市 限时24.98万元",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318643.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：8.39万起 全新奇瑞艾瑞泽7开启预售",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318641.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：东风奕派EP7首发 搭载华为乾崑智驾 纯电续航710km",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318640.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：魏牌V9X纯电版/魏牌V8X纯电版开启预订",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318639.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "autohome-news",
+      "sourceName": "汽车之家资讯",
+      "sourceType": "vertical-media",
+      "title": "2026广州车展：2027款长城山海炮3.0T柴油版首发亮相",
+      "sourceMonth": "2026-11",
+      "url": "https://www.autohome.com.cn/news/202611/1318638.html",
+      "candidateBrands": [],
+      "industry": true
+    },
+    {
+      "sourceId": "dongchedi-news",
+      "sourceName": "懂车帝公开首页",
+      "sourceType": "vertical-media",
+      "title": "奔驰G 400广州车展上市",
+      "url": "https://www.dongchedi.com/article/7712469695635866174",
+      "publishedAt": null,
+      "sourceMonth": null,
+      "contentFormat": "article",
+      "verificationStatus": "media-discovery",
+      "dateStatus": "unconfirmed",
+      "discoveryUrl": "https://www.dongchedi.com/",
+      "candidateBrands": [],
+      "industry": true
     }
   ],
   "sourceResults": [
@@ -8272,19 +8907,18 @@
       "sourceId": "autohome-news",
       "url": "https://www.autohome.com.cn/news//",
       "status": "ok",
-      "count": 0
+      "count": 62
     },
     {
       "sourceId": "autohome-industry",
       "url": "https://www.autohome.com.cn/hangye/",
-      "status": "failed",
-      "count": 0,
-      "reason": "The operation was aborted due to timeout；直接请求也失败：连接超时"
+      "status": "ok",
+      "count": 0
     },
     {
       "sourceId": "dongchedi-news",
       "status": "partial",
-      "collectedAt": "2026-11-27T08:39:03.082Z",
+      "collectedAt": "2026-11-27T09:45:36.027Z",
       "entryUrl": "https://www.dongchedi.com/",
       "candidateCount": 66,
       "reason": "已读取公开首页推荐标题和原链接；资讯列表及正文当前要求登录，发布时间未核验，不代表完整日流。"
