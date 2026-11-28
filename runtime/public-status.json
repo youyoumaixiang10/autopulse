@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-11-28T08:01:17.628Z",
+  "completedAt": "2026-11-28T09:02:49.693Z",
   "label": "持续更新中，部分来源尚未完整读取",
   "sources": [
     {
@@ -155,8 +155,8 @@
       "brands": [
         "特斯拉"
       ],
-      "status": "no-recent-updates",
-      "label": "列表可读 · 最近发布 2024-10-27"
+      "status": "partial",
+      "label": "官网博客暂不可读"
     },
     {
       "id": "miit",
@@ -313,15 +313,15 @@
       "id": "autohome-news",
       "name": "汽车之家资讯",
       "brands": [],
-      "status": "ok",
-      "label": "已读 50 条"
+      "status": "failed",
+      "label": "读取异常"
     },
     {
       "id": "autohome-industry",
       "name": "汽车之家行业频道",
       "brands": [],
-      "status": "ok",
-      "label": "已读 0 条"
+      "status": "failed",
+      "label": "读取异常"
     },
     {
       "id": "dongchedi-news",
@@ -335,7 +335,7 @@
       "name": "新浪汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 29 条待核验线索"
+      "label": "列表已读 30 条待核验线索"
     },
     {
       "id": "ifeng-auto",
@@ -363,7 +363,7 @@
       "name": "IT之家",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 13 条待核验线索"
+      "label": "列表已读 18 条待核验线索"
     },
     {
       "id": "gasgoo-auto",
@@ -412,7 +412,7 @@
       "name": "搜狐汽车",
       "brands": [],
       "status": "ok",
-      "label": "列表已读 15 条待核验线索"
+      "label": "列表已读 20 条待核验线索"
     },
     {
       "id": "netease-auto",

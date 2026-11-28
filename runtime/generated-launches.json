@@ -778,6 +778,25 @@
     "observation": "上市日与价格已补齐。"
   },
   {
+    "id": "launch-dad04d308638689b",
+    "month": "2026-04",
+    "date": "2026-04-28",
+    "dateText": "4月28日",
+    "brand": "吉利银河",
+    "model": "银河 M7",
+    "kind": "新车上市",
+    "powertrain": "纯电 / 插混 SUV",
+    "priceText": "以品牌公告为准",
+    "status": "launched",
+    "statusLabel": "已上市",
+    "sourceName": "IT之家",
+    "sourceUrl": "https://www.ithome.com/1/033/916.htm",
+    "evidenceLabel": "媒体报道",
+    "publishedAt": "2026-11-28",
+    "detail": "IT之家 11 月 28 日消息，吉利银河今日宣布银河 M7 远航家将于 11 月 30 日加新上市，纯电续航至高 251km，综合续航至高 1756km。 IT之家注意到，吉利银河 M7 于 4 月 28 日正式上市，该车共推出 4 款配置车型，限时指导价下探至 10.98 万元起，价格如下： 作为参考，银河 M7 定位于紧凑型插电式混合动力 SUV，其核心亮点在于采用了 2025 年发布的 GEA Evo 架构。新车长宽高分别为 4770 毫米、1905 毫米、1685 毫米，轴距达到 2785 毫米。",
+    "observation": "由日报新车事件自动写入；价格与上市日只取原文可追溯表述。"
+  },
+  {
     "id": "launch-112781dec2e763fd",
     "month": "2026-04",
     "dateText": "待定",
