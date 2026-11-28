@@ -1,74 +1,85 @@
 {
-  "completedAt": "2026-11-27T11:00:57.679Z",
-  "durationMs": 111314,
-  "fetched": 179,
-  "skipped": 2497,
-  "cached": 4351,
-  "failures": [],
+  "completedAt": "2026-11-28T08:01:00.755Z",
+  "durationMs": 374528,
+  "fetched": 589,
+  "skipped": 2519,
+  "cached": 4045,
+  "failures": [
+    {
+      "sourceId": "autohome-news",
+      "url": "https://www.autohome.com.cn/news/202611/1318723.html",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "yiche-news",
+      "url": "https://news.yiche.com/hao/wenzhang/103773647",
+      "reason": "The operation was aborted due to timeout"
+    }
+  ],
   "sourceBudgets": [
     {
       "sourceId": "dongchedi-news",
-      "failureMs": 149475,
-      "skipped": 157,
+      "failureMs": 154016,
+      "skipped": 156,
       "stopped": true
     },
     {
-      "sourceId": "gasgoo-auto",
-      "failureMs": 71316,
+      "sourceId": "autohome-news",
+      "failureMs": 28352,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "yiche-news",
-      "failureMs": 37166,
+      "failureMs": 55352,
       "skipped": 0,
       "stopped": false
     },
     {
-      "sourceId": "autohome-news",
-      "failureMs": 5812,
+      "sourceId": "gasgoo-auto",
+      "failureMs": 46027,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sina-auto",
-      "failureMs": 106517,
-      "skipped": 41,
+      "failureMs": 98162,
+      "skipped": 58,
       "stopped": true
     },
     {
       "sourceId": "chezhitong-auto",
-      "failureMs": 7249,
+      "failureMs": 6836,
+      "skipped": 0,
+      "stopped": false
+    },
+    {
+      "sourceId": "pcauto-news",
+      "failureMs": 20097,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "sohu-auto",
-      "failureMs": 97580,
+      "failureMs": 105240,
       "skipped": 492,
       "stopped": true
     },
     {
-      "sourceId": "pcauto-news",
-      "failureMs": 20434,
-      "skipped": 0,
-      "stopped": false
-    },
-    {
       "sourceId": "news18a-auto",
-      "failureMs": 98790,
-      "skipped": 1807,
+      "failureMs": 102966,
+      "skipped": 1813,
       "stopped": true
     },
     {
       "sourceId": "ithome-auto",
-      "failureMs": 1626,
+      "failureMs": 1174,
       "skipped": 0,
       "stopped": false
     },
     {
       "sourceId": "ifeng-auto",
-      "failureMs": 3586,
+      "failureMs": 1978,
       "skipped": 0,
       "stopped": false
     }
